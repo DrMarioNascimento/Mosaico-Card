@@ -1,0 +1,1110 @@
+{
+  "case": {
+    "id": "lug3-vulcoes-havai",
+    "placeId": "vulcoes-havai",
+    "title": "Parque Nacional dos Vulcões do Havaí",
+    "aliases": [
+      "Hawaii Volcanoes National Park"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "US"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional da Oceania",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional dos Vulcões do Havaí"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional Haleakalā"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional da Samoa Americana"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional Tongariro"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional Rapa Nui"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional Aoraki/Monte Cook"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional Fiordland"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional Westland Tai Poutini"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional Mount Aspiring"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional Abel Tasman"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional Kakadu"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional Uluru-Kata Tjuta"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Parque Nacional Purnululu"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Parque Nacional Kosciuszko"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Parque Nacional Cradle Mountain-Lake St Clair"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Parque Nacional Arthur's Pass"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional dos Vulcões do Havaí",
+        "sources": [
+          "HAVO_NPS_FATOS",
+          "HAVO_IUCN"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Vulcão mais alto dentro do parque",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Mauna Loa"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Ruapehu"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Haleakalā"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Taranaki"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Mauna Loa",
+        "sources": [
+          "HAVO_NPS_FATOS",
+          "HAVO_IUCN",
+          "HAVO_GOHAWAII"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Cratera que a tradição local considera morada da força criadora que aparece como lava",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Halemaʻumaʻu"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Rano Kau"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Cratera Vermelha (Red Crater)"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Te Wai-ā-moe"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Halemaʻumaʻu",
+        "sources": [
+          "HAVO_USGS_KIL"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "O que aconteceu em 2018 no cume do menor dos dois grandes vulcões do parque",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Colapso e afundamento da caldeira do cume"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Formação de um lago ácido de degelo na cratera"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Avanço de uma geleira sobre a cratera"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Lahar (corrida de lama vulcânica) que desceu até o mar"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Colapso e afundamento da caldeira do cume",
+        "sources": [
+          "HAVO_USGS_KIL",
+          "HAVO_USGS_2018",
+          "HAVO_GOHAWAII"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "vulcoes-havai-viajante-P01",
+            "factKey": "vulcoes-havai-F01",
+            "text": "Aqui a paisagem mistura campos de lava escura, floresta tropical, crateras, desertos de cinza e litoral.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_GOHAWAII"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P02",
+            "factKey": "vulcoes-havai-F02",
+            "text": "É um destino numa ilha vulcânica do meio do oceano, onde a terra ainda está se formando.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P03",
+            "factKey": "vulcoes-havai-F03",
+            "text": "Uma das estradas principais contorna a borda de uma caldeira, com mirantes e pontos onde sai vapor do chão.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "HAVO_GOHAWAII"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P04",
+            "factKey": "vulcoes-havai-F04",
+            "text": "Outra estrada desce 18,8 milhas (uns 30 km) até o fim, sem comida, água nem combustível pelo caminho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_GOHAWAII"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P05",
+            "factKey": "vulcoes-havai-F05",
+            "text": "Dá para caminhar por dentro de um tubo de lava, um túnel deixado por um antigo fluxo de lava.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_GOHAWAII"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P06",
+            "factKey": "vulcoes-havai-F06",
+            "text": "Perto da costa, o mar esculpiu um arco de pedra na lava.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_GOHAWAII"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P07",
+            "factKey": "vulcoes-havai-F07",
+            "text": "À beira de uma das estradas fica um dos maiores campos de petróglifos do arquipélago, um lugar sagrado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_NPS_LUGARES",
+              "HAVO_GOHAWAII"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P08",
+            "factKey": "vulcoes-havai-F08",
+            "text": "Ao longo de uma antiga rota de viagem há pegadas deixadas pelos antigos nativos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_NPS_LUGARES"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P09",
+            "factKey": "vulcoes-havai-F09",
+            "text": "Um hotel icônico funciona na borda da cratera principal, em diferentes versões, há mais de 150 anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_NPS_LUGARES"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P10",
+            "factKey": "vulcoes-havai-F10",
+            "text": "Na estrada, fique de olho nos gansos ameaçados que andam por ali, e não os alimente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_GOHAWAII",
+              "HAVO_NPS_FATOS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P11",
+            "factKey": "vulcoes-havai-F11",
+            "text": "No litoral do parque aparecem tartarugas-verdes, tartarugas-de-pente e até a rara foca-monge local.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P12",
+            "factKey": "vulcoes-havai-F12",
+            "text": "Perto da cratera principal a temperatura cai rápido por causa da altitude: leve um casaco.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_GOHAWAII"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P13",
+            "factKey": "vulcoes-havai-F13",
+            "text": "Use sapato firme e calça comprida: cair na lava é como cair em cacos de vidro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_GOHAWAII"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P14",
+            "factKey": "vulcoes-havai-F14",
+            "text": "Não faça trilha depois de escurecer e fique longe de rachaduras e buracos, por causa dos gases e do chão instável.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_GOHAWAII"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P15",
+            "factKey": "vulcoes-havai-F15",
+            "text": "Em 2024, o parque recebeu 1.433.593 visitantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_NPS_FATOS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P16",
+            "factKey": "vulcoes-havai-F16",
+            "text": "De Hilo até a entrada são uns 45 minutos de carro (30 milhas).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_GOHAWAII"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P17",
+            "factKey": "vulcoes-havai-F17",
+            "text": "Uma unidade separada do parque, Kahuku, fica a cerca de uma hora de carro ao sul da entrada principal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_GOHAWAII"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P18",
+            "factKey": "vulcoes-havai-F18",
+            "text": "Em 1987, tornou-se o primeiro Patrimônio Mundial do arquipélago.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_NPS_PM",
+              "HAVO_NPS_FATOS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P19",
+            "factKey": "vulcoes-havai-F19",
+            "text": "Em 2018, a lava de uma grande erupção cobriu mais de 700 construções e acrescentou 875 acres de terra nova ao litoral.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "HAVO_USGS_2018"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P20",
+            "factKey": "vulcoes-havai-F20",
+            "text": "Depois dos tremores de 2018, a cratera ativa do cume ficou com cerca do dobro do tamanho.",
+            "relatedFields": [
+              "C4",
+              "C3"
+            ],
+            "sources": [
+              "HAVO_GOHAWAII",
+              "HAVO_USGS_KIL"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P21",
+            "factKey": "vulcoes-havai-F21",
+            "text": "Desde dezembro de 2024, a cratera do cume vive uma erupção em episódios: já foram mais de 50, numa área fechada do parque.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "HAVO_USGS_KIL"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P22",
+            "factKey": "vulcoes-havai-F22",
+            "text": "Em novembro de 2022, o vulcão mais alto do parque voltou a entrar em erupção depois de 38 anos quieto.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HAVO_USGS_ML"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P23",
+            "factKey": "vulcoes-havai-F23",
+            "text": "Naquela erupção, a lava correu 19 km e parou a 2,8 km da Saddle Road, uma rodovia da ilha.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HAVO_USGS_ML"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P24",
+            "factKey": "vulcoes-havai-F24",
+            "text": "O parque fica no lado sudeste da ilha do Havaí, a Ilha Grande, e foi criado em 1º de agosto de 1916.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_NPS_FATOS"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-viajante-P25",
+            "factKey": "vulcoes-havai-F25",
+            "text": "Aqui estão o Kīlauea e o Mauna Loa, dois dos vulcões mais ativos do mundo; segundo a tradição, Pele mora na cratera do cume do Kīlauea.",
+            "relatedFields": [
+              "C1",
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "HAVO_NPS_FATOS",
+              "HAVO_USGS_KIL"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "vulcoes-havai-geografo-P01",
+            "factKey": "vulcoes-havai-F26",
+            "text": "O relevo é obra de vulcanismo em escudo, de basalto, que segue construindo a ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_USGS_KIL",
+              "HAVO_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P02",
+            "factKey": "vulcoes-havai-F27",
+            "text": "A área fica no Pacífico Norte tropical, a cerca de 19° de latitude norte, numa ilha de um arquipélago oceânico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_USGS_KIL"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P03",
+            "factKey": "vulcoes-havai-F28",
+            "text": "O parque vai do nível do mar a 4.170 m (13.681 pés), gradiente que abriga sete zonas ecológicas, da costa ao alpino.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "HAVO_NPS_FATOS",
+              "HAVO_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P04",
+            "factKey": "vulcoes-havai-F29",
+            "text": "Calderas, crateras de colapso, cones de escória, muralhas de respingos, fumarolas e solfataras mostram a variedade das formas vulcânicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_NPS_FATOS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P05",
+            "factKey": "vulcoes-havai-F30",
+            "text": "Lavas pāhoehoe e ʻaʻā convivem com moldes de árvores e praias de areia preta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_NPS_FATOS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P06",
+            "factKey": "vulcoes-havai-F31",
+            "text": "O parque abrange os cumes e as zonas de rifte dos seus dois vulcões principais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_NPS_FATOS",
+              "HAVO_NPS_PM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P07",
+            "factKey": "vulcoes-havai-F32",
+            "text": "O vulcão menor forma uma saliência no flanco sudeste do vizinho gigante.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "HAVO_USGS_KIL"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P08",
+            "factKey": "vulcoes-havai-F33",
+            "text": "De 1983 a 2018, a atividade foi quase contínua na zona de rifte leste, centrada nas bocas Puʻuʻōʻō e Kupaianaha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_USGS_KIL"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P09",
+            "factKey": "vulcoes-havai-F34",
+            "text": "Em 2018, uma intrusão de magma na zona de rifte leste inferior drenou o lago de lava do cume, e o assoalho da caldeira cedeu em 62 eventos de colapso, cada um com energia de um sismo de magnitude 5,3.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "HAVO_USGS_KIL",
+              "HAVO_USGS_2018"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P10",
+            "factKey": "vulcoes-havai-F35",
+            "text": "As 24 fissuras de 2018 cobriram 35,5 km² de lava e encerraram uma erupção de 35 anos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "HAVO_USGS_2018"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P11",
+            "factKey": "vulcoes-havai-F36",
+            "text": "Desde dezembro de 2020, erupções no cume vêm preenchendo aos poucos a depressão aberta pelo colapso.",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "HAVO_USGS_KIL"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P12",
+            "factKey": "vulcoes-havai-F37",
+            "text": "Em 2024 a atividade também saiu da caldeira, com uma erupção na zona de rifte sudoeste e intrusões e erupção na zona de rifte leste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_USGS_KIL"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P13",
+            "factKey": "vulcoes-havai-F38",
+            "text": "No episódio 56 da erupção atual, no início de novembro de 2026, saíram cerca de 6 milhões de m³ de lava, a uma média de 200 m³ por segundo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "HAVO_USGS_KIL"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P14",
+            "factKey": "vulcoes-havai-F39",
+            "text": "Em 2022, a erupção começou na caldeira Mokuʻāweoweo, no cume do vulcão maior, e se concentrou na zona de rifte nordeste.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HAVO_USGS_ML"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P15",
+            "factKey": "vulcoes-havai-F40",
+            "text": "O vulcão maior é descrito como o maior vulcão ativo emerso (subaéreo) do planeta.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HAVO_GOHAWAII"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P16",
+            "factKey": "vulcoes-havai-F41",
+            "text": "Comunidades endêmicas intactas de plantas e animais ocupam florestas nativas ao longo de um gradiente climático íngreme.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P17",
+            "factKey": "vulcoes-havai-F42",
+            "text": "O ʻōhiʻa, espécie-chave das florestas, sofre com um fungo que entope seus vasos condutores; em 2019, mais de 175 mil acres da ilha tinham sintomas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P18",
+            "factKey": "vulcoes-havai-F43",
+            "text": "Malária e varíola aviárias, transmitidas por mosquitos introduzidos, ameaçam as aves nativas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P19",
+            "factKey": "vulcoes-havai-F44",
+            "text": "Cabras e porcos ferais, carneiros-muflão, mangustos, ratos e a rã coqui estão entre as espécies invasoras que pressionam o sítio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P20",
+            "factKey": "vulcoes-havai-F45",
+            "text": "O nēnē, ganso endêmico, foi reclassificado de \"em perigo\" para \"ameaçado\" em 2019, com 3.252 aves naquele ano e 3.862 em 2022.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_IUCN",
+              "HAVO_NPS_FATOS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P21",
+            "factKey": "vulcoes-havai-F46",
+            "text": "Secas e calor crescentes, ligados à mudança do clima, aumentam a morte de árvores e o risco de incêndio, talvez a maior ameaça à biodiversidade do sítio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_IUCN"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P22",
+            "factKey": "vulcoes-havai-F47",
+            "text": "Reserva da Biosfera desde 1980, foi inscrito em 1987 pelo critério (viii), como exemplo de construção de ilhas por processos vulcânicos em curso.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_NPS_FATOS",
+              "HAVO_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P23",
+            "factKey": "vulcoes-havai-F48",
+            "text": "Um templo antigo, apontado como o primeiro de sacrifício humano no arquipélago, hoje está soterrado pela lava.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HAVO_NPS_LUGARES"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P24",
+            "factKey": "vulcoes-havai-F49",
+            "text": "Na tradição havaiana, a caldeira do cume se chama Kaluapele, e a cratera dentro dela é a casa de Pelehonuamea, a Pele da terra vermelha.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "HAVO_USGS_KIL"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "vulcoes-havai-geografo-P25",
+            "factKey": "vulcoes-havai-F50",
+            "text": "Criado em 1916 como 15º parque do sistema nacional dos EUA, protege o Kīlauea e o Mauna Loa, este com 4.170 m.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "HAVO_NPS_FATOS",
+              "HAVO_IUCN"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque nacional criado em 1916 no sudeste da ilha do Havaí (EUA), Reserva da Biosfera (1980) e Patrimônio Mundial (1987), que vai do nível do mar aos 4.170 m do Mauna Loa e protege os cumes e as zonas de rifte do Mauna Loa e do Kīlauea, cuja caldeira desabou em 2018 e cuja cratera Halemaʻumaʻu, morada de Pele na tradição havaiana, vive uma erupção em episódios desde dezembro de 2024.",
+      "editorialNotes": [
+        "A área do parque diverge: 354.461 acres no fact sheet do NPS (atualizado em 15/5/2025) e 335.259 acres no Go Hawaii; a altitude do Kīlauea também (1.222 m no USGS, 1.250 m na IUCN). Nenhuma pista cita esses números.",
+        "A página de Patrimônio Mundial do NPS está desatualizada (diz que o Mauna Loa não entra em erupção desde 1984); as pistas sobre 2022 vêm do USGS. A página do NPS sobre a erupção de 2022 (aberta, mas não usada) data o fim em 13/12/2022, enquanto o USGS dá 27/11–10/12; as pistas não citam o fim.",
+        "O número de episódios (56, no início de novembro de 2026) e o alerta vêm da página do USGS consultada em 15/11/2026 e mudam com a erupção em curso. A UNESCO (sítio 409) não foi aberta; a inscrição de 1987 e o critério (viii) vêm do NPS e da IUCN. Lugar dos EUA, mas no recorte Oceania (Polinésia), como no restante do banco."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "HAVO_NPS_FATOS": {
+      "id": "HAVO_NPS_FATOS",
+      "title": "Hawaiʻi Volcanoes National Park Fact Sheet",
+      "publisher": "National Park Service (EUA)",
+      "url": "https://www.nps.gov/havo/learn/news/hawaii-volcanoes-national-park-fact-sheet.htm",
+      "checkedAt": "2026-11-15"
+    },
+    "HAVO_NPS_PM": {
+      "id": "HAVO_NPS_PM",
+      "title": "World Heritage Site — Hawaiʻi Volcanoes National Park",
+      "publisher": "National Park Service (EUA)",
+      "url": "https://home.nps.gov/havo/learn/management/world_heritage_site.htm",
+      "checkedAt": "2026-11-15"
+    },
+    "HAVO_NPS_LUGARES": {
+      "id": "HAVO_NPS_LUGARES",
+      "title": "Places — History & Culture, Hawaiʻi Volcanoes National Park",
+      "publisher": "National Park Service (EUA)",
+      "url": "https://www.nps.gov/havo/learn/historyculture/places.htm",
+      "checkedAt": "2026-11-15"
+    },
+    "HAVO_GOHAWAII": {
+      "id": "HAVO_GOHAWAII",
+      "title": "Hawaiʻi Volcanoes National Park",
+      "publisher": "Go Hawaii (Hawaiʻi Tourism Authority)",
+      "url": "https://www.gohawaii.com/islands/hawaii-big-island/regions/kau/volcanoes-national-park",
+      "checkedAt": "2026-11-15"
+    },
+    "HAVO_USGS_KIL": {
+      "id": "HAVO_USGS_KIL",
+      "title": "Kīlauea — Volcano Summary",
+      "publisher": "U.S. Geological Survey (Hawaiian Volcano Observatory)",
+      "url": "https://www.usgs.gov/volcanoes/kilauea",
+      "checkedAt": "2026-11-15"
+    },
+    "HAVO_USGS_2018": {
+      "id": "HAVO_USGS_2018",
+      "title": "Volcano Watch — Five years post-flow: reflections on the destructive 2018 eruption of Kīlauea (4/5/2023)",
+      "publisher": "U.S. Geological Survey (Hawaiian Volcano Observatory)",
+      "url": "https://www.usgs.gov/observatories/hvo/news/volcano-watch-five-years-flow-reflections-destructive-2018-eruption-kilauea",
+      "checkedAt": "2026-11-15"
+    },
+    "HAVO_USGS_ML": {
+      "id": "HAVO_USGS_ML",
+      "title": "November 27–December 10, 2022, Eruption of Mauna Loa",
+      "publisher": "U.S. Geological Survey (Hawaiian Volcano Observatory)",
+      "url": "https://www.usgs.gov/volcanoes/mauna-loa/science/november-27-december-10-2022-eruption-mauna-loa",
+      "checkedAt": "2026-11-15"
+    },
+    "HAVO_IUCN": {
+      "id": "HAVO_IUCN",
+      "title": "Hawaii Volcanoes National Park — World Heritage Outlook (avaliação de 2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1031",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.nps.gov/havo/learn/news/hawaii-volcanoes-national-park-fact-sheet.htm",
+      "https://home.nps.gov/havo/learn/management/world_heritage_site.htm",
+      "https://www.nps.gov/havo/learn/historyculture/places.htm",
+      "https://www.gohawaii.com/islands/hawaii-big-island/regions/kau/volcanoes-national-park",
+      "https://www.usgs.gov/volcanoes/kilauea",
+      "https://www.usgs.gov/observatories/hvo/news/volcano-watch-five-years-flow-reflections-destructive-2018-eruption-kilauea",
+      "https://www.usgs.gov/volcanoes/mauna-loa/science/november-27-december-10-2022-eruption-mauna-loa",
+      "https://worldheritageoutlook.iucn.org/node/1031"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

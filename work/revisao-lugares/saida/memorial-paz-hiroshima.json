@@ -1,0 +1,1100 @@
+{
+  "case": {
+    "id": "lug3-memorial-paz-hiroshima",
+    "placeId": "memorial-paz-hiroshima",
+    "title": "Memorial da Paz de Hiroshima",
+    "aliases": [
+      "Cúpula Genbaku",
+      "Cúpula da Bomba Atômica"
+    ],
+    "answerType": "memorial",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "JP"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Monumento histórico da Ásia",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Memorial da Paz de Hiroshima"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque da Paz de Nagasaki"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Castelo de Himeji"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Cidade Proibida"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Taj Mahal"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Santuário de Itsukushima"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Templo Todai-ji"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Pavilhão Dourado (Kinkaku-ji)"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Palácio de Potala"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Palácio de Gyeongbokgung"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Mausoléu de Ho Chi Minh"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Memorial do Massacre de Nanquim"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Museu do Genocídio Tuol Sleng"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Memorial de Guerra da Coreia"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Memorial da Paz de Hiroshima",
+        "sources": [
+          "HIRO_UNESCO",
+          "HIRO_GOVJP"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Função original do edifício",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Salão de exposições para promover os produtos da província"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Estação ferroviária central da cidade"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Sede do governo municipal"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Catedral católica"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Salão de exposições para promover os produtos da província",
+        "sources": [
+          "HIRO_UNESCO",
+          "HIRO_GOVJP"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Nacionalidade do arquiteto que projetou o prédio",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Tcheca"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Alemã"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Britânica"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Japonesa"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Tcheca",
+        "sources": [
+          "HIRO_UNESCO",
+          "HIRO_GOVJP",
+          "HIRO_JPSEARCH",
+          "HIRO_RMG"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Rio em cuja margem fica o edifício",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Rio Motoyasu"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Rio Sumida"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Rio Kamo"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Rio Yodo"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Rio Motoyasu",
+        "sources": [
+          "HIRO_UNESCO",
+          "HIRO_GOVJP"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "memorial-paz-hiroshima-viajante-P01",
+            "factKey": "memorial-paz-hiroshima-F01",
+            "text": "É um prédio em ruínas, conservado de propósito, à beira de um rio no centro de uma grande cidade do Leste Asiático.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO",
+              "HIRO_GOVJP"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P02",
+            "factKey": "memorial-paz-hiroshima-F02",
+            "text": "Do prédio sobrou um esqueleto: paredes de tijolo, janelas sem vidro e a armação de uma cúpula.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_RMG",
+              "HIRO_GOVJP"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P03",
+            "factKey": "memorial-paz-hiroshima-F03",
+            "text": "O edifício foi inaugurado em abril de 1915.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_GOVJP",
+              "HIRO_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P04",
+            "factKey": "memorial-paz-hiroshima-F04",
+            "text": "Ele nasceu como um salão de exposições, feito para divulgar e vender melhor os produtos da província.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HIRO_GOVJP",
+              "HIRO_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P05",
+            "factKey": "memorial-paz-hiroshima-F05",
+            "text": "Lá dentro havia feiras, mostras de arte, consultas comerciais e oficinas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HIRO_GOVJP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P06",
+            "factKey": "memorial-paz-hiroshima-F06",
+            "text": "O projeto é de Jan Letzel, arquiteto europeu que viveu de 1880 a 1925.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "HIRO_GOVJP",
+              "HIRO_UNESCO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P07",
+            "factKey": "memorial-paz-hiroshima-F07",
+            "text": "Na cidade daquela época havia poucos prédios em estilo ocidental, e por isso ele chamava a atenção de todo mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_JPSEARCH"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P08",
+            "factKey": "memorial-paz-hiroshima-F08",
+            "text": "Tinha três andares de tijolo e um bloco central mais alto, coroado por uma cúpula oval.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO",
+              "HIRO_GOVJP"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P09",
+            "factKey": "memorial-paz-hiroshima-F09",
+            "text": "Media cerca de 25 metros de altura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO",
+              "HIRO_GOVJP"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P10",
+            "factKey": "memorial-paz-hiroshima-F10",
+            "text": "Em 1933, o prédio passou a se chamar Salão de Promoção Industrial da província.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HIRO_UNESCO",
+              "HIRO_GOVJP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P11",
+            "factKey": "memorial-paz-hiroshima-F11",
+            "text": "Na manhã de 6 de agosto de 1945, às 8h15, uma bomba atômica explodiu quase em cima dele.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO",
+              "HIRO_GOVJP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P12",
+            "factKey": "memorial-paz-hiroshima-F12",
+            "text": "Todas as pessoas que estavam lá dentro morreram.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_GOVJP",
+              "HIRO_JPSEARCH"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P13",
+            "factKey": "memorial-paz-hiroshima-F13",
+            "text": "Foi a primeira bomba atômica usada numa guerra; três dias depois, outra caiu sobre Nagasaki.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_RMG"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P14",
+            "factKey": "memorial-paz-hiroshima-F14",
+            "text": "Como a explosão veio quase de cima para baixo, as paredes grossas do centro ficaram de pé.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_GOVJP"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P15",
+            "factKey": "memorial-paz-hiroshima-F15",
+            "text": "Chegaram a prever que nada voltaria a crescer naquele lugar por 75 anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_GOVJP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P16",
+            "factKey": "memorial-paz-hiroshima-F16",
+            "text": "Parte dos moradores queria derrubar a ruína, por causa das lembranças dolorosas da guerra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_GOVJP",
+              "HIRO_JPSEARCH"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P17",
+            "factKey": "memorial-paz-hiroshima-F17",
+            "text": "Em 1966, a Câmara Municipal decidiu guardar a ruína para sempre, com doações vindas do Japão e do exterior.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO",
+              "HIRO_GOVJP",
+              "HIRO_JPSEARCH"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P18",
+            "factKey": "memorial-paz-hiroshima-F18",
+            "text": "Fica na margem leste do rio Motoyasu, e barcos de passeio passam bem em frente.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "HIRO_UNESCO",
+              "HIRO_GOVJP"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P19",
+            "factKey": "memorial-paz-hiroshima-F19",
+            "text": "Do museu da paz, aberto em 1955, dá para ver a ruína em linha reta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_GOVJP",
+              "HIRO_UNESCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P20",
+            "factKey": "memorial-paz-hiroshima-F20",
+            "text": "Em volta há um grande parque memorial, construído entre 1950 e 1964.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P21",
+            "factKey": "memorial-paz-hiroshima-F21",
+            "text": "Todo 6 de agosto, desde 1952, o parque recebe uma cerimônia em memória das vítimas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P22",
+            "factKey": "memorial-paz-hiroshima-F22",
+            "text": "Fica perto da ponte Aioi, que, segundo se conta, era o alvo da bomba.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "HIRO_JPSEARCH"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P23",
+            "factKey": "memorial-paz-hiroshima-F23",
+            "text": "Mais de 1,6 milhão de pessoas assinaram um pedido para que o lugar virasse Patrimônio Mundial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_CITY"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P24",
+            "factKey": "memorial-paz-hiroshima-F24",
+            "text": "É Patrimônio Mundial desde 1996, como símbolo da paz e da luta pelo fim das armas nucleares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO",
+              "HIRO_CITY",
+              "HIRO_JPSEARCH"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-viajante-P25",
+            "factKey": "memorial-paz-hiroshima-F25",
+            "text": "É a ruína do antigo salão de exposições que ficou de pé ao lado do ponto da primeira explosão atômica numa guerra.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "HIRO_UNESCO",
+              "HIRO_GOVJP"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "memorial-paz-hiroshima-geografo-P01",
+            "factKey": "memorial-paz-hiroshima-F26",
+            "text": "É um bem de memória de guerra, mantido em estado de ruína como testemunho, numa cidade do Leste Asiático.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P02",
+            "factKey": "memorial-paz-hiroshima-F27",
+            "text": "A área tombada é minúscula, cerca de 0,4 hectare, envolvida por uma zona de amortecimento de 42,7 hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO",
+              "HIRO_PEACEMEDIA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P03",
+            "factKey": "memorial-paz-hiroshima-F28",
+            "text": "A zona de amortecimento abrange um parque memorial e trechos de dois rios, o Motoyasu e o Honkawa, com suas margens.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "HIRO_PEACEMEDIA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P04",
+            "factKey": "memorial-paz-hiroshima-F18",
+            "text": "O prédio foi erguido em 1914–1915 na margem leste do rio Motoyasu, que atravessa o centro da cidade.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "HIRO_UNESCO",
+              "HIRO_GOVJP"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P05",
+            "factKey": "memorial-paz-hiroshima-F29",
+            "text": "Em 1910, a assembleia provincial decidiu construir um salão comercial para estimular a indústria local.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HIRO_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P06",
+            "factKey": "memorial-paz-hiroshima-F04",
+            "text": "A obra tinha função econômica: melhorar a qualidade dos produtos da província e ampliar suas vendas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HIRO_GOVJP"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P07",
+            "factKey": "memorial-paz-hiroshima-F06",
+            "text": "O projeto coube ao arquiteto tcheco Jan Letzel, numa cidade que tinha poucos edifícios de estilo ocidental.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "HIRO_UNESCO",
+              "HIRO_JPSEARCH",
+              "HIRO_GOVJP"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P08",
+            "factKey": "memorial-paz-hiroshima-F08",
+            "text": "Estrutura: tijolo com partes em concreto armado, núcleo central de cinco pavimentos e cúpula elíptica de armação de aço revestida de cobre.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO",
+              "HIRO_GOVJP"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P09",
+            "factKey": "memorial-paz-hiroshima-F30",
+            "text": "Ocupava cerca de 1.000 m², com as paredes externas revestidas de pedra e reboco de cimento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO",
+              "HIRO_GOVJP"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P10",
+            "factKey": "memorial-paz-hiroshima-F31",
+            "text": "A partir de 1944, o prédio passou a abrigar órgãos públicos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HIRO_GOVJP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P11",
+            "factKey": "memorial-paz-hiroshima-F32",
+            "text": "A bomba detonou a cerca de 600 m de altura, a pouca distância a sudeste do edifício.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_GOVJP"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P12",
+            "factKey": "memorial-paz-hiroshima-F14",
+            "text": "A onda de choque quase vertical derrubou telhado e pisos, mas poupou as paredes grossas do núcleo sob a cúpula.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO",
+              "HIRO_GOVJP"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P13",
+            "factKey": "memorial-paz-hiroshima-F33",
+            "text": "Também resistiram as fundações do núcleo central e restos do chafariz do jardim de estilo ocidental, ao sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P14",
+            "factKey": "memorial-paz-hiroshima-F34",
+            "text": "Foi a única construção que permaneceu de pé perto do hipocentro, ainda que reduzida a um esqueleto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P15",
+            "factKey": "memorial-paz-hiroshima-F19",
+            "text": "O parque memorial em volta foi implantado entre 1950 e 1964; o museu, projetado por Kenzo Tange, abriu em 1955.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO",
+              "HIRO_GOVJP"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P16",
+            "factKey": "memorial-paz-hiroshima-F16",
+            "text": "Kenzo Tange defendeu manter a ruína como símbolo contra as armas nucleares, quando parte da população pedia a demolição.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_GOVJP"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P17",
+            "factKey": "memorial-paz-hiroshima-F35",
+            "text": "Obras de 1967 e de 1989–1990 usaram resina epóxi, reforços de aço e os próprios tijolos originais para evitar o desabamento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P18",
+            "factKey": "memorial-paz-hiroshima-F36",
+            "text": "A estrutura é vistoriada a cada três anos: reboco, juntas, chapas de reforço, inclinação e afundamento do solo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P19",
+            "factKey": "memorial-paz-hiroshima-F37",
+            "text": "O governo nacional resistiu de início à candidatura: a ruína não tinha proteção legal e era considerada recente demais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_CITY"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P20",
+            "factKey": "memorial-paz-hiroshima-F38",
+            "text": "Em 1995, o país mudou os critérios de sítio histórico para incluir bens modernos, e a ruína foi tombada em junho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_CITY",
+              "HIRO_PEACEMEDIA"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P21",
+            "factKey": "memorial-paz-hiroshima-F39",
+            "text": "A inscrição saiu em dezembro de 1996, na sessão do Comitê do Patrimônio Mundial em Mérida, no México, junto com o santuário de Itsukushima.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_PEACEMEDIA",
+              "HIRO_CITY"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P22",
+            "factKey": "memorial-paz-hiroshima-F40",
+            "text": "A ICOMOS a recomendou, de forma excepcional, só pelo critério (vi): o valor está no que ela simboliza, não na arquitetura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P23",
+            "factKey": "memorial-paz-hiroshima-F41",
+            "text": "Na votação, os Estados Unidos disseram não apoiar o resultado, e a China preferiu não tomar posição.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_PEACEMEDIA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P24",
+            "factKey": "memorial-paz-hiroshima-F42",
+            "text": "Foi o segundo bem ligado à Segunda Guerra Mundial a entrar na Lista do Patrimônio Mundial, depois de Auschwitz.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIRO_PEACEMEDIA"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "memorial-paz-hiroshima-geografo-P25",
+            "factKey": "memorial-paz-hiroshima-F25",
+            "text": "É o antigo Salão de Promoção Industrial da província, ruína que testemunha o primeiro uso de uma bomba atômica numa guerra.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "HIRO_UNESCO",
+              "HIRO_GOVJP"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Ruína do antigo salão de exposições e promoção industrial da província, projetado pelo tcheco Jan Letzel e inaugurado em 1915 à margem do rio Motoyasu, que ficou de pé junto ao hipocentro da bomba atômica de 6 de agosto de 1945 e foi conservada como símbolo da paz — Patrimônio Mundial desde 1996.",
+      "editorialNotes": [
+        "Distância entre o prédio e o hipocentro: cerca de 150 m no dossiê da UNESCO e cerca de 160 m no Highlighting Japan (governo japonês); por isso nenhuma pista usa o número.",
+        "Área construída: 1.023 m² (UNESCO) ou \"cerca de 1.000 m²\" (governo japonês); a pista usa \"cerca de 1.000 m²\". Área tombada: 0,4 ha (UNESCO) ou cerca de 0,39 ha (Peace Media Center).",
+        "O número de mortos não entra nas pistas: o dossiê da UNESCO fala em cerca de 140 mil, e outras fontes dão estimativas diferentes, às vezes somando as duas cidades."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: dossiê de candidatura e avaliação da ICOMOS (UNESCO), Highlighting Japan (governo japonês), prefeitura de Hiroshima, Japan Search, Hiroshima Peace Media Center e Royal Museums Greenwich; C1 com 14 monumentos e memoriais asiáticos, incluindo o Parque da Paz de Nagasaki."
+    }
+  },
+  "sources": {
+    "HIRO_UNESCO": {
+      "id": "HIRO_UNESCO",
+      "title": "Hiroshima Peace Memorial (Genbaku Dome) — dossiê de candidatura (1995) e avaliação da ICOMOS (1996), bem nº 775",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/154242",
+      "checkedAt": "2026-11-15"
+    },
+    "HIRO_GOVJP": {
+      "id": "HIRO_GOVJP",
+      "title": "Hiroshima Peace Memorial (Genbaku Dome) — Highlighting Japan, abril de 2023",
+      "publisher": "Governo do Japão (gov-online.go.jp)",
+      "url": "https://www.gov-online.go.jp/pdf/hlj/20230401/hlj202304_14-15_Hiroshima_Peace_Memorial_Genbaku_Dome.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "HIRO_CITY": {
+      "id": "HIRO_CITY",
+      "title": "Registration on the World Heritage List",
+      "publisher": "Prefeitura de Hiroshima (City of Hiroshima)",
+      "url": "https://www.city.hiroshima.lg.jp/english/peace/1029869/1009932.html",
+      "checkedAt": "2026-11-15"
+    },
+    "HIRO_JPSEARCH": {
+      "id": "HIRO_JPSEARCH",
+      "title": "Atomic Bomb Dome (原爆ドーム)",
+      "publisher": "Japan Search (registro do banco de bens culturais da Agência de Assuntos Culturais)",
+      "url": "https://jpsearch.go.jp/en/item/cb1-2f9b931c_78cd_4f4c_90ac_f3511f5ded4a",
+      "checkedAt": "2026-11-15"
+    },
+    "HIRO_PEACEMEDIA": {
+      "id": "HIRO_PEACEMEDIA",
+      "title": "A-bomb Dome and Itsukushima Shrine are added to list of World Heritage Sites",
+      "publisher": "Hiroshima Peace Media Center",
+      "url": "https://www.hiroshimapeacemedia.jp/?p=83888",
+      "checkedAt": "2026-11-15"
+    },
+    "HIRO_RMG": {
+      "id": "HIRO_RMG",
+      "title": "The ruined dome of the Hiroshima Prefectural Industrial Promotion Hall [now the Hiroshima Peace Memorial]",
+      "publisher": "Royal Museums Greenwich",
+      "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-1256399",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/document/154242",
+      "https://www.gov-online.go.jp/pdf/hlj/20230401/hlj202304_14-15_Hiroshima_Peace_Memorial_Genbaku_Dome.pdf",
+      "https://www.city.hiroshima.lg.jp/english/peace/1029869/1009932.html",
+      "https://jpsearch.go.jp/en/item/cb1-2f9b931c_78cd_4f4c_90ac_f3511f5ded4a",
+      "https://www.hiroshimapeacemedia.jp/?p=83888",
+      "https://www.rmg.co.uk/collections/objects/rmgc-object-1256399"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

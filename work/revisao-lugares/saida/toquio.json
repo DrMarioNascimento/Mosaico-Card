@@ -1,0 +1,1090 @@
+{
+  "case": {
+    "id": "lug3-toquio",
+    "placeId": "toquio",
+    "title": "Tóquio",
+    "aliases": [
+      "Tokyo"
+    ],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "JP"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Tóquio"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Kyoto"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Osaka"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Yokohama"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Nagoya"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Sapporo"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Seul"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Pequim"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Xangai"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Taipé"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Hong Kong"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Bangkok"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Singapura"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Manila"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Hanói"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Jacarta"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Tóquio",
+        "sources": [
+          "TOQUIO_TMG",
+          "TOQUIO_BRIT"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Nome da cidade até o século XIX",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Edo"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Heian-kyō"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Naniwa"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Hanseong"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Edo",
+        "sources": [
+          "TOQUIO_BRIT",
+          "TOQUIO_TMG",
+          "TOQUIO_TMG_CRONO"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Fenômeno natural que, em 1923, destruiu a maior parte da cidade",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Terremoto"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Tufão"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Erupção vulcânica"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Cheia de rio"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Terremoto",
+        "sources": [
+          "TOQUIO_BRIT",
+          "TOQUIO_TMG_CRONO"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Planície em cuja borda a cidade nasceu",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Planície de Kantō"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Planície de Nōbi"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Planície de Ishikari"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Planície de Osaka"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Planície de Kantō",
+        "sources": [
+          "TOQUIO_BRIT_METRO",
+          "TOQUIO_TMG"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "toquio-viajante-P01",
+            "factKey": "toquio-F01",
+            "text": "É uma metrópole asiática à beira de uma baía, na costa do oceano Pacífico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_BRIT_METRO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P02",
+            "factKey": "toquio-F02",
+            "text": "No verão, o calor úmido pode passar de 38 °C, e quase todo ano algum tufão chega no outono.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_BRIT_METRO"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P03",
+            "factKey": "toquio-F03",
+            "text": "Chove mais no começo do verão e no começo do outono; o inverno é fresco, mas não muito frio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_BRIT_METRO"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P04",
+            "factKey": "toquio-F04",
+            "text": "Antes de virar capital, por séculos houve ali só uma pequena vila de pescadores.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TOQUIO_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P05",
+            "factKey": "toquio-F05",
+            "text": "A cidade fica no leste da ilha de Honshu, no fundo de uma baía.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P06",
+            "factKey": "toquio-F06",
+            "text": "Ela nasceu na entrada sul da maior planície do país.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TOQUIO_BRIT_METRO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P07",
+            "factKey": "toquio-F07",
+            "text": "Em 1590, o senhor guerreiro Tokugawa Ieyasu chegou ao lugar.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TOQUIO_TMG_CRONO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P08",
+            "factKey": "toquio-F08",
+            "text": "Em 1603, Ieyasu tornou-se xogum e instalou ali seu governo, quando a cidade ainda se chamava Edo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TOQUIO_TMG_CRONO",
+              "TOQUIO_TMG"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P09",
+            "factKey": "toquio-F09",
+            "text": "A primeira ponte Nihonbashi foi construída em 1603.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_TMG_CRONO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P10",
+            "factKey": "toquio-F10",
+            "text": "Em 1657, a cidade foi atingida pelo Grande Incêndio de Meireki.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_TMG_CRONO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P11",
+            "factKey": "toquio-F11",
+            "text": "No século XIX, já era uma das maiores cidades do mundo, com mais de 1 milhão de habitantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P12",
+            "factKey": "toquio-F12",
+            "text": "Em 1868, ganhou nome novo e tomou de Kyoto o posto de capital imperial.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TOQUIO_BRIT",
+              "TOQUIO_TMG_CRONO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P13",
+            "factKey": "toquio-F13",
+            "text": "O nome atual quer dizer “Capital do Leste”.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TOQUIO_BRIT_METRO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P14",
+            "factKey": "toquio-F14",
+            "text": "Em 1868, o castelo dos xoguns foi entregue sem derramamento de sangue.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TOQUIO_TMG_CRONO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P15",
+            "factKey": "toquio-F15",
+            "text": "O Palácio Imperial fica no centro do terreno do antigo castelo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_BRIT_METRO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P16",
+            "factKey": "toquio-F16",
+            "text": "Em 1872, a primeira ferrovia do país passou a ligar a cidade a Yokohama.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_TMG_CRONO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P17",
+            "factKey": "toquio-F17",
+            "text": "Em 1923, um grande terremoto destruiu a maior parte da cidade e matou pelo menos 100 mil pessoas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TOQUIO_BRIT",
+              "TOQUIO_TMG_CRONO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P18",
+            "factKey": "toquio-F18",
+            "text": "Em 1927, abriu ali o primeiro metrô do país, entre Ueno e Asakusa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_TMG_CRONO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P19",
+            "factKey": "toquio-F19",
+            "text": "Em 1945, bombardeios aéreos destruíram cerca de 259 mil casas e mataram cerca de 76 mil pessoas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_TMG_CRONO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P20",
+            "factKey": "toquio-F20",
+            "text": "Em 1964, a cidade sediou os Jogos Olímpicos de Verão, no mesmo ano em que o trem-bala Tokaido Shinkansen começou a circular.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_TMG_CRONO",
+              "TOQUIO_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P21",
+            "factKey": "toquio-F21",
+            "text": "O mercado atacadista central de Tsukiji abriu em 1935; em 2017, decidiu-se mudá-lo para Toyosu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_TMG_CRONO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P22",
+            "factKey": "toquio-F22",
+            "text": "Até ilhas do Pacífico a cerca de 1.000 km ao sul fazem parte do território administrado pela cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_TMG",
+              "TOQUIO_ENV_OGASAWARA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P23",
+            "factKey": "toquio-F23",
+            "text": "Essas ilhas distantes são Patrimônio Mundial desde 2011 e abrigam um morcego criticamente ameaçado, a raposa-voadora-de-bonin.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_UNESCO_OGASAWARA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P24",
+            "factKey": "toquio-F24",
+            "text": "Ginza, Shinjuku, Shibuya e Ikebukuro estão entre seus bairros mais famosos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_BRIT_METRO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-viajante-P25",
+            "factKey": "toquio-F25",
+            "text": "É a capital do Japão e a prefeitura mais populosa do país, com cerca de 14,3 milhões de habitantes em 2025.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_TMG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "toquio-geografo-P01",
+            "factKey": "toquio-F26",
+            "text": "Grande aglomeração costeira da borda ocidental do Pacífico, num país insular exposto a terremotos e tufões.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "TOQUIO_BRIT_METRO",
+              "TOQUIO_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P02",
+            "factKey": "toquio-F27",
+            "text": "O sítio urbano ocupa as margens norte e oeste de uma baía aberta para o Pacífico.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "TOQUIO_BRIT_METRO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P03",
+            "factKey": "toquio-F06",
+            "text": "O núcleo histórico ocupa uma posição estratégica: domina a entrada sul da maior planície do Japão.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TOQUIO_BRIT_METRO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P04",
+            "factKey": "toquio-F28",
+            "text": "A metrópole fica no sul da região de Kantō, aproximadamente no centro do arquipélago japonês.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TOQUIO_TMG"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P05",
+            "factKey": "toquio-F29",
+            "text": "O território é uma faixa longa e estreita de 2.199,94 km² (2025), dividida entre 23 distritos especiais, a área de Tama e ilhas do Pacífico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_TMG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P06",
+            "factKey": "toquio-F30",
+            "text": "Em 2025, os 23 distritos especiais somavam cerca de 9,9 milhões de moradores; a área de Tama, 4,3 milhões; as ilhas, só 22 mil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_TMG"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P07",
+            "factKey": "toquio-F31",
+            "text": "Com 6.488 habitantes por km² (2025), a unidade concentra cerca de 11,6% da população do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_TMG"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P08",
+            "factKey": "toquio-F32",
+            "text": "Para controlar enchentes, o xogunato desviou o curso do Tone, o segundo rio mais longo do Japão.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TOQUIO_BRIT_METRO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P09",
+            "factKey": "toquio-F33",
+            "text": "Antes de 1923, abriu-se o canal de drenagem do Arakawa para conter as cheias do rio Sumida, que corre a leste do centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_BRIT_METRO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P10",
+            "factKey": "toquio-F34",
+            "text": "Os distritos do leste, em terreno instável, foram quase todos destruídos pelo terremoto de 1923 e pelos bombardeios de 1945.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TOQUIO_BRIT_METRO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P11",
+            "factKey": "toquio-F35",
+            "text": "A Cidade Baixa comandou a cultura mercantil da era xogunal; no século XX, a Cidade Alta, de colinas, ganhou peso.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_BRIT_METRO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P12",
+            "factKey": "toquio-F15",
+            "text": "O Palácio Imperial ocupa o centro dos antigos terrenos do castelo, no limite entre a planície e as colinas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_BRIT_METRO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P13",
+            "factKey": "toquio-F08",
+            "text": "Em 1603, o xogunato Tokugawa fez da antiga vila de pescadores, então chamada Edo, o seu centro de poder.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TOQUIO_BRIT",
+              "TOQUIO_TMG"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P14",
+            "factKey": "toquio-F36",
+            "text": "Os navios do comodoro Perry chegaram a Uraga em 1853; em 1868, a Restauração Meiji pôs fim ao xogunato.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TOQUIO_TMG_CRONO",
+              "TOQUIO_TMG"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P15",
+            "factKey": "toquio-F13",
+            "text": "Com a Restauração Meiji, a sede imperial saiu de Kyoto, e a cidade recebeu o nome que significa “Capital do Leste”.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TOQUIO_BRIT_METRO",
+              "TOQUIO_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P16",
+            "factKey": "toquio-F37",
+            "text": "As ilhas Izu passaram para a prefeitura em 1878, as Ogasawara em 1880, e a área de Tama veio de Kanagawa em 1893, fechando o território atual.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_TMG_CRONO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P17",
+            "factKey": "toquio-F38",
+            "text": "Em 1932, a cidade incorporou 82 vilas e povoados vizinhos e passou a ter 35 distritos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_TMG_CRONO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P18",
+            "factKey": "toquio-F39",
+            "text": "Em 1943, prefeitura e cidade fundiram-se numa única metrópole; em 1947, os distritos foram reorganizados em 23.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_TMG_CRONO",
+              "TOQUIO_TMG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P19",
+            "factKey": "toquio-F17",
+            "text": "O terremoto de 1923 danificou cerca de 397 mil casas e deixou cerca de 100 mil mortos ou desaparecidos; a maior parte da cidade foi restaurada até 1930.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TOQUIO_TMG_CRONO",
+              "TOQUIO_BRIT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P20",
+            "factKey": "toquio-F40",
+            "text": "A população passou de 10 milhões em 1962, dois anos antes de a cidade sediar os Jogos Olímpicos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_TMG_CRONO",
+              "TOQUIO_TMG"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P21",
+            "factKey": "toquio-F41",
+            "text": "É o centro administrativo, cultural, financeiro, comercial e educacional do país, núcleo de uma área urbana que inclui Kawasaki e Yokohama.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_BRIT"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P22",
+            "factKey": "toquio-F42",
+            "text": "Reúne cerca de 150 instituições de ensino superior, entre elas uma universidade fundada em 1877 que leva o nome da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P23",
+            "factKey": "toquio-F22",
+            "text": "Seu território inclui ilhas oceânicas a uns 1.000 km ao sul, sem moradores permanentes até 1830 e com plantas vindas tanto do sudeste quanto do noroeste da Ásia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_ENV_OGASAWARA",
+              "TOQUIO_UNESCO_OGASAWARA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P24",
+            "factKey": "toquio-F24",
+            "text": "Ginza, Nihonbashi, Marunouchi e Kasumigaseki formam o núcleo comercial e de governo; Shinjuku, Shibuya e Ikebukuro são subcentros na linha circular Yamanote.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_BRIT_METRO",
+              "TOQUIO_TMG_CRONO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "toquio-geografo-P25",
+            "factKey": "toquio-F25",
+            "text": "A capital japonesa é a mais populosa das 47 prefeituras do país, com cerca de 14,27 milhões de habitantes em 2025.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TOQUIO_TMG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Capital do Japão, no leste de Honshu, no fundo de uma baía do Pacífico e na borda da planície de Kantō: a antiga Edo, sede do xogunato Tokugawa desde 1603, rebatizada em 1868, reconstruída após o terremoto de 1923 e os bombardeios de 1945, e hoje a prefeitura mais populosa do país.",
+      "editorialNotes": [
+        "População e área vêm do Governo Metropolitano (área de 2.199,94 km² em 1º/7/2025; cerca de 14,273 milhões de habitantes em 1º/10/2025). A Britannica cita 36,9 milhões (2020) para a área metropolitana Tóquio–Yokohama, número que não foi usado por se referir a outro recorte.",
+        "Mortes no terremoto de 1923: “pelo menos 100 mil” (Britannica) e “cerca de 100 mil mortos ou desaparecidos” (cronologia do Governo Metropolitano); as pistas usam as duas formulações sem número mais preciso."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: Governo Metropolitano de Tóquio (perfil e cronologia urbana), Britannica (resumo e área metropolitana), Ministério do Ambiente do Japão e UNESCO (ilhas Ogasawara); C1 com 16 cidades asiáticas comparáveis."
+    }
+  },
+  "sources": {
+    "TOQUIO_TMG": {
+      "id": "TOQUIO_TMG",
+      "title": "Tokyo: history, geography and population (overview)",
+      "publisher": "Tokyo Metropolitan Government",
+      "url": "https://www.english.metro.tokyo.lg.jp/w/000-101-007591",
+      "checkedAt": "2026-11-15"
+    },
+    "TOQUIO_TMG_CRONO": {
+      "id": "TOQUIO_TMG_CRONO",
+      "title": "Chronology of Tokyo city planning (en_nenpyou.pdf)",
+      "publisher": "Tokyo Metropolitan Government — Bureau of Urban Development",
+      "url": "https://www.toshiseibi.metro.tokyo.lg.jp/keikaku_chousa_singikai/pdf/tokyotoshizukuri/en_nenpyou.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "TOQUIO_BRIT": {
+      "id": "TOQUIO_BRIT",
+      "title": "Tokyo (summary)",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/summary/Tokyo",
+      "checkedAt": "2026-11-15"
+    },
+    "TOQUIO_BRIT_METRO": {
+      "id": "TOQUIO_BRIT_METRO",
+      "title": "Tokyo-Yokohama Metropolitan Area",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://britannica.com/place/Tokyo-Yokohama-Metropolitan-Area",
+      "checkedAt": "2026-11-15"
+    },
+    "TOQUIO_ENV_OGASAWARA": {
+      "id": "TOQUIO_ENV_OGASAWARA",
+      "title": "Ogasawara Islands — area",
+      "publisher": "Ministry of the Environment, Japan",
+      "url": "https://www.env.go.jp/nature/isan/worldheritage/en/ogasawara/area/index.html",
+      "checkedAt": "2026-11-15"
+    },
+    "TOQUIO_UNESCO_OGASAWARA": {
+      "id": "TOQUIO_UNESCO_OGASAWARA",
+      "title": "Ogasawara Islands inscribed on the World Heritage List (news, 24 June 2011)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/news/766",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.english.metro.tokyo.lg.jp/w/000-101-007591",
+      "https://www.toshiseibi.metro.tokyo.lg.jp/keikaku_chousa_singikai/pdf/tokyotoshizukuri/en_nenpyou.pdf",
+      "https://www.britannica.com/summary/Tokyo",
+      "https://britannica.com/place/Tokyo-Yokohama-Metropolitan-Area",
+      "https://www.env.go.jp/nature/isan/worldheritage/en/ogasawara/area/index.html",
+      "https://whc.unesco.org/en/news/766"
+    ],
+    "alteracoes": [
+      "criado do zero",
+      "A página de história e geografia do Governo Metropolitano (metro.tokyo.lg.jp/english/about/history/…) redirecionou para english.metro.tokyo.lg.jp/w/001-101-000054, cuja permissão foi negada; os mesmos dados foram conferidos em outra página oficial do Governo Metropolitano (w/000-101-007591)."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

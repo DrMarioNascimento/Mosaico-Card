@@ -1,0 +1,1090 @@
+{
+  "case": {
+    "id": "lug3-tropicos-umidos-queensland",
+    "placeId": "tropicos-umidos-queensland",
+    "title": "Trópicos Úmidos de Queensland",
+    "aliases": [
+      "Wet Tropics of Queensland",
+      "Floresta Daintree"
+    ],
+    "answerType": "área natural protegida",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "AU"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Área natural protegida da Oceania",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Trópicos Úmidos de Queensland"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Florestas Tropicais Gondwana da Austrália"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Área das Grandes Montanhas Azuis"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional Kakadu"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional Purnululu"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional Uluru-Kata Tjuta"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Área Selvagem da Tasmânia"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Baía Shark"
+          },
+          {
+            "id": "C1-O9",
+            "text": "K’gari"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Costa de Ningaloo"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Grupo de Ilhas Lord Howe"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Rennell Oriental"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Parque Nacional Fiordland"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Parque Nacional Tongariro"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Parque Nacional Aoraki/Monte Cook"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Trópicos Úmidos de Queensland",
+        "sources": [
+          "WT_IUCN",
+          "WT_WTMA",
+          "WT_QLDSOE"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Ponto mais alto da área",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Monte Bartle Frere"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Monte Kosciuszko"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Monte Ossa"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Monte Bogong"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Monte Bartle Frere",
+        "sources": [
+          "WT_WTMA",
+          "WT_TNQ"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Cachoeira apontada como a maior queda única da Austrália, dentro da área",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Cataratas Wallaman"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Cataratas Jim Jim"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Cataratas Wentworth"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Cataratas Ellenborough"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Cataratas Wallaman",
+        "sources": [
+          "WT_WTMA"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Povo aborígine que, em 2021, recebeu de volta o parque nacional mais famoso da área",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Kuku Yalanji Oriental"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Anangu"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Malgana"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Gija"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Kuku Yalanji Oriental",
+        "sources": [
+          "WT_QLDGOV",
+          "WT_NPR"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "tropicos-umidos-queensland-viajante-P01",
+            "factKey": "tropicos-umidos-queensland-F01",
+            "text": "A paisagem é de floresta tropical densa, cortada por rios selvagens, cachoeiras e gargantas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_IUCN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P02",
+            "factKey": "tropicos-umidos-queensland-F02",
+            "text": "A área se estende ao longo da costa nordeste da Austrália.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_IUCN"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P03",
+            "factKey": "tropicos-umidos-queensland-F03",
+            "text": "Em alguns trechos, a floresta desce até praias de areia branca, com recifes de coral bem perto da costa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_IUCN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P04",
+            "factKey": "tropicos-umidos-queensland-F04",
+            "text": "O casuar, uma das maiores aves do mundo, que não voa, é um dos animais-símbolo daqui.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P05",
+            "factKey": "tropicos-umidos-queensland-F05",
+            "text": "Duas espécies de canguru que vivem em árvores são destaque da fauna e só existem nesta região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_TNQ",
+              "WT_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P06",
+            "factKey": "tropicos-umidos-queensland-F06",
+            "text": "Mais da metade das espécies de borboletas da Austrália voa nestas matas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_IUCN",
+              "WT_WTMA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P07",
+            "factKey": "tropicos-umidos-queensland-F07",
+            "text": "Chove muito: um dos picos daqui é reconhecido como o lugar mais chuvoso da Austrália.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_WTMA"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P08",
+            "factKey": "tropicos-umidos-queensland-F08",
+            "text": "Ciclones fortes fazem parte da vida local; um dos mais recentes, o Jasper, passou em dezembro de 2023.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_WTMA",
+              "WT_IUCN"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P09",
+            "factKey": "tropicos-umidos-queensland-F09",
+            "text": "O pico mais alto tem 1.622 m.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "WT_WTMA",
+              "WT_TNQ"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P10",
+            "factKey": "tropicos-umidos-queensland-F10",
+            "text": "As duas montanhas mais altas do estado ficam aqui, ao sul de Cairns.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "WT_WTMA",
+              "WT_TNQ"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P11",
+            "factKey": "tropicos-umidos-queensland-F11",
+            "text": "Uma das cachoeiras despenca 305 m e é tida como a maior queda única do país.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WT_WTMA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P12",
+            "factKey": "tropicos-umidos-queensland-F12",
+            "text": "Barron, Tully, Murray e Roaring Meg estão entre as quedas-d’água conhecidas da região.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "WT_WTMA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P13",
+            "factKey": "tropicos-umidos-queensland-F13",
+            "text": "Dois lagos de cratera vizinhos, cercados de floresta, têm cerca de 65 m de profundidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_TNQ"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P14",
+            "factKey": "tropicos-umidos-queensland-F14",
+            "text": "Mais de 20 grupos aborígines da floresta tropical mantêm laços com estas terras.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "WT_IUCN",
+              "WT_WTMA",
+              "WT_QLDSOE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P15",
+            "factKey": "tropicos-umidos-queensland-F15",
+            "text": "Djabugay, Girramay, Jirrbal e Yidinji estão entre os grupos aborígines ligados a esta floresta.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "WT_WTMA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P16",
+            "factKey": "tropicos-umidos-queensland-F16",
+            "text": "Em 2021, o governo estadual devolveu a um povo aborígine mais de 160 mil hectares, entre eles o parque nacional mais famoso desta floresta.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "WT_QLDGOV",
+              "WT_NPR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P17",
+            "factKey": "tropicos-umidos-queensland-F17",
+            "text": "Desde 2021, o povo Kuku Yalanji Oriental é dono do parque nacional mais famoso desta floresta e divide a gestão com o governo estadual.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "WT_QLDGOV",
+              "WT_NPR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P18",
+            "factKey": "tropicos-umidos-queensland-F18",
+            "text": "Entrou na lista do Patrimônio Mundial da UNESCO em 1988.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_IUCN",
+              "WT_QLDSOE"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P19",
+            "factKey": "tropicos-umidos-queensland-F19",
+            "text": "Quando a área virou Patrimônio Mundial, em 1988, a cidade de Ravenshoe, que vivia da extração de madeira, ficou dividida.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_TNQ"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P20",
+            "factKey": "tropicos-umidos-queensland-F20",
+            "text": "Um passeio conhecido é a Caminhada do Tempo do Sonho (Dreamtime Walk), na Garganta de Mossman.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_TNQ"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P21",
+            "factKey": "tropicos-umidos-queensland-F21",
+            "text": "Entre os passeios estão as passarelas Mamu Tropical Skywalk e Jindalba Boardwalk.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_TNQ"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P22",
+            "factKey": "tropicos-umidos-queensland-F22",
+            "text": "Cerca de cinco milhões de visitantes passam por aqui a cada ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_WTMA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P23",
+            "factKey": "tropicos-umidos-queensland-F23",
+            "text": "Há uma árvore tão rara que restam só cerca de 400 indivíduos dela.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P24",
+            "factKey": "tropicos-umidos-queensland-F24",
+            "text": "A maior parte da área é hoje parque nacional, e dezenas de parques nacionais têm terras dentro dela.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_WTMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-viajante-P25",
+            "factKey": "tropicos-umidos-queensland-F25",
+            "text": "Porcos selvagens e formigas invasoras estão entre as ameaças à floresta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "tropicos-umidos-queensland-geografo-P01",
+            "factKey": "tropicos-umidos-queensland-F26",
+            "text": "É um bem natural que cumpre os quatro critérios naturais do Patrimônio Mundial: beleza cênica, história da Terra, processos ecológicos e biodiversidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_IUCN",
+              "WT_QLDSOE"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P02",
+            "factKey": "tropicos-umidos-queensland-F27",
+            "text": "Ocupa uma fração mínima do território australiano, mas reúne cerca de 30% das espécies de marsupiais do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_IUCN",
+              "WT_WTMA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P03",
+            "factKey": "tropicos-umidos-queensland-F28",
+            "text": "É a maior porção da região australásica em que a floresta tropical persistiu de forma contínua desde a época de Gondwana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P04",
+            "factKey": "tropicos-umidos-queensland-F29",
+            "text": "Guarda relíquias da floresta de Gondwana que cobria a Austrália entre 50 e 100 milhões de anos atrás.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_QLDSOE"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P05",
+            "factKey": "tropicos-umidos-queensland-F30",
+            "text": "Das 28 linhagens de plantas com flores primitivas do mundo, 16 crescem aqui.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_WTMA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P06",
+            "factKey": "tropicos-umidos-queensland-F31",
+            "text": "A flora é um registro vivo da evolução das plantas terrestres, das pteridófitas às cicadáceas, coníferas e plantas com flores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P07",
+            "factKey": "tropicos-umidos-queensland-F32",
+            "text": "Os marsupiais australianos surgiram em ecossistemas de floresta tropical, e seus parentes vivos mais próximos estão aqui.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_QLDSOE"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P08",
+            "factKey": "tropicos-umidos-queensland-F33",
+            "text": "Nas margens ocidentais, mais secas, florestas altas e abertas fazem a transição da floresta tropical para a floresta esclerófila.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_IUCN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P09",
+            "factKey": "tropicos-umidos-queensland-F34",
+            "text": "Cerca de 700 espécies de plantas vasculares da área não existem em nenhum outro lugar do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_WTMA",
+              "WT_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P10",
+            "factKey": "tropicos-umidos-queensland-F35",
+            "text": "A maioria das bacias drena para leste, rumo ao Mar de Coral; o rio Mitchell é a exceção e corre para oeste, até o Golfo de Carpentária.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_WTMA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P11",
+            "factKey": "tropicos-umidos-queensland-F07",
+            "text": "Um dos picos tem média de 8.140 mm de chuva por ano em 38 anos de registros; em 2000, chegou a 12.461 mm.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_WTMA"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P12",
+            "factKey": "tropicos-umidos-queensland-F11",
+            "text": "A maior das quedas-d’água, as Cataratas Wallaman, tem 305 m de queda única, a mais longa do país.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WT_WTMA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P13",
+            "factKey": "tropicos-umidos-queensland-F09",
+            "text": "O ponto culminante é o pico sul do Monte Bartle Frere, com 1.622 m, a montanha mais alta do estado.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "WT_WTMA",
+              "WT_TNQ"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P14",
+            "factKey": "tropicos-umidos-queensland-F36",
+            "text": "O bem é formado por 14 seções separadas, com perímetro total de cerca de 3.000 km.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_WTMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P15",
+            "factKey": "tropicos-umidos-queensland-F37",
+            "text": "Na inscrição, em 1988, só cerca de 14% da área eram protegidos; hoje, as áreas protegidas cobrem a grande maioria dela.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_WTMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P16",
+            "factKey": "tropicos-umidos-queensland-F38",
+            "text": "É gerido por uma autoridade criada por uma lei de 1993 e financiada pelos governos federal e estadual.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P17",
+            "factKey": "tropicos-umidos-queensland-F39",
+            "text": "A mudança climática é apontada como a maior ameaça ao valor universal excepcional do bem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P18",
+            "factKey": "tropicos-umidos-queensland-F40",
+            "text": "Desde a inscrição, a população da raposa-voadora-de-óculos caiu para menos de 10% do que era.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P19",
+            "factKey": "tropicos-umidos-queensland-F41",
+            "text": "As práticas de manejo do fogo dos aborígines da floresta tropical estão na Lista do Patrimônio Nacional australiano.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "WT_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P20",
+            "factKey": "tropicos-umidos-queensland-F42",
+            "text": "Faz parte do hotspot global de biodiversidade \"Florestas do Leste da Austrália\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_QLDSOE"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P21",
+            "factKey": "tropicos-umidos-queensland-F43",
+            "text": "Em 2013, foi classificado como o segundo bem natural mais insubstituível do Patrimônio Mundial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P22",
+            "factKey": "tropicos-umidos-queensland-F44",
+            "text": "Os primeiros parques nacionais da área surgiram em 1921, 1932 e 1934; o de 1932 protege uma ilha, Hinchinbrook.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_WTMA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P23",
+            "factKey": "tropicos-umidos-queensland-F13",
+            "text": "Os lagos Barrine e Eacham são crateras gêmeas formadas pela ação de água subterrânea superaquecida.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_TNQ",
+              "WT_WTMA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P24",
+            "factKey": "tropicos-umidos-queensland-F45",
+            "text": "A área se estende pela faixa costeira entre Cooktown, ao norte, e Townsville, ao sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WT_WTMA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tropicos-umidos-queensland-geografo-P25",
+            "factKey": "tropicos-umidos-queensland-F17",
+            "text": "Em 2021, mais de 160 mil hectares no Cabo York, incluindo o parque nacional mais famoso da área, voltaram ao povo Kuku Yalanji Oriental, em gestão compartilhada com o governo estadual.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "WT_QLDGOV",
+              "WT_NPR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Bem natural do Patrimônio Mundial (1988) no nordeste da Austrália, entre Cooktown e Townsville, com floresta tropical contínua desde Gondwana, o Monte Bartle Frere (1.622 m), as Cataratas Wallaman (305 m) e o Parque Nacional Daintree, devolvido em 2021 ao povo Kuku Yalanji Oriental.",
+      "editorialNotes": [
+        "Comprimento e área divergem entre as fontes (cerca de 420 km e 894.516 ha no Wet Tropics Management Authority; cerca de 450 km no IUCN World Heritage Outlook; 894.420 ha no relatório estadual de Queensland); por isso nenhuma pista cita esses números. Também divergem a parcela de parque nacional (85,76% no WTMA; 79% no Tourism Tropical North Queensland) e a altitude do Bellenden Ker (1.593 m x 1.592 m), que ficaram de fora.",
+        "O Parque Nacional Daintree fica dentro do bem, por isso não entra no C1. Os mais de 160 mil hectares devolvidos em 2021 somam quatro parques nacionais do Cabo York; as pistas só afirmam que o Daintree, parte do bem, está entre eles. A idade de cerca de 130 milhões de anos atribuída à floresta do Daintree (NPR) não foi usada.",
+        "Fatos de fauna (cangurus arborícolas, lagos de cratera, Ravenshoe, passarelas) vêm do órgão regional de turismo (Tourism Tropical North Queensland); afirmações dele sem confirmação ou de tom promocional não foram usadas."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "WT_IUCN": {
+      "id": "WT_IUCN",
+      "title": "Wet Tropics of Queensland (Conservation Outlook Assessment)",
+      "publisher": "IUCN World Heritage Outlook (União Internacional para a Conservação da Natureza)",
+      "url": "https://worldheritageoutlook.iucn.org/node/1026",
+      "checkedAt": "2026-11-15"
+    },
+    "WT_QLDSOE": {
+      "id": "WT_QLDSOE",
+      "title": "Wet Tropics of Queensland World Heritage natural criteria",
+      "publisher": "Governo de Queensland — State of the Environment Report",
+      "url": "https://www.stateoftheenvironment.des.qld.gov.au/heritage/world/wet-tropics-of-queensland-world-heritage-natural-criteria",
+      "checkedAt": "2026-11-15"
+    },
+    "WT_WTMA": {
+      "id": "WT_WTMA",
+      "title": "World Heritage Area - facts and figures",
+      "publisher": "Wet Tropics Management Authority (órgão gestor do bem)",
+      "url": "https://www.wettropics.gov.au/world-heritage-area-facts-and-figures.html",
+      "checkedAt": "2026-11-15"
+    },
+    "WT_TNQ": {
+      "id": "WT_TNQ",
+      "title": "10 facts about the Wet Tropics rainforest",
+      "publisher": "Tourism Tropical North Queensland (órgão regional de turismo)",
+      "url": "https://tropicalnorthqueensland.org.au/articles/10-facts-about-wet-tropics-rainforest/",
+      "checkedAt": "2026-11-15"
+    },
+    "WT_QLDGOV": {
+      "id": "WT_QLDGOV",
+      "title": "160,000 hectares returned on path to reconciliation",
+      "publisher": "Governo de Queensland — Ministerial Media Statements (29/09/2021)",
+      "url": "https://statements.qld.gov.au/statements/93360",
+      "checkedAt": "2026-11-15"
+    },
+    "WT_NPR": {
+      "id": "WT_NPR",
+      "title": "A historic rainforest and other lands have been returned to Indigenous Australians",
+      "publisher": "NPR (05/10/2021)",
+      "url": "https://www.npr.org/2021/10/05/1043256101/indigenous-australians-get-land-back-queensland",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://worldheritageoutlook.iucn.org/node/1026",
+      "https://www.stateoftheenvironment.des.qld.gov.au/heritage/world/wet-tropics-of-queensland-world-heritage-natural-criteria",
+      "https://www.wettropics.gov.au/world-heritage-area-facts-and-figures.html",
+      "https://tropicalnorthqueensland.org.au/articles/10-facts-about-wet-tropics-rainforest/",
+      "https://statements.qld.gov.au/statements/93360",
+      "https://www.npr.org/2021/10/05/1043256101/indigenous-australians-get-land-back-queensland"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

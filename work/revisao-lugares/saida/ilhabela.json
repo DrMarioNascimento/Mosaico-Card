@@ -1,0 +1,1131 @@
+{
+  "case": {
+    "id": "lug3-ilhabela",
+    "placeId": "ilhabela",
+    "title": "Ilhabela",
+    "aliases": [
+      "Ilha de São Sebastião"
+    ],
+    "answerType": "município arquipélago",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sudeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Destino insular do litoral brasileiro",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Ilhabela"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Ilha Grande"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Ilha do Mel"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Fernando de Noronha"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Ilha Comprida"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Ilha do Cardoso"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Ilha Anchieta"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Ilha de Itaparica"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Ilha de Boipeba"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Ilha de Itamaracá"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Ilha de Tinharé"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Florianópolis"
+          },
+          {
+            "id": "C1-O13",
+            "text": "São Francisco do Sul"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Ilha do Superagui"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Arquipélago do Marajó"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Ilhabela",
+        "sources": [
+          "ILHABELA_IBGE",
+          "ILHABELA_SEMIL_40ANOS",
+          "ILHABELA_SEMIL_CABRAS"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Apelido ligado aos esportes náuticos",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Capital da vela"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Capital do surfe"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Capital do remo"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Capital do kitesurfe"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Capital da vela",
+        "sources": [
+          "ILHABELA_ALESP_VELA",
+          "ILHABELA_VISITESP",
+          "ILHABELA_CORREIO"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Nome que o município teve imediatamente antes do atual",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Formosa"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Bela Vista"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Maravilha"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Itaguaçu"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Formosa",
+        "sources": [
+          "ILHABELA_IBGE",
+          "ILHABELA_ALESP_VELA",
+          "ILHABELA_VISITESP"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Parcela aproximada do território municipal dentro de um parque estadual",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Cerca de 85%"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Cerca de 50%"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Cerca de 30%"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Cerca de 10%"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Cerca de 85%",
+        "sources": [
+          "ILHABELA_SEMIL_CABRAS",
+          "ILHABELA_ALESP_PARQUE",
+          "ILHABELA_WIKI"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "ilhabela-viajante-P01",
+            "factKey": "ilhabela-F01",
+            "text": "É um destino de ilhas no litoral do Sudeste, coberto de Mata Atlântica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_SEMIL_CABRAS",
+              "ILHABELA_ALESP_PARQUE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P02",
+            "factKey": "ilhabela-F02",
+            "text": "A ligação com o continente é feita por balsa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_CORREIO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P03",
+            "factKey": "ilhabela-F03",
+            "text": "São mais de 40 praias, e algumas só se alcançam por trilha ou de barco.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_CORREIO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P04",
+            "factKey": "ilhabela-F04",
+            "text": "Uma das praias mais famosas, com 2 km de areia branca, é alcançada por trilha ou de barco.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_CORREIO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P05",
+            "factKey": "ilhabela-F05",
+            "text": "Uma vila caiçara tradicional fica no fim de uma trilha de 12 km, também alcançada de barco.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_CORREIO",
+              "ILHABELA_WIKI"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P06",
+            "factKey": "ilhabela-F06",
+            "text": "Há centenas de cachoeiras e piscinas naturais no meio da mata.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_VISITESP",
+              "ILHABELA_ALESP_VELA",
+              "ILHABELA_WIKI"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P07",
+            "factKey": "ilhabela-F07",
+            "text": "A trilha da Água Branca, de pouco mais de 2 km, leva a várias cachoeiras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_WIKI"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P08",
+            "factKey": "ilhabela-F08",
+            "text": "Os borrachudos, mosquitinhos que picam, aparecem por aqui e são vistos como sinal de ambiente bem conservado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_ALESP_PARQUE"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P09",
+            "factKey": "ilhabela-F09",
+            "text": "A ilha principal é montanhosa e coberta de floresta; o pico mais alto passa dos 1.300 metros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_VISITESP",
+              "ILHABELA_WIKI"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P10",
+            "factKey": "ilhabela-F10",
+            "text": "Os ventos e o mar do canal que separa a ilha principal do continente atraem velejadores.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ILHABELA_ALESP_VELA",
+              "ILHABELA_CORREIO"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P11",
+            "factKey": "ilhabela-F11",
+            "text": "Competições náuticas internacionais acontecem aqui desde os anos 1970.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ILHABELA_CORREIO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P12",
+            "factKey": "ilhabela-F12",
+            "text": "Dezenas de barcos e navios afundados ao longo da costa fazem a alegria de quem mergulha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_ALESP_VELA",
+              "ILHABELA_CORREIO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P13",
+            "factKey": "ilhabela-F13",
+            "text": "Um pequeno ilhote abriga um santuário ecológico submarino, protegido da caça e da pesca submarina desde 1992.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_VISITESP"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P14",
+            "factKey": "ilhabela-F14",
+            "text": "Em setembro tem torneio de pesca de anchova; de novembro a fevereiro, campeonatos de pesca oceânica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_ALESP_VELA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P15",
+            "factKey": "ilhabela-F15",
+            "text": "Na mata vivem macacos-prego, caxinguelês, tucanos e jacutingas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_SEMIL_CABRAS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P16",
+            "factKey": "ilhabela-F16",
+            "text": "Um ratinho peludo da restinga, o cururuá, só existe aqui.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_ALESP_VELA",
+              "ILHABELA_WIKI"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P17",
+            "factKey": "ilhabela-F17",
+            "text": "As árvores da floresta chegam a 20 ou 30 metros, carregadas de bromélias e orquídeas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_ALESP_VELA",
+              "ILHABELA_WIKI"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P18",
+            "factKey": "ilhabela-F18",
+            "text": "Quase todo o município fica dentro de um parque estadual: cerca de 85% do território.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ILHABELA_SEMIL_CABRAS",
+              "ILHABELA_ALESP_PARQUE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P19",
+            "factKey": "ilhabela-F19",
+            "text": "Esse parque estadual foi criado em 1977 e faz aniversário em 20 de janeiro.",
+            "relatedFields": [
+              "C4",
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_SEMIL_40ANOS",
+              "ILHABELA_ALESP_PARQUE"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P20",
+            "factKey": "ilhabela-F20",
+            "text": "Comunidades caiçaras vivem da pesca e do artesanato e mantêm festas tradicionais como a congada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_WIKI",
+              "ILHABELA_SEMIL_40ANOS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P21",
+            "factKey": "ilhabela-F21",
+            "text": "No centro histórico, a Vila, fica a igreja azul e branca de Nossa Senhora da Ajuda e Bom Sucesso.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_VISITESP",
+              "ILHABELA_IBGE"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P22",
+            "factKey": "ilhabela-F22",
+            "text": "No passado, a cana e a produção de açúcar movimentaram a ilha, com trabalho de pessoas escravizadas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_ALESP_VELA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P23",
+            "factKey": "ilhabela-F23",
+            "text": "No século XX, o município passou alguns anos com o nome de Formosa.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ILHABELA_IBGE",
+              "ILHABELA_ALESP_VELA",
+              "ILHABELA_VISITESP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P24",
+            "factKey": "ilhabela-F24",
+            "text": "A semana de vela daqui é apontada como a mais importante da América Latina.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ILHABELA_ALESP_VELA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-viajante-P25",
+            "factKey": "ilhabela-F25",
+            "text": "A ilha principal ganhou o nome do santo do dia em que foi identificada: 20 de janeiro de 1502.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_IBGE",
+              "ILHABELA_ALESP_VELA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "ilhabela-geografo-P01",
+            "factKey": "ilhabela-F26",
+            "text": "É um município insular: reúne uma ilha maior, outras ilhas menores, ilhotes e lajes na costa do Sudeste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_IBGE",
+              "ILHABELA_SEMIL_40ANOS",
+              "ILHABELA_SEMIL_CABRAS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P02",
+            "factKey": "ilhabela-F27",
+            "text": "Uma unidade de conservação de proteção integral, com cerca de 27 mil hectares, ocupa a maior parte do território.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ILHABELA_SEMIL_CABRAS",
+              "ILHABELA_ALESP_PARQUE",
+              "ILHABELA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P03",
+            "factKey": "ilhabela-F18",
+            "text": "O parque estadual cobre cerca de 85% do município e abrange 12 ilhas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ILHABELA_ALESP_PARQUE",
+              "ILHABELA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P04",
+            "factKey": "ilhabela-F28",
+            "text": "Segundo a SOS Mata Atlântica, é o município paulista com maior proporção de vegetação remanescente do bioma: 85,32%.",
+            "relatedFields": [
+              "C4",
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_ALESP_PARQUE"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P05",
+            "factKey": "ilhabela-F29",
+            "text": "As montanhas interceptam o ar úmido vindo do mar, o que produz clima tropical úmido e chuvas abundantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_WIKI"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P06",
+            "factKey": "ilhabela-F09",
+            "text": "O ponto culminante, com 1.379 m, está entre os picos mais altos de todo o litoral paulista.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_VISITESP",
+              "ILHABELA_WIKI"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P07",
+            "factKey": "ilhabela-F30",
+            "text": "A drenagem é densa: milhares de córregos e centenas de quedas-d'água descem das encostas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_WIKI",
+              "ILHABELA_VISITESP"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P08",
+            "factKey": "ilhabela-F31",
+            "text": "Muitas nascentes ficam dentro do parque, sobretudo na porção sul da ilha principal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_ALESP_PARQUE"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P09",
+            "factKey": "ilhabela-F32",
+            "text": "Na ilha principal, o limite do parque começa na cota de 200 m ao longo do canal e desce a 100 m num trecho entre duas pontas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ILHABELA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P10",
+            "factKey": "ilhabela-F33",
+            "text": "Mata Atlântica, restinga e manguezal formam os ecossistemas protegidos, numa versão insular do bioma.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_SEMIL_CABRAS",
+              "ILHABELA_SEMIL_40ANOS",
+              "ILHABELA_WIKI"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P11",
+            "factKey": "ilhabela-F16",
+            "text": "Um roedor arborícola da restinga, Phyllomys thomasi, é endêmico do arquipélago.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_WIKI",
+              "ILHABELA_ALESP_VELA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P12",
+            "factKey": "ilhabela-F34",
+            "text": "O parque registra mais de 320 espécies de aves, 51 de mamíferos, 44 de répteis e 41 de anfíbios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_SEMIL_40ANOS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P13",
+            "factKey": "ilhabela-F35",
+            "text": "O arquipélago serve de refúgio a aves migratórias e é reconhecido como Área Importante para Aves.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_SEMIL_40ANOS",
+              "ILHABELA_ALESP_VELA",
+              "ILHABELA_WIKI"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P14",
+            "factKey": "ilhabela-F36",
+            "text": "O parque é núcleo da Reserva da Biosfera da Mata Atlântica e teve o plano de manejo publicado em 2016.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_SEMIL_40ANOS"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P15",
+            "factKey": "ilhabela-F37",
+            "text": "Desde 2004, um conselho consultivo reúne poder público, sociedade civil e comunidades caiçaras na gestão do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_WIKI"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P16",
+            "factKey": "ilhabela-F10",
+            "text": "O regime de ventos e correntes do canal entre a ilha principal e o continente cria condições ideais para regatas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ILHABELA_ALESP_VELA",
+              "ILHABELA_CORREIO",
+              "ILHABELA_VISITESP"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P17",
+            "factKey": "ilhabela-F12",
+            "text": "A costa sul, com dezenas de cascos afundados, tornou-se um polo de mergulho em naufrágios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_ALESP_VELA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P18",
+            "factKey": "ilhabela-F38",
+            "text": "Um ilhote ocupado com casa de veraneio, garagem de jet-ski e praia artificial passou ao parque após um processo judicial iniciado em 1991.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_SEMIL_CABRAS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P19",
+            "factKey": "ilhabela-F39",
+            "text": "Pesquisas arqueológicas acharam 14 sítios pré-coloniais; 13 teriam sido ocupados desde cerca de 500 a.C. por pescadores e coletores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_ALESP_VELA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P20",
+            "factKey": "ilhabela-F40",
+            "text": "Os indígenas chamavam a ilha principal de Maembipe.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_ALESP_VELA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P21",
+            "factKey": "ilhabela-F41",
+            "text": "A ilha ficou cerca de cem anos sem colonos; os primeiros vieram de Santos em 1608, com terras concedidas pela capitania de São Vicente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_IBGE",
+              "ILHABELA_ALESP_VELA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P22",
+            "factKey": "ilhabela-F42",
+            "text": "No início do século XIX, as ilhas se separaram da vila vizinha do continente e viraram uma vila própria, batizada em homenagem a uma princesa.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "ILHABELA_IBGE",
+              "ILHABELA_ALESP_VELA",
+              "ILHABELA_VISITESP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P23",
+            "factKey": "ilhabela-F43",
+            "text": "Em 1934, perdeu a autonomia e voltou a ser distrito do município vizinho, recuperando-a no mesmo ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_IBGE",
+              "ILHABELA_VISITESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P24",
+            "factKey": "ilhabela-F23",
+            "text": "O topônimo atual chegou nos anos 1940, depois de uma breve fase como Formosa; antes disso a sede se chamava Vila Bela.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ILHABELA_IBGE",
+              "ILHABELA_ALESP_VELA",
+              "ILHABELA_VISITESP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhabela-geografo-P25",
+            "factKey": "ilhabela-F25",
+            "text": "A expedição de 1502 deu à ilha principal o nome do santo do dia, o mesmo que batiza a vila do continente da qual o município se desmembrou.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHABELA_IBGE",
+              "ILHABELA_ALESP_VELA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Município-arquipélago do litoral norte paulista, com sede na ilha de São Sebastião, cerca de 85% do território no Parque Estadual de Ilhabela (1977), picos de até 1.379 m, centenas de cachoeiras, comunidades caiçaras, naufrágios e fama de capital da vela; foi Vila Bela da Princesa no início do século XIX e Formosa antes do nome atual.",
+      "editorialNotes": [
+        "Datas divergentes: elevação a vila em 1805, instalada em 1806 (IBGE), ou emancipação em 1808 (Alesp); nome Formosa em 1938 (IBGE) ou por volta de 1940 (Alesp, Visite São Paulo); nome atual em 1944 (IBGE) ou 1945 (Alesp). As pistas não usam esses anos.",
+        "Números divergentes deixados fora: área preservada de 83% (Correio Braziliense) contra cerca de 85% (SEMIL, Alesp, Wikipedia); 360 cachoeiras (Visite São Paulo, Correio) ou mais de 250 (Wikipedia); Morro do Papagaio com 1.307 m ou 1.037 m; Baepi com 1.025 m ou 1.048 m; 200 ou 210 km da capital; número de ilhotes e lajes do parque varia entre SEMIL (2017) e Alesp. População do Censo não entrou (IBGE Cidades não aberto).",
+        "Diferença em relação a Ilha Grande, Ilha Anchieta e Ubatuba: litoral paulista, município inteiro formado pelo arquipélago, ponto culminante de 1.379 m, capital da vela, nomes Vila Bela da Princesa e Formosa."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes: IBGE (histórico), Alesp (duas matérias), SEMIL (duas notícias do Parque Estadual), Visite São Paulo, Wikipedia e Correio Braziliense; números divergentes ficaram fora das pistas"
+    }
+  },
+  "sources": {
+    "ILHABELA_IBGE": {
+      "id": "ILHABELA_IBGE",
+      "title": "Ilhabela (SP): histórico e formação administrativa",
+      "publisher": "IBGE",
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/saopaulo/ilhabela.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "ILHABELA_ALESP_PARQUE": {
+      "id": "ILHABELA_ALESP_PARQUE",
+      "title": "Parque abriga maior parte da Mata Atlântica remanescente em Ilhabela e impulsiona turismo ecológico",
+      "publisher": "Assembleia Legislativa do Estado de São Paulo (Alesp)",
+      "url": "https://www.al.sp.gov.br/noticia/?id=513246",
+      "checkedAt": "2026-11-15"
+    },
+    "ILHABELA_ALESP_VELA": {
+      "id": "ILHABELA_ALESP_VELA",
+      "title": "Ilhabela, a capital da vela",
+      "publisher": "Assembleia Legislativa do Estado de São Paulo (Alesp)",
+      "url": "https://www.al.sp.gov.br/noticia/?id=279865",
+      "checkedAt": "2026-11-15"
+    },
+    "ILHABELA_SEMIL_40ANOS": {
+      "id": "ILHABELA_SEMIL_40ANOS",
+      "title": "Parque Estadual Ilhabela comemora 40 anos no próximo dia 20",
+      "publisher": "Secretaria de Meio Ambiente, Infraestrutura e Logística de São Paulo (SEMIL)",
+      "url": "https://semil.sp.gov.br/?p=65606",
+      "checkedAt": "2026-11-15"
+    },
+    "ILHABELA_SEMIL_CABRAS": {
+      "id": "ILHABELA_SEMIL_CABRAS",
+      "title": "Governo de São Paulo inicia processo de recuperação da Ilha das Cabras, no litoral Norte",
+      "publisher": "Secretaria de Meio Ambiente, Infraestrutura e Logística de São Paulo (SEMIL)",
+      "url": "https://semil.sp.gov.br/?p=101939",
+      "checkedAt": "2026-11-15"
+    },
+    "ILHABELA_VISITESP": {
+      "id": "ILHABELA_VISITESP",
+      "title": "Ilhabela: confira a história e curiosidades desse paraíso",
+      "publisher": "Visite São Paulo",
+      "url": "https://visitesaopaulo.com/ilhabela-confira-a-historia-e-curiosidades-desse-paraiso/",
+      "checkedAt": "2026-11-15"
+    },
+    "ILHABELA_WIKI": {
+      "id": "ILHABELA_WIKI",
+      "title": "Ilhabela State Park",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ilhabela_State_Park",
+      "checkedAt": "2026-11-15"
+    },
+    "ILHABELA_CORREIO": {
+      "id": "ILHABELA_CORREIO",
+      "title": "O paraíso ecológico com 83% de área preservada encanta com natureza",
+      "publisher": "Correio Braziliense",
+      "url": "https://www.correiobraziliense.com.br/cbradar/o-paraiso-ecologico-com-83-de-area-preservada-encanta-com-natureza/",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://biblioteca.ibge.gov.br/visualizacao/dtb/saopaulo/ilhabela.pdf",
+      "https://www.al.sp.gov.br/noticia/?id=513246",
+      "https://www.al.sp.gov.br/noticia/?id=279865",
+      "https://semil.sp.gov.br/?p=65606",
+      "https://semil.sp.gov.br/?p=101939",
+      "https://visitesaopaulo.com/ilhabela-confira-a-historia-e-curiosidades-desse-paraiso/",
+      "https://en.wikipedia.org/wiki/Ilhabela_State_Park",
+      "https://www.correiobraziliense.com.br/cbradar/o-paraiso-ecologico-com-83-de-area-preservada-encanta-com-natureza/"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

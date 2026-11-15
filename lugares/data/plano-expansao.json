@@ -294,7 +294,32 @@
     "Viena",
     "Dolomitas",
     "Kremlin e Praça Vermelha",
-    "Parque Nacional dos Lagos de Plitvice"
+    "Parque Nacional dos Lagos de Plitvice",
+    "Aksum",
+    "Áreas Selvagens da Tasmânia",
+    "Arraial do Cabo",
+    "Atol de Bikini",
+    "Bangkok",
+    "Capadócia",
+    "Cidade Velha de Lamu",
+    "Hoi An",
+    "Ilhabela",
+    "Lagoa Sul das Ilhas Rock",
+    "Ilhas Whitsunday",
+    "Lago Baikal",
+    "Lago Malawi",
+    "Luang Prabang",
+    "Memorial da Paz de Hiroshima",
+    "Nan Madol",
+    "Parque Nacional Kruger",
+    "Parque Nacional da Serra dos Órgãos",
+    "Persépolis",
+    "Samarcanda",
+    "Seul",
+    "Tiradentes",
+    "Tóquio",
+    "Trópicos Úmidos de Queensland",
+    "Parque Nacional dos Vulcões do Havaí"
   ],
   "groups": {
     "Brasil Norte": [
@@ -406,7 +431,11 @@
       "Parque Nacional da Serra da Canastra",
       "Sítio Roberto Burle Marx",
       "Parque Estadual do Ibitipoca",
-      "Parque Estadual Turístico do Alto Ribeira"
+      "Parque Estadual Turístico do Alto Ribeira",
+      "Arraial do Cabo",
+      "Ilhabela",
+      "Parque Nacional da Serra dos Órgãos",
+      "Tiradentes"
     ],
     "Brasil Sul": [
       "Florianópolis",
@@ -554,7 +583,11 @@
       "Cartago",
       "Medina de Fez",
       "Área de Conservação de Ngorongoro",
-      "Tsingy de Bemaraha"
+      "Tsingy de Bemaraha",
+      "Aksum",
+      "Cidade Velha de Lamu",
+      "Lago Malawi",
+      "Parque Nacional Kruger"
     ],
     "Ásia": [
       "Japão",
@@ -579,7 +612,15 @@
       "Parque Nacional de Komodo",
       "Parque Nacional de Chitwan",
       "Parque Nacional de Sundarbans",
-      "Terraços de arroz das Cordilheiras das Filipinas"
+      "Terraços de arroz das Cordilheiras das Filipinas",
+      "Capadócia",
+      "Hoi An",
+      "Lago Baikal",
+      "Luang Prabang",
+      "Memorial da Paz de Hiroshima",
+      "Persépolis",
+      "Samarcanda",
+      "Seul"
     ],
     "Oceania": [
       "Austrália",
@@ -607,7 +648,14 @@
       "Parque Nacional Aoraki/Monte Cook",
       "Baía Shark",
       "Bora Bora",
-      "Parque Nacional Purnululu"
+      "Parque Nacional Purnululu",
+      "Áreas Selvagens da Tasmânia",
+      "Atol de Bikini",
+      "Lagoa Sul das Ilhas Rock",
+      "Ilhas Whitsunday",
+      "Nan Madol",
+      "Trópicos Úmidos de Queensland",
+      "Parque Nacional dos Vulcões do Havaí"
     ],
     "Antártida": [
       "Polo Sul Geográfico",

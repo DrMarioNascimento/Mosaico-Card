@@ -1,0 +1,1079 @@
+{
+  "case": {
+    "id": "lug3-seul",
+    "placeId": "seul",
+    "title": "Seul",
+    "aliases": [
+      "Seoul"
+    ],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "KR"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Seul"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Tóquio"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Pequim"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Xangai"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Taipé"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Pyongyang"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Hong Kong"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Bangkok"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Hanói"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Manila"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Jacarta"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Kuala Lumpur"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Osaka"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Busan"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Ulan Bator"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Singapura"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Seul",
+        "sources": [
+          "SEUL_BRITANNICA",
+          "SEUL_WIKI_HIST",
+          "SEUL_MUSEU_HIST"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rio que divide a cidade em norte e sul",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Han"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Taedong"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Sumida"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Huangpu"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Han",
+        "sources": [
+          "SEUL_BRITANNICA",
+          "SEUL_WIKI_HIST"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Dinastia que fez da cidade sua capital em 1394",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Joseon"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Goryeo"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Ming"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Tokugawa"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Joseon",
+        "sources": [
+          "SEUL_BRITANNICA",
+          "SEUL_MUSEU_HIST"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Sítio geográfico do centro da cidade",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Bacia cercada de morros, no interior"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Delta plano junto ao mar"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Planície costeira aberta para uma baía"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Vale de estepe em planalto alto"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Bacia cercada de morros, no interior",
+        "sources": [
+          "SEUL_BRITANNICA"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "seul-viajante-P01",
+            "factKey": "seul-F01",
+            "text": "Este destino é uma metrópole do Leste Asiático, cortada por um rio largo.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P02",
+            "factKey": "seul-F02",
+            "text": "O inverno é frio, com média perto de −3 °C em janeiro, e agosto, o mês mais quente, fica em torno de 25 °C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA_CLIMA"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P03",
+            "factKey": "seul-F03",
+            "text": "A chuva do ano, cerca de 1.370 mm, se concentra nos meses de verão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA_CLIMA"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P04",
+            "factKey": "seul-F04",
+            "text": "O centro fica numa baixada cercada de morros de uns 300 metros.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P05",
+            "factKey": "seul-F05",
+            "text": "O mar fica a cerca de 60 km a oeste do centro.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P06",
+            "factKey": "seul-F06",
+            "text": "Uma antiga muralha de pedra, de cerca de 18 km, acompanha o alto dos morros, e seus restos viraram um passeio popular.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA",
+              "SEUL_WIKI_HIST"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P07",
+            "factKey": "seul-F07",
+            "text": "Portões históricos da antiga muralha continuam de pé no meio da cidade moderna.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SEUL_WIKI_HIST",
+              "SEUL_BRITANNICA_CLIMA"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P08",
+            "factKey": "seul-F08",
+            "text": "No centro, ao norte do rio, as ruas formam basicamente uma grade retangular.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA_CLIMA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P09",
+            "factKey": "seul-F09",
+            "text": "Um riacho que corta o centro foi recuperado e virou parque e ponto turístico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P10",
+            "factKey": "seul-F10",
+            "text": "Numa ilha do rio fica o prédio da Assembleia Nacional.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA_CLIMA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P11",
+            "factKey": "seul-F11",
+            "text": "A margem sul virou uma segunda área de negócios, com prédios altos, escritórios e empresas de tecnologia.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P12",
+            "factKey": "seul-F12",
+            "text": "O rio já foi muito poluído, mas melhorou a partir dos anos 1980 com grandes estações de tratamento de esgoto.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA_CLIMA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P13",
+            "factKey": "seul-F13",
+            "text": "Desde os anos 1970, um cinturão verde segura o crescimento da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P14",
+            "factKey": "seul-F14",
+            "text": "Há sinais de gente vivendo à beira do rio desde cerca de 4000 a.C.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P15",
+            "factKey": "seul-F15",
+            "text": "Por volta de 18 a.C., um reino antigo fundou sua capital, Wiryeseong, que provavelmente ficava dentro da cidade atual.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_WIKI_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P16",
+            "factKey": "seul-F16",
+            "text": "Um grande palácio real, em ruínas por mais de dois séculos e meio, começou a ser reconstruído em 1865.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SEUL_MUSEU_HIST"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P17",
+            "factKey": "seul-F17",
+            "text": "Pouco depois, navios de guerra franceses apareceram no rio da cidade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SEUL_MUSEU_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P18",
+            "factKey": "seul-F18",
+            "text": "Em 1897 ela virou capital de um império, ganhou parques públicos e uma linha de bonde.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_MUSEU_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P19",
+            "factKey": "seul-F19",
+            "text": "De 1910 a 1945, foi a capital colonial sob domínio japonês.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_WIKI_HIST",
+              "SEUL_MUSEU_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P20",
+            "factKey": "seul-F20",
+            "text": "Na guerra iniciada em 1950, a cidade trocou de mãos quatro vezes e terminou em ruínas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_WIKI_HIST",
+              "SEUL_MUSEU_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P21",
+            "factKey": "seul-F21",
+            "text": "Depois da guerra, a industrialização dos anos 1960 e 1970 trouxe um crescimento econômico acelerado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_WIKI_HIST",
+              "SEUL_MUSEU_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P22",
+            "factKey": "seul-F22",
+            "text": "A cidade foi fundada em 1394 como capital de um reino unificado.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA",
+              "SEUL_MUSEU_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P23",
+            "factKey": "seul-F23",
+            "text": "Sediou os Jogos Olímpicos de Verão de 1988 e foi uma das sedes da Copa do Mundo de 2002.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_WIKI_HIST"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P24",
+            "factKey": "seul-F24",
+            "text": "No tempo da dinastia Joseon, o nome oficial era Hanseong, algo como “cidade fortificada no rio Han”.",
+            "relatedFields": [
+              "C3",
+              "C2"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA",
+              "SEUL_WIKI_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-viajante-P25",
+            "factKey": "seul-F25",
+            "text": "O bairro de Gangnam (Kangnam), ao sul do rio, reúne cerca de metade da população.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "seul-geografo-P01",
+            "factKey": "seul-F01",
+            "text": "Metrópole no interior de uma península do Leste Asiático, instalada no curso inferior de um grande rio.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA",
+              "SEUL_WIKI_HIST"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P02",
+            "factKey": "seul-F02",
+            "text": "A grande amplitude térmica anual e a chuva concentrada no verão dão ao clima um forte contraste entre as estações.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA_CLIMA"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P03",
+            "factKey": "seul-F26",
+            "text": "O vale do rio era um eixo de transporte, e controlá-lo significava dominar estrategicamente a península.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SEUL_WIKI_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P04",
+            "factKey": "seul-F04",
+            "text": "O sítio é uma bacia baixa rodeada de morros de cerca de 300 m, uns 60 km a leste do mar Amarelo.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P05",
+            "factKey": "seul-F22",
+            "text": "Em 1394, o novo rei escolheu o lugar por ser acessível ao mar e central no reino.",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "SEUL_MUSEU_HIST"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P06",
+            "factKey": "seul-F27",
+            "text": "Logo após a fundação, o palácio principal, o altar dos deuses do solo e dos grãos e o santuário dos ancestrais reais organizaram a capital.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SEUL_MUSEU_HIST"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P07",
+            "factKey": "seul-F06",
+            "text": "Dois anos após a fundação, uma muralha de cerca de 18 km foi erguida ao longo das cristas que cercam a bacia.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P08",
+            "factKey": "seul-F07",
+            "text": "As ruas irradiam dos quatro portões históricos, e vias circulares concêntricas ligam as áreas mais externas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA_CLIMA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P09",
+            "factKey": "seul-F28",
+            "text": "Perto do pé dos morros, as irregularidades do relevo desviam o traçado das ruas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA_CLIMA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P10",
+            "factKey": "seul-F29",
+            "text": "A população passou de cerca de 100 mil no censo de 1429 para uns 250 mil em 1910.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P11",
+            "factKey": "seul-F30",
+            "text": "Foi capital de 1394 até a divisão do país em 1948, com uma breve interrupção entre 1399 e 1405.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P12",
+            "factKey": "seul-F31",
+            "text": "Sob o domínio japonês, os recursos se concentraram ao sul do riacho Cheonggyecheon, onde viviam os japoneses, e os coreanos sofriam discriminação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_MUSEU_HIST"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P13",
+            "factKey": "seul-F19",
+            "text": "Na colônia, chamava-se Gyeongseong (Keijō) e integrava a província de Gyeonggi.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_WIKI_HIST",
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P14",
+            "factKey": "seul-F32",
+            "text": "Refugiados do pós-guerra elevaram a população para cerca de 2,5 milhões, mais da metade sem moradia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_WIKI_HIST"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P15",
+            "factKey": "seul-F33",
+            "text": "O crescimento do pós-guerra abriu ruas ao sul do rio e exigiu redes de água e esgoto, metrô, moradias e escolas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SEUL_MUSEU_HIST"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P16",
+            "factKey": "seul-F34",
+            "text": "O limite atual do município data de 1963, quando a área ficou cerca do dobro da de 1948.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P17",
+            "factKey": "seul-F13",
+            "text": "Desde os anos 1970, um cinturão verde conteve a mancha urbana e empurrou subúrbios e cidades-satélite para fora.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P18",
+            "factKey": "seul-F11",
+            "text": "A margem sul cresceu como segundo centro de negócios, com turismo, design, moda e tecnologia da informação.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P19",
+            "factKey": "seul-F12",
+            "text": "Controle do nível da água e grandes estações de tratamento reduziram a poluição do rio desde o início dos anos 1980.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA_CLIMA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P20",
+            "factKey": "seul-F09",
+            "text": "A recuperação do riacho Cheonggye criou um parque fluvial e uma atração turística no centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P21",
+            "factKey": "seul-F35",
+            "text": "Em 1948 recebeu o status de Cidade Especial, que até hoje aparece em seu nome formal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_MUSEU_HIST",
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P22",
+            "factKey": "seul-F36",
+            "text": "A borda noroeste do município fica a cerca de 40 km da zona desmilitarizada que divide a península.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P23",
+            "factKey": "seul-F37",
+            "text": "Em 1104, um rei de Goryeo construiu ali um palácio, numa área então chamada Namgyeong.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SEUL_WIKI_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P24",
+            "factKey": "seul-F24",
+            "text": "Na dinastia Joseon, Hanyang era o nome mais usado e Hanseong, o oficial.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "seul-geografo-P25",
+            "factKey": "seul-F25",
+            "text": "Ao sul do rio, Gangnam concentra cerca de metade da população e metade da arrecadação local.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SEUL_BRITANNICA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Capital da Coreia do Sul, numa bacia cercada de morros no curso inferior do rio Han: fundada em 1394 como capital da dinastia Joseon, destruída na Guerra da Coreia e transformada em metrópole no pós-guerra.",
+      "editorialNotes": [
+        "A data em que o nome atual se tornou oficial varia entre as fontes (a Britannica diz 1948; a Wikipedia fala apenas em “após a libertação”); por isso as pistas não datam a mudança de nome.",
+        "População atual omitida: a Britannica traz 9.794.304 (2010), número antigo; as pistas usam só dados históricos com data (1429, 1910 e pós-guerra).",
+        "Gangnam aparece como Kangnam na Britannica (romanização antiga); a pista dá as duas grafias."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "SEUL_BRITANNICA": {
+      "id": "SEUL_BRITANNICA",
+      "title": "Seoul — national capital, South Korea",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Seoul",
+      "checkedAt": "2026-11-15"
+    },
+    "SEUL_BRITANNICA_CLIMA": {
+      "id": "SEUL_BRITANNICA_CLIMA",
+      "title": "Seoul — Climate (and city layout)",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Seoul/Climate",
+      "checkedAt": "2026-11-15"
+    },
+    "SEUL_BRITANNICA_HIST": {
+      "id": "SEUL_BRITANNICA_HIST",
+      "title": "Seoul — History",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Seoul/History",
+      "checkedAt": "2026-11-15"
+    },
+    "SEUL_WIKI_HIST": {
+      "id": "SEUL_WIKI_HIST",
+      "title": "History of Seoul",
+      "publisher": "Wikipedia (en)",
+      "url": "https://en.wikipedia.org/wiki/History_of_Seoul",
+      "checkedAt": "2026-11-15"
+    },
+    "SEUL_MUSEU_HIST": {
+      "id": "SEUL_MUSEU_HIST",
+      "title": "Permanent Exhibition — history of Seoul (Joseon to the present)",
+      "publisher": "Seoul Museum of History (Prefeitura de Seul)",
+      "url": "https://museum.seoul.go.kr/eng/exhibition/permanent/permExhibit.jsp",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.britannica.com/place/Seoul",
+      "https://www.britannica.com/place/Seoul/Climate",
+      "https://www.britannica.com:443/place/Seoul/History",
+      "https://en.wikipedia.org/wiki/History_of_Seoul",
+      "https://museum.seoul.go.kr/eng/exhibition/permanent/permExhibit.jsp"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

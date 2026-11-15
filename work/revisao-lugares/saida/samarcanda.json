@@ -1,0 +1,1095 @@
+{
+  "case": {
+    "id": "lug3-samarcanda",
+    "placeId": "samarcanda",
+    "title": "Samarcanda",
+    "aliases": [
+      "Samarkand"
+    ],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "UZ"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade histórica da Ásia",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Samarcanda"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Bukhara"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Khiva"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Shahrisabz"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Tashkent"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Merv"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Herat"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Balkh"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Kashgar"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Isfahan"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Tabriz"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Xiraz"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Damasco"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Alepo"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Samarcanda",
+        "sources": [
+          "SAM_UNESCO",
+          "SAM_EB"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Conquistador que fez da cidade a capital de seu império no século XIV",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Timur (Tamerlão)"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Gengis Khan"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Babur"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Kublai Khan"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Timur (Tamerlão)",
+        "sources": [
+          "SAM_EB",
+          "SAM_SI",
+          "SAM_UW"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Rio em cujo vale fica a cidade",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Zeravshan"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Amu Darya"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Syr Darya"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Murghab"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Zeravshan",
+        "sources": [
+          "SAM_UNESCO",
+          "SAM_SI"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Praça monumental cercada por três madraçais",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Registan"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Naqsh-e Jahan"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Lyab-i Hauz"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Poi Kalyan"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Registan",
+        "sources": [
+          "SAM_EB",
+          "SAM_UNESCO"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "samarcanda-viajante-P01",
+            "factKey": "samarcanda-F01",
+            "text": "É uma cidade antiga de oásis, numa região seca do interior da Ásia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_UNESCO",
+              "SAM_SI"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P02",
+            "factKey": "samarcanda-F02",
+            "text": "No centro histórico, cúpulas coloridas e portais enormes e decorados aparecem por toda parte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P03",
+            "factKey": "samarcanda-F03",
+            "text": "Fica num grande oásis, no vale de um rio da Ásia Central.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SAM_UNESCO",
+              "SAM_SI"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P04",
+            "factKey": "samarcanda-F04",
+            "text": "Hoje pertence ao Uzbequistão, cuja capital é outra cidade, Tashkent.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_UNESCO",
+              "SAM_SI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P05",
+            "factKey": "samarcanda-F05",
+            "text": "É uma das cidades mais antigas da Ásia Central, com mais de 2.500 anos de história.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_EB",
+              "SAM_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P06",
+            "factKey": "samarcanda-F06",
+            "text": "A cidade antiga ficava numa colina chamada Afrasiab, fundada no século VII a.C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_UNESCO",
+              "SAM_UNESCO_NHK"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P07",
+            "factKey": "samarcanda-F07",
+            "text": "Em Afrasiab, arqueólogos acharam o palácio de um governante do século VII, com pinturas nas paredes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_UNESCO",
+              "SAM_UW"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P08",
+            "factKey": "samarcanda-F08",
+            "text": "Na Antiguidade, era a capital da Sogdiana, uma rica província iraniana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_EB",
+              "SAM_SI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P09",
+            "factKey": "samarcanda-F09",
+            "text": "A Sogdiana fornecia lápis-lazúli, a pedra azul vendida para o Oriente e o Ocidente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_SI"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P10",
+            "factKey": "samarcanda-F10",
+            "text": "Alexandre, o Grande, tomou a cidade em 329 a.C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_EB",
+              "SAM_SI",
+              "SAM_UW"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P11",
+            "factKey": "samarcanda-F11",
+            "text": "Era parada de caravanas: ali as mercadorias passavam de uma caravana para outra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_SI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P12",
+            "factKey": "samarcanda-F12",
+            "text": "Rotas de comércio vindas da China e da Índia se encontravam na cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P13",
+            "factKey": "samarcanda-F13",
+            "text": "No século VIII, os árabes conquistaram a região, e a cidade virou um centro da cultura islâmica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_SI",
+              "SAM_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P14",
+            "factKey": "samarcanda-F14",
+            "text": "Em 1220, Gengis Khan destruiu a cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_EB",
+              "SAM_SI",
+              "SAM_UW"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P15",
+            "factKey": "samarcanda-F15",
+            "text": "No fim do século XIV, o líder de uma pequena tribo turca fez dela a capital de seu império.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SAM_SI",
+              "SAM_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P16",
+            "factKey": "samarcanda-F16",
+            "text": "Esse conquistador morreu em 1405, quando preparava uma campanha contra a China.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SAM_SI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P17",
+            "factKey": "samarcanda-F17",
+            "text": "Ele mandou abrir uma rua cheia de lojas, coberta por cúpulas e com fontes pelo caminho.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SAM_UW"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P18",
+            "factKey": "samarcanda-F18",
+            "text": "A grande mesquita Bibi-Khanum foi erguida entre 1399 e 1404.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_EB",
+              "SAM_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P19",
+            "factKey": "samarcanda-F19",
+            "text": "O mausoléu Gur-e Amir, de cerca de 1405, guarda o túmulo do conquistador que fez da cidade sua capital.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SAM_EB",
+              "SAM_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P20",
+            "factKey": "samarcanda-F20",
+            "text": "A praça principal é cercada por três madraçais, antigas escolas islâmicas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SAM_EB"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P21",
+            "factKey": "samarcanda-F21",
+            "text": "O madraçal mais antigo da praça foi construído entre 1417 e 1420 por Ulugh Beg, neto do conquistador.",
+            "relatedFields": [
+              "C4",
+              "C2"
+            ],
+            "sources": [
+              "SAM_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P22",
+            "factKey": "samarcanda-F22",
+            "text": "Ulugh Beg era astrônomo, e seu observatório ficava nas colinas a leste de Afrasiab.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_EB",
+              "SAM_UW",
+              "SAM_UNESCO"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P23",
+            "factKey": "samarcanda-F23",
+            "text": "A cidade tem indústrias de algodão, seda, conservas de frutas e vinho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P24",
+            "factKey": "samarcanda-F24",
+            "text": "É Patrimônio Mundial desde 2001, como encruzilhada das culturas do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_EB",
+              "SAM_UNESCO",
+              "SAM_UNESCO_NHK"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-viajante-P25",
+            "factKey": "samarcanda-F25",
+            "text": "É a capital de Timur, no vale do Zeravshan, com a praça do Registan e o túmulo do conquistador.",
+            "relatedFields": [
+              "C1",
+              "C2",
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "SAM_UNESCO",
+              "SAM_EB",
+              "SAM_SI"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "samarcanda-geografo-P01",
+            "factKey": "samarcanda-F26",
+            "text": "Cidade de oásis num ambiente árido e varrido pelo vento, onde a irrigação sustenta a ocupação há milênios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_SI",
+              "SAM_UW"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P02",
+            "factKey": "samarcanda-F27",
+            "text": "A posição de baldeação entre rotas de caravanas fez da cidade um prêmio disputado por quem queria controlar o comércio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_SI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P03",
+            "factKey": "samarcanda-F03",
+            "text": "Ocupa um grande oásis no vale do rio Zeravshan, no Uzbequistão.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SAM_UNESCO",
+              "SAM_SI"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P04",
+            "factKey": "samarcanda-F28",
+            "text": "Há sinais de ocupação na região desde cerca de 1500 a.C.; o núcleo urbano do século VII a.C. já tinha bairro de artesãos e sistema de irrigação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_UNESCO",
+              "SAM_UW"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P05",
+            "factKey": "samarcanda-F07",
+            "text": "Na colina de Afrasiab, as escavações revelaram cidadela, fortificações, bairros residenciais e de artesãos e uma grande mesquita dos séculos VIII a XII.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_UNESCO"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P06",
+            "factKey": "samarcanda-F14",
+            "text": "A colina de Afrasiab, arrasada pelos mongóis no século XIII, é hoje uma reserva arqueológica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P07",
+            "factKey": "samarcanda-F10",
+            "text": "Quando Alexandre a tomou, em 329 a.C., a cidade tinha cerca de 10 km de circunferência.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_UW"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P08",
+            "factKey": "samarcanda-F29",
+            "text": "Sucessão de domínios: turcos (século VI), árabes (século VIII), samânidas (séculos IX–X) e povos turcos (séculos XI–XIII).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P09",
+            "factKey": "samarcanda-F30",
+            "text": "Os samânidas governaram a partir de Bukhara; atrás da praça principal ainda há lápides memoriais da época deles.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_UW"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P10",
+            "factKey": "samarcanda-F31",
+            "text": "O traçado medieval converge para o centro a partir de seis portões de uma muralha do século XI, com cerca de 8 km.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_EB"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P11",
+            "factKey": "samarcanda-F32",
+            "text": "Muralhas e portões foram demolidos depois da conquista russa, mas o desenho das ruas medievais sobreviveu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_EB"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P12",
+            "factKey": "samarcanda-F15",
+            "text": "Depois de se revoltar contra os mongóis em 1365, tornou-se capital do império de Timur e o principal centro econômico e cultural da Ásia Central.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SAM_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P13",
+            "factKey": "samarcanda-F33",
+            "text": "O império timúrida se estendeu pelo Irã, Iraque, Cáucaso, Ásia Central e norte da Índia.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SAM_SI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P14",
+            "factKey": "samarcanda-F34",
+            "text": "A arquitetura timúrida fundiu tradições artísticas turcas e persas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SAM_SI"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P15",
+            "factKey": "samarcanda-F35",
+            "text": "O eixo principal timúrida passa pela mesquita Bibi-Khanum, depois pela praça central, e termina perto do mausoléu Gur-e Amir.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SAM_UW"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P16",
+            "factKey": "samarcanda-F02",
+            "text": "Os monumentos se destacam pelos portais, pelas cúpulas coloridas e pelos revestimentos de majólica, mosaico, mármore e ouro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_EB"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P17",
+            "factKey": "samarcanda-F36",
+            "text": "Os santuários mais antigos da necrópole Shah-i-Zinda guardam fragmentos de minarete e de mausoléu da época caracânida.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_UW",
+              "SAM_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P18",
+            "factKey": "samarcanda-F37",
+            "text": "Ulugh Beg, neto de Timur, governou a cidade por boa parte da primeira metade do século XV e foi assassinado em 1449.",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "SAM_UW",
+              "SAM_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P19",
+            "factKey": "samarcanda-F38",
+            "text": "Os três madraçais da praça são de épocas diferentes: 1417–1420, 1619–1636 e meados do século XVII.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SAM_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P20",
+            "factKey": "samarcanda-F39",
+            "text": "Por volta de 1330, o viajante Ibn Battuta descreveu a cidade ainda em ruínas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_UW"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P21",
+            "factKey": "samarcanda-F40",
+            "text": "Conquistada pelos uzbeques em 1500, passou ao canato de Bukhara, decaiu e ficou desabitada entre as décadas de 1720 e 1770.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P22",
+            "factKey": "samarcanda-F41",
+            "text": "Tomada pela Rússia em 1868, ganhou um bairro russo a partir de 1871 e a ferrovia em 1888.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_SI",
+              "SAM_EB"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P23",
+            "factKey": "samarcanda-F42",
+            "text": "Foi por um tempo capital da república soviética do Uzbequistão; hoje a capital do país é Tashkent.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_EB",
+              "SAM_SI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P24",
+            "factKey": "samarcanda-F43",
+            "text": "Tinha cerca de 561.700 habitantes em 2022, segundo estimativa citada pela Britannica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAM_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "samarcanda-geografo-P25",
+            "factKey": "samarcanda-F25",
+            "text": "Antiga Maracanda, capital da Sogdiana, foi a sede do império de Timur no vale do Zeravshan.",
+            "relatedFields": [
+              "C1",
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "SAM_EB",
+              "SAM_SI",
+              "SAM_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade de oásis do vale do Zeravshan, no Uzbequistão, fundada no século VII a.C. como Afrasiab, antiga Maracanda, capital da Sogdiana, destruída por Gengis Khan em 1220 e transformada por Timur na capital de seu império, com a praça do Registan, a mesquita Bibi-Khanum e o mausoléu Gur-e Amir — Patrimônio Mundial desde 2001.",
+      "editorialNotes": [
+        "Grafia do rio: \"Zerafshan\" na UNESCO e \"Zeravshan\" no Smithsonian; as pistas usam Zeravshan.",
+        "Período como capital da república soviética do Uzbequistão: a Britannica dá 1924–1936; o número foi omitido. A posição no país também varia (nordeste na UNESCO, centro-leste na Britannica) e foi omitida.",
+        "Timur fez dela sua capital depois da revolta de 1365 (Britannica) ou a partir dos anos 1370 (Silk Road Seattle); as pistas dizem \"fim do século XIV\" ou citam a revolta de 1365."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: UNESCO (Programa Rotas da Seda e descrição UNESCO/NHK), Britannica, Smithsonian Folklife Festival e Silk Road Seattle (Universidade de Washington); C1 com 14 cidades históricas asiáticas da Rota da Seda e do Oriente Médio."
+    }
+  },
+  "sources": {
+    "SAM_UNESCO": {
+      "id": "SAM_UNESCO",
+      "title": "Samarkand",
+      "publisher": "UNESCO — Programa Rotas da Seda (Silk Roads Programme)",
+      "url": "https://en.unesco.org/silkroad/silk-road-themes/world-heritage-sites/samarkand",
+      "checkedAt": "2026-11-15"
+    },
+    "SAM_UNESCO_NHK": {
+      "id": "SAM_UNESCO_NHK",
+      "title": "Samarkand – Crossroad of Cultures (UNESCO/NHK)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/documents/118722",
+      "checkedAt": "2026-11-15"
+    },
+    "SAM_EB": {
+      "id": "SAM_EB",
+      "title": "Samarkand",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/print/article/520335",
+      "checkedAt": "2026-11-15"
+    },
+    "SAM_SI": {
+      "id": "SAM_SI",
+      "title": "Samarkand: Geography and History",
+      "publisher": "Smithsonian Folklife Festival (2002, programa The Silk Road)",
+      "url": "https://festival.si.edu/2002/the-silk-road/samarkand-geography-and-history/smithsonian",
+      "checkedAt": "2026-11-15"
+    },
+    "SAM_UW": {
+      "id": "SAM_UW",
+      "title": "Samarkand",
+      "publisher": "Silk Road Seattle — Daniel C. Waugh, Universidade de Washington",
+      "url": "https://depts.washington.edu/silkroad/cities/uz/samarkand/samark.html",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://en.unesco.org/silkroad/silk-road-themes/world-heritage-sites/samarkand",
+      "https://whc.unesco.org/en/documents/118722",
+      "https://www.britannica.com/print/article/520335",
+      "https://festival.si.edu/2002/the-silk-road/samarkand-geography-and-history/smithsonian",
+      "https://depts.washington.edu/silkroad/cities/uz/samarkand/samark.html"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

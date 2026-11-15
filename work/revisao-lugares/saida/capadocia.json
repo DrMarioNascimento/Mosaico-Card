@@ -1,0 +1,1091 @@
+{
+  "case": {
+    "id": "lug3-capadocia",
+    "placeId": "capadocia",
+    "title": "Capadócia",
+    "aliases": [
+      "Parque Nacional de Göreme e Sítios Rupestres da Capadócia",
+      "Parque Nacional de Göreme",
+      "Göreme"
+    ],
+    "answerType": "paisagem cultural",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "TR"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Paisagem natural e cultural da Ásia",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Capadócia"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Pamukkale"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Monte Nemrut"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Petra"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Wadi Rum"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Vale de Bamiyan"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Grutas de Ajanta"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Grutas de Mogao"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Grutas de Longmen"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Wulingyuan (Zhangjiajie)"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Bagan"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Ilha de Jeju"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Baía de Ha Long e Arquipélago de Cat Ba"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Sigiriya"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Monte Fuji"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Montanha Amarela (Huangshan)"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Capadócia",
+        "sources": [
+          "CAPA_UNESCO_PR",
+          "CAPA_IUCN",
+          "CAPA_MINTUR"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rocha em que os pilares, as casas e as igrejas foram escavados",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Tufo vulcânico"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Arenito vermelho"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Calcário de recife"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Granito"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Tufo vulcânico",
+        "sources": [
+          "CAPA_IUCN",
+          "CAPA_NATGEO",
+          "CAPA_MINTUR"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Nome popular dos pilares de rocha esculpidos pela erosão",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Chaminés de fada"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Tsingy"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Torres cársticas"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Órgãos de basalto"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Chaminés de fada",
+        "sources": [
+          "CAPA_UNESCO_PR",
+          "CAPA_IUCN",
+          "CAPA_MINTUR"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Estruturas escavadas no subsolo que fazem parte do bem",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Cidades subterrâneas de vários andares"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Minas de sal-gema"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Catacumbas funerárias romanas"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Cisternas bizantinas de água"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Cidades subterrâneas de vários andares",
+        "sources": [
+          "CAPA_UNESCO_PR",
+          "CAPA_MINTUR",
+          "CAPA_NATGEO"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "capadocia-viajante-P01",
+            "factKey": "capadocia-F01",
+            "text": "É uma paisagem seca de planalto, com vales cheios de pilares de rocha de formas estranhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_NATGEO",
+              "CAPA_IUCN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P02",
+            "factKey": "capadocia-F02",
+            "text": "Muita gente morou e rezou dentro da rocha: há casas, igrejas e depósitos escavados nas pedras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_NATGEO",
+              "CAPA_UNESCO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P03",
+            "factKey": "capadocia-F03",
+            "text": "Fica no meio da Turquia, num planalto alto e seco.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_NATGEO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P04",
+            "factKey": "capadocia-F04",
+            "text": "Os verões são quentes e secos; os invernos, frios e às vezes com neve.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_NATGEO"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P05",
+            "factKey": "capadocia-F05",
+            "text": "Há muito tempo, erupções vulcânicas cobriram a região com uma camada grossa de cinzas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CAPA_NATGEO",
+              "CAPA_MINTUR"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P06",
+            "factKey": "capadocia-F06",
+            "text": "Essa cinza endureceu e virou uma rocha macia, fácil de escavar.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CAPA_NATGEO",
+              "CAPA_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P07",
+            "factKey": "capadocia-F07",
+            "text": "O vento e a água foram gastando a rocha e deixaram cones, pilares e \"cogumelos\" de pedra.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CAPA_NATGEO",
+              "CAPA_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P08",
+            "factKey": "capadocia-F08",
+            "text": "Alguns desses pilares chegam a 40 metros de altura.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CAPA_NATGEO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P09",
+            "factKey": "capadocia-F09",
+            "text": "Os pilares mais famosos têm um \"chapéu\" de rocha dura que protege a coluna mais macia de baixo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CAPA_MINTUR"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P10",
+            "factKey": "capadocia-F10",
+            "text": "Essas formações aparecem sobretudo em volta da cidade de Ürgüp.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CAPA_MINTUR"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P11",
+            "factKey": "capadocia-F11",
+            "text": "A região é cercada por grandes vulcões, como o Erciyes, de 3.916 metros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_MINTUR",
+              "CAPA_UNESCO_PR"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P12",
+            "factKey": "capadocia-F12",
+            "text": "Já havia gente morando ali no tempo dos hititas, por volta de 1800 a 1200 a.C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_NATGEO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P13",
+            "factKey": "capadocia-F13",
+            "text": "O nome antigo da região, gravado numa inscrição do rei persa Dario I, é ligado à expressão \"terra onde se criam belos cavalos\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_MINTUR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P14",
+            "factKey": "capadocia-F14",
+            "text": "A partir do século IV, cristãos fundaram ali comunidades de monges.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_NATGEO",
+              "CAPA_UNESCO_PR",
+              "CAPA_MINTUR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P15",
+            "factKey": "capadocia-F15",
+            "text": "Os monges escavaram mosteiros e capelas na rocha e as decoraram com pinturas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_NATGEO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P16",
+            "factKey": "capadocia-F16",
+            "text": "Há mais de 200 igrejas escavadas na rocha registradas na área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_UNESCO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P17",
+            "factKey": "capadocia-F17",
+            "text": "Nas pinturas das capelas, o verde costuma representar a terra, e o azul, o céu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_MINTUR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P18",
+            "factKey": "capadocia-F18",
+            "text": "Debaixo da terra há cidades inteiras, com túneis e vários andares.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CAPA_NATGEO",
+              "CAPA_MINTUR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P19",
+            "factKey": "capadocia-F19",
+            "text": "A cidade subterrânea mais funda desce cerca de 85 metros, e só uns 10% dela estão abertos à visita.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CAPA_MINTUR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P20",
+            "factKey": "capadocia-F20",
+            "text": "Pedras de 200 a 500 kg serviam de porta para fechar as passagens subterrâneas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CAPA_MINTUR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P21",
+            "factKey": "capadocia-F21",
+            "text": "Nas cidades subterrâneas também havia espaços para fazer suco de uva.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CAPA_MINTUR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P22",
+            "factKey": "capadocia-F22",
+            "text": "Em Avanos, à beira do rio Kızılırmak, se faz cerâmica com o barro vermelho do rio desde o tempo dos hititas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_MINTUR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P23",
+            "factKey": "capadocia-F23",
+            "text": "Algumas casas na rocha ainda são moradias; outras viraram hotéis.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_NATGEO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P24",
+            "factKey": "capadocia-F24",
+            "text": "É Patrimônio Mundial desde 1985, pelas igrejas escavadas, pela arte bizantina e pela paisagem de pilares.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CAPA_UNESCO_PR",
+              "CAPA_IUCN",
+              "CAPA_MINTUR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-viajante-P25",
+            "factKey": "capadocia-F25",
+            "text": "Igrejas bizantinas escavadas no tufo, chaminés de fada e as cidades subterrâneas de Derinkuyu e Kaymaklı formam este lugar.",
+            "relatedFields": [
+              "C1",
+              "C2",
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "CAPA_UNESCO_PR",
+              "CAPA_MINTUR",
+              "CAPA_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "capadocia-geografo-P01",
+            "factKey": "capadocia-F26",
+            "text": "Paisagem vulcânica de planalto, modelada pela erosão em cristas, vales e pináculos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_UNESCO_PR",
+              "CAPA_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P02",
+            "factKey": "capadocia-F27",
+            "text": "É um bem misto: foi inscrito por valores culturais e também por um critério natural, o de paisagem excepcional.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_UNESCO_PR",
+              "CAPA_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P03",
+            "factKey": "capadocia-F03",
+            "text": "Fica no planalto da Anatólia Central, numa região vulcânica de cerca de 25 mil km².",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_MINTUR",
+              "CAPA_UNESCO_PR"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P04",
+            "factKey": "capadocia-F28",
+            "text": "Os vales foram talhados num planalto de tufo coberto de lava, com cerca de 1.000 m de altitude.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CAPA_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P05",
+            "factKey": "capadocia-F06",
+            "text": "O tufo, rocha de grão fino formada pela consolidação de cinzas vulcânicas, veio dos vulcões Erciyes e Hasan.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CAPA_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P06",
+            "factKey": "capadocia-F11",
+            "text": "Erciyes (3.916 m), Hasan e Göllüdağ estiveram entre os vulcões mais ativos de sua época na região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_MINTUR",
+              "CAPA_UNESCO_PR"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P07",
+            "factKey": "capadocia-F29",
+            "text": "Rios, sobretudo o Kızılırmak, entalharam a espessa camada de tufo e esculpiram o relevo atual.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_MINTUR"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P08",
+            "factKey": "capadocia-F09",
+            "text": "Erosão diferencial: um bloco duro no topo protege do desgaste a coluna de tufo mais macia, e assim se formam as chaminés de fada.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CAPA_MINTUR",
+              "CAPA_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P09",
+            "factKey": "capadocia-F02",
+            "text": "A rocha macia permitiu escavar celas, igrejas, aldeias trogloditas e cidades subterrâneas.",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "CAPA_UNESCO_PR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P10",
+            "factKey": "capadocia-F30",
+            "text": "Entre impérios rivais — gregos, persas e bizantinos —, os moradores cavaram esconderijos na rocha.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CAPA_NATGEO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P11",
+            "factKey": "capadocia-F31",
+            "text": "Foram identificados de 150 a 200 assentamentos subterrâneos na região.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CAPA_MINTUR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P12",
+            "factKey": "capadocia-F19",
+            "text": "Na cidade subterrânea mais funda, um poço de ventilação de 55 m também servia de poço de água.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CAPA_MINTUR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P13",
+            "factKey": "capadocia-F20",
+            "text": "As defesas incluíam pedras-porta de 200 a 500 kg, armadilhas e furos para despejar óleo quente ou atirar flechas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CAPA_MINTUR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P14",
+            "factKey": "capadocia-F32",
+            "text": "Alguns pesquisadores datam essas cidades dos séculos VIII–VII a.C., mas o uso mais intenso foi no período bizantino.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CAPA_MINTUR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P15",
+            "factKey": "capadocia-F14",
+            "text": "No século IV, Basílio, o Grande, bispo de Cesareia, incentivou a vida monástica em comunidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_MINTUR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P16",
+            "factKey": "capadocia-F33",
+            "text": "As igrejas rupestres são exemplos da arte bizantina posterior ao período iconoclasta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_UNESCO_PR",
+              "CAPA_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P17",
+            "factKey": "capadocia-F34",
+            "text": "Datas das igrejas do vale principal: Tokalı e El Nazar, século X; Santa Bárbara e Saklı, século XI.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_UNESCO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P18",
+            "factKey": "capadocia-F13",
+            "text": "O nome antigo da região aparece na inscrição de Behistun, de Dario I; Roma a anexou em 17 d.C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_MINTUR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P19",
+            "factKey": "capadocia-F35",
+            "text": "O bem soma cerca de 9.884 ha: um parque de 9.572 ha e sítios menores, como Soğanlı, Karain, Karlık e Yeşilöz.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_UNESCO_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P20",
+            "factKey": "capadocia-F36",
+            "text": "As colinas são uma Área Importante para Plantas, com cerca de 650 táxons, 118 deles endêmicos da Turquia, em estepe irano-anatoliana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P21",
+            "factKey": "capadocia-F37",
+            "text": "Os espaços escavados mantêm a temperatura amena: são quentes no inverno e frescos no verão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_IUCN"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P22",
+            "factKey": "capadocia-F38",
+            "text": "Represas de irrigação aumentaram a umidade local, o que acelera a deterioração da rocha.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CAPA_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P23",
+            "factKey": "capadocia-F39",
+            "text": "Recebe de 2 a 4 milhões de visitantes por ano; em 2025, a IUCN classificou seu estado de conservação como de \"preocupação significativa\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P24",
+            "factKey": "capadocia-F40",
+            "text": "Uma lei de 2019 retirou o status de parque nacional e incorporou a área a uma zona de gestão de 86 mil ha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAPA_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "capadocia-geografo-P25",
+            "factKey": "capadocia-F25",
+            "text": "Bem inscrito em 1985 que reúne chaminés de fada, igrejas rupestres bizantinas e as cidades subterrâneas de Derinkuyu e Kaymaklı.",
+            "relatedFields": [
+              "C1",
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "CAPA_UNESCO_PR",
+              "CAPA_IUCN",
+              "CAPA_MINTUR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Paisagem do planalto da Anatólia Central, na Turquia, em que a erosão esculpiu o tufo vulcânico em vales e chaminés de fada, e onde, desde o século IV, foram escavadas moradias, igrejas com arte bizantina e cidades subterrâneas como Derinkuyu e Kaymaklı — Patrimônio Mundial desde 1985 como Parque Nacional de Göreme e Sítios Rupestres da Capadócia.",
+      "editorialNotes": [
+        "Altitude do monte Hasan: 3.268 m (Ministério da Cultura e Turismo) ou 3.253 m (relatório periódico da UNESCO), por isso omitida; o Ministério diz que o Erciyes teve atividade em tempos históricos, e o relatório chama os vulcões de extintos, então as pistas não os classificam.",
+        "Fase de maior importância cristã: séculos VII–XIII (IUCN) ou IX–XI (Ministério); espessura do tufo: 100–150 m (Ministério) ou \"dezenas de metros\" (National Geographic). Os dois números foram omitidos.",
+        "Continente asia, por estar na Anatólia. A IUCN informa que a lei 7174 (2019) retirou o status de parque nacional; o nome do bem na UNESCO continua o mesmo."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: manual do Ministério da Cultura e Turismo da Turquia (2012), relatório periódico da UNESCO, IUCN World Heritage Outlook (2025) e National Geographic; C1 com 16 paisagens naturais e culturais asiáticas, várias com cavernas ou templos escavados na rocha."
+    }
+  },
+  "sources": {
+    "CAPA_MINTUR": {
+      "id": "CAPA_MINTUR",
+      "title": "Göreme National Park and the Rock Sites of Cappadocia (Murat Ertuğrul Gülyaz, série Handbook nº 20, 2012)",
+      "publisher": "Ministério da Cultura e Turismo da Turquia",
+      "url": "https://teda.ktb.gov.tr/Eklenti/6583%2Ccappadociapdf.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "CAPA_UNESCO_PR": {
+      "id": "CAPA_UNESCO_PR",
+      "title": "Göreme National Park and the Rock Sites of Cappadocia — formulário do Relatório Periódico (Türkiye)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/216603",
+      "checkedAt": "2026-11-15"
+    },
+    "CAPA_IUCN": {
+      "id": "CAPA_IUCN",
+      "title": "Göreme National Park and the Rock Sites of Cappadocia",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1109",
+      "checkedAt": "2026-11-15"
+    },
+    "CAPA_NATGEO": {
+      "id": "CAPA_NATGEO",
+      "title": "Escape to Turkey's otherworldly landscape",
+      "publisher": "National Geographic",
+      "url": "https://www.nationalgeographic.com/travel/world-heritage/article/cappadocia",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://teda.ktb.gov.tr/Eklenti/6583%2Ccappadociapdf.pdf",
+      "https://whc.unesco.org/document/216603",
+      "https://worldheritageoutlook.iucn.org/node/1109",
+      "https://www.nationalgeographic.com/travel/world-heritage/article/cappadocia"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

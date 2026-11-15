@@ -1,0 +1,1101 @@
+{
+  "case": {
+    "id": "lug3-cidade-velha-lamu",
+    "placeId": "cidade-velha-lamu",
+    "title": "Cidade Velha de Lamu",
+    "aliases": [
+      "Lamu",
+      "Cidade Antiga de Lamu"
+    ],
+    "answerType": "conjunto urbano histórico",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "KE"
+      ],
+      "continents": [
+        "africa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade histórica costeira africana",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Cidade Velha de Lamu"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Stone Town de Zanzibar"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Ruínas de Kilwa Kisiwani e Songo Mnara"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Ilha de Moçambique"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Forte Jesus de Mombaça"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Ruínas de Gedi"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Ilha de Gorée"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Ilha de Saint-Louis"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Cidade Histórica de Grand-Bassam"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Medina de Essaouira"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Medina de Túnis"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Medina de Tetuão"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Cidade Velha de Ribeira Grande"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Ilha de Suakin"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Cidade Velha de Lamu",
+        "sources": [
+          "LAMU_EB",
+          "LAMU_UNESCO_NOMINACAO"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Grande festa religiosa anual que atrai peregrinos de outras regiões",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Maulidi"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Grande Magal de Touba"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Moussem de Moulay Idriss"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Timkat"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Maulidi",
+        "sources": [
+          "LAMU_UNESCO_NOMINACAO",
+          "LAMU_NMK"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Ilha vizinha cujos manguezais entram na zona de proteção",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Manda"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Pemba"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Máfia"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Unguja"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Manda",
+        "sources": [
+          "LAMU_UNESCO_NOMINACAO",
+          "LAMU_UNESCO_SOC"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "País",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Quênia"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Tanzânia"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Moçambique"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Somália"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Quênia",
+        "sources": [
+          "LAMU_EB",
+          "LAMU_UNESCO_NOMINACAO"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "cidade-velha-lamu-viajante-P01",
+            "factKey": "cidade-velha-lamu-F01",
+            "text": "É uma cidade antiga à beira do oceano Índico, de ruas estreitas e casas de pedra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_EB",
+              "LAMU_NMK"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P02",
+            "factKey": "cidade-velha-lamu-F02",
+            "text": "É vista como um dos exemplos mais bem preservados da cultura suaíli na África Oriental.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P03",
+            "factKey": "cidade-velha-lamu-F03",
+            "text": "Fica numa ilha, perto da costa da África Oriental.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P04",
+            "factKey": "cidade-velha-lamu-F04",
+            "text": "As ruas estreitas e sinuosas formam um labirinto, dividido em pequenos bairros chamados mitaa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_NMK"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P05",
+            "factKey": "cidade-velha-lamu-F05",
+            "text": "As casas são de pedra de coral, com telhados sobre troncos de mangue e argamassa de cal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_EB",
+              "LAMU_NMK"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P06",
+            "factKey": "cidade-velha-lamu-F06",
+            "text": "Por dentro, as casas têm nichos decorativos nas paredes, tetos pintados e porcelana chinesa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_NMK",
+              "LAMU_UNESCO_NOMINACAO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P07",
+            "factKey": "cidade-velha-lamu-F07",
+            "text": "As portas de madeira, entalhadas com capricho, são uma marca da cidade; o museu local tem uma galeria só delas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_EB",
+              "LAMU_UNESCO_NOMINACAO",
+              "LAMU_NMK_MUSEU"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P08",
+            "factKey": "cidade-velha-lamu-F08",
+            "text": "Vista do mar, a orla tem prédios com arcadas e varandas abertas que deixam a paisagem uniforme.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_NMK"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P09",
+            "factKey": "cidade-velha-lamu-F09",
+            "text": "A arquitetura mistura estilos suaíli, árabe, persa, indiano e europeu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_NMK",
+              "LAMU_ZAMANI"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P10",
+            "factKey": "cidade-velha-lamu-F10",
+            "text": "O centro histórico de pedra é pequeno: cerca de 16 hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_NMK",
+              "LAMU_UNESCO_NOMINACAO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P11",
+            "factKey": "cidade-velha-lamu-F11",
+            "text": "É a cidade mais antiga do seu tipo ainda existente no país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P12",
+            "factKey": "cidade-velha-lamu-F12",
+            "text": "Até o fim do século XIX, disputava com Mombaça o comércio de ouro, especiarias e pessoas escravizadas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P13",
+            "factKey": "cidade-velha-lamu-F13",
+            "text": "Os portugueses invadiram a cidade em 1506.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_UNESCO_NOMINACAO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P14",
+            "factKey": "cidade-velha-lamu-F14",
+            "text": "Depois que os portugueses foram expulsos, em 1698, veio o domínio de Omã.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_UNESCO_NOMINACAO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P15",
+            "factKey": "cidade-velha-lamu-F15",
+            "text": "Um forte erguido por omanis entre 1813 e 1821 fica no canto sul da cidade de pedra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_ZAMANI",
+              "LAMU_UNESCO_NOMINACAO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P16",
+            "factKey": "cidade-velha-lamu-F16",
+            "text": "Esse forte foi prisão de 1910 a 1984 e hoje recebe casamentos, reuniões e teatro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_NMK_MUSEU",
+              "LAMU_UNESCO_NOMINACAO",
+              "LAMU_ZAMANI"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P17",
+            "factKey": "cidade-velha-lamu-F17",
+            "text": "Todo ano, a festa do Maulidi atrai muçulmanos da África Oriental e Central, do Norte da África e do Golfo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "LAMU_UNESCO_NOMINACAO",
+              "LAMU_NMK"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P18",
+            "factKey": "cidade-velha-lamu-F18",
+            "text": "A cidade é um centro de estudo da cultura islâmica e suaíli e tem uma faculdade islâmica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_NMK",
+              "LAMU_UNESCO_NOMINACAO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P19",
+            "factKey": "cidade-velha-lamu-F19",
+            "text": "O museu principal ocupa um casarão do começo do século XX e mostra objetos dos povos suaíli, boni, sanye, pokomo e orma.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_NMK_MUSEU"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P20",
+            "factKey": "cidade-velha-lamu-F20",
+            "text": "Uma das joias do museu é a siwa de marfim de Pate, ligada ao governo suaíli.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_NMK_MUSEU"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P21",
+            "factKey": "cidade-velha-lamu-F21",
+            "text": "Os manguezais da ilha vizinha de Manda fazem parte da área protegida em volta da cidade.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "LAMU_UNESCO_NOMINACAO",
+              "LAMU_UNESCO_SOC"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P22",
+            "factKey": "cidade-velha-lamu-F22",
+            "text": "Em 2009, a cidade tinha 13.243 moradores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P23",
+            "factKey": "cidade-velha-lamu-F23",
+            "text": "Em 2021, um grande porto novo em obras na região preocupava quem cuida do patrimônio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_UNESCO_SOC"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P24",
+            "factKey": "cidade-velha-lamu-F24",
+            "text": "É a mais antiga e mais bem preservada povoação suaíli da África Oriental, numa ilha ao norte de Mombaça, no Quênia.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "LAMU_UNESCO_NOMINACAO",
+              "LAMU_ZAMANI",
+              "LAMU_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-viajante-P25",
+            "factKey": "cidade-velha-lamu-F25",
+            "text": "Patrimônio Mundial desde 2001, esta ilha queniana é famosa pelo Maulidi, pelas portas entalhadas e pelo forte omani.",
+            "relatedFields": [
+              "C1",
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "LAMU_EB",
+              "LAMU_UNESCO_NOMINACAO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "cidade-velha-lamu-geografo-P01",
+            "factKey": "cidade-velha-lamu-F26",
+            "text": "Cidade portuária insular cuja riqueza veio das redes de comércio do oceano Índico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_EB",
+              "LAMU_UNESCO_NOMINACAO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P02",
+            "factKey": "cidade-velha-lamu-F04",
+            "text": "O traçado em labirinto de vielas remonta a tradições árabes de divisão da terra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_NMK"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P03",
+            "factKey": "cidade-velha-lamu-F03",
+            "text": "Ocupa uma ilha do Índico ao largo da costa leste africana, com o porto na margem sudeste da ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_EB"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P04",
+            "factKey": "cidade-velha-lamu-F27",
+            "text": "Foi o principal centro comercial da África Oriental até ser superada por Zanzibar e Mombaça.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_UNESCO_NOMINACAO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P05",
+            "factKey": "cidade-velha-lamu-F28",
+            "text": "Como Kilwa e Zanzibar, foi fundada até o século XIV e teve papel de destaque no tráfico de escravizados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_ZAMANI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P06",
+            "factKey": "cidade-velha-lamu-F10",
+            "text": "O núcleo de pedra, de cerca de 16 ha, é cercado por áreas de casas de barro e pau a pique, numa área construída de cerca de 37 ha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_UNESCO_NOMINACAO",
+              "LAMU_NMK"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P07",
+            "factKey": "cidade-velha-lamu-F05",
+            "text": "As construções combinam pedra de coral, cal e troncos de mangue, com reboco fino e nichos decorativos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_EB",
+              "LAMU_NMK"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P08",
+            "factKey": "cidade-velha-lamu-F29",
+            "text": "A casa suaíli se volta para dentro: fachada simples, paredes grossas, pátio interno e interiores decorados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_UNESCO_NOMINACAO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P09",
+            "factKey": "cidade-velha-lamu-F08",
+            "text": "Arcadas e varandas abertas na frente marítima dão à cidade uma silhueta uniforme vista do mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_NMK"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P10",
+            "factKey": "cidade-velha-lamu-F30",
+            "text": "Esteve sob domínio persa e depois de Zanzibar; o controle omani começou depois da saída dos portugueses, em 1698.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_EB",
+              "LAMU_UNESCO_NOMINACAO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P11",
+            "factKey": "cidade-velha-lamu-F13",
+            "text": "A invasão portuguesa de 1506 abriu quase dois séculos de presença europeia, encerrada em 1698.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_UNESCO_NOMINACAO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P12",
+            "factKey": "cidade-velha-lamu-F15",
+            "text": "O forte, erguido por omanis entre 1813 e 1821 no canto sul da cidade de pedra, protegia seus interesses na costa leste africana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_ZAMANI",
+              "LAMU_UNESCO_NOMINACAO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P13",
+            "factKey": "cidade-velha-lamu-F16",
+            "text": "Restaurado pelos Museus Nacionais em 1984 e aberto em 1986, o antigo presídio abriga o escritório de conservação e a biblioteca dos museus.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_NMK_MUSEU",
+              "LAMU_UNESCO_NOMINACAO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P14",
+            "factKey": "cidade-velha-lamu-F31",
+            "text": "No século XIX, o xarife Habib Swaleh introduziu práticas de confraria (tariqa) que fizeram da cidade um centro religioso da África Oriental e Central.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "LAMU_UNESCO_NOMINACAO",
+              "LAMU_NMK"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P15",
+            "factKey": "cidade-velha-lamu-F17",
+            "text": "O alcance do festival anual do Maulidi ultrapassa a costa suaíli: chegam fiéis do Norte da África e do Golfo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "LAMU_UNESCO_NOMINACAO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P16",
+            "factKey": "cidade-velha-lamu-F32",
+            "text": "Inscrita no Patrimônio Mundial em 2001 pelos critérios (ii), (iv) e (vi), é descrita como berço da civilização suaíli.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_NMK",
+              "LAMU_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P17",
+            "factKey": "cidade-velha-lamu-F21",
+            "text": "A zona de proteção definida na inscrição, de cerca de 3 por 4 km, incluía os manguezais da ilha vizinha de Manda.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "LAMU_UNESCO_NOMINACAO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P18",
+            "factKey": "cidade-velha-lamu-F33",
+            "text": "Em 2021, o Comitê do Patrimônio Mundial pediu uma zona de amortecimento maior, cobrindo a ilha inteira, partes de Manda e os manguezais.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "LAMU_UNESCO_SOC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P19",
+            "factKey": "cidade-velha-lamu-F23",
+            "text": "O corredor de transporte LAPSSET, que liga o porto local ao Sudão do Sul e à Etiópia, tinha em 2021 os três primeiros berços do porto em obras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_UNESCO_SOC"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P20",
+            "factKey": "cidade-velha-lamu-F34",
+            "text": "Uma usina a carvão planejada para a região foi suspensa após decisão de um tribunal ambiental nacional em 2019.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "LAMU_UNESCO_SOC"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P21",
+            "factKey": "cidade-velha-lamu-F35",
+            "text": "O Comitê exigiu uma avaliação ambiental estratégica do corredor, com impactos cumulativos também sobre o lago Turkana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_UNESCO_SOC"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P22",
+            "factKey": "cidade-velha-lamu-F36",
+            "text": "Na inscrição, os riscos apontados eram incêndios, hotéis na borda da área histórica, casas virando pousadas e falhas na coleta de lixo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_UNESCO_NOMINACAO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P23",
+            "factKey": "cidade-velha-lamu-F22",
+            "text": "A população da cidade passou de 17.076 habitantes em 1999 para 13.243 em 2009.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LAMU_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P24",
+            "factKey": "cidade-velha-lamu-F24",
+            "text": "Mais antigo e mais bem preservado assentamento suaíli da África Oriental, ocupa uma ilha do litoral norte do Quênia, a norte-nordeste de Mombaça.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "LAMU_UNESCO_NOMINACAO",
+              "LAMU_ZAMANI",
+              "LAMU_EB"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-velha-lamu-geografo-P25",
+            "factKey": "cidade-velha-lamu-F25",
+            "text": "Vizinha da ilha de Manda, esta cidade insular queniana, Patrimônio Mundial desde 2001, recebe todo ano o Maulidi.",
+            "relatedFields": [
+              "C1",
+              "C2",
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "LAMU_UNESCO_NOMINACAO",
+              "LAMU_EB",
+              "LAMU_UNESCO_SOC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade insular do litoral norte do Quênia, a norte-nordeste de Mombaça, considerada o mais antigo e mais bem preservado assentamento suaíli da África Oriental: casas de pedra de coral e madeira de mangue, portas entalhadas, forte omani de 1813–1821 e o festival anual do Maulidi; Patrimônio Mundial desde 2001.",
+      "editorialNotes": [
+        "Fundação: origens no século XII (dossiê de candidatura à UNESCO), \"mais de 700 anos\" (Museus Nacionais do Quênia) e \"até o século XIV\" (Zamani); nenhuma pista dá ano de fundação. Distância de Mombaça: 241 km (Britannica) ou cerca de 250 km (UNESCO/Zamani); não usada.",
+        "Diferença em relação a Stone Town de Zanzibar e a Kilwa, já no banco: país (Quênia), ilha vizinha de Manda, Maulidi e forte omani de 1813–1821. Nos C1 desses lugares a alternativa aparece como \"Cidade Antiga de Lamu\", registrada como alias.",
+        "O corredor LAPSSET e a usina a carvão vêm do relatório de estado de conservação da UNESCO de 2021; a situação pode ter mudado depois."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: Britannica, duas páginas dos Museus Nacionais do Quênia, dossiê de candidatura com avaliação do ICOMOS e relatório de estado de conservação (2021) da UNESCO, e Zamani Project; C1 com 14 cidades históricas costeiras africanas."
+    }
+  },
+  "sources": {
+    "LAMU_EB": {
+      "id": "LAMU_EB",
+      "title": "Lamu",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Lamu-Kenya",
+      "checkedAt": "2026-11-15"
+    },
+    "LAMU_NMK": {
+      "id": "LAMU_NMK",
+      "title": "Lamu Old Town",
+      "publisher": "National Museums of Kenya",
+      "url": "https://museums.or.ke/?p=179",
+      "checkedAt": "2026-11-15"
+    },
+    "LAMU_NMK_MUSEU": {
+      "id": "LAMU_NMK_MUSEU",
+      "title": "Lamu Museum",
+      "publisher": "National Museums of Kenya",
+      "url": "https://museums.or.ke/lamu/",
+      "checkedAt": "2026-11-15"
+    },
+    "LAMU_UNESCO_NOMINACAO": {
+      "id": "LAMU_UNESCO_NOMINACAO",
+      "title": "Lamu Old Town (Kenya) — dossiê de candidatura n.º 1055 e avaliação do ICOMOS (2001)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/151631",
+      "checkedAt": "2026-11-15"
+    },
+    "LAMU_UNESCO_SOC": {
+      "id": "LAMU_UNESCO_SOC",
+      "title": "State of Conservation of World Heritage Properties — Lamu Old Town (Kenya), 2021",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/4063",
+      "checkedAt": "2026-11-15"
+    },
+    "LAMU_ZAMANI": {
+      "id": "LAMU_ZAMANI",
+      "title": "Lamu Fort (Kenya)",
+      "publisher": "Zamani Project",
+      "url": "https://zamaniproject.org/site-kenya-lamu-fort.html",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.britannica.com/place/Lamu-Kenya",
+      "https://museums.or.ke/?p=179",
+      "https://museums.or.ke/lamu/",
+      "https://whc.unesco.org/document/151631",
+      "https://whc.unesco.org/en/soc/4063",
+      "https://zamaniproject.org/site-kenya-lamu-fort.html"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

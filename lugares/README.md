@@ -286,6 +286,31 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Dolomitas | Europa |
 | Kremlin e Praça Vermelha | Europa |
 | Parque Nacional dos Lagos de Plitvice | Europa |
+| Aksum | África |
+| Áreas Selvagens da Tasmânia | Oceania |
+| Arraial do Cabo | Brasil / Sudeste |
+| Atol de Bikini | Oceania |
+| Bangkok | Ásia |
+| Capadócia | Ásia |
+| Cidade Velha de Lamu | África |
+| Hoi An | Ásia |
+| Ilhabela | Brasil / Sudeste |
+| Lagoa Sul das Ilhas Rock | Oceania |
+| Ilhas Whitsunday | Oceania |
+| Lago Baikal | Ásia |
+| Lago Malawi | África |
+| Luang Prabang | Ásia |
+| Memorial da Paz de Hiroshima | Ásia |
+| Nan Madol | Oceania |
+| Parque Nacional Kruger | África |
+| Parque Nacional da Serra dos Órgãos | Brasil / Sudeste |
+| Persépolis | Ásia |
+| Samarcanda | Ásia |
+| Seul | Ásia |
+| Tiradentes | Brasil / Sudeste |
+| Tóquio | Ásia |
+| Trópicos Úmidos de Queensland | Oceania |
+| Parque Nacional dos Vulcões do Havaí | Oceania |
 
 | Parque Nacional do Catimbau | Brasil / Nordeste |
 | Parque Nacional de Ubajara | Brasil / Nordeste |
@@ -312,7 +337,7 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Belo Horizonte | Brasil / Sudeste |
 | Parque Nacional Los Glaciares | Américas |
 
-São 293 lugares, 586 conjuntos de pistas (dois por lugar), 14.650 pistas, 1.172 perguntas distintas e 7.845 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 318 lugares, 636 conjuntos de pistas (dois por lugar), 15.900 pistas, 1.272 perguntas distintas e 8.522 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 

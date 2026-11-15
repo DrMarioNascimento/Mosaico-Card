@@ -1,0 +1,1089 @@
+{
+  "case": {
+    "id": "lug3-luang-prabang",
+    "placeId": "luang-prabang",
+    "title": "Luang Prabang",
+    "aliases": [
+      "Louangphrabang",
+      "Luang Phabang"
+    ],
+    "answerType": "cidade histórica",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "LA"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade histórica",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Luang Prabang"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Hoi An"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Hué"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Vientiane"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Chiang Mai"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Ayutthaya"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Mandalay"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Malaca"
+          },
+          {
+            "id": "C1-O9",
+            "text": "George Town"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Vigan"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Lijiang"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Kandy"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Kyoto"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Nara"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Luang Prabang",
+        "sources": [
+          "LUANGPRABANG_BRITANNICA",
+          "LUANGPRABANG_WIKI",
+          "LUANGPRABANG_UNESCO_SOC2024"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rios que se encontram junto à península da cidade",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Mekong e Nam Khan"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Mekong e Tonle Sap"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Chao Phraya e Pa Sak"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Irrawaddy e Chindwin"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Mekong e Nam Khan",
+        "sources": [
+          "LUANGPRABANG_NATGEO",
+          "LUANGPRABANG_UNESCO_SOC2024"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Reino do qual a cidade foi capital a partir de 1353",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Lan Xang"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Sukhothai"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Ayutthaya"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Champa"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Lan Xang",
+        "sources": [
+          "LUANGPRABANG_BRITANNICA",
+          "LUANGPRABANG_WIKI"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Mistura arquitetônica que marca o patrimônio da cidade",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Arquitetura tradicional lao com prédios coloniais europeus"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Templos de pedra khmer com casas sobre palafitas"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Casas de mercadores chineses e japoneses"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Pagodes de madeira com jardins zen"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Arquitetura tradicional lao com prédios coloniais europeus",
+        "sources": [
+          "LUANGPRABANG_NATGEO"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "luang-prabang-viajante-P01",
+            "factKey": "luang-prabang-F01",
+            "text": "Este destino é uma cidade histórica pequena do Sudeste Asiático, à beira de um grande rio e cercada de montanhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_BRITANNICA",
+              "LUANGPRABANG_NATGEO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P02",
+            "factKey": "luang-prabang-F02",
+            "text": "Todo dia, ao nascer do sol, monges budistas andam em fila pelas ruas para receber esmolas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_WIKI",
+              "LUANGPRABANG_NATGEO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P03",
+            "factKey": "luang-prabang-F03",
+            "text": "Os fiéis oferecem arroz glutinoso e outros alimentos aos monges.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_NATGEO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P04",
+            "factKey": "luang-prabang-F04",
+            "text": "A cidade tem dezenas de templos budistas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_NATGEO",
+              "LUANGPRABANG_WIKI",
+              "LUANGPRABANG_BRITANNICA"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P05",
+            "factKey": "luang-prabang-F05",
+            "text": "Um morro no centro oferece uma vista de 360 graus da cidade, dos templos, do rio e das montanhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_NATGEO",
+              "LUANGPRABANG_WIKI"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P06",
+            "factKey": "luang-prabang-F06",
+            "text": "Dizem que um santuário no alto desse morro guarda uma pegada de Buda.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_BRITANNICA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P07",
+            "factKey": "luang-prabang-F07",
+            "text": "A parte antiga fica numa península entre dois rios.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "LUANGPRABANG_NATGEO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P08",
+            "factKey": "luang-prabang-F08",
+            "text": "O clima é quente: a máxima média anual passa dos 30 °C, e agosto é o mês mais chuvoso.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_WIKI"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P09",
+            "factKey": "luang-prabang-F09",
+            "text": "A chuva anual fica perto de 1.470 mm, segundo as médias de 1991 a 2020.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_WIKI"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P10",
+            "factKey": "luang-prabang-F10",
+            "text": "Na feira noturna, vendedores oferecem artesanato.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_NATGEO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P11",
+            "factKey": "luang-prabang-F11",
+            "text": "Entre os pratos típicos estão o or lam, a linguiça da cidade e o kaipen, feito de musgo de rio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_WIKI"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P12",
+            "factKey": "luang-prabang-F12",
+            "text": "Danças tradicionais, contação de histórias e teatro de bonecos fazem parte da programação cultural.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_NATGEO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P13",
+            "factKey": "luang-prabang-F13",
+            "text": "Uma cachoeira de três degraus, a uns 45 km ao sul, forma piscinas naturais para banho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_NATGEO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P14",
+            "factKey": "luang-prabang-F14",
+            "text": "Rio acima, a uns 24 km, cavernas num paredão de calcário guardam milhares de imagens de Buda.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "LUANGPRABANG_NATGEO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P15",
+            "factKey": "luang-prabang-F15",
+            "text": "Uma vila de ceramistas fica a uns 15 minutos de barco, rio abaixo, do centro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "LUANGPRABANG_WIKI"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P16",
+            "factKey": "luang-prabang-F16",
+            "text": "O aeroporto fica a uns 4 km do centro, com voos para Bangkok, Chiang Mai e Hanói.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_WIKI"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P17",
+            "factKey": "luang-prabang-F17",
+            "text": "Uma estação de trem a uns 15 km do centro liga a cidade a Vientiane e a Kunming, na China.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_WIKI"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P18",
+            "factKey": "luang-prabang-F18",
+            "text": "Fica no norte do Laos, a cerca de 210 km da capital, Vientiane.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_BRITANNICA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P19",
+            "factKey": "luang-prabang-F19",
+            "text": "O nome da cidade homenageia uma estátua de Buda de ouro, hoje exposta no Museu do Palácio Real.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_NATGEO",
+              "LUANGPRABANG_WIKI"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P20",
+            "factKey": "luang-prabang-F20",
+            "text": "Mesmo depois que outra cidade virou a capital administrativa, ela continuou como residência real e centro religioso.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "LUANGPRABANG_BRITANNICA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P21",
+            "factKey": "luang-prabang-F21",
+            "text": "Até 1975, o apoio da corte sustentava ofícios como a laca, a ourivesaria e a prataria.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_BRITANNICA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P22",
+            "factKey": "luang-prabang-F22",
+            "text": "Em 1887, bandidos da Bandeira Negra saquearam a cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_NATGEO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P23",
+            "factKey": "luang-prabang-F23",
+            "text": "A UNESCO a declarou Patrimônio Mundial em 1995.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_BRITANNICA",
+              "LUANGPRABANG_WIKI",
+              "LUANGPRABANG_UNESCO_SOC2024"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P24",
+            "factKey": "luang-prabang-F24",
+            "text": "O templo mais famoso, o Wat Xieng Thong, do século XVI, foi um dos poucos poupados no saque de 1887.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_NATGEO",
+              "LUANGPRABANG_WIKI"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-viajante-P25",
+            "factKey": "luang-prabang-F25",
+            "text": "A cidade antiga fica onde o rio Nam Khan encontra o Mekong.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "LUANGPRABANG_NATGEO",
+              "LUANGPRABANG_UNESCO_SOC2024"
+            ],
+            "clueType": "agua",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "luang-prabang-geografo-P01",
+            "factKey": "luang-prabang-F01",
+            "text": "Núcleo urbano compacto, num vale cercado de montanhas no interior do Sudeste Asiático, que funcionava como porto de um grande rio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_BRITANNICA",
+              "LUANGPRABANG_NATGEO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P02",
+            "factKey": "luang-prabang-F26",
+            "text": "A região em volta está entre as mais secas da Indochina, e nos vales se planta milho e arroz.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_BRITANNICA"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P03",
+            "factKey": "luang-prabang-F07",
+            "text": "Na península entre dois rios, proteger as margens é um desafio: a UNESCO pede soluções de bioengenharia em vez de obras rígidas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "LUANGPRABANG_UNESCO_SOC2023",
+              "LUANGPRABANG_NATGEO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P04",
+            "factKey": "luang-prabang-F27",
+            "text": "Zonas úmidas e lagoas urbanas são atributos ecológicos do patrimônio e precisam ser reabilitadas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_UNESCO_SOC2023"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P05",
+            "factKey": "luang-prabang-F28",
+            "text": "Em 2004, a UNESCO criticou obras viárias ao longo dos dois rios que avançaram sobre uma área úmida urbana protegida.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "LUANGPRABANG_UNESCO_DEC2004"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P06",
+            "factKey": "luang-prabang-F29",
+            "text": "Uma hidrelétrica planejada no rio principal é vista pela UNESCO como ameaça significativa ao valor universal do sítio.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "LUANGPRABANG_UNESCO_SOC2023",
+              "LUANGPRABANG_UNESCO_SOC2024"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P07",
+            "factKey": "luang-prabang-F30",
+            "text": "Barragens rio acima e rio abaixo, somadas às mudanças climáticas, podem alterar o ambiente fluvial que emoldura a cidade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "LUANGPRABANG_UNESCO_SOC2023"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P08",
+            "factKey": "luang-prabang-F31",
+            "text": "O núcleo protegido tem cerca de 820 ha, com uma zona de amortecimento de 12.560 ha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P09",
+            "factKey": "luang-prabang-F02",
+            "text": "A área protegida abrange 33 das 58 aldeias urbanas, onde a procissão matinal das esmolas persiste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_WIKI"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P10",
+            "factKey": "luang-prabang-F32",
+            "text": "Dos 611 edifícios inventariados, 339 foram reformados desde 1995; os 142 restantes, sobretudo os de madeira, são prioridade.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "LUANGPRABANG_UNESCO_SOC2023",
+              "LUANGPRABANG_UNESCO_SOC2024"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P11",
+            "factKey": "luang-prabang-F33",
+            "text": "O plano de salvaguarda, conhecido pela sigla francesa PSMV, é o principal instrumento para controlar as construções.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "LUANGPRABANG_UNESCO_SOC2023"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P12",
+            "factKey": "luang-prabang-F34",
+            "text": "Construções ilegais e violações do plano de conservação são ameaças recorrentes apontadas pela UNESCO.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "LUANGPRABANG_UNESCO_DEC2004",
+              "LUANGPRABANG_UNESCO_SOC2024"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P13",
+            "factKey": "luang-prabang-F35",
+            "text": "A volta do turismo de massa e o trem de alta velocidade levaram a UNESCO a pedir um plano de turismo baseado em capacidade de carga.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_UNESCO_SOC2023",
+              "LUANGPRABANG_UNESCO_SOC2024"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P14",
+            "factKey": "luang-prabang-F17",
+            "text": "A ferrovia liga a cidade a Vientiane e, via Boten, a Kunming, encaixando-a no eixo Laos–China.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_WIKI"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P15",
+            "factKey": "luang-prabang-F18",
+            "text": "Fica cerca de 210 km a norte-noroeste de Vientiane, como porto fluvial no norte do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_BRITANNICA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P16",
+            "factKey": "luang-prabang-F36",
+            "text": "No século VIII já existia ali uma cidade-estado mon, conhecida como Muang Sua.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "LUANGPRABANG_WIKI",
+              "LUANGPRABANG_BRITANNICA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P17",
+            "factKey": "luang-prabang-F37",
+            "text": "Entre 1185 e 1191, quando se chamava Xieng Dong Xieng Thong, esteve sob suserania khmer.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "LUANGPRABANG_WIKI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P18",
+            "factKey": "luang-prabang-F38",
+            "text": "Em 1353 tornou-se capital do reino cujo primeiro monarca foi Fa Ngum.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "LUANGPRABANG_WIKI",
+              "LUANGPRABANG_BRITANNICA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P19",
+            "factKey": "luang-prabang-F19",
+            "text": "Por volta de 1563, a corte se mudou para Vientiane, e a cidade ganhou o nome atual, em homenagem a uma imagem de Buda.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "LUANGPRABANG_BRITANNICA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P20",
+            "factKey": "luang-prabang-F39",
+            "text": "Na partilha do reino em 1707, virou capital de um novo reino com o mesmo nome da cidade.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "LUANGPRABANG_BRITANNICA",
+              "LUANGPRABANG_WIKI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P21",
+            "factKey": "luang-prabang-F20",
+            "text": "Sob domínio francês, foi reconhecida como residência real; na reorganização de 1946–47, Vientiane ficou com a administração.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_WIKI",
+              "LUANGPRABANG_BRITANNICA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P22",
+            "factKey": "luang-prabang-F40",
+            "text": "Cidade pequena e sem indústria moderna, tinha o comércio de lojas dominado por minorias indiana e chinesa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LUANGPRABANG_BRITANNICA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P23",
+            "factKey": "luang-prabang-F23",
+            "text": "Inscrita em 1995 pelos critérios (ii), (iv) e (v), é reconhecida pela fusão de arquitetura lao com a colonial europeia.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "LUANGPRABANG_UNESCO_SOC2024",
+              "LUANGPRABANG_NATGEO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P24",
+            "factKey": "luang-prabang-F14",
+            "text": "As cavernas de Pak Ou ficam na confluência do Mekong com o Nam Ou, uns 24 km rio acima.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "LUANGPRABANG_NATGEO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "luang-prabang-geografo-P25",
+            "factKey": "luang-prabang-F25",
+            "text": "A substituição da ponte sobre o Nam Khan está entre as obras questionadas pelo Comitê do Patrimônio Mundial.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "LUANGPRABANG_UNESCO_SOC2023",
+              "LUANGPRABANG_UNESCO_SOC2024"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Antiga capital real do Laos, numa península no encontro do Nam Khan com o Mekong: capital do reino de Lan Xang a partir de 1353, cidade de dezenas de templos budistas e de arquitetura lao misturada à colonial europeia, Patrimônio Mundial desde 1995.",
+      "editorialNotes": [
+        "Chegada da imagem de Buda que dá nome à cidade: 1356 (provável) na Britannica e 1359 na Wikipedia; a data foi omitida, e o nome da imagem também, porque repete o título.",
+        "Número de templos divergente (mais de 20 na Britannica; mais de 30 na Wikipedia); as pistas dizem só “dezenas”. População omitida (a Britannica traz apenas estimativa de 2003).",
+        "A página de inscrição da UNESCO (whc.unesco.org/en/list/479) não abriu; inscrição, critérios e ameaças vêm dos relatórios de estado de conservação de 2023 e 2024 e da decisão de 2004."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "LUANGPRABANG_UNESCO_SOC2024": {
+      "id": "LUANGPRABANG_UNESCO_SOC2024",
+      "title": "Town of Luang Prabang — State of conservation 2024 (46 COM)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/4612",
+      "checkedAt": "2026-11-15"
+    },
+    "LUANGPRABANG_UNESCO_SOC2023": {
+      "id": "LUANGPRABANG_UNESCO_SOC2023",
+      "title": "Town of Luang Prabang — State of conservation 2023 (45 COM)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/4356",
+      "checkedAt": "2026-11-15"
+    },
+    "LUANGPRABANG_UNESCO_DEC2004": {
+      "id": "LUANGPRABANG_UNESCO_DEC2004",
+      "title": "Decision 28 COM 15B.60 — Luang Prabang (2004)",
+      "publisher": "UNESCO World Heritage Committee",
+      "url": "https://whc.unesco.org/en/decisions/232",
+      "checkedAt": "2026-11-15"
+    },
+    "LUANGPRABANG_BRITANNICA": {
+      "id": "LUANGPRABANG_BRITANNICA",
+      "title": "Louangphrabang",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Louangphrabang",
+      "checkedAt": "2026-11-15"
+    },
+    "LUANGPRABANG_NATGEO": {
+      "id": "LUANGPRABANG_NATGEO",
+      "title": "See the rich spiritual and cultural traditions of Laos (A guide to Louangphrabang)",
+      "publisher": "National Geographic",
+      "url": "https://www.nationalgeographic.com/travel/article/louangphrabang-world-heritage-site",
+      "checkedAt": "2026-11-15"
+    },
+    "LUANGPRABANG_WIKI": {
+      "id": "LUANGPRABANG_WIKI",
+      "title": "Luang Prabang",
+      "publisher": "Wikipedia (en)",
+      "url": "https://en.wikipedia.org/wiki/Luang_Prabang",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/en/soc/4612",
+      "https://whc.unesco.org/en/soc/4356",
+      "https://whc.unesco.org/en/decisions/232",
+      "https://www.britannica.com/place/Louangphrabang",
+      "https://on.natgeo.com/2JqtAhX",
+      "https://www.nationalgeographic.com/travel/article/louangphrabang-world-heritage-site",
+      "https://en.wikipedia.org/wiki/Luang_Prabang"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

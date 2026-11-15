@@ -1,0 +1,1113 @@
+{
+  "case": {
+    "id": "lug3-ilhas-rock",
+    "placeId": "ilhas-rock",
+    "title": "Lagoa Sul das Ilhas Rock",
+    "aliases": [
+      "Ilhas Rock do Sul",
+      "Rock Islands Southern Lagoon"
+    ],
+    "answerType": "área marinha e insular protegida",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "PW"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Área marinha ou insular da Oceania",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Lagoa Sul das Ilhas Rock"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Grande Barreira de Corais"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Costa de Ningaloo"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Grupo de Ilhas Lord Howe"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Rennell Oriental"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Área Protegida das Ilhas Phoenix"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Atol de Bikini"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Lagoas da Nova Caledônia"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Ilha Henderson"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Atol de Rangiroa"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Bora Bora"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Aitutaki"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Fakarava"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Ilha Macquarie"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Ilha Norfolk"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Baía Shark"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Lagoa Sul das Ilhas Rock",
+        "sources": [
+          "ROCK_UNESCO",
+          "ROCK_IUCN"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rocha que forma as ilhas",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Calcário de antigos recifes de coral soerguidos"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Basalto de derrames vulcânicos"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Granito de um antigo maciço continental"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Arenito de dunas consolidadas"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Calcário de antigos recifes de coral soerguidos",
+        "sources": [
+          "ROCK_UNESCO",
+          "ROCK_PBS",
+          "ROCK_SCIAM"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Animal que dá fama ao único lago marinho aberto a visitantes",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Água-viva dourada"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Tubarão-baleia"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Raia-manta"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Tartaruga-verde"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Água-viva dourada",
+        "sources": [
+          "ROCK_KOROR",
+          "ROCK_PVA",
+          "ROCK_IUCN"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Quando as antigas aldeias de pedra das ilhas foram abandonadas",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Séculos XVII e XVIII"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Séculos XI e XII"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Século XIX"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Séculos III e IV"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Séculos XVII e XVIII",
+        "sources": [
+          "ROCK_UNESCO"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "ilhas-rock-viajante-P01",
+            "factKey": "ilhas-rock-F01",
+            "text": "Este destino é um mar tropical de águas azul-turquesa, salpicado de ilhas e cercado por recifes de coral.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_IUCN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P02",
+            "factKey": "ilhas-rock-F02",
+            "text": "As ilhas têm paredões íngremes de pedra cobertos por mata fechada.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "ROCK_SCIAM"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P03",
+            "factKey": "ilhas-rock-F03",
+            "text": "Vistas do barco, muitas ilhas parecem cogumelos verdes boiando na água.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_PBS",
+              "ROCK_IUCN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P04",
+            "factKey": "ilhas-rock-F04",
+            "text": "Na linha d'água, o mar vai escavando a base das ilhas, e com o tempo muitas delas devem desabar.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "ROCK_PBS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P05",
+            "factKey": "ilhas-rock-F05",
+            "text": "Entre as ilhas há cavernas, arcos de pedra, canais e pequenas enseadas para explorar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P06",
+            "factKey": "ilhas-rock-F06",
+            "text": "Tudo fica dentro de uma grande lagoa, protegida do mar aberto por uma barreira de recifes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_UNESCO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P07",
+            "factKey": "ilhas-rock-F07",
+            "text": "A lagoa onde ficam as ilhas tem cerca de 37 km (23 milhas) de comprimento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_KOROR"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P08",
+            "factKey": "ilhas-rock-F08",
+            "text": "Escondidos no meio das ilhas existem dezenas de lagos de água salgada, ligados ao mar por passagens na rocha.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "ROCK_UNESCO",
+              "ROCK_PBS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P09",
+            "factKey": "ilhas-rock-F09",
+            "text": "Só um desses lagos pode ser visitado; chegar a menos de 200 pés (uns 60 m) dos outros é proibido por lei.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROCK_KOROR",
+              "ROCK_PVA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P10",
+            "factKey": "ilhas-rock-F10",
+            "text": "O lago aberto ao público fica a uns 45 minutos de barco do centro da cidade.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROCK_KOROR"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P11",
+            "factKey": "ilhas-rock-F11",
+            "text": "No lago, os visitantes nadam no meio de uma multidão de águas-vivas; mergulho com cilindro não é permitido.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROCK_KOROR",
+              "ROCK_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P12",
+            "factKey": "ilhas-rock-F12",
+            "text": "O lago tem cerca de 400 m de comprimento, 150 m de largura e 30 m de profundidade.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROCK_KOROR"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P13",
+            "factKey": "ilhas-rock-F13",
+            "text": "Isoladas do oceano, as águas-vivas do lago se adaptaram a ponto de perder a ferroada.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROCK_PBS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P14",
+            "factKey": "ilhas-rock-F14",
+            "text": "Duas vezes por dia, as águas-vivas atravessam o lago de um lado ao outro atrás da luz do sol.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROCK_PBS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P15",
+            "factKey": "ilhas-rock-F15",
+            "text": "Eram umas 630 mil águas-vivas em 2018; em julho de 2022, com a água quente demais, sobravam cerca de 56 mil.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROCK_IUCN"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P16",
+            "factKey": "ilhas-rock-F16",
+            "text": "Nos recifes vivem centenas de espécies de peixes e de corais, além de tubarões e raias-manta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_UNESCO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P17",
+            "factKey": "ilhas-rock-F17",
+            "text": "As praias das ilhas são os principais locais de desova da tartaruga-de-pente no país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_KBA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P18",
+            "factKey": "ilhas-rock-F18",
+            "text": "Dugongos também aparecem por aqui: em 2019 foram contados até 521 numa área marinha protegida dentro do sítio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P19",
+            "factKey": "ilhas-rock-F19",
+            "text": "Em cavernas e ilhas há restos de aldeias de pedra, sepultamentos e pinturas rupestres de antigos moradores.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "ROCK_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P20",
+            "factKey": "ilhas-rock-F20",
+            "text": "Hoje as ilhas são desabitadas; as últimas aldeias de pedra foram abandonadas há mais de dois séculos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ROCK_UNESCO",
+              "ROCK_IUCN"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P21",
+            "factKey": "ilhas-rock-F21",
+            "text": "O turismo explodiu: os visitantes passaram de 58 mil em 2000 para mais de 160 mil em 2015.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P22",
+            "factKey": "ilhas-rock-F22",
+            "text": "Um estudo de 2018 viu que 1 em cada 5 grupos de snorkel danificava corais vivos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P23",
+            "factKey": "ilhas-rock-F23",
+            "text": "Guardas-parque do governo estadual fiscalizam as regras de uso das ilhas e dos lagos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_UNESCO",
+              "ROCK_PVA"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P24",
+            "factKey": "ilhas-rock-F24",
+            "text": "O único lago marinho aberto ao público é o Ongeim'l Tketau, na ilha de Mecherchar.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "ROCK_PVA",
+              "ROCK_KOROR"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-viajante-P25",
+            "factKey": "ilhas-rock-F25",
+            "text": "Em 2012, esta lagoa cheia de ilhas de Palau virou Patrimônio Mundial, por valores naturais e culturais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_UNESCO",
+              "ROCK_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "ilhas-rock-geografo-P01",
+            "factKey": "ilhas-rock-F26",
+            "text": "As ilhas são antigos recifes de coral que foram soerguidos acima do nível do mar e hoje formam relevos de calcário.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "ROCK_PBS",
+              "ROCK_UNESCO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P02",
+            "factKey": "ilhas-rock-F27",
+            "text": "A área fica no Pacífico ocidental tropical, a cerca de 7° de latitude norte, numa lagoa fechada por um recife-barreira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_KBA",
+              "ROCK_UNESCO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P03",
+            "factKey": "ilhas-rock-F28",
+            "text": "O soerguimento tectônico que expôs esses corais é atribuído ao Mioceno.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ROCK_SCIAM"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P04",
+            "factKey": "ilhas-rock-F29",
+            "text": "A chuva, acidificada ao passar pela vegetação e pelo solo, dissolve o calcário e acelera o modelado das ilhas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ROCK_SCIAM",
+              "ROCK_PBS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P05",
+            "factKey": "ilhas-rock-F30",
+            "text": "A erosão marinha escava a base das ilhas na linha d'água, o que explica o perfil de cogumelo e prenuncia o colapso de muitas delas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "ROCK_PBS",
+              "ROCK_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P06",
+            "factKey": "ilhas-rock-F31",
+            "text": "Num processo de muitos milhares de anos, a erosão deve devolver as ilhas para baixo da superfície do oceano.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ROCK_SCIAM"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P07",
+            "factKey": "ilhas-rock-F32",
+            "text": "O calcário poroso é cortado por condutos por onde a água do mar entra e sai com as marés, alimentando lagos salgados no interior das ilhas.",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "ROCK_PBS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P08",
+            "factKey": "ilhas-rock-F33",
+            "text": "São 52 lagos marinhos em diferentes estágios de evolução, a maior concentração desse tipo de lago no mundo.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "ROCK_UNESCO",
+              "ROCK_IUCN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P09",
+            "factKey": "ilhas-rock-F34",
+            "text": "Isolados do mar em graus diferentes, esses lagos funcionam como laboratórios naturais: cinco novas subespécies da água-viva Mastigias papua já foram descritas neles.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROCK_UNESCO",
+              "ROCK_IUCN"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P10",
+            "factKey": "ilhas-rock-F35",
+            "text": "O lago mais famoso ficou separado do oceano quando um recife submerso se elevou, o que isolou sua população de águas-vivas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROCK_PBS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P11",
+            "factKey": "ilhas-rock-F36",
+            "text": "As águas-vivas desse lago abrigam algas nos tecidos: de dia migram atrás do sol para alimentá-las; à noite descem para águas mais fundas e ricas em nutrientes.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROCK_PBS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P12",
+            "factKey": "ilhas-rock-F37",
+            "text": "A subespécie de água-viva dourada do lago aberto à visitação, Mastigias papua etpisoni, só existe ali.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROCK_KOROR"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P13",
+            "factKey": "ilhas-rock-F38",
+            "text": "Quando a água do lago passou do limite de temperatura para a reprodução das águas-vivas, em 2022, a população caiu para cerca de 10% da estimativa de abril.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROCK_IUCN"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P14",
+            "factKey": "ilhas-rock-F39",
+            "text": "Uma anêmona-do-mar invasora, Exaiptasia pallida, é apontada como ameaça ao lago mais visitado.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROCK_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P15",
+            "factKey": "ilhas-rock-F40",
+            "text": "O sítio registra 746 espécies de peixes, mais de 385 de corais e sete de mariscos-gigantes, além de um náutilo endêmico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_UNESCO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P16",
+            "factKey": "ilhas-rock-F41",
+            "text": "No branqueamento de 1998, alguns recifes externos perderam até 90% dos corais, mas os recifes abrigados entre as ilhas se saíram melhor.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_IUCN"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P17",
+            "factKey": "ilhas-rock-F42",
+            "text": "Todas as aves, os mamíferos e a herpetofauna (répteis e anfíbios) endêmicos do país têm registro dentro da área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P18",
+            "factKey": "ilhas-rock-F43",
+            "text": "As ilhas vão do nível do mar a cerca de 206 m e têm florestas sobre calcário, habitat do megápode da Micronésia e da pomba-de-nicobar.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "ROCK_KBA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P19",
+            "factKey": "ilhas-rock-F44",
+            "text": "Depósitos em cavernas datados de cerca de 3.100 anos antes do presente marcam o início de uma ocupação que se estendeu por uns 2.500 anos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ROCK_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P20",
+            "factKey": "ilhas-rock-F45",
+            "text": "O abandono das aldeias de pedra (datadas de 950 a 500 anos antes do presente) é lido como exemplo da interação entre mudança climática, crescimento populacional e subsistência num ambiente marinho marginal.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ROCK_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P21",
+            "factKey": "ilhas-rock-F46",
+            "text": "Os vestígios arqueológicos e a arte rupestre aparecem em grupos de ilhas como o de Ulong e em ilhas como Ngeruktabel.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "ROCK_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P22",
+            "factKey": "ilhas-rock-F47",
+            "text": "O bem tem 100.200 hectares e seus limites abrangem boa parte da lagoa, dos recifes e das terras de calcário coralino do estado.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "ROCK_UNESCO",
+              "ROCK_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P23",
+            "factKey": "ilhas-rock-F48",
+            "text": "Uma zona de amortecimento cobre as águas além do recife-barreira, até o limite da jurisdição estadual.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P24",
+            "factKey": "ilhas-rock-F49",
+            "text": "Toda a área pertence ao estado de Koror e ocupa a lagoa entre Koror e Peleliu, ao sul da ilha de Babeldaob.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_UNESCO",
+              "ROCK_IUCN",
+              "ROCK_KOROR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-rock-geografo-P25",
+            "factKey": "ilhas-rock-F50",
+            "text": "Patrimônio Mundial misto de Palau desde 2012, inscrito por dois critérios culturais e três naturais, tem os restos submersos protegidos como \"Palau Lagoon Monument\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROCK_UNESCO",
+              "ROCK_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Área marinha e insular do estado de Koror, em Palau, Patrimônio Mundial misto desde 2012, com 100.200 ha de lagoa protegida por recife-barreira, ilhas desabitadas de calcário coralino soerguido em forma de cogumelo, 52 lagos marinhos (a maior concentração do mundo, entre eles o lago das águas-vivas douradas, o único aberto a visitantes) e vestígios de aldeias de pedra abandonadas nos séculos XVII e XVIII.",
+      "editorialNotes": [
+        "O número de ilhas varia entre as fontes: 445 na UNESCO e na IUCN, \"mais de 426\" no governo de Koror, \"mais de 500\" na ficha da KBA e \"bem mais de 300\" no texto da Scientific American; por isso nenhuma pista cita a contagem. A ficha da KBA também usa outra delimitação de área, diferente dos 100.200 ha do bem da UNESCO.",
+        "A página da UNESCO com a descrição do sítio (lista 1386) não abriu (robots); os dados vêm da decisão 36 COM 8B.12 (2012) e da avaliação da IUCN (2025). A pista sobre o abandono das aldeias \"há mais de dois séculos\" decorre dos séculos XVII e XVIII citados pela UNESCO.",
+        "A perda da ferroada das águas-vivas e a formação do lago por elevação de um recife vêm da PBS (The Living Edens); a contagem de 630 mil (2018) e de 56 mil (julho de 2022) vem da IUCN. O Comitê do Patrimônio sugeriu rever o nome do bem para refletir seus valores culturais."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "ROCK_UNESCO": {
+      "id": "ROCK_UNESCO",
+      "title": "Decision 36 COM 8B.12 — Rock Islands Southern Lagoon (Palau)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/4783",
+      "checkedAt": "2026-11-15"
+    },
+    "ROCK_IUCN": {
+      "id": "ROCK_IUCN",
+      "title": "Rock Islands Southern Lagoon — World Heritage Outlook (avaliação de 2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1173",
+      "checkedAt": "2026-11-15"
+    },
+    "ROCK_KBA": {
+      "id": "ROCK_KBA",
+      "title": "Rock Islands (23550) — site factsheet",
+      "publisher": "Key Biodiversity Areas Partnership (BirdLife International)",
+      "url": "https://www.keybiodiversityareas.org/site/factsheet/23550",
+      "checkedAt": "2026-11-15"
+    },
+    "ROCK_KOROR": {
+      "id": "ROCK_KOROR",
+      "title": "Information for Tourists",
+      "publisher": "Koror State Government (Palau)",
+      "url": "https://kororstategov.com/tourist.html",
+      "checkedAt": "2026-11-15"
+    },
+    "ROCK_PVA": {
+      "id": "ROCK_PVA",
+      "title": "Koror State Law K8-207-2009, Section 10: Prohibition to Entry to other Marine Lakes",
+      "publisher": "Pristine Paradise Palau (Palau Visitors Authority)",
+      "url": "https://pristineparadisepalau.com/happenings/koror-state-law-k8-207-2009-section-10-prohibition-to-entry-to-other-marine-lakes/",
+      "checkedAt": "2026-11-15"
+    },
+    "ROCK_PBS": {
+      "id": "ROCK_PBS",
+      "title": "The Living Edens — Palau: Paradise of the Pacific (The Sea)",
+      "publisher": "PBS",
+      "url": "https://www.pbs.org/edens/palau/p_sea_text.htm",
+      "checkedAt": "2026-11-15"
+    },
+    "ROCK_SCIAM": {
+      "id": "ROCK_SCIAM",
+      "title": "USC Dornsife Scientific Diving: A Note on the Rock Islands of Palau",
+      "publisher": "Scientific American (blog Expeditions)",
+      "url": "https://www.scientificamerican.com/blog/expeditions/usc-dornsife-scientific-diving-a-note-on-the-rock-islands-of-palau/",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/en/decisions/4783",
+      "https://worldheritageoutlook.iucn.org/node/1173",
+      "https://www.keybiodiversityareas.org/site/factsheet/23550",
+      "https://kororstategov.com/tourist.html",
+      "https://pristineparadisepalau.com/happenings/koror-state-law-k8-207-2009-section-10-prohibition-to-entry-to-other-marine-lakes/",
+      "https://www.pbs.org/edens/palau/p_sea_text.htm",
+      "https://www.scientificamerican.com/blog/expeditions/usc-dornsife-scientific-diving-a-note-on-the-rock-islands-of-palau/"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

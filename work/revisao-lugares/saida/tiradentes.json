@@ -1,0 +1,1125 @@
+{
+  "case": {
+    "id": "lug3-tiradentes",
+    "placeId": "tiradentes",
+    "title": "Tiradentes",
+    "aliases": [],
+    "answerType": "cidade histórica",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sudeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade histórica do Sudeste",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Tiradentes"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Ouro Preto"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Mariana"
+          },
+          {
+            "id": "C1-O4",
+            "text": "São João del-Rei"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Diamantina"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Congonhas"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Sabará"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Serro"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Prados"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Catas Altas"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Caeté"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Paraty"
+          },
+          {
+            "id": "C1-O13",
+            "text": "São Luiz do Paraitinga"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Petrópolis"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Tiradentes",
+        "sources": [
+          "TIRADENTES_IBGE",
+          "TIRADENTES_UNESP",
+          "TIRADENTES_CORREIO"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Nome de vila usado até a troca pelo nome atual",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "São José del-Rei"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Vila Rica"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Vila do Carmo"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Vila Nova da Rainha"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "São José del-Rei",
+        "sources": [
+          "TIRADENTES_IBGE",
+          "TIRADENTES_IBGE_MONO",
+          "TIRADENTES_UNESP"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Cidade vizinha ligada pelo passeio de trem a vapor",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "São João del-Rei"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Barbacena"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Prados"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Congonhas"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "São João del-Rei",
+        "sources": [
+          "TIRADENTES_CORREIO",
+          "TIRADENTES_TUPI"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Serra aos pés da qual a cidade se formou",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Serra de São José"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Serra do Caraça"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Serra do Curral"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Serra dos Cristais"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Serra de São José",
+        "sources": [
+          "TIRADENTES_IBGE",
+          "TIRADENTES_UNESP",
+          "TIRADENTES_AGMINAS_GUIAS"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "tiradentes-viajante-P01",
+            "factKey": "tiradentes-F01",
+            "text": "É uma pequena cidade colonial do interior do Sudeste, nascida da corrida do ouro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_TUPI",
+              "TIRADENTES_IBGE"
+            ],
+            "clueType": "historia",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P02",
+            "factKey": "tiradentes-F02",
+            "text": "Casarões coloniais e igrejas barrocas formam um conjunto que parece parado no século XVIII.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_CATRACA",
+              "TIRADENTES_CORREIO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P03",
+            "factKey": "tiradentes-F03",
+            "text": "Cerca de 90% do casario original do século XVIII continua de pé.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_CORREIO",
+              "TIRADENTES_TUPI"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P04",
+            "factKey": "tiradentes-F04",
+            "text": "Uma serra de paredões de pedra emoldura a cidade e oferece vistas do centro histórico.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TIRADENTES_UNESP",
+              "TIRADENTES_TUPI"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P05",
+            "factKey": "tiradentes-F05",
+            "text": "Trilhas pela serra levam a lugares como o Poço do Grito, a Mãe d'Água e o Balaio.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TIRADENTES_CORREIO",
+              "TIRADENTES_AGMINAS_MOSAICO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P06",
+            "factKey": "tiradentes-F06",
+            "text": "A Cachoeira do Mangue está entre as atrações dessa serra.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TIRADENTES_AGMINAS_MOSAICO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P07",
+            "factKey": "tiradentes-F07",
+            "text": "Na praça principal, o Largo das Forras, charretes coloridas esperam os turistas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_UNESP",
+              "TIRADENTES_TUPI"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P08",
+            "factKey": "tiradentes-F08",
+            "text": "Um chafariz de pedra com três bicas foi construído pela Câmara em 1749.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_CORREIO",
+              "TIRADENTES_TUPI",
+              "TIRADENTES_IBGE_MONO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P09",
+            "factKey": "tiradentes-F09",
+            "text": "Esse chafariz guarda uma rara imagem de terracota de São José de Botas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "TIRADENTES_CORREIO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P10",
+            "factKey": "tiradentes-F10",
+            "text": "A igreja matriz, no alto de uma colina, tem duas torres e altares cobertos de ouro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_IBGE_MONO",
+              "TIRADENTES_CORREIO",
+              "TIRADENTES_TUPI"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P11",
+            "factKey": "tiradentes-F11",
+            "text": "A construção dessa matriz começou em 1710.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_CORREIO",
+              "TIRADENTES_IBGE_MONO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P12",
+            "factKey": "tiradentes-F12",
+            "text": "A fachada da matriz tem esculturas atribuídas ao Aleijadinho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_TUPI",
+              "TIRADENTES_CORREIO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P13",
+            "factKey": "tiradentes-F13",
+            "text": "Dentro da matriz há um órgão de tubos descrito como peça única em Minas Gerais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_CORREIO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P14",
+            "factKey": "tiradentes-F14",
+            "text": "Um trem a vapor, a Maria Fumaça, faz um passeio de 12 km até a cidade vizinha.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TIRADENTES_CORREIO",
+              "TIRADENTES_TUPI"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P15",
+            "factKey": "tiradentes-F15",
+            "text": "Esse trem corre junto ao Rio das Mortes, numa linha de bitola estreita, de 76 cm.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TIRADENTES_TUPI",
+              "TIRADENTES_CORREIO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P16",
+            "factKey": "tiradentes-F16",
+            "text": "A ferrovia foi inaugurada em 1881, com a presença de Dom Pedro II.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TIRADENTES_CORREIO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P17",
+            "factKey": "tiradentes-F17",
+            "text": "Em janeiro, uma mostra de cinema realizada desde 1998 reúne dezenas de milhares de pessoas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_CORREIO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P18",
+            "factKey": "tiradentes-F18",
+            "text": "A agenda tem ainda um festival de teatro em maio e um festival de cultura e gastronomia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_CATRACA",
+              "TIRADENTES_CORREIO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P19",
+            "factKey": "tiradentes-F19",
+            "text": "Galinhada, queijos, cachaça e doces caseiros fazem parte da mesa local.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_CATRACA",
+              "TIRADENTES_CORREIO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P20",
+            "factKey": "tiradentes-F20",
+            "text": "Um museu reúne uma das mais importantes coleções de arte sacra em terracota e madeira do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_CORREIO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P21",
+            "factKey": "tiradentes-F21",
+            "text": "A cidade é chamada de \"Pérola do Campo das Vertentes\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_CATRACA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P22",
+            "factKey": "tiradentes-F22",
+            "text": "A igreja de Nossa Senhora do Rosário tem forros pintados em painéis.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_CORREIO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P23",
+            "factKey": "tiradentes-F23",
+            "text": "Até 1889, a cidade levava o nome de um santo, o mesmo do chafariz e da serra.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TIRADENTES_IBGE",
+              "TIRADENTES_IBGE_MONO",
+              "TIRADENTES_CORREIO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P24",
+            "factKey": "tiradentes-F24",
+            "text": "O nome atual homenageia o alferes da Inconfidência Mineira executado em 1792.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_IBGE",
+              "TIRADENTES_CORREIO",
+              "TIRADENTES_TUPI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-viajante-P25",
+            "factKey": "tiradentes-F25",
+            "text": "Esse alferes nasceu em 1746 numa fazenda entre esta vila e São João del-Rei.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "TIRADENTES_IBGE"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "tiradentes-geografo-P01",
+            "factKey": "tiradentes-F26",
+            "text": "O núcleo urbano surgiu na bacia do rio das Mortes, para onde o ouro atraiu os primeiros povoadores paulistas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_IBGE",
+              "TIRADENTES_UNESP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P02",
+            "factKey": "tiradentes-F27",
+            "text": "A sede fica no sopé de uma serra de quartzito de topo aplainado e flancos cortados a pique.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TIRADENTES_UNESP",
+              "TIRADENTES_AGMINAS_GUIAS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P03",
+            "factKey": "tiradentes-F28",
+            "text": "Essa serra corta o município de ponta a ponta e se estende por cinco municípios do Campo das Vertentes.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TIRADENTES_IBGE_MONO",
+              "TIRADENTES_AGMINAS_MOSAICO",
+              "TIRADENTES_AGMINAS_GUIAS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P04",
+            "factKey": "tiradentes-F29",
+            "text": "O ponto mais alto da serra chega a cerca de 1.400 m de altitude.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TIRADENTES_AGMINAS_GUIAS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P05",
+            "factKey": "tiradentes-F30",
+            "text": "A serra protege nascentes dos rios das Mortes e Carandaí, formadores da bacia do Rio Grande.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TIRADENTES_AGMINAS_GUIAS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P06",
+            "factKey": "tiradentes-F31",
+            "text": "Mata Atlântica, Cerrado e campos rupestres se encontram nas encostas da serra.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TIRADENTES_AGMINAS_MOSAICO",
+              "TIRADENTES_AGMINAS_GUIAS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P07",
+            "factKey": "tiradentes-F32",
+            "text": "As unidades de conservação da serra abrigam quase metade das espécies de libélulas conhecidas em Minas Gerais.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TIRADENTES_AGMINAS_GUIAS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P08",
+            "factKey": "tiradentes-F33",
+            "text": "Em 2007, um decreto reconheceu na serra o primeiro mosaico de unidades de conservação de Minas, com três unidades geridas pelo IEF.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TIRADENTES_AGMINAS_MOSAICO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P09",
+            "factKey": "tiradentes-F34",
+            "text": "Degradada pela mineração do ouro, a vegetação da serra se regenerou em parte depois do esgotamento das lavras.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TIRADENTES_AGMINAS_MOSAICO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P10",
+            "factKey": "tiradentes-F35",
+            "text": "Queimadas, desmatamento para pastagens e expansão urbana ainda pressionam a serra.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TIRADENTES_AGMINAS_MOSAICO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P11",
+            "factKey": "tiradentes-F36",
+            "text": "João de Siqueira Afonso apontou ouro no sopé da serra, e em 1702 surgiu ali o arraial de Santo Antônio.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "TIRADENTES_IBGE",
+              "TIRADENTES_IBGE_MONO",
+              "TIRADENTES_UNESP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P12",
+            "factKey": "tiradentes-F37",
+            "text": "A ocupação inicial teve como referência o Porto Real da Passagem, à beira do rio das Mortes, onde se fixou Tomé Portes del-Rei.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_UNESP",
+              "TIRADENTES_IBGE"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P13",
+            "factKey": "tiradentes-F38",
+            "text": "Em 1709, a região viveu o episódio do Capão da Traição, na luta entre paulistas e emboabas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_IBGE",
+              "TIRADENTES_IBGE_MONO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P14",
+            "factKey": "tiradentes-F39",
+            "text": "Elevado a vila no início do século XVIII, o arraial recebeu o nome de São José, em homenagem ao príncipe D. José.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TIRADENTES_IBGE",
+              "TIRADENTES_TUPI",
+              "TIRADENTES_UNESP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P15",
+            "factKey": "tiradentes-F40",
+            "text": "A vila chegou a ser extinta em 1848, com o território anexado à vizinha, e foi restaurada no ano seguinte.",
+            "relatedFields": [
+              "C3",
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P16",
+            "factKey": "tiradentes-F23",
+            "text": "Virou cidade em 7 de outubro de 1860 e trocou de nome por decreto estadual de 6 de dezembro de 1889, semanas depois da Proclamação da República.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TIRADENTES_IBGE",
+              "TIRADENTES_IBGE_MONO",
+              "TIRADENTES_UNESP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P17",
+            "factKey": "tiradentes-F41",
+            "text": "Com o fim do ouro, a cidade entrou em declínio econômico, revertido pela valorização do patrimônio depois do tombamento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_UNESP"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P18",
+            "factKey": "tiradentes-F42",
+            "text": "O tombamento federal de 1938 protegeu o conjunto arquitetônico e urbanístico e também a paisagem natural.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_UNESP",
+              "TIRADENTES_CATRACA",
+              "TIRADENTES_CORREIO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P19",
+            "factKey": "tiradentes-F43",
+            "text": "O conjunto está inscrito no Livro de Belas Artes do órgão federal de patrimônio, no processo 66-T-38.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_CORREIO",
+              "TIRADENTES_TUPI"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P20",
+            "factKey": "tiradentes-F44",
+            "text": "O turismo trouxe especulação imobiliária: num estudo de 2007, quatro ruas centrais tinham só 11 casas e sobrados de uso residencial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_UNESP"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P21",
+            "factKey": "tiradentes-F45",
+            "text": "Nos anos 1960, segundo o IBGE, a areia de quartzito era o principal produto vendido para fora, e a banana respondia por 42,8% do valor agrícola (1967).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_IBGE_MONO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P22",
+            "factKey": "tiradentes-F46",
+            "text": "Os rios Elvas e das Mortes drenam o município; a monografia do IBGE de 1968 registra média térmica anual de 21 °C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_IBGE_MONO"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P23",
+            "factKey": "tiradentes-F47",
+            "text": "Um distrito criado em 1962 se emancipou em 1995 e virou o município de Santa Cruz de Minas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P24",
+            "factKey": "tiradentes-F14",
+            "text": "Uma linha de bitola de 76 cm, aberta em 1881 pela Estrada de Ferro Oeste de Minas, percorre 12 km até a cidade vizinha.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TIRADENTES_CORREIO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tiradentes-geografo-P25",
+            "factKey": "tiradentes-F24",
+            "text": "O topônimo de 1889 homenageia o alferes da Inconfidência que, segundo o IBGE, nasceu em 1746 na Fazenda do Pombal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TIRADENTES_IBGE",
+              "TIRADENTES_CORREIO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade colonial do Campo das Vertentes (MG), nascida do arraial de Santo Antônio (1702) no ciclo do ouro, vila de São José no século XVIII e rebatizada em 1889 em homenagem ao alferes da Inconfidência; tem conjunto tombado pelo SPHAN em 1938, Matriz de Santo Antônio, chafariz de 1749, a Serra de São José ao fundo e a Maria Fumaça de 1881 até São João del-Rei.",
+      "editorialNotes": [
+        "Datas divergentes: vila criada em 19/01/1718 (IBGE histórico, Tupi; Unesp cita 1718) ou alvará de 12/01/1719 (monografia do IBGE); as pistas dizem só início do século XVIII. Capão da Traição em novembro (IBGE histórico) ou fevereiro (monografia) de 1709; só o ano foi usado. A fundação do arraial de 1702 é atribuída a Siqueira Afonso (IBGE) ou a Tomé Portes (Unesp); as pistas não atribuem.",
+        "Números divergentes deixados fora: altitude da sede 887 m (IBGE, 1968) ou 903 m (Tupi); 190 ou 200 km de Belo Horizonte; ouro da matriz 482 kg (legenda do Correio, sem dizer a igreja) ou cerca de 480 kg (Tupi); Serra de São José com 12 km (Agência Minas, 2007) ou 13 km (2024); duração do trem 35–40 ou 45 minutos; áreas da APA e do refúgio. População do Censo não entrou (IBGE Cidades não aberto). Mês do festival de gastronomia (agosto ou verão) omitido.",
+        "Diferença em relação a Ouro Preto, São João del-Rei e Diamantina: nome dado em 1889, Matriz de Santo Antônio, chafariz de São José (1749), Serra de São José e o trem de 12 km até São João del-Rei. O tombamento de 1938 também vale para outras cidades mineiras, por isso não entrou como campo."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes: IBGE (histórico e monografia de 1968), artigo da Unesp, Agência Minas (duas matérias sobre a Serra de São José), Correio Braziliense, Super Rádio Tupi e Catraca Livre; números divergentes ficaram fora das pistas"
+    }
+  },
+  "sources": {
+    "TIRADENTES_IBGE": {
+      "id": "TIRADENTES_IBGE",
+      "title": "Tiradentes (MG): histórico e formação administrativa",
+      "publisher": "IBGE",
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/minasgerais/tiradentes.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "TIRADENTES_IBGE_MONO": {
+      "id": "TIRADENTES_IBGE_MONO",
+      "title": "Tiradentes, Minas Gerais (Coleção de Monografias Municipais, n. 423, 1968)",
+      "publisher": "IBGE",
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/113/col_mono_n423_tiradentes.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "TIRADENTES_UNESP": {
+      "id": "TIRADENTES_UNESP",
+      "title": "Política de patrimônio e usos estabelecidos: o caso de Tiradentes, uma cidade setecentista mineira (Costa e Oliveira, 2007)",
+      "publisher": "Estudos Geográficos (Unesp, Rio Claro)",
+      "url": "https://www.periodicos.rc.biblioteca.unesp.br/index.php/estgeo/article/download/2288/2001/0",
+      "checkedAt": "2026-11-15"
+    },
+    "TIRADENTES_CORREIO": {
+      "id": "TIRADENTES_CORREIO",
+      "title": "A cidade tombada em 1938 preserva 90% do conjunto barroco setecentista e mantém uma Maria Fumaça inaugurada por Dom Pedro II em 1881",
+      "publisher": "Correio Braziliense",
+      "url": "https://www.correiobraziliense.com.br/cbradar/a-cidade-tombada-em-1938-preserva-90-do-conjunto-barroco-setecentista-e-mantem-uma-maria-fumaca-inaugurada-por-dom-pedro-ii-em-1881/",
+      "checkedAt": "2026-11-15"
+    },
+    "TIRADENTES_TUPI": {
+      "id": "TIRADENTES_TUPI",
+      "title": "A vila brasileira tombada pelo IPHAN em 1938 com 90% do casario original preservado",
+      "publisher": "Super Rádio Tupi",
+      "url": "https://www.tupi.fm/?p=2505550",
+      "checkedAt": "2026-11-15"
+    },
+    "TIRADENTES_CATRACA": {
+      "id": "TIRADENTES_CATRACA",
+      "title": "Essa cidade brasileira parou no tempo e agora é famosa pelo patrimônio histórico",
+      "publisher": "Catraca Livre",
+      "url": "https://catracalivre.com.br/variedades/essa-cidade-brasileira-parou-no-tempo-e-agora-e-famosa-pelo-patrimonio-historico/",
+      "checkedAt": "2026-11-15"
+    },
+    "TIRADENTES_AGMINAS_GUIAS": {
+      "id": "TIRADENTES_AGMINAS_GUIAS",
+      "title": "Instituto Estadual de Florestas credencia guias para unidades de conservação da Serra de São José",
+      "publisher": "Agência Minas (Governo de Minas Gerais)",
+      "url": "https://www.agenciaminas.mg.gov.br/noticia/instituto-estadual-de-florestas-credencia-guias-para-unidades-de-conservacao-da-serra-de-sao-jose/",
+      "checkedAt": "2026-11-15"
+    },
+    "TIRADENTES_AGMINAS_MOSAICO": {
+      "id": "TIRADENTES_AGMINAS_MOSAICO",
+      "title": "Mosaico vai ampliar proteção da Serra de São José em Minas",
+      "publisher": "Agência Minas (Governo de Minas Gerais)",
+      "url": "https://www.agenciaminas.mg.gov.br/noticia/mosaico-vai-ampliar-protecao-da-serra-de-sao-jose-em-minas-2-44493",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://biblioteca.ibge.gov.br/visualizacao/dtb/minasgerais/tiradentes.pdf",
+      "https://biblioteca.ibge.gov.br/visualizacao/periodicos/113/col_mono_n423_tiradentes.pdf",
+      "https://www.periodicos.rc.biblioteca.unesp.br/index.php/estgeo/article/download/2288/2001/0",
+      "https://www.correiobraziliense.com.br/cbradar/a-cidade-tombada-em-1938-preserva-90-do-conjunto-barroco-setecentista-e-mantem-uma-maria-fumaca-inaugurada-por-dom-pedro-ii-em-1881/",
+      "https://www.tupi.fm/?p=2505550",
+      "https://catracalivre.com.br/variedades/essa-cidade-brasileira-parou-no-tempo-e-agora-e-famosa-pelo-patrimonio-historico/",
+      "https://www.agenciaminas.mg.gov.br/noticia/instituto-estadual-de-florestas-credencia-guias-para-unidades-de-conservacao-da-serra-de-sao-jose/",
+      "https://www.agenciaminas.mg.gov.br/noticia/mosaico-vai-ampliar-protecao-da-serra-de-sao-jose-em-minas-2-44493"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

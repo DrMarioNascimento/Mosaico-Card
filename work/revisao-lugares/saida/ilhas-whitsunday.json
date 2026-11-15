@@ -1,0 +1,1090 @@
+{
+  "case": {
+    "id": "lug3-ilhas-whitsunday",
+    "placeId": "ilhas-whitsunday",
+    "title": "Ilhas Whitsunday",
+    "aliases": [
+      "Whitsundays"
+    ],
+    "answerType": "arquipélago",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "AU"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Ilha ou grupo de ilhas da Oceania",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Ilhas Whitsunday"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Grupo de Ilhas Lord Howe"
+          },
+          {
+            "id": "C1-O3",
+            "text": "K’gari"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Ilha Norfolk"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Ilha Rottnest"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Ilha Kangaroo"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Ilha Phillip"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Ilha Moreton"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Ilha Bruny"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Ilha Magnetic"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Ilha Hinchinbrook"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Ilhas Keppel"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Ilhas do Estreito de Torres"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Arquipélago Houtman Abrolhos"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Ilhas Furneaux"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Bora Bora"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Ilhas Whitsunday",
+        "sources": [
+          "WS_NASA",
+          "WS_BRIT",
+          "WS_QPWS"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Praia mais famosa do destino, de areia de sílica",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Praia Whitehaven"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Praia Hyams"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Praia Seventy-Five Mile"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Praia Cable"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Praia Whitehaven",
+        "sources": [
+          "WS_TW",
+          "WS_NASA",
+          "WS_QPWS_HILL"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Povo aborígine dono tradicional do arquipélago",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Ngaro"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Butchulla"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Quandamooka"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Bundjalung"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Ngaro",
+        "sources": [
+          "WS_QPWS_CULT",
+          "WS_QPWS"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Origem das ilhas",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Topos de uma antiga cordilheira costeira afogada pela subida do mar"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Ilhas de coral formadas sobre recifes"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Ilhas de areia formadas pelo acúmulo de dunas"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Vulcões oceânicos isolados no mar aberto"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Topos de uma antiga cordilheira costeira afogada pela subida do mar",
+        "sources": [
+          "WS_QPWS",
+          "WS_BRIT"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "ilhas-whitsunday-viajante-P01",
+            "factKey": "ilhas-whitsunday-F01",
+            "text": "São ilhas de morros cobertos de mata, cercadas de praias brancas e águas azul-turquesa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_QPWS",
+              "WS_NASA",
+              "WS_QPWS_HILL"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P02",
+            "factKey": "ilhas-whitsunday-F02",
+            "text": "O destino fica na costa leste da Austrália, entre o continente e os recifes mais afastados do litoral.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_NASA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P03",
+            "factKey": "ilhas-whitsunday-F03",
+            "text": "A marca registrada daqui são praias de areia branca de sílica pura.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "WS_TW",
+              "WS_QPWS"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P04",
+            "factKey": "ilhas-whitsunday-F04",
+            "text": "A praia mais famosa tem uns 7 km de areia de sílica.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "WS_TW"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P05",
+            "factKey": "ilhas-whitsunday-F05",
+            "text": "Numa enseada no norte dessa praia, a maré mistura areia branca e água turquesa em desenhos que mudam o tempo todo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "WS_QPWS_HILL",
+              "WS_TW"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P06",
+            "factKey": "ilhas-whitsunday-F06",
+            "text": "Uma trilha curta, de 1,3 km ida e volta, leva a mirantes sobre essa enseada.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "WS_QPWS_HILL",
+              "WS_TW"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P07",
+            "factKey": "ilhas-whitsunday-F07",
+            "text": "Não há balsa pública até a praia famosa: chega-se em barcos de passeio.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "WS_TW"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P08",
+            "factKey": "ilhas-whitsunday-F08",
+            "text": "Voos panorâmicos de hidroavião e helicóptero sobrevoam a enseada, e alguns pousam na praia.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "WS_TW"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P09",
+            "factKey": "ilhas-whitsunday-F09",
+            "text": "A maioria dos visitantes sai de Airlie Beach, no continente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_TW"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P10",
+            "factKey": "ilhas-whitsunday-F10",
+            "text": "A alta temporada é o inverno, de junho a agosto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_TW"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P11",
+            "factKey": "ilhas-whitsunday-F11",
+            "text": "No inverno, baleias-jubarte são comuns nestas águas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_QPWS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P12",
+            "factKey": "ilhas-whitsunday-F12",
+            "text": "Tartarugas marinhas, tubarões, raias e centenas de peixes de recife aparecem por aqui.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_QPWS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P13",
+            "factKey": "ilhas-whitsunday-F13",
+            "text": "Nos meses mais quentes, os passeios fornecem roupas de proteção contra águas-vivas para quem vai nadar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_TW"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P14",
+            "factKey": "ilhas-whitsunday-F14",
+            "text": "Nas ilhas vive um pequeno canguru-das-rochas, o wallaby-das-rochas-simples (unadorned rock-wallaby).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_QPWS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P15",
+            "factKey": "ilhas-whitsunday-F15",
+            "text": "Estas ilhas estão entre as mais livres de pragas do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_QPWS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P16",
+            "factKey": "ilhas-whitsunday-F16",
+            "text": "Os donos tradicionais, chamados de \"Povo das Canoas\", estão ligados a estas ilhas há pelo menos 9 mil anos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P17",
+            "factKey": "ilhas-whitsunday-F17",
+            "text": "Eles navegavam em canoas feitas de três pedaços de casca de árvore costurados com raízes.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P18",
+            "factKey": "ilhas-whitsunday-F18",
+            "text": "Numa enseada de uma das ilhas há arte rupestre aborígine.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WS_QPWS",
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P19",
+            "factKey": "ilhas-whitsunday-F19",
+            "text": "Há armadilhas de pedra para peixes espalhadas pelas ilhas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P20",
+            "factKey": "ilhas-whitsunday-F20",
+            "text": "Uma das ilhas tem uma pista de pouso feita para receber voos diretos das grandes cidades australianas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_NASA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P21",
+            "factKey": "ilhas-whitsunday-F21",
+            "text": "No século XIX, madeireiros acampavam nas ilhas para cortar araucárias (hoop pine) e abastecer a cidade de Bowen.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P22",
+            "factKey": "ilhas-whitsunday-F22",
+            "text": "Algumas ilhas já viraram parque nacional no fim da década de 1930.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P23",
+            "factKey": "ilhas-whitsunday-F23",
+            "text": "As ilhas Molle, deste arquipélago, foram batizadas em 1815 pelo tenente Charles Jeffreys.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P24",
+            "factKey": "ilhas-whitsunday-F24",
+            "text": "O nome do arquipélago vem do domingo de Pentecostes, em inglês: James Cook passou por aqui nessa época, em junho de 1770.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_NASA",
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-viajante-P25",
+            "factKey": "ilhas-whitsunday-F25",
+            "text": "A Praia Whitehaven fica na maior ilha do arquipélago, que tem o mesmo nome do grupo.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "WS_NASA",
+              "WS_TW"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "ilhas-whitsunday-geografo-P01",
+            "factKey": "ilhas-whitsunday-F26",
+            "text": "São ilhas continentais, e não de coral: terras altas de rocha, com penhascos e cobertas de mata.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "WS_BRIT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P02",
+            "factKey": "ilhas-whitsunday-F27",
+            "text": "O arquipélago reúne dezenas de ilhas altas no litoral leste da Austrália, de frente para o continente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_BRIT",
+              "WS_NASA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P03",
+            "factKey": "ilhas-whitsunday-F28",
+            "text": "Os morros das ilhas são os antigos topos de uma cordilheira costeira que o mar \"afogou\" ao subir.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "WS_QPWS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P04",
+            "factKey": "ilhas-whitsunday-F29",
+            "text": "Esse afogamento ocorreu enquanto as calotas polares derretiam, entre 19 mil e 6 mil anos atrás.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "WS_QPWS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P05",
+            "factKey": "ilhas-whitsunday-F30",
+            "text": "Em volta das ilhas, manchas azul-claras na água revelam fundos arenosos e recifes de franja rasos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_NASA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P06",
+            "factKey": "ilhas-whitsunday-F31",
+            "text": "A maior parte da cadeia de ilhas é parque nacional, encaixado dentro de um parque marinho maior.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_NASA",
+              "WS_QPWS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P07",
+            "factKey": "ilhas-whitsunday-F32",
+            "text": "Mais de 96% dos cerca de 30 mil hectares administrados pelo serviço de parques são áreas protegidas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P08",
+            "factKey": "ilhas-whitsunday-F33",
+            "text": "Em 1820, o capitão Phillip King fez o levantamento de um conjunto maior de ilhas, batizado em homenagem ao duque de Cumberland, de que estas fazem parte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P09",
+            "factKey": "ilhas-whitsunday-F34",
+            "text": "A arqueologia indica ocupação aborígine há pelo menos 9 mil anos; numa caverna com arte rupestre, restos de conchas e ossos mostram uso há cerca de 2.500 anos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P10",
+            "factKey": "ilhas-whitsunday-F35",
+            "text": "Navegadores europeus registraram remadores aborígines percorrendo 21 km de canoa entre duas ilhas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P11",
+            "factKey": "ilhas-whitsunday-F36",
+            "text": "Numa pedreira na Ilha South Molle foram achados machados e ferramentas de corte de pedra.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P12",
+            "factKey": "ilhas-whitsunday-F37",
+            "text": "Arpões destacáveis serviam para caçar dugongos, e redes de capim trançado pegavam peixes e mariscos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P13",
+            "factKey": "ilhas-whitsunday-F38",
+            "text": "Fibra de hibisco nativo virava sacolas, linhas e redes; a casuarina costeira dava casca medicinal e madeira dura para lanças.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P14",
+            "factKey": "ilhas-whitsunday-F39",
+            "text": "O fogo era usado para aquecer, cozinhar e manejar os campos de capim das ilhas.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P15",
+            "factKey": "ilhas-whitsunday-F40",
+            "text": "A partir da década de 1880, muitos aborígines foram removidos à força das ilhas; nos anos 1930, poucos restavam.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P16",
+            "factKey": "ilhas-whitsunday-F21",
+            "text": "A ocupação europeia começou nos anos 1860, com acampamentos de corte de araucária que abasteceram Bowen por cerca de 40 anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P17",
+            "factKey": "ilhas-whitsunday-F41",
+            "text": "As primeiras tentativas de criar gado falharam; só no fim do século XIX a criação de ovelhas se firmou.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P18",
+            "factKey": "ilhas-whitsunday-F42",
+            "text": "O porto de Shute Harbour fica 10 km além de Airlie Beach, e a Ilha Hamilton está 20 km a sudeste dele.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_QPWS_HILL"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P19",
+            "factKey": "ilhas-whitsunday-F43",
+            "text": "No litoral do continente, em frente às ilhas, fica parte do Parque Nacional de Conway.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_NASA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P20",
+            "factKey": "ilhas-whitsunday-F44",
+            "text": "Na Segunda Guerra Mundial, as águas entre o continente e as ilhas serviram de abrigo contra tempestades à Marinha dos EUA antes da Batalha do Mar de Coral.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_NASA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P21",
+            "factKey": "ilhas-whitsunday-F24",
+            "text": "James Cook entrou no arquipélago em 1º de junho de 1770 e batizou a passagem dois dias depois, em 3 de junho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_QPWS_CULT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P22",
+            "factKey": "ilhas-whitsunday-F45",
+            "text": "Por um erro de data, a chegada de Cook foi na verdade numa segunda-feira, e não no domingo que inspirou o nome — mas o nome ficou.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_NASA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P23",
+            "factKey": "ilhas-whitsunday-F46",
+            "text": "Entre as plantas raras das ilhas está uma espécie de árvore-garrafa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WS_QPWS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P24",
+            "factKey": "ilhas-whitsunday-F47",
+            "text": "A trilha do mirante sai de Tongue Point, no lado norte de Hill Inlet, e o parque nacional fica a uns 25 km a leste de Airlie Beach.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "WS_QPWS_HILL"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilhas-whitsunday-geografo-P25",
+            "factKey": "ilhas-whitsunday-F48",
+            "text": "Os donos tradicionais são os Ngaro, o \"Povo das Canoas\", cuja arte rupestre está na enseada de Nara, na Ilha Hook.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WS_QPWS_CULT",
+              "WS_QPWS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Arquipélago de ilhas continentais na costa leste da Austrália, diante de Airlie Beach, formado pelos topos de uma cordilheira costeira afogada pela subida do mar; tem a Praia Whitehaven e Hill Inlet, de areia de sílica, e é terra tradicional do povo Ngaro, o \"Povo das Canoas\".",
+      "editorialNotes": [
+        "As ilhas ficam dentro da área da Grande Barreira de Corais, que já está no banco (grande-barreira-corais); por isso as pistas evitam traços genéricos de recife e destacam a origem continental, a praia de sílica, o povo Ngaro e a história local.",
+        "O número de ilhas depende da definição do grupo (cerca de 74 nas Whitsundays, segundo a NASA; mais de 70 nas Ilhas Cumberland, segundo a Britannica), e o tempo da trilha de Hill Inlet também diverge (40 min no QPWS; cerca de 20 min por trecho no Tourism Whitsundays); as pistas não citam esses números.",
+        "O que Cook batizou varia: o QPWS fala da passagem (\"Whitsunday's Passage\", em 3/6/1770) e a NASA, da ilha maior; as pistas só afirmam o que cada fonte diz."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "WS_QPWS": {
+      "id": "WS_QPWS",
+      "title": "About Whitsunday Islands National Park",
+      "publisher": "Queensland Parks and Wildlife Service (governo de Queensland)",
+      "url": "https://parks.des.qld.gov.au/parks/whitsunday-islands/about",
+      "checkedAt": "2026-11-15"
+    },
+    "WS_QPWS_CULT": {
+      "id": "WS_QPWS_CULT",
+      "title": "Whitsunday national park islands — Ngaro Country: culture",
+      "publisher": "Queensland Parks and Wildlife Service (governo de Queensland)",
+      "url": "https://parks.qld.gov.au/parks/parks-whitsundays/about/culture",
+      "checkedAt": "2026-11-15"
+    },
+    "WS_QPWS_HILL": {
+      "id": "WS_QPWS_HILL",
+      "title": "Hill Inlet lookout track — Whitsunday Islands National Park",
+      "publisher": "Queensland Parks and Wildlife Service (governo de Queensland)",
+      "url": "https://parks.qld.gov.au/parks/whitsunday-islands/journeys/hill-inlet-lookout-track",
+      "checkedAt": "2026-11-15"
+    },
+    "WS_TW": {
+      "id": "WS_TW",
+      "title": "Whitehaven Beach visitor guide",
+      "publisher": "Tourism Whitsundays (órgão regional de turismo)",
+      "url": "https://www.tourismwhitsundays.com.au/blog/whitehaven-beach-visitor-guide",
+      "checkedAt": "2026-11-15"
+    },
+    "WS_BRIT": {
+      "id": "WS_BRIT",
+      "title": "Cumberland Islands",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/print/article/146414",
+      "checkedAt": "2026-11-15"
+    },
+    "WS_NASA": {
+      "id": "WS_NASA",
+      "title": "Whitsunday Islands, Queensland, Australia",
+      "publisher": "NASA Earth Observatory",
+      "url": "https://science.nasa.gov/earth/earth-observatory/whitsunday-islands-queensland-australia-42131/",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://parks.des.qld.gov.au/parks/whitsunday-islands/about",
+      "https://parks.qld.gov.au/parks/parks-whitsundays/about/culture",
+      "https://parks.qld.gov.au/parks/whitsunday-islands/journeys/hill-inlet-lookout-track",
+      "https://www.tourismwhitsundays.com.au/blog/whitehaven-beach-visitor-guide",
+      "https://www.britannica.com/print/article/146414",
+      "https://science.nasa.gov/earth/earth-observatory/whitsunday-islands-queensland-australia-42131/"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

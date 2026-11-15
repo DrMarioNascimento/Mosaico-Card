@@ -1,0 +1,1110 @@
+{
+  "case": {
+    "id": "lug3-aksum",
+    "placeId": "aksum",
+    "title": "Aksum",
+    "aliases": [
+      "Axum"
+    ],
+    "answerType": "cidade histórica e sítio arqueológico",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "ET"
+      ],
+      "continents": [
+        "africa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Sítio histórico africano",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Aksum"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Igrejas escavadas de Lalibela"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Fasil Ghebbi (Gondar)"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Cidade fortificada de Harar"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Estelas de Tiya"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Sítios arqueológicos da Ilha de Meroé"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Gebel Barkal (Napata)"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Grande Zimbábue"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Cartago"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Pirâmides de Gizé"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Templos de Abu Simbel"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Timbuktu"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Cidades Antigas de Djenné"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Mbanza Kongo"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Ruínas de Kilwa Kisiwani e Songo Mnara"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Leptis Magna"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Aksum",
+        "sources": [
+          "AKSUM_EB",
+          "AKSUM_MET"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rocha das grandes estelas",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Granito"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Arenito"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Basalto"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Calcário"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Granito",
+        "sources": [
+          "AKSUM_EB",
+          "AKSUM_MET"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Rei que adotou o cristianismo no século IV",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Ezana"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Kaleb"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Menelik I"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Lalibela"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Ezana",
+        "sources": [
+          "AKSUM_MET",
+          "AKSUM_BRITISHMUSEUM"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Relíquia que, segundo a tradição, é guardada numa capela do lugar",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Arca da Aliança"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Santo Sudário"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Santo Graal"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Coroa de espinhos"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Arca da Aliança",
+        "sources": [
+          "AKSUM_EB",
+          "AKSUM_EB_SIAO",
+          "AKSUM_MET"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "aksum-viajante-P01",
+            "factKey": "aksum-F01",
+            "text": "Pela cidade e arredores há ruínas de palácios, túmulos e grandes pedras talhadas de muitos séculos atrás.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_BRITISHMUSEUM",
+              "AKSUM_MET"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P02",
+            "factKey": "aksum-F02",
+            "text": "Os antigos moradores já comiam injera, panqueca fermentada de teff, e bebiam tej, um hidromel de mel e água.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_BRITISHMUSEUM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P03",
+            "factKey": "aksum-F03",
+            "text": "Fica no alto, a cerca de 2.100 metros de altitude, numa planície entre morros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_EB",
+              "AKSUM_BRITISHMUSEUM"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P04",
+            "factKey": "aksum-F04",
+            "text": "Na maior parte do ano o tempo é quente e ensolarado; julho e agosto são os meses de chuva.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_BRITISHMUSEUM"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P05",
+            "factKey": "aksum-F05",
+            "text": "Fica no norte da Etiópia, perto da fronteira com a Eritreia, logo a oeste da cidade de Adwa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_EB",
+              "AKSUM_ONU_NEWS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P06",
+            "factKey": "aksum-F06",
+            "text": "Hoje é uma cidade turística e universitária, além de um importante centro religioso.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_EB",
+              "AKSUM_MET"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P07",
+            "factKey": "aksum-F07",
+            "text": "Foi a capital de um rico reino comercial que prosperou do século I ao VIII.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_MET",
+              "AKSUM_BRITISHMUSEUM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P08",
+            "factKey": "aksum-F08",
+            "text": "Um profeta persa do século III colocou esse reino entre os quatro grandes da Terra, ao lado de Roma e da China.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_BRITISHMUSEUM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P09",
+            "factKey": "aksum-F09",
+            "text": "O reino negociava pelo mar Vermelho, pelo porto de Adulis, vendendo marfim e ouro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_BRITISHMUSEUM",
+              "AKSUM_MET"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P10",
+            "factKey": "aksum-F10",
+            "text": "Era um dos poucos Estados da época que cunhavam moedas de ouro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_BRITISHMUSEUM",
+              "AKSUM_MET"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P11",
+            "factKey": "aksum-F11",
+            "text": "Num campo central há mais de cem estelas de pedra, algumas de pé, outras tombadas e quebradas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_EB",
+              "AKSUM_MET"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P12",
+            "factKey": "aksum-F12",
+            "text": "As maiores estelas imitam prédios de vários andares, com portas, janelas e vigas esculpidas na pedra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_MET",
+              "AKSUM_BRITISHMUSEUM"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P13",
+            "factKey": "aksum-F13",
+            "text": "As estelas são de granito e foram tiradas de uma pedreira a oeste da cidade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AKSUM_EB",
+              "AKSUM_MET"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P14",
+            "factKey": "aksum-F14",
+            "text": "A maior estela, hoje caída, é apontada como o maior obelisco erguido no mundo antigo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AKSUM_MET",
+              "AKSUM_EB"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P15",
+            "factKey": "aksum-F15",
+            "text": "As estelas marcam sepulturas, com túmulos subterrâneos escuros embaixo; um dos túmulos antigos tem uma porta falsa de tamanho real esculpida.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_BRITISHMUSEUM",
+              "AKSUM_MET"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P16",
+            "factKey": "aksum-F16",
+            "text": "Uma das estelas foi levada para Roma por tropas italianas em 1937 e só voltou em 2005.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_EB",
+              "AKSUM_MET",
+              "AKSUM_ONU_NEWS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P17",
+            "factKey": "aksum-F17",
+            "text": "A estela devolvida, com cerca de 24 metros e 150 toneladas, foi cortada em três blocos e reerguida em 2008.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_ONU_NEWS",
+              "AKSUM_UNESCO_ESTELA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P18",
+            "factKey": "aksum-F18",
+            "text": "Uma pedra antiga traz inscrições em três línguas: grego, ge'ez e sabeu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_MET",
+              "AKSUM_BRITISHMUSEUM"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P19",
+            "factKey": "aksum-F19",
+            "text": "No século IV, o rei se converteu ao cristianismo, e as moedas trocaram o crescente pela cruz.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AKSUM_MET",
+              "AKSUM_BRITISHMUSEUM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P20",
+            "factKey": "aksum-F20",
+            "text": "A língua antiga do lugar, o ge'ez, tem escrita própria, em que cada símbolo vale uma sílaba ou uma consoante.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_BRITISHMUSEUM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P21",
+            "factKey": "aksum-F21",
+            "text": "É uma cidade santa para a Igreja Ortodoxa Etíope.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P22",
+            "factKey": "aksum-F22",
+            "text": "Uma lenda conta que Menelik I, filho do rei Salomão e da rainha de Sabá, trouxe para cá a Arca da Aliança de Jerusalém.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "AKSUM_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P23",
+            "factKey": "aksum-F23",
+            "text": "A igreja de Santa Maria de Sião foi destruída e reconstruída várias vezes; o prédio atual é do século XVII.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "AKSUM_EB_SIAO",
+              "AKSUM_MET"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P24",
+            "factKey": "aksum-F24",
+            "text": "Uma capela daqui guardaria a Arca da Aliança, e um campo de estelas gigantes de granito marca os túmulos dos antigos reis etíopes.",
+            "relatedFields": [
+              "C1",
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "AKSUM_MET",
+              "AKSUM_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-viajante-P25",
+            "factKey": "aksum-F25",
+            "text": "Foi a capital do reino de Ezana, o rei que adotou o cristianismo, e serviu para coroar reis etíopes até meados do século XIX.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "AKSUM_MET"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "aksum-geografo-P01",
+            "factKey": "aksum-F26",
+            "text": "O poder do lugar vinha de rotas que ligavam o interior africano ao comércio marítimo entre o Mediterrâneo e o oceano Índico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_BRITISHMUSEUM",
+              "AKSUM_MET"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P02",
+            "factKey": "aksum-F03",
+            "text": "Situada nos planaltos do nordeste africano, a cerca de 2.100 m, tem chuvas concentradas em julho e agosto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_EB",
+              "AKSUM_BRITISHMUSEUM"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P03",
+            "factKey": "aksum-F27",
+            "text": "Fica a cerca de 150 km a sudoeste do mar Vermelho e a 50 km a nordeste do rio Tekezé, entre os morros de Beta Giyorgis e May Qoho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_BRITISHMUSEUM"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P04",
+            "factKey": "aksum-F28",
+            "text": "O reino dominou os planaltos do norte da atual Etiópia e da Eritreia e, no auge, chegou ao sul da Arábia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_MET"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P05",
+            "factKey": "aksum-F09",
+            "text": "A riqueza passava pelo porto de Adulis, no golfo de Zula, onde marfim e ouro eram trocados por vidro, contas, metais e vinho do Mediterrâneo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_BRITISHMUSEUM"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P06",
+            "factKey": "aksum-F10",
+            "text": "As moedas de ouro, com legendas em grego, serviam ao comércio internacional; as de latão, com legendas em ge'ez, ao mercado local.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_MET"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P07",
+            "factKey": "aksum-F29",
+            "text": "Fora o Egito e Meroé, foi o único Estado africano antigo com registros escritos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_MET"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P08",
+            "factKey": "aksum-F19",
+            "text": "A conversão do rei, por volta de 330, fez do reino um dos primeiros Estados cristãos; perto de 350, Alexandria nomeou Frumêncio seu bispo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AKSUM_MET",
+              "AKSUM_BRITISHMUSEUM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P09",
+            "factKey": "aksum-F20",
+            "text": "Textos cristãos traduzidos do grego para o ge'ez fizeram dessa língua semítica a base da liturgia ortodoxa etíope.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_BRITISHMUSEUM",
+              "AKSUM_MET"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P10",
+            "factKey": "aksum-F11",
+            "text": "As estelas, dos séculos III e IV, formam um parque junto à torrente Maj Hejja; outras cerca de 600, toscas, ficam num cemitério comum, o Campo de Gudit.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_MET"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P11",
+            "factKey": "aksum-F13",
+            "text": "Os monólitos de granito saíram da pedreira de Wuchate Golo, partidos com cunhas de madeira inchadas com água e levados sobre rolos e cordas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AKSUM_MET",
+              "AKSUM_EB"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P12",
+            "factKey": "aksum-F30",
+            "text": "Fincadas em fossos murados e calçadas por lajes de base entalhadas, as estelas marcavam túmulos cavados embaixo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_MET",
+              "AKSUM_BRITISHMUSEUM"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P13",
+            "factKey": "aksum-F31",
+            "text": "Análises recentes indicam que a maior estela foi derrubada de propósito no fim do século VI, quando o império declinava.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_MET"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P14",
+            "factKey": "aksum-F32",
+            "text": "Palácios como Ta'akha Maryam, com mais de 10 mil m², combinavam pedra, barro e vigas de madeira sobre pódios altos de granito.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AKSUM_BRITISHMUSEUM",
+              "AKSUM_MET"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P15",
+            "factKey": "aksum-F33",
+            "text": "Aberturas em \"cabeça de macaco\", formadas pelas pontas arredondadas das vigas, marcam a arquitetura do reino e reaparecem no mosteiro de Debre Damo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_MET",
+              "AKSUM_BRITISHMUSEUM"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P16",
+            "factKey": "aksum-F34",
+            "text": "As igrejas escavadas na rocha de Lalibela reproduzem formas da arquitetura deste antigo reino.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_MET"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P17",
+            "factKey": "aksum-F35",
+            "text": "Em 1906, uma expedição alemã numerou as estelas por tamanho; nos anos 1960, elas foram divididas em grupos norte e sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_MET"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P18",
+            "factKey": "aksum-F36",
+            "text": "Vidro, joias, marfim, moedas e cerâmica dos túmulos confirmam as importações descritas no Périplo do Mar Eritreu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_MET"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P19",
+            "factKey": "aksum-F16",
+            "text": "Levada a Roma em 1937, na invasão de Mussolini, uma estela voltou em 2005 por acordo com a Itália, que pagou desmonte, transporte e reinstalação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_ONU_NEWS",
+              "AKSUM_MET"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P20",
+            "factKey": "aksum-F17",
+            "text": "Cortada em três blocos, a segunda maior estela do sítio foi remontada no lugar original por equipes da UNESCO entre junho e julho de 2008.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_UNESCO_ESTELA",
+              "AKSUM_ONU_NEWS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P21",
+            "factKey": "aksum-F37",
+            "text": "O império declinou há 1.000 a 1.300 anos por causas políticas e econômicas, mas a cidade seguiu como lugar de coroação até meados do século XIX.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_MET"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P22",
+            "factKey": "aksum-F23",
+            "text": "A catedral, uma basílica de cinco naves destruída no século XVI, foi refeita em meados do século XVII no estilo de Gondar.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "AKSUM_MET",
+              "AKSUM_EB_SIAO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P23",
+            "factKey": "aksum-F38",
+            "text": "Treze tronos de granito em duas fileiras, mais um isolado, eram usados nas cerimônias de coroação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AKSUM_MET"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P24",
+            "factKey": "aksum-F24",
+            "text": "O Kebra Negast, do século XIV, sustenta a tradição de que a Arca da Aliança veio de Jerusalém para cá, onde ficaria na Capela da Tábua.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "AKSUM_EB",
+              "AKSUM_MET"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aksum-geografo-P25",
+            "factKey": "aksum-F25",
+            "text": "Patrimônio Mundial desde 1980, foi capital do reino que cunhou ouro, ergueu o maior obelisco do mundo antigo e teve Ezana como rei cristão.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "AKSUM_MET"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Antiga capital do reino de mesmo nome, no norte da Etiópia, perto da Eritreia: do século I ao VIII comerciou pelo porto de Adulis, cunhou moedas de ouro e ergueu estelas monumentais de granito; o rei Ezana adotou o cristianismo no século IV, e a tradição diz que a Arca da Aliança está guardada junto à igreja de Santa Maria de Sião. Patrimônio Mundial desde 1980.",
+      "editorialNotes": [
+        "A maior estela tem cerca de 34 m segundo a Britannica e cerca de 32 m segundo o Met; o peso passa de 520 t (British Museum) ou de 550 t (Met). As pistas não usam essas medidas.",
+        "Número de estelas no campo central: 126 (Britannica) ou cerca de 120 (Met); as pistas dizem só \"mais de cem\". População: 47.300 em 2006 (Britannica) e cerca de 56 mil hoje (Met); não usada.",
+        "O guia do British Museum é escrito como se fosse para um viajante do século VI; só foram usados dados históricos e geográficos dele. A conversão de Ezana aparece como \"por volta de 330\" (Met) e \"meados do século IV\" (British Museum)."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: dois verbetes da Britannica, ensaio do Metropolitan Museum, guia histórico do British Museum, notícia do Centro do Patrimônio Mundial da UNESCO e ONU News sobre a reinstalação da estela; C1 com 16 sítios históricos africanos comparáveis."
+    }
+  },
+  "sources": {
+    "AKSUM_EB": {
+      "id": "AKSUM_EB",
+      "title": "Aksum",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/print/article/11803",
+      "checkedAt": "2026-11-15"
+    },
+    "AKSUM_EB_SIAO": {
+      "id": "AKSUM_EB_SIAO",
+      "title": "Church of St. Mary of Zion",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://britannica.com/place/Church-of-St-Mary-of-Zion",
+      "checkedAt": "2026-11-15"
+    },
+    "AKSUM_MET": {
+      "id": "AKSUM_MET",
+      "title": "Monumental Architecture and Stelae of the Aksumite Empire",
+      "publisher": "The Metropolitan Museum of Art (Heilbrunn Timeline of Art History)",
+      "url": "https://www.metmuseum.org/essays/monumental-architecture-and-stelae-of-the-aksumite-empire",
+      "checkedAt": "2026-11-15"
+    },
+    "AKSUM_BRITISHMUSEUM": {
+      "id": "AKSUM_BRITISHMUSEUM",
+      "title": "Historical city travel guide: Aksum, 6th century AD",
+      "publisher": "The British Museum (blog)",
+      "url": "https://www.britishmuseum.org/blog/historical-city-travel-guide-aksum-6th-century-ad",
+      "checkedAt": "2026-11-15"
+    },
+    "AKSUM_UNESCO_ESTELA": {
+      "id": "AKSUM_UNESCO_ESTELA",
+      "title": "Second block of Aksum Obelisk successfully re-installed",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/news/455",
+      "checkedAt": "2026-11-15"
+    },
+    "AKSUM_ONU_NEWS": {
+      "id": "AKSUM_ONU_NEWS",
+      "title": "UNESCO teams successfully reinstall Ethiopian obelisk to original site",
+      "publisher": "UN News",
+      "url": "https://news.un.org/en/node/268092",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.britannica.com/print/article/11803",
+      "https://britannica.com/place/Church-of-St-Mary-of-Zion",
+      "https://www.metmuseum.org/essays/monumental-architecture-and-stelae-of-the-aksumite-empire",
+      "https://www.britishmuseum.org/blog/historical-city-travel-guide-aksum-6th-century-ad",
+      "https://whc.unesco.org/en/news/455",
+      "https://news.un.org/en/node/268092"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

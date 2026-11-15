@@ -1,0 +1,1090 @@
+{
+  "case": {
+    "id": "lug3-lago-baikal",
+    "placeId": "lago-baikal",
+    "title": "Lago Baikal",
+    "aliases": [
+      "Baikal",
+      "Baical"
+    ],
+    "answerType": "lago",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "RU"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Lago",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Lago Baikal"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Lago Khövsgöl"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Lago Issyk-Kul"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Lago Balkhash"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Lago Qinghai"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Mar de Aral"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Lago Biwa"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Lago Toba"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Mar Morto"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Lago Inle"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Tonle Sap"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Lago Van"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Lago Teletskoye"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Lago Namtso"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Lago Baikal",
+        "sources": [
+          "BAIKAL_IUCN_WHO",
+          "BAIKAL_BRITANNICA",
+          "BAIKAL_IUCN_1996"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Único rio que escoa as águas do lago",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Angara"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Selenga"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Biya"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Ili"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Angara",
+        "sources": [
+          "BAIKAL_BRITANNICA",
+          "BAIKAL_LIVESCIENCE"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Mamífero endêmico que é símbolo do lago",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Foca de água doce"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Golfinho-do-irrawaddy"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Lontra-marinha"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Dugongo"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Foca de água doce",
+        "sources": [
+          "BAIKAL_IUCN_WHO",
+          "BAIKAL_LIVESCIENCE",
+          "BAIKAL_BRITANNICA"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Origem geológica da bacia do lago",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Fenda tectônica continental (rifte)"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Cratera vulcânica (caldeira)"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Escavação por geleiras"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Resto de um mar antigo"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Fenda tectônica continental (rifte)",
+        "sources": [
+          "BAIKAL_IUCN_WHO",
+          "BAIKAL_IUCN_1996"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "lago-baikal-viajante-P01",
+            "factKey": "lago-baikal-F01",
+            "text": "Este destino é um grande lago de água doce no interior da Ásia, cercado de montanhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_BRITANNICA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P02",
+            "factKey": "lago-baikal-F02",
+            "text": "No inverno a superfície congela, e o gelo só derrete em maio ou junho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_BRITANNICA",
+              "BAIKAL_LIVESCIENCE"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P03",
+            "factKey": "lago-baikal-F03",
+            "text": "A água é tão transparente que, da superfície, dá para enxergar até uns 40 metros de profundidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_BRITANNICA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P04",
+            "factKey": "lago-baikal-F04",
+            "text": "No auge do inverno, o gelo pode chegar a 2 metros de espessura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_LIVESCIENCE"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P05",
+            "factKey": "lago-baikal-F05",
+            "text": "À beira do lago o clima é mais ameno que no território em volta, mas a média de inverno ainda fica perto de −21 °C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_BRITANNICA"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P06",
+            "factKey": "lago-baikal-F06",
+            "text": "Algumas montanhas ao redor sobem mais de 2.000 metros acima da superfície da água.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BAIKAL_BRITANNICA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P07",
+            "factKey": "lago-baikal-F07",
+            "text": "É o lago mais fundo do planeta.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO",
+              "BAIKAL_BRITANNICA",
+              "BAIKAL_LIVESCIENCE"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P08",
+            "factKey": "lago-baikal-F08",
+            "text": "Sozinho, guarda cerca de um quinto da água doce da superfície da Terra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO",
+              "BAIKAL_BRITANNICA",
+              "BAIKAL_LIVESCIENCE"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P09",
+            "factKey": "lago-baikal-F09",
+            "text": "Seu volume de água se compara ao dos cinco Grandes Lagos da América do Norte somados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_LIVESCIENCE"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P10",
+            "factKey": "lago-baikal-F10",
+            "text": "Mais de 300 rios e riachos desembocam nele.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BAIKAL_BRITANNICA",
+              "BAIKAL_LIVESCIENCE"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P11",
+            "factKey": "lago-baikal-F11",
+            "text": "Só um rio leva a água para fora do lago, e ele depois deságua no Ienissei.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BAIKAL_BRITANNICA",
+              "BAIKAL_LIVESCIENCE"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P12",
+            "factKey": "lago-baikal-F12",
+            "text": "O maior rio que chega ao lago traz quase metade de toda a água que ele recebe.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BAIKAL_LIVESCIENCE"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P13",
+            "factKey": "lago-baikal-F13",
+            "text": "A maior das suas ilhas, com cerca de 72 km de comprimento, atrai cada vez mais turistas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_LIVESCIENCE",
+              "BAIKAL_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P14",
+            "factKey": "lago-baikal-F14",
+            "text": "A estrela da fauna é uma foca que vive só em água doce.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BAIKAL_LIVESCIENCE",
+              "BAIKAL_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P15",
+            "factKey": "lago-baikal-F15",
+            "text": "Um peixe sem escamas e muito oleoso, que dá à luz filhotes vivos, só existe ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_BRITANNICA",
+              "BAIKAL_LIVESCIENCE"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P16",
+            "factKey": "lago-baikal-F16",
+            "text": "O omul, um peixe branco, é um dos pratos mais famosos da região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_LIVESCIENCE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P17",
+            "factKey": "lago-baikal-F17",
+            "text": "A pesca comercial do omul foi proibida em 2018 para tentar recuperar a espécie.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P18",
+            "factKey": "lago-baikal-F18",
+            "text": "O lago fica no sul da Sibéria oriental, entre a Buriácia e a região de Irkutsk.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_BRITANNICA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P19",
+            "factKey": "lago-baikal-F19",
+            "text": "Uma fábrica de celulose aberta em 1966 na margem sul provocou fortes protestos ambientais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_BRITANNICA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P20",
+            "factKey": "lago-baikal-F20",
+            "text": "Algas fora do comum se espalharam pelas margens, um dos sinais de que a água está sendo poluída.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P21",
+            "factKey": "lago-baikal-F21",
+            "text": "Os buriates, um povo de origem mongol, vivem há séculos na maior ilha do lago.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_CALVERT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P22",
+            "factKey": "lago-baikal-F22",
+            "text": "Numa rocha com caverna, na maior ilha, a lenda diz que mora o senhor do lago; a entrada é proibida.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_CALVERT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P23",
+            "factKey": "lago-baikal-F23",
+            "text": "Com 20 a 25 milhões de anos, é o lago mais antigo do mundo; a UNESCO o fez Patrimônio Mundial em 1996.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BAIKAL_BRITANNICA",
+              "BAIKAL_IUCN_WHO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P24",
+            "factKey": "lago-baikal-F24",
+            "text": "A maior cidade perto das margens é Irkutsk.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_LIVESCIENCE"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-viajante-P25",
+            "factKey": "lago-baikal-F25",
+            "text": "A ilha de Olkhon, a maior do lago, é vista como um centro sagrado do xamanismo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_CALVERT",
+              "BAIKAL_BRITANNICA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "lago-baikal-geografo-P01",
+            "factKey": "lago-baikal-F01",
+            "text": "Ocupa uma depressão estrutural profunda, cercada de montanhas, no interior do continente asiático.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BAIKAL_BRITANNICA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P02",
+            "factKey": "lago-baikal-F26",
+            "text": "É um lago de rifte, de origem tectônica, numa zona onde a crosta continua ativa.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO",
+              "BAIKAL_IUCN_1996"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P03",
+            "factKey": "lago-baikal-F27",
+            "text": "A atividade tectônica faz o lago crescer cerca de 1,5 cm por ano, segundo a avaliação da IUCN de 1996.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_1996"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P04",
+            "factKey": "lago-baikal-F28",
+            "text": "Fraturas na crosta alimentam fontes termais perto das margens.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BAIKAL_BRITANNICA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P05",
+            "factKey": "lago-baikal-F23",
+            "text": "Com 20 a 25 milhões de anos, é o lago mais antigo existente, palco de processos evolutivos contínuos reconhecidos pela UNESCO.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BAIKAL_BRITANNICA",
+              "BAIKAL_IUCN_WHO",
+              "BAIKAL_IUCN_1996"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P06",
+            "factKey": "lago-baikal-F29",
+            "text": "Mais da metade das espécies animais é endêmica, o que rendeu ao lago o apelido de “Galápagos da Rússia”.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO",
+              "BAIKAL_IUCN_1996"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P07",
+            "factKey": "lago-baikal-F30",
+            "text": "Esponjas endêmicas que funcionavam como biofiltros da zona costeira sofreram mortandade em massa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P08",
+            "factKey": "lago-baikal-F20",
+            "text": "A proliferação maciça e atípica de algas Spirogyra ao longo da costa é um dos sinais de degradação da água.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P09",
+            "factKey": "lago-baikal-F08",
+            "text": "Graças à profundidade, concentra cerca de 20% da água doce não congelada do planeta, mais que qualquer outro lago.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO",
+              "BAIKAL_BRITANNICA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P10",
+            "factKey": "lago-baikal-F11",
+            "text": "A bacia recebe mais de 300 rios, mas toda a saída se concentra num único rio, afluente do Ienissei.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BAIKAL_BRITANNICA",
+              "BAIKAL_LIVESCIENCE"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P11",
+            "factKey": "lago-baikal-F12",
+            "text": "O principal tributário passa pela Mongólia, traz quase metade da água e também poluição de Ulan Bator e de outras fontes rio acima.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BAIKAL_LIVESCIENCE",
+              "BAIKAL_IUCN_1996"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P12",
+            "factKey": "lago-baikal-F31",
+            "text": "O delta do Selenga, sítio Ramsar, é uma das zonas úmidas que se sobrepõem à área protegida.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P13",
+            "factKey": "lago-baikal-F32",
+            "text": "A regulação do rio de saída pelo reservatório de Irkutsk altera o regime hidrológico, e os limites de nível do lago vêm sendo flexibilizados.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_1996",
+              "BAIKAL_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P14",
+            "factKey": "lago-baikal-F14",
+            "text": "A foca endêmica, Pusa sibirica, é a única do mundo que vive exclusivamente em água doce.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO",
+              "BAIKAL_LIVESCIENCE"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P15",
+            "factKey": "lago-baikal-F15",
+            "text": "A golomyanka, peixe vivíparo, oleoso e sem escamas, é exclusiva do lago.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_BRITANNICA",
+              "BAIKAL_LIVESCIENCE"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P16",
+            "factKey": "lago-baikal-F17",
+            "text": "A pesca comercial do omul (Coregonus autumnalis migratorius) foi banida em 2018, e a população segue bem abaixo do passado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P17",
+            "factKey": "lago-baikal-F18",
+            "text": "O território natural protegido se estende pela Buriácia, pela região de Irkutsk e pelo território de Zabaikalsky.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P18",
+            "factKey": "lago-baikal-F33",
+            "text": "A temperatura da água e a cobertura de gelo vêm respondendo fortemente às mudanças climáticas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P19",
+            "factKey": "lago-baikal-F19",
+            "text": "Uma fábrica de celulose na margem sul despejou grande volume de efluentes no lago e, mesmo fechada, deixou passivo químico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO",
+              "BAIKAL_CALVERT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P20",
+            "factKey": "lago-baikal-F34",
+            "text": "Fenóis, mercúrio e plásticos estão entre os poluentes que afetam as águas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P21",
+            "factKey": "lago-baikal-F13",
+            "text": "O turismo sem controle teve forte impacto localizado na margem sul e na maior ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P22",
+            "factKey": "lago-baikal-F35",
+            "text": "A área inscrita se sobrepõe a duas reservas da biosfera, entre elas a de Barguzinsky, e a IUCN (2025) vê sua conservação com preocupação significativa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P23",
+            "factKey": "lago-baikal-F36",
+            "text": "Foi inscrito em 1996 pelos quatro critérios naturais: geologia, processos ecológicos e evolutivos, beleza cênica e habitats de espécies ameaçadas.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BAIKAL_IUCN_WHO",
+              "BAIKAL_IUCN_1996"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P24",
+            "factKey": "lago-baikal-F37",
+            "text": "O Angara, seu único efluente, leva cerca de 60 km³ de água por ano ao Ienissei.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BAIKAL_LIVESCIENCE",
+              "BAIKAL_BRITANNICA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-baikal-geografo-P25",
+            "factKey": "lago-baikal-F25",
+            "text": "Na ilha de Olkhon, a Rocha do Xamã, no cabo Burkhan, concentra lendas sobre o senhor do lago.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BAIKAL_CALVERT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Lago de rifte no sul da Sibéria oriental, na Rússia: o mais antigo e mais profundo do mundo, com cerca de um quinto da água doce de superfície do planeta, escoado só pelo Angara e lar da nerpa, a foca de água doce.",
+      "editorialNotes": [
+        "Profundidade máxima divergente entre as fontes (1.620 m na Britannica; 1.632 m na Live Science; 1.638 m e 1.700 m na IUCN) e, por isso, sem número nas pistas; o mesmo vale para área do espelho d’água, volume e número de espécies.",
+        "Fábrica de celulose de Baikalsk: aberta em 1966 (Britannica); a data de fechamento diverge (2008 na Live Science; 2013 no Calvert Journal) e não foi usada.",
+        "O nome da foca (“foca-de-baikal”) e da fábrica foram evitados nas pistas porque revelam o lago; a nerpa aparece como “foca de água doce”."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "BAIKAL_IUCN_WHO": {
+      "id": "BAIKAL_IUCN_WHO",
+      "title": "Lake Baikal — Conservation Outlook Assessment (2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1073",
+      "checkedAt": "2026-11-15"
+    },
+    "BAIKAL_IUCN_1996": {
+      "id": "BAIKAL_IUCN_1996",
+      "title": "Lake Baikal Basin (Russian Federation) — IUCN Summary and Technical Evaluation (1996)",
+      "publisher": "IUCN / UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/154188",
+      "checkedAt": "2026-11-15"
+    },
+    "BAIKAL_BRITANNICA": {
+      "id": "BAIKAL_BRITANNICA",
+      "title": "Lake Baikal",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Lake-Baikal",
+      "checkedAt": "2026-11-15"
+    },
+    "BAIKAL_LIVESCIENCE": {
+      "id": "BAIKAL_LIVESCIENCE",
+      "title": "Lake Baikal: World’s Largest, Deepest Lake",
+      "publisher": "Live Science",
+      "url": "https://www.livescience.com/57653-lake-baikal-facts.html",
+      "checkedAt": "2026-11-15"
+    },
+    "BAIKAL_CALVERT": {
+      "id": "BAIKAL_CALVERT",
+      "title": "Letter from Olkhon: is Lake Baikal’s ancient shamanic island under threat? (2017)",
+      "publisher": "The Calvert Journal",
+      "url": "https://www.calvertjournal.com/features/show/8944/letter-from-olkhon-is-lake-baikals-ancient-shamanic-island-under-threat",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://worldheritageoutlook.iucn.org/node/1073",
+      "https://whc.unesco.org/document/154188",
+      "https://www.britannica.com:443/place/Lake-Baikal",
+      "https://www.livescience.com/57653-lake-baikal-facts.html",
+      "https://www.calvertjournal.com/features/show/8944/letter-from-olkhon-is-lake-baikals-ancient-shamanic-island-under-threat"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

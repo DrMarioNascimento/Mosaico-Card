@@ -1,0 +1,1093 @@
+{
+  "case": {
+    "id": "lug3-bangkok",
+    "placeId": "bangkok",
+    "title": "Bangkok",
+    "aliases": [
+      "Banguecoque",
+      "Krung Thep"
+    ],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "TH"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Bangkok"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Chiang Mai"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Ayutthaya"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Phnom Penh"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Vientiane"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Yangon"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Mandalay"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Hanói"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Ho Chi Minh"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Kuala Lumpur"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Jacarta"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Manila"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Singapura"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Tóquio"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Daca"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Calcutá"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Bangkok",
+        "sources": [
+          "BANGKOK_BRIT",
+          "BANGKOK_BRIT_HIST"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rio que atravessa a cidade",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Chao Phraya"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Mekong"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Irrawaddy"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Rio Vermelho"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Chao Phraya",
+        "sources": [
+          "BANGKOK_BRIT",
+          "BANGKOK_BRIT_HIST"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Dinastia que fez da cidade a capital do reino",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Chakri"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Konbaung"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Nguyễn"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Toungoo"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Chakri",
+        "sources": [
+          "BANGKOK_BRIT_RAMA1",
+          "BANGKOK_BRIT_TAILANDIA"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Antiga capital da margem oposta do rio, hoje parte da cidade",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Thon Buri"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Ayutthaya"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Sukhothai"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Lopburi"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Thon Buri",
+        "sources": [
+          "BANGKOK_BRIT_TAILANDIA",
+          "BANGKOK_BRIT"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "bangkok-viajante-P01",
+            "factKey": "bangkok-F01",
+            "text": "É uma cidade grande e quente o ano inteiro, à beira de um rio, no Sudeste Asiático.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT",
+              "BANGKOK_BRIT_POVO"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P02",
+            "factKey": "bangkok-F02",
+            "text": "A temporada de chuvas vai de meados de maio a setembro, com pancadas fortes no fim da tarde.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P03",
+            "factKey": "bangkok-F03",
+            "text": "As temperaturas médias vão de cerca de 25 °C em dezembro a 30 °C em abril.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P04",
+            "factKey": "bangkok-F04",
+            "text": "A estação seca vai de dezembro a fevereiro, e a umidade do ar fica entre 60% e mais de 80%.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P05",
+            "factKey": "bangkok-F05",
+            "text": "A cidade fica no delta de um grande rio, a uns 40 km do mar.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BANGKOK_BRIT"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P06",
+            "factKey": "bangkok-F06",
+            "text": "Os canais renderam à cidade o apelido de “Veneza do Oriente”, mas muitos foram aterrados para dar lugar a ruas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_POVO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P07",
+            "factKey": "bangkok-F07",
+            "text": "Perto de um templo, um mercado flutuante vende mercadorias em barcos nos canais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P08",
+            "factKey": "bangkok-F08",
+            "text": "Há mais de 300 templos budistas, os wats, exemplos clássicos da arquitetura do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_POVO",
+              "BANGKOK_BRIT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P09",
+            "factKey": "bangkok-F09",
+            "text": "Até 1782, ali havia só uma pequena vila; a capital ficava em Thon Buri, na margem oposta do rio.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_TAILANDIA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P10",
+            "factKey": "bangkok-F10",
+            "text": "Em 1782, um general subiu ao trono como Rama I e levou a corte da margem oeste para a margem leste do rio Chao Phraya.",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_HIST",
+              "BANGKOK_BRIT_TAILANDIA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P11",
+            "factKey": "bangkok-F11",
+            "text": "Esse rei fundou a dinastia Chakri, que reina no país até hoje.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_RAMA1"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P12",
+            "factKey": "bangkok-F12",
+            "text": "A fundação é celebrada em 21 de abril de 1782, dia em que foi erguido o pilar sagrado da cidade, feito de madeira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_KHAOSOD"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P13",
+            "factKey": "bangkok-F13",
+            "text": "No reinado de Rama IV, o britânico John Bowring calculou que a cidade não passava de 300 mil habitantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_KHAOSOD"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P14",
+            "factKey": "bangkok-F14",
+            "text": "O Grande Palácio, cercado de muros, e o templo Wat Pho ficaram prontos ainda no reinado de Rama I.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_HIST"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P15",
+            "factKey": "bangkok-F15",
+            "text": "Em 1882, no centenário da cidade, foi concluído o grande templo real que guarda o Buda de Esmeralda.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_HIST"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P16",
+            "factKey": "bangkok-F16",
+            "text": "O Wat Pho é considerado um centro tradicional de ensino.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_POVO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P17",
+            "factKey": "bangkok-F17",
+            "text": "O templo hoje conhecido como Wat Arun já se chamou Wat Makok.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_KHAOSOD"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P18",
+            "factKey": "bangkok-F18",
+            "text": "Em 1892, bondes elétricos começaram a circular pela Charoen Krung, a “Estrada Nova”.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_HIST"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P19",
+            "factKey": "bangkok-F19",
+            "text": "Em 1900, abriu a primeira linha da ferrovia estatal, ligando a cidade a Ayutthaya.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_HIST"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P20",
+            "factKey": "bangkok-F20",
+            "text": "O bairro mercantil chinês, Sam Peng, fica ao sul do núcleo original da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P21",
+            "factKey": "bangkok-F21",
+            "text": "Lutas de muay thai acontecem nos estádios Ratchadamnoen e Lumphini.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_POVO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P22",
+            "factKey": "bangkok-F22",
+            "text": "O trem elevado, chamado Skytrain, começou a funcionar em 1999.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_POVO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P23",
+            "factKey": "bangkok-F23",
+            "text": "O porto de Khlong Toei, no rio, movimenta quase todas as importações e exportações do país.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_POVO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P24",
+            "factKey": "bangkok-F24",
+            "text": "É a capital da Tailândia e o centro político, cultural e administrativo do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_KHAOSOD",
+              "BANGKOK_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-viajante-P25",
+            "factKey": "bangkok-F25",
+            "text": "O nome local da cidade, na forma abreviada, costuma ser traduzido como “Cidade dos Anjos”.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "bangkok-geografo-P01",
+            "factKey": "bangkok-F26",
+            "text": "Metrópole tropical de planície deltaica, com uma estação chuvosa de maio a setembro e uma seca de dezembro a fevereiro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P02",
+            "factKey": "bangkok-F27",
+            "text": "Chove em média 1.500 mm por ano, quase tudo em aguaceiros curtos e fortes no fim da tarde.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P03",
+            "factKey": "bangkok-F05",
+            "text": "Ocupa o delta do Chao Phraya, a cerca de 40 km do golfo da Tailândia.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BANGKOK_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P04",
+            "factKey": "bangkok-F09",
+            "text": "Entre 1767 e 1782, a capital ficou na margem ocidental do mesmo rio, posição favorável ao comércio marítimo.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_TAILANDIA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P05",
+            "factKey": "bangkok-F28",
+            "text": "Em meados do século XIX, a população já chegava a uns 400 mil, engrossada pela chegada de muitos chineses.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_TAILANDIA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P06",
+            "factKey": "bangkok-F10",
+            "text": "Em 1782, a corte trocou a margem oeste pela leste, onde então havia apenas uma pequena vila.",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_HIST",
+              "BANGKOK_BRIT_TAILANDIA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P07",
+            "factKey": "bangkok-F29",
+            "text": "Os novos templos e palácios seguiram os estilos da antiga capital Ayutthaya e chegaram a reaproveitar seus tijolos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_TAILANDIA"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P08",
+            "factKey": "bangkok-F30",
+            "text": "Nos reinados de Rama II e Rama III (1809–1851), o rio e a rede de canais interligados faziam o papel de ruas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_HIST"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P09",
+            "factKey": "bangkok-F31",
+            "text": "No reinado de Rama IV (1851–1868), abriu-se a Charoen Krung rumo ao sul e cavou-se um novo fosso ao redor da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_HIST"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P10",
+            "factKey": "bangkok-F06",
+            "text": "Para aliviar o trânsito, muitos canais foram aterrados, apagando parte da paisagem aquática que deu fama à cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_POVO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P11",
+            "factKey": "bangkok-F32",
+            "text": "Em 1937, a área foi dividida em duas municipalidades, uma em cada margem; cerca de quatro quintos da população viviam na margem leste.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_HIST",
+              "BANGKOK_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P12",
+            "factKey": "bangkok-F33",
+            "text": "As duas margens foram unidas num só governo municipal em 1971 e, em 1972, fundidas com as províncias vizinhas numa metrópole.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BANGKOK_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P13",
+            "factKey": "bangkok-F34",
+            "text": "Não é uma das 76 províncias do país: é uma forma especial de administração local, com governador eleito pelo voto direto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_SEASIA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P14",
+            "factKey": "bangkok-F35",
+            "text": "O território se divide em 50 distritos, os khet, cada um com um assento no conselho metropolitano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_SEASIA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P15",
+            "factKey": "bangkok-F36",
+            "text": "Desde a Segunda Guerra Mundial, o crescimento muito rápido trouxe problemas de transporte, moradia, água, drenagem e poluição.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_HIST"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P16",
+            "factKey": "bangkok-F37",
+            "text": "A mancha urbana avançou sobre as terras agrícolas em volta do antigo centro, que já foi cercado por muralhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P17",
+            "factKey": "bangkok-F38",
+            "text": "Mais de um quarto dos moradores são migrantes vindos de todas as regiões do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_POVO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P18",
+            "factKey": "bangkok-F39",
+            "text": "Os chineses formam a maior minoria, e muitas famílias adotaram sobrenomes locais e se naturalizaram.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_POVO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P19",
+            "factKey": "bangkok-F40",
+            "text": "A metrópole gera cerca de um terço da produção do país e concentra três quartos dos depósitos bancários.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_POVO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P20",
+            "factKey": "bangkok-F41",
+            "text": "A indústria se concentra ao sul do porto, e armazéns se enfileiram nas margens do rio.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BANGKOK_BRIT"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P21",
+            "factKey": "bangkok-F42",
+            "text": "Num país de cidades pequenas e aldeias, é descrita como a única cidade cosmopolita.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P22",
+            "factKey": "bangkok-F43",
+            "text": "O turismo cresceu na época da Guerra do Vietnã, quando a cidade virou destino de militares americanos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P23",
+            "factKey": "bangkok-F19",
+            "text": "A primeira linha da ferrovia estatal, inaugurada em 1900, ligou a capital à antiga capital Ayutthaya.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_HIST"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P24",
+            "factKey": "bangkok-F24",
+            "text": "Fundada como capital pela dinastia Chakri em 1782, é hoje o centro político, cultural e administrativo da Tailândia.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "BANGKOK_KHAOSOD",
+              "BANGKOK_BRIT_RAMA1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bangkok-geografo-P25",
+            "factKey": "bangkok-F44",
+            "text": "O Grande Palácio, o Wat Pho e o templo real do Buda de Esmeralda formam o núcleo monumental erguido na margem leste após 1782.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BANGKOK_BRIT_HIST"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Capital da Tailândia, no delta do rio Chao Phraya, a uns 40 km do golfo da Tailândia: fundada como capital pela dinastia Chakri em 1782, na margem oposta à antiga capital Thon Buri, com o Grande Palácio, centenas de templos e canais que lhe deram o apelido de “Veneza do Oriente”.",
+      "editorialNotes": [
+        "População: a Britannica dá 8.305.218 habitantes (2010) e a reportagem da Seasia cita 5.455.020 moradores registrados (2024, Escritório Nacional de Estatística); como são medidas diferentes e divergentes, nenhuma pista usa a população atual.",
+        "Área: 1.565 km² na Britannica e 1.568,74 km² na Seasia; o número foi omitido das pistas.",
+        "Grafia: “Bangkok” é a forma usada no Brasil; “Banguecoque” (forma lusitana) e “Krung Thep” (nome local abreviado) ficam como aliases."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: Britannica (verbete da cidade, história, população, período de Thon Buri e biografia de Rama I), Khaosod English e Seasia; C1 com 16 cidades asiáticas comparáveis."
+    }
+  },
+  "sources": {
+    "BANGKOK_BRIT": {
+      "id": "BANGKOK_BRIT",
+      "title": "Bangkok",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Bangkok",
+      "checkedAt": "2026-11-15"
+    },
+    "BANGKOK_BRIT_HIST": {
+      "id": "BANGKOK_BRIT_HIST",
+      "title": "Bangkok — History",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Bangkok/History",
+      "checkedAt": "2026-11-15"
+    },
+    "BANGKOK_BRIT_POVO": {
+      "id": "BANGKOK_BRIT_POVO",
+      "title": "Bangkok — People",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Bangkok/People",
+      "checkedAt": "2026-11-15"
+    },
+    "BANGKOK_BRIT_TAILANDIA": {
+      "id": "BANGKOK_BRIT_TAILANDIA",
+      "title": "Thailand — The Thon Buri and Early Bangkok periods",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Thailand/The-Thon-Buri-and-Early-Bangkok-periods",
+      "checkedAt": "2026-11-15"
+    },
+    "BANGKOK_BRIT_RAMA1": {
+      "id": "BANGKOK_BRIT_RAMA1",
+      "title": "Rama I",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Rama-I",
+      "checkedAt": "2026-11-15"
+    },
+    "BANGKOK_KHAOSOD": {
+      "id": "BANGKOK_KHAOSOD",
+      "title": "Bangkok marks 244 years since founding as Thailand’s capital (21/4/2026)",
+      "publisher": "Khaosod English",
+      "url": "https://www.khaosodenglish.com/featured/2026/04/21/bangkok-marks-244-years-since-founding-as-thailands-capital/",
+      "checkedAt": "2026-11-15"
+    },
+    "BANGKOK_SEASIA": {
+      "id": "BANGKOK_SEASIA",
+      "title": "Bangkok isn’t one of Thailand’s provinces, so what is it? (19/8/2026)",
+      "publisher": "Seasia",
+      "url": "https://seasia.co/2026/08/19/bangkok-isnt-one-of-thailands-provinces-so-what-is-it",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.britannica.com/place/Bangkok",
+      "https://www.britannica.com/place/Bangkok/History",
+      "https://www.britannica.com/place/Bangkok/People",
+      "https://www.britannica.com/place/Thailand/The-Thon-Buri-and-Early-Bangkok-periods",
+      "https://www.britannica.com/biography/Rama-I",
+      "https://www.khaosodenglish.com/featured/2026/04/21/bangkok-marks-244-years-since-founding-as-thailands-capital/",
+      "https://seasia.co/2026/08/19/bangkok-isnt-one-of-thailands-provinces-so-what-is-it"
+    ],
+    "alteracoes": [
+      "criado do zero",
+      "Não abriram (permissão negada): britannica.com/summary/Bangkok e en.wikipedia.org/wiki/Bangkok (redirecionamento); uma busca extra por páginas da UNESCO sobre a cidade foi recusada, por isso não há fonte UNESCO."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

@@ -1,0 +1,1086 @@
+{
+  "case": {
+    "id": "lug3-parque-kruger",
+    "placeId": "parque-kruger",
+    "title": "Parque Nacional Kruger",
+    "aliases": [
+      "Kruger"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "ZA"
+      ],
+      "continents": [
+        "africa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Área protegida africana",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional Kruger"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional do Serengeti"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Área de Conservação de Ngorongoro"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Reserva Nacional Maasai Mara"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional de Etosha"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional Chobe"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional de Hwange"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional de South Luangwa"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional de Amboseli"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional de Tsavo"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional da Gorongosa"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Hluhluwe-iMfolozi"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Parque Nacional dos Elefantes de Addo"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Parque Nacional Impenetrável de Bwindi"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Parque Nacional de Virunga"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Reserva de Caça Selous"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional Kruger",
+        "sources": [
+          "KRUGER_EB",
+          "KRUGER_SANPARKS"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Parque transfronteiriço que a área passou a integrar em 2002",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Grande Limpopo"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Kavango-Zambezi (KAZA)"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Kgalagadi"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Ai-Ais/Richtersveld"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Grande Limpopo",
+        "sources": [
+          "KRUGER_EB",
+          "KRUGER_SAHO"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "País vizinho ao longo da fronteira leste da área",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Moçambique"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Botsuana"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Namíbia"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Zâmbia"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Moçambique",
+        "sources": [
+          "KRUGER_EB"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Acampamento onde fica a sede da área",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Skukuza"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Seronera"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Okaukuejo"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Mfuwe"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Skukuza",
+        "sources": [
+          "KRUGER_EB",
+          "KRUGER_SANPARKS_TURISMO"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "parque-kruger-viajante-P01",
+            "factKey": "parque-kruger-F01",
+            "text": "Aqui vivem os chamados \"cinco grandes\": elefante, leão, leopardo, búfalo e rinoceronte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_DEIMS",
+              "KRUGER_EB"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P02",
+            "factKey": "parque-kruger-F02",
+            "text": "A paisagem vai de campos abertos de capim a mato fechado, com árvores como o baobá e a marula.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_EB"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P03",
+            "factKey": "parque-kruger-F03",
+            "text": "Foi criado para proteger os animais do Lowveld, as terras baixas sul-africanas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SANPARKS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P04",
+            "factKey": "parque-kruger-F04",
+            "text": "Ocupa partes de duas províncias: Limpopo e Mpumalanga.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P05",
+            "factKey": "parque-kruger-F05",
+            "text": "É o maior parque nacional do país, com quase 2 milhões de hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_EB",
+              "KRUGER_SANPARKS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P06",
+            "factKey": "parque-kruger-F06",
+            "text": "É comprido e estreito: tem cerca de 320 km de extensão e de 40 a 80 km de largura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P07",
+            "factKey": "parque-kruger-F07",
+            "text": "O terreno é quase todo plano, com algumas fileiras de morros baixos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_EB"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P08",
+            "factKey": "parque-kruger-F08",
+            "text": "Seis rios correm o ano todo pelo parque, mas nas secas é preciso oferecer água aos animais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_EB"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P09",
+            "factKey": "parque-kruger-F09",
+            "text": "Já foram registradas ali 147 espécies de mamíferos e 507 de aves.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SANPARKS",
+              "KRUGER_DEIMS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P10",
+            "factKey": "parque-kruger-F10",
+            "text": "Guepardos, zebras, gnus e impalas também fazem parte da fauna.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_EB"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P11",
+            "factKey": "parque-kruger-F11",
+            "text": "Dá para percorrer o parque dirigindo o próprio carro e dormir em acampamentos lá dentro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SANPARKS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P12",
+            "factKey": "parque-kruger-F12",
+            "text": "São 12 acampamentos principais, além de acampamentos menores no mato e alguns lodges privados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SANPARKS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P13",
+            "factKey": "parque-kruger-F13",
+            "text": "Os primeiros turistas chegaram de trem em 1923, dormiam nos vagões e tinham a companhia de um guarda-parque em volta da fogueira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SANPARKS_TURISMO",
+              "KRUGER_SAHO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P14",
+            "factKey": "parque-kruger-F14",
+            "text": "As primeiras cabanas para visitantes foram erguidas em 1928, em Satara, Pretoriuskop e no acampamento da sede.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SANPARKS_TURISMO",
+              "KRUGER_SAHO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P15",
+            "factKey": "parque-kruger-F15",
+            "text": "A água quente nos banheiros dos acampamentos só foi aprovada em 1933, a um xelim por banho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SANPARKS_TURISMO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P16",
+            "factKey": "parque-kruger-F16",
+            "text": "Hoje há mais de 850 km de estradas asfaltadas e cerca de 1.444 km de estradas de terra para os safáris.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SANPARKS_TURISMO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P17",
+            "factKey": "parque-kruger-F17",
+            "text": "Pinturas rupestres dos povos san, os \"bosquímanos\", estão entre os tesouros culturais protegidos ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SANPARKS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P18",
+            "factKey": "parque-kruger-F18",
+            "text": "Mais de 255 sítios arqueológicos já foram registrados dentro do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SAHO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P19",
+            "factKey": "parque-kruger-F19",
+            "text": "Nas ruínas de Masorini, abertas à visita, o povo BaPhalaborwa fundia ferro no século XIX.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SAHO",
+              "KRUGER_SANPARKS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P20",
+            "factKey": "parque-kruger-F20",
+            "text": "A sede fica num acampamento que antes se chamava Sabie Bridge.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "KRUGER_SANPARKS_TURISMO",
+              "KRUGER_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P21",
+            "factKey": "parque-kruger-F21",
+            "text": "A borda leste segue a fronteira com o país vizinho, a oeste dos montes Lebombo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "KRUGER_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P22",
+            "factKey": "parque-kruger-F22",
+            "text": "Desde 2002 faz parte de um parque enorme que atravessa fronteiras, junto com áreas de Moçambique e do Zimbábue.",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "KRUGER_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P23",
+            "factKey": "parque-kruger-F23",
+            "text": "A primeira reserva de caça, de 1898, ficava entre os rios Sabie e Crocodile.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SAHO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P24",
+            "factKey": "parque-kruger-F24",
+            "text": "Em 1926 virou parque nacional e ganhou o nome de um ex-presidente do Transvaal, líder dos bôeres.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_EB",
+              "KRUGER_SAHO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-viajante-P25",
+            "factKey": "parque-kruger-F25",
+            "text": "É o maior parque nacional da África do Sul, com sede em Skukuza e colado à fronteira de Moçambique.",
+            "relatedFields": [
+              "C1",
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "KRUGER_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "parque-kruger-geografo-P01",
+            "factKey": "parque-kruger-F26",
+            "text": "É uma savana seca, onde gramíneas e árvores dividem o espaço, num clima com uma estação chuvosa e outra seca.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_DEIMS"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P02",
+            "factKey": "parque-kruger-F03",
+            "text": "A área protegida nasceu para resguardar a fauna de uma planície de baixa altitude do sul da África, o Lowveld.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SANPARKS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P03",
+            "factKey": "parque-kruger-F27",
+            "text": "Solos de basalto, férteis, sustentam pastagens com acácias; solos de granito, pobres, sustentam mata densa, sobretudo de Combretum.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_DEIMS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P04",
+            "factKey": "parque-kruger-F07",
+            "text": "O relevo é em geral plano, interrompido por cadeias de colinas baixas, com os montes Lebombo a leste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_EB"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P05",
+            "factKey": "parque-kruger-F08",
+            "text": "Mesmo com seis rios perenes, as secas frequentes levaram a pesquisas sobre água desde os anos 1950 e ao abastecimento artificial para a fauna.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_EB",
+              "KRUGER_SAHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P06",
+            "factKey": "parque-kruger-F06",
+            "text": "Com 19.485 km², tem forma alongada: cerca de 320 km de comprimento para 40 a 80 km de largura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P07",
+            "factKey": "parque-kruger-F04",
+            "text": "Ocupa terras das províncias de Limpopo e Mpumalanga, ao longo da fronteira internacional a leste.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "KRUGER_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P08",
+            "factKey": "parque-kruger-F02",
+            "text": "A cobertura vegetal vai do veld aberto à mata fechada, com mopane, acácias, marula e baobá.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_EB"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P09",
+            "factKey": "parque-kruger-F28",
+            "text": "O inventário biológico soma 336 espécies de árvores, 49 de peixes, 34 de anfíbios e 114 de répteis.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SANPARKS",
+              "KRUGER_DEIMS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P10",
+            "factKey": "parque-kruger-F09",
+            "text": "Entre os 147 mamíferos e as 507 aves registrados estão os cinco grandes da caça clássica africana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_DEIMS",
+              "KRUGER_SANPARKS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P11",
+            "factKey": "parque-kruger-F29",
+            "text": "A caça ilegal de rinocerontes segue como ameaça: em junho de 2024, guardas enfrentaram suspeitos armados e três caçadores foram condenados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SANPARKS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P12",
+            "factKey": "parque-kruger-F23",
+            "text": "A origem é uma reserva proclamada em 26 de março de 1898 pela República Sul-Africana, entre os rios Sabie e Crocodile.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SAHO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P13",
+            "factKey": "parque-kruger-F30",
+            "text": "Durante a guerra entre bôeres e britânicos, a reserva foi reproclamada; vieram depois a Reserva Sabi (1902) e a de Shingwedzi (1903).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SAHO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P14",
+            "factKey": "parque-kruger-F31",
+            "text": "O parque nacional foi proclamado em 31 de maio de 1926, sob um recém-criado Conselho de Curadores dos Parques Nacionais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SAHO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P15",
+            "factKey": "parque-kruger-F32",
+            "text": "Já na primeira reunião desse conselho, em setembro de 1926, o turismo foi reconhecido como fonte de receita.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SANPARKS_TURISMO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P16",
+            "factKey": "parque-kruger-F33",
+            "text": "Entre 1927 e 1934 abriram-se cerca de 1.200 km de estradas, e as balsas deram lugar aos poucos a passagens baixas sobre os rios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SANPARKS_TURISMO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P17",
+            "factKey": "parque-kruger-F16",
+            "text": "O asfaltamento começou em 1965; a malha atual soma mais de 850 km asfaltados, 1.444 km de terra e mais de 4.200 km de aceiros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SANPARKS_TURISMO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P18",
+            "factKey": "parque-kruger-F34",
+            "text": "O modelo de visita combina carro próprio e pernoite em acampamentos cercados, que receberam cercas em 1932.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SANPARKS_TURISMO",
+              "KRUGER_SANPARKS"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P19",
+            "factKey": "parque-kruger-F12",
+            "text": "A rede de hospedagem tem 12 acampamentos principais, 5 no mato, 2 lodges e 4 satélites, além de concessões privadas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SANPARKS"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P20",
+            "factKey": "parque-kruger-F18",
+            "text": "Mais de 255 sítios arqueológicos e pinturas rupestres atestam ocupação humana antiga; três ruínas estão abertas ao público.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SAHO",
+              "KRUGER_SANPARKS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P21",
+            "factKey": "parque-kruger-F19",
+            "text": "Masorini foi centro de fundição de ferro dos BaPhalaborwa no século XIX; Albasini lembra o entreposto de um mercador português ativo em 1845.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SAHO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P22",
+            "factKey": "parque-kruger-F35",
+            "text": "Formas de gestão cooperativa surgiram nos anos 1990; depois de 2010 vieram projetos com as comunidades, como laboratórios escolares e um protocolo de compensação por danos de animais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_SAHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P23",
+            "factKey": "parque-kruger-F22",
+            "text": "Em 2002, uniu-se a um parque de Moçambique e ao de Gonarezhou, no Zimbábue, num conjunto transfronteiriço planejado para cerca de 35 mil km².",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "KRUGER_EB",
+              "KRUGER_SAHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P24",
+            "factKey": "parque-kruger-F24",
+            "text": "Proclamado em 1926, homenageia o ex-presidente da República Sul-Africana (Transvaal), cuja estátua fica no portão que leva seu nome.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KRUGER_EB",
+              "KRUGER_SAHO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-kruger-geografo-P25",
+            "factKey": "parque-kruger-F25",
+            "text": "Maior parque nacional sul-africano, estende-se a oeste dos montes Lebombo, com sede em Skukuza, a antiga Sabie Bridge.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "KRUGER_EB",
+              "KRUGER_SANPARKS_TURISMO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Maior parque nacional da África do Sul, no Lowveld das províncias de Limpopo e Mpumalanga, junto à fronteira de Moçambique; nasceu de uma reserva de caça de 1898, foi proclamado parque nacional em 1926, tem sede em Skukuza e integra desde 2002 o Parque Transfronteiriço do Grande Limpopo.",
+      "editorialNotes": [
+        "Estradas: a Britannica fala em quase 5.000 milhas de estradas, a SANParks em mais de 850 km asfaltados e 1.444 km de terra (mais 4.200 km de aceiros); as pistas usam só a SANParks.",
+        "Área: 19.485 km² (Britannica) e \"quase 2 milhões de hectares\" (SANParks), compatíveis. A altitude do registro DEIMS (140–462 m) parece incoerente e não foi usada.",
+        "Diferença em relação ao Serengeti e a Ngorongoro, já no banco: país (África do Sul), fronteira com Moçambique, origem em 1898, sede em Skukuza e o Grande Limpopo; os \"cinco grandes\" ficam só em pistas de abertura."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: Britannica, duas páginas da SANParks (parque e história do turismo), South African History Online e registro DEIMS-SDR (eLTER); C1 com 16 áreas protegidas africanas comparáveis."
+    }
+  },
+  "sources": {
+    "KRUGER_EB": {
+      "id": "KRUGER_EB",
+      "title": "Kruger National Park",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/print/article/323882",
+      "checkedAt": "2026-11-15"
+    },
+    "KRUGER_SANPARKS": {
+      "id": "KRUGER_SANPARKS",
+      "title": "Kruger National Park",
+      "publisher": "South African National Parks (SANParks)",
+      "url": "https://www.sanparks.org/parks/kruger/",
+      "checkedAt": "2026-11-15"
+    },
+    "KRUGER_SANPARKS_TURISMO": {
+      "id": "KRUGER_SANPARKS_TURISMO",
+      "title": "Kruger National Park — Tourism History",
+      "publisher": "South African National Parks (SANParks)",
+      "url": "https://www.sanparks.org/parks/kruger/tourism/history.php",
+      "checkedAt": "2026-11-15"
+    },
+    "KRUGER_SAHO": {
+      "id": "KRUGER_SAHO",
+      "title": "Kruger National Park",
+      "publisher": "South African History Online (SAHO)",
+      "url": "https://sahistory.org.za/node/66068",
+      "checkedAt": "2026-11-15"
+    },
+    "KRUGER_DEIMS": {
+      "id": "KRUGER_DEIMS",
+      "title": "Kruger National Park - South Africa",
+      "publisher": "DEIMS-SDR (eLTER Research Infrastructure)",
+      "url": "https://deims.org/8fb35fc0-08bc-480a-b779-afd01e89cac2",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.britannica.com/print/article/323882",
+      "https://www.sanparks.org/parks/kruger/",
+      "https://www.sanparks.org/parks/kruger/tourism/history.php",
+      "https://sahistory.org.za/node/66068",
+      "https://deims.org/8fb35fc0-08bc-480a-b779-afd01e89cac2"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

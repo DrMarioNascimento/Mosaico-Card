@@ -1,0 +1,1108 @@
+{
+  "case": {
+    "id": "lug3-persepolis",
+    "placeId": "persepolis",
+    "title": "Persépolis",
+    "aliases": [
+      "Takht-e Jamshid"
+    ],
+    "answerType": "sítio arqueológico",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "IR"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Sítio arqueológico da Ásia",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Persépolis"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Pasárgada"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Petra"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Palmira"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Hatra"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Baalbek"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Éfeso"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Babilônia"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Susa"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Mohenjo-daro"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Angkor"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Bagan"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Borobudur"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Ayutthaya"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Hampi"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Sigiriya"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Persépolis",
+        "sources": [
+          "PERS_UNESCO",
+          "PERS_EB",
+          "PERS_WIKI"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Dinastia que construiu o conjunto",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Aquemênida"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Sassânida"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Selêucida"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Parta (arsácida)"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Aquemênida",
+        "sources": [
+          "PERS_UNESCO",
+          "PERS_WIKI"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Conquistador cujo exército tomou e incendiou o conjunto",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Alexandre, o Grande"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Gengis Khan"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Átila"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Hulagu Khan"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Alexandre, o Grande",
+        "sources": [
+          "PERS_WIKI",
+          "PERS_HH",
+          "PERS_TASNIM"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Rei que iniciou o terraço e os primeiros palácios",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Dario I"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Ciro II, o Grande"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Xerxes I"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Artaxerxes I"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Dario I",
+        "sources": [
+          "PERS_UNESCO",
+          "PERS_WIKI",
+          "PERS_EB"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "persepolis-viajante-P01",
+            "factKey": "persepolis-F01",
+            "text": "São ruínas de palácios antigos sobre um enorme terraço de pedra, ao pé de uma montanha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_UNESCO",
+              "PERS_WIKI"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P02",
+            "factKey": "persepolis-F02",
+            "text": "No meio das ruínas aparecem colunas altíssimas, escadarias largas e paredes cheias de relevos esculpidos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_UNESCO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P03",
+            "factKey": "persepolis-F03",
+            "text": "O lugar fica numa planície cercada pelas montanhas Zagros, no sudoeste do Irã.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_WIKI",
+              "PERS_EB"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P04",
+            "factKey": "persepolis-F04",
+            "text": "Fica a nordeste da cidade de Xiraz, na região de Fars.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_EB",
+              "PERS_TASNIM"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P05",
+            "factKey": "persepolis-F05",
+            "text": "O terraço encosta numa montanha cujo nome quer dizer \"Monte da Misericórdia\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_EB",
+              "PERS_TASNIM"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P06",
+            "factKey": "persepolis-F06",
+            "text": "O nome moderno em persa quer dizer \"Trono de Jamshid\", personagem da mitologia persa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_EB",
+              "PERS_WIKI"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P07",
+            "factKey": "persepolis-F07",
+            "text": "Era a capital cerimonial de um grande império persa da Antiguidade, feita para impressionar.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "PERS_WIKI",
+              "PERS_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P08",
+            "factKey": "persepolis-F08",
+            "text": "Quem a construiu foram os reis aquemênidas, que governaram de cerca de 550 a 330 a.C.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PERS_WIKI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P09",
+            "factKey": "persepolis-F09",
+            "text": "A obra começou no fim do século VI a.C., no reinado de Dario I.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PERS_UNESCO",
+              "PERS_EB",
+              "PERS_WIKI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P10",
+            "factKey": "persepolis-F10",
+            "text": "Xerxes I terminou o grande salão de audiências e começou o Salão das Cem Colunas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PERS_WIKI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P11",
+            "factKey": "persepolis-F11",
+            "text": "Uma escadaria dupla, de degraus baixos, sobe ao terraço pelo lado oeste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_EB",
+              "PERS_TASNIM"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P12",
+            "factKey": "persepolis-F12",
+            "text": "No grande salão de audiências, 13 colunas ainda estão de pé.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_EB",
+              "PERS_TASNIM"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P13",
+            "factKey": "persepolis-F13",
+            "text": "As colunas chegavam a uns 20 metros de altura e tinham no topo dois touros esculpidos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_UNESCO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P14",
+            "factKey": "persepolis-F14",
+            "text": "Na entrada, touros alados gigantes foram esculpidos em pedra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P15",
+            "factKey": "persepolis-F15",
+            "text": "Os relevos das escadarias mostram povos de todo o império levando presentes ao rei.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_WIKI",
+              "PERS_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P16",
+            "factKey": "persepolis-F16",
+            "text": "Por muito tempo, os arqueólogos acharam que o lugar era usado sobretudo no Nowruz, o Ano-Novo persa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_WIKI",
+              "PERS_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P17",
+            "factKey": "persepolis-F17",
+            "text": "Os blocos de pedra cinza-escura, tirados da montanha ao lado, foram encaixados sem argamassa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_EB",
+              "PERS_TASNIM"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P18",
+            "factKey": "persepolis-F18",
+            "text": "Em 1933, acharam nas fundações placas de ouro e de prata com inscrições em três línguas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_EB",
+              "PERS_TASNIM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P19",
+            "factKey": "persepolis-F19",
+            "text": "Atrás das ruínas, túmulos reais foram escavados na encosta da montanha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_EB",
+              "PERS_WIKI"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P20",
+            "factKey": "persepolis-F20",
+            "text": "A uns 13 km dali, numa parede de rocha, ficam o túmulo de Dario I e, provavelmente, os de outros três reis.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PERS_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P21",
+            "factKey": "persepolis-F21",
+            "text": "Em 330 a.C., o exército de Alexandre, o Grande, tomou a cidade.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PERS_WIKI",
+              "PERS_HH",
+              "PERS_TASNIM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P22",
+            "factKey": "persepolis-F22",
+            "text": "Pouco depois, um incêndio destruiu o palácio de Xerxes e boa parte do conjunto.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PERS_HH",
+              "PERS_TASNIM",
+              "PERS_WIKI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P23",
+            "factKey": "persepolis-F23",
+            "text": "Os relatos antigos explicam o incêndio de jeitos diferentes: vingança pelo incêndio de Atenas ou uma noite de bebedeira.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PERS_WIKI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P24",
+            "factKey": "persepolis-F24",
+            "text": "É Patrimônio Mundial desde 1979 e foi a capital cerimonial dos reis aquemênidas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "PERS_EB",
+              "PERS_WIKI",
+              "PERS_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-viajante-P25",
+            "factKey": "persepolis-F25",
+            "text": "São as ruínas do terraço que Dario I começou ao pé do Kuh-e Rahmat e que as tropas de Alexandre incendiaram.",
+            "relatedFields": [
+              "C1",
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "PERS_UNESCO",
+              "PERS_WIKI"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "persepolis-geografo-P01",
+            "factKey": "persepolis-F01",
+            "text": "Sítio arqueológico do sudoeste da Ásia em que um imenso terraço, meio natural e meio artificial, se apoia na encosta de uma montanha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_UNESCO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P02",
+            "factKey": "persepolis-F26",
+            "text": "O conjunto foi pensado mais como vitrine do poder real do que como centro administrativo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_UNESCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P03",
+            "factKey": "persepolis-F03",
+            "text": "Fica na planície de Marvdasht, na província de Fars, cercada pelo trecho sul dos montes Zagros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_WIKI"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P04",
+            "factKey": "persepolis-F27",
+            "text": "O sítio está perto da confluência dos rios Pulvar (Sivand) e Kor.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_EB",
+              "PERS_WIKI"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P05",
+            "factKey": "persepolis-F05",
+            "text": "O lado leste do terraço encosta na montanha; nos outros três lados, muros de arrimo de 4 a 12 m de altura o sustentam.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_EB",
+              "PERS_TASNIM"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P06",
+            "factKey": "persepolis-F28",
+            "text": "A plataforma foi em parte construída e em parte talhada na rocha da própria montanha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_WIKI",
+              "PERS_UNESCO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P07",
+            "factKey": "persepolis-F17",
+            "text": "A pedra cinza-escura vinha da montanha vizinha: cortados com precisão, os blocos dispensavam argamassa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_EB",
+              "PERS_TASNIM"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P08",
+            "factKey": "persepolis-F29",
+            "text": "A ocupação era sazonal: remoto e montanhoso, o lugar era visitado sobretudo na primavera, e a administração ficava em Susa, Babilônia e Ecbátana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_TASNIM",
+              "PERS_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P09",
+            "factKey": "persepolis-F08",
+            "text": "O império que o construiu, chamado aquemênida, durou de cerca de 550 a 330 a.C.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PERS_WIKI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P10",
+            "factKey": "persepolis-F30",
+            "text": "Dario I fez dela a capital da Pérsia propriamente dita, no lugar de Pasárgada, onde Ciro II foi sepultado.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PERS_TASNIM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P11",
+            "factKey": "persepolis-F09",
+            "text": "A obra atravessou reinados: Dario I (522–486 a.C.) a começou, Xerxes I (486–465 a.C.) a continuou e Artaxerxes I (465–424 a.C.) a concluiu.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PERS_UNESCO",
+              "PERS_WIKI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P12",
+            "factKey": "persepolis-F13",
+            "text": "Colunas de cerca de 1,60 m de diâmetro e 20 m de altura, com capitéis de touros duplos, sustentavam vigas de madeira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_UNESCO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P13",
+            "factKey": "persepolis-F31",
+            "text": "O Salão das Cem Colunas mede cerca de 70 m por 70 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_WIKI"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P14",
+            "factKey": "persepolis-F15",
+            "text": "Nos relevos, 23 cenas separadas por ciprestes mostram delegações do império levando oferendas ao rei na festa do equinócio de primavera.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P15",
+            "factKey": "persepolis-F32",
+            "text": "Uma prece de Dario, gravada no muro sul, pede que o país seja protegido \"do inimigo, da fome e da mentira\".",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PERS_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P16",
+            "factKey": "persepolis-F18",
+            "text": "Placas de ouro e prata das fundações registram os limites do império em persa antigo, elamita e babilônico, em escrita cuneiforme.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_EB",
+              "PERS_TASNIM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P17",
+            "factKey": "persepolis-F22",
+            "text": "O fogo ateado depois da conquista de 330 a.C. consumiu as partes de madeira e grande parte do complexo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PERS_WIKI",
+              "PERS_HH"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P18",
+            "factKey": "persepolis-F33",
+            "text": "As tabuletas do arquivo das fortificações se preservaram quando parte do muro norte desabou; arqueólogos do Instituto Oriental de Chicago as recuperaram.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_WIKI"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P19",
+            "factKey": "persepolis-F34",
+            "text": "Em 316 a.C., ainda era capital da Pérsis, província do império macedônio; sob os selêucidas, entrou em declínio.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PERS_TASNIM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P20",
+            "factKey": "persepolis-F20",
+            "text": "Os túmulos reais foram cavados na rocha: três atrás do terraço e quatro numa necrópole a cerca de 13 km, do outro lado do rio Pulvar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P21",
+            "factKey": "persepolis-F35",
+            "text": "Os nomes do lugar mudaram com o tempo: na época sassânida, \"Cem Pilares\"; na Idade Média, \"Quarenta Minaretes\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_WIKI"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P22",
+            "factKey": "persepolis-F36",
+            "text": "As escavações científicas começaram nos anos 1930, com Ernst Herzfeld e Erich Schmidt, pelo Instituto Oriental da Universidade de Chicago.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_WIKI"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P23",
+            "factKey": "persepolis-F24",
+            "text": "Inscrito em 1979 pelos critérios (i), (iii) e (vi), é considerado um dos maiores sítios arqueológicos do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_UNESCO",
+              "PERS_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P24",
+            "factKey": "persepolis-F37",
+            "text": "Em persa antigo, o lugar se chamava Parsa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PERS_EB",
+              "PERS_WIKI"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "persepolis-geografo-P25",
+            "factKey": "persepolis-F25",
+            "text": "Foi a sede cerimonial aquemênida que Dario I iniciou na planície de Marvdasht e que Alexandre incendiou.",
+            "relatedFields": [
+              "C1",
+              "C2",
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "PERS_UNESCO",
+              "PERS_WIKI"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Ruínas da capital cerimonial do Império Aquemênida, iniciada por Dario I no fim do século VI a.C. num terraço apoiado no Kuh-e Rahmat, na planície de Marvdasht (Fars, sudoeste do Irã), tomada e incendiada pelo exército de Alexandre, o Grande, em 330 a.C. — Patrimônio Mundial desde 1979.",
+      "editorialNotes": [
+        "Distância de Xiraz: 50 km (Britannica, Tasnim), cerca de 60 km (texto japonês da página da UNESCO) e \"50 milhas\" (History Hit); nenhuma pista usa o número.",
+        "Início da obra: 518 a.C. (UNESCO), cerca de 515 a.C. (History Hit; vestígios mais antigos na Wikipedia) ou 519 a.C. (escadaria, Wikipedia); as pistas dizem \"fim do século VI a.C.\". Área do terraço: 125 mil m² (Wikipedia) ou 13 ha do conjunto (UNESCO), omitida.",
+        "Pasárgada, Susa e Babilônia entram no C1 como distratores próximos; as pistas de Dario I, da planície de Marvdasht e da ocupação sazonal os descartam."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: página da UNESCO, Britannica, Wikipedia, History Hit e Tasnim; C1 com 16 sítios arqueológicos asiáticos, incluindo Pasárgada e Susa."
+    }
+  },
+  "sources": {
+    "PERS_UNESCO": {
+      "id": "PERS_UNESCO",
+      "title": "Persepolis",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/114",
+      "checkedAt": "2026-11-15"
+    },
+    "PERS_EB": {
+      "id": "PERS_EB",
+      "title": "Persepolis",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Persepolis",
+      "checkedAt": "2026-11-15"
+    },
+    "PERS_WIKI": {
+      "id": "PERS_WIKI",
+      "title": "Persepolis",
+      "publisher": "Wikipedia (em inglês)",
+      "url": "https://en.wikipedia.org/wiki/Persepolis",
+      "checkedAt": "2026-11-15"
+    },
+    "PERS_HH": {
+      "id": "PERS_HH",
+      "title": "Persepolis - History and Facts",
+      "publisher": "History Hit",
+      "url": "https://www.historyhit.com/locations/persepolis/",
+      "checkedAt": "2026-11-15"
+    },
+    "PERS_TASNIM": {
+      "id": "PERS_TASNIM",
+      "title": "Persepolis Seen as Symbol of Glory, Grandeur in Ancient Iran",
+      "publisher": "Tasnim News Agency",
+      "url": "https://www.tn.ai/en/news/2023/03/26/2871558/persepolis-seen-as-symbol-of-glory-grandeur-in-ancient-iran",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/en/list/114",
+      "https://www.britannica.com/place/Persepolis",
+      "https://en.wikipedia.org/wiki/Persepolis",
+      "https://www.historyhit.com/locations/persepolis/",
+      "https://www.tn.ai/en/news/2023/03/26/2871558/persepolis-seen-as-symbol-of-glory-grandeur-in-ancient-iran"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

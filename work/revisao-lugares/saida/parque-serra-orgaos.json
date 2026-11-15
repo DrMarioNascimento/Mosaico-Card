@@ -1,0 +1,1122 @@
+{
+  "case": {
+    "id": "lug3-parque-serra-orgaos",
+    "placeId": "parque-serra-orgaos",
+    "title": "Parque Nacional da Serra dos Órgãos",
+    "aliases": [
+      "Serra dos Órgãos",
+      "Parnaso"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sudeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional da Serra dos Órgãos"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional do Itatiaia"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional do Caparaó"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional da Serra da Bocaina"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional da Tijuca"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional da Serra do Cipó"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional da Serra da Canastra"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional de Aparados da Serra"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional de São Joaquim"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional da Chapada Diamantina"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional da Chapada dos Veadeiros"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional do Iguaçu"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Parque Nacional do Pico da Neblina"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Parque Nacional da Serra da Bodoquena"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Parque Nacional do Monte Roraima"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Parque Nacional dos Campos Gerais"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional da Serra dos Órgãos",
+        "sources": [
+          "ORGAOS_CNUC",
+          "ORGAOS_WIKI"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Pico cuja primeira escalada, em 1912, é tida como marco do montanhismo brasileiro",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Dedo de Deus"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Pão de Açúcar"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Pedra da Gávea"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Pedra do Baú"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Dedo de Deus",
+        "sources": [
+          "ORGAOS_CB_1912",
+          "ORGAOS_WIKI"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Ponto mais alto do parque",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Pedra do Sino"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Pico das Agulhas Negras"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Pico da Bandeira"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Pedra da Mina"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Pedra do Sino",
+        "sources": [
+          "ORGAOS_WIKI",
+          "ORGAOS_CB_MONTANHISMO",
+          "ORGAOS_EMBRATUR"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Ano de criação",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "1937"
+          },
+          {
+            "id": "C4-O2",
+            "text": "1939"
+          },
+          {
+            "id": "C4-O3",
+            "text": "1959"
+          },
+          {
+            "id": "C4-O4",
+            "text": "1961"
+          }
+        ],
+        "answerId": "C4-O2",
+        "answerText": "1939",
+        "sources": [
+          "ORGAOS_CNUC",
+          "ORGAOS_WIKI",
+          "ORGAOS_ICMBIO_TRAVESSIA",
+          "ORGAOS_AGBRASIL"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "parque-serra-orgaos-viajante-P01",
+            "factKey": "parque-serra-orgaos-F01",
+            "text": "É um parque nacional de montanhas cobertas de Mata Atlântica, no Sudeste do Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_CNUC",
+              "ORGAOS_WIKI"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P02",
+            "factKey": "parque-serra-orgaos-F02",
+            "text": "Picos rochosos e paredões dominam a paisagem, e muita gente vai até lá para fazer trilha e escalar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_EMBRATUR",
+              "ORGAOS_RBG"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P03",
+            "factKey": "parque-serra-orgaos-F03",
+            "text": "O clima é úmido o ano todo; de dezembro a março chove mais e faz mais calor.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_WIKI",
+              "ORGAOS_EMBRATUR"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P04",
+            "factKey": "parque-serra-orgaos-F04",
+            "text": "Nos pontos mais altos, a temperatura pode cair abaixo de zero.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_WIKI"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P05",
+            "factKey": "parque-serra-orgaos-F05",
+            "text": "Fica a cerca de uma hora de carro da cidade do Rio de Janeiro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_WIKI"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P06",
+            "factKey": "parque-serra-orgaos-F06",
+            "text": "Em 2025, o parque recebeu cerca de 331 mil visitas, o maior número registrado desde 2000.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_ICMBIO_TRAVESSIA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P07",
+            "factKey": "parque-serra-orgaos-F07",
+            "text": "São mais de 200 km de trilhas, das mais fáceis às bem puxadas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_CB_MONTANHISMO",
+              "ORGAOS_EMBRATUR"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P08",
+            "factKey": "parque-serra-orgaos-F08",
+            "text": "Uma travessia famosa liga duas cidades serranas em cerca de 30 km de sobe e desce.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_CB_MONTANHISMO",
+              "ORGAOS_EMBRATUR"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P09",
+            "factKey": "parque-serra-orgaos-F09",
+            "text": "Para dormir no alto da serra durante a travessia é preciso agendar; há áreas de camping e abrigos de montanha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_AGBRASIL",
+              "ORGAOS_ICMBIO_TRAVESSIA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P10",
+            "factKey": "parque-serra-orgaos-F10",
+            "text": "Uma trilha de cerca de 11 km, que leva de 5 a 6 horas, chega ao ponto mais alto do parque.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "ORGAOS_EMBRATUR"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P11",
+            "factKey": "parque-serra-orgaos-F11",
+            "text": "O ponto mais alto passa dos 2.200 m de altitude.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ORGAOS_WIKI",
+              "ORGAOS_EMBRATUR"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P12",
+            "factKey": "parque-serra-orgaos-F12",
+            "text": "Um dos picos do parque, de 1.692 m, aparece na bandeira do estado do Rio de Janeiro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ORGAOS_CB_1912",
+              "ORGAOS_WIKI"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P13",
+            "factKey": "parque-serra-orgaos-F13",
+            "text": "Esse pico foi escalado pela primeira vez em 1912, por cinco moradores da região.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ORGAOS_CB_1912"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P14",
+            "factKey": "parque-serra-orgaos-F14",
+            "text": "Para vencer um paredão vertical de uns 12 m, os primeiros a chegar ao topo usaram um tronco de árvore.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ORGAOS_CB_1912"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P15",
+            "factKey": "parque-serra-orgaos-F15",
+            "text": "Criado em 1939, foi o terceiro parque nacional do Brasil.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ORGAOS_WIKI",
+              "ORGAOS_ICMBIO_TRAVESSIA",
+              "ORGAOS_CNUC"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P16",
+            "factKey": "parque-serra-orgaos-F16",
+            "text": "A primeira mulher a chegar ao cume desse pico, em 1933, tinha 19 anos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ORGAOS_CB_1912"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P17",
+            "factKey": "parque-serra-orgaos-F17",
+            "text": "Há mais de 130 vias de escalada, e quem vai escalar precisa avisar o parque e assinar um termo sobre os riscos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_EMBRATUR",
+              "ORGAOS_CB_1912"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P18",
+            "factKey": "parque-serra-orgaos-F18",
+            "text": "Mais de 2.800 espécies de plantas já foram catalogadas, entre elas centenas de orquídeas e mais de 100 bromélias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_WIKI",
+              "ORGAOS_CB_MONTANHISMO",
+              "ORGAOS_EMBRATUR"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P19",
+            "factKey": "parque-serra-orgaos-F19",
+            "text": "O papagaio-de-cara-roxa, o falcão-pombinho e o sabiá-pimenta estão entre as aves raras que vivem ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_EMBRATUR"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P20",
+            "factKey": "parque-serra-orgaos-F20",
+            "text": "Mais de 460 espécies de aves já foram registradas no parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_CB_MONTANHISMO",
+              "ORGAOS_EMBRATUR"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P21",
+            "factKey": "parque-serra-orgaos-F21",
+            "text": "As cachoeiras Véu da Noiva e Andorinha ficam perto uma da outra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_EMBRATUR"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P22",
+            "factKey": "parque-serra-orgaos-F22",
+            "text": "Ao longo do rio Soberbo há poços, corredeiras e piscinas naturais, como o Poço Verde e o Poço da Capela.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_EMBRATUR"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P23",
+            "factKey": "parque-serra-orgaos-F23",
+            "text": "A Trilha Suspensa passa por cima de um aqueduto do início do século XX.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_EMBRATUR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P24",
+            "factKey": "parque-serra-orgaos-F24",
+            "text": "As três sedes do parque ficam em Teresópolis, Guapimirim e Petrópolis.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_EMBRATUR",
+              "ORGAOS_CNUC"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-viajante-P25",
+            "factKey": "parque-serra-orgaos-F25",
+            "text": "O nome vem da semelhança das formações rochosas com os tubos dos órgãos de igrejas europeias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_EMBRATUR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "parque-serra-orgaos-geografo-P01",
+            "factKey": "parque-serra-orgaos-F01",
+            "text": "A unidade protege um trecho da escarpa da Serra do Mar coberto por remanescentes de Mata Atlântica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_RBG",
+              "ORGAOS_CNUC"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P02",
+            "factKey": "parque-serra-orgaos-F26",
+            "text": "O clima é tropical superúmido, com umidade relativa do ar entre 80% e 90%.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_WIKI"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P03",
+            "factKey": "parque-serra-orgaos-F27",
+            "text": "O embasamento pertence à Faixa Ribeira, de idade pré-cambriana a eopaleozoica, parte do Sistema Orogênico Mantiqueira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_RBG"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P04",
+            "factKey": "parque-serra-orgaos-F28",
+            "text": "Predominam migmatitos e gnaisses e um batólito de granitos e granodioritos gnáissicos que leva o nome da própria serra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_RBG"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P05",
+            "factKey": "parque-serra-orgaos-F29",
+            "text": "Diques de diabásio de idade mesozoico-cenozoica cortam essas rochas mais antigas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_RBG"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P06",
+            "factKey": "parque-serra-orgaos-F30",
+            "text": "No Eoceno, uma distensão NW-SE gerou o Rift Continental do Sudeste do Brasil, com cerca de 1.000 km, e fragmentou o relevo da serra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_RBG"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P07",
+            "factKey": "parque-serra-orgaos-F31",
+            "text": "A cimeira forma um planalto nivelado em torno de 2.000 m, resto deformado de uma antiga superfície de aplainamento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_RBG"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P08",
+            "factKey": "parque-serra-orgaos-F32",
+            "text": "A escarpa tem desnível da ordem de 2.000 m, escalonada em blocos abatidos para sul-sudeste, com encostas de até cerca de 75°.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_RBG"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P09",
+            "factKey": "parque-serra-orgaos-F33",
+            "text": "Um cisalhamento mais recente, do Pleistoceno ao Holoceno, reativou a erosão e orientou rios como o Soberbo e o Bonfim ao longo de lineamentos NW-SE.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_RBG"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P10",
+            "factKey": "parque-serra-orgaos-F03",
+            "text": "A chuva média anual vai de 1.700 a 3.600 mm e é maior na vertente sudeste, voltada para o oceano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_WIKI"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P11",
+            "factKey": "parque-serra-orgaos-F34",
+            "text": "Até 500 m há floresta de baixada; entre 500 e 1.500 m, floresta montana com dossel de 25 a 30 m e árvores emergentes de até 40 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_WIKI"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P12",
+            "factKey": "parque-serra-orgaos-F35",
+            "text": "Entre 1.500 e 2.000 m, a floresta nebular tem árvores de 5 a 10 m; acima de 2.000 m, a vegetação de altitude soma 347 espécies, 66 delas endêmicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_WIKI"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P13",
+            "factKey": "parque-serra-orgaos-F36",
+            "text": "É um dos poucos habitats naturais dos cactos do gênero Schlumbergera.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_WIKI"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P14",
+            "factKey": "parque-serra-orgaos-F20",
+            "text": "A fauna registrada soma 462 espécies de aves, 105 de mamíferos, 103 de anfíbios e 83 de répteis, com 130 animais ameaçados de extinção.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_CB_MONTANHISMO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P15",
+            "factKey": "parque-serra-orgaos-F11",
+            "text": "Dez picos passam de 2.000 m e outros seis de 1.500 m; as maiores altitudes, acima de 2.200 m, ficam na porção centro-leste.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "ORGAOS_WIKI",
+              "ORGAOS_RBG"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P16",
+            "factKey": "parque-serra-orgaos-F37",
+            "text": "O pico de 1.692 m fica em território de Guapimirim, mas é visto em destaque a partir do centro de Teresópolis.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ORGAOS_CB_1912",
+              "ORGAOS_WIKI"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P17",
+            "factKey": "parque-serra-orgaos-F13",
+            "text": "A conquista desse cume, em 9 de abril de 1912, é tida como o marco inicial do montanhismo brasileiro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ORGAOS_CB_1912"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P18",
+            "factKey": "parque-serra-orgaos-F15",
+            "text": "O Decreto-Lei 1.822, de 30 de novembro de 1939, criou a unidade no governo Vargas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ORGAOS_CNUC",
+              "ORGAOS_WIKI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P19",
+            "factKey": "parque-serra-orgaos-F38",
+            "text": "A ampliação de 2008 quase dobrou a área, para cerca de 20 mil ha; a revisão de limites de 2022 a fixou em 19.850 ha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P20",
+            "factKey": "parque-serra-orgaos-F39",
+            "text": "Na criação, abrangia três municípios; hoje, a maior parte está num município desmembrado de Magé nos anos 1990.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P21",
+            "factKey": "parque-serra-orgaos-F40",
+            "text": "Nos anos 1940, ganhou piscina natural, prédios administrativos e quatro abrigos na trilha do ponto culminante; com a mudança da capital para Brasília, a verba encolheu.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "ORGAOS_WIKI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P22",
+            "factKey": "parque-serra-orgaos-F41",
+            "text": "Integra o Mosaico Mata Atlântica Central Fluminense, reconhecido em 2006, e a Reserva da Biosfera da Mata Atlântica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_CNUC",
+              "ORGAOS_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P23",
+            "factKey": "parque-serra-orgaos-F05",
+            "text": "A BR-116 atravessa a unidade, que fica a cerca de 90 km ao norte da cidade do Rio de Janeiro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_WIKI",
+              "ORGAOS_RBG"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P24",
+            "factKey": "parque-serra-orgaos-F24",
+            "text": "A área se estende por partes de Petrópolis, Teresópolis, Magé e Guapimirim.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_CNUC"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-orgaos-geografo-P25",
+            "factKey": "parque-serra-orgaos-F08",
+            "text": "A travessia de cerca de 30 km entre Petrópolis e Teresópolis cruza campos de altitude e florestas de nuvens, com pernoite perto do Abrigo Quatro e nos Castelos do Açu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ORGAOS_EMBRATUR",
+              "ORGAOS_ICMBIO_TRAVESSIA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque nacional criado em 1939, o terceiro do Brasil, na escarpa da Serra do Mar fluminense, em partes de Petrópolis, Teresópolis, Magé e Guapimirim; protege cerca de 20 mil ha de Mata Atlântica, da floresta de baixada aos campos de altitude, tem a Pedra do Sino como ponto culminante e o Dedo de Deus, cuja primeira escalada, em 1912, é tida como marco do montanhismo brasileiro.",
+      "editorialNotes": [
+        "Números divergentes: Pedra do Sino com 2.263 m (Wikipédia, Correio Braziliense) ou 2.275 m (Embratur), por isso as pistas dizem \"acima de 2.200 m\"; área original de 10.527 ha no ato de criação segundo o CNUC, mas cerca de 9.000 ha em 1939 segundo a Wikipédia, que atribui os 10.527 ha ao decreto de 1984 (o CNUC dá 10.650 ha a esse decreto). As pistas usam só a ampliação de 2008 (20.024 ha) e a revisão de 2022 (19.850 ha), ambas do CNUC.",
+        "Não usados: a altitude de Teresópolis (a matéria do Correio Braziliense dá 871 m e também 1.692 m, valor que coincide com o Dedo de Deus) e a cota mínima (145 m na Wikipédia; cerca de 200 m na área estudada por Hartwig e Riccomini). O título de Capital Nacional do Montanhismo (2021) só aparece numa matéria e ficou de fora.",
+        "As pistas evitam o nome do parque, a sigla e o nome do batólito; a do nome (tubos de órgão) é decisiva. O C1 tem o Itatiaia (também fluminense, com campos de altitude e uma cachoeira Véu de Noiva) e a Tijuca; as pistas de 1939, do Dedo de Deus, da Pedra do Sino e dos municípios separam os três. Evitar sorteio em sequência com Itatiaia e Petrópolis."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "ORGAOS_CNUC": {
+      "id": "ORGAOS_CNUC",
+      "title": "Parque Nacional da Serra dos Órgãos: ficha do Cadastro Nacional de Unidades de Conservação (CNUC 0000.00.0152)",
+      "publisher": "Ministério do Meio Ambiente e Mudança do Clima (CNUC)",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/10671",
+      "checkedAt": "2026-11-15"
+    },
+    "ORGAOS_WIKI": {
+      "id": "ORGAOS_WIKI",
+      "title": "Serra dos Órgãos National Park",
+      "publisher": "Wikipedia (em inglês)",
+      "url": "https://en.wikipedia.org/wiki/Serra_dos_%C3%93rg%C3%A3os_National_Park",
+      "checkedAt": "2026-11-15"
+    },
+    "ORGAOS_CB_MONTANHISMO": {
+      "id": "ORGAOS_CB_MONTANHISMO",
+      "title": "A Capital Nacional do Montanhismo guarda o Dedo de Deus e a maior rede de trilhas do Brasil na cidade mais alta do estado (08/08/2026)",
+      "publisher": "Correio Braziliense",
+      "url": "https://www.correiobraziliense.com.br/cbradar/a-capital-nacional-do-montanhismo-guarda-o-dedo-de-deus-e-a-maior-rede-de-trilhas-do-brasil-na-cidade-mais-alta-do-estado/",
+      "checkedAt": "2026-11-15"
+    },
+    "ORGAOS_CB_1912": {
+      "id": "ORGAOS_CB_1912",
+      "title": "Em 1912, cinco moradores usaram um tronco de árvore e muita criatividade para alcançar um pico de 1.692 metros e marcar o início do montanhismo brasileiro (23/10/2026)",
+      "publisher": "Correio Braziliense",
+      "url": "https://www.correiobraziliense.com.br/cbradar/em-1912-cinco-moradores-usaram-um-tronco-de-arvore-e-muita-criatividade-para-alcancar-um-pico-de-1-692-metros-e-marcar-o-inicio-do-montanhismo-brasileiro/",
+      "checkedAt": "2026-11-15"
+    },
+    "ORGAOS_EMBRATUR": {
+      "id": "ORGAOS_EMBRATUR",
+      "title": "Parque Nacional da Serra dos Órgãos (Parques Naturais)",
+      "publisher": "Embratur / Visit Brasil",
+      "url": "https://parquesnaturais.visitbrasil.com/?p=4388",
+      "checkedAt": "2026-11-15"
+    },
+    "ORGAOS_ICMBIO_TRAVESSIA": {
+      "id": "ORGAOS_ICMBIO_TRAVESSIA",
+      "title": "Projeto para a seleção de OSC para a operação de pernoite na Travessia Petrópolis-Teresópolis: resumo executivo (2026)",
+      "publisher": "ICMBio (edital publicado em gov.br/icmbio)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/editais-diversos/editais-diversos-2026/RESUMO_EXECUTIVO___PROJETO_PARNASO.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "ORGAOS_AGBRASIL": {
+      "id": "ORGAOS_AGBRASIL",
+      "title": "Parque da Serra dos Órgãos retoma a travessia Petrópolis-Teresópolis (25/03/2022)",
+      "publisher": "Agência Brasil (publicada no Correio Braziliense)",
+      "url": "https://www.correiobraziliense.com.br/brasil/2022/03/4995883-parque-da-serra-dos-orgaos-retoma-a-travessia-petropolis-teresopolis.html",
+      "checkedAt": "2026-11-15"
+    },
+    "ORGAOS_RBG": {
+      "id": "ORGAOS_RBG",
+      "title": "Análise morfotectônica da Região da Serra dos Órgãos, Sudeste do Brasil (Hartwig e Riccomini, 2010)",
+      "publisher": "Revista Brasileira de Geomorfologia, v. 11, n. 1",
+      "url": "https://rbgeomorfologia.org.br/rbg/article/download/137/131/392",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://cnuc-backend.mma.gov.br/api/v1/report/uc/10671",
+      "https://en.wikipedia.org/wiki/Serra_dos_%C3%93rg%C3%A3os_National_Park",
+      "https://www.correiobraziliense.com.br/cbradar/a-capital-nacional-do-montanhismo-guarda-o-dedo-de-deus-e-a-maior-rede-de-trilhas-do-brasil-na-cidade-mais-alta-do-estado/",
+      "https://www.correiobraziliense.com.br/cbradar/em-1912-cinco-moradores-usaram-um-tronco-de-arvore-e-muita-criatividade-para-alcancar-um-pico-de-1-692-metros-e-marcar-o-inicio-do-montanhismo-brasileiro/",
+      "https://parquesnaturais.visitbrasil.com/?p=4388",
+      "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/editais-diversos/editais-diversos-2026/RESUMO_EXECUTIVO___PROJETO_PARNASO.pdf",
+      "https://www.correiobraziliense.com.br/brasil/2022/03/4995883-parque-da-serra-dos-orgaos-retoma-a-travessia-petropolis-teresopolis.html",
+      "https://rbgeomorfologia.org.br/rbg/article/download/137/131/392",
+      "https://oeco.org.br/wp-content/uploads/wp-post-to-pdf-enhanced-cache/1/25923-comeca-hoje-a-primeira-semana-brasileira-de-montanhismo.pdf"
+    ],
+    "alteracoes": [
+      "criado do zero",
+      "a matéria de ((o))eco sobre a Semana Brasileira de Montanhismo foi aberta só para conferir o ano de 1912; nenhuma pista depende dela. A visão geral do parque no site antigo do ICMBio (www1.icmbio.gov.br) e a ficha da UERJ no Oasisbr não abriram e não foram usadas"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

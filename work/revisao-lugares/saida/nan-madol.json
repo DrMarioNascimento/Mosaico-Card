@@ -1,0 +1,1093 @@
+{
+  "case": {
+    "id": "lug3-nan-madol",
+    "placeId": "nan-madol",
+    "title": "Nan Madol",
+    "aliases": [
+      "Centro Cerimonial da Micronésia Oriental"
+    ],
+    "answerType": "sítio arqueológico",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "FM"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Sítio cultural ou arqueológico da Oceania",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Nan Madol"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Sítio Agrícola Antigo de Kuk"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Paisagem Cultural de Budj Bim"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Domínio do Chefe Roi Mata"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Taputapuātea"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional Rapa Nui"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Região dos Lagos Willandra"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Sítio Arqueológico de Lapita"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Pu‘uhonua o Hōnaunau"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Cidade Portuária Histórica de Levuka"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Atol de Bikini"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Ruínas de Leluh"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Ilhas Rock do Sul"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Nan Madol",
+        "sources": [
+          "NANMADOL_UNESCO_DEC",
+          "NANMADOL_UNESCO_NEWS",
+          "NANMADOL_NPS"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Dinastia que tinha aqui seu centro cerimonial",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Saudeleur"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Tu‘i Tonga"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Pōmare"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Kamehameha"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Saudeleur",
+        "sources": [
+          "NANMADOL_UNESCO_DEC",
+          "NANMADOL_UNESCO_NEWS",
+          "NANMADOL_NPS"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Ilha diante de cuja costa o sítio foi erguido",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Pohnpei"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Kosrae"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Chuuk"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Yap"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Pohnpei",
+        "sources": [
+          "NANMADOL_UNESCO_DEC",
+          "NANMADOL_NPS",
+          "NANMADOL_EGU"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Rocha das grandes colunas empilhadas nos muros",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Basalto colunar"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Calcário de coral"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Granito"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Tufo vulcânico"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Basalto colunar",
+        "sources": [
+          "NANMADOL_UNESCO_DEC",
+          "NANMADOL_SMU",
+          "NANMADOL_NPS"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "nan-madol-viajante-P01",
+            "factKey": "nan-madol-F01",
+            "text": "Ruínas de pedra escura se erguem sobre ilhotas no meio de uma laguna tropical.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_UNESCO_DEC",
+              "NANMADOL_SMU"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P02",
+            "factKey": "nan-madol-F02",
+            "text": "Fica no Pacífico, junto à costa de uma ilha.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "NANMADOL_EGU",
+              "NANMADOL_UNESCO_DEC"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P03",
+            "factKey": "nan-madol-F03",
+            "text": "Canais de maré correm entre as ilhotas, o que rendeu ao lugar o apelido de \"Veneza do Pacífico\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_HH",
+              "NANMADOL_SMU",
+              "NANMADOL_NPS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P04",
+            "factKey": "nan-madol-F04",
+            "text": "As ilhotas foram feitas por gente, sobre um recife de coral raso.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_NPS",
+              "NANMADOL_SMU",
+              "NANMADOL_HH"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P05",
+            "factKey": "nan-madol-F05",
+            "text": "Nos muros, as colunas de pedra foram assentadas em camadas cruzadas, umas de comprido e outras de ponta.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NANMADOL_UNESCO_DEC"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P06",
+            "factKey": "nan-madol-F06",
+            "text": "As colunas de pedra mais pesadas chegam a cerca de 45 toneladas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NANMADOL_NPS"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P07",
+            "factKey": "nan-madol-F07",
+            "text": "As pedras vieram de pedreiras do outro lado da ilha.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NANMADOL_SMU",
+              "NANMADOL_HH",
+              "NANMADOL_UNESCO_DEC"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P08",
+            "factKey": "nan-madol-F08",
+            "text": "Uma tradição oral diz que as pedras foram trazidas até ali por magia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_HH"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P09",
+            "factKey": "nan-madol-F09",
+            "text": "Segundo a lenda, dois irmãos feiticeiros que viajavam de canoa construíram a cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_NPS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P10",
+            "factKey": "nan-madol-F10",
+            "text": "Havia palácios, templos, construções funerárias e áreas de moradia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_UNESCO_DEC"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P11",
+            "factKey": "nan-madol-F11",
+            "text": "A maior construção é um templo real de muros altos, com o túmulo dos grandes chefes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_NPS",
+              "NANMADOL_HH"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P12",
+            "factKey": "nan-madol-F12",
+            "text": "No auge, a cidade pode ter tido cerca de mil moradores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_NPS"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P13",
+            "factKey": "nan-madol-F13",
+            "text": "Os governantes que viviam aqui chegaram a reinar sobre cerca de 25 mil pessoas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NANMADOL_NPS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P14",
+            "factKey": "nan-madol-F14",
+            "text": "Hoje, mangues cobrem boa parte do sítio, e o lodo entupiu muitos canais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_HH",
+              "NANMADOL_UNESCO_NEWS"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P15",
+            "factKey": "nan-madol-F15",
+            "text": "Raízes de plantas e árvores derrubadas por tempestades estão deslocando as pedras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_UNESCO_NEWS",
+              "NANMADOL_UNESCO_DEC"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P16",
+            "factKey": "nan-madol-F16",
+            "text": "Entrou na lista do Patrimônio Mundial e, ao mesmo tempo, na lista do Patrimônio Mundial em Perigo, em 2016.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_UNESCO_DEC",
+              "NANMADOL_UNESCO_NEWS",
+              "NANMADOL_HH"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P17",
+            "factKey": "nan-madol-F17",
+            "text": "O lugar continua ligado às tradições vivas da ilha e à autoridade dos chefes tradicionais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_UNESCO_DEC"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P18",
+            "factKey": "nan-madol-F18",
+            "text": "Um guerreiro herói, que a tradição diz ser filho do deus das tempestades, invadiu a ilha e derrotou a antiga dinastia.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NANMADOL_NPS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P19",
+            "factKey": "nan-madol-F19",
+            "text": "Historiadores acreditam que o guerreiro que derrubou a antiga dinastia trouxe colonos de Kosrae.",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "NANMADOL_NPS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P20",
+            "factKey": "nan-madol-F20",
+            "text": "O conjunto mede cerca de 1,5 km de comprimento por 0,7 km de largura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_EGU"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P21",
+            "factKey": "nan-madol-F21",
+            "text": "É um centro cerimonial monumental de cerca de mil anos atrás.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_UNESCO_DEC"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P22",
+            "factKey": "nan-madol-F22",
+            "text": "O nome do lugar significaria algo como \"dentro dos intervalos\", uma referência aos canais entre as ilhotas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_NPS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P23",
+            "factKey": "nan-madol-F23",
+            "text": "A ilha principal tem cerca de 334 km² e uns 34 mil habitantes.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "NANMADOL_SMU"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P24",
+            "factKey": "nan-madol-F24",
+            "text": "As ruínas ficam junto à pequena ilha de Temwen, na costa leste de Pohnpei.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "NANMADOL_NPS",
+              "NANMADOL_HH"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-viajante-P25",
+            "factKey": "nan-madol-F25",
+            "text": "Este foi o centro cerimonial da dinastia Saudeleur.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "NANMADOL_UNESCO_DEC",
+              "NANMADOL_UNESCO_NEWS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "nan-madol-geografo-P01",
+            "factKey": "nan-madol-F04",
+            "text": "É um conjunto de ilhotas artificiais de entulho de coral, erguidas sobre um recife raso numa zona entremarés.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_SMU",
+              "NANMADOL_HH"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P02",
+            "factKey": "nan-madol-F26",
+            "text": "O bem é um testemunho excepcional do surgimento de sociedades de chefia nas ilhas do Pacífico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_UNESCO_DEC"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P03",
+            "factKey": "nan-madol-F27",
+            "text": "Os muros combinam megálitos de basalto e blocos de coral.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NANMADOL_EGU",
+              "NANMADOL_UNESCO_NEWS"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P04",
+            "factKey": "nan-madol-F07",
+            "text": "As colunas são formações naturais de basalto, de 1 a 8 milhões de anos, trazidas de pedreiras no lado oposto da ilha.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NANMADOL_SMU"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P05",
+            "factKey": "nan-madol-F28",
+            "text": "Uma das fontes do basalto seria Pwisehn Malek, um morro do outro lado da ilha; as pedras podem ter sido levadas flutuando sobre troncos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NANMADOL_HH"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P06",
+            "factKey": "nan-madol-F05",
+            "text": "Os blocos foram assentados pela técnica header-stretcher, alternando fiadas de comprido e de ponta.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NANMADOL_UNESCO_DEC"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P07",
+            "factKey": "nan-madol-F29",
+            "text": "Uma muralha marítima de coral e basalto, ancorada por duas ilhotas maciças, protegia o conjunto das marés.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_HH"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P08",
+            "factKey": "nan-madol-F30",
+            "text": "A laguna em que o conjunto foi construído tem cerca de 83 hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_SMU"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P09",
+            "factKey": "nan-madol-F31",
+            "text": "O setor mais antigo tinha ilhotas maiores, administrativas; o outro, ilhotas menores e próximas, com funções rituais e funerárias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_HH"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P10",
+            "factKey": "nan-madol-F32",
+            "text": "O palácio da dinastia ficava na ilhota Pahn Kedira.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NANMADOL_HH"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P11",
+            "factKey": "nan-madol-F33",
+            "text": "O túmulo principal mede 80 por 60 m, com paredes externas de 1,8 a 3 m de espessura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_SMU"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P12",
+            "factKey": "nan-madol-F34",
+            "text": "Datações de urânio-tório em corais dos aterros vêm refinando a cronologia; um estudo recente mediu mais de 150 idades.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_EGU",
+              "NANMADOL_SMU"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P13",
+            "factKey": "nan-madol-F35",
+            "text": "O desenvolvimento do conjunto foi influenciado pela variabilidade do El Niño e por uma subida do nível do mar ligada à tectônica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_EGU"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P14",
+            "factKey": "nan-madol-F36",
+            "text": "A ilha principal teria sido povoada por volta do ano 1, e há carvão no sítio datado da época do Império Romano.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "NANMADOL_SMU",
+              "NANMADOL_HH"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P15",
+            "factKey": "nan-madol-F37",
+            "text": "Segundo a tradição, a dinastia que governou daqui era formada por estrangeiros que se tornaram senhores da ilha.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NANMADOL_NPS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P16",
+            "factKey": "nan-madol-F19",
+            "text": "Segundo o serviço de parques dos EUA, um invasor ligado a Kosrae derrotou a dinastia em 1628.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NANMADOL_NPS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P17",
+            "factKey": "nan-madol-F38",
+            "text": "O sítio expressa as origens das instituições de chefia tradicional, que continuam vivas no sistema dos Nahnmwarki.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_UNESCO_DEC",
+              "NANMADOL_HH"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P18",
+            "factKey": "nan-madol-F39",
+            "text": "A proteção combina lei federal, uma lei estadual de 2002 e a proteção costumeira do chefe tradicional do distrito.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_UNESCO_DEC"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P19",
+            "factKey": "nan-madol-F40",
+            "text": "O estado das estruturas de pedra é de \"extrema preocupação\": vegetação, ressacas de tempestade e desabamentos ameaçam o bem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_UNESCO_DEC"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P20",
+            "factKey": "nan-madol-F41",
+            "text": "O assoreamento dos canais deve ser removido sem destruir possíveis camadas culturais do fundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_UNESCO_DEC"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P21",
+            "factKey": "nan-madol-F16",
+            "text": "A subida do nível do mar e as marés de tempestade levaram o bem à lista do Patrimônio em Perigo no mesmo ano da inscrição.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NANMADOL_HH",
+              "NANMADOL_UNESCO_NEWS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P22",
+            "factKey": "nan-madol-F42",
+            "text": "O sítio é propriedade privada de moradores da ilha e é Marco Histórico Nacional dos EUA.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "NANMADOL_NPS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P23",
+            "factKey": "nan-madol-F43",
+            "text": "Basalto talhado forma os muros de cerca de 130 edificações.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NANMADOL_NPS"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P24",
+            "factKey": "nan-madol-F24",
+            "text": "Fica no distrito de Madolenihmw, na costa sudeste de Pohnpei, junto à ilhota de Temwen.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "NANMADOL_NPS",
+              "NANMADOL_EGU"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "nan-madol-geografo-P25",
+            "factKey": "nan-madol-F25",
+            "text": "Foi o centro cerimonial da dinastia Saudeleur e hoje está ligado à autoridade do Nahnmwarki de Madolenihmw.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NANMADOL_UNESCO_DEC"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Conjunto de ilhotas artificiais com construções de basalto colunar e coral junto à ilhota de Temwen, na costa de Pohnpei (Estados Federados da Micronésia), que foi o centro cerimonial da dinastia Saudeleur; Patrimônio Mundial e Patrimônio em Perigo desde 2016.",
+      "editorialNotes": [
+        "A contagem de ilhotas diverge: mais de 100 (UNESCO; resumo EGU 2023), 98 (estudo da SMU, 2016) e mais de 90 (NPS); as pistas não citam número.",
+        "A cronologia diverge: a UNESCO situa a dinastia por volta de 1200–1500; a NPS fala em vida da cidade de cerca de 1200 a 1700; o estudo da SMU (2016) põe o primeiro sepultamento do chefe até 1200; e o resumo da EGU (2023) põe o pico de construção em meados do século XI. As pistas evitam datas de construção e usam só o \"cerca de mil anos\" do critério (iv).",
+        "A data de 1628 para a derrota da dinastia, o peso de 100 mil libras (cerca de 45 t) das colunas mais pesadas e a lenda dos dois irmãos vêm só do NPS e são atribuídos a ele quando necessário."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "NANMADOL_UNESCO_DEC": {
+      "id": "NANMADOL_UNESCO_DEC",
+      "title": "Decision 40 COM 8B.22 — Nan Madol: Ceremonial Centre of Eastern Micronesia (Federated States of Micronesia)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/6800",
+      "checkedAt": "2026-11-15"
+    },
+    "NANMADOL_UNESCO_NEWS": {
+      "id": "NANMADOL_UNESCO_NEWS",
+      "title": "US Ambassador's Fund for Cultural Preservation provides support to the endangered site of Nan Madol",
+      "publisher": "UNESCO World Heritage Centre (09/11/2018)",
+      "url": "https://whc.unesco.org/en/news/1899",
+      "checkedAt": "2026-11-15"
+    },
+    "NANMADOL_NPS": {
+      "id": "NANMADOL_NPS",
+      "title": "Nan Madol",
+      "publisher": "National Park Service (EUA)",
+      "url": "https://www.nps.gov/places/nan-madol.htm",
+      "checkedAt": "2026-11-15"
+    },
+    "NANMADOL_HH": {
+      "id": "NANMADOL_HH",
+      "title": "Nan Madol: Venice of the Pacific",
+      "publisher": "History Hit",
+      "url": "https://www.historyhit.com/nan-madol-venice-of-the-pacific/",
+      "checkedAt": "2026-11-15"
+    },
+    "NANMADOL_SMU": {
+      "id": "NANMADOL_SMU",
+      "title": "Age of first chief's ancient tomb reveals Pacific Islanders invented new kind of society",
+      "publisher": "ScienceDaily, a partir de comunicado da Southern Methodist University (18/10/2016)",
+      "url": "https://www.sciencedaily.com/releases/2016/10/161018132620.htm",
+      "checkedAt": "2026-11-15"
+    },
+    "NANMADOL_EGU": {
+      "id": "NANMADOL_EGU",
+      "title": "Dating a world-unique Pacific ruin: Nan Madol (EGU23-123)",
+      "publisher": "EGU General Assembly 2023 (Copernicus Meetings)",
+      "url": "https://meetingorganizer.copernicus.org/EGU23/EGU23-123.html",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/en/decisions/6800",
+      "https://whc.unesco.org/en/news/1899",
+      "https://www.nps.gov/places/nan-madol.htm",
+      "https://www.historyhit.com/nan-madol-venice-of-the-pacific/",
+      "https://www.sciencedaily.com/releases/2016/10/161018132620.htm",
+      "https://meetingorganizer.copernicus.org/EGU23/EGU23-123.html"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

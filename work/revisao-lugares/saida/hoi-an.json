@@ -1,0 +1,1083 @@
+{
+  "case": {
+    "id": "lug3-hoi-an",
+    "placeId": "hoi-an",
+    "title": "Hoi An",
+    "aliases": [
+      "Hội An",
+      "Cidade Antiga de Hoi An"
+    ],
+    "answerType": "cidade histórica",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "VN"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade histórica",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Hoi An"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Luang Prabang"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Hué"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Hanói"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Malaca"
+          },
+          {
+            "id": "C1-O6",
+            "text": "George Town"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Vigan"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Galle"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Macau"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Lijiang"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Kyoto"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Nara"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Ayutthaya"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Kandy"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Hoi An",
+        "sources": [
+          "HOIAN_UNESCO_PR",
+          "HOIAN_VNAT",
+          "HOIAN_CENTRO"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rio em cuja margem fica o centro histórico",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Thu Bon"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Perfume"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Mekong"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Chao Phraya"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Thu Bon",
+        "sources": [
+          "HOIAN_UNESCO_PR",
+          "HOIAN_UNESCO_SR"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Comunidades estrangeiras que mais marcaram a cidade no auge do comércio",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Chineses e japoneses"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Árabes e persas"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Ingleses e indianos"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Espanhóis e mexicanos"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Chineses e japoneses",
+        "sources": [
+          "HOIAN_UNESCO_PR",
+          "HOIAN_CENTRO"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Estrutura predominante das casas antigas",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Armação de madeira com telhado de telhas"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Alvenaria de pedra"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Tijolo cru (adobe)"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Bambu e palha sobre palafitas"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Armação de madeira com telhado de telhas",
+        "sources": [
+          "HOIAN_UNESCO_PR"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "hoi-an-viajante-P01",
+            "factKey": "hoi-an-F01",
+            "text": "Este destino é uma cidade histórica do Sudeste Asiático, à beira de um rio e perto do mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR",
+              "HOIAN_UNESCO_SR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P02",
+            "factKey": "hoi-an-F02",
+            "text": "Quase todo ano há enchentes, que costumam chegar junto com tufões fortes.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P03",
+            "factKey": "hoi-an-F03",
+            "text": "As ruas do centro antigo são estreitas, feitas para andar a pé, com casas coladas umas nas outras.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P04",
+            "factKey": "hoi-an-F04",
+            "text": "As casas antigas têm estrutura de madeira, telhado de telhas e peças entalhadas com motivos tradicionais.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P05",
+            "factKey": "hoi-an-F05",
+            "text": "Os fundos de muitas casas dão para o rio, de onde se descarregavam as mercadorias dos barcos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P06",
+            "factKey": "hoi-an-F06",
+            "text": "Uma rua corre ao longo do rio, e outras três seguem paralelas a ela.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_SR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P07",
+            "factKey": "hoi-an-F07",
+            "text": "Pagodes, templos e casas de culto de famílias se misturam às lojas e moradias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR",
+              "HOIAN_UNESCO_SR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P08",
+            "factKey": "hoi-an-F08",
+            "text": "No meio do conjunto histórico há um mercado aberto e um cais de balsa.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P09",
+            "factKey": "hoi-an-F09",
+            "text": "Fazer lanternas é um dos ofícios tradicionais que o turismo ajuda a manter vivos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P10",
+            "factKey": "hoi-an-F10",
+            "text": "Duas noites por mês lunar, no 1º e no 14º dia, o centro antigo vira palco de uma festa tradicional.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_VNAT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P11",
+            "factKey": "hoi-an-F11",
+            "text": "Entre os pratos típicos estão o cao lau e o mi quang, dois macarrões da região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_VNAT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P12",
+            "factKey": "hoi-an-F12",
+            "text": "Nos arredores, uma aldeia ainda faz cerâmica e outra mantém a carpintaria entalhada.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "HOIAN_CENTRO",
+              "HOIAN_UNESCO_PR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P13",
+            "factKey": "hoi-an-F13",
+            "text": "A cidade preserva o bài chòi, uma arte folclórica de apresentação do centro do Vietnã.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P14",
+            "factKey": "hoi-an-F14",
+            "text": "A cidade fica na região central do Vietnã, cerca de 30 km ao sul de Da Nang.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_VNAT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P15",
+            "factKey": "hoi-an-F15",
+            "text": "Salões de assembleia de comunidades chinesas estão entre as visitas obrigatórias.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "HOIAN_VNAT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P16",
+            "factKey": "hoi-an-F16",
+            "text": "No auge do comércio, a cidade recebeu uma grande leva de mercadores chineses e japoneses.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "HOIAN_CENTRO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P17",
+            "factKey": "hoi-an-F17",
+            "text": "A ponte japonesa, coberta, de madeira e com um pequeno pagode em cima, é o cartão-postal da cidade.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR",
+              "HOIAN_CENTRO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P18",
+            "factKey": "hoi-an-F18",
+            "text": "Estátuas de macacos e de cães guardam as entradas dessa ponte, dedicada a espíritos locais.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "HOIAN_SMITHSONIAN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P19",
+            "factKey": "hoi-an-F19",
+            "text": "Escavações mostram que já havia um porto comercial ali no século II a.C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_SR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P20",
+            "factKey": "hoi-an-F20",
+            "text": "Jesuítas portugueses passaram por ali no século XVII, e o porto foi uma das portas de entrada do cristianismo no país.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "HOIAN_CENTRO",
+              "HOIAN_UNESCO_SR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P21",
+            "factKey": "hoi-an-F21",
+            "text": "O porto perdeu importância quando a foz do rio assoreou e o comércio passou para Da Nang.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HOIAN_CENTRO",
+              "HOIAN_SMITHSONIAN"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P22",
+            "factKey": "hoi-an-F22",
+            "text": "Era uma cidade tranquila e rural até os turistas começarem a chegar em grande número, nos anos 1980.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_CENTRO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P23",
+            "factKey": "hoi-an-F23",
+            "text": "A UNESCO inscreveu a cidade antiga como Patrimônio Mundial em 1999.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR",
+              "HOIAN_VNAT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P24",
+            "factKey": "hoi-an-F24",
+            "text": "No começo do século XVII, os estrangeiros conheciam a cidade como Faifo; no tempo do reino de Champa, ela se chamava Lam Ap Pho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_CENTRO",
+              "HOIAN_BRITANNICA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-viajante-P25",
+            "factKey": "hoi-an-F25",
+            "text": "O centro histórico fica na margem norte do rio Thu Bon, perto da foz.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR",
+              "HOIAN_UNESCO_SR"
+            ],
+            "clueType": "agua",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "hoi-an-geografo-P01",
+            "factKey": "hoi-an-F01",
+            "text": "O núcleo urbano nasceu de um porto junto à foz de um rio, que ligava o interior ao comércio marítimo do Sudeste Asiático.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR",
+              "HOIAN_SMITHSONIAN"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P02",
+            "factKey": "hoi-an-F02",
+            "text": "Cheias anuais, associadas a tufões cada vez mais fortes e imprevisíveis, são o principal risco natural para o casario.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P03",
+            "factKey": "hoi-an-F26",
+            "text": "A bacia do rio que banha a cidade está entre as maiores do país e articulava trocas locais, regionais e internacionais.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HOIAN_SMITHSONIAN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P04",
+            "factKey": "hoi-an-F14",
+            "text": "Na costa central vietnamita, o antigo porto fica cerca de 30 km ao sul da atual Da Nang.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_VNAT",
+              "HOIAN_BRITANNICA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P05",
+            "factKey": "hoi-an-F27",
+            "text": "O rio Hoai, afluente do curso principal, atravessa a cidade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HOIAN_CENTRO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P06",
+            "factKey": "hoi-an-F05",
+            "text": "Lotes com frente para a rua e fundos para o rio juntavam comércio, moradia e embarque de carga direto dos barcos.",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P07",
+            "factKey": "hoi-an-F06",
+            "text": "O traçado é linear: uma rua acompanha o rio no sentido leste-oeste e outras três correm paralelas a ela.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_SR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P08",
+            "factKey": "hoi-an-F04",
+            "text": "O conjunto reúne 1.107 edifícios de armação de madeira, em fileiras contínuas ao longo de ruas de pedestres.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P09",
+            "factKey": "hoi-an-F28",
+            "text": "Umidade e cupins degradam a madeira, e o risco de incêndio nas casas antigas é alto.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P10",
+            "factKey": "hoi-an-F29",
+            "text": "A estagnação econômica desde o século XIX acabou congelando o tecido urbano tradicional, o que explica sua conservação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P11",
+            "factKey": "hoi-an-F21",
+            "text": "O assoreamento da foz barrou os navios maiores e deslocou o comércio para Da Nang.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "HOIAN_CENTRO",
+              "HOIAN_SMITHSONIAN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P12",
+            "factKey": "hoi-an-F23",
+            "text": "A UNESCO a reconhece como exemplo excepcionalmente bem preservado de porto comercial tradicional asiático.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P13",
+            "factKey": "hoi-an-F16",
+            "text": "A paisagem urbana expressa a fusão de culturas locais e estrangeiras, sobretudo chinesa e japonesa, com influências europeias posteriores.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P14",
+            "factKey": "hoi-an-F30",
+            "text": "Na era Shuinsen (1592–1636), governantes japoneses emitiam licenças especiais para o comércio com esse porto.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "HOIAN_CENTRO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P15",
+            "factKey": "hoi-an-F31",
+            "text": "A cidade chegou a se dividir em um setor japonês e outro chinês, cada um com seus governantes e regras.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "HOIAN_CENTRO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P16",
+            "factKey": "hoi-an-F32",
+            "text": "Mercadores chineses esperavam ali a temporada de tufões, de agosto a outubro; alguns se casaram com vietnamitas e abriram negócios.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "HOIAN_CENTRO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P17",
+            "factKey": "hoi-an-F33",
+            "text": "Entre 1636 e 1741, holandeses e outros europeus mantiveram entrepostos comerciais na cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_CENTRO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P18",
+            "factKey": "hoi-an-F20",
+            "text": "Missionários católicos que passaram por esse porto ajudaram a criar o quốc ngữ, a escrita do vietnamita.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_CENTRO",
+              "HOIAN_BRITANNICA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P19",
+            "factKey": "hoi-an-F24",
+            "text": "No período Champa, tornou-se um porto comercial importante entre os séculos IX e X, ligado ao reino de Tra Kieu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_CENTRO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P20",
+            "factKey": "hoi-an-F34",
+            "text": "Seda, pérolas, casco de tartaruga, ouro e madeira de agar estavam entre as mercadorias negociadas no porto Cham.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_CENTRO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P21",
+            "factKey": "hoi-an-F19",
+            "text": "Jarros funerários da cultura Sa Huynh indicam que o comércio portuário começou antes da era cristã.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_CENTRO",
+              "HOIAN_UNESCO_SR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P22",
+            "factKey": "hoi-an-F17",
+            "text": "A ponte coberta foi construída por japoneses e depois reconstruída por chineses, síntese das duas comunidades.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "HOIAN_CENTRO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P23",
+            "factKey": "hoi-an-F22",
+            "text": "Entre 2011 e 2020, a visitação cresceu cerca de cinco vezes, e muitos donos alugaram as casas para o comércio e se mudaram.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P24",
+            "factKey": "hoi-an-F15",
+            "text": "Os salões das comunidades de Phuc Kien, Quang Dong e Trieu Chau revelam a origem regional dos imigrantes chineses.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "HOIAN_VNAT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "hoi-an-geografo-P25",
+            "factKey": "hoi-an-F35",
+            "text": "A Reserva da Biosfera de Cu Lao Cham, vizinha, liga o patrimônio urbano a ilhas ocupadas há mais de 3 mil anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HOIAN_UNESCO_PR",
+              "HOIAN_CENTRO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Antigo porto comercial do centro do Vietnã, na margem norte do rio Thu Bon, perto da foz: casario de madeira dos séculos XIX e XX, ponte japonesa coberta e salões chineses, Patrimônio Mundial desde 1999.",
+      "editorialNotes": [
+        "Data da ponte japonesa divergente: o centro de patrimônio local fala em 1593 (construída por japoneses e depois reconstruída por chineses), o relatório periódico da UNESCO diz século XVIII e o Smithsonian, século XVII; nenhuma data foi usada nas pistas.",
+        "Declínio do porto: o centro local situa o assoreamento a partir do fim do século XVIII; a UNESCO fala em declínio no fim do século XIX. Área omitida (30 ha inscritos segundo a UNESCO; cerca de 2 km² de cidade antiga segundo o órgão de turismo; zona tampão com revisão em andamento).",
+        "Divisão administrativa: o relatório da UNESCO cita a província de Quang Nam, mas o site do centro de patrimônio, hospedado no governo de Da Nang, dá o endereço “Hoi An, Đà Nẵng”, em linha com a reforma de 2025; por isso as pistas não citam província."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "HOIAN_UNESCO_PR": {
+      "id": "HOIAN_UNESCO_PR",
+      "title": "Hoi An Ancient Town — Periodic Reporting, Third Cycle (questionário da secção II)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/217504",
+      "checkedAt": "2026-11-15"
+    },
+    "HOIAN_UNESCO_SR": {
+      "id": "HOIAN_UNESCO_SR",
+      "title": "Hoi An Ancient Town",
+      "publisher": "UNESCO — Silk Roads Programme",
+      "url": "https://en.unesco.org/silkroad/silk-road-themes/world-heritage-sites/hoi-ancient-town",
+      "checkedAt": "2026-11-15"
+    },
+    "HOIAN_VNAT": {
+      "id": "HOIAN_VNAT",
+      "title": "Hoi An Ancient Town",
+      "publisher": "Vietnam National Authority of Tourism",
+      "url": "https://vietnamtourism.vn/en/index.php/tourism/items/2939",
+      "checkedAt": "2026-11-15"
+    },
+    "HOIAN_CENTRO": {
+      "id": "HOIAN_CENTRO",
+      "title": "History — Culture",
+      "publisher": "Hoi An Center for Cultural Heritage Management and Preservation (portal do governo de Da Nang)",
+      "url": "https://hoianheritage.danang.gov.vn/en/nature-and-history/nature-and-history/history-culture-1.html",
+      "checkedAt": "2026-11-15"
+    },
+    "HOIAN_SMITHSONIAN": {
+      "id": "HOIAN_SMITHSONIAN",
+      "title": "The History of Hội An, Vietnam",
+      "publisher": "Smithsonian Journeys",
+      "url": "https://www.smithsonianjourneys.org/blogs/blog/2011/09/14/the-history-of-hoi-an-vietnam/",
+      "checkedAt": "2026-11-15"
+    },
+    "HOIAN_BRITANNICA": {
+      "id": "HOIAN_BRITANNICA",
+      "title": "Hoi An",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Hoi-An",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/document/217504",
+      "https://en.unesco.org/silkroad/silk-road-themes/world-heritage-sites/hoi-ancient-town",
+      "https://vietnamtourism.vn/en/index.php/tourism/items/2939",
+      "https://hoianheritage.danang.gov.vn/en/nature-and-history/nature-and-history/history-culture-1.html",
+      "https://www.smithsonianjourneys.org/blogs/blog/2011/09/14/the-history-of-hoi-an-vietnam/",
+      "https://www.britannica.com/place/Hoi-An"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

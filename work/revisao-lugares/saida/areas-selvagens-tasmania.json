@@ -1,0 +1,1095 @@
+{
+  "case": {
+    "id": "lug3-areas-selvagens-tasmania",
+    "placeId": "areas-selvagens-tasmania",
+    "title": "Áreas Selvagens da Tasmânia",
+    "aliases": [
+      "Área Selvagem da Tasmânia",
+      "Tasmanian Wilderness"
+    ],
+    "answerType": "área natural protegida",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "AU"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Área natural protegida da Oceania",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Áreas Selvagens da Tasmânia"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Área das Grandes Montanhas Azuis"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Florestas Tropicais Gondwana da Austrália"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Trópicos Úmidos de Queensland"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional Kosciuszko"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional Kakadu"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional Purnululu"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional Uluru-Kata Tjuta"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional Freycinet"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional Grampians"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Ilha Macquarie"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional Fiordland"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Parque Nacional Tongariro"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Parque Nacional Aoraki/Monte Cook"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Parque Nacional Westland Tai Poutini"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Parque Nacional Abel Tasman"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Áreas Selvagens da Tasmânia",
+        "sources": [
+          "TASW_PWS",
+          "TASW_IUCN"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Árvore que vive mais de 2.000 anos às margens dos rios da área",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Pinheiro-huon"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Pinheiro-de-wollemi"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Kauri"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Pinheiro-de-norfolk"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Pinheiro-huon",
+        "sources": [
+          "TASW_PWS",
+          "TASW_PREMIER",
+          "TASW_IUCN"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Quantos dos dez critérios do Patrimônio Mundial o sítio cumpre",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Sete"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Quatro"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Três"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Cinco"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Sete",
+        "sources": [
+          "TASW_PWS",
+          "TASW_PREMIER",
+          "TASW_IUCN"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Rio selvagem que uma hidrelétrica alagaria, salvo após protestos e decisão judicial em 1983",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Rio Franklin"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Rio Snowy"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Rio Clutha"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Rio Murray"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Rio Franklin",
+        "sources": [
+          "TASW_NMA",
+          "TASW_PEO"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "areas-selvagens-tasmania-viajante-P01",
+            "factKey": "areas-selvagens-tasmania-F01",
+            "text": "Este destino é uma vasta região selvagem de montanhas, florestas, lagos e rios no sul da Oceania.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS",
+              "TASW_IUCN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P02",
+            "factKey": "areas-selvagens-tasmania-F02",
+            "text": "Geleiras antigas esculpiram boa parte da paisagem, cheia de lagos e picos recortados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS",
+              "TASW_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P03",
+            "factKey": "areas-selvagens-tasmania-F03",
+            "text": "Um dos cartões-postais é um lago de origem glacial ao pé de uma montanha famosa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P04",
+            "factKey": "areas-selvagens-tasmania-F04",
+            "text": "A trilha mais famosa daqui atravessa 65 km de montanhas em seis dias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P05",
+            "factKey": "areas-selvagens-tasmania-F05",
+            "text": "Há travessias ainda mais duras, como uma de 72 km que leva de 6 a 9 dias e é classificada no grau 5 de dificuldade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P06",
+            "factKey": "areas-selvagens-tasmania-F06",
+            "text": "Um dos parques do conjunto não tem acesso por estrada: só dá para explorá-lo a pé.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P07",
+            "factKey": "areas-selvagens-tasmania-F07",
+            "text": "Para entrar nos parques nacionais da região é preciso ter um passe válido.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P08",
+            "factKey": "areas-selvagens-tasmania-F08",
+            "text": "Há passeios curtos até lagos e cachoeiras, além de caminhadas de vários dias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P09",
+            "factKey": "areas-selvagens-tasmania-F09",
+            "text": "Para dormir, há desde cabanas na mata até áreas de camping e abrigos rústicos do governo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P10",
+            "factKey": "areas-selvagens-tasmania-F10",
+            "text": "Diabos-da-tasmânia e quolls, pequenos marsupiais carnívoros, ainda sobrevivem nestas florestas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS",
+              "TASW_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P11",
+            "factKey": "areas-selvagens-tasmania-F11",
+            "text": "Um papagaio de barriga laranja, criticamente ameaçado, só se reproduz no canto sudoeste da região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS",
+              "TASW_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P12",
+            "factKey": "areas-selvagens-tasmania-F12",
+            "text": "Nos laguinhos de montanha vive um camarão considerado fóssil vivo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P13",
+            "factKey": "areas-selvagens-tasmania-F13",
+            "text": "Ao longo de um dos grandes rios crescem pinheiros com mais de 2.000 anos de idade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TASW_PWS",
+              "TASW_PREMIER",
+              "TASW_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P14",
+            "factKey": "areas-selvagens-tasmania-F14",
+            "text": "As florestas de eucalipto são dominadas por uma árvore apontada como a planta com flores mais alta do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P15",
+            "factKey": "areas-selvagens-tasmania-F15",
+            "text": "Há extensos campos de buttongrass, vegetação aberta que os aborígines ajudaram a formar com o uso do fogo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P16",
+            "factKey": "areas-selvagens-tasmania-F16",
+            "text": "Povos aborígines vivem nesta região há dezenas de milhares de anos e usavam as cavernas como abrigo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS",
+              "TASW_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P17",
+            "factKey": "areas-selvagens-tasmania-F17",
+            "text": "Uma pequena ilha guarda as ruínas da colônia penal mais antiga do estado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P18",
+            "factKey": "areas-selvagens-tasmania-F18",
+            "text": "Pela mata ficam ruínas de antigos portos e vilas, entre elas um povoado que extraía osmirídio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P19",
+            "factKey": "areas-selvagens-tasmania-F19",
+            "text": "No verão de 1982 para 1983, milhares de manifestantes bloquearam as obras de uma hidrelétrica, e mais de mil foram presos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TASW_NMA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P20",
+            "factKey": "areas-selvagens-tasmania-F20",
+            "text": "O bloqueio foi liderado por Bob Brown e pela Wilderness Society.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TASW_NMA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P21",
+            "factKey": "areas-selvagens-tasmania-F21",
+            "text": "A represa ficaria no rio Gordon e inundaria outro rio selvagem e a mata em volta.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TASW_NMA",
+              "TASW_PEO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P22",
+            "factKey": "areas-selvagens-tasmania-F22",
+            "text": "O Frenchmans Cap e o Federation Peak estão entre os picos mais conhecidos daqui.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P23",
+            "factKey": "areas-selvagens-tasmania-F23",
+            "text": "O conjunto reúne sete parques nacionais, além de reservas, áreas de conservação e terras aborígines.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PREMIER"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P24",
+            "factKey": "areas-selvagens-tasmania-F24",
+            "text": "Este conjunto protegido reúne parques como Cradle Mountain-Lake St Clair, Franklin-Gordon Wild Rivers e Southwest.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "TASW_PWS",
+              "TASW_ABS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-viajante-P25",
+            "factKey": "areas-selvagens-tasmania-F25",
+            "text": "Inscrito como Patrimônio Mundial em 1982, sob o nome de Parques Nacionais da Natureza Selvagem do Oeste da Tasmânia, foi ampliado em 1989.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PREMIER",
+              "TASW_ABS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "areas-selvagens-tasmania-geografo-P01",
+            "factKey": "areas-selvagens-tasmania-F26",
+            "text": "Muitas montanhas da área se formaram com a fragmentação do Gondwana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P02",
+            "factKey": "areas-selvagens-tasmania-F27",
+            "text": "A região passou por glaciação severa, que deixou circos, arestas e nunataks esculpidos no dolerito.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS",
+              "TASW_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P03",
+            "factKey": "areas-selvagens-tasmania-F28",
+            "text": "Algumas cordilheiras são cristas recortadas de quartzito do Pré-Cambriano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P04",
+            "factKey": "areas-selvagens-tasmania-F29",
+            "text": "Processos periglaciais desenham no solo listras, polígonos e degraus de pedra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P05",
+            "factKey": "areas-selvagens-tasmania-F30",
+            "text": "O carste é tido como exemplo mundial de processos cársticos ativos em clima temperado marítimo, com feições de até 400 milhões de anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P06",
+            "factKey": "areas-selvagens-tasmania-F31",
+            "text": "Num dos parques, o calcário chega a 2 km de espessura, e o intemperismo químico abriu algumas das maiores e mais profundas cavernas da Austrália.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P07",
+            "factKey": "areas-selvagens-tasmania-F32",
+            "text": "Faia-decídua, pinheiro-king-billy, pinheiro-lápis e pandani descendem de linhagens do Gondwana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P08",
+            "factKey": "areas-selvagens-tasmania-F33",
+            "text": "A faia-decídua local ajudou a confirmar a teoria da deriva continental.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P09",
+            "factKey": "areas-selvagens-tasmania-F34",
+            "text": "Pinheiros paleoendêmicos, como o king-billy e o pinheiro-lápis, são sensíveis ao fogo, o que faz dos incêndios uma ameaça direta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P10",
+            "factKey": "areas-selvagens-tasmania-F35",
+            "text": "Incêndios em escala de paisagem, como os de 2016 e de 2018-2019, e a mudança do clima que os favorece são classificados como ameaça muito alta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_IUCN"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P11",
+            "factKey": "areas-selvagens-tasmania-F36",
+            "text": "O patógeno de solo Phytophthora cinnamomi já está espalhado por 15% a 50% da área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P12",
+            "factKey": "areas-selvagens-tasmania-F37",
+            "text": "Florestas de mountain ash, um eucalipto gigante, alcançam de 70 a 100 m de altura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P13",
+            "factKey": "areas-selvagens-tasmania-F38",
+            "text": "Às margens do rio Gordon crescem pinheiros com mais de 2.000 anos de idade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TASW_PWS",
+              "TASW_IUCN",
+              "TASW_PREMIER"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P14",
+            "factKey": "areas-selvagens-tasmania-F39",
+            "text": "Em Macquarie Harbour vive a raia de Maugean, e a poluição da aquicultura ali preocupa os avaliadores do patrimônio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_IUCN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P15",
+            "factKey": "areas-selvagens-tasmania-F40",
+            "text": "O manejo aborígine com fogo ajudou a criar as charnecas de buttongrass, exemplo de interação humana com o ambiente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_PWS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P16",
+            "factKey": "areas-selvagens-tasmania-F41",
+            "text": "Cavernas com depósitos de ocupação bem preservados registram a presença aborígine desde o Pleistoceno.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_IUCN",
+              "TASW_PWS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P17",
+            "factKey": "areas-selvagens-tasmania-F42",
+            "text": "O sítio cumpre sete dos dez critérios do Patrimônio Mundial, marca que só o Monte Taishan, na China, também alcança.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TASW_PWS",
+              "TASW_PREMIER"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P18",
+            "factKey": "areas-selvagens-tasmania-F43",
+            "text": "Os critérios abrangem valores culturais (iii, iv e vi) e naturais (vii, viii, ix e x).",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TASW_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P19",
+            "factKey": "areas-selvagens-tasmania-F44",
+            "text": "Ampliações em 1989, 2010, 2012 e 2013 redesenharam os limites do sítio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P20",
+            "factKey": "areas-selvagens-tasmania-F45",
+            "text": "Os dois maiores parques do conjunto somavam, nos dados de 2005, 618.190 ha e 446.342 ha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_ABS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P21",
+            "factKey": "areas-selvagens-tasmania-F46",
+            "text": "A inscrição na UNESCO, sozinha, não impedia a barragem estadual; foi preciso uma lei federal, a World Heritage Properties Conservation Act 1983.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TASW_PEO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P22",
+            "factKey": "areas-selvagens-tasmania-F47",
+            "text": "Em 1983, a High Court decidiu que o Parlamento federal podia usar seus poderes de assuntos externos para proteger a área.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TASW_PEO",
+              "TASW_NMA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P23",
+            "factKey": "areas-selvagens-tasmania-F48",
+            "text": "O conflito teve peso eleitoral: o governo trabalhista de Bob Hawke, eleito em março de 1983, se opôs à barragem.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TASW_NMA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P24",
+            "factKey": "areas-selvagens-tasmania-F49",
+            "text": "Ocupa o sudoeste da Tasmânia e se estende de Cradle Mountain até a reserva marinha de Port Davey.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASW_IUCN",
+              "TASW_PWS"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "areas-selvagens-tasmania-geografo-P25",
+            "factKey": "areas-selvagens-tasmania-F50",
+            "text": "A Hydro-Electric Commission propôs em 1978 a barragem no rio Gordon que inundaria o vale do Franklin; o projeto caiu após a vitória federal na High Court.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TASW_NMA",
+              "TASW_PEO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Conjunto de Patrimônio Mundial do sudoeste da Tasmânia (Austrália), inscrito em 1982 e ampliado em 1989 e depois, que reúne sete parques nacionais (como Cradle Mountain-Lake St Clair, Franklin-Gordon Wild Rivers e Southwest), paisagens glaciais, carste, florestas de linhagem gondwânica com pinheiros-huon de mais de 2.000 anos e sítios aborígines do Pleistoceno; cumpre sete dos dez critérios da UNESCO e foi palco da campanha que salvou o rio Franklin em 1983.",
+      "editorialNotes": [
+        "A área total diverge: cerca de 1,59 milhão de ha (23% da Tasmânia) no governo estadual, 1,58 milhão de ha na IUCN e \"um milhão e meio de hectares, cerca de um quinto da ilha\" no Parks and Wildlife Service; por isso nenhuma pista cita a área total nem a fração da ilha.",
+        "A antiguidade da ocupação aborígine também diverge (mais de 35 mil anos no PWS; mais de 40 mil no governo estadual; \"mais de 20 mil\" e \"cerca de 40 mil\" na própria IUCN); as pistas dizem só \"dezenas de milhares de anos\" e \"desde o Pleistoceno\". A data da inscrição aparece como 14/12/1982 no governo e 12/12/1982 no ABS; usa-se só o ano.",
+        "O número de presos no bloqueio do Franklin aparece como \"cerca de 1.400\" e \"quase 1.500\" na mesma página do NMA; a pista diz \"mais de mil\". A página do PEO traz para a decisão da High Court uma data (1/12/1983) que não confere com outras referências; usa-se só o ano. A página da UNESCO (sítio 181) não abriu."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "TASW_PWS": {
+      "id": "TASW_PWS",
+      "title": "Tasmanian Wilderness World Heritage Area (TWWHA)",
+      "publisher": "Tasmania Parks and Wildlife Service",
+      "url": "https://parks.tas.gov.au/explore-our-parks/tasmanian-wilderness-world-heritage-area-(twwha)",
+      "checkedAt": "2026-11-15"
+    },
+    "TASW_PREMIER": {
+      "id": "TASW_PREMIER",
+      "title": "Celebrating 40 years of the Tasmanian Wilderness World Heritage Area",
+      "publisher": "Department of Premier and Cabinet, Tasmanian Government",
+      "url": "https://www.premier.tas.gov.au/site_resources_2015/additional_releases/celebrating-40-years-of-the-tasmanian-wilderness-world-heritage-area",
+      "checkedAt": "2026-11-15"
+    },
+    "TASW_IUCN": {
+      "id": "TASW_IUCN",
+      "title": "Tasmanian Wilderness — World Heritage Outlook (avaliação de 2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/989",
+      "checkedAt": "2026-11-15"
+    },
+    "TASW_ABS": {
+      "id": "TASW_ABS",
+      "title": "Statistics - Tasmania, 2005 (1384.6) — Chapter: National Parks",
+      "publisher": "Australian Bureau of Statistics",
+      "url": "https://www.abs.gov.au/Ausstats/abs@.nsf/0/CF5F0D9E4B3A755CCA256C3200241853",
+      "checkedAt": "2026-11-15"
+    },
+    "TASW_NMA": {
+      "id": "TASW_NMA",
+      "title": "Defining Moments: Franklin Dam protests (Fight for the Franklin)",
+      "publisher": "National Museum of Australia",
+      "url": "https://digital-classroom.nma.gov.au/defining-moments/franklin-dam-protests",
+      "checkedAt": "2026-11-15"
+    },
+    "TASW_PEO": {
+      "id": "TASW_PEO",
+      "title": "High Court rules on the Franklin Dam Case",
+      "publisher": "Parliamentary Education Office (Parlamento da Austrália)",
+      "url": "https://peo.gov.au/understand-our-parliament/history-of-parliament/history-milestones/australian-parliament-history-timeline/events/high-court-rules-on-the-franklin-dam-case",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://parks.tas.gov.au/explore-our-parks/tasmanian-wilderness-world-heritage-area-(twwha)",
+      "https://www.premier.tas.gov.au/site_resources_2015/additional_releases/celebrating-40-years-of-the-tasmanian-wilderness-world-heritage-area",
+      "https://worldheritageoutlook.iucn.org/node/989",
+      "https://www.abs.gov.au/Ausstats/abs@.nsf/0/CF5F0D9E4B3A755CCA256C3200241853",
+      "https://digital-classroom.nma.gov.au/defining-moments/franklin-dam-protests",
+      "https://peo.gov.au/understand-our-parliament/history-of-parliament/history-milestones/australian-parliament-history-timeline/events/high-court-rules-on-the-franklin-dam-case"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

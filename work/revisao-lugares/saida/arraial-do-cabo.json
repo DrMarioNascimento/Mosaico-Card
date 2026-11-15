@@ -1,0 +1,1097 @@
+{
+  "case": {
+    "id": "lug3-arraial-do-cabo",
+    "placeId": "arraial-do-cabo",
+    "title": "Arraial do Cabo",
+    "aliases": [],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sudeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade litorânea",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Arraial do Cabo"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Cabo Frio"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Armação dos Búzios"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Saquarema"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Angra dos Reis"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Ubatuba"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Ilhabela"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Guarapari"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Niterói"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Vila Velha"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Santos"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Vitória"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Balneário Camboriú"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Torres"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Arraial do Cabo",
+        "sources": [
+          "ARRAIAL_IBGE",
+          "ARRAIAL_IEAPM_SAVI"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Fenômeno oceanográfico que explica a água fria do mar local",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Ressurgência"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Pororoca"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Maré vermelha"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Corrente de retorno"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Ressurgência",
+        "sources": [
+          "ARRAIAL_IEAPM_REVISTA",
+          "ARRAIAL_TUPI",
+          "ARRAIAL_EM"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Categoria da unidade de conservação federal criada em 1997 no mar do município",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Reserva extrativista marinha"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Parque nacional marinho"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Reserva biológica marinha"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Refúgio de vida silvestre"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Reserva extrativista marinha",
+        "sources": [
+          "ARRAIAL_DECRETO_RESEX",
+          "ARRAIAL_RESEX_WIKI"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Ano da lei que criou o município",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "1964"
+          },
+          {
+            "id": "C4-O2",
+            "text": "1974"
+          },
+          {
+            "id": "C4-O3",
+            "text": "1985"
+          },
+          {
+            "id": "C4-O4",
+            "text": "1995"
+          }
+        ],
+        "answerId": "C4-O3",
+        "answerText": "1985",
+        "sources": [
+          "ARRAIAL_IBGE"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "arraial-do-cabo-viajante-P01",
+            "factKey": "arraial-do-cabo-F01",
+            "text": "É uma cidade de praia no litoral do Sudeste, famosa pelo mar de azul intenso e pela água muito transparente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_TUPI",
+              "ARRAIAL_EM"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P02",
+            "factKey": "arraial-do-cabo-F02",
+            "text": "Por causa da cor do mar, ganhou o apelido de Caribe brasileiro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_TUPI",
+              "ARRAIAL_EM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P03",
+            "factKey": "arraial-do-cabo-F03",
+            "text": "Mesmo no verão, a água pode cair a 14 °C, e quem mergulha precisa de roupa de neoprene.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ARRAIAL_TUPI",
+              "ARRAIAL_EM"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P04",
+            "factKey": "arraial-do-cabo-F04",
+            "text": "A água fria sobe do fundo quando os ventos de nordeste empurram a água da superfície para o mar aberto.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ARRAIAL_TUPI",
+              "ARRAIAL_EM",
+              "ARRAIAL_IEAPM_REVISTA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P05",
+            "factKey": "arraial-do-cabo-F05",
+            "text": "É chamada de capital do mergulho, e a melhor época para mergulhar vai de abril a outubro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_TUPI",
+              "ARRAIAL_EM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P06",
+            "factKey": "arraial-do-cabo-F06",
+            "text": "Fica a cerca de 165 km do Rio de Janeiro, umas 2h30 de carro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_TUPI",
+              "ARRAIAL_EM",
+              "ARRAIAL_IEAPM_SAVI"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P07",
+            "factKey": "arraial-do-cabo-F07",
+            "text": "A cidade fica a só 12 km de Cabo Frio.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "ARRAIAL_EM"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P08",
+            "factKey": "arraial-do-cabo-F08",
+            "text": "O passeio de barco clássico dura cerca de quatro horas, com paradas nas principais enseadas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_TUPI",
+              "ARRAIAL_EM"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P09",
+            "factKey": "arraial-do-cabo-F09",
+            "text": "Uma das paradas é uma praia numa ilha protegida pela Marinha, com limite de visitantes por vez.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_EM",
+              "ARRAIAL_TUPI"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P10",
+            "factKey": "arraial-do-cabo-F10",
+            "text": "Uma caverna marinha de uns 30 m de extensão só pode ser visitada de barco.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_TUPI",
+              "ARRAIAL_EM"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P11",
+            "factKey": "arraial-do-cabo-F11",
+            "text": "Duas prainhas, com acesso por uma escadaria de madeira, se juntam quando a maré sobe.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_EM",
+              "ARRAIAL_TUPI"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P12",
+            "factKey": "arraial-do-cabo-F12",
+            "text": "Uma praia de águas calmas, boa para snorkel, fica a 15 minutos de trilha da praia de onde saem os barcos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_TUPI",
+              "ARRAIAL_EM"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P13",
+            "factKey": "arraial-do-cabo-F13",
+            "text": "A praia mais extensa do município é procurada por surfistas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_TUPI"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P14",
+            "factKey": "arraial-do-cabo-F14",
+            "text": "Em 1503, Américo Vespúcio ancorou ali e deixou 24 homens em terra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_TUPI",
+              "ARRAIAL_EM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P15",
+            "factKey": "arraial-do-cabo-F15",
+            "text": "O lugar é apontado como sede da primeira feitoria em território brasileiro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IBGE",
+              "ARRAIAL_TUPI",
+              "ARRAIAL_EM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P16",
+            "factKey": "arraial-do-cabo-F16",
+            "text": "A Igreja de Nossa Senhora dos Remédios, na mesma praia de onde saem os passeios de barco, é de 1506.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IBGE",
+              "ARRAIAL_TUPI",
+              "ARRAIAL_EM"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P17",
+            "factKey": "arraial-do-cabo-F17",
+            "text": "Antes dos portugueses, os tamoios viviam ali em aldeias, plantavam mandioca e faziam cerâmica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IBGE"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P18",
+            "factKey": "arraial-do-cabo-F18",
+            "text": "Do alto do morro, um pescador vigia avista o cardume e avisa com um pano a turma da canoa, que cerca os peixes com a rede e puxa até a praia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IEAPM_REVISTA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P19",
+            "factKey": "arraial-do-cabo-F19",
+            "text": "Cerca de 300 famílias de pescadores cadastradas trabalham na região há mais de 100 anos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ARRAIAL_RESEX_WIKI"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P20",
+            "factKey": "arraial-do-cabo-F20",
+            "text": "A reserva marinha da cidade protege tartarugas, raias e cavalos-marinhos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ARRAIAL_EM"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P21",
+            "factKey": "arraial-do-cabo-F21",
+            "text": "Foi vila de pescadores por quase cinco séculos, ligada à cidade vizinha, até se emancipar em 1985.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ARRAIAL_EM",
+              "ARRAIAL_TUPI",
+              "ARRAIAL_IBGE"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P22",
+            "factKey": "arraial-do-cabo-F22",
+            "text": "A inauguração da Ponte Rio–Niterói, em 1974, ajudou a trazer turistas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_EM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P23",
+            "factKey": "arraial-do-cabo-F23",
+            "text": "Uma reserva no mar, criada em 1997, regula a pesca artesanal e o mergulho.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ARRAIAL_EM",
+              "ARRAIAL_DECRETO_RESEX"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P24",
+            "factKey": "arraial-do-cabo-F24",
+            "text": "Quem nasce lá é chamado de cabista.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IBGE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-viajante-P25",
+            "factKey": "arraial-do-cabo-F25",
+            "text": "Prainhas do Pontal do Atalaia, Praia do Forno e Praia dos Anjos estão entre as praias do município.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_TUPI",
+              "ARRAIAL_EM"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "arraial-do-cabo-geografo-P01",
+            "factKey": "arraial-do-cabo-F26",
+            "text": "A cidade ocupa uma planície costeira entre dois promontórios rochosos, numa península.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IEAPM_SAVI"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P02",
+            "factKey": "arraial-do-cabo-F27",
+            "text": "O clima é quente e semiárido, com predomínio dos ventos de nordeste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IEAPM_SAVI"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P03",
+            "factKey": "arraial-do-cabo-F04",
+            "text": "Ventos de nordeste, a proximidade da quebra da plataforma continental, o desenho da costa e a rotação da Terra fazem aflorar água profunda e fria.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ARRAIAL_IEAPM_REVISTA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P04",
+            "factKey": "arraial-do-cabo-F28",
+            "text": "Rica em nutrientes, essa água enriquece mares tropicais e subtropicais e sustenta uma cadeia alimentar com peixes e outros recursos pesqueiros.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ARRAIAL_IEAPM_REVISTA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P05",
+            "factKey": "arraial-do-cabo-F29",
+            "text": "Ilhas em frente à costa e um duplo tômbolo, que liga rochedos ao continente, formam o próprio cabo Frio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IEAPM_SAVI"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P06",
+            "factKey": "arraial-do-cabo-F30",
+            "text": "Um extenso campo de dunas é alimentado por areia vinda da plataforma continental interna.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IEAPM_SAVI"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P07",
+            "factKey": "arraial-do-cabo-F31",
+            "text": "Na compartimentação do litoral brasileiro, fica no macrocompartimento da Bacia de Campos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IEAPM_SAVI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P08",
+            "factKey": "arraial-do-cabo-F23",
+            "text": "Um decreto de 3 de janeiro de 1997 protegeu um cinturão pesqueiro que inclui a faixa marinha de três milhas da costa do município.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ARRAIAL_DECRETO_RESEX"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P09",
+            "factKey": "arraial-do-cabo-F32",
+            "text": "Esse cinturão vai da praia de Massambaba, na localidade de Pernambuca, à praia do Pontal, na divisa com Cabo Frio.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ARRAIAL_DECRETO_RESEX"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P10",
+            "factKey": "arraial-do-cabo-F33",
+            "text": "O objetivo da unidade é garantir o uso autossustentável dos recursos da pesca artesanal pela população extrativista local.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ARRAIAL_DECRETO_RESEX"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P11",
+            "factKey": "arraial-do-cabo-F34",
+            "text": "O plano de utilização, aprovado em 1999, só permite embarcações de pesca tradicionais dentro da reserva.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ARRAIAL_RESEX_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P12",
+            "factKey": "arraial-do-cabo-F35",
+            "text": "Desde meados dos anos 1990, o turismo cresceu sem controle e gerou conflitos entre pescadores artesanais e empresas de passeios e mergulho.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ARRAIAL_RESEX_WIKI"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P13",
+            "factKey": "arraial-do-cabo-F36",
+            "text": "Entre as espécies protegidas estão o hidrozoário Millepora alcicornis, a gorgônia Phyllogorgia dilatata e o cachalote.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_RESEX_WIKI"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P14",
+            "factKey": "arraial-do-cabo-F37",
+            "text": "Os corais invasores Tubastraea coccinea e T. tagusensis, o coral-sol, ficaram de início restritos a esse trecho do litoral e à Ilha Grande, antes de se espalhar pela costa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IEAPM_REVISTA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P15",
+            "factKey": "arraial-do-cabo-F38",
+            "text": "Um levantamento de dois anos em navios-sonda, plataformas e cargueiros no local registrou 118 espécies bentônicas, 22 delas exóticas na costa brasileira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IEAPM_REVISTA"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P16",
+            "factKey": "arraial-do-cabo-F39",
+            "text": "Um instituto de pesquisas do mar da Marinha, sediado na Praia dos Anjos, publica uma revista chamada A Ressurgência.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ARRAIAL_IEAPM_REVISTA"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P17",
+            "factKey": "arraial-do-cabo-F40",
+            "text": "As obras do porto do Forno começaram em 1928, e o quebra-mar ficou pronto em 1959.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IEAPM_SAVI"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P18",
+            "factKey": "arraial-do-cabo-F41",
+            "text": "A fábrica da Companhia Nacional de Álcalis, erguida entre 1955 e 1958, exportava barrilha pelo porto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IEAPM_SAVI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P19",
+            "factKey": "arraial-do-cabo-F42",
+            "text": "As salinas da região são exploradas desde o Brasil Império.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IEAPM_SAVI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P20",
+            "factKey": "arraial-do-cabo-F43",
+            "text": "Uma empresa japonesa processou carne de baleia ali de 1960 a 1963.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IEAPM_SAVI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P21",
+            "factKey": "arraial-do-cabo-F44",
+            "text": "Os primeiros grupos humanos chegaram há cerca de 5 mil anos: nômades que viviam no alto dos morros e desciam para pescar e coletar moluscos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IBGE"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P22",
+            "factKey": "arraial-do-cabo-F17",
+            "text": "Antes da conquista europeia, estima-se que cerca de 50 aldeias tamoias, do grupo tupinambá, somavam de 25 mil a 75 mil pessoas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IBGE"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P23",
+            "factKey": "arraial-do-cabo-F21",
+            "text": "Distrito do município vizinho desde 1924, virou município pela Lei estadual 839, de 13 de maio de 1985, e foi instalado em 1986.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ARRAIAL_IBGE"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P24",
+            "factKey": "arraial-do-cabo-F15",
+            "text": "A expedição de Américo Vespúcio desembarcou no antigo Bairro da Rama, hoje Praia dos Anjos, onde ele ergueu uma casa de barro e pedra e foi criada a primeira feitoria do Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IBGE"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "arraial-do-cabo-geografo-P25",
+            "factKey": "arraial-do-cabo-F06",
+            "text": "Situa-se por volta de 23° S e 42° O, a cerca de 165 km a leste da cidade do Rio de Janeiro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ARRAIAL_IEAPM_SAVI"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade do litoral fluminense, a cerca de 165 km do Rio de Janeiro, emancipada de Cabo Frio em 1985; ocupa uma península de clima semiárido onde a ressurgência traz à tona água fria e rica em nutrientes, tem praias como as Prainhas do Pontal do Atalaia e a do Forno, a Reserva Extrativista Marinha criada em 1997 para a pesca artesanal e, na Praia dos Anjos, o lugar apontado como a primeira feitoria do Brasil (1503).",
+      "editorialNotes": [
+        "Números divergentes, não usados: área da reserva extrativista (56.769 ha na Wikipédia; \"mais de 51 mil ha\" na Rádio Tupi e no Estado de Minas); visibilidade da água (\"mais de 20 m\" na Tupi; \"até 20 m\" no Estado de Minas); tempo de parada na praia da ilha da Marinha (30 min na Tupi; 40 min no Estado de Minas, que dá limite de 250 visitantes); população (cerca de 31 mil no Estado de Minas; 23.877 em 2002 na Wikipédia).",
+        "Origem da água fria: as matérias falam em \"Corrente das Malvinas\" e água vinda de 350 m de profundidade, e a Wikipédia em água \"da região polar\"; nenhuma fonte científica aberta confirmou, então as pistas descrevem só o mecanismo dado pelo IEAPM. O ano de 1503 vem de duas matérias de imprensa (o histórico do IBGE não dá o ano); a igreja de 1506 aparece no IBGE e nas duas matérias.",
+        "A ressurgência e o cabo Frio também dizem respeito a Cabo Frio e Búzios, alternativas do C1, por isso essas pistas são de conexão; o que separa o lugar é a emancipação de 1985, o gentílico, as praias e os limites da reserva. Uma pista do Geógrafo cita a Ilha Grande (coral-sol): evitar sortear em sequência com Paraty e Ilha Grande."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "ARRAIAL_IBGE": {
+      "id": "ARRAIAL_IBGE",
+      "title": "Arraial do Cabo (RJ): histórico e formação administrativa",
+      "publisher": "IBGE, Biblioteca (Documentação Territorial do Brasil)",
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/riodejaneiro/arraialdocabo.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "ARRAIAL_DECRETO_RESEX": {
+      "id": "ARRAIAL_DECRETO_RESEX",
+      "title": "Decreto de 3 de janeiro de 1997 (cria a Reserva Extrativista Marinha do Arraial do Cabo)",
+      "publisher": "Presidência da República (cópia no site do ICMBio/Cepsul)",
+      "url": "https://assiste.icmbio.gov.br/cepsul/images/stories/legislacao/Decretos/1997/dec_03_01_1997_resexmarinhaarraialcabo_rj.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "ARRAIAL_RESEX_WIKI": {
+      "id": "ARRAIAL_RESEX_WIKI",
+      "title": "Arraial do Cabo Marine Extractive Reserve",
+      "publisher": "Wikipedia (em inglês)",
+      "url": "https://en.wikipedia.org/wiki/Arraial_do_Cabo_Marine_Extractive_Reserve",
+      "checkedAt": "2026-11-15"
+    },
+    "ARRAIAL_IEAPM_REVISTA": {
+      "id": "ARRAIAL_IEAPM_REVISTA",
+      "title": "A Ressurgência, n. 7 (dezembro de 2013)",
+      "publisher": "Instituto de Estudos do Mar Almirante Paulo Moreira (IEAPM), Marinha do Brasil",
+      "url": "https://www.portaldeperiodicos.marinha.mil.br/index.php/aressurgencia/article/download/4326/4203/16058",
+      "checkedAt": "2026-11-15"
+    },
+    "ARRAIAL_IEAPM_SAVI": {
+      "id": "ARRAIAL_IEAPM_SAVI",
+      "title": "500 Anos de Ocupação Portuguesa. Evolução Histórica da Enseada dos Anjos, Arraial do Cabo, Rio de Janeiro, Brasil (David Canabarro Savi, IEAPM)",
+      "publisher": "Anais do II Congresso sobre Planejamento e Gestão das Zonas Costeiras e IX Congresso da ABEQUA (cópia da APRH)",
+      "url": "https://www.aprh.pt/ZonasCosteiras2003/pdf/310.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "ARRAIAL_TUPI": {
+      "id": "ARRAIAL_TUPI",
+      "title": "Desde 1503, o \"Caribe Fluminense\" encanta com águas de cinema e transparência com mais de 20 metros (27/02/2026)",
+      "publisher": "Super Rádio Tupi",
+      "url": "https://www.tupi.fm/?p=2298654",
+      "checkedAt": "2026-11-15"
+    },
+    "ARRAIAL_EM": {
+      "id": "ARRAIAL_EM",
+      "title": "Essa vila de pescadores tem águas tão cristalinas que ganhou o apelido de Caribe Brasileiro (25/03/2026)",
+      "publisher": "Estado de Minas",
+      "url": "https://www.em.com.br/emfoco/2026/03/25/essa-vila-de-pescadores-tem-aguas-tao-cristalinas-que-ganhou-o-apelido-de-caribe-brasileiro/",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://biblioteca.ibge.gov.br/visualizacao/dtb/riodejaneiro/arraialdocabo.pdf",
+      "https://assiste.icmbio.gov.br/cepsul/images/stories/legislacao/Decretos/1997/dec_03_01_1997_resexmarinhaarraialcabo_rj.pdf",
+      "https://en.wikipedia.org/wiki/Arraial_do_Cabo_Marine_Extractive_Reserve",
+      "https://www.portaldeperiodicos.marinha.mil.br/index.php/aressurgencia/article/download/4326/4203/16058",
+      "https://www.aprh.pt/ZonasCosteiras2003/pdf/310.pdf",
+      "https://www.tupi.fm/?p=2298654",
+      "https://www.em.com.br/emfoco/2026/03/25/essa-vila-de-pescadores-tem-aguas-tao-cristalinas-que-ganhou-o-apelido-de-caribe-brasileiro/"
+    ],
+    "alteracoes": [
+      "criado do zero",
+      "as páginas do IEAPM em marinha.mil.br não abriram (erro do site), o artigo da USP sobre a ressurgência teve o acesso negado e o decreto no Planalto redirecionou para a página geral; foram usadas a revista A Ressurgência (IEAPM), o artigo de Savi (IEAPM) e a cópia do decreto no site do ICMBio"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

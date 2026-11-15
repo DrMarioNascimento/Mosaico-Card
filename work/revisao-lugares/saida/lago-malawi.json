@@ -1,0 +1,1078 @@
+{
+  "case": {
+    "id": "lug3-lago-malawi",
+    "placeId": "lago-malawi",
+    "title": "Lago Malawi",
+    "aliases": [
+      "Lago Niassa",
+      "Lago Nyasa"
+    ],
+    "answerType": "lago",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "MW",
+        "MZ",
+        "TZ"
+      ],
+      "continents": [
+        "africa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Lago africano",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Lago Malawi"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Lago Vitória"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Lago Tanganica"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Lago Turkana"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Lago Chade"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Lago Kivu"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Lago Kariba"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Lago Volta"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Lago Nasser"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Lago Tana"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Lago Alberto"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Lago Eduardo"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Lago Mweru"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Lago Bangweulu"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Lago Natron"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Lago de Cahora Bassa"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Lago Malawi",
+        "sources": [
+          "MALAWI_EB",
+          "MALAWI_IUCN"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Único rio por onde as águas do lago saem",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Chire (Shire)"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Ruhuhu"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Rovuma"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Luangwa"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Chire (Shire)",
+        "sources": [
+          "MALAWI_EB"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Família de peixes cuja rápida especiação faz do lago um laboratório da evolução",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Ciclídeos"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Salmonídeos"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Esturjões"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Peixes-pulmonados"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Ciclídeos",
+        "sources": [
+          "MALAWI_IUCN"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Vento sazonal de sudeste que agita o lago de maio a agosto",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Mwera"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Harmatã"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Siroco"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Khamsin"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Mwera",
+        "sources": [
+          "MALAWI_EB"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "lago-malawi-viajante-P01",
+            "factKey": "lago-malawi-F01",
+            "text": "É um lago enorme, de água muito transparente, com praias de areia, costões de pedra e morros com mata.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_IUCN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P02",
+            "factKey": "lago-malawi-F02",
+            "text": "Nas margens, a vida gira em torno da pesca, da roça, da criação de animais e do artesanato.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_RAMSAR",
+              "MALAWI_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P03",
+            "factKey": "lago-malawi-F03",
+            "text": "Fica na África Oriental, num vale fundo cercado de montanhas e planaltos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P04",
+            "factKey": "lago-malawi-F04",
+            "text": "Três países dividem suas margens.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB",
+              "MALAWI_RAMSAR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P05",
+            "factKey": "lago-malawi-F05",
+            "text": "É o terceiro maior lago da África.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_IUCN",
+              "MALAWI_RAMSAR"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P06",
+            "factKey": "lago-malawi-F06",
+            "text": "Tem cerca de 584 km de comprimento e de 16 a 80 km de largura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P07",
+            "factKey": "lago-malawi-F07",
+            "text": "Em alguns pontos, a profundidade passa de 700 metros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB",
+              "MALAWI_ILEC"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P08",
+            "factKey": "lago-malawi-F08",
+            "text": "Montanhas e planaltos cobertos de mata descem quase em linha reta até a água.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P09",
+            "factKey": "lago-malawi-F09",
+            "text": "De maio a agosto sopra um vento de sudeste que levanta ondas e tempestades rápidas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P10",
+            "factKey": "lago-malawi-F10",
+            "text": "Catorze rios correm o ano todo para dentro do lago, mas só um leva a água para fora.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P11",
+            "factKey": "lago-malawi-F11",
+            "text": "A água que sai do lago acaba chegando ao rio Zambeze.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P12",
+            "factKey": "lago-malawi-F12",
+            "text": "Abriga centenas de espécies de peixes, muitas que não existem em nenhum outro lugar.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MALAWI_EB",
+              "MALAWI_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P13",
+            "factKey": "lago-malawi-F13",
+            "text": "Junto às pedras da margem vivem os mbuna, peixes pequenos que respondem pela maior parte da variedade perto da costa.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MALAWI_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P14",
+            "factKey": "lago-malawi-F14",
+            "text": "Na ponta sul fica um parque nacional que é Patrimônio Mundial desde 1984.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P15",
+            "factKey": "lago-malawi-F15",
+            "text": "Esse parque inclui uma península e várias ilhas; Cape Maclear é o centro do turismo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P16",
+            "factKey": "lago-malawi-F16",
+            "text": "Em certas épocas, nuvens de pequenas moscas que eclodem no lago chegam a esconder o horizonte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P17",
+            "factKey": "lago-malawi-F17",
+            "text": "Na ilha de Likoma, no meio do lago, há uma catedral anglicana terminada em 1911.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P18",
+            "factKey": "lago-malawi-F18",
+            "text": "Barcos de passageiros e de carga ligam portos como Monkey Bay, Nkhata Bay e Karonga.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P19",
+            "factKey": "lago-malawi-F19",
+            "text": "No extremo sul, a pesca comercial se concentra na tilápia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P20",
+            "factKey": "lago-malawi-F20",
+            "text": "O explorador David Livingstone chegou ao lago pelo sul em 1859.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P21",
+            "factKey": "lago-malawi-F21",
+            "text": "Bem antes, em 1616, um português chamado Caspar Boccaro já tinha dado notícia do lago.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P22",
+            "factKey": "lago-malawi-F22",
+            "text": "Na margem moçambicana vivem leopardos, elefantes e palancas-negras ameaçados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_RAMSAR"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P23",
+            "factKey": "lago-malawi-F23",
+            "text": "Aves que migram entre a África e a Europa usam as margens como ponto de parada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_RAMSAR"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P24",
+            "factKey": "lago-malawi-F24",
+            "text": "Cada país das margens o chama por um nome: Malawi, Moçambique e Tanzânia dividem o terceiro maior lago da África.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB",
+              "MALAWI_RAMSAR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-viajante-P25",
+            "factKey": "lago-malawi-F25",
+            "text": "É o lago mais ao sul do Vale do Rift na África Oriental, e o rio Chire é sua única saída.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "agua",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "lago-malawi-geografo-P01",
+            "factKey": "lago-malawi-F26",
+            "text": "Ocupa uma fossa tectônica alongada e profunda do Vale do Rift, na África Oriental.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB",
+              "MALAWI_RAMSAR"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P02",
+            "factKey": "lago-malawi-F02",
+            "text": "As populações do entorno combinam pesca, agricultura, criação, caça, comércio e artesanato, todos dependentes do lago.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_RAMSAR"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P03",
+            "factKey": "lago-malawi-F06",
+            "text": "Com cerca de 29.604 km², estende-se por uns 584 km, com largura entre 16 e 80 km.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P04",
+            "factKey": "lago-malawi-F07",
+            "text": "A superfície fica a cerca de 472 m de altitude, e o fundo, no extremo norte, desce mais de 700 m: o ponto mais baixo está abaixo do nível do mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB",
+              "MALAWI_ILEC"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P05",
+            "factKey": "lago-malawi-F27",
+            "text": "Medições de oxigênio mostram que, abaixo de cerca de 200 m, a água do lago fica sem oxigênio dissolvido.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_ILEC"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P06",
+            "factKey": "lago-malawi-F28",
+            "text": "A maior parte do lago fica num só país; a linha média e as margens norte e leste marcam a fronteira desse país com a Tanzânia e Moçambique.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P07",
+            "factKey": "lago-malawi-F08",
+            "text": "Os montes Livingstone, a leste, e o planalto de Nyika e os montes Viphya, a oeste, caem em escarpas sobre a água.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P08",
+            "factKey": "lago-malawi-F29",
+            "text": "A margem moçambicana passa de planícies largas no sul a montanhas íngremes no norte, numa ecorregião de florestas de miombo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_RAMSAR"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P09",
+            "factKey": "lago-malawi-F10",
+            "text": "Catorze rios perenes alimentam a bacia, o maior deles o Ruhuhu; a única saída é o Chire, afluente do Zambeze.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P10",
+            "factKey": "lago-malawi-F30",
+            "text": "Quedas d'água conhecidas como Murchison isolaram os peixes do lago da fauna do Zambeze, o que favoreceu espécies exclusivas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P11",
+            "factKey": "lago-malawi-F31",
+            "text": "A especiação rápida dos ciclídeos é considerada tão importante para estudar a evolução quanto os tentilhões de Galápagos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MALAWI_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P12",
+            "factKey": "lago-malawi-F12",
+            "text": "O lago deve ter cerca de mil espécies de peixes, centenas ainda sem descrição, e mais de 99% dos ciclídeos são endêmicos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MALAWI_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P13",
+            "factKey": "lago-malawi-F13",
+            "text": "Os mbuna, 13 gêneros de ciclídeos de rocha, concentram a diversidade junto à margem e caem por acidente em redes armadas para outras espécies.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MALAWI_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P14",
+            "factKey": "lago-malawi-F09",
+            "text": "O mwera, vento de sudeste de maio a agosto, encontra uma costa com poucos abrigos, o que torna as águas perigosas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P15",
+            "factKey": "lago-malawi-F32",
+            "text": "Sobrepesca e pesca ilegal são a ameaça mais grave: a diversidade de ciclídeos parece ter caído desde 1984 na maior parte das águas do parque do sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P16",
+            "factKey": "lago-malawi-F33",
+            "text": "Sedimentos, redes de malha pequena e pesca durante o defeso reduzem os estoques de peixes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P17",
+            "factKey": "lago-malawi-F34",
+            "text": "Nas vilas cercadas pelo parque do sul, a população passou de cerca de 6 mil nos anos 1970 para mais de 25 mil em 2018, com desmatamento e pressão sobre a pesca.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P18",
+            "factKey": "lago-malawi-F14",
+            "text": "Inscrito em 1984 pela beleza, pelos processos evolutivos e pela diversidade, o parque do sul reúne a península de Nankumba e ilhas como Domwe e Boadzulu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P19",
+            "factKey": "lago-malawi-F35",
+            "text": "Não há exploração de petróleo em curso, mas o potencial continua, e um vazamento teria efeitos amplos sobre o lago.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P20",
+            "factKey": "lago-malawi-F36",
+            "text": "Em 2011, Moçambique designou sua parte do lago e da zona costeira como sítio Ramsar, com 1.363.700 hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_RAMSAR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P21",
+            "factKey": "lago-malawi-F37",
+            "text": "Um decreto moçambicano de 2011 criou uma reserva parcial em cerca de 70 milhas náuticas de margem, avançando 2 milhas lago adentro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_DECRETO_MZ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P22",
+            "factKey": "lago-malawi-F38",
+            "text": "A reserva parcial moçambicana vai do rio Lussefa, ao sul, ao rio Utchesse, ao norte, e é gerida pelo Ministério das Pescas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_DECRETO_MZ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P23",
+            "factKey": "lago-malawi-F39",
+            "text": "Algodão, arroz e amendoim seguem de barco até o terminal ferroviário de Chipoka e depois de trem, via Limbe, até o porto da Beira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_EB"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P24",
+            "factKey": "lago-malawi-F25",
+            "text": "Último lago, ao sul, da cadeia do Vale do Rift na África Oriental, é dividido por Malawi, Moçambique e Tanzânia e escoa só pelo Chire.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "MALAWI_EB",
+              "MALAWI_RAMSAR"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lago-malawi-geografo-P25",
+            "factKey": "lago-malawi-F24",
+            "text": "Terceiro maior lago da África e nono do mundo, recebe um nome diferente em cada um dos três países que o cercam.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MALAWI_IUCN",
+              "MALAWI_EB",
+              "MALAWI_RAMSAR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Terceiro maior lago da África, no extremo sul do Vale do Rift da África Oriental, dividido por Malawi, Moçambique (Lago Niassa) e Tanzânia (Lago Nyasa); com mais de 700 m de profundidade, recebe 14 rios perenes, escoa só pelo rio Chire e é famoso pela diversidade de ciclídeos endêmicos, protegida no Parque Nacional do Lago Malawi (Patrimônio Mundial, 1984) e na reserva parcial moçambicana (2011).",
+      "editorialNotes": [
+        "Profundidade máxima: cerca de 704 m (Britannica) ou 706 m (ILEC); as pistas dizem \"mais de 700 m\". Os valores de área, bacia e altitude do ILEC (6.400 km², 6.593 km² e ~500 m) não conferem com a Britannica e não foram usados; do ILEC só se usou o perfil de oxigênio.",
+        "Endemismo: cerca de 90% das espécies de peixes (Ramsar, ficha de 2009) e mais de 99% dos ciclídeos (IUCN, 2025) — medidas diferentes; as pistas citam só a da IUCN, com o grupo indicado.",
+        "O Patrimônio Mundial cobre só o Parque Nacional do Lago Malawi, no sul; a reserva parcial moçambicana foi aprovada em 29/04/2011 e publicada em 17/11/2011 (Decreto 59/2011). Malawi e Tanzânia têm uma disputa de fronteira no lago que não foi verificada nas fontes e ficou fora das pistas."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: Britannica, avaliação da IUCN World Heritage Outlook (2025), ficha Ramsar do lado moçambicano, Decreto moçambicano 59/2011 (FAOLEX) e base ILEC; C1 com 16 lagos africanos."
+    }
+  },
+  "sources": {
+    "MALAWI_EB": {
+      "id": "MALAWI_EB",
+      "title": "Lake Nyasa",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Lake-Nyasa",
+      "checkedAt": "2026-11-15"
+    },
+    "MALAWI_IUCN": {
+      "id": "MALAWI_IUCN",
+      "title": "Lake Malawi National Park — Conservation Outlook Assessment",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/explore-sites/lake-malawi-national-park",
+      "checkedAt": "2026-11-15"
+    },
+    "MALAWI_RAMSAR": {
+      "id": "MALAWI_RAMSAR",
+      "title": "Lake Niassa and its Coastal Zone (Ramsar Site 1964)",
+      "publisher": "Ramsar Sites Information Service",
+      "url": "https://rsis.ramsar.org/ris/1964",
+      "checkedAt": "2026-11-15"
+    },
+    "MALAWI_DECRETO_MZ": {
+      "id": "MALAWI_DECRETO_MZ",
+      "title": "Decreto n.º 59/2011 — Cria a Reserva Parcial do Lago Niassa e a respectiva Zona Tampão",
+      "publisher": "Conselho de Ministros de Moçambique (via FAOLEX/FAO)",
+      "url": "https://faolex.fao.org/docs/pdf/moz117273.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "MALAWI_ILEC": {
+      "id": "MALAWI_ILEC",
+      "title": "Lake Nyasa (Lake Malawi)",
+      "publisher": "International Lake Environment Committee Foundation (ILEC) — World Lake Database",
+      "url": "https://wldb.ilec.or.jp/Display/html/3594",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.britannica.com/place/Lake-Nyasa",
+      "https://worldheritageoutlook.iucn.org/explore-sites/lake-malawi-national-park",
+      "https://rsis.ramsar.org/ris/1964",
+      "https://faolex.fao.org/docs/pdf/moz117273.pdf",
+      "https://wldb.ilec.or.jp/Display/html/3594"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

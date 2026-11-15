@@ -1,0 +1,1084 @@
+{
+  "case": {
+    "id": "lug3-atol-bikini",
+    "placeId": "atol-bikini",
+    "title": "Atol de Bikini",
+    "aliases": [
+      "Bikini"
+    ],
+    "answerType": "atol",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "MH"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Atol do Pacífico",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Atol de Bikini"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Atol de Enewetak"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Atol de Kwajalein"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Atol de Rongelap"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Atol de Majuro"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Atol de Funafuti"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Atol de Tarawa"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Atol de Kiritimati"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Atol de Rangiroa"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Atol de Mururoa"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Atol de Fangataufa"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Atol Johnston"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Atol de Palmyra"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Atol Midway"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Atol de Bikini",
+        "sources": [
+          "BIKINI_UNESCO",
+          "BIKINI_UNESCO_DEC",
+          "BIKINI_BRIT"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Série de testes que, em 1946, inaugurou as explosões no atol",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Operação Crossroads"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Operação Castle"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Operação Hardtack"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Operação Ivy"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Operação Crossroads",
+        "sources": [
+          "BIKINI_AHF",
+          "BIKINI_BRIT"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Ilha onde a comunidade foi instalada em novembro de 1948, depois de passar por Rongerik e Kwajalein",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Kili"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Jaluit"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Ebon"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Namu"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Kili",
+        "sources": [
+          "BIKINI_BKA",
+          "BIKINI_BRIT"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Teste de 1954 que foi a maior explosão nuclear dos Estados Unidos",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Castle Bravo"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Ivy Mike"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Baker"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Trinity"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Castle Bravo",
+        "sources": [
+          "BIKINI_AHF",
+          "BIKINI_UNESCO"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "atol-bikini-viajante-P01",
+            "factKey": "atol-bikini-F01",
+            "text": "Um anel de pequenas ilhas de coral cerca uma laguna oval no meio do Pacífico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_BRIT"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P02",
+            "factKey": "atol-bikini-F02",
+            "text": "Fica no Pacífico central, num país formado por dezenas de atóis.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_BRIT",
+              "BIKINI_BKA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P03",
+            "factKey": "atol-bikini-F03",
+            "text": "Apesar da imagem de paraíso tropical tranquilo, o lugar marca o começo da era nuclear.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_UNESCO",
+              "BIKINI_UNESCO_DEC"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P04",
+            "factKey": "atol-bikini-F04",
+            "text": "Depois da Segunda Guerra Mundial, os Estados Unidos escolheram este atol para testar bombas atômicas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "BIKINI_UNESCO_DEC",
+              "BIKINI_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P05",
+            "factKey": "atol-bikini-F05",
+            "text": "Antes dos testes, um oficial da Marinha americana pediu aos moradores que deixassem o atol \"para o bem da humanidade\".",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BIKINI_AHF"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P06",
+            "factKey": "atol-bikini-F06",
+            "text": "Primeiro, os moradores foram levados para um atol vizinho, a cerca de 200 km dali.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BIKINI_AHF"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P07",
+            "factKey": "atol-bikini-F07",
+            "text": "Em 1948, depois de viver em barracas em outro atol, a comunidade foi levada para uma ilha pequena e sem laguna.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BIKINI_BKA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P08",
+            "factKey": "atol-bikini-F08",
+            "text": "A ilha onde a comunidade foi instalada fica a cerca de 800 km a sudeste do atol.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BIKINI_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P09",
+            "factKey": "atol-bikini-F09",
+            "text": "O primeiro teste, em 1º de julho de 1946, usou uma bomba de 20 quilotons.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BIKINI_BRIT",
+              "BIKINI_AHF"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P10",
+            "factKey": "atol-bikini-F10",
+            "text": "Em 25 de julho de 1946 aconteceu aqui a primeira explosão atômica debaixo d’água.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BIKINI_BRIT",
+              "BIKINI_AHF"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P11",
+            "factKey": "atol-bikini-F11",
+            "text": "A série de testes de 1946 mobilizou 242 navios, 156 aviões e mais de 42 mil pessoas da equipe americana.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BIKINI_BKA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P12",
+            "factKey": "atol-bikini-F12",
+            "text": "Navios afundados nos testes de 1946 continuam no fundo da laguna.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BIKINI_UNESCO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P13",
+            "factKey": "atol-bikini-F13",
+            "text": "Os naufrágios atraem mergulhadores: o turismo de mergulho começou nos anos 1990.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_BKA",
+              "BIKINI_UNESCO_DEC"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P14",
+            "factKey": "atol-bikini-F14",
+            "text": "Em 1º de março de 1954, aqui explodiu a bomba mais potente já testada pelos Estados Unidos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BIKINI_AHF"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P15",
+            "factKey": "atol-bikini-F15",
+            "text": "A bomba de 1954 foi mais de mil vezes mais potente que a de Hiroshima.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BIKINI_AHF"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P16",
+            "factKey": "atol-bikini-F16",
+            "text": "Uma cratera gigante deixada por um teste ainda marca o atol.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BIKINI_UNESCO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P17",
+            "factKey": "atol-bikini-F17",
+            "text": "A chuva radioativa do teste de 1954 atingiu atóis vizinhos, e os moradores de lá sofreram queimaduras.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BIKINI_AHF"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P18",
+            "factKey": "atol-bikini-F18",
+            "text": "Em 1956, a primeira bomba de hidrogênio lançada de um avião americano explodiu aqui.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P19",
+            "factKey": "atol-bikini-F19",
+            "text": "Alguns moradores voltaram depois de uma limpeza, mas em 1978 tiveram de sair de novo por causa da radiação.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "BIKINI_BRIT",
+              "BIKINI_AHF",
+              "BIKINI_BKA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P20",
+            "factKey": "atol-bikini-F20",
+            "text": "Foi o primeiro lugar do seu país a entrar na lista do Patrimônio Mundial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_UNESCO",
+              "BIKINI_UNESCO_NEWS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P21",
+            "factKey": "atol-bikini-F21",
+            "text": "Antes da Segunda Guerra Mundial, o atol também era conhecido como \"Atol Escholtz\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P22",
+            "factKey": "atol-bikini-F22",
+            "text": "Até hoje a presença humana aqui é muito limitada por causa da radioatividade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_UNESCO_DEC"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P23",
+            "factKey": "atol-bikini-F23",
+            "text": "Entre 1946 e 1958, foram feitos aqui 23 testes nucleares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_UNESCO_DEC",
+              "BIKINI_AHF"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P24",
+            "factKey": "atol-bikini-F24",
+            "text": "Virou Patrimônio Mundial da UNESCO em 2010, numa reunião do Comitê realizada em Brasília.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_UNESCO_NEWS",
+              "BIKINI_UNESCO_DEC"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-viajante-P25",
+            "factKey": "atol-bikini-F25",
+            "text": "Fica na Cadeia Ralik, das Ilhas Marshall, a cerca de 305 km a leste do atol de Enewetak.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "atol-bikini-geografo-P01",
+            "factKey": "atol-bikini-F26",
+            "text": "É um atol: ilhotas baixas de coral, em média só uns 2 m acima da maré baixa, em volta de uma laguna.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_BRIT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P02",
+            "factKey": "atol-bikini-F02",
+            "text": "Fica no Pacífico central, num arquipélago de 29 atóis e 5 ilhas espalhados por uma imensa área oceânica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_BKA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P03",
+            "factKey": "atol-bikini-F27",
+            "text": "A laguna oval mede cerca de 40 km de comprimento por 24 km de largura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_BRIT"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P04",
+            "factKey": "atol-bikini-F28",
+            "text": "Está a cerca de 360 km a noroeste do atol de Kwajalein.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P05",
+            "factKey": "atol-bikini-F23",
+            "text": "Entre 1946 e 1958, os EUA fizeram 67 testes nucleares no arquipélago: 23 neste atol e 44 perto de Enewetak.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_AHF",
+              "BIKINI_UNESCO_DEC"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P06",
+            "factKey": "atol-bikini-F29",
+            "text": "A força somada dos testes no arquipélago equivale a 7 mil bombas de Hiroshima.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_UNESCO_DEC",
+              "BIKINI_UNESCO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P07",
+            "factKey": "atol-bikini-F30",
+            "text": "Foi inscrito pelos critérios (iv) e (vi), como exemplo excepcional de local de testes nucleares e símbolo da era nuclear.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_UNESCO_DEC"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P08",
+            "factKey": "atol-bikini-F31",
+            "text": "As ideias ligadas a este lugar e à corrida armamentista inspiraram movimentos pelo desarmamento nuclear.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_UNESCO_DEC"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P09",
+            "factKey": "atol-bikini-F32",
+            "text": "Restos militares convivem com uma \"recomposição natural\" das paisagens terrestres e submarinas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_UNESCO_DEC"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P10",
+            "factKey": "atol-bikini-F22",
+            "text": "Os radionuclídeos limitaram muito a presença humana, e por isso o sítio não passou por reconstruções.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_UNESCO_DEC"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P11",
+            "factKey": "atol-bikini-F33",
+            "text": "Bombas e combustível ainda guardados nos naufrágios da laguna ameaçam a segurança das visitas e podem aumentar a poluição.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BIKINI_UNESCO_DEC"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P12",
+            "factKey": "atol-bikini-F34",
+            "text": "A mudança climática aparece, ao lado dos restos de bombas e combustível, entre as principais ameaças ao bem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_UNESCO_DEC"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P13",
+            "factKey": "atol-bikini-F35",
+            "text": "A série de testes de 1946 envolveu cerca de 5.400 animais de experimento.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BIKINI_BKA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P14",
+            "factKey": "atol-bikini-F36",
+            "text": "Os dois testes de 1946, Able e Baker, tiveram cada um potência parecida com a da bomba de Nagasaki.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BIKINI_BKA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P15",
+            "factKey": "atol-bikini-F37",
+            "text": "A série de 1946 começou em 1º de julho e terminou em 10 de agosto.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BIKINI_AHF"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P16",
+            "factKey": "atol-bikini-F14",
+            "text": "O teste de 1954 foi o primeiro de uma bomba de hidrogênio transportável, com 15 megatons.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BIKINI_AHF",
+              "BIKINI_BKA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P17",
+            "factKey": "atol-bikini-F38",
+            "text": "A bola de fogo de 1954 subiu a cerca de 480 km/h, e a nuvem passou de 32 km de altura.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BIKINI_BKA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P18",
+            "factKey": "atol-bikini-F17",
+            "text": "A precipitação do teste de 1954 chegou ao atol de Rongelap, cujos moradores só foram retirados dois dias depois.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BIKINI_AHF"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P19",
+            "factKey": "atol-bikini-F16",
+            "text": "A cratera gigante preservada no atol foi aberta pelo teste Bravo.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BIKINI_UNESCO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P20",
+            "factKey": "atol-bikini-F39",
+            "text": "Em junho de 1968, o presidente Lyndon Johnson prometeu aos 540 membros da comunidade que eles poderiam voltar.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "BIKINI_BKA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P21",
+            "factKey": "atol-bikini-F07",
+            "text": "A comunidade passou por Rongerik (1946) e Kwajalein (1948) até chegar a uma ilha de um terço de milha quadrada, sem laguna.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BIKINI_BKA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P22",
+            "factKey": "atol-bikini-F19",
+            "text": "Em 1977, a água dos poços da ilha principal tinha estrôncio-90 acima dos limites americanos; em setembro de 1978, os moradores foram retirados de novo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_BKA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P23",
+            "factKey": "atol-bikini-F40",
+            "text": "Em 2001, um tribunal de reivindicações nucleares concedeu à comunidade mais de US$ 563 milhões.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_BKA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P24",
+            "factKey": "atol-bikini-F24",
+            "text": "Foi inscrito no Patrimônio Mundial na 34ª sessão do Comitê, em Brasília, em 2010, como o primeiro bem das Ilhas Marshall.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BIKINI_UNESCO_NEWS",
+              "BIKINI_UNESCO_DEC"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "atol-bikini-geografo-P25",
+            "factKey": "atol-bikini-F41",
+            "text": "Em novembro de 1948, 184 moradores deslocados foram instalados na ilha de Kili, a terceira mudança da comunidade em dois anos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BIKINI_BKA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Atol da Cadeia Ralik, nas Ilhas Marshall, onde os EUA fizeram 23 testes nucleares entre 1946 e 1958 — da Operação Crossroads ao Castle Bravo, de 1954 — depois de retirar os moradores, hoje ligados à ilha de Kili; Patrimônio Mundial desde 2010, com naufrágios na laguna e a cratera do Bravo.",
+      "editorialNotes": [
+        "A página da UNESCO é inconsistente quanto ao número de testes (67 na descrição, 23 na síntese); a Atomic Heritage Foundation esclarece que 67 foram nas Ilhas Marshall como um todo e 23 em Bikini, número usado nas pistas, também presente na decisão 34 COM 8B.20.",
+        "Divergem o número de moradores retirados em 1946 (167 na AHF e em bikiniatoll.com; 166 na Britannica), o número de ilhotas (cerca de 20 na Britannica; 23 em bikiniatoll.com), a área de terra (pouco mais de 5 km² na Britannica; 3,4 mi² em bikiniatoll.com) e o ano da volta parcial (1969 na AHF; famílias em 1972 em bikiniatoll.com); as pistas não usam esses dados.",
+        "Tema sensível (deslocamento forçado e contaminação): as pistas se limitam aos fatos das fontes, sem tom de curiosidade sobre o sofrimento da população."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "BIKINI_UNESCO": {
+      "id": "BIKINI_UNESCO",
+      "title": "Bikini Atoll Nuclear Test Site",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1339",
+      "checkedAt": "2026-11-15"
+    },
+    "BIKINI_UNESCO_DEC": {
+      "id": "BIKINI_UNESCO_DEC",
+      "title": "Decision 34 COM 8B.20 — Bikini Atoll Nuclear Test Site (Marshall Islands)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/3999",
+      "checkedAt": "2026-11-15"
+    },
+    "BIKINI_UNESCO_NEWS": {
+      "id": "BIKINI_UNESCO_NEWS",
+      "title": "World Heritage Committee inscribes a total of 21 new sites on UNESCO World Heritage List",
+      "publisher": "UNESCO World Heritage Centre (02/08/2010)",
+      "url": "https://whc.unesco.org/en/news/647",
+      "checkedAt": "2026-11-15"
+    },
+    "BIKINI_AHF": {
+      "id": "BIKINI_AHF",
+      "title": "Marshall Islands",
+      "publisher": "Atomic Heritage Foundation / National Museum of Nuclear Science & History",
+      "url": "https://ahf.nuclearmuseum.org/ahf/location/marshall-islands/",
+      "checkedAt": "2026-11-15"
+    },
+    "BIKINI_BRIT": {
+      "id": "BIKINI_BRIT",
+      "title": "Bikini Atoll",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/print/article/65176",
+      "checkedAt": "2026-11-15"
+    },
+    "BIKINI_BKA": {
+      "id": "BIKINI_BKA",
+      "title": "Bikini Atoll — History",
+      "publisher": "Bikini Atoll (bikiniatoll.com)",
+      "url": "https://bikiniatoll.com/history.html",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/en/list/1339",
+      "https://whc.unesco.org/en/decisions/3999",
+      "https://whc.unesco.org/en/news/647",
+      "https://ahf.nuclearmuseum.org/ahf/location/marshall-islands/",
+      "https://www.britannica.com/print/article/65176",
+      "https://bikiniatoll.com/history.html"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}
