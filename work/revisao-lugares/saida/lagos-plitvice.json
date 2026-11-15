@@ -1,0 +1,1090 @@
+{
+ "case": {
+  "id": "lug3-lagos-plitvice",
+  "placeId": "lagos-plitvice",
+  "title": "Parque Nacional dos Lagos de Plitvice",
+  "aliases": [
+   "Lagos de Plitvice",
+   "Plitvice"
+  ],
+  "answerType": "parque nacional",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "HR"
+   ],
+   "continents": [
+    "europa"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Paisagem natural",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Parque Nacional dos Lagos de Plitvice"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Parque Nacional Krka"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Dolomitas"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Calçada dos Gigantes"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Fiordes do Oeste da Noruega"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Alpes Suíços Jungfrau-Aletsch"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Costa Jurássica (Dorset e East Devon)"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Ilha de Surtsey"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Parque Nacional Vatnajökull"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Alta Costa e Arquipélago de Kvarken"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Mar de Wadden"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Delta do Danúbio"
+     },
+     {
+      "id": "C1-O13",
+      "text": "Monte Etna"
+     },
+     {
+      "id": "C1-O14",
+      "text": "Ilhas Eólias"
+     },
+     {
+      "id": "C1-O15",
+      "text": "Pireneus – Monte Perdido"
+     },
+     {
+      "id": "C1-O16",
+      "text": "Ilha de St Kilda"
+     },
+     {
+      "id": "C1-O17",
+      "text": "Baía de Kotor"
+     },
+     {
+      "id": "C1-O18",
+      "text": "Falésias de Moher"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Parque Nacional dos Lagos de Plitvice",
+    "sources": [
+     "PLITV_RP3",
+     "PLITV_MISSAO2017"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Material das barreiras naturais que represam os lagos",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Travertino (tufa calcária)"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Morainas glaciais"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Derrames de lava"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Blocos de deslizamentos de rocha"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Travertino (tufa calcária)",
+    "sources": [
+     "PLITV_RP3",
+     "PLITV_MISSAO2017",
+     "PLITV_WIKI"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Organismos que, segundo a UNESCO, possibilitam e aceleram a deposição do calcário",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Musgos, algas e bactérias"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Corais e esponjas"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Moluscos e crustáceos"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Liquens e fungos"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Musgos, algas e bactérias",
+    "sources": [
+     "PLITV_RP3"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Rocha predominante sob os lagos superiores",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Dolomito"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Granito"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Basalto"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Arenito"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Dolomito",
+    "sources": [
+     "PLITV_RP3",
+     "PLITV_WIKI"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "lagos-plitvice-viajante-P01",
+      "factKey": "lagos-plitvice-F01",
+      "text": "É uma paisagem natural europeia de lagos, florestas e prados sobre um relevo cárstico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_RP3"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P02",
+      "factKey": "lagos-plitvice-F02",
+      "text": "Entrou na lista do patrimônio mundial em 1979 e foi ampliado em 2000.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_RP2014",
+       "PLITV_MISSAO2017"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P03",
+      "factKey": "lagos-plitvice-F03",
+      "text": "Os lagos ficam em degraus, separados por barreiras naturais que funcionam como represas.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PLITV_RP3"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P04",
+      "factKey": "lagos-plitvice-F04",
+      "text": "Essas barreiras se formam com o calcário que a própria água carrega e deposita.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PLITV_RP3"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P05",
+      "factKey": "lagos-plitvice-F05",
+      "text": "Musgos, algas e bactérias ajudam esse calcário a se depositar.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "PLITV_RP3"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P06",
+      "factKey": "lagos-plitvice-F06",
+      "text": "Dezesseis lagos podem ser vistos na superfície.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_WIKI",
+       "PLITV_RP3"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P07",
+      "factKey": "lagos-plitvice-F07",
+      "text": "Os lagos de baixo são menores e mais rasos e ficam em cânions.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PLITV_RP3"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P08",
+      "factKey": "lagos-plitvice-F08",
+      "text": "Uma das quedas d'água, chamada Grande Cachoeira, tem 78 metros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_WIKI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P09",
+      "factKey": "lagos-plitvice-F09",
+      "text": "Os dois maiores lagos somam cerca de 80% da área de água e chegam a 37 e 47 metros de profundidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_WIKI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P10",
+      "factKey": "lagos-plitvice-F10",
+      "text": "O nome de um dos grandes lagos vem das cercas de estacas que os camponeses usavam para separar as lavouras da água.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_WIKI"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P11",
+      "factKey": "lagos-plitvice-F11",
+      "text": "As águas que alimentam os lagos vêm do encontro de dois rios, o Rio Branco e o Rio Preto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_WIKI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P12",
+      "factKey": "lagos-plitvice-F12",
+      "text": "Ursos-pardos, lobos e linces vivem nas florestas do parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_RP3",
+       "PLITV_WIKI"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P13",
+      "factKey": "lagos-plitvice-F13",
+      "text": "Cerca de 157 espécies de aves foram registradas no parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_WIKI"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P14",
+      "factKey": "lagos-plitvice-F14",
+      "text": "Nadar nos lagos é proibido desde 2006.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_WIKI"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P15",
+      "factKey": "lagos-plitvice-F15",
+      "text": "No verão, perto do meio-dia, o parque chega a receber mais de 10 mil visitantes por dia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_MISSAO2017"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P16",
+      "factKey": "lagos-plitvice-F16",
+      "text": "Hoje os ingressos têm horário marcado, com limite de pessoas por hora em cada entrada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_RP3"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P17",
+      "factKey": "lagos-plitvice-F17",
+      "text": "Faroestes baseados nos livros de Karl May foram filmados ali nos anos 1960.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_WIKI"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P18",
+      "factKey": "lagos-plitvice-F18",
+      "text": "Cerca de 84 hectares de floresta antiga de faias e abetos estão protegidos no parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_RP3"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P19",
+      "factKey": "lagos-plitvice-F19",
+      "text": "Cerca de 1.500 pessoas vivem em 21 povoados total ou parcialmente dentro do parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_MISSAO2017"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P20",
+      "factKey": "lagos-plitvice-F20",
+      "text": "Em março de 1991, ali aconteceu o primeiro confronto armado com mortes da guerra de independência do país.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_WIKI"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P21",
+      "factKey": "lagos-plitvice-F21",
+      "text": "Por causa da guerra, o parque ficou na lista do patrimônio em perigo de 1992 a 1997.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_SOC2017",
+       "PLITV_MISSAO2017"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P22",
+      "factKey": "lagos-plitvice-F22",
+      "text": "A tufa endurecida, chamada travertino, é porosa e sensível a pisadas e impactos.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PLITV_WIKI"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P23",
+      "factKey": "lagos-plitvice-F23",
+      "text": "Em 2011, a obra de uma trilha num cânion danificou formações de tufa.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PLITV_MISSAO2017"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P24",
+      "factKey": "lagos-plitvice-F24",
+      "text": "É o maior parque nacional da Croácia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_RP3"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-viajante-P25",
+      "factKey": "lagos-plitvice-F25",
+      "text": "Fica numa região de montanhas cársticas da Croácia, quase todo no condado de Lika-Senj.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_WIKI",
+       "PLITV_MISSAO2017"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "lagos-plitvice-geografo-P01",
+      "factKey": "lagos-plitvice-F01",
+      "text": "A paisagem combina relevo cárstico, florestas e prados numa área de cerca de 30 mil hectares.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_RP3"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P02",
+      "factKey": "lagos-plitvice-F02",
+      "text": "O bem foi inscrito pelos critérios de beleza natural, processos geológicos e processos ecológicos (vii, viii e ix).",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_RP2014",
+       "PLITV_SOC2017"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P03",
+      "factKey": "lagos-plitvice-F03",
+      "text": "O sistema de lagos resulta de milênios de processos geológicos e bioquímicos que criam represas naturais.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PLITV_RP3"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P04",
+      "factKey": "lagos-plitvice-F04",
+      "text": "O carbonato de cálcio dissolvido na água se deposita e forma as barreiras, que continuam em formação.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PLITV_RP3",
+       "PLITV_MISSAO2017"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P05",
+      "factKey": "lagos-plitvice-F05",
+      "text": "Musgos, algas e bactérias altamente especializados possibilitam e aceleram a sedimentação do calcário.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "PLITV_RP3"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P06",
+      "factKey": "lagos-plitvice-F31",
+      "text": "Florestas bem conservadas mantêm a química da água de que depende a formação das barreiras.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "PLITV_RP3"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P07",
+      "factKey": "lagos-plitvice-F07",
+      "text": "Os lagos superiores ficam sobre dolomito; os inferiores, em cânions de calcário.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PLITV_RP3",
+       "PLITV_WIKI"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P08",
+      "factKey": "lagos-plitvice-F33",
+      "text": "Do primeiro ao último lago, a água desce 133 metros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_WIKI"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P09",
+      "factKey": "lagos-plitvice-F34",
+      "text": "A ampliação de 2000 levou o bem de 19.462 ha para cerca de 29.631 ha e incluiu toda a bacia e quase todo o sistema subterrâneo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_MISSAO2017",
+       "PLITV_RP3"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P10",
+      "factKey": "lagos-plitvice-F35",
+      "text": "O bem não tem zona de amortecimento, e a missão de 2017 recomendou criar uma.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_RP2014",
+       "PLITV_MISSAO2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P11",
+      "factKey": "lagos-plitvice-F36",
+      "text": "Em 2017, esgoto sem tratamento era lançado na rocha cárstica, porque não havia estação de tratamento.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_MISSAO2017"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P12",
+      "factKey": "lagos-plitvice-F37",
+      "text": "A retirada de água de um dos lagos chegou a 5% da vazão nos anos mais secos; um novo sistema de abastecimento deve acabar com ela.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_RP3"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P13",
+      "factKey": "lagos-plitvice-F38",
+      "text": "Mudanças hidrológicas trazem níveis de água extremos, altos e baixos, com mais frequência.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_RP3"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P14",
+      "factKey": "lagos-plitvice-F39",
+      "text": "Peixes exóticos invasores são combatidos com manejo e monitoramento.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_RP3"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P15",
+      "factKey": "lagos-plitvice-F40",
+      "text": "Uma estrada que atravessa o parque recebe em média 4.217 veículos por dia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_RP3"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P16",
+      "factKey": "lagos-plitvice-F15",
+      "text": "Com quase 1,5 milhão de visitantes por ano, a missão de 2017 concluiu que o sistema tinha chegado à capacidade de carga.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_MISSAO2017"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P17",
+      "factKey": "lagos-plitvice-F42",
+      "text": "As licenças para novas hospedagens saltaram depois do plano territorial de 2014, e a UNESCO pediu uma avaliação ambiental estratégica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_MISSAO2017",
+       "PLITV_SOC2017"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P18",
+      "factKey": "lagos-plitvice-F43",
+      "text": "O abandono da pequena agricultura ameaça os prados, a biodiversidade e os saberes tradicionais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_MISSAO2017"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P19",
+      "factKey": "lagos-plitvice-F44",
+      "text": "O parque se autofinancia: cerca de 98% dos recursos vinham dos ingressos, segundo o relatório de 2014.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_RP2014",
+       "PLITV_MISSAO2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P20",
+      "factKey": "lagos-plitvice-F45",
+      "text": "Até 6,5% da receita dos ingressos vai a cada ano para os municípios do entorno.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_RP3"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P21",
+      "factKey": "lagos-plitvice-F46",
+      "text": "Criado em 1949, o parque é gerido por uma instituição pública com conselho de administração.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_WIKI",
+       "PLITV_RP2014"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P22",
+      "factKey": "lagos-plitvice-F21",
+      "text": "Esteve na Lista do Patrimônio em Perigo de 1992 a 1997, por causa do conflito armado, e saiu após reparos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_MISSAO2017",
+       "PLITV_SOC2017"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P23",
+      "factKey": "lagos-plitvice-F48",
+      "text": "Em 2017, o Comitê avisou que poderia incluí-lo de novo na lista em perigo se não houvesse progresso até 2018.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_SOC2017"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P24",
+      "factKey": "lagos-plitvice-F25",
+      "text": "Fica no carste dinárico; cerca de 90,7% da área está no condado de Lika-Senj, e o resto, no de Karlovac.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_MISSAO2017",
+       "PLITV_WIKI"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagos-plitvice-geografo-P25",
+      "factKey": "lagos-plitvice-F24",
+      "text": "É o maior parque nacional da Croácia, nos Dinarides mais baixos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PLITV_RP3"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Maior parque nacional da Croácia, no carste dinárico, com 16 lagos em degraus represados por barreiras de travertino que musgos, algas e bactérias ajudam a formar; patrimônio mundial desde 1979, ampliado em 2000.",
+   "editorialNotes": [
+    "A área do bem varia entre as fontes da UNESCO (29.482 ha, 29.630,77 ha e cerca de 29.631 ha); as pistas usam \"cerca de 30 mil hectares\" e os números da missão de 2017.",
+    "A página principal da UNESCO (lista 98) não abriu nesta sessão; a descrição vem da Declaração de Valor Universal reproduzida no relatório periódico mais recente, que não traz data explícita.",
+    "Dados de quedas d'água, profundidades, aves, filmes e do confronto de 1991 vêm só da Wikipedia (fonte complementar)."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Criado e verificado nas fontes: relatórios periódicos (terceiro ciclo e 2014), relatório da missão UNESCO/IUCN de 2017 e estado de conservação de 2017 da UNESCO, mais a Wikipedia como fonte complementar; C1 com 18 paisagens naturais europeias, incluindo o Parque Nacional Krka."
+  }
+ },
+ "sources": {
+  "PLITV_RP3": {
+   "id": "PLITV_RP3",
+   "title": "Periodic Reporting questionnaire, Section II: Plitvice Lakes National Park (terceiro ciclo)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/216110",
+   "checkedAt": "2026-11-15"
+  },
+  "PLITV_RP2014": {
+   "id": "PLITV_RP2014",
+   "title": "Periodic Report - Second Cycle, Section II: Plitvice Lakes National Park (2014)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/164090",
+   "checkedAt": "2026-11-15"
+  },
+  "PLITV_MISSAO2017": {
+   "id": "PLITV_MISSAO2017",
+   "title": "Joint WHC/IUCN Reactive Monitoring Mission to Plitvice Lakes National Park, Croatia (17-19 January 2017)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/157749",
+   "checkedAt": "2026-11-15"
+  },
+  "PLITV_SOC2017": {
+   "id": "PLITV_SOC2017",
+   "title": "State of Conservation 2017: Plitvice Lakes National Park (Croatia)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/soc/3616/&mode=doc",
+   "checkedAt": "2026-11-15"
+  },
+  "PLITV_WIKI": {
+   "id": "PLITV_WIKI",
+   "title": "Plitvice Lakes National Park",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Plitvice_Lakes_National_Park",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://whc.unesco.org/document/216110",
+   "https://whc.unesco.org/document/164090",
+   "https://whc.unesco.org/document/157749",
+   "https://whc.unesco.org/en/soc/3616/&mode=doc",
+   "https://en.wikipedia.org/wiki/Plitvice_Lakes_National_Park"
+  ],
+  "alteracoes": [
+   "criado do zero"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

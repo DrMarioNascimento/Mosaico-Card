@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-55-2026-11-14",
+  "catalogVersion": "lote-56-2026-11-15",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "290 destinos jogáveis em dois perfis",
-  "status": "290 destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "293 destinos jogáveis em dois perfis",
+  "status": "293 destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -7466,6 +7466,118 @@
       "title": "Schönbrunn Palace",
       "publisher": "Austria Info (Österreich Werbung)",
       "url": "https://austria.info/en/locations/schoenbrunn-palace",
+      "checkedAt": "2026-11-15"
+    },
+    "DOLOM_UNESCO": {
+      "id": "DOLOM_UNESCO",
+      "title": "The Dolomites",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1237/",
+      "checkedAt": "2026-11-15"
+    },
+    "DOLOM_IUCN": {
+      "id": "DOLOM_IUCN",
+      "title": "The Dolomites — 2025 Conservation Outlook Assessment",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1112",
+      "checkedAt": "2026-11-15"
+    },
+    "DOLOM_FUND": {
+      "id": "DOLOM_FUND",
+      "title": "The Dolomites UNESCO World Heritage Site",
+      "publisher": "Fondazione Dolomiti UNESCO",
+      "url": "https://www.dolomitiunesco.info/en/the-dolomites-unesco-world-heritage-site",
+      "checkedAt": "2026-11-15"
+    },
+    "DOLOM_FUND_VALORES": {
+      "id": "DOLOM_FUND_VALORES",
+      "title": "Universal values of the Dolomites UNESCO",
+      "publisher": "Fondazione Dolomiti UNESCO",
+      "url": "https://dolomitiunesco.info/universal-values-dolomites-unesco/?lang=en",
+      "checkedAt": "2026-11-15"
+    },
+    "DOLOM_TRENTO": {
+      "id": "DOLOM_TRENTO",
+      "title": "The Dolomites, a World Heritage Site",
+      "publisher": "Provincia autonoma di Trento",
+      "url": "https://www.provincia.tn.it/en/News/Insights/The-Dolomites-a-World-Heritage-Site",
+      "checkedAt": "2026-11-15"
+    },
+    "DOLOM_ALTABADIA": {
+      "id": "DOLOM_ALTABADIA",
+      "title": "The Dolomites UNESCO World Heritage",
+      "publisher": "Alta Badia (associação turística)",
+      "url": "https://www.altabadia.org/en/alps-dolomites/alta-badia/the-dolomites-unesco-world-heritage.html",
+      "checkedAt": "2026-11-15"
+    },
+    "DOLOM_RP2014": {
+      "id": "DOLOM_RP2014",
+      "title": "Periodic Report - Second Cycle, Section II: The Dolomites (2014)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/164276",
+      "checkedAt": "2026-11-15"
+    },
+    "KREMLIN_MISSAO2007": {
+      "id": "KREMLIN_MISSAO2007",
+      "title": "Joint UNESCO/ICOMOS/ICCROM Mission Report: Kremlin and Red Square in Moscow (6-14 December 2007), WHC-08/32.COM/7B",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/10055",
+      "checkedAt": "2026-11-15"
+    },
+    "KREMLIN_RP2014": {
+      "id": "KREMLIN_RP2014",
+      "title": "Periodic Report - Second Cycle, Section II: Kremlin and Red Square, Moscow (2014)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/164340",
+      "checkedAt": "2026-11-15"
+    },
+    "KREMLIN_SOC2015": {
+      "id": "KREMLIN_SOC2015",
+      "title": "State of Conservation 2015: Kremlin and Red Square, Moscow (Russian Federation)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/3297",
+      "checkedAt": "2026-11-15"
+    },
+    "KREMLIN_DOCS": {
+      "id": "KREMLIN_DOCS",
+      "title": "Kremlin and Red Square, Moscow — Documents",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/545/documents",
+      "checkedAt": "2026-11-15"
+    },
+    "PLITV_RP3": {
+      "id": "PLITV_RP3",
+      "title": "Periodic Reporting questionnaire, Section II: Plitvice Lakes National Park (terceiro ciclo)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/216110",
+      "checkedAt": "2026-11-15"
+    },
+    "PLITV_RP2014": {
+      "id": "PLITV_RP2014",
+      "title": "Periodic Report - Second Cycle, Section II: Plitvice Lakes National Park (2014)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/164090",
+      "checkedAt": "2026-11-15"
+    },
+    "PLITV_MISSAO2017": {
+      "id": "PLITV_MISSAO2017",
+      "title": "Joint WHC/IUCN Reactive Monitoring Mission to Plitvice Lakes National Park, Croatia (17-19 January 2017)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/157749",
+      "checkedAt": "2026-11-15"
+    },
+    "PLITV_SOC2017": {
+      "id": "PLITV_SOC2017",
+      "title": "State of Conservation 2017: Plitvice Lakes National Park (Croatia)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/3616/&mode=doc",
+      "checkedAt": "2026-11-15"
+    },
+    "PLITV_WIKI": {
+      "id": "PLITV_WIKI",
+      "title": "Plitvice Lakes National Park",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Plitvice_Lakes_National_Park",
       "checkedAt": "2026-11-15"
     }
   },
@@ -305029,6 +305141,3101 @@
         "playtest": "pending",
         "publication": "integrated",
         "editorial": "Criado e verificado nas fontes: relatório periódico e avaliação do ICOMOS na UNESCO, Britannica (resumo e traçado urbano), site oficial de Schönbrunn e Austria Info; C1 com 18 cidades europeias, incluindo outras capitais do Danúbio."
+      }
+    },
+    {
+      "id": "lug3-dolomitas",
+      "placeId": "dolomitas",
+      "title": "Dolomitas",
+      "aliases": [],
+      "answerType": "cordilheira",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "IT"
+        ],
+        "continents": [
+          "europa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Paisagem natural",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Dolomitas"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Calçada dos Gigantes"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Fiordes do Oeste da Noruega"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional dos Lagos de Plitvice"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Alpes Suíços Jungfrau-Aletsch"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Costa Jurássica (Dorset e East Devon)"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Ilha de Surtsey"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional Vatnajökull"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Alta Costa e Arquipélago de Kvarken"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Mar de Wadden"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Delta do Danúbio"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Monte Etna"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Ilhas Eólias"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Pireneus – Monte Perdido"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Ilha de St Kilda"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Baía de Kotor"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Falésias de Moher"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Ilha de Staffa"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Dolomitas",
+          "sources": [
+            "DOLOM_UNESCO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Período em que as rochas registram a recuperação da vida marinha depois da maior extinção da história da Terra",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Triássico"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Cambriano"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Devoniano"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Cretáceo"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Triássico",
+          "sources": [
+            "DOLOM_UNESCO",
+            "DOLOM_FUND_VALORES"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estruturas do Mesozoico que a UNESCO descreve como \"atóis fossilizados\"",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Plataformas carbonáticas"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Derrames de basalto"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Domos de granito"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Cones de escória vulcânica"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Plataformas carbonáticas",
+          "sources": [
+            "DOLOM_UNESCO",
+            "DOLOM_IUCN"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Geleira onde um desprendimento de gelo matou 11 montanhistas em julho de 2022",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Marmolada"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Aletsch"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Pasterze"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Mer de Glace"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Marmolada",
+          "sources": [
+            "DOLOM_IUCN"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "dolomitas-viajante-P01",
+              "factKey": "dolomitas-F01",
+              "text": "É uma paisagem de montanhas europeias com paredões verticais, pináculos e torres de pedra clara.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_UNESCO",
+                "DOLOM_FUND_VALORES"
+              ],
+              "clueType": "paisagem",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P02",
+              "factKey": "dolomitas-F02",
+              "text": "O lugar é patrimônio mundial tanto por sua beleza quanto por sua importância para a geologia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_UNESCO",
+                "DOLOM_TRENTO"
+              ],
+              "clueType": "patrimonio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P03",
+              "factKey": "dolomitas-F03",
+              "text": "Algumas paredes de rocha passam de 1.500 metros de altura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_UNESCO"
+              ],
+              "clueType": "relevo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P04",
+              "factKey": "dolomitas-F04",
+              "text": "Dezoito picos passam de 3.000 metros de altitude.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_UNESCO",
+                "DOLOM_IUCN"
+              ],
+              "clueType": "relevo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P05",
+              "factKey": "dolomitas-F05",
+              "text": "O patrimônio reúne nove áreas montanhosas separadas por vales e rios, como um arquipélago.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_TRENTO",
+                "DOLOM_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P06",
+              "factKey": "dolomitas-F06",
+              "text": "Vales estreitos, profundos e compridos cortam as montanhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_UNESCO"
+              ],
+              "clueType": "relevo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P07",
+              "factKey": "dolomitas-F07",
+              "text": "Deslizamentos, enchentes e avalanches são frequentes e continuam mudando a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_UNESCO",
+                "DOLOM_IUCN"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P08",
+              "factKey": "dolomitas-F08",
+              "text": "As montanhas nasceram de um enorme recife de corais de um oceano pré-histórico.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DOLOM_ALTABADIA"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P09",
+              "factKey": "dolomitas-F09",
+              "text": "Há cerca de 250 milhões de anos, a região fazia parte da Pangeia e ficava bem mais ao sul, na zona tropical.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DOLOM_ALTABADIA"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P10",
+              "factKey": "dolomitas-F10",
+              "text": "A UNESCO diz que as montanhas guardam \"atóis fossilizados\", cheios de fósseis.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DOLOM_UNESCO"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P11",
+              "factKey": "dolomitas-F11",
+              "text": "As rochas mostram a vida marinha se recuperando depois da maior extinção da história da Terra.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DOLOM_UNESCO",
+                "DOLOM_FUND_VALORES"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P12",
+              "factKey": "dolomitas-F12",
+              "text": "Na rocha dá para \"ler\" planícies áridas, atóis tropicais, vulcões e abismos marinhos de outras eras.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DOLOM_FUND_VALORES"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P13",
+              "factKey": "dolomitas-F13",
+              "text": "Ursos, em parte reintroduzidos, e linces voltaram a circular pela região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_IUCN"
+              ],
+              "clueType": "biodiversidade",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P14",
+              "factKey": "dolomitas-F14",
+              "text": "A região tem cerca de 2.400 espécies de plantas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_IUCN"
+              ],
+              "clueType": "biodiversidade",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P15",
+              "factKey": "dolomitas-F15",
+              "text": "Cerca de 10 milhões de visitantes chegam por ano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_IUCN"
+              ],
+              "clueType": "cultura",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P16",
+              "factKey": "dolomitas-F16",
+              "text": "O trânsito intenso de carros nas estradas de montanha incomoda os moradores e afeta a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_IUCN"
+              ],
+              "clueType": "cultura",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P17",
+              "factKey": "dolomitas-F17",
+              "text": "Em outubro de 2018, a tempestade Vaia derrubou uma enorme quantidade de árvores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_IUCN"
+              ],
+              "clueType": "clima",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P18",
+              "factKey": "dolomitas-F18",
+              "text": "Uma geleira da região perdeu cerca de 30% do volume entre 2004 e 2014 e pode sumir até 2050.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "DOLOM_IUCN"
+              ],
+              "clueType": "clima",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P19",
+              "factKey": "dolomitas-F19",
+              "text": "Em julho de 2022, um desprendimento de gelo dessa geleira matou 11 montanhistas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "DOLOM_IUCN"
+              ],
+              "clueType": "clima",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P20",
+              "factKey": "dolomitas-F20",
+              "text": "O nome dessa geleira, Marmolada, também batiza uma das nove áreas do patrimônio.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "DOLOM_FUND",
+                "DOLOM_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P21",
+              "factKey": "dolomitas-F21",
+              "text": "No fim do século XVIII, cientistas descobriram que essas \"montanhas pálidas\" são de calcário rico em magnésio.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DOLOM_ALTABADIA"
+              ],
+              "clueType": "pesquisa",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P22",
+              "factKey": "dolomitas-F22",
+              "text": "Le Corbusier chamou o entorno de um dos vales da região de \"a mais bela obra de arquitetura do mundo\".",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_ALTABADIA"
+              ],
+              "clueType": "cultura",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P23",
+              "factKey": "dolomitas-F23",
+              "text": "Pioneiros da geologia foram dos primeiros a se encantar com essas montanhas; depois vieram escritores, pintores e fotógrafos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_UNESCO"
+              ],
+              "clueType": "cultura",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P24",
+              "factKey": "dolomitas-F24",
+              "text": "As montanhas ficam nos Alpes do norte da Itália.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_UNESCO",
+                "DOLOM_IUCN"
+              ],
+              "clueType": "localizacao",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-viajante-P25",
+              "factKey": "dolomitas-F25",
+              "text": "Elas levam o nome do geólogo Déodat de Dolomieu, que fez a primeira análise mineralógica e química de suas rochas.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "DOLOM_ALTABADIA"
+              ],
+              "clueType": "pesquisa",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "dolomitas-geografo-P01",
+              "factKey": "dolomitas-F26",
+              "text": "A UNESCO valoriza o contraste entre formas verticais e horizontais e a variedade de cores dessas montanhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_UNESCO"
+              ],
+              "clueType": "paisagem",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P02",
+              "factKey": "dolomitas-F05",
+              "text": "É um bem em série: nove componentes separados formam um único patrimônio natural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_UNESCO",
+                "DOLOM_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P03",
+              "factKey": "dolomitas-F28",
+              "text": "Os componentes reúnem partes de um parque nacional, parques naturais provinciais, áreas Natura 2000 e um monumento natural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P04",
+              "factKey": "dolomitas-F29",
+              "text": "O bem soma cerca de 141.900 ha; com a zona de amortecimento, passa de 231 mil ha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_UNESCO",
+                "DOLOM_RP2014"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P05",
+              "factKey": "dolomitas-F30",
+              "text": "O território se divide entre cinco províncias, o que exige uma governança interprovincial e uma estratégia comum de gestão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_UNESCO",
+                "DOLOM_IUCN",
+                "DOLOM_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P06",
+              "factKey": "dolomitas-F31",
+              "text": "Uma fundação criada em 13 de maio de 2010 coordena a gestão dos nove componentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_FUND",
+                "DOLOM_IUCN",
+                "DOLOM_TRENTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P07",
+              "factKey": "dolomitas-F32",
+              "text": "É um sítio clássico de relevo montanhoso esculpido em calcário rico em magnésio, com formas glaciais e sistemas cársticos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DOLOM_UNESCO",
+                "DOLOM_ALTABADIA"
+              ],
+              "clueType": "relevo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P08",
+              "factKey": "dolomitas-F10",
+              "text": "As plataformas carbonáticas do Mesozoico preservadas ali estão entre os melhores exemplos do mundo, com registro fóssil.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DOLOM_UNESCO",
+                "DOLOM_IUCN"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P09",
+              "factKey": "dolomitas-F11",
+              "text": "As rochas expõem a recuperação da vida marinha no Triássico, depois da maior extinção da história da Terra.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DOLOM_UNESCO",
+                "DOLOM_FUND_VALORES"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P10",
+              "factKey": "dolomitas-F35",
+              "text": "Várias seções-tipo de importância internacional para a estratigrafia do Triássico estão no bem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DOLOM_UNESCO"
+              ],
+              "clueType": "pesquisa",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P11",
+              "factKey": "dolomitas-F36",
+              "text": "Um relatório de 2014 à UNESCO afirma que mais de 95% das publicações científicas sobre o Triássico tratam dessas montanhas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DOLOM_RP2014"
+              ],
+              "clueType": "pesquisa",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P12",
+              "factKey": "dolomitas-F37",
+              "text": "As rochas guardam um registro de cerca de 250 milhões de anos, com boa parte do Mesozoico em sequência contínua.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DOLOM_FUND_VALORES",
+                "DOLOM_IUCN"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P13",
+              "factKey": "dolomitas-F38",
+              "text": "A pesquisa geológica nessas montanhas vem desde o século XVIII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_IUCN"
+              ],
+              "clueType": "pesquisa",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P14",
+              "factKey": "dolomitas-F08",
+              "text": "As rochas claras vêm de recifes do antigo oceano Tétis e emergiram do fundo do mar à medida que ele baixou.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DOLOM_ALTABADIA"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P15",
+              "factKey": "dolomitas-F07",
+              "text": "Deslizamentos, enchentes e avalanches frequentes mostram que os processos de vertente seguem ativos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_UNESCO"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P16",
+              "factKey": "dolomitas-F41",
+              "text": "O relevo inclui pináculos, agulhas, torres, saliências e platôs, além de formas glaciais e cársticas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_UNESCO"
+              ],
+              "clueType": "relevo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P17",
+              "factKey": "dolomitas-F15",
+              "text": "Com cerca de 10 milhões de visitantes por ano, o turismo e sua infraestrutura estão entre as maiores pressões sobre o bem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_IUCN",
+                "DOLOM_UNESCO"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P18",
+              "factKey": "dolomitas-F43",
+              "text": "A IUCN se preocupa com obras de esqui ligadas aos Jogos Olímpicos de Inverno de 2026, que poderiam avançar sobre áreas protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_IUCN"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P19",
+              "factKey": "dolomitas-F17",
+              "text": "Depois da tempestade Vaia, de 2018, veio um surto de besouros-de-casca nas florestas derrubadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_IUCN"
+              ],
+              "clueType": "clima",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P20",
+              "factKey": "dolomitas-F18",
+              "text": "O recuo das geleiras é um dos efeitos da mudança climática: uma delas perdeu cerca de 30% do volume em dez anos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "DOLOM_IUCN"
+              ],
+              "clueType": "clima",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P21",
+              "factKey": "dolomitas-F19",
+              "text": "Em julho de 2022, cerca de 63.000 m³ de gelo se soltaram da geleira da Marmolada e mataram 11 montanhistas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "DOLOM_IUCN"
+              ],
+              "clueType": "clima",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P22",
+              "factKey": "dolomitas-F47",
+              "text": "Em 2025, a IUCN avaliou a perspectiva de conservação como \"boa, com algumas preocupações\".",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_IUCN"
+              ],
+              "clueType": "pesquisa",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P23",
+              "factKey": "dolomitas-F48",
+              "text": "Segundo o relatório de 2014, cerca de 71% da área fica em parque nacional ou em parques naturais provinciais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_RP2014"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P24",
+              "factKey": "dolomitas-F49",
+              "text": "A candidatura de 2006 tinha 22 sistemas; a inscrição, em 2009, ficou com nove.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_FUND_VALORES"
+              ],
+              "clueType": "patrimonio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "dolomitas-geografo-P25",
+              "factKey": "dolomitas-F24",
+              "text": "São montanhas dos Alpes do norte da Itália, inscritas como patrimônio mundial em 2009, numa reunião do Comitê em Sevilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DOLOM_UNESCO",
+                "DOLOM_FUND_VALORES",
+                "DOLOM_FUND"
+              ],
+              "clueType": "localizacao",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cordilheira dos Alpes do norte da Itália, patrimônio mundial natural desde 2009, formada por nove áreas com 18 picos acima de 3.000 m, plataformas carbonáticas do Mesozoico e um registro da recuperação da vida marinha no Triássico.",
+        "editorialNotes": [
+          "A área do bem é de 141.903 ha na UNESCO e na IUCN; a Província de Trento arredonda para 142.000 ha; um portal de Moena cita 231 mil ha, que é o total com a zona de amortecimento no relatório de 2014.",
+          "As fontes contam as regiões de modo diferente (duas, sem o Trentino-Alto Ádige, ou três): as pistas usam só as cinco províncias.",
+          "A homenagem a Déodat de Dolomieu vem da associação turística de Alta Badia; as fontes abertas não dão o ano da análise, por isso a pista não traz data."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "source-reviewed",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "Criado e verificado nas fontes: página e relatório periódico (2014) da UNESCO, IUCN World Heritage Outlook 2025, Fundação Dolomiti UNESCO (2 páginas), Província de Trento e Alta Badia; C1 com 18 paisagens naturais europeias."
+      }
+    },
+    {
+      "id": "lug3-kremlin-praca-vermelha",
+      "placeId": "kremlin-praca-vermelha",
+      "title": "Kremlin e Praça Vermelha",
+      "aliases": [
+        "Kremlin de Moscou"
+      ],
+      "answerType": "conjunto monumental",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "RU"
+        ],
+        "continents": [
+          "europa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Conjunto monumental",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Kremlin e Praça Vermelha"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Kremlin de Kazan"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Kremlin de Novgorod"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Castelo de Praga"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Castelo de Wawel"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Torre de Londres"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Castelo de Edimburgo"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Palácio de Versalhes"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Palácio de Schönbrunn"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Palácio dos Papas de Avignon"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Alhambra de Granada"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Real Alcázar de Sevilha"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Mosteiro do Escorial"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Palácio Real de Madri"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Palácio Nacional da Pena"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Palácio de Diocleciano"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Acrópole de Atenas"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Mont-Saint-Michel"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Kremlin e Praça Vermelha",
+          "sources": [
+            "KREMLIN_MISSAO2007",
+            "KREMLIN_RP2014"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Czar que mandou erguer, na praça, a catedral em memória da conquista de Kazan",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Ivan IV, o Terrível"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Ivan III, o Grande"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Pedro, o Grande"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Boris Godunov"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Ivan IV, o Terrível",
+          "sources": [
+            "KREMLIN_MISSAO2007"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Origem dos arquitetos que inovaram a arquitetura da cidadela no fim do século XV",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Italianos"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Bizantinos"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Franceses"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Alemães"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Italianos",
+          "sources": [
+            "KREMLIN_MISSAO2007",
+            "KREMLIN_RP2014"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Material das muralhas atuais da cidadela",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Tijolo vermelho"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Pedra calcária branca"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Troncos de madeira"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Blocos de granito"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Tijolo vermelho",
+          "sources": [
+            "KREMLIN_MISSAO2007"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "kremlin-praca-vermelha-viajante-P01",
+              "factKey": "kremlin-praca-vermelha-F01",
+              "text": "É um conjunto de muralhas, torres, catedrais e palácios no centro de uma capital europeia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007",
+                "KREMLIN_RP2014"
+              ],
+              "clueType": "patrimonio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P02",
+              "factKey": "kremlin-praca-vermelha-F02",
+              "text": "Foi inscrito como patrimônio mundial em 1990.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_DOCS",
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "patrimonio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P03",
+              "factKey": "kremlin-praca-vermelha-F03",
+              "text": "A cidadela tem muralhas em forma de triângulo, com cinco portões.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "construcao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P04",
+              "factKey": "kremlin-praca-vermelha-F04",
+              "text": "As muralhas e torres de hoje são de tijolo vermelho.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "construcao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P05",
+              "factKey": "kremlin-praca-vermelha-F05",
+              "text": "Em 1156, um príncipe ergueu ali fortificações de madeira no alto de uma colina.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P06",
+              "factKey": "kremlin-praca-vermelha-F06",
+              "text": "A cidadela fica onde dois rios se encontram; um deles hoje está coberto por um jardim.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "agua",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P07",
+              "factKey": "kremlin-praca-vermelha-F07",
+              "text": "Um campanário terminado no início do século XVI ganhou um terceiro andar em 1600 e chegou a 81 metros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "construcao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P08",
+              "factKey": "kremlin-praca-vermelha-F08",
+              "text": "Dentro das muralhas há as catedrais da Anunciação, da Dormição e do Arcanjo Miguel.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "patrimonio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P09",
+              "factKey": "kremlin-praca-vermelha-F09",
+              "text": "Desde 1991, as catedrais e igrejas voltaram a receber cultos ortodoxos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_RP2014"
+              ],
+              "clueType": "cultura",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P10",
+              "factKey": "kremlin-praca-vermelha-F10",
+              "text": "O Palácio das Facetas, de 1485, foi construído por dois arquitetos italianos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "construcao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P11",
+              "factKey": "kremlin-praca-vermelha-F11",
+              "text": "Arquitetos italianos também reconstruíram a catedral da Dormição no fim do século XV.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "construcao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P12",
+              "factKey": "kremlin-praca-vermelha-F12",
+              "text": "Ao lado da cidadela, uma grande praça reúne uma catedral de cúpulas, um museu de história e um mausoléu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "urbanismo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P13",
+              "factKey": "kremlin-praca-vermelha-F13",
+              "text": "Essa catedral de cúpulas foi encomendada por um czar para celebrar uma vitória militar de 1552.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P14",
+              "factKey": "kremlin-praca-vermelha-F14",
+              "text": "A catedral ficou pronta em 1561 e é atribuída ao arquiteto Postnik Yakovlev.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "construcao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P15",
+              "factKey": "kremlin-praca-vermelha-F15",
+              "text": "O czar que a encomendou foi Ivan, o Terrível, depois de conquistar Kazan.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P16",
+              "factKey": "kremlin-praca-vermelha-F16",
+              "text": "Na praça fica o mausoléu de Lênin, grande exemplo de arquitetura monumental soviética.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "patrimonio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P17",
+              "factKey": "kremlin-praca-vermelha-F17",
+              "text": "Urnas com cinzas de heróis da revolução foram embutidas nas muralhas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P18",
+              "factKey": "kremlin-praca-vermelha-F18",
+              "text": "Na praça, galerias comerciais com pátios cobertos de vidro foram construídas entre 1889 e 1893.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "urbanismo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P19",
+              "factKey": "kremlin-praca-vermelha-F19",
+              "text": "No século XVII, ali havia fileiras de barracas de comércio de madeira, que pegavam fogo com frequência.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P20",
+              "factKey": "kremlin-praca-vermelha-F20",
+              "text": "Um grande palácio com fachada de 125 metros voltada para o sul foi construído sob a direção do arquiteto Konstantin Ton.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "construcao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P21",
+              "factKey": "kremlin-praca-vermelha-F21",
+              "text": "O mesmo arquiteto projetou o prédio da Armaria, erguido de 1844 a 1851.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "construcao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P22",
+              "factKey": "kremlin-praca-vermelha-F22",
+              "text": "Duas torres da muralha, a do Salvador e a de São Nicolau, são de 1491.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "construcao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P23",
+              "factKey": "kremlin-praca-vermelha-F23",
+              "text": "A demolição de um grande hotel vizinho, em 2010, devolveu a vista do lado leste do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_RP2014"
+              ],
+              "clueType": "urbanismo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P24",
+              "factKey": "kremlin-praca-vermelha-F24",
+              "text": "Fica no centro de Moscou, capital da Rússia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_RP2014"
+              ],
+              "clueType": "localizacao",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-viajante-P25",
+              "factKey": "kremlin-praca-vermelha-F25",
+              "text": "Festivais e grandes eventos na praça chegam a produzir barulho muito acima do limite permitido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_RP2014"
+              ],
+              "clueType": "cultura",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "kremlin-praca-vermelha-geografo-P01",
+              "factKey": "kremlin-praca-vermelha-F26",
+              "text": "O traçado do conjunto expressa dois centros de poder lado a lado: o espiritual e o civil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_RP2014"
+              ],
+              "clueType": "urbanismo",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P02",
+              "factKey": "kremlin-praca-vermelha-F27",
+              "text": "Formado ao longo de cerca de 500 anos, o conjunto reflete a passagem de um território feudal fragmentado para um império.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_RP2014"
+              ],
+              "clueType": "processo",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P03",
+              "factKey": "kremlin-praca-vermelha-F02",
+              "text": "A UNESCO o inscreveu em 1990 pelos critérios (i), (ii), (iv) e (vi).",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_SOC2015",
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "patrimonio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P04",
+              "factKey": "kremlin-praca-vermelha-F06",
+              "text": "A cidadela ocupa uma colina na confluência de dois rios; um deles foi coberto e hoje corre sob um jardim.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "relevo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P05",
+              "factKey": "kremlin-praca-vermelha-F30",
+              "text": "Camadas arqueológicas que podem remontar ao século XII continuam inexploradas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_SOC2015"
+              ],
+              "clueType": "pesquisa",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P06",
+              "factKey": "kremlin-praca-vermelha-F31",
+              "text": "O recinto triangular de tijolo, com torres e cinco portões, sucedeu às fortificações de madeira do século XII.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "construcao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P07",
+              "factKey": "kremlin-praca-vermelha-F32",
+              "text": "As inovações de construtores italianos se somaram à evolução da arquitetura russa antiga.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KREMLIN_RP2014"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P08",
+              "factKey": "kremlin-praca-vermelha-F10",
+              "text": "O Palácio das Facetas foi encomendado por Ivan III em 1485 a Marco Ruffo e Pietro Solario.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "construcao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P09",
+              "factKey": "kremlin-praca-vermelha-F34",
+              "text": "Ivan III encomendou a catedral da Anunciação em 1484 e a do Arcanjo Miguel em 1505.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P10",
+              "factKey": "kremlin-praca-vermelha-F13",
+              "text": "A catedral de cúpulas da praça celebra a tomada de Kazan por Ivan IV, em 1552, e ficou pronta em 1561.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P11",
+              "factKey": "kremlin-praca-vermelha-F07",
+              "text": "O campanário de Ivan, o Grande, erguido de 1505 a 1508, chegou a 81 m com o andar acrescentado em 1600.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "construcao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P12",
+              "factKey": "kremlin-praca-vermelha-F20",
+              "text": "O Grande Palácio de Konstantin Ton absorveu construções mais antigas, como o Palácio das Facetas e o Palácio dos Terems.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "construcao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P13",
+              "factKey": "kremlin-praca-vermelha-F19",
+              "text": "As fileiras de comércio de madeira do século XVII foram reconstruídas em alvenaria no século XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "urbanismo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P14",
+              "factKey": "kremlin-praca-vermelha-F18",
+              "text": "As galerias comerciais de 1889–1893, projeto de Aleksandr Pomerantsev, seguem o estilo neorrusso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "construcao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P15",
+              "factKey": "kremlin-praca-vermelha-F16",
+              "text": "Para a UNESCO, o mausoléu de Lênin é o principal exemplo de arquitetura monumental simbólica da União Soviética.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007"
+              ],
+              "clueType": "patrimonio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P16",
+              "factKey": "kremlin-praca-vermelha-F41",
+              "text": "Prédios históricos destruídos em 1929–1930 foram alvo de um plano de reconstrução que a ICOMOS desaconselhou.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_SOC2015"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P17",
+              "factKey": "kremlin-praca-vermelha-F42",
+              "text": "A demolição do Prédio 14, de uso administrativo dentro da cidadela, foi considerada aceitável pela ICOMOS em 2014.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_SOC2015"
+              ],
+              "clueType": "urbanismo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P18",
+              "factKey": "kremlin-praca-vermelha-F43",
+              "text": "Um monumento ao marechal Jukov foi erguido no entorno, num quadro de pressão urbana acelerada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_SOC2015"
+              ],
+              "clueType": "urbanismo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P19",
+              "factKey": "kremlin-praca-vermelha-F44",
+              "text": "Em 2014, a maior ameaça apontada era o desenvolvimento comercial sem regras nas áreas vizinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_RP2014"
+              ],
+              "clueType": "urbanismo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P20",
+              "factKey": "kremlin-praca-vermelha-F45",
+              "text": "A poluição do ar, sobretudo de veículos, e o trânsito pesado afetam o entorno, e a umidade e a temperatura afetam os materiais históricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_RP2014"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P21",
+              "factKey": "kremlin-praca-vermelha-F46",
+              "text": "Cinco proprietários dividem a gestão, entre eles um museu-reserva estatal, a administração presidencial e uma empresa de galerias comerciais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_RP2014"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P22",
+              "factKey": "kremlin-praca-vermelha-F47",
+              "text": "O Museu Histórico do Estado administra a praça e a catedral de cúpulas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007",
+                "KREMLIN_RP2014"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P23",
+              "factKey": "kremlin-praca-vermelha-F48",
+              "text": "A prefeitura da cidade controla a grande zona de amortecimento ao redor do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_RP2014"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P24",
+              "factKey": "kremlin-praca-vermelha-F23",
+              "text": "No terreno do antigo hotel Rossiya, demolido, surgiu o complexo Zaryadye.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_MISSAO2007",
+                "KREMLIN_RP2014"
+              ],
+              "clueType": "urbanismo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kremlin-praca-vermelha-geografo-P25",
+              "factKey": "kremlin-praca-vermelha-F24",
+              "text": "No centro de Moscou, a cidadela é dividida entre um museu-reserva estatal e a administração presidencial da Rússia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KREMLIN_RP2014"
+              ],
+              "clueType": "localizacao",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Conjunto do centro de Moscou formado pela cidadela triangular de tijolo vermelho, com catedrais e palácios dos séculos XV e XVI, muitos de arquitetos italianos, e pela praça vizinha com a catedral de Ivan IV (1561), o mausoléu de Lênin e as galerias comerciais de 1889–1893; patrimônio mundial desde 1990.",
+        "editorialNotes": [
+          "O relatório da missão de 2007 dá 29 torres num anexo e \"quase vinte\" em outro; por isso as pistas não trazem o número de torres.",
+          "O relatório da missão data a reconstrução da catedral da Dormição de \"por volta de 1470\"; a pista fala só em fim do século XV.",
+          "A página principal da UNESCO (lista 545) não abriu nesta sessão; os dados vêm do relatório da missão de 2007, do relatório periódico de 2014, do estado de conservação de 2015 e da lista de documentos. A área de 35.248 ha do relatório de 2014 parece erro e não foi usada."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "source-reviewed",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "Criado e verificado nas fontes: relatório da missão UNESCO/ICOMOS/ICCROM de 2007, relatório periódico de 2014, estado de conservação de 2015 e lista de documentos da UNESCO; C1 com 18 conjuntos monumentais europeus, incluindo os kremlins de Kazan e Novgorod."
+      }
+    },
+    {
+      "id": "lug3-lagos-plitvice",
+      "placeId": "lagos-plitvice",
+      "title": "Parque Nacional dos Lagos de Plitvice",
+      "aliases": [
+        "Lagos de Plitvice",
+        "Plitvice"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "HR"
+        ],
+        "continents": [
+          "europa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Paisagem natural",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional dos Lagos de Plitvice"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional Krka"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Dolomitas"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Calçada dos Gigantes"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Fiordes do Oeste da Noruega"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Alpes Suíços Jungfrau-Aletsch"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Costa Jurássica (Dorset e East Devon)"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Ilha de Surtsey"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional Vatnajökull"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Alta Costa e Arquipélago de Kvarken"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Mar de Wadden"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Delta do Danúbio"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Monte Etna"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Ilhas Eólias"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Pireneus – Monte Perdido"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Ilha de St Kilda"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Baía de Kotor"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Falésias de Moher"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional dos Lagos de Plitvice",
+          "sources": [
+            "PLITV_RP3",
+            "PLITV_MISSAO2017"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Material das barreiras naturais que represam os lagos",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Travertino (tufa calcária)"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Morainas glaciais"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Derrames de lava"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Blocos de deslizamentos de rocha"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Travertino (tufa calcária)",
+          "sources": [
+            "PLITV_RP3",
+            "PLITV_MISSAO2017",
+            "PLITV_WIKI"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Organismos que, segundo a UNESCO, possibilitam e aceleram a deposição do calcário",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Musgos, algas e bactérias"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Corais e esponjas"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Moluscos e crustáceos"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Liquens e fungos"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Musgos, algas e bactérias",
+          "sources": [
+            "PLITV_RP3"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Rocha predominante sob os lagos superiores",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Dolomito"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Granito"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Basalto"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Arenito"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Dolomito",
+          "sources": [
+            "PLITV_RP3",
+            "PLITV_WIKI"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "lagos-plitvice-viajante-P01",
+              "factKey": "lagos-plitvice-F01",
+              "text": "É uma paisagem natural europeia de lagos, florestas e prados sobre um relevo cárstico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_RP3"
+              ],
+              "clueType": "paisagem",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P02",
+              "factKey": "lagos-plitvice-F02",
+              "text": "Entrou na lista do patrimônio mundial em 1979 e foi ampliado em 2000.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_RP2014",
+                "PLITV_MISSAO2017"
+              ],
+              "clueType": "patrimonio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P03",
+              "factKey": "lagos-plitvice-F03",
+              "text": "Os lagos ficam em degraus, separados por barreiras naturais que funcionam como represas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PLITV_RP3"
+              ],
+              "clueType": "agua",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P04",
+              "factKey": "lagos-plitvice-F04",
+              "text": "Essas barreiras se formam com o calcário que a própria água carrega e deposita.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PLITV_RP3"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P05",
+              "factKey": "lagos-plitvice-F05",
+              "text": "Musgos, algas e bactérias ajudam esse calcário a se depositar.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PLITV_RP3"
+              ],
+              "clueType": "biodiversidade",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P06",
+              "factKey": "lagos-plitvice-F06",
+              "text": "Dezesseis lagos podem ser vistos na superfície.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_WIKI",
+                "PLITV_RP3"
+              ],
+              "clueType": "agua",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P07",
+              "factKey": "lagos-plitvice-F07",
+              "text": "Os lagos de baixo são menores e mais rasos e ficam em cânions.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PLITV_RP3"
+              ],
+              "clueType": "agua",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P08",
+              "factKey": "lagos-plitvice-F08",
+              "text": "Uma das quedas d'água, chamada Grande Cachoeira, tem 78 metros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_WIKI"
+              ],
+              "clueType": "agua",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P09",
+              "factKey": "lagos-plitvice-F09",
+              "text": "Os dois maiores lagos somam cerca de 80% da área de água e chegam a 37 e 47 metros de profundidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_WIKI"
+              ],
+              "clueType": "agua",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P10",
+              "factKey": "lagos-plitvice-F10",
+              "text": "O nome de um dos grandes lagos vem das cercas de estacas que os camponeses usavam para separar as lavouras da água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_WIKI"
+              ],
+              "clueType": "cultura",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P11",
+              "factKey": "lagos-plitvice-F11",
+              "text": "As águas que alimentam os lagos vêm do encontro de dois rios, o Rio Branco e o Rio Preto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_WIKI"
+              ],
+              "clueType": "agua",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P12",
+              "factKey": "lagos-plitvice-F12",
+              "text": "Ursos-pardos, lobos e linces vivem nas florestas do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_RP3",
+                "PLITV_WIKI"
+              ],
+              "clueType": "biodiversidade",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P13",
+              "factKey": "lagos-plitvice-F13",
+              "text": "Cerca de 157 espécies de aves foram registradas no parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_WIKI"
+              ],
+              "clueType": "biodiversidade",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P14",
+              "factKey": "lagos-plitvice-F14",
+              "text": "Nadar nos lagos é proibido desde 2006.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_WIKI"
+              ],
+              "clueType": "cultura",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P15",
+              "factKey": "lagos-plitvice-F15",
+              "text": "No verão, perto do meio-dia, o parque chega a receber mais de 10 mil visitantes por dia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_MISSAO2017"
+              ],
+              "clueType": "cultura",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P16",
+              "factKey": "lagos-plitvice-F16",
+              "text": "Hoje os ingressos têm horário marcado, com limite de pessoas por hora em cada entrada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_RP3"
+              ],
+              "clueType": "cultura",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P17",
+              "factKey": "lagos-plitvice-F17",
+              "text": "Faroestes baseados nos livros de Karl May foram filmados ali nos anos 1960.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_WIKI"
+              ],
+              "clueType": "cultura",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P18",
+              "factKey": "lagos-plitvice-F18",
+              "text": "Cerca de 84 hectares de floresta antiga de faias e abetos estão protegidos no parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_RP3"
+              ],
+              "clueType": "biodiversidade",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P19",
+              "factKey": "lagos-plitvice-F19",
+              "text": "Cerca de 1.500 pessoas vivem em 21 povoados total ou parcialmente dentro do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_MISSAO2017"
+              ],
+              "clueType": "cultura",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P20",
+              "factKey": "lagos-plitvice-F20",
+              "text": "Em março de 1991, ali aconteceu o primeiro confronto armado com mortes da guerra de independência do país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_WIKI"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P21",
+              "factKey": "lagos-plitvice-F21",
+              "text": "Por causa da guerra, o parque ficou na lista do patrimônio em perigo de 1992 a 1997.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_SOC2017",
+                "PLITV_MISSAO2017"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P22",
+              "factKey": "lagos-plitvice-F22",
+              "text": "A tufa endurecida, chamada travertino, é porosa e sensível a pisadas e impactos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PLITV_WIKI"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P23",
+              "factKey": "lagos-plitvice-F23",
+              "text": "Em 2011, a obra de uma trilha num cânion danificou formações de tufa.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PLITV_MISSAO2017"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P24",
+              "factKey": "lagos-plitvice-F24",
+              "text": "É o maior parque nacional da Croácia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_RP3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-viajante-P25",
+              "factKey": "lagos-plitvice-F25",
+              "text": "Fica numa região de montanhas cársticas da Croácia, quase todo no condado de Lika-Senj.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_WIKI",
+                "PLITV_MISSAO2017"
+              ],
+              "clueType": "localizacao",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "lagos-plitvice-geografo-P01",
+              "factKey": "lagos-plitvice-F01",
+              "text": "A paisagem combina relevo cárstico, florestas e prados numa área de cerca de 30 mil hectares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_RP3"
+              ],
+              "clueType": "paisagem",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P02",
+              "factKey": "lagos-plitvice-F02",
+              "text": "O bem foi inscrito pelos critérios de beleza natural, processos geológicos e processos ecológicos (vii, viii e ix).",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_RP2014",
+                "PLITV_SOC2017"
+              ],
+              "clueType": "patrimonio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P03",
+              "factKey": "lagos-plitvice-F03",
+              "text": "O sistema de lagos resulta de milênios de processos geológicos e bioquímicos que criam represas naturais.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PLITV_RP3"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P04",
+              "factKey": "lagos-plitvice-F04",
+              "text": "O carbonato de cálcio dissolvido na água se deposita e forma as barreiras, que continuam em formação.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PLITV_RP3",
+                "PLITV_MISSAO2017"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P05",
+              "factKey": "lagos-plitvice-F05",
+              "text": "Musgos, algas e bactérias altamente especializados possibilitam e aceleram a sedimentação do calcário.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PLITV_RP3"
+              ],
+              "clueType": "biodiversidade",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P06",
+              "factKey": "lagos-plitvice-F31",
+              "text": "Florestas bem conservadas mantêm a química da água de que depende a formação das barreiras.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "PLITV_RP3"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P07",
+              "factKey": "lagos-plitvice-F07",
+              "text": "Os lagos superiores ficam sobre dolomito; os inferiores, em cânions de calcário.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PLITV_RP3",
+                "PLITV_WIKI"
+              ],
+              "clueType": "relevo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P08",
+              "factKey": "lagos-plitvice-F33",
+              "text": "Do primeiro ao último lago, a água desce 133 metros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_WIKI"
+              ],
+              "clueType": "relevo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P09",
+              "factKey": "lagos-plitvice-F34",
+              "text": "A ampliação de 2000 levou o bem de 19.462 ha para cerca de 29.631 ha e incluiu toda a bacia e quase todo o sistema subterrâneo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_MISSAO2017",
+                "PLITV_RP3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P10",
+              "factKey": "lagos-plitvice-F35",
+              "text": "O bem não tem zona de amortecimento, e a missão de 2017 recomendou criar uma.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_RP2014",
+                "PLITV_MISSAO2017"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P11",
+              "factKey": "lagos-plitvice-F36",
+              "text": "Em 2017, esgoto sem tratamento era lançado na rocha cárstica, porque não havia estação de tratamento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_MISSAO2017"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P12",
+              "factKey": "lagos-plitvice-F37",
+              "text": "A retirada de água de um dos lagos chegou a 5% da vazão nos anos mais secos; um novo sistema de abastecimento deve acabar com ela.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_RP3"
+              ],
+              "clueType": "agua",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P13",
+              "factKey": "lagos-plitvice-F38",
+              "text": "Mudanças hidrológicas trazem níveis de água extremos, altos e baixos, com mais frequência.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_RP3"
+              ],
+              "clueType": "clima",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P14",
+              "factKey": "lagos-plitvice-F39",
+              "text": "Peixes exóticos invasores são combatidos com manejo e monitoramento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_RP3"
+              ],
+              "clueType": "biodiversidade",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P15",
+              "factKey": "lagos-plitvice-F40",
+              "text": "Uma estrada que atravessa o parque recebe em média 4.217 veículos por dia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_RP3"
+              ],
+              "clueType": "localizacao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P16",
+              "factKey": "lagos-plitvice-F15",
+              "text": "Com quase 1,5 milhão de visitantes por ano, a missão de 2017 concluiu que o sistema tinha chegado à capacidade de carga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_MISSAO2017"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P17",
+              "factKey": "lagos-plitvice-F42",
+              "text": "As licenças para novas hospedagens saltaram depois do plano territorial de 2014, e a UNESCO pediu uma avaliação ambiental estratégica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_MISSAO2017",
+                "PLITV_SOC2017"
+              ],
+              "clueType": "urbanismo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P18",
+              "factKey": "lagos-plitvice-F43",
+              "text": "O abandono da pequena agricultura ameaça os prados, a biodiversidade e os saberes tradicionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_MISSAO2017"
+              ],
+              "clueType": "cultura",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P19",
+              "factKey": "lagos-plitvice-F44",
+              "text": "O parque se autofinancia: cerca de 98% dos recursos vinham dos ingressos, segundo o relatório de 2014.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_RP2014",
+                "PLITV_MISSAO2017"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P20",
+              "factKey": "lagos-plitvice-F45",
+              "text": "Até 6,5% da receita dos ingressos vai a cada ano para os municípios do entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_RP3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P21",
+              "factKey": "lagos-plitvice-F46",
+              "text": "Criado em 1949, o parque é gerido por uma instituição pública com conselho de administração.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_WIKI",
+                "PLITV_RP2014"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P22",
+              "factKey": "lagos-plitvice-F21",
+              "text": "Esteve na Lista do Patrimônio em Perigo de 1992 a 1997, por causa do conflito armado, e saiu após reparos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_MISSAO2017",
+                "PLITV_SOC2017"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P23",
+              "factKey": "lagos-plitvice-F48",
+              "text": "Em 2017, o Comitê avisou que poderia incluí-lo de novo na lista em perigo se não houvesse progresso até 2018.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_SOC2017"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P24",
+              "factKey": "lagos-plitvice-F25",
+              "text": "Fica no carste dinárico; cerca de 90,7% da área está no condado de Lika-Senj, e o resto, no de Karlovac.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_MISSAO2017",
+                "PLITV_WIKI"
+              ],
+              "clueType": "localizacao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagos-plitvice-geografo-P25",
+              "factKey": "lagos-plitvice-F24",
+              "text": "É o maior parque nacional da Croácia, nos Dinarides mais baixos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PLITV_RP3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Maior parque nacional da Croácia, no carste dinárico, com 16 lagos em degraus represados por barreiras de travertino que musgos, algas e bactérias ajudam a formar; patrimônio mundial desde 1979, ampliado em 2000.",
+        "editorialNotes": [
+          "A área do bem varia entre as fontes da UNESCO (29.482 ha, 29.630,77 ha e cerca de 29.631 ha); as pistas usam \"cerca de 30 mil hectares\" e os números da missão de 2017.",
+          "A página principal da UNESCO (lista 98) não abriu nesta sessão; a descrição vem da Declaração de Valor Universal reproduzida no relatório periódico mais recente, que não traz data explícita.",
+          "Dados de quedas d'água, profundidades, aves, filmes e do confronto de 1991 vêm só da Wikipedia (fonte complementar)."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "source-reviewed",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "Criado e verificado nas fontes: relatórios periódicos (terceiro ciclo e 2014), relatório da missão UNESCO/IUCN de 2017 e estado de conservação de 2017 da UNESCO, mais a Wikipedia como fonte complementar; C1 com 18 paisagens naturais europeias, incluindo o Parque Nacional Krka."
       }
     }
   ]

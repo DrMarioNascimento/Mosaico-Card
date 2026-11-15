@@ -1,0 +1,1107 @@
+{
+ "case": {
+  "id": "lug3-dolomitas",
+  "placeId": "dolomitas",
+  "title": "Dolomitas",
+  "aliases": [],
+  "answerType": "cordilheira",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "IT"
+   ],
+   "continents": [
+    "europa"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Paisagem natural",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Dolomitas"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Calçada dos Gigantes"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Fiordes do Oeste da Noruega"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Parque Nacional dos Lagos de Plitvice"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Alpes Suíços Jungfrau-Aletsch"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Costa Jurássica (Dorset e East Devon)"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Ilha de Surtsey"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Parque Nacional Vatnajökull"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Alta Costa e Arquipélago de Kvarken"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Mar de Wadden"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Delta do Danúbio"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Monte Etna"
+     },
+     {
+      "id": "C1-O13",
+      "text": "Ilhas Eólias"
+     },
+     {
+      "id": "C1-O14",
+      "text": "Pireneus – Monte Perdido"
+     },
+     {
+      "id": "C1-O15",
+      "text": "Ilha de St Kilda"
+     },
+     {
+      "id": "C1-O16",
+      "text": "Baía de Kotor"
+     },
+     {
+      "id": "C1-O17",
+      "text": "Falésias de Moher"
+     },
+     {
+      "id": "C1-O18",
+      "text": "Ilha de Staffa"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Dolomitas",
+    "sources": [
+     "DOLOM_UNESCO"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Período em que as rochas registram a recuperação da vida marinha depois da maior extinção da história da Terra",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Triássico"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Cambriano"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Devoniano"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Cretáceo"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Triássico",
+    "sources": [
+     "DOLOM_UNESCO",
+     "DOLOM_FUND_VALORES"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Estruturas do Mesozoico que a UNESCO descreve como \"atóis fossilizados\"",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Plataformas carbonáticas"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Derrames de basalto"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Domos de granito"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Cones de escória vulcânica"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Plataformas carbonáticas",
+    "sources": [
+     "DOLOM_UNESCO",
+     "DOLOM_IUCN"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Geleira onde um desprendimento de gelo matou 11 montanhistas em julho de 2022",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Marmolada"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Aletsch"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Pasterze"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Mer de Glace"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Marmolada",
+    "sources": [
+     "DOLOM_IUCN"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "dolomitas-viajante-P01",
+      "factKey": "dolomitas-F01",
+      "text": "É uma paisagem de montanhas europeias com paredões verticais, pináculos e torres de pedra clara.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_UNESCO",
+       "DOLOM_FUND_VALORES"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P02",
+      "factKey": "dolomitas-F02",
+      "text": "O lugar é patrimônio mundial tanto por sua beleza quanto por sua importância para a geologia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_UNESCO",
+       "DOLOM_TRENTO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P03",
+      "factKey": "dolomitas-F03",
+      "text": "Algumas paredes de rocha passam de 1.500 metros de altura.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_UNESCO"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P04",
+      "factKey": "dolomitas-F04",
+      "text": "Dezoito picos passam de 3.000 metros de altitude.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_UNESCO",
+       "DOLOM_IUCN"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P05",
+      "factKey": "dolomitas-F05",
+      "text": "O patrimônio reúne nove áreas montanhosas separadas por vales e rios, como um arquipélago.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_TRENTO",
+       "DOLOM_UNESCO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P06",
+      "factKey": "dolomitas-F06",
+      "text": "Vales estreitos, profundos e compridos cortam as montanhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_UNESCO"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P07",
+      "factKey": "dolomitas-F07",
+      "text": "Deslizamentos, enchentes e avalanches são frequentes e continuam mudando a paisagem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_UNESCO",
+       "DOLOM_IUCN"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P08",
+      "factKey": "dolomitas-F08",
+      "text": "As montanhas nasceram de um enorme recife de corais de um oceano pré-histórico.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOLOM_ALTABADIA"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P09",
+      "factKey": "dolomitas-F09",
+      "text": "Há cerca de 250 milhões de anos, a região fazia parte da Pangeia e ficava bem mais ao sul, na zona tropical.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "DOLOM_ALTABADIA"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P10",
+      "factKey": "dolomitas-F10",
+      "text": "A UNESCO diz que as montanhas guardam \"atóis fossilizados\", cheios de fósseis.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOLOM_UNESCO"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P11",
+      "factKey": "dolomitas-F11",
+      "text": "As rochas mostram a vida marinha se recuperando depois da maior extinção da história da Terra.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "DOLOM_UNESCO",
+       "DOLOM_FUND_VALORES"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P12",
+      "factKey": "dolomitas-F12",
+      "text": "Na rocha dá para \"ler\" planícies áridas, atóis tropicais, vulcões e abismos marinhos de outras eras.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOLOM_FUND_VALORES"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P13",
+      "factKey": "dolomitas-F13",
+      "text": "Ursos, em parte reintroduzidos, e linces voltaram a circular pela região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_IUCN"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P14",
+      "factKey": "dolomitas-F14",
+      "text": "A região tem cerca de 2.400 espécies de plantas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_IUCN"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P15",
+      "factKey": "dolomitas-F15",
+      "text": "Cerca de 10 milhões de visitantes chegam por ano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_IUCN"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P16",
+      "factKey": "dolomitas-F16",
+      "text": "O trânsito intenso de carros nas estradas de montanha incomoda os moradores e afeta a paisagem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_IUCN"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P17",
+      "factKey": "dolomitas-F17",
+      "text": "Em outubro de 2018, a tempestade Vaia derrubou uma enorme quantidade de árvores.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_IUCN"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P18",
+      "factKey": "dolomitas-F18",
+      "text": "Uma geleira da região perdeu cerca de 30% do volume entre 2004 e 2014 e pode sumir até 2050.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "DOLOM_IUCN"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P19",
+      "factKey": "dolomitas-F19",
+      "text": "Em julho de 2022, um desprendimento de gelo dessa geleira matou 11 montanhistas.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "DOLOM_IUCN"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P20",
+      "factKey": "dolomitas-F20",
+      "text": "O nome dessa geleira, Marmolada, também batiza uma das nove áreas do patrimônio.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "DOLOM_FUND",
+       "DOLOM_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P21",
+      "factKey": "dolomitas-F21",
+      "text": "No fim do século XVIII, cientistas descobriram que essas \"montanhas pálidas\" são de calcário rico em magnésio.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOLOM_ALTABADIA"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P22",
+      "factKey": "dolomitas-F22",
+      "text": "Le Corbusier chamou o entorno de um dos vales da região de \"a mais bela obra de arquitetura do mundo\".",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_ALTABADIA"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P23",
+      "factKey": "dolomitas-F23",
+      "text": "Pioneiros da geologia foram dos primeiros a se encantar com essas montanhas; depois vieram escritores, pintores e fotógrafos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_UNESCO"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P24",
+      "factKey": "dolomitas-F24",
+      "text": "As montanhas ficam nos Alpes do norte da Itália.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_UNESCO",
+       "DOLOM_IUCN"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-viajante-P25",
+      "factKey": "dolomitas-F25",
+      "text": "Elas levam o nome do geólogo Déodat de Dolomieu, que fez a primeira análise mineralógica e química de suas rochas.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "DOLOM_ALTABADIA"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "dolomitas-geografo-P01",
+      "factKey": "dolomitas-F26",
+      "text": "A UNESCO valoriza o contraste entre formas verticais e horizontais e a variedade de cores dessas montanhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_UNESCO"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P02",
+      "factKey": "dolomitas-F05",
+      "text": "É um bem em série: nove componentes separados formam um único patrimônio natural.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_UNESCO",
+       "DOLOM_FUND"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P03",
+      "factKey": "dolomitas-F28",
+      "text": "Os componentes reúnem partes de um parque nacional, parques naturais provinciais, áreas Natura 2000 e um monumento natural.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_UNESCO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P04",
+      "factKey": "dolomitas-F29",
+      "text": "O bem soma cerca de 141.900 ha; com a zona de amortecimento, passa de 231 mil ha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_UNESCO",
+       "DOLOM_RP2014"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P05",
+      "factKey": "dolomitas-F30",
+      "text": "O território se divide entre cinco províncias, o que exige uma governança interprovincial e uma estratégia comum de gestão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_UNESCO",
+       "DOLOM_IUCN",
+       "DOLOM_FUND"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P06",
+      "factKey": "dolomitas-F31",
+      "text": "Uma fundação criada em 13 de maio de 2010 coordena a gestão dos nove componentes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_FUND",
+       "DOLOM_IUCN",
+       "DOLOM_TRENTO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P07",
+      "factKey": "dolomitas-F32",
+      "text": "É um sítio clássico de relevo montanhoso esculpido em calcário rico em magnésio, com formas glaciais e sistemas cársticos.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOLOM_UNESCO",
+       "DOLOM_ALTABADIA"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P08",
+      "factKey": "dolomitas-F10",
+      "text": "As plataformas carbonáticas do Mesozoico preservadas ali estão entre os melhores exemplos do mundo, com registro fóssil.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOLOM_UNESCO",
+       "DOLOM_IUCN"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P09",
+      "factKey": "dolomitas-F11",
+      "text": "As rochas expõem a recuperação da vida marinha no Triássico, depois da maior extinção da história da Terra.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "DOLOM_UNESCO",
+       "DOLOM_FUND_VALORES"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P10",
+      "factKey": "dolomitas-F35",
+      "text": "Várias seções-tipo de importância internacional para a estratigrafia do Triássico estão no bem.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "DOLOM_UNESCO"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P11",
+      "factKey": "dolomitas-F36",
+      "text": "Um relatório de 2014 à UNESCO afirma que mais de 95% das publicações científicas sobre o Triássico tratam dessas montanhas.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "DOLOM_RP2014"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P12",
+      "factKey": "dolomitas-F37",
+      "text": "As rochas guardam um registro de cerca de 250 milhões de anos, com boa parte do Mesozoico em sequência contínua.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "DOLOM_FUND_VALORES",
+       "DOLOM_IUCN"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P13",
+      "factKey": "dolomitas-F38",
+      "text": "A pesquisa geológica nessas montanhas vem desde o século XVIII.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_IUCN"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P14",
+      "factKey": "dolomitas-F08",
+      "text": "As rochas claras vêm de recifes do antigo oceano Tétis e emergiram do fundo do mar à medida que ele baixou.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOLOM_ALTABADIA"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P15",
+      "factKey": "dolomitas-F07",
+      "text": "Deslizamentos, enchentes e avalanches frequentes mostram que os processos de vertente seguem ativos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_UNESCO"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P16",
+      "factKey": "dolomitas-F41",
+      "text": "O relevo inclui pináculos, agulhas, torres, saliências e platôs, além de formas glaciais e cársticas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_UNESCO"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P17",
+      "factKey": "dolomitas-F15",
+      "text": "Com cerca de 10 milhões de visitantes por ano, o turismo e sua infraestrutura estão entre as maiores pressões sobre o bem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_IUCN",
+       "DOLOM_UNESCO"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P18",
+      "factKey": "dolomitas-F43",
+      "text": "A IUCN se preocupa com obras de esqui ligadas aos Jogos Olímpicos de Inverno de 2026, que poderiam avançar sobre áreas protegidas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_IUCN"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P19",
+      "factKey": "dolomitas-F17",
+      "text": "Depois da tempestade Vaia, de 2018, veio um surto de besouros-de-casca nas florestas derrubadas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_IUCN"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P20",
+      "factKey": "dolomitas-F18",
+      "text": "O recuo das geleiras é um dos efeitos da mudança climática: uma delas perdeu cerca de 30% do volume em dez anos.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "DOLOM_IUCN"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P21",
+      "factKey": "dolomitas-F19",
+      "text": "Em julho de 2022, cerca de 63.000 m³ de gelo se soltaram da geleira da Marmolada e mataram 11 montanhistas.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "DOLOM_IUCN"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P22",
+      "factKey": "dolomitas-F47",
+      "text": "Em 2025, a IUCN avaliou a perspectiva de conservação como \"boa, com algumas preocupações\".",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_IUCN"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P23",
+      "factKey": "dolomitas-F48",
+      "text": "Segundo o relatório de 2014, cerca de 71% da área fica em parque nacional ou em parques naturais provinciais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_RP2014"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P24",
+      "factKey": "dolomitas-F49",
+      "text": "A candidatura de 2006 tinha 22 sistemas; a inscrição, em 2009, ficou com nove.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_FUND_VALORES"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "dolomitas-geografo-P25",
+      "factKey": "dolomitas-F24",
+      "text": "São montanhas dos Alpes do norte da Itália, inscritas como patrimônio mundial em 2009, numa reunião do Comitê em Sevilha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOLOM_UNESCO",
+       "DOLOM_FUND_VALORES",
+       "DOLOM_FUND"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Cordilheira dos Alpes do norte da Itália, patrimônio mundial natural desde 2009, formada por nove áreas com 18 picos acima de 3.000 m, plataformas carbonáticas do Mesozoico e um registro da recuperação da vida marinha no Triássico.",
+   "editorialNotes": [
+    "A área do bem é de 141.903 ha na UNESCO e na IUCN; a Província de Trento arredonda para 142.000 ha; um portal de Moena cita 231 mil ha, que é o total com a zona de amortecimento no relatório de 2014.",
+    "As fontes contam as regiões de modo diferente (duas, sem o Trentino-Alto Ádige, ou três): as pistas usam só as cinco províncias.",
+    "A homenagem a Déodat de Dolomieu vem da associação turística de Alta Badia; as fontes abertas não dão o ano da análise, por isso a pista não traz data."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Criado e verificado nas fontes: página e relatório periódico (2014) da UNESCO, IUCN World Heritage Outlook 2025, Fundação Dolomiti UNESCO (2 páginas), Província de Trento e Alta Badia; C1 com 18 paisagens naturais europeias."
+  }
+ },
+ "sources": {
+  "DOLOM_UNESCO": {
+   "id": "DOLOM_UNESCO",
+   "title": "The Dolomites",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/list/1237/",
+   "checkedAt": "2026-11-15"
+  },
+  "DOLOM_IUCN": {
+   "id": "DOLOM_IUCN",
+   "title": "The Dolomites — 2025 Conservation Outlook Assessment",
+   "publisher": "IUCN World Heritage Outlook",
+   "url": "https://worldheritageoutlook.iucn.org/node/1112",
+   "checkedAt": "2026-11-15"
+  },
+  "DOLOM_FUND": {
+   "id": "DOLOM_FUND",
+   "title": "The Dolomites UNESCO World Heritage Site",
+   "publisher": "Fondazione Dolomiti UNESCO",
+   "url": "https://www.dolomitiunesco.info/en/the-dolomites-unesco-world-heritage-site",
+   "checkedAt": "2026-11-15"
+  },
+  "DOLOM_FUND_VALORES": {
+   "id": "DOLOM_FUND_VALORES",
+   "title": "Universal values of the Dolomites UNESCO",
+   "publisher": "Fondazione Dolomiti UNESCO",
+   "url": "https://dolomitiunesco.info/universal-values-dolomites-unesco/?lang=en",
+   "checkedAt": "2026-11-15"
+  },
+  "DOLOM_TRENTO": {
+   "id": "DOLOM_TRENTO",
+   "title": "The Dolomites, a World Heritage Site",
+   "publisher": "Provincia autonoma di Trento",
+   "url": "https://www.provincia.tn.it/en/News/Insights/The-Dolomites-a-World-Heritage-Site",
+   "checkedAt": "2026-11-15"
+  },
+  "DOLOM_ALTABADIA": {
+   "id": "DOLOM_ALTABADIA",
+   "title": "The Dolomites UNESCO World Heritage",
+   "publisher": "Alta Badia (associação turística)",
+   "url": "https://www.altabadia.org/en/alps-dolomites/alta-badia/the-dolomites-unesco-world-heritage.html",
+   "checkedAt": "2026-11-15"
+  },
+  "DOLOM_RP2014": {
+   "id": "DOLOM_RP2014",
+   "title": "Periodic Report - Second Cycle, Section II: The Dolomites (2014)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/164276",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://whc.unesco.org/en/list/1237/",
+   "https://worldheritageoutlook.iucn.org/node/1112",
+   "https://www.dolomitiunesco.info/en/the-dolomites-unesco-world-heritage-site",
+   "https://dolomitiunesco.info/universal-values-dolomites-unesco/?lang=en",
+   "https://www.provincia.tn.it/en/News/Insights/The-Dolomites-a-World-Heritage-Site",
+   "https://www.altabadia.org/en/alps-dolomites/alta-badia/the-dolomites-unesco-world-heritage.html",
+   "https://whc.unesco.org/document/164276"
+  ],
+  "alteracoes": [
+   "criado do zero"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

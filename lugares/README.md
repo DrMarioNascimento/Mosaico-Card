@@ -283,6 +283,9 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Parque Nacional Purnululu | Oceania |
 | Tsingy de Bemaraha | África |
 | Viena | Europa |
+| Dolomitas | Europa |
+| Kremlin e Praça Vermelha | Europa |
+| Parque Nacional dos Lagos de Plitvice | Europa |
 
 | Parque Nacional do Catimbau | Brasil / Nordeste |
 | Parque Nacional de Ubajara | Brasil / Nordeste |
@@ -309,7 +312,7 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Belo Horizonte | Brasil / Sudeste |
 | Parque Nacional Los Glaciares | Américas |
 
-São 290 lugares, 580 conjuntos de pistas (dois por lugar), 14.500 pistas, 1.160 perguntas distintas e 7.755 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 293 lugares, 586 conjuntos de pistas (dois por lugar), 14.650 pistas, 1.172 perguntas distintas e 7.845 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 

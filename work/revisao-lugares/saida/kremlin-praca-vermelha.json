@@ -1,0 +1,1068 @@
+{
+ "case": {
+  "id": "lug3-kremlin-praca-vermelha",
+  "placeId": "kremlin-praca-vermelha",
+  "title": "Kremlin e Praça Vermelha",
+  "aliases": [
+   "Kremlin de Moscou"
+  ],
+  "answerType": "conjunto monumental",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "RU"
+   ],
+   "continents": [
+    "europa"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Conjunto monumental",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Kremlin e Praça Vermelha"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Kremlin de Kazan"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Kremlin de Novgorod"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Castelo de Praga"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Castelo de Wawel"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Torre de Londres"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Castelo de Edimburgo"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Palácio de Versalhes"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Palácio de Schönbrunn"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Palácio dos Papas de Avignon"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Alhambra de Granada"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Real Alcázar de Sevilha"
+     },
+     {
+      "id": "C1-O13",
+      "text": "Mosteiro do Escorial"
+     },
+     {
+      "id": "C1-O14",
+      "text": "Palácio Real de Madri"
+     },
+     {
+      "id": "C1-O15",
+      "text": "Palácio Nacional da Pena"
+     },
+     {
+      "id": "C1-O16",
+      "text": "Palácio de Diocleciano"
+     },
+     {
+      "id": "C1-O17",
+      "text": "Acrópole de Atenas"
+     },
+     {
+      "id": "C1-O18",
+      "text": "Mont-Saint-Michel"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Kremlin e Praça Vermelha",
+    "sources": [
+     "KREMLIN_MISSAO2007",
+     "KREMLIN_RP2014"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Czar que mandou erguer, na praça, a catedral em memória da conquista de Kazan",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Ivan IV, o Terrível"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Ivan III, o Grande"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Pedro, o Grande"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Boris Godunov"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Ivan IV, o Terrível",
+    "sources": [
+     "KREMLIN_MISSAO2007"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Origem dos arquitetos que inovaram a arquitetura da cidadela no fim do século XV",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Italianos"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Bizantinos"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Franceses"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Alemães"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Italianos",
+    "sources": [
+     "KREMLIN_MISSAO2007",
+     "KREMLIN_RP2014"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Material das muralhas atuais da cidadela",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Tijolo vermelho"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Pedra calcária branca"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Troncos de madeira"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Blocos de granito"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Tijolo vermelho",
+    "sources": [
+     "KREMLIN_MISSAO2007"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "kremlin-praca-vermelha-viajante-P01",
+      "factKey": "kremlin-praca-vermelha-F01",
+      "text": "É um conjunto de muralhas, torres, catedrais e palácios no centro de uma capital europeia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007",
+       "KREMLIN_RP2014"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P02",
+      "factKey": "kremlin-praca-vermelha-F02",
+      "text": "Foi inscrito como patrimônio mundial em 1990.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_DOCS",
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P03",
+      "factKey": "kremlin-praca-vermelha-F03",
+      "text": "A cidadela tem muralhas em forma de triângulo, com cinco portões.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P04",
+      "factKey": "kremlin-praca-vermelha-F04",
+      "text": "As muralhas e torres de hoje são de tijolo vermelho.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P05",
+      "factKey": "kremlin-praca-vermelha-F05",
+      "text": "Em 1156, um príncipe ergueu ali fortificações de madeira no alto de uma colina.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P06",
+      "factKey": "kremlin-praca-vermelha-F06",
+      "text": "A cidadela fica onde dois rios se encontram; um deles hoje está coberto por um jardim.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P07",
+      "factKey": "kremlin-praca-vermelha-F07",
+      "text": "Um campanário terminado no início do século XVI ganhou um terceiro andar em 1600 e chegou a 81 metros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P08",
+      "factKey": "kremlin-praca-vermelha-F08",
+      "text": "Dentro das muralhas há as catedrais da Anunciação, da Dormição e do Arcanjo Miguel.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P09",
+      "factKey": "kremlin-praca-vermelha-F09",
+      "text": "Desde 1991, as catedrais e igrejas voltaram a receber cultos ortodoxos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_RP2014"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P10",
+      "factKey": "kremlin-praca-vermelha-F10",
+      "text": "O Palácio das Facetas, de 1485, foi construído por dois arquitetos italianos.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P11",
+      "factKey": "kremlin-praca-vermelha-F11",
+      "text": "Arquitetos italianos também reconstruíram a catedral da Dormição no fim do século XV.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P12",
+      "factKey": "kremlin-praca-vermelha-F12",
+      "text": "Ao lado da cidadela, uma grande praça reúne uma catedral de cúpulas, um museu de história e um mausoléu.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P13",
+      "factKey": "kremlin-praca-vermelha-F13",
+      "text": "Essa catedral de cúpulas foi encomendada por um czar para celebrar uma vitória militar de 1552.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P14",
+      "factKey": "kremlin-praca-vermelha-F14",
+      "text": "A catedral ficou pronta em 1561 e é atribuída ao arquiteto Postnik Yakovlev.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P15",
+      "factKey": "kremlin-praca-vermelha-F15",
+      "text": "O czar que a encomendou foi Ivan, o Terrível, depois de conquistar Kazan.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P16",
+      "factKey": "kremlin-praca-vermelha-F16",
+      "text": "Na praça fica o mausoléu de Lênin, grande exemplo de arquitetura monumental soviética.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P17",
+      "factKey": "kremlin-praca-vermelha-F17",
+      "text": "Urnas com cinzas de heróis da revolução foram embutidas nas muralhas.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P18",
+      "factKey": "kremlin-praca-vermelha-F18",
+      "text": "Na praça, galerias comerciais com pátios cobertos de vidro foram construídas entre 1889 e 1893.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P19",
+      "factKey": "kremlin-praca-vermelha-F19",
+      "text": "No século XVII, ali havia fileiras de barracas de comércio de madeira, que pegavam fogo com frequência.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P20",
+      "factKey": "kremlin-praca-vermelha-F20",
+      "text": "Um grande palácio com fachada de 125 metros voltada para o sul foi construído sob a direção do arquiteto Konstantin Ton.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P21",
+      "factKey": "kremlin-praca-vermelha-F21",
+      "text": "O mesmo arquiteto projetou o prédio da Armaria, erguido de 1844 a 1851.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P22",
+      "factKey": "kremlin-praca-vermelha-F22",
+      "text": "Duas torres da muralha, a do Salvador e a de São Nicolau, são de 1491.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P23",
+      "factKey": "kremlin-praca-vermelha-F23",
+      "text": "A demolição de um grande hotel vizinho, em 2010, devolveu a vista do lado leste do conjunto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_RP2014"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P24",
+      "factKey": "kremlin-praca-vermelha-F24",
+      "text": "Fica no centro de Moscou, capital da Rússia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_RP2014"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-viajante-P25",
+      "factKey": "kremlin-praca-vermelha-F25",
+      "text": "Festivais e grandes eventos na praça chegam a produzir barulho muito acima do limite permitido.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_RP2014"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "kremlin-praca-vermelha-geografo-P01",
+      "factKey": "kremlin-praca-vermelha-F26",
+      "text": "O traçado do conjunto expressa dois centros de poder lado a lado: o espiritual e o civil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_RP2014"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P02",
+      "factKey": "kremlin-praca-vermelha-F27",
+      "text": "Formado ao longo de cerca de 500 anos, o conjunto reflete a passagem de um território feudal fragmentado para um império.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_RP2014"
+      ],
+      "clueType": "processo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P03",
+      "factKey": "kremlin-praca-vermelha-F02",
+      "text": "A UNESCO o inscreveu em 1990 pelos critérios (i), (ii), (iv) e (vi).",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_SOC2015",
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P04",
+      "factKey": "kremlin-praca-vermelha-F06",
+      "text": "A cidadela ocupa uma colina na confluência de dois rios; um deles foi coberto e hoje corre sob um jardim.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P05",
+      "factKey": "kremlin-praca-vermelha-F30",
+      "text": "Camadas arqueológicas que podem remontar ao século XII continuam inexploradas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_SOC2015"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P06",
+      "factKey": "kremlin-praca-vermelha-F31",
+      "text": "O recinto triangular de tijolo, com torres e cinco portões, sucedeu às fortificações de madeira do século XII.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P07",
+      "factKey": "kremlin-praca-vermelha-F32",
+      "text": "As inovações de construtores italianos se somaram à evolução da arquitetura russa antiga.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "KREMLIN_RP2014"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P08",
+      "factKey": "kremlin-praca-vermelha-F10",
+      "text": "O Palácio das Facetas foi encomendado por Ivan III em 1485 a Marco Ruffo e Pietro Solario.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P09",
+      "factKey": "kremlin-praca-vermelha-F34",
+      "text": "Ivan III encomendou a catedral da Anunciação em 1484 e a do Arcanjo Miguel em 1505.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P10",
+      "factKey": "kremlin-praca-vermelha-F13",
+      "text": "A catedral de cúpulas da praça celebra a tomada de Kazan por Ivan IV, em 1552, e ficou pronta em 1561.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P11",
+      "factKey": "kremlin-praca-vermelha-F07",
+      "text": "O campanário de Ivan, o Grande, erguido de 1505 a 1508, chegou a 81 m com o andar acrescentado em 1600.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P12",
+      "factKey": "kremlin-praca-vermelha-F20",
+      "text": "O Grande Palácio de Konstantin Ton absorveu construções mais antigas, como o Palácio das Facetas e o Palácio dos Terems.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P13",
+      "factKey": "kremlin-praca-vermelha-F19",
+      "text": "As fileiras de comércio de madeira do século XVII foram reconstruídas em alvenaria no século XIX.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P14",
+      "factKey": "kremlin-praca-vermelha-F18",
+      "text": "As galerias comerciais de 1889–1893, projeto de Aleksandr Pomerantsev, seguem o estilo neorrusso.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P15",
+      "factKey": "kremlin-praca-vermelha-F16",
+      "text": "Para a UNESCO, o mausoléu de Lênin é o principal exemplo de arquitetura monumental simbólica da União Soviética.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P16",
+      "factKey": "kremlin-praca-vermelha-F41",
+      "text": "Prédios históricos destruídos em 1929–1930 foram alvo de um plano de reconstrução que a ICOMOS desaconselhou.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_SOC2015"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P17",
+      "factKey": "kremlin-praca-vermelha-F42",
+      "text": "A demolição do Prédio 14, de uso administrativo dentro da cidadela, foi considerada aceitável pela ICOMOS em 2014.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_SOC2015"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P18",
+      "factKey": "kremlin-praca-vermelha-F43",
+      "text": "Um monumento ao marechal Jukov foi erguido no entorno, num quadro de pressão urbana acelerada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_SOC2015"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P19",
+      "factKey": "kremlin-praca-vermelha-F44",
+      "text": "Em 2014, a maior ameaça apontada era o desenvolvimento comercial sem regras nas áreas vizinhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_RP2014"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P20",
+      "factKey": "kremlin-praca-vermelha-F45",
+      "text": "A poluição do ar, sobretudo de veículos, e o trânsito pesado afetam o entorno, e a umidade e a temperatura afetam os materiais históricos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_RP2014"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P21",
+      "factKey": "kremlin-praca-vermelha-F46",
+      "text": "Cinco proprietários dividem a gestão, entre eles um museu-reserva estatal, a administração presidencial e uma empresa de galerias comerciais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_RP2014"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P22",
+      "factKey": "kremlin-praca-vermelha-F47",
+      "text": "O Museu Histórico do Estado administra a praça e a catedral de cúpulas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007",
+       "KREMLIN_RP2014"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P23",
+      "factKey": "kremlin-praca-vermelha-F48",
+      "text": "A prefeitura da cidade controla a grande zona de amortecimento ao redor do conjunto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_RP2014"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P24",
+      "factKey": "kremlin-praca-vermelha-F23",
+      "text": "No terreno do antigo hotel Rossiya, demolido, surgiu o complexo Zaryadye.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_MISSAO2007",
+       "KREMLIN_RP2014"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "kremlin-praca-vermelha-geografo-P25",
+      "factKey": "kremlin-praca-vermelha-F24",
+      "text": "No centro de Moscou, a cidadela é dividida entre um museu-reserva estatal e a administração presidencial da Rússia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "KREMLIN_RP2014"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Conjunto do centro de Moscou formado pela cidadela triangular de tijolo vermelho, com catedrais e palácios dos séculos XV e XVI, muitos de arquitetos italianos, e pela praça vizinha com a catedral de Ivan IV (1561), o mausoléu de Lênin e as galerias comerciais de 1889–1893; patrimônio mundial desde 1990.",
+   "editorialNotes": [
+    "O relatório da missão de 2007 dá 29 torres num anexo e \"quase vinte\" em outro; por isso as pistas não trazem o número de torres.",
+    "O relatório da missão data a reconstrução da catedral da Dormição de \"por volta de 1470\"; a pista fala só em fim do século XV.",
+    "A página principal da UNESCO (lista 545) não abriu nesta sessão; os dados vêm do relatório da missão de 2007, do relatório periódico de 2014, do estado de conservação de 2015 e da lista de documentos. A área de 35.248 ha do relatório de 2014 parece erro e não foi usada."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Criado e verificado nas fontes: relatório da missão UNESCO/ICOMOS/ICCROM de 2007, relatório periódico de 2014, estado de conservação de 2015 e lista de documentos da UNESCO; C1 com 18 conjuntos monumentais europeus, incluindo os kremlins de Kazan e Novgorod."
+  }
+ },
+ "sources": {
+  "KREMLIN_MISSAO2007": {
+   "id": "KREMLIN_MISSAO2007",
+   "title": "Joint UNESCO/ICOMOS/ICCROM Mission Report: Kremlin and Red Square in Moscow (6-14 December 2007), WHC-08/32.COM/7B",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/10055",
+   "checkedAt": "2026-11-15"
+  },
+  "KREMLIN_RP2014": {
+   "id": "KREMLIN_RP2014",
+   "title": "Periodic Report - Second Cycle, Section II: Kremlin and Red Square, Moscow (2014)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/164340",
+   "checkedAt": "2026-11-15"
+  },
+  "KREMLIN_SOC2015": {
+   "id": "KREMLIN_SOC2015",
+   "title": "State of Conservation 2015: Kremlin and Red Square, Moscow (Russian Federation)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/soc/3297",
+   "checkedAt": "2026-11-15"
+  },
+  "KREMLIN_DOCS": {
+   "id": "KREMLIN_DOCS",
+   "title": "Kremlin and Red Square, Moscow — Documents",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/list/545/documents",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://whc.unesco.org/document/10055",
+   "https://whc.unesco.org/document/164340",
+   "https://whc.unesco.org/en/soc/3297",
+   "https://whc.unesco.org/en/list/545/documents"
+  ],
+  "alteracoes": [
+   "criado do zero"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}
