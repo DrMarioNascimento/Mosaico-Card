@@ -1,0 +1,1056 @@
+{
+  "case": {
+    "id": "lug2-mbanza-kongo",
+    "placeId": "mbanza-kongo",
+    "title": "Mbanza Kongo",
+    "aliases": [
+      "Mbanza Kongo"
+    ],
+    "answerType": "cidade histórica",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "AO"
+      ],
+      "continents": [
+        "africa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade ou sítio histórico africano",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Mbanza Kongo"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Grande Zimbábue"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Aksum"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Cidades Antigas de Djenné"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Timbuktu"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Igrejas escavadas de Lalibela"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Palácios Reais de Abomey"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Colinas Reais de Ambohimanga"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Ruínas de Kilwa Kisiwani e Songo Mnara"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Stone Town de Zanzibar"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Ilha de Moçambique"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Ilha de Gorée"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Cidade Velha de Ribeira Grande"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Mbanza Kongo",
+        "sources": [
+          "MBANZA_41COM",
+          "MBANZA_ICOMOS"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Nome português dado à cidade no fim do século XVI",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "São Salvador"
+          },
+          {
+            "id": "C2-O2",
+            "text": "São Paulo de Luanda"
+          },
+          {
+            "id": "C2-O3",
+            "text": "São Jorge da Mina"
+          },
+          {
+            "id": "C2-O4",
+            "text": "São Filipe de Benguela"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "São Salvador",
+        "sources": [
+          "MBANZA_ICOMOS"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Papel histórico da cidade",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Capital política e espiritual de um reino"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Porto do tráfico atlântico"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Feitoria comercial portuguesa"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Cidade-Estado de comércio no Índico"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Capital política e espiritual de um reino",
+        "sources": [
+          "MBANZA_41COM",
+          "MBANZA_ICOMOS"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "País",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Angola"
+          },
+          {
+            "id": "C4-O2",
+            "text": "República Democrática do Congo"
+          },
+          {
+            "id": "C4-O3",
+            "text": "República do Congo"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Gabão"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Angola",
+        "sources": [
+          "MBANZA_41COM",
+          "MBANZA_ICOMOS"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "mbanza-kongo-viajante-P01",
+            "factKey": "mbanza-kongo-F01",
+            "text": "Este destino é uma cidade histórica africana no alto de um planalto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_41COM",
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P02",
+            "factKey": "mbanza-kongo-F02",
+            "text": "Ali ficava a capital de um antigo reino africano.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MBANZA_41COM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P03",
+            "factKey": "mbanza-kongo-F03",
+            "text": "A cidade está a cerca de 570 metros de altitude.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_41COM",
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P04",
+            "factKey": "mbanza-kongo-F04",
+            "text": "Acredita-se que ela tenha sido fundada no século XIII.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P05",
+            "factKey": "mbanza-kongo-F05",
+            "text": "O reino esteve ativo do século XIV ao século XIX.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MBANZA_41COM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P06",
+            "factKey": "mbanza-kongo-F06",
+            "text": "No fim do século XV, o território do reino ia do oceano Atlântico, a oeste, até o rio Kwango, a leste.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P07",
+            "factKey": "mbanza-kongo-F07",
+            "text": "Hoje, a antiga área de influência do reino se espalha por três países.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P08",
+            "factKey": "mbanza-kongo-F08",
+            "text": "Navegadores portugueses chegaram à foz do grande rio da região em 1482, e logo começaram relações diplomáticas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P09",
+            "factKey": "mbanza-kongo-F09",
+            "text": "Em 1491, o rei se converteu ao catolicismo e adotou o nome de João I.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P10",
+            "factKey": "mbanza-kongo-F10",
+            "text": "Os portugueses ergueram ali construções de pedra em estilo europeu, entre elas várias igrejas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_41COM"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P11",
+            "factKey": "mbanza-kongo-F11",
+            "text": "Mesmo com o cristianismo entre as elites, a cidade manteve sua cultura local.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MBANZA_41COM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P12",
+            "factKey": "mbanza-kongo-F12",
+            "text": "Pouco depois de ganhar um nome português, a cidade teve sua catedral consagrada, em 1596.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P13",
+            "factKey": "mbanza-kongo-F13",
+            "text": "As ruínas dessa antiga catedral são chamadas hoje de Kulumbimbi.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS",
+              "MBANZA_41COM"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P14",
+            "factKey": "mbanza-kongo-F14",
+            "text": "A catedral foi a primeira sede de bispado da África ao sul do equador.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P15",
+            "factKey": "mbanza-kongo-F15",
+            "text": "O cemitério dos reis fica dentro dos limites da antiga catedral.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P16",
+            "factKey": "mbanza-kongo-F16",
+            "text": "Os reis faziam justiça à sombra de uma árvore sagrada, num recinto que faz parte do sítio.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS",
+              "MBANZA_PR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P17",
+            "factKey": "mbanza-kongo-F17",
+            "text": "O primeiro catecismo na língua local foi escrito ali, num colégio jesuíta, em 1624.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_41COM",
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P18",
+            "factKey": "mbanza-kongo-F18",
+            "text": "A cidade foi tomada e reduzida a ruínas entre 1568 e 1571.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P19",
+            "factKey": "mbanza-kongo-F19",
+            "text": "A rua principal ainda segue o traçado original, e o antigo espaço real nunca foi ocupado por novas construções.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_41COM"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P20",
+            "factKey": "mbanza-kongo-F20",
+            "text": "O reino estava no centro de uma das principais rotas do tráfico de pessoas escravizadas, mas não se acharam vestígios materiais disso no sítio.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MBANZA_41COM",
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P21",
+            "factKey": "mbanza-kongo-F21",
+            "text": "Uma antiga pista de pouso perto do centro histórico deve ser desmontada quando o novo aeroporto funcionar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_41COM",
+              "MBANZA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P22",
+            "factKey": "mbanza-kongo-F22",
+            "text": "O museu dos reis guarda objetos da história do reino, e a visita não cobra entrada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_PR"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P23",
+            "factKey": "mbanza-kongo-F23",
+            "text": "Um tribunal tradicional voltou a funcionar depois de quatro décadas de conflito.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_41COM",
+              "MBANZA_PR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P24",
+            "factKey": "mbanza-kongo-F24",
+            "text": "A cidade fica no noroeste de Angola, na província do Zaire, e virou Patrimônio Mundial em 2017.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS",
+              "MBANZA_41COM"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-viajante-P25",
+            "factKey": "mbanza-kongo-F25",
+            "text": "A catedral já estava de pé em 1608, quando o papa credenciou no Vaticano o primeiro embaixador da África subsaariana, enviado pelo reino.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_41COM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "mbanza-kongo-geografo-P01",
+            "factKey": "mbanza-kongo-F01",
+            "text": "O sítio é a antiga capital política e espiritual de um reino da África Central.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MBANZA_41COM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P02",
+            "factKey": "mbanza-kongo-F02",
+            "text": "A cidade ocupa o topo de um dos planaltos da região, a 570 m de altitude.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P03",
+            "factKey": "mbanza-kongo-F03",
+            "text": "O reino, ativo dos séculos XIV ao XIX, ia do Atlântico ao rio Kwango no fim do século XV.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MBANZA_41COM",
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P04",
+            "factKey": "mbanza-kongo-F04",
+            "text": "A área de influência do antigo reino abrange hoje partes de Angola, do Gabão e da República Democrática do Congo.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P05",
+            "factKey": "mbanza-kongo-F05",
+            "text": "A capital manteve autoridade ritual e simbólica enquanto o reino adotava o cristianismo sem abandonar costumes antigos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MBANZA_41COM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P06",
+            "factKey": "mbanza-kongo-F06",
+            "text": "A UNESCO a considera uma porta de entrada do cristianismo na África Central.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_41COM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P07",
+            "factKey": "mbanza-kongo-F07",
+            "text": "Os contatos diplomáticos começaram logo após a chegada dos portugueses à foz do grande rio da região, em 1482.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P08",
+            "factKey": "mbanza-kongo-F08",
+            "text": "Mvemba Nzinga (Afonso I) firmou acordo com o rei Manuel I de Portugal sobre missionários e comércio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P09",
+            "factKey": "mbanza-kongo-F09",
+            "text": "O conjunto mostra como o cristianismo e o contato com os portugueses, a partir do século XV, transformaram a arquitetura de um centro político africano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_41COM"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P10",
+            "factKey": "mbanza-kongo-F10",
+            "text": "A catedral do Santo Salvador foi consagrada em 1596, e o cemitério dos soberanos fica dentro de seus limites.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P11",
+            "factKey": "mbanza-kongo-F11",
+            "text": "As ruínas dessa catedral, o Kulumbimbi, marcam a primeira sede episcopal da África ao sul do equador.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P12",
+            "factKey": "mbanza-kongo-F12",
+            "text": "O Lumbu ocupa o lugar do antigo palácio real, cuja estrutura parece anterior a 1660.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P13",
+            "factKey": "mbanza-kongo-F13",
+            "text": "O recinto da árvore sagrada Yala Nkuwu, onde os soberanos faziam justiça, segue entre os lugares protegidos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS",
+              "MBANZA_PR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P14",
+            "factKey": "mbanza-kongo-F14",
+            "text": "A cidade foi tomada e arruinada entre 1568 e 1571, e o rei António I morreu na derrota de Ambuila, em 1665.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P15",
+            "factKey": "mbanza-kongo-F15",
+            "text": "O bem tem 89,29 ha (a proposta inicial era de 923,85 ha) e zona de amortecimento de 622,16 ha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS",
+              "MBANZA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P16",
+            "factKey": "mbanza-kongo-F16",
+            "text": "Doze nascentes de água estão entre os elementos do bem, e algumas têm problemas sérios de insalubridade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_PR",
+              "MBANZA_41COM"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P17",
+            "factKey": "mbanza-kongo-F17",
+            "text": "Antenas de telecomunicação e uma pista de pouso na zona de amortecimento fragilizam a integridade visual; a pista deve dar lugar a pesquisas arqueológicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_41COM"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P18",
+            "factKey": "mbanza-kongo-F18",
+            "text": "Algas, umidade, poeira e enxurradas desgastam as estruturas de pedra, e as tempestades se concentram de meados de março a meados de maio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_PR"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P19",
+            "factKey": "mbanza-kongo-F19",
+            "text": "A gestão participativa, criada em 2015, reúne Ministério da Cultura, governo provincial, município e autoridades tradicionais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_41COM",
+              "MBANZA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P20",
+            "factKey": "mbanza-kongo-F20",
+            "text": "A irmandade do Leopardo (Ngo) ainda detém poder ritual e simbólico, e parte do saber tradicional só existe na forma oral.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MBANZA_PR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P21",
+            "factKey": "mbanza-kongo-F21",
+            "text": "O reino estava no centro da principal rota do tráfico de escravizados, mas nenhum vestígio material desse tráfico foi achado na área inscrita.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MBANZA_41COM",
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P22",
+            "factKey": "mbanza-kongo-F22",
+            "text": "Os registros do museu apontam de 3.409 a 17.619 visitantes por ano, número que o relatório periódico considera subestimado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MBANZA_PR"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P23",
+            "factKey": "mbanza-kongo-F23",
+            "text": "A província onde fica, no noroeste de Angola, está perto da foz do rio Congo.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P24",
+            "factKey": "mbanza-kongo-F24",
+            "text": "Inscrita em 2017 pelos critérios (iii) e (iv), a cidade fica na província do Zaire, em Angola.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MBANZA_41COM",
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mbanza-kongo-geografo-P25",
+            "factKey": "mbanza-kongo-F25",
+            "text": "Antiga São Salvador, foi a capital do reino do Kongo, cujo rei Nzinga Nkuwu se batizou em 1491 com o nome de João I.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "MBANZA_ICOMOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Mbanza Kongo, no noroeste de Angola, foi a capital política e espiritual do Reino do Kongo; chamada São Salvador pelos portugueses, guarda as ruínas da catedral Kulumbimbi, o cemitério dos reis e o recinto da árvore sagrada Yala Nkuwu.",
+      "editorialNotes": [
+        "Fundação: a avaliação do ICOMOS (2017) fala em século XIII; a decisão de inscrição diz que o reino esteve ativo dos séculos XIV ao XIX.",
+        "O tráfico de pessoas escravizadas aparece como contexto do reino; a UNESCO registra que não há vestígios materiais dele no bem inscrito.",
+        "Para não entregar a resposta, as pistas evitam o nome do reino até a última pista decisiva do Geógrafo, e o C2 usa o nome português da cidade (São Salvador)."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na decisão de inscrição (41 COM 8B.10), na avaliação do ICOMOS (2017) e no relatório periódico do bem; C1, C2 e C4 refeitos e as 50 pistas reescritas."
+    }
+  },
+  "sources": {
+    "MBANZA_41COM": {
+      "id": "MBANZA_41COM",
+      "checkedAt": "2026-11-15",
+      "title": "Decision 41 COM 8B.10 — Mbanza Kongo, Vestiges of the Capital of the former Kingdom of Kongo (Angola)",
+      "publisher": "UNESCO World Heritage Committee",
+      "url": "https://whc.unesco.org/en/decisions/6882"
+    },
+    "MBANZA_ICOMOS": {
+      "id": "MBANZA_ICOMOS",
+      "checkedAt": "2026-11-15",
+      "title": "Mbanza Kongo, vestiges of the capital of the former Kingdom of Kongo (Angola) — ICOMOS evaluation (2017)",
+      "publisher": "UNESCO World Heritage Centre / ICOMOS",
+      "url": "https://whc.unesco.org/document/159705"
+    },
+    "MBANZA_PR": {
+      "id": "MBANZA_PR",
+      "checkedAt": "2026-11-15",
+      "title": "Rapport périodique — Mbanza Kongo, vestiges de la capitale de l’ancien Royaume du Kongo",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/218027"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/en/decisions/6882",
+      "https://whc.unesco.org/document/159705",
+      "https://whc.unesco.org/document/218027"
+    ],
+    "alteracoes": [
+      "Fonte do rascunho (whc.unesco.org/en/list/1511) não aberta; substituída pela decisão de inscrição 41 COM 8B.10, pela avaliação do ICOMOS (2017) e pelo relatório periódico.",
+      "C1: nomes alinhados aos títulos do banco (Cidades Antigas de Djenné) e trocados Grand-Bassam e Medina de Fez por capitais de antigos reinos (Abomey, Ambohimanga), Lalibela e Ribeira Grande.",
+      "C2 “Reino ligado ao sítio” (a alternativa “Reino do Kongo” entregava o C1) trocado por “Nome português dado à cidade” (São Salvador); C3 com distratores ajustados; C4: Moçambique e Etiópia trocados por República do Congo e Gabão.",
+      "Viajante e Geógrafo: 50 pistas reescritas a partir das fontes (planalto a 570 m, 1482, 1491, Kulumbimbi, 1596, 1624, 1608, Lumbu, Yala Nkuwu, áreas do bem, gestão e ameaças); país sai das primeiras pistas."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

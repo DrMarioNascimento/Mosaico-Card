@@ -1,0 +1,1069 @@
+{
+  "case": {
+    "id": "lug2-mar-areia-namibe",
+    "placeId": "mar-areia-namibe",
+    "title": "Mar de Areia do Namibe",
+    "aliases": [
+      "Namibe"
+    ],
+    "answerType": "deserto costeiro e campo de dunas",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "NA"
+      ],
+      "continents": [
+        "africa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Deserto ou campo de dunas africano",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Mar de Areia do Namibe"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Deserto do Kalahari"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional da Costa dos Esqueletos"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Grande Erg Oriental"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Grande Erg Ocidental"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Erg Chebbi"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Erg Chigaga"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Erg de Murzuq"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Erg de Ubari"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Deserto do Ténéré"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Deserto Branco"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Deserto de Danakil"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Mar de Areia do Namibe",
+        "sources": [
+          "NAMIB_IUCN_WHO",
+          "NAMIB_IUCN2013"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Principal fonte de água para a vida nas dunas",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Nevoeiro costeiro"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Chuvas de verão"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Lençol freático raso"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Rios perenes"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Nevoeiro costeiro",
+        "sources": [
+          "NAMIB_IUCN_WHO",
+          "NAMIB_IUCN2013"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "De onde vem a areia das dunas",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Do interior do continente, levada por rio, corrente marinha e vento"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Da erosão da rocha do próprio local"
+          },
+          {
+            "id": "C3-O3",
+            "text": "De cinzas de antigos vulcões"
+          },
+          {
+            "id": "C3-O4",
+            "text": "De corais e conchas triturados do litoral"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Do interior do continente, levada por rio, corrente marinha e vento",
+        "sources": [
+          "NAMIB_IUCN_WHO",
+          "NAMIB_IUCN2013"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Rio que forma o limite norte da área",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Kuiseb"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Swakop"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Ugab"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Cunene"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Kuiseb",
+        "sources": [
+          "NAMIB_IUCN_WHO",
+          "NAMIB_IUCN2013"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "mar-areia-namibe-viajante-P01",
+            "factKey": "mar-areia-namibe-F01",
+            "text": "Este destino é um imenso mar de dunas na África, onde quase nunca chove.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN2013",
+              "NAMIB_EB"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P02",
+            "factKey": "mar-areia-namibe-F02",
+            "text": "As dunas estão sempre mudando de forma, empurradas pelo vento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO",
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P03",
+            "factKey": "mar-areia-namibe-F03",
+            "text": "As dunas cobrem mais de quatro quintos da área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P04",
+            "factKey": "mar-areia-namibe-F04",
+            "text": "A área protegida passa de três milhões de hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO",
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P05",
+            "factKey": "mar-areia-namibe-F05",
+            "text": "O deserto chega até o mar: a linha da costa é o limite oeste da área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P06",
+            "factKey": "mar-areia-namibe-F06",
+            "text": "Na costa, a chuva média do ano fica em torno de 13 milímetros.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NAMIB_EB"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P07",
+            "factKey": "mar-areia-namibe-F07",
+            "text": "Mesmo quase sem chuva, o ar perto do mar vive próximo da saturação de umidade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NAMIB_EB"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P08",
+            "factKey": "mar-areia-namibe-F08",
+            "text": "Uma corrente marinha fria passa junto à costa, esfria o ar e forma nevoeiro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NAMIB_EB"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P09",
+            "factKey": "mar-areia-namibe-F09",
+            "text": "Para muitos bichos e plantas, a principal fonte de água é o nevoeiro, não a chuva.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO",
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P10",
+            "factKey": "mar-areia-namibe-F10",
+            "text": "Perto do mar as dunas são amarelo-acinzentadas; mais para o interior, ficam vermelho-tijolo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_EB"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P11",
+            "factKey": "mar-areia-namibe-F11",
+            "text": "Nesse deserto há dunas de 60 a 240 metros de altura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_EB"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P12",
+            "factKey": "mar-areia-namibe-F12",
+            "text": "Há dezesseis tipos diferentes de dunas, com formas, cores e texturas variadas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO",
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P13",
+            "factKey": "mar-areia-namibe-F13",
+            "text": "No meio da areia aparecem morros de rocha isolados e planícies de cascalho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO",
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P14",
+            "factKey": "mar-areia-namibe-F14",
+            "text": "A areia não nasceu ali: veio do interior do sul da África, numa viagem de até 3 mil km.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P15",
+            "factKey": "mar-areia-namibe-F15",
+            "text": "Rios que só correm de vez em quando descem do planalto e entram na área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P16",
+            "factKey": "mar-areia-namibe-F16",
+            "text": "Em 2005, uma lagoa da costa chegou a reunir 400 mil aves aquáticas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P17",
+            "factKey": "mar-areia-namibe-F17",
+            "text": "Muitos bichos só existem ali: 84% das espécies de aracnídeos e cerca de metade das de insetos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO",
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P18",
+            "factKey": "mar-areia-namibe-F18",
+            "text": "A welwitschia e o !nara, plantas que são símbolos do país, estão entre as espécies típicas do lugar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P19",
+            "factKey": "mar-areia-namibe-F19",
+            "text": "O povo topnaar, um dos mais antigos habitantes do país, vive ao longo do rio da borda norte.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO",
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P20",
+            "factKey": "mar-areia-namibe-F20",
+            "text": "No começo do século XX houve mineração de diamantes na costa; hoje ela é proibida ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO",
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P21",
+            "factKey": "mar-areia-namibe-F21",
+            "text": "Restos de povoados e máquinas abandonados da época dos diamantes ainda aparecem nas planícies da costa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P22",
+            "factKey": "mar-areia-namibe-F22",
+            "text": "O céu noturno, muito limpo, é considerado um dos maiores tesouros do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P23",
+            "factKey": "mar-areia-namibe-F23",
+            "text": "A área fica dentro de um grande parque nacional da Namíbia, entre dois outros parques do litoral.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO",
+              "NAMIB_IUCN_NEWS"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P24",
+            "factKey": "mar-areia-namibe-F24",
+            "text": "Na avaliação feita para a UNESCO, é o único deserto costeiro do mundo com grandes campos de dunas sob a influência do nevoeiro.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-viajante-P25",
+            "factKey": "mar-areia-namibe-F25",
+            "text": "Cerca de três quartos dos visitantes do parque vão a Sossusvlei e Sesriem; em 2023, Sossusvlei recebeu quase 200 mil pessoas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "mar-areia-namibe-geografo-P01",
+            "factKey": "mar-areia-namibe-F01",
+            "text": "A unidade é um deserto costeiro hiperárido, em que a vida depende da umidade que vem do oceano.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "NAMIB_IUCN2013",
+              "NAMIB_EB"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P02",
+            "factKey": "mar-areia-namibe-F02",
+            "text": "A paisagem é dominada por grandes dunas móveis, em transformação contínua.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO",
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P03",
+            "factKey": "mar-areia-namibe-F03",
+            "text": "Há dois sistemas de dunas superpostos: um antigo, semiconsolidado, coberto por outro mais jovem e ativo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO",
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P04",
+            "factKey": "mar-areia-namibe-F04",
+            "text": "A areia chega por uma “esteira” em três etapas — rio, corrente marinha e vento — que começa com a erosão nas cabeceiras do rio Orange.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO",
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P05",
+            "factKey": "mar-areia-namibe-F05",
+            "text": "Correntes oceânicas fortes levam o sedimento para o norte, e o vento o sopra das praias para o interior.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO",
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P06",
+            "factKey": "mar-areia-namibe-F06",
+            "text": "O material percorre até 3 mil km, ao contrário da maioria dos campos de dunas, formados por rocha erodida no próprio local.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P07",
+            "factKey": "mar-areia-namibe-F07",
+            "text": "Esse sistema de transporte de areia funciona há mais de 5 milhões de anos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P08",
+            "factKey": "mar-areia-namibe-F08",
+            "text": "Mudanças diárias e sazonais na direção dos ventos dominantes esculpem as dunas de modo excepcional em escala global.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P09",
+            "factKey": "mar-areia-namibe-F09",
+            "text": "A zonação das dunas é nítida: transversais na faixa costeira, lineares no centro e sistemas em estrela no leste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P10",
+            "factKey": "mar-areia-namibe-F10",
+            "text": "A corrente fria de Benguela, que corre para o norte junto à costa, resfria o ar e produz o nevoeiro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NAMIB_EB"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P11",
+            "factKey": "mar-areia-namibe-F11",
+            "text": "Organismos condensam e coletam o nevoeiro como principal fonte de água, com comportamentos e fisiologias raros.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P12",
+            "factKey": "mar-areia-namibe-F12",
+            "text": "O isolamento ecológico por milhões de anos explica o alto endemismo: 52% dos insetos e 44% dos répteis só ocorrem nesses habitats arenosos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN2013",
+              "NAMIB_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P13",
+            "factKey": "mar-areia-namibe-F13",
+            "text": "Os campos de dunas ocupam 84% da unidade; planícies de cascalho e gramadullas, 8%; e inselbergs no meio da areia, 1%.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO",
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P14",
+            "factKey": "mar-areia-namibe-F14",
+            "text": "Rios efêmeros nascem na escarpa ocidental do planalto e drenam para dentro da unidade, que também tem depressões endorreicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P15",
+            "factKey": "mar-areia-namibe-F15",
+            "text": "Cheias periódicas mantêm as características de depressões cercadas por dunas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P16",
+            "factKey": "mar-areia-namibe-F16",
+            "text": "A captação de água rio acima, por represas e poços, é considerada uma ameaça alta fora da unidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P17",
+            "factKey": "mar-areia-namibe-F17",
+            "text": "Uma laguna costeira protegida como sítio Ramsar concentra grandes números de aves aquáticas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P18",
+            "factKey": "mar-areia-namibe-F18",
+            "text": "A costa forma o limite oeste, e um rio forma o limite norte, exceto num trecho perto da foz.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO",
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P19",
+            "factKey": "mar-areia-namibe-F19",
+            "text": "Ao longo do curso inferior desse rio vivem cerca de 135 famílias topnaar, que reivindicam direitos ancestrais sobre terras da unidade.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO",
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P20",
+            "factKey": "mar-areia-namibe-F20",
+            "text": "Grande parte da área era reservada para diamantes, extraídos periodicamente na costa desde o início do século XX.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P21",
+            "factKey": "mar-areia-namibe-F21",
+            "text": "A unidade integra o Parque Nacional Namib-Naukluft e fica entre os parques costeiros Dorob e Tsau//Khaeb.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO",
+              "NAMIB_IUCN_NEWS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P22",
+            "factKey": "mar-areia-namibe-F22",
+            "text": "Inscrita em 2013 pelos quatro critérios naturais, foi a primeira inscrição desse tipo em dez anos, segundo a IUCN.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_NEWS",
+              "NAMIB_IUCN_WHO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P23",
+            "factKey": "mar-areia-namibe-F23",
+            "text": "A IUCN classifica as ameaças como baixas, mas aponta direção fora de estrada e forte pressão turística no ponto mais visitado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P24",
+            "factKey": "mar-areia-namibe-F24",
+            "text": "É o único deserto costeiro com extensos campos de dunas sob nevoeiro; o Atacama, o mais parecido, tem menos formas eólicas e quase nenhuma vida.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "NAMIB_IUCN2013"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-areia-namibe-geografo-P25",
+            "factKey": "mar-areia-namibe-F25",
+            "text": "A sede do parque fica em Sesriem, e cerca de três quartos dos visitantes se concentram ali e em Sossusvlei.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NAMIB_IUCN_WHO"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Campo de dunas costeiro dentro do Parque Nacional Namib-Naukluft, na Namíbia, entre o Atlântico e o rio Kuiseb, formado por areia trazida do interior por rio, mar e vento e sustentado pelo nevoeiro.",
+      "editorialNotes": [
+        "Alturas das dunas (60 a 240 m), chuva (cerca de 13 mm na costa), cores das dunas e a corrente de Benguela vêm da Britannica e se referem ao deserto do Namibe como um todo, não só ao bem UNESCO.",
+        "A carta trata do bem do Patrimônio Mundial (mais de 3 milhões de ha, inscrito em 2013), não do deserto inteiro, que vai de Angola à África do Sul.",
+        "Visitantes: mais de 135 mil em 2011 (avaliação IUCN de 2013) e 198.162 em Sossusvlei em 2023 (IUCN World Heritage Outlook); conferir números novos."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na IUCN World Heritage Outlook (2025), na avaliação técnica da IUCN (2013), no comunicado da IUCN sobre a inscrição e na Britannica; C1, C3 e C4 refeitos e as 50 pistas reescritas."
+    }
+  },
+  "sources": {
+    "NAMIB_IUCN_WHO": {
+      "id": "NAMIB_IUCN_WHO",
+      "checkedAt": "2026-11-15",
+      "title": "Namib Sand Sea — Conservation Outlook Assessment (2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1175"
+    },
+    "NAMIB_IUCN2013": {
+      "id": "NAMIB_IUCN2013",
+      "checkedAt": "2026-11-15",
+      "title": "Namib Sand Sea (Namibia) — IUCN Technical Evaluation (2013)",
+      "publisher": "UNESCO World Heritage Centre / IUCN",
+      "url": "https://whc.unesco.org/document/152659"
+    },
+    "NAMIB_IUCN_NEWS": {
+      "id": "NAMIB_IUCN_NEWS",
+      "checkedAt": "2026-11-15",
+      "title": "World Heritage status for Namibia’s Sea of Sand",
+      "publisher": "IUCN",
+      "url": "https://www.iucn.org/node/13228"
+    },
+    "NAMIB_EB": {
+      "id": "NAMIB_EB",
+      "checkedAt": "2026-11-15",
+      "title": "Namib (desert, Africa)",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Namib"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://worldheritageoutlook.iucn.org/node/1175",
+      "https://whc.unesco.org/document/152659",
+      "https://www.iucn.org/node/13228",
+      "https://www.britannica.com/place/Namib"
+    ],
+    "alteracoes": [
+      "Fonte do rascunho (whc.unesco.org/en/list/1430) não aberta; substituída pela avaliação técnica da IUCN (2013), IUCN World Heritage Outlook (2025), comunicado da IUCN e Britannica.",
+      "C1: Atacama, Gobi, Arábia, Lençóis Maranhenses, Grande Deserto Arenoso, Simpson, Mojave e Karakum (fora do recorte África) trocados por desertos e ergs africanos (Costa dos Esqueletos, Grandes Ergs, Chigaga, Murzuq, Ubari, Ténéré, Deserto Branco, Danakil).",
+      "C2: distratores ajustados; C3 “Oceano adjacente” trocado por “De onde vem a areia das dunas” (esteira rio–mar–vento); C4 “País” trocado por “Rio que forma o limite norte da área” (Kuiseb).",
+      "Viajante: 25 pistas reescritas; país sai da 2ª pista para o meio; acrescentados nevoeiro/Benguela, dunas de 60–240 m, lagoa costeira, topnaar, diamantes e Sossusvlei.",
+      "Geógrafo: 25 pistas reescritas com processos (esteira de sedimentos de até 3.000 km e mais de 5 milhões de anos, zonação das dunas, endemismo por isolamento, limites e comparação com o Atacama)."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

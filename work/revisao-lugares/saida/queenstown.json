@@ -1,0 +1,1091 @@
+{
+  "case": {
+    "id": "lug3-queenstown",
+    "placeId": "queenstown",
+    "title": "Queenstown",
+    "aliases": [],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "NZ"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade da Oceania",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Queenstown"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Melbourne"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Sydney"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Brisbane"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Perth"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Adelaide"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Hobart"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Camberra"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Darwin"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Cairns"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Auckland"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Wellington"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Christchurch"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Dunedin"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Napier"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Nelson"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Rotorua"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Taupō"
+          },
+          {
+            "id": "C1-O19",
+            "text": "Suva"
+          },
+          {
+            "id": "C1-O20",
+            "text": "Nouméa"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Queenstown",
+        "sources": [
+          "QUEENSTOWN_TEARA",
+          "QUEENSTOWN_TEARA_LAGO"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Lago à beira do qual fica a cidade",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Lago Wakatipu"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Lago Wānaka"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Lago Te Anau"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Lago Taupō"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Lago Wakatipu",
+        "sources": [
+          "QUEENSTOWN_TEARA",
+          "QUEENSTOWN_TEARA_LAGO"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Atividade que desencadeou a corrida de 1862 na região",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Mineração de ouro"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Caça à baleia"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Extração de kauri"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Mineração de carvão"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Mineração de ouro",
+        "sources": [
+          "QUEENSTOWN_TEARA",
+          "QUEENSTOWN_DQ"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Atividade de aventura cuja primeira operação comercial do mundo abriu perto da cidade em 1988",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Bungee jump"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Jet boat"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Rafting"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Parapente"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Bungee jump",
+        "sources": [
+          "QUEENSTOWN_NZH",
+          "QUEENSTOWN_DOC"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "queenstown-viajante-P01",
+            "factKey": "queenstown-F01",
+            "text": "Esta cidade fica cercada de montanhas, à beira de um lago.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P02",
+            "factKey": "queenstown-F02",
+            "text": "No outono, as cores das árvores de folhas caducas chamam muita atenção.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P03",
+            "factKey": "queenstown-F03",
+            "text": "O lago tem formato de zigue-zague e cerca de 80 km de comprimento.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA_LAGO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P04",
+            "factKey": "queenstown-F04",
+            "text": "A cidade fica mais ou menos na metade do comprimento do lago.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P05",
+            "factKey": "queenstown-F05",
+            "text": "O nível do lago sobe e desce de 12 a 20 cm a cada 52 minutos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA_LAGO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P06",
+            "factKey": "queenstown-F06",
+            "text": "Uma lenda maori diz que o coração de um gigante ainda bate no fundo do lago, fazendo a água subir e descer.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "QUEENSTOWN_DQ"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P07",
+            "factKey": "queenstown-F07",
+            "text": "Um barco a vapor lançado em 1912 faz cruzeiros diários pelo lago desde 1969.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA_LAGO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P08",
+            "factKey": "queenstown-F08",
+            "text": "Desde 1967, uma gôndola leva a um restaurante num pico de 812 m, com pista de luge no alto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P09",
+            "factKey": "queenstown-F09",
+            "text": "Num pico de 1.649 m, uma estação de esqui foi criada em 1939.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P10",
+            "factKey": "queenstown-F10",
+            "text": "A cordilheira The Remarkables recebeu esse nome de Alexander Garvie, num levantamento de 1857.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUEENSTOWN_DQ"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P11",
+            "factKey": "queenstown-F11",
+            "text": "Em novembro de 1862, a descoberta de ouro no rio Shotover desencadeou uma corrida.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P12",
+            "factKey": "queenstown-F12",
+            "text": "Antes do ouro, William Rees já criava ovelhas ali havia dois anos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P13",
+            "factKey": "queenstown-F13",
+            "text": "A antiga sede da fazenda de Rees fica no centro da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P14",
+            "factKey": "queenstown-F14",
+            "text": "Passada a corrida do ouro, a cidade encolheu e teve menos de mil habitantes na primeira metade do século XX.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P15",
+            "factKey": "queenstown-F15",
+            "text": "Um hotel fundado na década de 1860 foi o primeiro prédio da cidade com luz elétrica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P16",
+            "factKey": "queenstown-F16",
+            "text": "Uma península doada à cidade em 1866–67 abriga jardins públicos e quadras esportivas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P17",
+            "factKey": "queenstown-F17",
+            "text": "O aeroporto, na vizinha Frankton, recebeu mais de 1 milhão de passageiros por ano na década de 2010.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P18",
+            "factKey": "queenstown-F18",
+            "text": "Daqui saem voos panorâmicos para Milford Sound, que poupam 12 horas de ônibus, ida e volta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P19",
+            "factKey": "queenstown-F19",
+            "text": "A vila vizinha de Arrowtown guarda mais de 50 prédios históricos e um bairro de mineiros chineses dos anos 1870.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P20",
+            "factKey": "queenstown-F20",
+            "text": "Barcos a jato (jet boats) correm pelos rios da região desde os anos 1950.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "QUEENSTOWN_DQ"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P21",
+            "factKey": "queenstown-F21",
+            "text": "Em 1988, abriu perto da cidade a primeira operação comercial de bungee jump do mundo.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "QUEENSTOWN_NZH",
+              "QUEENSTOWN_DOC",
+              "QUEENSTOWN_DQ"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P22",
+            "factKey": "queenstown-F22",
+            "text": "Esses saltos partem de uma ponte pênsil de 1880, a 42 m de altura sobre um cânion.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "QUEENSTOWN_DOC"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P23",
+            "factKey": "queenstown-F23",
+            "text": "Em 2019, a cidade tinha quase 20 mil moradores e recebia 3 milhões de visitantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P24",
+            "factKey": "queenstown-F24",
+            "text": "A pedra verde pounamu, que os Ngāi Tahu usavam em ferramentas e enfeites, era abundante nos vales de Routeburn e Dart.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUEENSTOWN_DQ"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-viajante-P25",
+            "factKey": "queenstown-F25",
+            "text": "Fica a 285 km a noroeste de Dunedin e a 187 km ao norte de Invercargill.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "queenstown-geografo-P01",
+            "factKey": "queenstown-F26",
+            "text": "O povoado nasceu de uma corrida mineral do século XIX, decaiu e depois se reinventou pelo turismo.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P02",
+            "factKey": "queenstown-F27",
+            "text": "Aqui as montanhas descem direto até águas profundas, numa bacia escavada por uma geleira.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "QUEENSTOWN_DQ",
+              "QUEENSTOWN_TEARA_LAGO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P03",
+            "factKey": "queenstown-F28",
+            "text": "Com 290 km² e até 377,5 m de profundidade, o lago preenche um vale glacial em zigue-zague.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA_LAGO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P04",
+            "factKey": "queenstown-F29",
+            "text": "A oscilação rítmica do nível do lago, de 12 a 20 cm a cada 52 minutos, é atribuída pela lenda maori ao coração de um gigante.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA_LAGO",
+              "QUEENSTOWN_DQ"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P05",
+            "factKey": "queenstown-F30",
+            "text": "Na cabeceira do lago, um vale glaciado de uns 10 km acompanha os rios Dart e Rees, que correm trançados pela planície.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA_LAGO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P06",
+            "factKey": "queenstown-F31",
+            "text": "O lago escoa pelas quedas do Kawarau, no braço de Frankton; elas foram represadas em 1926 para buscar ouro, com pouquíssimo resultado.",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P07",
+            "factKey": "queenstown-F32",
+            "text": "Na tradição maori, foi Rākaihautū, capitão da canoa Uruao, quem cavou o lago.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA_LAGO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P08",
+            "factKey": "queenstown-F33",
+            "text": "Os Ngāi Tahu vivem há mais de 800 anos na Ilha Sul (Te Waipounamu), onde a pedra verde pounamu era muito valorizada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUEENSTOWN_DQ"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P09",
+            "factKey": "queenstown-F34",
+            "text": "O primeiro europeu a ver o lago, em 1853, foi Nathaniel Chalmers.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "QUEENSTOWN_DQ"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P10",
+            "factKey": "queenstown-F35",
+            "text": "A ocupação pastoril veio antes da mineração: William Rees criava ovelhas no local havia dois anos quando o ouro apareceu.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P11",
+            "factKey": "queenstown-F36",
+            "text": "O primeiro achado de ouro de 1862 é creditado a Jack Tewa, peão de Rees, junto ao rio Arrow; meses depois, Arthur e Redfern acharam ouro perto do Shotover.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "QUEENSTOWN_DQ"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P12",
+            "factKey": "queenstown-F37",
+            "text": "O rio Shotover, afluente do Kawarau, recebeu o nome da propriedade inglesa do sócio de Rees.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "QUEENSTOWN_DQ",
+              "QUEENSTOWN_TEARA_LAGO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P13",
+            "factKey": "queenstown-F38",
+            "text": "Arrowtown, a 21 km, chamou-se primeiro Fox's, em homenagem ao primeiro garimpeiro, chegado em 1862.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P14",
+            "factKey": "queenstown-F39",
+            "text": "Macetown, localidade da corrida do ouro no alto rio Arrow, hoje só é alcançada de 4x4.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P15",
+            "factKey": "queenstown-F40",
+            "text": "Com o fim do ouro, a população ficou abaixo de mil na primeira metade do século XX e ainda abaixo de 3.500 em 1981.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P16",
+            "factKey": "queenstown-F41",
+            "text": "O turismo cresceu rápido a partir dos anos 1980, no verão e no inverno; em 2007, cerca de 1 milhão de visitantes pernoitaram ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P17",
+            "factKey": "queenstown-F42",
+            "text": "A ponte pênsil do Kawarau, de 1880, melhorou o acesso rodoviário aos campos de ouro de Otago.",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "QUEENSTOWN_DOC"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P18",
+            "factKey": "queenstown-F43",
+            "text": "Preservada quando uma ponte nova abriu em 1963, a ponte de 1880 tem 120 m de vão e cruza um cânion rochoso de fortes ventos laterais.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "QUEENSTOWN_DOC"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P19",
+            "factKey": "queenstown-F44",
+            "text": "A. J. Hackett, famoso por um salto da Torre Eiffel transmitido ao mundo todo, abriu ali em novembro de 1988 a primeira operação comercial de bungee jump do mundo.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "QUEENSTOWN_NZH",
+              "QUEENSTOWN_DOC"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P20",
+            "factKey": "queenstown-F45",
+            "text": "A operação no cânion do Kawarau impulsionou o turismo de aventura.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "QUEENSTOWN_NZH"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P21",
+            "factKey": "queenstown-F46",
+            "text": "A planície de Frankton concentra o aeroporto, um shopping e o centro de eventos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P22",
+            "factKey": "queenstown-F47",
+            "text": "O aeroporto tem voos diretos para os principais centros do país e para a costa leste da Austrália.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P23",
+            "factKey": "queenstown-F48",
+            "text": "A bacia do Arrow cresceu rápido desde os anos 1990, com estação de esqui, vinhedos e um campo de golfe de luxo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P24",
+            "factKey": "queenstown-F49",
+            "text": "No extremo sul do lago sobrevive o único trecho da antiga ferrovia para Invercargill, usado em passeios de trem desde 1983.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA_LAGO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "queenstown-geografo-P25",
+            "factKey": "queenstown-F50",
+            "text": "Nas pontas do lago ficam Glenorchy, ao norte, a 50 km da cidade, e Kingston, ao sul, a 47 km.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "QUEENSTOWN_TEARA_LAGO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade turística de Otago, na Nova Zelândia, a meio caminho do Lago Wakatipu, de origem glacial, cercada de montanhas; nasceu com a corrida do ouro de 1862 e cresceu pelo turismo, inclusive com a primeira operação comercial de bungee jump do mundo, aberta em 1988 na ponte do Kawarau.",
+      "editorialNotes": [
+        "Te Ara diz que o ouro foi achado no rio Shotover em novembro de 1862; a Destination Queenstown credita o primeiro achado de 1862 a Jack Tewa, junto ao rio Arrow. As pistas apresentam as duas versões separadamente.",
+        "A ponte pênsil do Kawarau fica no cânion do Kawarau, fora do núcleo urbano (\"perto\" da cidade, segundo a NZHistory); o DOC lhe dá 42 m de altura e 120 m de vão.",
+        "O título da fonte da NZHistory (página sobre o salto de A. J. Hackett na Torre Eiffel) foi descrito em português; a página não traz o ano do salto, por isso a pista não o cita."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "QUEENSTOWN_TEARA": {
+      "id": "QUEENSTOWN_TEARA",
+      "title": "Otago places — Queenstown",
+      "publisher": "Te Ara – The Encyclopedia of New Zealand (Manatū Taonga)",
+      "url": "https://teara.govt.nz/mi/otago-places/page-18",
+      "checkedAt": "2026-11-15"
+    },
+    "QUEENSTOWN_TEARA_LAGO": {
+      "id": "QUEENSTOWN_TEARA_LAGO",
+      "title": "Lake Wakatipu",
+      "publisher": "Te Ara – The Encyclopedia of New Zealand (Manatū Taonga)",
+      "url": "https://www.teara.govt.nz/en/node/33090",
+      "checkedAt": "2026-11-15"
+    },
+    "QUEENSTOWN_NZH": {
+      "id": "QUEENSTOWN_NZH",
+      "title": "A. J. Hackett e o salto de bungy da Torre Eiffel",
+      "publisher": "NZHistory (Manatū Taonga – Ministry for Culture and Heritage)",
+      "url": "https://nzhistory.govt.nz/node/57335",
+      "checkedAt": "2026-11-15"
+    },
+    "QUEENSTOWN_DOC": {
+      "id": "QUEENSTOWN_DOC",
+      "title": "Kawarau Suspension Bridge",
+      "publisher": "Department of Conservation (Te Papa Atawhai)",
+      "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/arrowtown-area/kawarau-suspension-bridge/",
+      "checkedAt": "2026-11-15"
+    },
+    "QUEENSTOWN_DQ": {
+      "id": "QUEENSTOWN_DQ",
+      "title": "Queenstown's Pioneering Beginnings",
+      "publisher": "Destination Queenstown (queenstownnz.co.nz)",
+      "url": "https://www.queenstownnz.co.nz/stories/queenstowns-pioneer-beginnings/",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://teara.govt.nz/mi/otago-places/page-18",
+      "https://www.teara.govt.nz/en/node/33090",
+      "https://nzhistory.govt.nz/node/57335",
+      "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/arrowtown-area/kawarau-suspension-bridge/",
+      "https://www.queenstownnz.co.nz/stories/queenstowns-pioneer-beginnings/"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

@@ -1,0 +1,1079 @@
+{
+ "case": {
+  "id": "lug2-parna-juruena",
+  "placeId": "parna-juruena",
+  "title": "Parque Nacional do Juruena",
+  "aliases": [
+   "Juruena"
+  ],
+  "answerType": "parque nacional",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "norte",
+    "centro-oeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Parque nacional",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Parque Nacional do Juruena"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Parque Nacional do Jaú"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Parque Nacional do Araguaia"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Parque Nacional da Amazônia"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Parque Nacional Mapinguari"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Parque Nacional do Viruá"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Parque Nacional da Serra do Divisor"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Parque Nacional do Pico da Neblina"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Parque Nacional da Serra da Bodoquena"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Parque Nacional das Emas"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Parque Nacional Nascentes do Lago Jari"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Parque Nacional de Anavilhanas"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Parque Nacional do Juruena",
+    "sources": [
+     "JURUENA_CNUC",
+     "JURUENA_WIKI"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Estados abrangidos",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Amazonas e Mato Grosso"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Pará e Tocantins"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Amazonas e Acre"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Rondônia e Pará"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Amazonas e Mato Grosso",
+    "sources": [
+     "JURUENA_CNUC",
+     "JURUENA_WIKI"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Bioma em que a unidade está cadastrada",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Amazônia"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Cerrado"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Pantanal"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Caatinga"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Amazônia",
+    "sources": [
+     "JURUENA_CNUC"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Terra indígena sobreposta ao parque",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Apiaká do Pontal e Isolados"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Waiãpi"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Raposa Serra do Sol"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Vale do Javari"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Apiaká do Pontal e Isolados",
+    "sources": [
+     "JURUENA_ARTIGO_APIAKA",
+     "JURUENA_FOLHAPE"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "parna-juruena-viajante-P01",
+      "factKey": "parna-juruena-F01",
+      "text": "É um parque nacional brasileiro coberto por extensas florestas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_CNUC",
+       "JURUENA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P02",
+      "factKey": "parna-juruena-F02",
+      "text": "O parque protege paisagens da Amazônia.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "JURUENA_CNUC"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P03",
+      "factKey": "parna-juruena-F03",
+      "text": "O parque se estende por dois estados brasileiros.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "JURUENA_CNUC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P04",
+      "factKey": "parna-juruena-F04",
+      "text": "Uma parte fica na região Norte e a outra no Centro-Oeste.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "JURUENA_CNUC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P05",
+      "factKey": "parna-juruena-F05",
+      "text": "Foi criado no Dia Mundial do Meio Ambiente de 2006.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_WWF",
+       "JURUENA_CNUC"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P06",
+      "factKey": "parna-juruena-F06",
+      "text": "O parque tem quase 2 milhões de hectares.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_CNUC",
+       "JURUENA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P07",
+      "factKey": "parna-juruena-F07",
+      "text": "Ele acompanha um grande rio, numa área entre o Tapajós e o Madeira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_WIKI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P08",
+      "factKey": "parna-juruena-F08",
+      "text": "O rio que dá nome ao parque tem grandes cachoeiras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_WIKI",
+       "JURUENA_CAVERNAS"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P09",
+      "factKey": "parna-juruena-F09",
+      "text": "Perto das cachoeiras há cavernas onde morcegos se abrigam durante o dia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_CAVERNAS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P10",
+      "factKey": "parna-juruena-F10",
+      "text": "Uma dessas cavernas se chama Caverna da Onça.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_CAVERNAS"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P11",
+      "factKey": "parna-juruena-F11",
+      "text": "Quase metade do parque é planície, e áreas montanhosas são raras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_WIKI"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P12",
+      "factKey": "parna-juruena-F12",
+      "text": "As temperaturas costumam ficar entre 17 °C e 34 °C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_WIKI"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P13",
+      "factKey": "parna-juruena-F13",
+      "text": "A floresta do parque fica numa faixa de transição para o Cerrado.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "JURUENA_WIKI"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P14",
+      "factKey": "parna-juruena-F14",
+      "text": "Mais de 400 espécies de aves já foram identificadas no parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_WIKI"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P15",
+      "factKey": "parna-juruena-F15",
+      "text": "Onça-pintada, ariranha e gavião-real estão entre os animais ameaçados que vivem ali.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_WIKI"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P16",
+      "factKey": "parna-juruena-F16",
+      "text": "Em 2006, uma expedição de três semanas percorreu mais de mil quilômetros do parque, de barco, jipe, helicóptero e avião.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_WWF"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P17",
+      "factKey": "parna-juruena-F17",
+      "text": "Em 2023, o parque recebeu menos de 300 visitantes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_CNUC"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P18",
+      "factKey": "parna-juruena-F18",
+      "text": "Em 2014, o governo chegou a estudar hidrelétricas que alagariam parte do parque, mas desistiu.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_WIKI"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P19",
+      "factKey": "parna-juruena-F19",
+      "text": "Quase metade do parque coincide com uma terra indígena.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "JURUENA_ARTIGO_APIAKA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P20",
+      "factKey": "parna-juruena-F20",
+      "text": "Nessa terra vivem os povos Apiaká e Munduruku, além de um grupo indígena isolado.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "JURUENA_FOLHAPE",
+       "JURUENA_ARTIGO_APIAKA"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P21",
+      "factKey": "parna-juruena-F21",
+      "text": "Uma das cachoeiras do parque é sagrada para os Apiaká.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "JURUENA_ARTIGO_APIAKA"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P22",
+      "factKey": "parna-juruena-F22",
+      "text": "Três municípios de Mato Grosso e dois do Amazonas têm parte do parque.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "JURUENA_CNUC",
+       "JURUENA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P23",
+      "factKey": "parna-juruena-F23",
+      "text": "Apiacás, em Mato Grosso, e Apuí, no Amazonas, estão entre esses municípios.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "JURUENA_CNUC",
+       "JURUENA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P24",
+      "factKey": "parna-juruena-F24",
+      "text": "As duas grandes cachoeiras do parque são o Salto Augusto e o Salto São Simão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_WIKI",
+       "JURUENA_CAVERNAS"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-viajante-P25",
+      "factKey": "parna-juruena-F25",
+      "text": "A terra indígena que divide espaço com o parque é a Apiaká do Pontal e Isolados.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "JURUENA_ARTIGO_APIAKA",
+       "JURUENA_FOLHAPE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "parna-juruena-geografo-P01",
+      "factKey": "parna-juruena-F01",
+      "text": "A unidade federal de proteção integral é administrada pelo ICMBio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_CNUC",
+       "JURUENA_ARTIGO_APIAKA"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P02",
+      "factKey": "parna-juruena-F02",
+      "text": "O cadastro oficial registra toda a área da unidade no bioma Amazônia.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "JURUENA_CNUC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P03",
+      "factKey": "parna-juruena-F03",
+      "text": "O perímetro abrange duas unidades da federação e liga os recortes Norte e Centro-Oeste.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "JURUENA_CNUC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P04",
+      "factKey": "parna-juruena-F04",
+      "text": "Um decreto de 5 de junho de 2006 criou a unidade, com cerca de 1,96 milhão de hectares.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_CNUC",
+       "JURUENA_WIKI"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P05",
+      "factKey": "parna-juruena-F05",
+      "text": "O objetivo legal é proteger a biodiversidade do baixo curso do rio homônimo e do Teles Pires e do alto Tapajós.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_CNUC"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P06",
+      "factKey": "parna-juruena-F06",
+      "text": "A unidade fica no norte de Mato Grosso e no sul do Amazonas, no interflúvio entre o Tapajós e o Madeira.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "JURUENA_WIKI"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P07",
+      "factKey": "parna-juruena-F07",
+      "text": "Cerca de 49% da área é plana e só 1% é montanhosa, com altitudes de 39 a 457 m.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_WIKI"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P08",
+      "factKey": "parna-juruena-F08",
+      "text": "A unidade ocupa uma zona de transição entre a floresta amazônica e o Cerrado.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "JURUENA_WIKI"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P09",
+      "factKey": "parna-juruena-F09",
+      "text": "Florestas ombrófilas densas ou abertas cobrem 53,4% da vegetação; áreas de contato e encraves somam 36,35%.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "JURUENA_WIKI"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P10",
+      "factKey": "parna-juruena-F10",
+      "text": "Corpos d’água ocupam cerca de 22,8 mil hectares da unidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_WIKI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P11",
+      "factKey": "parna-juruena-F11",
+      "text": "Das 412 espécies de aves identificadas, 40 são endêmicas do sul da Amazônia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_WIKI"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P12",
+      "factKey": "parna-juruena-F12",
+      "text": "Cavernas junto aos saltos do rio principal são abrigos diurnos de morcegos e ambientes frágeis.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_CAVERNAS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P13",
+      "factKey": "parna-juruena-F13",
+      "text": "Em 2014, duas usinas planejadas, com 4.940 MW, alagariam mais de 40 mil hectares; a proposta foi retirada em setembro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_WIKI"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P14",
+      "factKey": "parna-juruena-F14",
+      "text": "A unidade integra um corredor de áreas protegidas com o Parque Indígena do Xingu e a Terra do Meio, para conter a expansão agrícola.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_WIKI"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P15",
+      "factKey": "parna-juruena-F15",
+      "text": "Faz parte do Mosaico da Amazônia Meridional, reconhecido em 2011, e do programa ARPA.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_CNUC"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P16",
+      "factKey": "parna-juruena-F16",
+      "text": "O plano de manejo, de 2011, organiza zoneamento, alvos de conservação e estratégias de controle.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_CNUC",
+       "JURUENA_CAVERNAS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P17",
+      "factKey": "parna-juruena-F17",
+      "text": "A expedição de 2006, a primeira a percorrer a unidade, levantou biodiversidade, comunidades tradicionais e garimpo ilegal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_WWF"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P18",
+      "factKey": "parna-juruena-F18",
+      "text": "A sobreposição com uma terra indígena soma 972.901 ha: 49,69% do parque e 99,04% da terra indígena.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "JURUENA_ARTIGO_APIAKA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P19",
+      "factKey": "parna-juruena-F19",
+      "text": "Uma portaria declaratória de 2024 reconheceu a posse permanente de Apiaká, Munduruku e isolados sobre essa terra indígena.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "JURUENA_ARTIGO_APIAKA",
+       "JURUENA_FOLHAPE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P20",
+      "factKey": "parna-juruena-F20",
+      "text": "Há registros de indígenas isolados na região do rio São Tomé desde pelo menos 1980.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "JURUENA_ARTIGO_APIAKA"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P21",
+      "factKey": "parna-juruena-F21",
+      "text": "A localização de um salto sagrado orientou a reocupação Apiaká de parte do território ancestral.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "JURUENA_ARTIGO_APIAKA"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P22",
+      "factKey": "parna-juruena-F22",
+      "text": "A parcela mato-grossense inclui Apiacás, Cotriguaçu e Nova Bandeirantes; a amazonense, Apuí e Maués.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "JURUENA_CNUC",
+       "JURUENA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P23",
+      "factKey": "parna-juruena-F23",
+      "text": "Em 2023, o cadastro oficial registrou apenas 293 visitantes na unidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_CNUC"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P24",
+      "factKey": "parna-juruena-F24",
+      "text": "As cavernas da Onça, no salto São Simão, e do Morcego, no Salto Augusto, foram alvos prioritários de pesquisa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JURUENA_CAVERNAS"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-juruena-geografo-P25",
+      "factKey": "parna-juruena-F25",
+      "text": "A terra indígena sobreposta, Apiaká do Pontal e Isolados, fica no município de Apiacás, em Mato Grosso.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "JURUENA_ARTIGO_APIAKA",
+       "JURUENA_FOLHAPE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Parque nacional criado em 5 de junho de 2006, com cerca de 1,96 milhão de hectares no norte de Mato Grosso e no sul do Amazonas, ao longo do rio Juruena, com os saltos Augusto e São Simão; quase metade da área se sobrepõe à Terra Indígena Apiaká do Pontal e Isolados.",
+   "editorialNotes": [
+    "A área varia entre fontes: 1.957.000 ha pelo ato legal (CNUC), 1.958.203,56 ha (Wikipedia) e “cerca de 1,9 milhão” (artigo de 2025); as pistas usam valores arredondados.",
+    "A Wikipedia descreve transição entre Amazônia e Cerrado, mas o CNUC cadastra toda a área no bioma Amazônia; o C3 segue o cadastro oficial.",
+    "A precipitação anual citada na Wikipedia (1.000 mm) parece baixa para a região e não foi usada; a notícia do CNPq sobre a expedição não veio das buscas e suas afirmações (peixes de igarapé, apoio indígena) saíram."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Fontes do rascunho (ICMBio, decreto, CNPq, MJ, plano de manejo) não vieram das buscas; substituídas por ficha do CNUC, Wikipedia, WWF, projeto de cavernas, artigo de 2025 sobre os Apiaká e Folha de Pernambuco; C3 e C4 refeitos; pistas sem o nome do rio homônimo."
+  }
+ },
+ "sources": {
+  "JURUENA_CNUC": {
+   "id": "JURUENA_CNUC",
+   "title": "Parque Nacional do Juruena — relatório do Cadastro Nacional de Unidades de Conservação",
+   "publisher": "Ministério do Meio Ambiente e Mudança do Clima (CNUC)",
+   "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/281",
+   "checkedAt": "2026-11-15"
+  },
+  "JURUENA_WIKI": {
+   "id": "JURUENA_WIKI",
+   "title": "Juruena National Park",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Juruena_National_Park",
+   "checkedAt": "2026-11-15"
+  },
+  "JURUENA_WWF": {
+   "id": "JURUENA_WWF",
+   "title": "Juruena National Park (Amazon region expeditions)",
+   "publisher": "WWF",
+   "url": "https://wwf.panda.org/discover/knowledge_hub/where_we_work/amazon/vision_amazon/models/amazon_region_expeditions/juruena_national_park",
+   "checkedAt": "2026-11-15"
+  },
+  "JURUENA_CAVERNAS": {
+   "id": "JURUENA_CAVERNAS",
+   "title": "Ecology and conservation of caves of the Juruena National Park",
+   "publisher": "Centro de Estudos em Biologia Subterrânea",
+   "url": "https://www.biologiasubterranea.com.br/en/projects/finished-projects/ecology-and-conservation-of-caves-of-the-juruena-national-park",
+   "checkedAt": "2026-11-15"
+  },
+  "JURUENA_ARTIGO_APIAKA": {
+   "id": "JURUENA_ARTIGO_APIAKA",
+   "title": "Os Apiaká e o Parque Nacional do Juruena: uma experiência de gestão territorial compartilhada (Ambiente & Sociedade, v. 28, 2025)",
+   "publisher": "Ambiente & Sociedade / OPAN – Amazônia Nativa",
+   "url": "https://amazonianativa.org.br/wp-content/uploads/2025/06/Artigo-Os-Apiaka-e-o-Parque-Nacional-do-Juruena.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "JURUENA_FOLHAPE": {
+   "id": "JURUENA_FOLHAPE",
+   "title": "Lewandowski assina portaria de demarcação de três terras indígenas",
+   "publisher": "Folha de Pernambuco",
+   "url": "https://www.folhape.com.br/politica/lewandowski-assina-portaria-de-demarcacao-de-tres-terras-indigenas/359092/",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "alteracoes": [
+   "Fontes CENTRO_JUR_ICM, CENTRO_JUR_DEC, CENTRO_JUR_CNPQ, CENTRO_JUR_MJ e CENTRO_JUR_PLANO (URLs do rascunho, não vindas de busca) substituídas por relatório do CNUC/MMA, Wikipedia, arquivo da WWF sobre a expedição de 2006, projeto do Centro de Estudos em Biologia Subterrânea, artigo da Ambiente & Sociedade (2025) e Folha de Pernambuco (2024). A página do planalto.gov.br não foi aberta.",
+   "C3: rótulo “Bioma principal” trocado por “Bioma em que a unidade está cadastrada” e distratores Pampa e Mata Atlântica (implausíveis) trocados por Cerrado e Pantanal; gabarito Amazônia (CNUC).",
+   "C4: “Saltos pesquisados na expedição” (alternativas implausíveis, como Iguaçu, e expedição do CNPq não verificada) trocado por “Terra indígena sobreposta ao parque” (Apiaká do Pontal e Isolados; distratores Waiãpi, Raposa Serra do Sol, Vale do Javari).",
+   "viajante: P05–P25 reescritas ou trocadas — municípios um a um, peixes de igarapé, apoio indígena, embarcações, plano de manejo e ICMBio genéricos saíram; entraram Dia Mundial do Meio Ambiente, interflúvio Tapajós–Madeira, cavernas com morcegos, relevo, temperaturas, transição para o Cerrado, 412 aves, espécies ameaçadas, expedição WWF de 2006, 293 visitantes em 2023, hidrelétricas de 2014, sobreposição, povos, salto sagrado.",
+   "geografo: P01–P25 reescritas ou trocadas (proteção integral, cadastro no bioma Amazônia, decreto e área, objetivo legal, relevo e altitudes, vegetação 53,4%/36,35%, água, aves endêmicas, usinas de 4.940 MW, corredor, Mosaico da Amazônia Meridional e ARPA, plano de manejo 2011, sobreposição de 972.901 ha, portaria de 2024, isolados do rio São Tomé, municípios por estado).",
+   "Força das pistas: viajante P01–P02 abertura, P24–P25 decisivas; geografo P01–P02 abertura, P24–P25 decisivas."
+  ],
+  "fontesAbertas": [
+   "https://cnuc-backend.mma.gov.br/api/v1/report/uc/281",
+   "https://en.wikipedia.org/wiki/Juruena_National_Park",
+   "https://wwf.panda.org/discover/knowledge_hub/where_we_work/amazon/vision_amazon/models/amazon_region_expeditions/juruena_national_park",
+   "https://www.biologiasubterranea.com.br/en/projects/finished-projects/ecology-and-conservation-of-caves-of-the-juruena-national-park",
+   "https://amazonianativa.org.br/wp-content/uploads/2025/06/Artigo-Os-Apiaka-e-o-Parque-Nacional-do-Juruena.pdf",
+   "https://www.folhape.com.br/politica/lewandowski-assina-portaria-de-demarcacao-de-tres-terras-indigenas/359092/"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

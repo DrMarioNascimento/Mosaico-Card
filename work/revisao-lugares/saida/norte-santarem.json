@@ -1,0 +1,1083 @@
+{
+ "case": {
+  "id": "lug2-norte-santarem",
+  "placeId": "norte-santarem",
+  "title": "Santarém",
+  "aliases": [],
+  "answerType": "cidade brasileira",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "norte"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade brasileira",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Santarém"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Marabá"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Itaituba"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Óbidos"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Altamira"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Parintins"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Tefé"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Coari"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Manacapuru"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Oriximiná"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Porto Nacional"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Araguaína"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Santarém",
+    "sources": [
+     "SANTAREM_IBGE_HIST",
+     "SANTAREM_WIKI"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Rios que se encontram em frente à cidade",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Tapajós e Amazonas"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Negro e Solimões"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Tocantins e Itacaiúnas"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Madeira e Amazonas"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Tapajós e Amazonas",
+    "sources": [
+     "SANTAREM_WIKI",
+     "SANTAREM_DIARIO",
+     "SANTAREM_FOLDER"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Estado brasileiro",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Pará"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Amazonas"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Amapá"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Acre"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Pará",
+    "sources": [
+     "SANTAREM_IBGE_HIST",
+     "SANTAREM_WIKI"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Destino de praias de rio ligado à cidade",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Alter do Chão"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Mosqueiro"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Ponta Negra"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Cotijuba"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Alter do Chão",
+    "sources": [
+     "SANTAREM_FOLDER",
+     "SANTAREM_MTUR_BORARI",
+     "SANTAREM_WIKI"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "norte-santarem-viajante-P01",
+      "factKey": "norte-santarem-F01",
+      "text": "Esta cidade brasileira fica na Amazônia, na região Norte.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P02",
+      "factKey": "norte-santarem-F02",
+      "text": "A vida da cidade gira em torno de grandes rios.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SANTAREM_WIKI",
+       "SANTAREM_PA_PEROLA"
+      ],
+      "clueType": "agua",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P03",
+      "factKey": "norte-santarem-F03",
+      "text": "Ela fica no oeste do seu estado.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SANTAREM_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P04",
+      "factKey": "norte-santarem-F04",
+      "text": "Pelo rio, a cidade fica mais ou menos a meio caminho entre Manaus e Belém.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_WIKI"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P05",
+      "factKey": "norte-santarem-F05",
+      "text": "Bem em frente à cidade, dois rios de cores diferentes correm lado a lado.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SANTAREM_DIARIO",
+       "SANTAREM_PA_PEROLA"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P06",
+      "factKey": "norte-santarem-F06",
+      "text": "Um dos rios é azul-esverdeado e o outro tem cor de barro.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SANTAREM_DIARIO"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P07",
+      "factKey": "norte-santarem-F07",
+      "text": "As duas águas seguem sem se misturar por cerca de 8 km.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SANTAREM_DIARIO"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P08",
+      "factKey": "norte-santarem-F08",
+      "text": "Quem mergulha entre os dois rios sente água morna de um lado e fria do outro.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SANTAREM_DIARIO"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P09",
+      "factKey": "norte-santarem-F09",
+      "text": "Dá para ver esse encontro das águas da própria orla da cidade, o ano todo.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SANTAREM_DIARIO",
+       "SANTAREM_FOLDER"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P10",
+      "factKey": "norte-santarem-F10",
+      "text": "Uma praça com mirante ocupa o lugar de uma antiga fortaleza de defesa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_FOLDER"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P11",
+      "factKey": "norte-santarem-F11",
+      "text": "A cidade começou como uma missão de jesuítas numa aldeia indígena, em 1661.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_IBGE_HIST",
+       "SANTAREM_WIKI"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P12",
+      "factKey": "norte-santarem-F12",
+      "text": "O nome da cidade homenageia uma cidade de Portugal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_IBGE_HIST"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P13",
+      "factKey": "norte-santarem-F13",
+      "text": "Um centro cultural guarda cerâmicas arqueológicas de povos antigos da região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_FOLDER"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P14",
+      "factKey": "norte-santarem-F14",
+      "text": "Na feira do pescado, os visitantes podem ver a alimentação dos botos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_FOLDER",
+       "SANTAREM_PA_PEROLA"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P15",
+      "factKey": "norte-santarem-F15",
+      "text": "O terminal fluvial turístico é um ponto clássico para ver o pôr do sol.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_FOLDER"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P16",
+      "factKey": "norte-santarem-F16",
+      "text": "Pequenos barcos levam gente e carga do porto para comunidades e cidades vizinhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_PA_PEROLA"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P17",
+      "factKey": "norte-santarem-F17",
+      "text": "Grandes navios carregam soja e milho no porto da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_PA_PEROLA",
+       "SANTAREM_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P18",
+      "factKey": "norte-santarem-F18",
+      "text": "Chove muito de novembro a julho; de agosto a outubro é a época seca.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_WIKI"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P19",
+      "factKey": "norte-santarem-F19",
+      "text": "Uma vila balneária a menos de 40 km do centro é famosa pelas praias de areia branca.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SANTAREM_FOLDER",
+       "SANTAREM_MTUR_BORARI"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P20",
+      "factKey": "norte-santarem-F20",
+      "text": "Essa vila é conhecida como Caribe Amazônico.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SANTAREM_FOLDER",
+       "SANTAREM_WIKI"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P21",
+      "factKey": "norte-santarem-F21",
+      "text": "Quando o rio baixa, as praias de areia branca tomam conta da paisagem da vila.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SANTAREM_MTUR_BORARI"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P22",
+      "factKey": "norte-santarem-F22",
+      "text": "Em setembro, a vila celebra o Sairé, festa com mais de 300 anos de tradição.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SANTAREM_FOLDER",
+       "SANTAREM_WIKI"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P23",
+      "factKey": "norte-santarem-F23",
+      "text": "O Censo de 2022 contou mais de 330 mil moradores no município.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P24",
+      "factKey": "norte-santarem-F24",
+      "text": "O rio azul-esverdeado é o Tapajós, que encontra o Amazonas bem diante da cidade.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SANTAREM_WIKI",
+       "SANTAREM_DIARIO"
+      ],
+      "clueType": "agua",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-viajante-P25",
+      "factKey": "norte-santarem-F25",
+      "text": "A vila balneária do município, terra do povo Borari, é Alter do Chão.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SANTAREM_MTUR_BORARI",
+       "SANTAREM_FOLDER"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "norte-santarem-geografo-P01",
+      "factKey": "norte-santarem-F01",
+      "text": "O destino é um centro urbano amazônico da região Norte do Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P02",
+      "factKey": "norte-santarem-F02",
+      "text": "A posição junto a uma confluência fluvial organiza a circulação regional de pessoas e cargas.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SANTAREM_WIKI",
+       "SANTAREM_PA_PEROLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P03",
+      "factKey": "norte-santarem-F03",
+      "text": "O município ocupa o oeste de seu estado, com cerca de 22,9 mil km², dos quais apenas 77 km² são urbanos.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SANTAREM_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P04",
+      "factKey": "norte-santarem-F04",
+      "text": "A cidade tem posição intermediária na rota fluvial, a 600–700 km de Manaus rio acima e de Belém rio abaixo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_WIKI"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P05",
+      "factKey": "norte-santarem-F05",
+      "text": "Na confluência, um afluente pobre em sedimentos encontra um rio carregado de material erodido dos Andes.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SANTAREM_DIARIO"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P06",
+      "factKey": "norte-santarem-F06",
+      "text": "Diferenças de densidade, temperatura e velocidade mantêm as duas massas d’água separadas por cerca de 8 km.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SANTAREM_DIARIO"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P07",
+      "factKey": "norte-santarem-F07",
+      "text": "O primeiro contato português registrado com a aldeia local foi a expedição de Pedro Teixeira, em 1626.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_IBGE_HIST"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P08",
+      "factKey": "norte-santarem-F08",
+      "text": "O núcleo nasceu em 1661 de uma missão jesuítica numa aldeia do povo que dá nome ao rio afluente.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "SANTAREM_IBGE_HIST",
+       "SANTAREM_WIKI"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P09",
+      "factKey": "norte-santarem-F09",
+      "text": "A missão organizava a coleta de drogas do sertão, como cacau, cravo, salsa e guaraná, para exportação à Europa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_IBGE_HIST"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P10",
+      "factKey": "norte-santarem-F10",
+      "text": "Em 1758, a aldeia virou vila e trocou o nome indígena por um topônimo português, na política de Mendonça Furtado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_IBGE_HIST"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P11",
+      "factKey": "norte-santarem-F11",
+      "text": "A fortaleza construída entre 1693 e 1697 resistiu a um ataque munduruku no fim do século XVIII.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_WIKI",
+       "SANTAREM_IBGE_HIST"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P12",
+      "factKey": "norte-santarem-F12",
+      "text": "O antigo sítio da fortificação virou praça-mirante voltada para a frente fluvial da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_FOLDER"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P13",
+      "factKey": "norte-santarem-F13",
+      "text": "A vila foi elevada a cidade pela Lei Provincial nº 145, de 24 de outubro de 1848.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_IBGE_HIST",
+       "SANTAREM_WIKI"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P14",
+      "factKey": "norte-santarem-F14",
+      "text": "Belterra e Aveiro já foram distritos do município e depois se emanciparam.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P15",
+      "factKey": "norte-santarem-F15",
+      "text": "Soja e milho do Centro-Oeste descem pela BR-163 até Miritituba e seguem de barco para transbordo no porto da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_PA_PEROLA"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P16",
+      "factKey": "norte-santarem-F16",
+      "text": "Em 2021, a movimentação portuária era apontada como o principal motor da economia local.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_PA_PEROLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P17",
+      "factKey": "norte-santarem-F17",
+      "text": "Um terminal graneleiro concluído em 2003 exporta soja e foi criticado por ambientalistas pela ligação com o desmatamento.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P18",
+      "factKey": "norte-santarem-F18",
+      "text": "O regime de chuvas alterna estação úmida de novembro a julho e seca de agosto a outubro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_WIKI"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P19",
+      "factKey": "norte-santarem-F19",
+      "text": "Na vazante, bancos de areia branca dominam a paisagem da vila balneária do município.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SANTAREM_MTUR_BORARI"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P20",
+      "factKey": "norte-santarem-F20",
+      "text": "A vila balneária fica a cerca de 35 km do centro pela rodovia PA-457.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SANTAREM_MTUR_BORARI"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P21",
+      "factKey": "norte-santarem-F21",
+      "text": "O povo Borari, originário do território, está presente em toda a vila balneária.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SANTAREM_MTUR_BORARI"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P22",
+      "factKey": "norte-santarem-F22",
+      "text": "O Sairé, festa com mais de três séculos de tradição, ocorre em setembro na vila balneária.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SANTAREM_FOLDER",
+       "SANTAREM_WIKI"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P23",
+      "factKey": "norte-santarem-F23",
+      "text": "Segundo o Censo 2022 do IBGE, o município tinha 331.942 habitantes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SANTAREM_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P24",
+      "factKey": "norte-santarem-F24",
+      "text": "A confluência diante da cidade une o Tapajós, de águas claras, ao Amazonas, barrento.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SANTAREM_WIKI",
+       "SANTAREM_DIARIO"
+      ],
+      "clueType": "agua",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-santarem-geografo-P25",
+      "factKey": "norte-santarem-F25",
+      "text": "A vila balneária conhecida como Caribe Amazônico é Alter do Chão, distrito do município.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SANTAREM_FOLDER",
+       "SANTAREM_IBGE_HIST"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Cidade do oeste do Pará, nascida de uma missão jesuítica de 1661 na aldeia dos Tapajós, diante do encontro das águas do Tapajós com o Amazonas; o distrito de Alter do Chão, com praias de rio e a festa do Sairé, pertence ao município.",
+   "editorialNotes": [
+    "O histórico do IBGE traz datas divergentes para a elevação a vila (1754/1756 pela Carta Régia e 14 de março de 1758 pelo governador); as pistas usam 1758.",
+    "População do Censo 2022 (331.942) conferida na Wikipedia, cujo corpo do texto ainda chama o número de estimativa de 2020; a página do IBGE Cidades não foi aberta.",
+    "As águas correm lado a lado por cerca de 8 km, segundo o Diário do Pará; isso não significa ausência permanente de mistura."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Fontes do rascunho (prefeitura, secretaria de turismo, MTur, IBGE Cidades) não vieram das buscas; substituídas por histórico do IBGE, folder turístico da prefeitura, MTur (Borari), Portal Amazônia, Diário do Pará e Wikipedia; C2 e C4 com alternativas refeitas; Cabanagem na fortaleza, Bosque Vera Paz e BR-163 até Rurópolis retirados."
+  }
+ },
+ "sources": {
+  "SANTAREM_IBGE_HIST": {
+   "id": "SANTAREM_IBGE_HIST",
+   "title": "Santarém (PA) — histórico e formação administrativa",
+   "publisher": "IBGE (Biblioteca)",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/para/santarem.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "SANTAREM_WIKI": {
+   "id": "SANTAREM_WIKI",
+   "title": "Santarém, Pará",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Santar%C3%A9m,_Par%C3%A1",
+   "checkedAt": "2026-11-15"
+  },
+  "SANTAREM_FOLDER": {
+   "id": "SANTAREM_FOLDER",
+   "title": "Folder-mapa turístico de Santarém",
+   "publisher": "Prefeitura de Santarém",
+   "url": "https://cop30.santarem.pa.gov.br/storage/STM_Turismo_FolderMapa_BR.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "SANTAREM_PA_PEROLA": {
+   "id": "SANTAREM_PA_PEROLA",
+   "title": "Santarém, a Pérola do Tapajós",
+   "publisher": "Portal Amazônia",
+   "url": "https://portalamazonia.com/navegador-da-amazonia/santarem-a-perola-do-tapajos",
+   "checkedAt": "2026-11-15"
+  },
+  "SANTAREM_MTUR_BORARI": {
+   "id": "SANTAREM_MTUR_BORARI",
+   "title": "Experiências do Brasil Original 2023 — Comunidade Indígena Borari de Alter do Chão",
+   "publisher": "Ministério do Turismo",
+   "url": "https://www.gov.br/turismo/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/experiencias-do-brasil-original/2023-comunidade-indigena-borari-de-alter-do-chao.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "SANTAREM_DIARIO": {
+   "id": "SANTAREM_DIARIO",
+   "title": "Rios correm lado a lado sem se misturar por 8 km perto de Alter do Chão",
+   "publisher": "Diário do Pará",
+   "url": "https://diariodopara.com.br/cotidiano/rios-correm-lado-a-lado-sem-se-misturar-por-8-km-perto-de-alter-do-chao/",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "alteracoes": [
+   "Fontes SANTAREM_HIST, SANTAREM_PONTOS, SANTAREM_MTUR e SANTAREM_IBGE (URLs do rascunho, não vindas de busca) substituídas por histórico do IBGE, folder-mapa da Prefeitura de Santarém, documento do MTur sobre a comunidade Borari, Portal Amazônia (2021), Diário do Pará e Wikipedia.",
+   "C2: distratores “Madeira e Guaporé” (encontro inexistente como par) e “Tocantins e Araguaia” trocados por “Tocantins e Itacaiúnas” (Marabá) e “Madeira e Amazonas”; gabarito mantido.",
+   "C4: rótulo “Distrito conhecido por praias fluviais” trocado por “Destino de praias de rio ligado à cidade”; distratores Barcelos e Salvaterra (municípios) trocados por Mosqueiro e Cotijuba; Ponta Negra mantida; gabarito Alter do Chão mantido.",
+   "viajante: P04–P09 reescritas com dados do encontro das águas (cores, 8 km, temperatura, vista da orla); fortaleza como abrigo na Cabanagem, Praça do Mirante pelo nome, datas de vila/cidade, Bosque Vera Paz, BR-163 e Centro Cultural pelo nome retirados ou reescritos; entraram missão de 1661, nome português, cerâmica arqueológica, botos na feira do pescado, pôr do sol no terminal, barcos e porto de grãos, estações de chuva, vila balneária, Caribe Amazônico, vazante, Sairé de 300 anos e Borari.",
+   "geografo: P03–P25 reescritas ou trocadas (área municipal, posição entre Manaus e Belém, processo do encontro das águas, Pedro Teixeira 1626, missão jesuítica e drogas do sertão, topônimo de 1758, fortaleza de 1693–1697, Lei Provincial de 1848, emancipação de Belterra e Aveiro, rota da soja pela BR-163 e Miritituba, terminal graneleiro de 2003, regime de chuvas, PA-457, Borari, Sairé, Censo 2022).",
+   "Força das pistas: viajante P01–P02 abertura, P24–P25 decisivas; geografo P01–P02 abertura, P24–P25 decisivas."
+  ],
+  "fontesAbertas": [
+   "https://biblioteca.ibge.gov.br/visualizacao/dtb/para/santarem.pdf",
+   "https://en.wikipedia.org/wiki/Santar%C3%A9m,_Par%C3%A1",
+   "https://cop30.santarem.pa.gov.br/storage/STM_Turismo_FolderMapa_BR.pdf",
+   "https://portalamazonia.com/navegador-da-amazonia/santarem-a-perola-do-tapajos",
+   "https://www.gov.br/turismo/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/experiencias-do-brasil-original/2023-comunidade-indigena-borari-de-alter-do-chao.pdf",
+   "https://diariodopara.com.br/cotidiano/rios-correm-lado-a-lado-sem-se-misturar-por-8-km-perto-de-alter-do-chao/"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

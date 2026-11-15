@@ -1,0 +1,1054 @@
+{
+ "case": {
+  "id": "lug3-baia-almirantado",
+  "placeId": "baia-almirantado",
+  "title": "Baía do Almirantado",
+  "aliases": [
+   "Admiralty Bay"
+  ],
+  "answerType": "baía antártica",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Baía ou enseada antártica",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Baía do Almirantado"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Baía Maxwell"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Enseada Potter"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Baía Esperança"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Baía Paradise"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Whalers Bay"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Port Foster"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Baía Andvord"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Baía Wilhelmina"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Baía Commonwealth"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Baía Margarida"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Baía Prydz"
+     },
+     {
+      "id": "C1-O13",
+      "text": "Baía das Baleias"
+     },
+     {
+      "id": "C1-O14",
+      "text": "Port Lockroy"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Baía do Almirantado",
+    "sources": [
+     "ALMIRANTADO_ASMA1",
+     "ALMIRANTADO_NATGEO"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Ilha onde fica a baía",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Ilha Rei George"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Ilha Livingston"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Ilha Elefante"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Ilha Ross"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Ilha Rei George",
+    "sources": [
+     "ALMIRANTADO_ASMA1",
+     "ALMIRANTADO_NATGEO"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Países com estações de pesquisa de ano inteiro na baía",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Brasil e Polônia"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Chile e Rússia"
+     },
+     {
+      "id": "C3-O3",
+      "text": "China e Uruguai"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Argentina e Coreia do Sul"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Brasil e Polônia",
+    "sources": [
+     "ALMIRANTADO_ASMA1"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Tipo de feição que forma a baía",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Fiorde"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Caldeira vulcânica inundada"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Laguna costeira fechada por restinga"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Estuário de grande rio"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Fiorde",
+    "sources": [
+     "ALMIRANTADO_ASMA1"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "baia-almirantado-viajante-P01",
+      "factKey": "baia-almirantado-F01",
+      "text": "Uma grande baía cercada de geleiras se abre na costa de uma ilha antártica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P02",
+      "factKey": "baia-almirantado-F02",
+      "text": "O clima é frio e úmido, típico do litoral antártico, com média anual perto de –2 °C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "clima",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P03",
+      "factKey": "baia-almirantado-F03",
+      "text": "Fica num arquipélago a cerca de 125 km da ponta norte da Península Antártica.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P04",
+      "factKey": "baia-almirantado-F04",
+      "text": "Quase 90% da terra em volta da baía fica coberta de gelo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P05",
+      "factKey": "baia-almirantado-F05",
+      "text": "No fundo da baía, o gelo desce até o mar por três enseadas.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P06",
+      "factKey": "baia-almirantado-F06",
+      "text": "A baía tem a forma de um fiorde: um antigo vale de geleira invadido pelo mar.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P07",
+      "factKey": "baia-almirantado-F07",
+      "text": "Praias antigas ficaram “penduradas” até uns 20 m acima do nível do mar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P08",
+      "factKey": "baia-almirantado-F08",
+      "text": "Entre as rochas vulcânicas da margem aparecem camadas com fósseis de plantas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P09",
+      "factKey": "baia-almirantado-F09",
+      "text": "Pinguins-de-adélia, de-barbicha e gentoo são as aves que mais fazem ninho por ali.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P10",
+      "factKey": "baia-almirantado-F10",
+      "text": "Nas últimas décadas, os gentoos aumentaram, enquanto adélias e barbichas diminuíram.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P11",
+      "factKey": "baia-almirantado-F11",
+      "text": "Elefantes-marinhos e focas-de-weddell têm filhotes nas praias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P12",
+      "factKey": "baia-almirantado-F12",
+      "text": "No verão, a baleia-jubarte é a baleia vista com mais frequência.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P13",
+      "factKey": "baia-almirantado-F13",
+      "text": "Musgos, centenas de tipos de líquen e duas plantas com flor nativas ocupam os trechos sem gelo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P14",
+      "factKey": "baia-almirantado-F14",
+      "text": "Algas gigantes crescem no fundo da baía, entre 15 e 30 m de profundidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P15",
+      "factKey": "baia-almirantado-F15",
+      "text": "Entre 1956 e 2000, o ar ali ficou cerca de 1,1 °C mais quente, e as geleiras recuaram.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P16",
+      "factKey": "baia-almirantado-F16",
+      "text": "Uma estação polonesa funciona o ano inteiro na baía desde 1977.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P17",
+      "factKey": "baia-almirantado-F17",
+      "text": "O Peru tem uma base usada só no verão na mesma baía.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P18",
+      "factKey": "baia-almirantado-F18",
+      "text": "Um túmulo com monumento de bronze, perto de uma das estações, é sítio histórico protegido.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P19",
+      "factKey": "baia-almirantado-F19",
+      "text": "Um velho bote baleeiro e um esqueleto de baleia montado ficam perto de uma das estações.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P20",
+      "factKey": "baia-almirantado-F20",
+      "text": "Uma base brasileira foi inaugurada ali em fevereiro de 1984.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ALMIRANTADO_NATGEO"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P21",
+      "factKey": "baia-almirantado-F21",
+      "text": "Em 2012, um incêndio destruiu 70% dessa base, e dois militares morreram.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ALMIRANTADO_NATGEO",
+       "ALMIRANTADO_MARINHA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P22",
+      "factKey": "baia-almirantado-F22",
+      "text": "Cruzes numa península da baía homenageiam militares, dois deles mortos nesse incêndio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P23",
+      "factKey": "baia-almirantado-F23",
+      "text": "A nova estação, aberta em janeiro de 2020, tem cerca de 4.500 m² e recebe até 64 pessoas.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ALMIRANTADO_NATGEO",
+       "ALMIRANTADO_MARINHA"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P24",
+      "factKey": "baia-almirantado-F24",
+      "text": "O projeto da nova estação é de um escritório de arquitetura de Curitiba.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ALMIRANTADO_MARINHA",
+       "ALMIRANTADO_FAPESP"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-viajante-P25",
+      "factKey": "baia-almirantado-F25",
+      "text": "A estação usa vento e sol para gerar parte da sua energia.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ALMIRANTADO_MARINHA"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "baia-almirantado-geografo-P01",
+      "factKey": "baia-almirantado-F01",
+      "text": "Um fiorde amplo entalha a costa sul de uma ilha quase toda coberta por calota de gelo.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P02",
+      "factKey": "baia-almirantado-F02",
+      "text": "O clima é o típico da Antártida marítima: média anual de –1,8 °C, umidade de 82% e cerca de 508 mm de precipitação por ano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "clima",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P03",
+      "factKey": "baia-almirantado-F03",
+      "text": "O Estreito de Bransfield separa a área, por uns 125 km, da extremidade norte da Península Antártica.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P04",
+      "factKey": "baia-almirantado-F04",
+      "text": "Dos 360 km² da área gerida, só uns 37 km² de terra estão livres de gelo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P05",
+      "factKey": "baia-almirantado-F05",
+      "text": "Na cabeceira, a calota transborda para três enseadas — Ezcurra, Mackellar e Martel —, onde geleiras de maré muito fendilhadas chegam ao mar.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P06",
+      "factKey": "baia-almirantado-F26",
+      "text": "O fundo da baía tem relevo muito variado, e as macroalgas chegam a uns 50–60 m de profundidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P07",
+      "factKey": "baia-almirantado-F07",
+      "text": "Praias elevadas até ~20 m registram o soerguimento glacioisostático do Holoceno: aliviada do peso do gelo, a crosta subiu.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P08",
+      "factKey": "baia-almirantado-F08",
+      "text": "Andesitos basálticos intercalados a sedimentos com plantas fósseis registram a evolução cenozoica de um arco de ilhas vulcânico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P09",
+      "factKey": "baia-almirantado-F27",
+      "text": "Um tilito do Eoceno numa das enseadas é interpretado como evidência de uma glaciação de tipo alpino naquela época.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P10",
+      "factKey": "baia-almirantado-F28",
+      "text": "O permafrost aparece, em geral, nas encostas voltadas para o norte acima de uns 30 m de altitude.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P11",
+      "factKey": "baia-almirantado-F09",
+      "text": "Pinguins do gênero Pygoscelis somam 91% das aves reprodutoras, entre as 14 espécies que nidificam na área.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P12",
+      "factKey": "baia-almirantado-F10",
+      "text": "Em cerca de 30 anos, adélias e barbichas caíram uns 57%, enquanto os gentoos cresceram uns 64% desde a criação da área gerida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P13",
+      "factKey": "baia-almirantado-F11",
+      "text": "Seis espécies de pinípedes frequentam a área; elefante-marinho e foca-de-weddell se reproduzem nela.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P14",
+      "factKey": "baia-almirantado-F12",
+      "text": "A jubarte é o cetáceo mais frequente no verão, e houve pesca de krill dentro da baía na temporada 2009–2010.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P15",
+      "factKey": "baia-almirantado-F13",
+      "text": "Mais de 300 espécies de líquens e cerca de 60 de musgos convivem com as duas vasculares nativas, Deschampsia antarctica e Colobanthus quitensis.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P16",
+      "factKey": "baia-almirantado-F15",
+      "text": "O aquecimento de 1,1 °C entre 1956 e 2000 foi associado a um recuo de 12% das frentes de geleira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P17",
+      "factKey": "baia-almirantado-F29",
+      "text": "A gramínea exótica Poa annua foi registrada no verão de 1985–86 junto à estação polonesa da baía.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P18",
+      "factKey": "baia-almirantado-F16",
+      "text": "Duas estações operam o ano todo: a polonesa Henryk Arctowski, na Ponta Thomas desde 1977, e a brasileira da Península Keller.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P19",
+      "factKey": "baia-almirantado-F17",
+      "text": "Peru (estação de verão na Ponta Crépin, de 1988) e Equador (refúgio na Ponta Hennequin, de 1989) completam a presença sul-americana.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P20",
+      "factKey": "baia-almirantado-F30",
+      "text": "Um acampamento de verão dos EUA, usado desde 1977, fica dentro da ASPA 128, na margem oeste; ali só se desembarca em emergência.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P21",
+      "factKey": "baia-almirantado-F31",
+      "text": "A gestão conjunta, proposta por Brasil e Polônia com Equador e Peru, foi adotada em 1996 e revista em 2006 como a ASMA nº 1.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P22",
+      "factKey": "baia-almirantado-F21",
+      "text": "O incêndio de 25 de fevereiro de 2012 destruiu 70% da estação brasileira; a nova, inaugurada em 15 de janeiro de 2020, ocupa o mesmo sítio.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ALMIRANTADO_NATGEO",
+       "ALMIRANTADO_FAPESP"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P23",
+      "factKey": "baia-almirantado-F25",
+      "text": "A nova estação combina energia eólica, solar fotovoltaica, cogeração com o calor dos motores e geradores a diesel.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ALMIRANTADO_MARINHA"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P24",
+      "factKey": "baia-almirantado-F32",
+      "text": "As fundações foram dimensionadas considerando um sismo de magnitude 5,6 registrado em 27 de agosto de 2018.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ALMIRANTADO_MARINHA"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "baia-almirantado-geografo-P25",
+      "factKey": "baia-almirantado-F33",
+      "text": "Uma base britânica, a Base G, funcionou na Península Keller de 1947 a 1961, antes das estações atuais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ALMIRANTADO_ASMA1"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Grande fiorde na costa sul da Ilha Rei George (Shetland do Sul), protegido como Área Antártica Especialmente Gerenciada nº 1, onde funcionam o ano inteiro a estação polonesa Arctowski e a brasileira Comandante Ferraz, reinaugurada em 2020 após o incêndio de 2012.",
+   "editorialNotes": [
+    "O plano de manejo da ASMA nº 1 (Medida 14/2014) foi lido na reprodução do Ministério do Meio Ambiente do Japão; as tendências de pinguins citadas são as desse plano.",
+    "A página da Marinha ainda fala em inauguração prevista para janeiro de 2020; a data de 15/01/2020 vem da National Geographic Brasil e da Pesquisa FAPESP.",
+    "O número de laboratórios diverge entre as fontes (14 internos + 5 externos na Marinha; 17 na National Geographic e na FAPESP), por isso as pistas não o citam."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "criado e verificado nas fontes"
+  }
+ },
+ "sources": {
+  "ALMIRANTADO_ASMA1": {
+   "id": "ALMIRANTADO_ASMA1",
+   "title": "Management Plan for Antarctic Specially Managed Area No. 1 — Admiralty Bay, King George Island (Measure 14, 2014)",
+   "publisher": "Ministry of the Environment, Japan (texto adotado pela Reunião Consultiva do Tratado da Antártida)",
+   "url": "https://www.env.go.jp/earth/nankyoku/kankyohogo/database/jyouyaku/asma/asma_pdf_en/ASMA01_en.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "ALMIRANTADO_MARINHA": {
+   "id": "ALMIRANTADO_MARINHA",
+   "title": "Nova Estação Antártica Comandante Ferraz",
+   "publisher": "Marinha do Brasil — SECIRM/PROANTAR",
+   "url": "https://www.marinha.mil.br/secirm/proantar/nova-estacao",
+   "checkedAt": "2026-11-15"
+  },
+  "ALMIRANTADO_NATGEO": {
+   "id": "ALMIRANTADO_NATGEO",
+   "title": "Base científica inaugura nova era de pesquisas brasileiras na Antártida",
+   "publisher": "National Geographic Brasil",
+   "url": "https://www.nationalgeographicbrasil.com/ciencia/2020/01/base-cientifica-inaugura-nova-era-de-pesquisas-brasileiras-na-antartida",
+   "checkedAt": "2026-11-15"
+  },
+  "ALMIRANTADO_FAPESP": {
+   "id": "ALMIRANTADO_FAPESP",
+   "title": "A nova Estação Antártica brasileira",
+   "publisher": "Revista Pesquisa FAPESP",
+   "url": "https://revistapesquisa.fapesp.br/a-nova-estacao-antartica-brasileira/",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.env.go.jp/earth/nankyoku/kankyohogo/database/jyouyaku/asma/asma_pdf_en/ASMA01_en.pdf",
+   "https://www.marinha.mil.br/secirm/proantar/nova-estacao",
+   "https://www.nationalgeographicbrasil.com/ciencia/2020/01/base-cientifica-inaugura-nova-era-de-pesquisas-brasileiras-na-antartida",
+   "https://revistapesquisa.fapesp.br/a-nova-estacao-antartica-brasileira/"
+  ],
+  "alteracoes": [
+   "criado do zero"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

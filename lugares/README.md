@@ -208,6 +208,40 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Reservas de Mata Atlântica do Sudeste | Brasil / Sudeste e Sul |
 | Rio Grande | Brasil / Sul |
 | Santa Maria | Brasil / Sul |
+| Auckland | Oceania |
+| Baía do Almirantado | Antártida |
+| Barcelona | Europa |
+| Berlim | Europa |
+| Geleira Lambert | Antártida |
+| Independence Hall | Américas |
+| Parque Nacional de Komodo | Ásia |
+| Lago Vostok | Antártida |
+| Lisboa | Europa |
+| Londres | Europa |
+| Mar de Areia do Namibe | África |
+| Mbanza Kongo | África |
+| Melbourne | Oceania |
+| Parque Nacional Mesa Verde | Américas |
+| Rio Branco | Brasil / Norte |
+| Santarém | Brasil / Norte |
+| Parque Nacional Montanhas do Tumucumaque | Brasil / Norte |
+| Parque Nacional do Juruena | Brasil / Norte e Centro-Oeste |
+| Parque Nacional de Chitwan | Ásia |
+| Parque Nacional da Serra do Cipó | Brasil / Sudeste |
+| Parque Nacional de Virunga | África |
+| Polo Sul de Inacessibilidade | Antártida |
+| Queenstown | Oceania |
+| Reserva da Biosfera da Borboleta-Monarca | Américas |
+| Rio São Francisco | Brasil / Sudeste e Nordeste |
+| Rotorua | Oceania |
+| Sant’Ana do Livramento | Brasil / Sul |
+| São Francisco do Sul | Brasil / Sul |
+| Reserva da Biosfera Sian Ka’an | Américas |
+| Parque Nacional do Superagui | Brasil / Sul |
+| Parque Nacional Tikal | Américas |
+| Centro Arqueológico de Tiwanaku | Américas |
+| Torres | Brasil / Sul |
+| Wellington | Oceania |
 
 | Parque Nacional do Catimbau | Brasil / Nordeste |
 | Parque Nacional de Ubajara | Brasil / Nordeste |
@@ -234,7 +268,7 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Belo Horizonte | Brasil / Sudeste |
 | Parque Nacional Los Glaciares | Américas |
 
-São 218 lugares, 436 conjuntos de pistas (dois por lugar), 10.900 pistas, 872 perguntas distintas e 5.840 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 252 lugares, 504 conjuntos de pistas (dois por lugar), 12.600 pistas, 1.008 perguntas distintas e 6.728 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 

@@ -1,0 +1,1067 @@
+{
+ "case": {
+  "id": "lug3-geleira-lambert",
+  "placeId": "geleira-lambert",
+  "title": "Geleira Lambert",
+  "aliases": [
+   "Lambert Glacier"
+  ],
+  "answerType": "geleira",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Geleira antártica",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Geleira Lambert"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Geleira Beardmore"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Geleira Thwaites"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Geleira Pine Island"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Geleira Byrd"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Geleira Totten"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Geleira Denman"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Geleira Mertz"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Geleira Shirase"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Geleira Recovery"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Geleira Axel Heiberg"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Geleira Nimrod"
+     },
+     {
+      "id": "C1-O13",
+      "text": "Geleira David"
+     },
+     {
+      "id": "C1-O14",
+      "text": "Geleira Ninnis"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Geleira Lambert",
+    "sources": [
+     "LAMBERT_SCAR_GAZ",
+     "LAMBERT_GUINNESS"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Plataforma de gelo onde a geleira passa a flutuar",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Plataforma de Gelo Amery"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Plataforma de Gelo Ross"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Plataforma de Gelo Filchner"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Plataforma de Gelo Shackleton"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Plataforma de Gelo Amery",
+    "sources": [
+     "LAMBERT_SCAR_GAZ",
+     "LAMBERT_GUINNESS",
+     "LAMBERT_NASA_AMERY"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Cordilheira na margem oeste do vale da geleira",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Montes Príncipe Charles"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Montanhas Ellsworth"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Montanhas Transantárticas"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Montanhas Sør Rondane"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Montes Príncipe Charles",
+    "sources": [
+     "LAMBERT_SCAR_GAZ",
+     "LAMBERT_POLARRECORD"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Como a geleira foi descoberta",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Em voos fotográficos australianos, em 1956"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Pela Expedição Nimrod, de Shackleton, em 1908"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Pela expedição de Amundsen ao Polo, em 1911"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Pela Expedição Terra Nova, de Scott, em 1911"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Em voos fotográficos australianos, em 1956",
+    "sources": [
+     "LAMBERT_SCAR_GAZ",
+     "LAMBERT_GUINNESS"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "geleira-lambert-viajante-P01",
+      "factKey": "geleira-lambert-F01",
+      "text": "Um imenso rio de gelo desce do planalto antártico rumo ao mar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_SCAR_GAZ"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P02",
+      "factKey": "geleira-lambert-F02",
+      "text": "Fica na parte leste da Antártida, num setor reivindicado pela Austrália.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_GUINNESS",
+       "LAMBERT_NASA_AMERY"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P03",
+      "factKey": "geleira-lambert-F12",
+      "text": "Pelas contas do Serviço Geológico dos EUA, ela tem uns 435 km de comprimento.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_LIVESCIENCE"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P04",
+      "factKey": "geleira-lambert-F11",
+      "text": "No ponto mais largo, passa de 96 km de uma margem à outra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_LIVESCIENCE"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P05",
+      "factKey": "geleira-lambert-F13",
+      "text": "No meio dela, o gelo chega a 2.500 m de espessura.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_LIVESCIENCE"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P06",
+      "factKey": "geleira-lambert-F14",
+      "text": "O gelo avança de 400 a 800 m por ano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_LIVESCIENCE"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P07",
+      "factKey": "geleira-lambert-F06",
+      "text": "Vários braços de gelo se juntam antes de chegar à costa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_GUINNESS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P08",
+      "factKey": "geleira-lambert-F27",
+      "text": "Perto do litoral, o gelo começa a flutuar e forma uma enorme plataforma.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAMBERT_GUINNESS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P09",
+      "factKey": "geleira-lambert-F07",
+      "text": "Essa plataforma flutuante cobre cerca de 69 mil km².",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAMBERT_GUINNESS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P10",
+      "factKey": "geleira-lambert-F17",
+      "text": "A plataforma ocupa o fundo de uma grande reentrância do litoral, formada por duas baías.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAMBERT_POLARRECORD"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P11",
+      "factKey": "geleira-lambert-F19",
+      "text": "A plataforma é bem menor que as gigantes de Ross e Filchner-Ronne.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAMBERT_NASA_AMERY"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P12",
+      "factKey": "geleira-lambert-F20",
+      "text": "Rachaduras enormes cortam a plataforma, e um iceberg gigante apelidado de “dente mole” vem se soltando há anos.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAMBERT_NASA_AMERY"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P13",
+      "factKey": "geleira-lambert-F21",
+      "text": "No começo dos anos 1960, a plataforma soltou uma ilha de gelo de uns 140 por 70 km.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAMBERT_NASA_AMERY"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P14",
+      "factKey": "geleira-lambert-F22",
+      "text": "Todo ano, riachos de água de degelo correm sobre a plataforma.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAMBERT_NASA_AMERY"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P15",
+      "factKey": "geleira-lambert-F15",
+      "text": "O gelo corre num vale entre uma cordilheira e uma grande escarpa.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LAMBERT_POLARRECORD"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P16",
+      "factKey": "geleira-lambert-F24",
+      "text": "As montanhas ficam a oeste do vale, ao sul da plataforma de gelo.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LAMBERT_POLARRECORD"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P17",
+      "factKey": "geleira-lambert-F16",
+      "text": "Em 1960, já era descrita como uma das maiores geleiras de vale do mundo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_POLARRECORD"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P18",
+      "factKey": "geleira-lambert-F28",
+      "text": "Medições soviéticas sugeriram que ela é bem mais longa que a Geleira Beardmore.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_POLARRECORD"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P19",
+      "factKey": "geleira-lambert-F03",
+      "text": "Foi descoberta em 1956, em voos de fotografia aérea.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LAMBERT_SCAR_GAZ",
+       "LAMBERT_GUINNESS"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P20",
+      "factKey": "geleira-lambert-F18",
+      "text": "Expedições australianas mapearam a plataforma e as montanhas ao redor.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LAMBERT_POLARRECORD"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P21",
+      "factKey": "geleira-lambert-F04",
+      "text": "O nome homenageia o chefe do mapeamento oficial da Austrália na época.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_SCAR_GAZ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P22",
+      "factKey": "geleira-lambert-F09",
+      "text": "O sistema dessa geleira drena cerca de 16% do manto de gelo do leste antártico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_GUINNESS",
+       "LAMBERT_NASA_AMERY"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P23",
+      "factKey": "geleira-lambert-F10",
+      "text": "Ao contrário da maioria das geleiras, não mostra sinais de afinar nem de recuar há décadas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_GUINNESS"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P24",
+      "factKey": "geleira-lambert-F05",
+      "text": "O livro dos recordes a aponta como a geleira mais longa do mundo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_GUINNESS"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-viajante-P25",
+      "factKey": "geleira-lambert-F08",
+      "text": "Do ponto mais distante no interior até o mar, o gelo percorre uns 1.470 km.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_GUINNESS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "geleira-lambert-geografo-P01",
+      "factKey": "geleira-lambert-F01",
+      "text": "Uma geleira de grande porte drena vasta área do planalto a leste e ao sul de uma cordilheira.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "LAMBERT_SCAR_GAZ"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P02",
+      "factKey": "geleira-lambert-F02",
+      "text": "O fluxo se dirige à costa da Antártida Oriental, no setor reivindicado pela Austrália.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_GUINNESS",
+       "LAMBERT_NASA_AMERY"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P03",
+      "factKey": "geleira-lambert-F15",
+      "text": "Ocupa um vale aberto para o norte entre uma cordilheira, a oeste, e a Escarpa Mawson.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LAMBERT_POLARRECORD"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P04",
+      "factKey": "geleira-lambert-F06",
+      "text": "Afluentes convergem rumo ao litoral, onde o gelo deixa de se apoiar no leito e passa a flutuar.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "LAMBERT_GUINNESS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P05",
+      "factKey": "geleira-lambert-F08",
+      "text": "Do divisor de gelo até o mar, a linha de fluxo mais longa soma ~1.470 km, dos quais ~550 km em plataforma flutuante.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "LAMBERT_GUINNESS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P06",
+      "factKey": "geleira-lambert-F12",
+      "text": "Considerado só o vale principal, o comprimento citado pelo Serviço Geológico dos EUA é de uns 435 km.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_LIVESCIENCE"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P07",
+      "factKey": "geleira-lambert-F11",
+      "text": "A largura passa de 96 km no trecho mais amplo do vale.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_LIVESCIENCE"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P08",
+      "factKey": "geleira-lambert-F13",
+      "text": "A espessura do gelo no eixo central foi medida em cerca de 2.500 m.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_LIVESCIENCE"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P09",
+      "factKey": "geleira-lambert-F14",
+      "text": "O gelo do vale se desloca de 400 a 800 m por ano em direção à costa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_LIVESCIENCE"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P10",
+      "factKey": "geleira-lambert-F09",
+      "text": "A bacia do sistema geleira–plataforma ocupa ~1,55 milhão de km², cerca de 16% do manto de gelo da Antártida Oriental.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_GUINNESS",
+       "LAMBERT_NASA_AMERY"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P11",
+      "factKey": "geleira-lambert-F10",
+      "text": "Diferente da maioria das geleiras, o sistema é considerado estável há décadas, sem sinais de afinamento ou recuo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_GUINNESS"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P12",
+      "factKey": "geleira-lambert-F07",
+      "text": "A plataforma alimentada pela geleira cobre ~69 mil km².",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAMBERT_GUINNESS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P13",
+      "factKey": "geleira-lambert-F17",
+      "text": "A plataforma preenche a cabeceira de um grande reentrante costeiro formado por duas baías, perto do limite entre a Terra de Mac.Robertson e a Terra da Princesa Elizabeth.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAMBERT_POLARRECORD"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P14",
+      "factKey": "geleira-lambert-F19",
+      "text": "Apesar de drenar uma fatia enorme do manto, essa plataforma é bem menor que as de Ross e Filchner-Ronne e fica vários graus mais perto do Equador.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAMBERT_NASA_AMERY"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P15",
+      "factKey": "geleira-lambert-F20",
+      "text": "Três grandes fendas se encontram perto da frente da plataforma; a maior segue a direção do fluxo e se alarga rumo à borda.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAMBERT_NASA_AMERY"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P16",
+      "factKey": "geleira-lambert-F21",
+      "text": "O último grande desprendimento, no início dos anos 1960, liberou uma ilha de gelo de ~140 × 70 km; ali o parto de icebergs é cíclico e pode levar décadas.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAMBERT_NASA_AMERY"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P17",
+      "factKey": "geleira-lambert-F22",
+      "text": "Riachos de degelo superficial surgem todo ano na plataforma, que tem fendas extensas como as plataformas da Península Antártica que recuaram.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAMBERT_NASA_AMERY"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P18",
+      "factKey": "geleira-lambert-F24",
+      "text": "A cordilheira da margem oeste do vale fica ao sul da plataforma de gelo.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LAMBERT_POLARRECORD"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P19",
+      "factKey": "geleira-lambert-F16",
+      "text": "Em 1960, já era tida como uma das maiores geleiras de vale do mundo; dados soviéticos a indicavam bem mais longa que a Beardmore.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_POLARRECORD"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P20",
+      "factKey": "geleira-lambert-F18",
+      "text": "Levantamentos das expedições australianas (ANARE) mapearam a plataforma e as montanhas e geleiras do interior antes de 1960.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LAMBERT_POLARRECORD"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P21",
+      "factKey": "geleira-lambert-F03",
+      "text": "Foi identificada em 1956, em voos de levantamento aerofotográfico.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LAMBERT_SCAR_GAZ",
+       "LAMBERT_GUINNESS"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P22",
+      "factKey": "geleira-lambert-F04",
+      "text": "O topônimo australiano homenageia o então diretor do Mapeamento Nacional do Departamento de Desenvolvimento Nacional.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_SCAR_GAZ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P23",
+      "factKey": "geleira-lambert-F23",
+      "text": "A plataforma em que a geleira deságua foi avistada por volta de 1930, mais de duas décadas antes da própria geleira.",
+      "relatedFields": [
+       "C2",
+       "C4"
+      ],
+      "sources": [
+       "LAMBERT_POLARRECORD",
+       "LAMBERT_SCAR_GAZ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P24",
+      "factKey": "geleira-lambert-F05",
+      "text": "É a recordista mundial de comprimento entre as geleiras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAMBERT_GUINNESS"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-lambert-geografo-P25",
+      "factKey": "geleira-lambert-F26",
+      "text": "Imagens do satélite EO-1, de 2012, mostram um iceberg tabular gigante, o “dente mole”, se soltando aos poucos há mais de uma década.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAMBERT_NASA_AMERY"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Geleira da Antártida Oriental, no setor reivindicado pela Austrália, que desce entre os Montes Príncipe Charles e a Escarpa Mawson até flutuar na Plataforma de Gelo Amery, na cabeceira da baía Prydz; descoberta em voos australianos de 1956, é tida como a geleira mais longa do mundo.",
+   "editorialNotes": [
+    "O comprimento varia conforme a definição: ~435 km para o vale principal (USGS, via Live Science) ou ~1.470 km de linha de fluxo do divisor de gelo ao mar, com ~550 km já flutuando (Guinness).",
+    "O Guinness data a descoberta de 1956/57; o gazetteer SCAR/australiano, de 1956.",
+    "A página da NASA com o mapa de velocidade da geleira não abriu nesta sessão; as velocidades citadas vêm da Live Science."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "criado e verificado nas fontes"
+  }
+ },
+ "sources": {
+  "LAMBERT_SCAR_GAZ": {
+   "id": "LAMBERT_SCAR_GAZ",
+   "title": "SCAR Composite Gazetteer of Antarctica: Lambert Glacier",
+   "publisher": "Australian Antarctic Data Centre / SCAR",
+   "url": "https://data.aad.gov.au/aadc/gaz/scar/display_name.cfm?gaz_id=585",
+   "checkedAt": "2026-11-15"
+  },
+  "LAMBERT_GUINNESS": {
+   "id": "LAMBERT_GUINNESS",
+   "title": "Longest glacier",
+   "publisher": "Guinness World Records",
+   "url": "https://www.guinnessworldrecords.com/world-records/66625-longest-glacier",
+   "checkedAt": "2026-11-15"
+  },
+  "LAMBERT_LIVESCIENCE": {
+   "id": "LAMBERT_LIVESCIENCE",
+   "title": "What's the World's Biggest Glacier?",
+   "publisher": "Live Science",
+   "url": "https://www.livescience.com/32641-whats-the-worlds-biggest-glacier.html",
+   "checkedAt": "2026-11-15"
+  },
+  "LAMBERT_POLARRECORD": {
+   "id": "LAMBERT_POLARRECORD",
+   "title": "The Amery Ice Shelf and its hinterland (Polar Record, v. 10, n. 64, 1960)",
+   "publisher": "Cambridge University Press",
+   "url": "https://www.cambridge.org/core/journals/polar-record/article/amery-ice-shelf-and-its-hinterland/E496483A8572CBA13F95128B4798F807",
+   "checkedAt": "2026-11-15"
+  },
+  "LAMBERT_NASA_AMERY": {
+   "id": "LAMBERT_NASA_AMERY",
+   "title": "Amery Ice Shelf (Image of the Day, 27 jan. 2012)",
+   "publisher": "NASA Earth Observatory",
+   "url": "https://earthobservatory.nasa.gov/images/77132/amery-ice-shelf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://data.aad.gov.au/aadc/gaz/scar/display_name.cfm?gaz_id=585",
+   "https://www.guinnessworldrecords.com/world-records/66625-longest-glacier",
+   "https://www.livescience.com/32641-whats-the-worlds-biggest-glacier.html",
+   "https://www.cambridge.org/core/journals/polar-record/article/amery-ice-shelf-and-its-hinterland/E496483A8572CBA13F95128B4798F807",
+   "https://earthobservatory.nasa.gov/images/77132/amery-ice-shelf"
+  ],
+  "alteracoes": [
+   "criado do zero"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

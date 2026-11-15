@@ -1,0 +1,1076 @@
+{
+  "case": {
+    "id": "lug3-rotorua",
+    "placeId": "rotorua",
+    "title": "Rotorua",
+    "aliases": [],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "NZ"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade da Oceania",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Rotorua"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Melbourne"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Sydney"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Brisbane"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Perth"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Adelaide"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Hobart"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Camberra"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Darwin"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Cairns"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Auckland"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Wellington"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Christchurch"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Dunedin"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Napier"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Nelson"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Taupō"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Queenstown"
+          },
+          {
+            "id": "C1-O19",
+            "text": "Suva"
+          },
+          {
+            "id": "C1-O20",
+            "text": "Nouméa"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Rotorua",
+        "sources": [
+          "ROTORUA_TEARA",
+          "ROTORUA_HNZ"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Vulcão cuja erupção de 1886 destruiu os Terraços Rosa e Branco",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Monte Tarawera"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Monte Ruapehu"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Monte Taranaki"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Whakaari (Ilha White)"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Monte Tarawera",
+        "sources": [
+          "ROTORUA_TEARA",
+          "ROTORUA_TEARA_TERRACOS"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Origem da bacia do lago à beira da cidade",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Caldeira vulcânica"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Vale escavado por geleira"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Lagoa costeira barrada por dunas"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Represa artificial"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Caldeira vulcânica",
+        "sources": [
+          "ROTORUA_TEARA"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Canoa ancestral (waka) lembrada em nomes maori da cidade",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Arawa"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Tainui"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Tākitimu"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Kurahaupō"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Arawa",
+        "sources": [
+          "ROTORUA_TEARA"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "rotorua-viajante-P01",
+            "factKey": "rotorua-F01",
+            "text": "Esta cidade fica na margem de um lago e não tem porto marítimo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P02",
+            "factKey": "rotorua-F02",
+            "text": "Um cheiro de enxofre faz parte do dia a dia dos moradores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TNZ",
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P03",
+            "factKey": "rotorua-F03",
+            "text": "Vapor sobe de respiradouros, poças de lama borbulham e fontes quentes brotam pela cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P04",
+            "factKey": "rotorua-F04",
+            "text": "Num parque público gratuito há poças de lama e banhos de pés com água termal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TNZ"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P05",
+            "factKey": "rotorua-F05",
+            "text": "O gêiser mais famoso jorra a cerca de 30 m de altura, até 20 vezes por dia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TNZ"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P06",
+            "factKey": "rotorua-F06",
+            "text": "Esse gêiser já jorrou sem parar por mais de 250 dias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TNZ"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P07",
+            "factKey": "rotorua-F07",
+            "text": "Uma aldeia maori viva fica no meio de uma paisagem geotérmica intocada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TNZ",
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P08",
+            "factKey": "rotorua-F08",
+            "text": "O lago à beira da cidade mede cerca de 12 km de norte a sul e 10 km de leste a oeste.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P09",
+            "factKey": "rotorua-F09",
+            "text": "Esse lago se formou na cratera de um antigo vulcão, há cerca de 200 mil anos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P10",
+            "factKey": "rotorua-F10",
+            "text": "Uma ilha a cerca de 2 km da margem leste do lago é santuário de vida selvagem desde 1921.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P11",
+            "factKey": "rotorua-F11",
+            "text": "Numa lenda de amor, Hinemoa nadou à noite até essa ilha para encontrar Tūtānekai.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P12",
+            "factKey": "rotorua-F12",
+            "text": "Uma antiga casa de banhos de 1908, inspirada nos spas europeus, hoje abriga o museu de arte e história.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TEARA",
+              "ROTORUA_HNZ"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P13",
+            "factKey": "rotorua-F13",
+            "text": "Os Blue Baths, construídos em 1931–32 em estilo missão espanhola, inovaram ao permitir banho misto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P14",
+            "factKey": "rotorua-F14",
+            "text": "Os jardins do governo são um jardim de spa da época eduardiana, com laguinhos e fumarolas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_HNZ"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P15",
+            "factKey": "rotorua-F15",
+            "text": "Mais de um milhão de visitantes por ano passam pela cidade, cerca de metade vinda do exterior.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P16",
+            "factKey": "rotorua-F16",
+            "text": "Uma floresta de 2.280 ha guarda um bosque de sequoias da Califórnia plantado em 1901.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P17",
+            "factKey": "rotorua-F17",
+            "text": "Até 1886, o passeio aos Terraços Rosa e Branco era o ponto alto de uma viagem ao país.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ROTORUA_TEARA_TERRACOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P18",
+            "factKey": "rotorua-F18",
+            "text": "Em 10 de junho de 1886, o Monte Tarawera entrou em erupção e destruiu esses terraços.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ROTORUA_TEARA",
+              "ROTORUA_TEARA_TERRACOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P19",
+            "factKey": "rotorua-F19",
+            "text": "A aldeia de Te Wairoa ficou soterrada sob quase 2,5 m de cinza e lama; hoje é um sítio visitável com museu.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P20",
+            "factKey": "rotorua-F20",
+            "text": "As guias maori Sophia Hinerangi e Kate Middlemass ficaram conhecidas levando turistas aos terraços.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ROTORUA_TEARA_TERRACOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P21",
+            "factKey": "rotorua-F21",
+            "text": "A cidade foi construída pelo governo, no início da década de 1880, como destino turístico dos \"lagos quentes\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P22",
+            "factKey": "rotorua-F22",
+            "text": "O trem chegou à cidade em 1894.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TEARA",
+              "ROTORUA_HNZ"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P23",
+            "factKey": "rotorua-F23",
+            "text": "Em 2013, quase 40% dos moradores se identificavam como maori.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P24",
+            "factKey": "rotorua-F24",
+            "text": "A casa de reunião de Ōhinemutu leva o nome de Tamatekapua, capitão da canoa Arawa.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-viajante-P25",
+            "factKey": "rotorua-F25",
+            "text": "O gêiser Pōhutu fica em Te Puia, a cinco minutos do centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TNZ"
+            ],
+            "clueType": "agua",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "rotorua-geografo-P01",
+            "factKey": "rotorua-F26",
+            "text": "A cidade fica num planalto vulcânico do interior, na margem sul de um lago situado a 279 m de altitude.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P02",
+            "factKey": "rotorua-F27",
+            "text": "Desde o fim dos anos 1970, florestas, agropecuária e eletricidade empregam menos gente, e a população se estabilizou.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P03",
+            "factKey": "rotorua-F09",
+            "text": "O lago ocupa uma caldeira vulcânica formada há cerca de 200 mil anos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P04",
+            "factKey": "rotorua-F28",
+            "text": "Até uns 20 mil anos atrás, o lago enchia quase toda a caldeira; depois a água rompeu a borda nordeste e o nível baixou cerca de 100 m.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P05",
+            "factKey": "rotorua-F29",
+            "text": "Com profundidade máxima de 25 m, é o maior lago do conjunto de lagos da área.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P06",
+            "factKey": "rotorua-F30",
+            "text": "A ilha do lago é um domo vulcânico que se ergue 179 m acima da água.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P07",
+            "factKey": "rotorua-F31",
+            "text": "Santuário desde 1921, a ilha nunca teve mustelídeos nem gambás-australianos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P08",
+            "factKey": "rotorua-F32",
+            "text": "É o lago mais poluído do país: por anos, a principal fonte foi o esgoto urbano; hoje é o adubo que escorre das fazendas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P09",
+            "factKey": "rotorua-F33",
+            "text": "Em Sulphur Flats (Te Arikiroa), a atividade geotérmica continua na própria margem do lago.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P10",
+            "factKey": "rotorua-F34",
+            "text": "A erupção de 1886 abriu uma fissura de quase 16 km, destruiu os Terraços Rosa e Branco e esvaziou o Lago Rotomahana.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P11",
+            "factKey": "rotorua-F35",
+            "text": "Os Tūhourangi, que guiavam turistas aos terraços, passaram a oferecer esses serviços nas fontes termais em volta da cidade depois de 1886.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ROTORUA_TEARA_TERRACOS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P12",
+            "factKey": "rotorua-F36",
+            "text": "Deslocados da área do Tarawera em 1886, Tūhourangi e Ngāti Wāhiao se fixaram em Whakarewarewa.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P13",
+            "factKey": "rotorua-F37",
+            "text": "Em novembro de 1880, o Acordo Fenton entre o governo e os Ngāti Whakaue deu origem à cidade, legalizada por uma lei de 1881 sobre distritos de fontes termais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_HNZ"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P14",
+            "factKey": "rotorua-F38",
+            "text": "A cidade foi traçada em terra arrendada dos Ngāti Whakaue, perto de Ōhinemutu; o arrendamento fracassou, e o governo virou o único dono em 1888.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P15",
+            "factKey": "rotorua-F39",
+            "text": "Os Ngāti Whakaue doaram cerca de 50 acres com fontes termais medicinais como reserva pública, \"para o benefício de todos os povos do mundo\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_HNZ"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P16",
+            "factKey": "rotorua-F40",
+            "text": "Entre 1880 e 1983, o governo central controlou em grande parte a cidade, moldando seu crescimento como destino turístico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_HNZ"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P17",
+            "factKey": "rotorua-F41",
+            "text": "O governo montou ali um spa de saúde, com um balneologista oficial desde 1902 e pesquisas pioneiras de balneologia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_HNZ"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P18",
+            "factKey": "rotorua-F42",
+            "text": "A casa de banhos de 1908 seguiu o modelo dos balneários europeus, sobretudo o de Bad Nauheim, na Alemanha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P19",
+            "factKey": "rotorua-F43",
+            "text": "As obras do conjunto usaram inovações como concreto de pedra-pomes e fundações em radier.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_HNZ"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P20",
+            "factKey": "rotorua-F44",
+            "text": "Na tradição maori, as feições geotérmicas da área foram criadas pelo tohunga Ngatoroirangi.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_HNZ"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P21",
+            "factKey": "rotorua-F45",
+            "text": "O nome completo do lago homenageia Kahumatamomoe, ancestral da canoa Arawa que o teria avistado primeiro.",
+            "relatedFields": [
+              "C4",
+              "C3"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P22",
+            "factKey": "rotorua-F46",
+            "text": "A população passou de 500 habitantes em 1896 para mais de 4.700 em 1926, depois da chegada da ferrovia, em 1894.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P23",
+            "factKey": "rotorua-F47",
+            "text": "Elevada a cidade em 1962, chegou a 46 mil habitantes em 1976 e a 53.265 em 2013.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P24",
+            "factKey": "rotorua-F48",
+            "text": "Em 1895, o parlamento maori Kotahitanga se reuniu em Ōhinemutu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rotorua-geografo-P25",
+            "factKey": "rotorua-F49",
+            "text": "O museu de arte e história, na antiga casa de banhos, tem o nome maori Te Whare Taonga o Te Arawa.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ROTORUA_TEARA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade turística da Nova Zelândia, criada pelo governo no início dos anos 1880 na margem sul de um lago de caldeira vulcânica, em terras dos Ngāti Whakaue, cercada de gêiseres, poças de lama e fontes quentes, perto da área devastada pela erupção do Tarawera em 1886.",
+      "editorialNotes": [
+        "Te Ara dá a caldeira com cerca de 200 mil anos e um rebaixamento de ~100 m há ~20 mil anos; um cronograma do programa dos lagos (rotorualakes.co.nz, sem autoria explícita) dá colapso há ~22 mil anos e queda de ~30 m. As pistas seguem Te Ara.",
+        "C4 usa \"Arawa\", como Te Ara (canoa Arawa, capitão Tamatekapua); as fontes abertas não dizem explicitamente que os Ngāti Whakaue pertencem à confederação Te Arawa, por isso o resumo só os associa à canoa.",
+        "Os dados do gêiser Pōhutu (30 m, até 20 vezes por dia, mais de 250 dias seguidos) vêm do site oficial de turismo (Tourism New Zealand)."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "ROTORUA_TEARA": {
+      "id": "ROTORUA_TEARA",
+      "title": "Volcanic Plateau places",
+      "publisher": "Te Ara – The Encyclopedia of New Zealand (Manatū Taonga)",
+      "url": "https://teara.govt.nz/en/volcanic-plateau-places/print",
+      "checkedAt": "2026-11-15"
+    },
+    "ROTORUA_TEARA_TERRACOS": {
+      "id": "ROTORUA_TEARA_TERRACOS",
+      "title": "The Pink and White Terraces",
+      "publisher": "Te Ara – The Encyclopedia of New Zealand (Manatū Taonga)",
+      "url": "https://www.teara.govt.nz/en/node/90151",
+      "checkedAt": "2026-11-15"
+    },
+    "ROTORUA_TNZ": {
+      "id": "ROTORUA_TNZ",
+      "title": "Rotorua geothermal",
+      "publisher": "Tourism New Zealand (newzealand.com)",
+      "url": "https://www.newzealand.com/nz/rotorua-geothermal/",
+      "checkedAt": "2026-11-15"
+    },
+    "ROTORUA_HNZ": {
+      "id": "ROTORUA_HNZ",
+      "title": "Rotorua Government Gardens Historic Area — New Zealand Heritage List no. 7015",
+      "publisher": "Heritage New Zealand Pouhere Taonga",
+      "url": "https://www.heritage.org.nz/the-list/details/7015",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://teara.govt.nz/en/volcanic-plateau-places/print",
+      "https://www.teara.govt.nz/en/node/90151",
+      "https://www.newzealand.com/nz/rotorua-geothermal/",
+      "https://www.heritage.org.nz/the-list/details/7015"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

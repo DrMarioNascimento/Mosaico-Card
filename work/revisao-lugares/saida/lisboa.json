@@ -1,0 +1,1103 @@
+{
+ "case": {
+  "id": "lug3-lisboa",
+  "placeId": "lisboa",
+  "title": "Lisboa",
+  "aliases": [],
+  "answerType": "cidade",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "PT"
+   ],
+   "continents": [
+    "europa"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Lisboa"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Porto"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Madri"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Sevilha"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Barcelona"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Valência"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Paris"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Londres"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Roma"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Atenas"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Nápoles"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Marselha"
+     },
+     {
+      "id": "C1-O13",
+      "text": "Gênova"
+     },
+     {
+      "id": "C1-O14",
+      "text": "Bordéus"
+     },
+     {
+      "id": "C1-O15",
+      "text": "Dublin"
+     },
+     {
+      "id": "C1-O16",
+      "text": "Amsterdã"
+     },
+     {
+      "id": "C1-O17",
+      "text": "Praga"
+     },
+     {
+      "id": "C1-O18",
+      "text": "Viena"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Lisboa",
+    "sources": [
+     "LISBOA_BRIT"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Rio cujo estuário banha a cidade",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Tejo"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Douro"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Guadalquivir"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Guadiana"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Tejo",
+    "sources": [
+     "LISBOA_BRIT"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Catástrofe de 1755 que destruiu o centro da cidade",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Terremoto"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Erupção vulcânica"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Grande enchente do rio"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Epidemia de peste"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Terremoto",
+    "sources": [
+     "LISBOA_BRIT_EVOLUCAO",
+     "LISBOA_BRIT"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Navegador cuja expedição é comemorada pela torre do Patrimônio Mundial da cidade",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Vasco da Gama"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Pedro Álvares Cabral"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Fernão de Magalhães"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Bartolomeu Dias"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Vasco da Gama",
+    "sources": [
+     "LISBOA_UNESCO_JERONIMOS",
+     "LISBOA_RP_JERONIMOS",
+     "LISBOA_SOC_JERONIMOS"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "lisboa-viajante-P01",
+      "factKey": "lisboa-F01",
+      "text": "É uma capital europeia construída sobre colinas à beira de um grande rio, perto do mar.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "LISBOA_BRIT"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P02",
+      "factKey": "lisboa-F02",
+      "text": "O clima é ameno: a média anual fica perto de 17 °C, e agosto raramente passa de 28 °C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_BRIT"
+      ],
+      "clueType": "clima",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P03",
+      "factKey": "lisboa-F03",
+      "text": "Os moradores dizem que a cidade tem sete colinas tradicionais, como Roma.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_BRIT"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P04",
+      "factKey": "lisboa-F04",
+      "text": "O rio forma um estuário junto à cidade e chega ao Atlântico a cerca de 13 km dali.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LISBOA_BRIT"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P05",
+      "factKey": "lisboa-F05",
+      "text": "Esse rio é o Tejo.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LISBOA_BRIT"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P06",
+      "factKey": "lisboa-F06",
+      "text": "É a capital mais ocidental da Europa continental.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_BRIT"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P07",
+      "factKey": "lisboa-F07",
+      "text": "No alto de uma colina, um castelo guarda vestígios de ocupação humana desde o século VII a.C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_CASTELO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P08",
+      "factKey": "lisboa-F08",
+      "text": "Em 1147, D. Afonso Henriques conquistou a cidade aos muçulmanos com a ajuda de cruzados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_CASTELO"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P09",
+      "factKey": "lisboa-F09",
+      "text": "Na manhã de 1º de novembro de 1755, Dia de Todos os Santos, um terremoto destruiu o centro da cidade.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LISBOA_BRIT_EVOLUCAO",
+       "LISBOA_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P10",
+      "factKey": "lisboa-F10",
+      "text": "Depois dos tremores, um tsunami atingiu quem fugira para os barcos no rio, e incêndios duraram dias.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "LISBOA_BRIT_EVOLUCAO"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P11",
+      "factKey": "lisboa-F11",
+      "text": "Cerca de 60 mil pessoas morreram nessa catástrofe, e mais de 12 mil edifícios foram destruídos.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LISBOA_BRIT_EVOLUCAO"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P12",
+      "factKey": "lisboa-F12",
+      "text": "Uma igreja arruinada ficou sem teto desde então e virou museu arqueológico.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LISBOA_BRIT_EVOLUCAO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P13",
+      "factKey": "lisboa-F13",
+      "text": "O centro foi reconstruído com ruas retas, num plano em grade de 48 ruas.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LISBOA_BRIT_EVOLUCAO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P14",
+      "factKey": "lisboa-F14",
+      "text": "A grande praça à beira do rio nasceu da ampliação do terreno de um antigo palácio real.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "LISBOA_BRIT_EVOLUCAO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P15",
+      "factKey": "lisboa-F15",
+      "text": "Um mosteiro à entrada do porto começou a ser construído em 1502.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "LISBOA_UNESCO_JERONIMOS",
+       "LISBOA_SOC_JERONIMOS"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P16",
+      "factKey": "lisboa-F16",
+      "text": "Uma torre à beira do rio comemora a expedição de Vasco da Gama.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LISBOA_UNESCO_JERONIMOS",
+       "LISBOA_RP_JERONIMOS"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P17",
+      "factKey": "lisboa-F17",
+      "text": "A ornamentação desse mosteiro mostra a exuberância típica da arte manuelina.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_RP_JERONIMOS"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P18",
+      "factKey": "lisboa-F18",
+      "text": "O fado, canção popular cheia de emoção, é ouvido sobretudo nos bairros antigos de Alfama e Bairro Alto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_BRIT"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P19",
+      "factKey": "lisboa-F19",
+      "text": "Os bondes fazem parte da paisagem das ruas; o primeiro elétrico circulou em 1901.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_BRIT",
+       "LISBOA_BRIT_EVOLUCAO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P20",
+      "factKey": "lisboa-F20",
+      "text": "Um elevador gigante, projetado por Raoul Mesnier du Ponsard, liga a parte baixa à parte alta da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_BRIT_EVOLUCAO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P21",
+      "factKey": "lisboa-F21",
+      "text": "A Avenida da Liberdade, aberta em 1880, tem calçadas de mosaico, palmeiras e fontes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_BRIT_EVOLUCAO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P22",
+      "factKey": "lisboa-F22",
+      "text": "A ponte 25 de Abril cruza o rio no lado oeste da cidade.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "LISBOA_BRIT"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P23",
+      "factKey": "lisboa-F23",
+      "text": "A ponte Vasco da Gama, de seis faixas, já foi a mais longa da Europa.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "LISBOA_BRIT"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P24",
+      "factKey": "lisboa-F24",
+      "text": "Em 1998, a cidade sediou uma Exposição Mundial, a Expo '98.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_BRIT"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-viajante-P25",
+      "factKey": "lisboa-F25",
+      "text": "Navios de cruzeiro passam cada vez mais perto da torre à beira do rio.",
+      "relatedFields": [
+       "C2",
+       "C4"
+      ],
+      "sources": [
+       "LISBOA_RP_JERONIMOS"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "lisboa-geografo-P01",
+      "factKey": "lisboa-F01",
+      "text": "O sítio urbano sobe por colinas baixas a partir de um estuário, num litoral atlântico.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "LISBOA_BRIT"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P02",
+      "factKey": "lisboa-F02",
+      "text": "As chuvas se concentram no inverno, perto de 100 mm por mês, e o verão é quase seco, com cerca de 3 mm.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_BRIT"
+      ],
+      "clueType": "clima",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P03",
+      "factKey": "lisboa-F04",
+      "text": "O núcleo urbano fica no estuário do Tejo, junto ao Mar da Palha, a cerca de 13 km da foz.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LISBOA_BRIT"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P04",
+      "factKey": "lisboa-F29",
+      "text": "No século XV, a cidade já era um centro de operações da exploração marítima do país.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P05",
+      "factKey": "lisboa-F07",
+      "text": "A colina do castelo tem ocupação desde a Idade do Ferro, no século VII a.C., e restos de um bairro islâmico dos séculos XI e XII.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_CASTELO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P06",
+      "factKey": "lisboa-F31",
+      "text": "A alcáçova dessa colina virou o centro político do reino no século XIII e foi a principal residência real até o século XVI.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_CASTELO"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P07",
+      "factKey": "lisboa-F32",
+      "text": "O nome antigo da cidade era Olisipo, e ela também foi chamada de Felicitas Julia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P08",
+      "factKey": "lisboa-F09",
+      "text": "Em 1755, três abalos em dez minutos fizeram o cais afundar no rio.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "LISBOA_BRIT_EVOLUCAO"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P09",
+      "factKey": "lisboa-F11",
+      "text": "Ao terremoto seguiram-se um tsunami e incêndios que duraram dias; morreram cerca de 60 mil pessoas.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LISBOA_BRIT_EVOLUCAO"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P10",
+      "factKey": "lisboa-F35",
+      "text": "O engenheiro-mor Manuel da Maia chefiou cinco arquitetos e produziu o plano de reconstrução.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LISBOA_BRIT_EVOLUCAO",
+       "LISBOA_LISTA_INDICATIVA"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P11",
+      "factKey": "lisboa-F36",
+      "text": "A execução do plano coube aos engenheiros militares Eugénio dos Santos e Carlos Mardel.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LISBOA_LISTA_INDICATIVA"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P12",
+      "factKey": "lisboa-F37",
+      "text": "O ministro que comandou a reconstrução recebeu depois o título de marquês de Pombal.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LISBOA_BRIT_EVOLUCAO"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P13",
+      "factKey": "lisboa-F13",
+      "text": "A malha ortogonal de 48 ruas segue do rio para o interior, até o Rossio e a nova praça da Figueira.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LISBOA_BRIT_EVOLUCAO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P14",
+      "factKey": "lisboa-F39",
+      "text": "Os prédios reconstruídos têm uma estrutura antissísmica, a gaiola, e materiais produzidos em série.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LISBOA_LISTA_INDICATIVA"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P15",
+      "factKey": "lisboa-F40",
+      "text": "O estilo da reconstrução, barroco quase sem ornamentos, rápido e barato, ficou conhecido como pombalino.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LISBOA_BRIT_EVOLUCAO"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P16",
+      "factKey": "lisboa-F41",
+      "text": "O centro reconstruído, de cerca de 70 ha, está na lista indicativa do país à UNESCO, que o apresenta como a primeira cidade moderna do Ocidente.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LISBOA_LISTA_INDICATIVA"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P17",
+      "factKey": "lisboa-F42",
+      "text": "O novo plano foi aplicado sobre uma área urbana preexistente e incorporou ruas e igrejas anteriores ao terremoto.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LISBOA_LISTA_INDICATIVA"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P18",
+      "factKey": "lisboa-F43",
+      "text": "Em 1807, a invasão napoleônica levou a família real a fugir para o Rio de Janeiro, capital do império de 1808 a 1821.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_BRIT_EVOLUCAO"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P19",
+      "factKey": "lisboa-F44",
+      "text": "Em 1885, a cidade ocupava cerca de 8.250 hectares e tinha dobrado sua população em cem anos, para cerca de 300 mil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_BRIT_EVOLUCAO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P20",
+      "factKey": "lisboa-F45",
+      "text": "As avenidas novas estenderam a cidade para o norte, e a água do Alviela passou a chegar direto às casas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_BRIT_EVOLUCAO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P21",
+      "factKey": "lisboa-F24",
+      "text": "A Exposição Mundial de 1998 desencadeou a maior renovação urbana desde a reconstrução de 1755.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "LISBOA_BRIT"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P22",
+      "factKey": "lisboa-F47",
+      "text": "Pelo censo de 2021, o município tinha 544.851 habitantes, e a área metropolitana, 2.871.133.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LISBOA_BRIT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P23",
+      "factKey": "lisboa-F48",
+      "text": "O mosteiro e a torre, à entrada do porto, formam um bem em série de 2,66 ha, com zona de amortecimento de 103 ha, inscrito em 1983.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LISBOA_RP_JERONIMOS"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P24",
+      "factKey": "lisboa-F16",
+      "text": "A UNESCO associa a torre que comemora a viagem de Vasco da Gama à idade de ouro das grandes descobertas.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LISBOA_RP_JERONIMOS",
+       "LISBOA_UNESCO_JERONIMOS"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lisboa-geografo-P25",
+      "factKey": "lisboa-F25",
+      "text": "Cheias do rio e tempestades, cada vez piores, chegam a fechar a torre nas marés altas.",
+      "relatedFields": [
+       "C2",
+       "C4"
+      ],
+      "sources": [
+       "LISBOA_RP_JERONIMOS"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Capital de Portugal, no estuário do Tejo: destruída pelo terremoto de 1755 e reconstruída no plano pombalino, guarda à entrada do porto o Mosteiro dos Jerónimos e a Torre de Belém, que comemora a expedição de Vasco da Gama.",
+   "editorialNotes": [
+    "A Baixa Pombalina está só na lista indicativa de Portugal à UNESCO; o bem inscrito (1983) é o Mosteiro dos Jerónimos com a Torre de Belém.",
+    "A Britannica dá cerca de 60 mil mortos e mais de 12 mil edifícios destruídos em 1755; as estimativas variam entre as fontes.",
+    "A página da lista da UNESCO (263) não abriu; as pistas sobre o mosteiro e a torre vêm do relatório periódico, do relatório de conservação e da descrição UNESCO/NHK."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Criado e verificado nas fontes: Britannica, documentos da UNESCO (Jerónimos e Belém; lista indicativa da Lisboa Pombalina) e folheto do Castelo de São Jorge (EGEAC); C1 com 18 cidades europeias, incluindo Porto."
+  }
+ },
+ "sources": {
+  "LISBOA_BRIT": {
+   "id": "LISBOA_BRIT",
+   "title": "Lisbon",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com:443/place/Lisbon",
+   "checkedAt": "2026-11-15"
+  },
+  "LISBOA_BRIT_EVOLUCAO": {
+   "id": "LISBOA_BRIT_EVOLUCAO",
+   "title": "Lisbon — Evolution of the modern city",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/place/Lisbon/Evolution-of-the-modern-city",
+   "checkedAt": "2026-11-15"
+  },
+  "LISBOA_RP_JERONIMOS": {
+   "id": "LISBOA_RP_JERONIMOS",
+   "title": "Monastery of the Hieronymites and Tower of Belém in Lisbon — Periodic Report (Cycle 3), Section II",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/217755",
+   "checkedAt": "2026-11-15"
+  },
+  "LISBOA_SOC_JERONIMOS": {
+   "id": "LISBOA_SOC_JERONIMOS",
+   "title": "State of Conservation of World Heritage Properties in Europe, Section II — Portugal: Monastery of the Hieronymites and Tower of Belém in Lisbon",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/163148",
+   "checkedAt": "2026-11-15"
+  },
+  "LISBOA_UNESCO_JERONIMOS": {
+   "id": "LISBOA_UNESCO_JERONIMOS",
+   "title": "Monastery of the Hieronymites and Tower of Belém in Lisbon (UNESCO/NHK)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/documents/125692",
+   "checkedAt": "2026-11-15"
+  },
+  "LISBOA_LISTA_INDICATIVA": {
+   "id": "LISBOA_LISTA_INDICATIVA",
+   "title": "Lisbonne pombalienne (Lisboa Pombalina) — Liste indicative du Portugal",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/fr/listesindicatives/6226",
+   "checkedAt": "2026-11-15"
+  },
+  "LISBOA_CASTELO": {
+   "id": "LISBOA_CASTELO",
+   "title": "Castelo de São Jorge — folheto",
+   "publisher": "EGEAC / Castelo de São Jorge",
+   "url": "https://egeac.pt/wp-content/uploads/2021/10/folheto-csj-pt.pdf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.britannica.com:443/place/Lisbon",
+   "https://www.britannica.com/place/Lisbon/Evolution-of-the-modern-city",
+   "https://whc.unesco.org/document/217755",
+   "https://whc.unesco.org/document/163148",
+   "https://whc.unesco.org/en/documents/125692",
+   "https://whc.unesco.org/fr/listesindicatives/6226",
+   "https://egeac.pt/wp-content/uploads/2021/10/folheto-csj-pt.pdf"
+  ],
+  "alteracoes": [
+   "criado do zero"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

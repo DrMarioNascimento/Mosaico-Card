@@ -1,0 +1,1064 @@
+{
+ "case": {
+  "id": "lug3-lago-vostok",
+  "placeId": "lago-vostok",
+  "title": "Lago Vostok",
+  "aliases": [
+   "Lake Vostok",
+   "Vostok"
+  ],
+  "answerType": "lago subglacial",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Lago antártico",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Lago Vostok"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Lago Ellsworth"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Lago Whillans"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Lago Mercer"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Lago Concordia"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Lago Sovetskaya"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Lago Untersee"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Lago Vanda"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Lago Bonney"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Lago Fryxell"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Lago Hoare"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Lago Vida"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Lago Vostok",
+    "sources": [
+     "VOSTOK_GUINNESS",
+     "VOSTOK_AMSCI"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Espessura aproximada do gelo sobre o lago",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Cerca de 4 km"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Cerca de 1 km"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Cerca de 400 m"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Cerca de 10 km"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Cerca de 4 km",
+    "sources": [
+     "VOSTOK_GUINNESS",
+     "VOSTOK_AMSCI"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "País da estação de pesquisa ao lado do lago",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Rússia"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Estados Unidos"
+     },
+     {
+      "id": "C3-O3",
+      "text": "França e Itália"
+     },
+     {
+      "id": "C3-O4",
+      "text": "China"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Rússia",
+    "sources": [
+     "VOSTOK_GUINNESS",
+     "VOSTOK_NATGEO"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Ano em que a perfuração atingiu a água do lago",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "2012"
+     },
+     {
+      "id": "C4-O2",
+      "text": "1996"
+     },
+     {
+      "id": "C4-O3",
+      "text": "2005"
+     },
+     {
+      "id": "C4-O4",
+      "text": "2019"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "2012",
+    "sources": [
+     "VOSTOK_GUINNESS",
+     "VOSTOK_NATGEO"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "lago-vostok-viajante-P01",
+      "factKey": "lago-vostok-F01",
+      "text": "Este destino é um lago que ninguém vê: fica escondido debaixo do gelo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS",
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P02",
+      "factKey": "lago-vostok-F02",
+      "text": "Sob o gelo da Antártida existem centenas de lagos como este.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS",
+       "VOSTOK_SNEXPLORES"
+      ],
+      "clueType": "agua",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P03",
+      "factKey": "lago-vostok-F05",
+      "text": "Tem uns 230 km de comprimento e até 50 km de largura.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS",
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P04",
+      "factKey": "lago-vostok-F04",
+      "text": "Sua área é de cerca de 14 mil km², umas 20 vezes a do Lago de Genebra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P05",
+      "factKey": "lago-vostok-F06",
+      "text": "Por uma estimativa, guarda quase tanta água quanto o Lago Michigan.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_SNEXPLORES"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P06",
+      "factKey": "lago-vostok-F07",
+      "text": "Em alguns pontos, a água tem cerca de 500 m de profundidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P07",
+      "factKey": "lago-vostok-F08",
+      "text": "Por cima dele há quase 4 km de gelo.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P08",
+      "factKey": "lago-vostok-F09",
+      "text": "Lá em cima, sobre o lago, o gelo forma uma planície muito lisa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P09",
+      "factKey": "lago-vostok-F13",
+      "text": "Na superfície do gelo, a temperatura fica em torno de –60 °C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P10",
+      "factKey": "lago-vostok-F14",
+      "text": "Mesmo um pouco abaixo de 0 °C, a água continua líquida por causa do peso do gelo.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P11",
+      "factKey": "lago-vostok-F15",
+      "text": "O lago está provavelmente isolado sob o gelo há pelo menos 15 milhões de anos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_SNEXPLORES",
+       "VOSTOK_NATGEO"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P12",
+      "factKey": "lago-vostok-F16",
+      "text": "Fica sob uma região apelidada de “Polo do Frio”.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P13",
+      "factKey": "lago-vostok-F17",
+      "text": "Uma estação vizinha registrou –89,2 °C em 1983, a menor temperatura já medida na Terra.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "VOSTOK_WMO"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P14",
+      "factKey": "lago-vostok-F27",
+      "text": "Cientistas russos furaram o gelo a partir de uma estação ao lado do lago.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS",
+       "VOSTOK_NATGEO"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P15",
+      "factKey": "lago-vostok-F10",
+      "text": "Nos anos 1970, radares a bordo de aviões revelaram a água sob o gelo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P16",
+      "factKey": "lago-vostok-F25",
+      "text": "Em 1961, um piloto russo já tinha visto áreas planas no gelo e as chamou de “lagos”.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P17",
+      "factKey": "lago-vostok-F11",
+      "text": "A descoberta foi anunciada oficialmente em 1996.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P18",
+      "factKey": "lago-vostok-F18",
+      "text": "A broca alcançou a água em fevereiro de 2012, depois de mais de 20 anos de perfuração.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P19",
+      "factKey": "lago-vostok-F19",
+      "text": "Quando o furo chegou ao lago, a água subiu dezenas de metros pelo buraco e congelou.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P20",
+      "factKey": "lago-vostok-F20",
+      "text": "As primeiras amostras dessa água congelada saíram em janeiro de 2013.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS",
+       "VOSTOK_SNEXPLORES"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P21",
+      "factKey": "lago-vostok-F22",
+      "text": "Só dá para trabalhar ali no verão do sul, de novembro a fevereiro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_NATGEO"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P22",
+      "factKey": "lago-vostok-F23",
+      "text": "Cientistas esperam achar micróbios vivendo no escuro, em água muito pobre em nutrientes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI",
+       "VOSTOK_NATGEO"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P23",
+      "factKey": "lago-vostok-F21",
+      "text": "Para não sujar o lago, os últimos metros foram furados com água quente.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "VOSTOK_NATGEO"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P24",
+      "factKey": "lago-vostok-F12",
+      "text": "O lago ocupa uma fenda funda na crosta da Terra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_SNEXPLORES"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-viajante-P25",
+      "factKey": "lago-vostok-F03",
+      "text": "É o maior lago escondido sob o gelo que se conhece.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS"
+      ],
+      "clueType": "agua",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "lago-vostok-geografo-P01",
+      "factKey": "lago-vostok-F01",
+      "text": "Um corpo de água líquida jaz na base do manto de gelo antártico, sem contato com a atmosfera.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS",
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P02",
+      "factKey": "lago-vostok-F02",
+      "text": "Integra uma rede de lagos subglaciais detectados por radar que penetra o gelo — quase 400 já conhecidos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS",
+       "VOSTOK_SNEXPLORES"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P03",
+      "factKey": "lago-vostok-F05",
+      "text": "A bacia alongada mede ~230 km por até ~50 km.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS",
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P04",
+      "factKey": "lago-vostok-F07",
+      "text": "A lâmina d’água chega a ~500 m no sul e cai para ~10 m ou menos no extremo norte, segundo o radar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P05",
+      "factKey": "lago-vostok-F08",
+      "text": "O gelo tem ~3.700 m de espessura sobre a ponta sul e ~4.200 m sobre o lado norte.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P06",
+      "factKey": "lago-vostok-F28",
+      "text": "Apesar dessa diferença, a superfície é só ~50 m mais alta no norte: o gelo praticamente flutua sobre o lago.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P07",
+      "factKey": "lago-vostok-F09",
+      "text": "O atrito quase nulo entre gelo e água deixa a superfície plana, ao contrário do gelo que se arrasta sobre a rocha ao redor.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P08",
+      "factKey": "lago-vostok-F29",
+      "text": "No início dos anos 1990, a altimetria do satélite ERS-1 mapeou essa planície de gelo acima do lago.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P09",
+      "factKey": "lago-vostok-F13",
+      "text": "O calor do interior da Terra, absorvido na base do gelo, mantém a água líquida sob uma superfície a ~–60 °C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P10",
+      "factKey": "lago-vostok-F14",
+      "text": "A pressão na interface equivale ao peso de ~4 km de gelo, o que mantém a água líquida a poucos graus abaixo de zero.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI",
+       "VOSTOK_GUINNESS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P11",
+      "factKey": "lago-vostok-F12",
+      "text": "É um lago de rifte, alojado numa fenda da crosta, talvez com fontes vulcânicas no fundo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_SNEXPLORES"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P12",
+      "factKey": "lago-vostok-F06",
+      "text": "O volume é comparável ao do Lago Michigan numa estimativa; outra, de 1999, falava em ~2.000 km³.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_SNEXPLORES",
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P13",
+      "factKey": "lago-vostok-F03",
+      "text": "Com ~14 mil km², detém o recorde de maior lago subglacial conhecido.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS"
+      ],
+      "clueType": "agua",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P14",
+      "factKey": "lago-vostok-F15",
+      "text": "Provavelmente isolado há pelo menos 15 milhões de anos, o lago tem água com ao menos 700 mil anos e taxa de renovação desconhecida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_SNEXPLORES",
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P15",
+      "factKey": "lago-vostok-F16",
+      "text": "Situa-se sob o chamado “Polo do Frio”, ao lado de uma estação de pesquisa russa.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P16",
+      "factKey": "lago-vostok-F17",
+      "text": "A estação meteorológica de altitude vizinha detém o recorde mundial de frio: –89,2 °C em 21 de julho de 1983.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "VOSTOK_WMO"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P17",
+      "factKey": "lago-vostok-F25",
+      "text": "Em 1961, um piloto russo descreveu áreas planas no gelo como “lagos”, possíveis sinais superficiais de água subglacial.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P18",
+      "factKey": "lago-vostok-F26",
+      "text": "Um levantamento sísmico de 1964 passou sobre o lago sem reconhecê-lo; o registro só foi reexaminado anos depois.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P19",
+      "factKey": "lago-vostok-F10",
+      "text": "Nos anos 1970, o radar aerotransportado do grupo de Gordon Robin revelou o grande corpo de água.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P20",
+      "factKey": "lago-vostok-F11",
+      "text": "O anúncio formal, de Andrei Kapitsa e colegas, saiu em 1996.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P21",
+      "factKey": "lago-vostok-F18",
+      "text": "A perfuração atingiu a superfície do lago em 5 de fevereiro de 2012, a ~3.768 m, após mais de 20 anos.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P22",
+      "factKey": "lago-vostok-F27",
+      "text": "O anúncio do rompimento do gelo veio do Instituto de Pesquisa do Ártico e da Antártida, da Rússia.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "VOSTOK_NATGEO"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P23",
+      "factKey": "lago-vostok-F21",
+      "text": "O furo foi mantido aberto com querosene e anticongelante; nos últimos metros, usou-se broca de água quente para reduzir a contaminação.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "VOSTOK_NATGEO"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P24",
+      "factKey": "lago-vostok-F19",
+      "text": "Ao romper o gelo, a água subiu 30–40 m furo acima e congelou; esse gelo foi recolhido em janeiro de 2013.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "VOSTOK_GUINNESS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lago-vostok-geografo-P25",
+      "factKey": "lago-vostok-F23",
+      "text": "Espera-se encontrar bactérias adaptadas a níveis baixíssimos de nutrientes e energia; trazê-las vivas exigiria uma cápsula pressurizada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VOSTOK_AMSCI"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Maior lago subglacial conhecido, com cerca de 14 mil km² sob quase 4 km de gelo, ao lado da estação russa de mesmo nome, no “Polo do Frio” antártico; a perfuração russa alcançou sua água em 5 de fevereiro de 2012.",
+   "editorialNotes": [
+    "As medidas variam: comprimento de 230 km (Guinness, American Scientist) ou 250 km (Science News Explores); profundidade do furo de 3.768 m (Guinness) ou 3.766 m (National Geographic).",
+    "O tempo de isolamento aparece como \"pelo menos 15 milhões de anos\" (Science News Explores) e 25 milhões (National Geographic); as pistas usam o piso.",
+    "O número de lagos subglaciais conhecidos cresce com o tempo (mais de 145 em 2012, mais de 200 em 2013, quase 400 no Guinness)."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "criado e verificado nas fontes"
+  }
+ },
+ "sources": {
+  "VOSTOK_GUINNESS": {
+   "id": "VOSTOK_GUINNESS",
+   "title": "Largest subglacial lake",
+   "publisher": "Guinness World Records",
+   "url": "https://www.guinnessworldrecords.com/world-records/76159-largest-subglacial-lake",
+   "checkedAt": "2026-11-15"
+  },
+  "VOSTOK_NATGEO": {
+   "id": "VOSTOK_NATGEO",
+   "title": "Russians Drill Into Lake Vostok Below Antarctic Glacier (9 fev. 2012)",
+   "publisher": "National Geographic",
+   "url": "https://www.nationalgeographic.com/science/article/120208-russians-lake-vostok-antarctica-drilling-science",
+   "checkedAt": "2026-11-15"
+  },
+  "VOSTOK_SNEXPLORES": {
+   "id": "VOSTOK_SNEXPLORES",
+   "title": "Explainer: Antarctica, land of lakes (4 set. 2013)",
+   "publisher": "Science News Explores",
+   "url": "https://www.snexplores.org/article/explainer-antarctica-land-lakes",
+   "checkedAt": "2026-11-15"
+  },
+  "VOSTOK_AMSCI": {
+   "id": "VOSTOK_AMSCI",
+   "title": "Antarctica's Lake Vostok (v. 87, n. 6, 1999)",
+   "publisher": "American Scientist",
+   "url": "https://www.americanscientist.org/node/783",
+   "checkedAt": "2026-11-15"
+  },
+  "VOSTOK_WMO": {
+   "id": "VOSTOK_WMO",
+   "title": "WMO verifies -69.6°C Greenland temperature as Northern hemisphere record",
+   "publisher": "World Meteorological Organization",
+   "url": "https://wmo.int/news/media-centre/wmo-verifies-696degc-greenland-temperature-northern-hemisphere-record",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.guinnessworldrecords.com/world-records/76159-largest-subglacial-lake",
+   "https://www.nationalgeographic.com/science/article/120208-russians-lake-vostok-antarctica-drilling-science",
+   "https://www.snexplores.org/article/explainer-antarctica-land-lakes",
+   "https://www.americanscientist.org/node/783",
+   "https://wmo.int/news/media-centre/wmo-verifies-696degc-greenland-temperature-northern-hemisphere-record"
+  ],
+  "alteracoes": [
+   "criado do zero"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

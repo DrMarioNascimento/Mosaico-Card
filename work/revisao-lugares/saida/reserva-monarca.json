@@ -1,0 +1,1054 @@
+{
+ "case": {
+  "id": "lug2-reserva-monarca",
+  "placeId": "reserva-monarca",
+  "title": "Reserva da Biosfera da Borboleta-Monarca",
+  "aliases": [
+   "Reserva da Biosfera da Borboleta-Monarca",
+   "Reserva da Biosfera Mariposa Monarca",
+   "Mariposa Monarca",
+   "Borboleta-Monarca",
+   "Monarca"
+  ],
+  "answerType": "reserva da biosfera",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "MX"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Reserva da biosfera",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Reserva da Biosfera da Borboleta-Monarca"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Reserva da Biosfera Sian Ka’an"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Reserva da Biosfera El Triunfo"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Reserva da Biosfera Sierra Gorda"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Reserva da Biosfera Sierra de Manantlán"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Reserva da Biosfera Calakmul"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Reserva da Biosfera El Vizcaíno"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Reserva da Biosfera Montes Azules"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Reserva da Biosfera Tehuacán-Cuicatlán"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Reserva da Biosfera Maia"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Reserva da Biosfera do Rio Plátano"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Reserva da Biosfera Sierra de las Minas"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Reserva da Biosfera da Borboleta-Monarca",
+    "sources": [
+     "MONARCA_WHO",
+     "MONARCA_IUCN08"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "País",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "México"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Guatemala"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Honduras"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Estados Unidos"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "México",
+    "sources": [
+     "MONARCA_WHO",
+     "MONARCA_IUCN08"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Cadeia de montanhas onde fica a reserva",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Cordilheira Neovulcânica"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Serra Madre Oriental"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Serra Madre do Sul"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Serra Madre de Chiapas"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Cordilheira Neovulcânica",
+    "sources": [
+     "MONARCA_IUCN08"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Estados mexicanos que a reserva ocupa",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Michoacán e Estado do México"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Chiapas e Tabasco"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Oaxaca e Guerrero"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Jalisco e Colima"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Michoacán e Estado do México",
+    "sources": [
+     "MONARCA_WHO",
+     "MONARCA_IUCN08"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "reserva-monarca-viajante-P01",
+      "factKey": "reserva-monarca-F01",
+      "text": "Este destino protege florestas em montanhas acidentadas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P02",
+      "factKey": "reserva-monarca-F02",
+      "text": "Todo outono, o lugar recebe visitantes que viajam milhares de quilômetros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO",
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P03",
+      "factKey": "reserva-monarca-F03",
+      "text": "Fica no México, na América do Norte.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MONARCA_WHO",
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P04",
+      "factKey": "reserva-monarca-F04",
+      "text": "A reserva fica a cerca de 100 km a noroeste da Cidade do México.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MONARCA_WHO",
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P05",
+      "factKey": "reserva-monarca-F05",
+      "text": "Ela se divide entre Michoacán e o Estado do México.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "MONARCA_WHO",
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P06",
+      "factKey": "reserva-monarca-F06",
+      "text": "As montanhas fazem parte da Cordilheira Neovulcânica.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P07",
+      "factKey": "reserva-monarca-F07",
+      "text": "A floresta mais importante da reserva fica acima de uns 2.900 metros de altitude.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P08",
+      "factKey": "reserva-monarca-F08",
+      "text": "Um abeto de montanha chamado oyamel forma essas florestas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO",
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P09",
+      "factKey": "reserva-monarca-F09",
+      "text": "Quase toda a área pertence a comunidades rurais ou a donos particulares.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P10",
+      "factKey": "reserva-monarca-F10",
+      "text": "Cerca de 27 mil pessoas vivem em 80 comunidades agrárias em volta das áreas centrais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P11",
+      "factKey": "reserva-monarca-F11",
+      "text": "Pagamentos por serviços ambientais ajudam as comunidades a conservar a floresta.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P12",
+      "factKey": "reserva-monarca-F12",
+      "text": "O corte ilegal de árvores ainda não foi totalmente controlado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P13",
+      "factKey": "reserva-monarca-F13",
+      "text": "Plantações de abacate avançam na faixa em volta das áreas centrais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "agricultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P14",
+      "factKey": "reserva-monarca-F14",
+      "text": "Os incêndios florestais vêm aumentando na região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P15",
+      "factKey": "reserva-monarca-F15",
+      "text": "Visitantes mal orientados podem perturbar o espetáculo natural que atrai o turismo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P16",
+      "factKey": "reserva-monarca-F16",
+      "text": "Insetos chegam todo ano de lugares tão distantes quanto o Canadá.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P17",
+      "factKey": "reserva-monarca-F17",
+      "text": "No inverno, os insetos migrantes se juntam em poucas manchas de floresta.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_IUCN08",
+       "MONARCA_WHO"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P18",
+      "factKey": "reserva-monarca-F18",
+      "text": "Os insetos se concentram tanto que as árvores ficam alaranjadas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P19",
+      "factKey": "reserva-monarca-F19",
+      "text": "O peso dos insetos chega a envergar os galhos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P20",
+      "factKey": "reserva-monarca-F20",
+      "text": "O bater de tantas asas lembra o som de uma chuva fina.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P21",
+      "factKey": "reserva-monarca-F21",
+      "text": "Os insetos passam uns cinco meses na floresta e, no fim de março, começam a ir embora.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_IUCN08",
+       "MONARCA_WHO"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P22",
+      "factKey": "reserva-monarca-F22",
+      "text": "Na viagem de ida e volta ao Canadá, nascem e morrem quatro gerações.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P23",
+      "factKey": "reserva-monarca-F23",
+      "text": "São borboletas, e podem chegar a cerca de um bilhão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO",
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P24",
+      "factKey": "reserva-monarca-F24",
+      "text": "A UNESCO incluiu a reserva no Patrimônio Mundial em 2008.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-viajante-P25",
+      "factKey": "reserva-monarca-F25",
+      "text": "Herbicidas e perda de hábitat nos Estados Unidos e no Canadá também afetam essa migração.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "reserva-monarca-geografo-P01",
+      "factKey": "reserva-monarca-F01",
+      "text": "O bem protege florestas de montanha cujo dossel cria microclimas essenciais a um fenômeno sazonal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "processo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P02",
+      "factKey": "reserva-monarca-F02",
+      "text": "O bem natural foi inscrito só pelo critério vii, que reconhece fenômenos naturais excepcionais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO",
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P03",
+      "factKey": "reserva-monarca-F03",
+      "text": "A reserva fica na Cordilheira Neovulcânica, a cerca de 100 km a oeste e noroeste da Cidade do México.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "MONARCA_IUCN08",
+       "MONARCA_WHO"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P04",
+      "factKey": "reserva-monarca-F04",
+      "text": "O território se reparte entre os estados de Michoacán e do México.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "MONARCA_WHO",
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P05",
+      "factKey": "reserva-monarca-F05",
+      "text": "São 56.259 ha: três zonas núcleo (13.552 ha) formam o bem, cercadas por duas zonas de amortecimento (42.707 ha).",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_IUCN08",
+       "MONARCA_WHO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P06",
+      "factKey": "reserva-monarca-F06",
+      "text": "A floresta de oyamel acima de cerca de 2.900 m oferece o ambiente de invernada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_IUCN08",
+       "MONARCA_WHO"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P07",
+      "factKey": "reserva-monarca-F07",
+      "text": "A floresta em pé regula o microclima das colônias; por isso o corte de árvores é a principal ameaça direta.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO",
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P08",
+      "factKey": "reserva-monarca-F08",
+      "text": "Quase 4 mil ha de floresta foram degradados entre 1971 e 2005, segundo a avaliação da IUCN.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P09",
+      "factKey": "reserva-monarca-F09",
+      "text": "A migração de outono da população oriental percorre de 3.500 a mais de 4.500 km.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P10",
+      "factKey": "reserva-monarca-F10",
+      "text": "Dias mais curtos e o frio disparam a migração no fim de agosto; de novembro a abril, a floresta fria e úmida abriga a invernada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P11",
+      "factKey": "reserva-monarca-F11",
+      "text": "Na primavera, os insetos partem numa jornada de oito meses até o leste do Canadá e de volta.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P12",
+      "factKey": "reserva-monarca-F12",
+      "text": "Ao longo do ciclo anual nascem e morrem quatro gerações, ligando México, Estados Unidos e Canadá.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P13",
+      "factKey": "reserva-monarca-F13",
+      "text": "As colônias se adensam em pequenas manchas de floresta e tingem as árvores de laranja.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P14",
+      "factKey": "reserva-monarca-F14",
+      "text": "Das 14 colônias de invernada de borboletas da população oriental, 8 estão no bem, com cerca de 70% dessa população.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO",
+       "MONARCA_IUCN08"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P15",
+      "factKey": "reserva-monarca-F15",
+      "text": "Quase toda a área é terra comunal ou privada, o que faz dos proprietários peças-chave da conservação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P16",
+      "factKey": "reserva-monarca-F16",
+      "text": "Cerca de 27 mil pessoas vivem em 80 comunidades agrárias das zonas de amortecimento, e mais de 1 milhão no entorno.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P17",
+      "factKey": "reserva-monarca-F17",
+      "text": "Incentivos como o pagamento por serviços ambientais e um fundo próprio sustentam a conservação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P18",
+      "factKey": "reserva-monarca-F18",
+      "text": "O corte ilegal diminuiu desde 2012, mas ainda não está totalmente sob controle.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P19",
+      "factKey": "reserva-monarca-F19",
+      "text": "Na zona de amortecimento, abacateiros e a extração intensa de água pressionam a floresta.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "agricultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P20",
+      "factKey": "reserva-monarca-F20",
+      "text": "Tempestades, temperaturas mais altas e possível perda de hábitat adequado são efeitos esperados da mudança climática.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P21",
+      "factKey": "reserva-monarca-F21",
+      "text": "Incêndios florestais crescentes e um risco latente de mineração somam pressões ao bem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P22",
+      "factKey": "reserva-monarca-F22",
+      "text": "O turismo mal manejado perturba as colônias durante a invernada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P23",
+      "factKey": "reserva-monarca-F23",
+      "text": "Perda de hábitat e herbicidas nas áreas de reprodução dos EUA e do Canadá afetam o fenômeno a distância.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P24",
+      "factKey": "reserva-monarca-F24",
+      "text": "Em 2008, a IUCN recomendou adiar a inscrição por questões de integridade, mas o bem foi inscrito no mesmo ano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_IUCN08",
+       "MONARCA_WHO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reserva-monarca-geografo-P25",
+      "factKey": "reserva-monarca-F25",
+      "text": "Na avaliação de 2025 da IUCN, a perspectiva de conservação do bem é de “preocupação significativa”.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MONARCA_WHO"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Reserva de 56.259 ha nas montanhas da Cordilheira Neovulcânica, entre Michoacán e o Estado do México, cujas florestas de oyamel acima de 2.900 m recebem no inverno até cerca de um bilhão de borboletas da população oriental, vindas dos Estados Unidos e do Canadá.",
+   "editorialNotes": [
+    "O nome da espécie (e a palavra “monarca”) não aparece nas pistas porque repete o nome do lugar; as pistas falam em “insetos” e só nas decisivas em “borboletas”.",
+    "A avaliação técnica da IUCN (maio de 2008) recomendou adiar a inscrição; o Comitê inscreveu o bem em 2008 pelo critério vii, como registra a IUCN World Heritage Outlook.",
+    "Período de invernada: a avaliação de 2008 dá de novembro a abril e diz que as borboletas começam a partir no fim de março, após cerca de cinco meses; o mesmo texto cita um retorno ao “Golfo da Califórnia”, provável erro, que não foi usado."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e gabaritos conferidos na IUCN World Heritage Outlook (avaliação de 2025) e na avaliação técnica da IUCN publicada pela UNESCO (2008); C3 e C4 refeitos para não entregar o C1, e o nome da espécie retirado das pistas."
+  }
+ },
+ "sources": {
+  "MONARCA_WHO": {
+   "id": "MONARCA_WHO",
+   "title": "Monarch Butterfly Biosphere Reserve — 2025 Conservation Outlook Assessment",
+   "publisher": "IUCN World Heritage Outlook",
+   "url": "https://worldheritageoutlook.iucn.org/explore-sites/wdpaid/903135",
+   "checkedAt": "2026-11-15"
+  },
+  "MONARCA_IUCN08": {
+   "id": "MONARCA_IUCN08",
+   "title": "Monarch Butterfly Biosphere Reserve (Mexico) — IUCN Evaluation, ID No. 1290 (2008)",
+   "publisher": "IUCN / UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/152268",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://worldheritageoutlook.iucn.org/explore-sites/wdpaid/903135",
+   "https://whc.unesco.org/document/152268"
+  ],
+  "alteracoes": [
+   "Fonte MONARCA1290 (whc.unesco.org/en/list/1290) substituída: a página de lista não abre nesta sessão; os dados foram conferidos na IUCN World Heritage Outlook 2025 (MONARCA_WHO) e na avaliação técnica da IUCN de 2008 publicada pela UNESCO (MONARCA_IUCN08).",
+   "Aliases ampliados (Mariposa Monarca, Borboleta-Monarca, Monarca) para o validador barrar pistas com o nome; Viajante P12 (‘a espécie é conhecida como borboleta-monarca’) e Geógrafo P06 (idem) saíram.",
+   "C1: entraram reservas da Guatemala e de Honduras (Maia, Rio Plátano, Sierra de las Minas) no lugar de La Sepultura, Chamela-Cuixmala e Los Tuxtlas, para que o C2 não seja dado pelo C1.",
+   "C2: Costa Rica trocada por Honduras.",
+   "C3: ‘Ambiente principal’ contra tundra, recife e deserto polar trocado por ‘Cadeia de montanhas’ (Cordilheira Neovulcânica), conforme a IUCN.",
+   "C4: ‘Processo ecológico’ (migração de insetos), que entregava o C1, trocado por ‘Estados mexicanos que a reserva ocupa’ (Michoacán e Estado do México).",
+   "Viajante: P01–P25 reescritas ou trocadas; borboletas só nas decisivas, insetos no meio; entraram 100 km da capital, 2.900 m, terras comunais, 27 mil moradores em 80 comunidades, pagamentos ambientais, abacate, fogo, árvores alaranjadas, galhos envergados, som de chuva fina, novembro a março, quatro gerações, herbicidas no norte.",
+   "Geógrafo: P01–P25 reescritas para relações e processos (dossel e microclima, critério vii, 56.259 ha com zonas núcleo e de amortecimento, degradação 1971–2005, 3.500–4.500 km, calendário da migração, 8 de 14 colônias e 70% da população, abacate e água, mineração, recomendação de adiamento em 2008, perspectiva 2025).",
+   "Sinais: P01–P02 abertura nos dois perfis; decisivas = árvores alaranjadas e ‘são borboletas’ (Viajante), árvores laranja e 8 de 14 colônias (Geógrafo); relatedFields ampliados para C2, C3 e C4."
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

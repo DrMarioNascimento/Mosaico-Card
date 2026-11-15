@@ -1,0 +1,1084 @@
+{
+  "case": {
+    "id": "lug3-auckland",
+    "placeId": "auckland",
+    "title": "Auckland",
+    "aliases": [],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "NZ"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade da Oceania",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Auckland"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Melbourne"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Sydney"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Brisbane"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Perth"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Adelaide"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Hobart"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Camberra"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Darwin"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Cairns"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Wellington"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Christchurch"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Dunedin"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Napier"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Nelson"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Rotorua"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Taupō"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Queenstown"
+          },
+          {
+            "id": "C1-O19",
+            "text": "Suva"
+          },
+          {
+            "id": "C1-O20",
+            "text": "Nouméa"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Auckland",
+        "sources": [
+          "AUCKLAND_TEARA"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Forma de terreno sobre a qual a cidade se espalha",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Istmo entre dois portos"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Península na ponta de uma ilha"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Planície na foz de um rio"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Vale glacial à beira de um lago"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Istmo entre dois portos",
+        "sources": [
+          "AUCKLAND_TEARA"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Vulcão mais jovem do campo vulcânico sobre o qual a cidade cresceu",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Rangitoto"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Maungawhau"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Maungakiekie"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Puketāpapa"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Rangitoto",
+        "sources": [
+          "AUCKLAND_TEARA",
+          "AUCKLAND_RANGITOTO"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Iwi que vendeu à Coroa, em 1840, as terras centrais da cidade",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Ngāti Whātua"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Te Arawa"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Ngāi Tahu"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Ngāti Toa"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Ngāti Whātua",
+        "sources": [
+          "AUCKLAND_TEARA"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "auckland-viajante-P01",
+            "factKey": "auckland-F01",
+            "text": "Nesta região, a maioria dos moradores vive a menos de 5 km do mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P02",
+            "factKey": "auckland-F02",
+            "text": "Os verões são quentes e úmidos, e os invernos, amenos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P03",
+            "factKey": "auckland-F03",
+            "text": "A cidade se espalha por uma faixa estreita de terra entre dois portos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P04",
+            "factKey": "auckland-F04",
+            "text": "Num ponto, um braço de um dos portos chega a apenas 1,2 km do outro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P05",
+            "factKey": "auckland-F05",
+            "text": "Morros em forma de cone, que são antigos vulcões, pontilham a paisagem urbana.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA",
+              "AUCKLAND_OURAKL"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P06",
+            "factKey": "auckland-F06",
+            "text": "A erupção mais recente da região, no Rangitoto, aconteceu há cerca de 600 anos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P07",
+            "factKey": "auckland-F07",
+            "text": "Nos cumes de vários desses cones, os carros foram proibidos para proteger os morros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_OURAKL"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P08",
+            "factKey": "auckland-F08",
+            "text": "Para os maori da região, esses morros vulcânicos são montanhas ancestrais.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "AUCKLAND_OURAKL"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P09",
+            "factKey": "auckland-F09",
+            "text": "No alto dos maiores cones havia antigas aldeias fortificadas maori, os pā.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_OURAKL",
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P10",
+            "factKey": "auckland-F10",
+            "text": "É proibido entrar na cratera de Maungawhau.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AUCKLAND_TIAKI"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P11",
+            "factKey": "auckland-F11",
+            "text": "O golfo vizinho tem as águas costeiras mais quentes do país, graças a correntes subtropicais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P12",
+            "factKey": "auckland-F12",
+            "text": "As ilhas desse golfo nasceram quando o mar subiu e inundou um antigo vale de rio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P13",
+            "factKey": "auckland-F13",
+            "text": "A cidade tem o apelido de \"Cidade das Velas\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P14",
+            "factKey": "auckland-F14",
+            "text": "Uma torre de 328 m, inaugurada em 1997, domina o horizonte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P15",
+            "factKey": "auckland-F15",
+            "text": "A grande ponte sobre o porto foi concluída em 1959.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P16",
+            "factKey": "auckland-F16",
+            "text": "É descrita como a maior cidade polinésia do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P17",
+            "factKey": "auckland-F17",
+            "text": "Em 2013, o samoano era a segunda língua da região, falada por 4,4% dos moradores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P18",
+            "factKey": "auckland-F18",
+            "text": "A oeste, a serra Waitākere se estende por 30 km ao norte de um dos portos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P19",
+            "factKey": "auckland-F19",
+            "text": "No fim do século XIX, as serrarias de kauri eram o maior empregador da região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P20",
+            "factKey": "auckland-F20",
+            "text": "Em 1840, o governador William Hobson escolheu o istmo para ser a capital.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P21",
+            "factKey": "auckland-F21",
+            "text": "O nome da cidade homenageia um lorde britânico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P22",
+            "factKey": "auckland-F22",
+            "text": "Foi a capital do país até 1865, quando o governo se mudou para o sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA_CAP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P23",
+            "factKey": "auckland-F23",
+            "text": "Em 1840, o povo Ngāti Whātua vendeu à Coroa uma faixa central do istmo.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P24",
+            "factKey": "auckland-F24",
+            "text": "Por volta de 1750, a área tinha dezenas de milhares de habitantes e era a mais populosa da Nova Zelândia antes dos europeus.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-viajante-P25",
+            "factKey": "auckland-F25",
+            "text": "O nome maori Tāmaki-makau-rau costuma ser traduzido como \"Tāmaki dos cem amantes\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "auckland-geografo-P01",
+            "factKey": "auckland-F26",
+            "text": "A região tem 1.613 km de litoral, e a ocupação se concentra perto do mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P02",
+            "factKey": "auckland-F27",
+            "text": "A latitude de 36°51' S coloca a cidade numa zona de transição entre os climas subtropical e temperado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P03",
+            "factKey": "auckland-F28",
+            "text": "O núcleo urbano ocupa um istmo entre os portos Waitematā e Manukau, num sítio fértil no encontro de vias aquáticas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P04",
+            "factKey": "auckland-F04",
+            "text": "Em Ōtāhuhu, um braço do Waitematā avança até 1,2 km do porto de Manukau.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P05",
+            "factKey": "auckland-F29",
+            "text": "O campo vulcânico tem 49 vulcões distintos; a primeira erupção ocorreu há cerca de 150 mil anos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P06",
+            "factKey": "auckland-F30",
+            "text": "Cerca de 30 vulcões do campo continuam bem preservados.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P07",
+            "factKey": "auckland-F31",
+            "text": "O campo reúne cerca de 50 cones de escória, maares e campos de lava, espalhados por uns 360 km² sob a própria cidade.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AUCKLAND_RANGITOTO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P08",
+            "factKey": "auckland-F32",
+            "text": "Com cerca de 6 km de largura e 260 m de altitude, o Rangitoto soma sozinho 0,7 km³ dos cerca de 1,7 km³ de magma do campo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AUCKLAND_RANGITOTO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P09",
+            "factKey": "auckland-F33",
+            "text": "Um estudo de 2015 data a fase principal do Rangitoto em cerca de 650 a 550 anos atrás, e a fase explosiva final em 550 a 500 anos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AUCKLAND_RANGITOTO"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P10",
+            "factKey": "auckland-F34",
+            "text": "O mesmo estudo mostra que o Rangitoto teve vários lotes de magma e longa história, fugindo do modelo clássico de vulcão monogenético.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AUCKLAND_RANGITOTO"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P11",
+            "factKey": "auckland-F35",
+            "text": "Entre 1600 e 1750, os maori ergueram pā nos cones vulcânicos e cultivaram cerca de 2.000 ha de kūmara (batata-doce).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P12",
+            "factKey": "auckland-F36",
+            "text": "Entre 1740 e 1750, os Ngāti Whātua-o-Kaipara invadiram o istmo e mataram Kiwi Tāmaki, chefe supremo dos Wai-o-Hua.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P13",
+            "factKey": "auckland-F37",
+            "text": "Em 1821, depois que Hongi Hika obteve mosquetes, os Ngāpuhi destruíram aldeias e mandaram os Ngāti Whātua para o exílio.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P14",
+            "factKey": "auckland-F38",
+            "text": "Dos 40 maunga (cones) conhecidos, cerca de 70% foram gravemente danificados ou destruídos; um deles virou pedreira por um século.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "AUCKLAND_OURAKL"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P15",
+            "factKey": "auckland-F39",
+            "text": "Um acordo do Tratado de Waitangi, em 2014, devolveu 14 maunga a 13 iwi e hapū.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_OURAKL"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P16",
+            "factKey": "auckland-F40",
+            "text": "Os maunga são cogeridos por uma autoridade paritária, com seis membros dos povos maori locais e seis indicados pela prefeitura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TIAKI",
+              "AUCKLAND_OURAKL"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P17",
+            "factKey": "auckland-F41",
+            "text": "Os representantes maori dessa autoridade vêm de três grupos: Marutūāhu, Ngāti Whātua e Waiohua Tāmaki.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "AUCKLAND_TIAKI"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P18",
+            "factKey": "auckland-F42",
+            "text": "Em 1840, os Ngāti Whātua venderam à Coroa uma cunha central do istmo, onde o governador Hobson instalou a capital.",
+            "relatedFields": [
+              "C4",
+              "C2"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P19",
+            "factKey": "auckland-F43",
+            "text": "O governo colonial funcionou aqui de 1841 a 1865, e a primeira Assembleia Geral se reuniu em 1854.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA_CAP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P20",
+            "factKey": "auckland-F44",
+            "text": "A capital acabou transferida porque ficava longe do centro da colônia e as viagens até ela eram longas e desconfortáveis.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA_CAP"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P21",
+            "factKey": "auckland-F45",
+            "text": "Em 1885, as serrarias eram o maior empregador regional, e a região fornecia 45% da madeira do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P22",
+            "factKey": "auckland-F46",
+            "text": "A população passou de 500 mil em 1961 e de 1 milhão em 1996.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P23",
+            "factKey": "auckland-F47",
+            "text": "Em 2013, 14,6% dos moradores se identificavam com as ilhas do Pacífico, o dobro da média nacional (7,4%).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P24",
+            "factKey": "auckland-F48",
+            "text": "A serra Waitākere se formou com lava de erupções sob o mar da Tasmânia, há cerca de 22 milhões de anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "auckland-geografo-P25",
+            "factKey": "auckland-F49",
+            "text": "Em 2013, a região somava 1.415.550 habitantes, cerca de um em cada três neozelandeses.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AUCKLAND_TEARA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade que concentra cerca de um terço da população da Nova Zelândia, espalhada por um istmo entre os portos Waitematā e Manukau e sobre um campo vulcânico de cerca de 50 vulcões, cujo mais jovem é o Rangitoto; foi capital colonial de 1841 a 1865 e é descrita como a maior cidade polinésia do mundo.",
+      "editorialNotes": [
+        "Te Ara conta 49 vulcões no campo; o relatório de 2015 (Universidade de Auckland) fala em cerca de 50 cones, maares e campos de lava.",
+        "Te Ara dá cerca de 600 anos para a erupção mais recente (Rangitoto); o relatório de 2015 data as fases principais entre 650 e 500 anos cal AP.",
+        "Te Ara (Capital city) dá a capital em 1841–1865; a história regional de Te Ara diz que a cidade foi capital desde 1840, quando Hobson escolheu o sítio."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "AUCKLAND_TEARA": {
+      "id": "AUCKLAND_TEARA",
+      "title": "Auckland region",
+      "publisher": "Te Ara – The Encyclopedia of New Zealand (Manatū Taonga)",
+      "url": "https://teara.govt.nz/en/auckland-region/print",
+      "checkedAt": "2026-11-15"
+    },
+    "AUCKLAND_TEARA_CAP": {
+      "id": "AUCKLAND_TEARA_CAP",
+      "title": "Capital city",
+      "publisher": "Te Ara – The Encyclopedia of New Zealand (Manatū Taonga)",
+      "url": "https://teara.govt.nz/mi/capital-city/print",
+      "checkedAt": "2026-11-15"
+    },
+    "AUCKLAND_RANGITOTO": {
+      "id": "AUCKLAND_RANGITOTO",
+      "title": "Eruption history of Rangitoto volcano — final report (EQC project 3704187, 2015)",
+      "publisher": "University of Auckland / Natural Hazards Commission Toka Tū Ake (naturalhazards.govt.nz)",
+      "url": "https://www.naturalhazards.govt.nz/assets/Publications-Resources/4619-Eruption-history-Rangitoto-volcano.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "AUCKLAND_OURAKL": {
+      "id": "AUCKLAND_OURAKL",
+      "title": "Protecting our maunga",
+      "publisher": "Auckland Council (OurAuckland)",
+      "url": "https://ourauckland.aucklandcouncil.govt.nz/news/2018/10/protecting-our-maunga/",
+      "checkedAt": "2026-11-15"
+    },
+    "AUCKLAND_TIAKI": {
+      "id": "AUCKLAND_TIAKI",
+      "title": "Tūpuna Maunga Authority",
+      "publisher": "Auckland Council (Tiaki Tāmaki Makaurau | Conservation Auckland)",
+      "url": "https://tiakitamakimakaurau.nz/understanding-conservation/matauranga-and-conservation-working-side-by-side/tupuna-maunga-authority/",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://teara.govt.nz/en/auckland-region/print",
+      "https://teara.govt.nz/mi/capital-city/print",
+      "https://www.naturalhazards.govt.nz/assets/Publications-Resources/4619-Eruption-history-Rangitoto-volcano.pdf",
+      "https://ourauckland.aucklandcouncil.govt.nz/news/2018/10/protecting-our-maunga/",
+      "https://tiakitamakimakaurau.nz/understanding-conservation/matauranga-and-conservation-working-side-by-side/tupuna-maunga-authority/"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

@@ -1,0 +1,1107 @@
+{
+ "case": {
+  "id": "lug2-norte-rio-branco",
+  "placeId": "norte-rio-branco",
+  "title": "Rio Branco",
+  "aliases": [],
+  "answerType": "capital brasileira",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "norte"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Capital brasileira",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Rio Branco"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Boa Vista"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Macapá"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Palmas"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Porto Velho"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Manaus"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Belém"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Cuiabá"
+     },
+     {
+      "id": "C1-O9",
+      "text": "São Luís"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Teresina"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Campo Grande"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Goiânia"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Rio Branco",
+    "sources": [
+     "RIOBRANCO_IBGE_HIST",
+     "RIOBRANCO_PA_CAPITAL"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Origem do primeiro núcleo",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Seringal de extração de borracha"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Acampamento de construção ferroviária"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Arraial de mineração de ouro"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Fortificação militar colonial"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Seringal de extração de borracha",
+    "sources": [
+     "RIOBRANCO_PA_CAPITAL",
+     "RIOBRANCO_PA_AZ",
+     "RIOBRANCO_IBGE_HIST"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Estado brasileiro",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Acre"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Rondônia"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Roraima"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Amazonas"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Acre",
+    "sources": [
+     "RIOBRANCO_IBGE_HIST",
+     "RIOBRANCO_PA_CAPITAL"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Rio que atravessa a cidade",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Rio Acre"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Rio Purus"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Rio Juruá"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Rio Madeira"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Rio Acre",
+    "sources": [
+     "RIOBRANCO_PA_CAPITAL",
+     "RIOBRANCO_PA_AZ",
+     "RIOBRANCO_PA_136"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "norte-rio-branco-viajante-P01",
+      "factKey": "norte-rio-branco-F01",
+      "text": "Esta cidade é uma capital estadual brasileira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_IBGE_HIST",
+       "RIOBRANCO_PA_CAPITAL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P02",
+      "factKey": "norte-rio-branco-F02",
+      "text": "Ela fica na Amazônia, na região Norte do país.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_AZ"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P03",
+      "factKey": "norte-rio-branco-F03",
+      "text": "A cidade nasceu na beira de um rio amazônico.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_CAPITAL",
+       "RIOBRANCO_PA_136"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P04",
+      "factKey": "norte-rio-branco-F04",
+      "text": "Hoje a cidade se espalha pelas duas margens desse rio.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_AZ"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P05",
+      "factKey": "norte-rio-branco-F05",
+      "text": "Tudo começou com um seringal, lugar de onde se tirava o látex das seringueiras.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_CAPITAL",
+       "RIOBRANCO_PA_AZ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P06",
+      "factKey": "norte-rio-branco-F06",
+      "text": "A borracha foi o grande motor do crescimento da cidade.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_AZ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P07",
+      "factKey": "norte-rio-branco-F07",
+      "text": "O fundador do seringal era cearense, e muitos nordestinos vieram morar na região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_AZ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P08",
+      "factKey": "norte-rio-branco-F08",
+      "text": "A data aceita de fundação é 28 de dezembro de 1882.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_136",
+       "RIOBRANCO_PA_CAPITAL",
+       "RIOBRANCO_PA_AZ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P09",
+      "factKey": "norte-rio-branco-F09",
+      "text": "Quando o povoado surgiu, a região ainda era considerada território boliviano.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "RIOBRANCO_IBGE_HIST"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P10",
+      "factKey": "norte-rio-branco-F10",
+      "text": "Uma gameleira centenária na beira do rio marca o ponto onde a cidade começou.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_SETE",
+       "RIOBRANCO_PA_GAMELEIRA",
+       "RIOBRANCO_OPOVO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P11",
+      "factKey": "norte-rio-branco-F11",
+      "text": "O calçadão junto dessa árvore foi a primeira rua da cidade e foi tombado em 1981.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_SETE"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P12",
+      "factKey": "norte-rio-branco-F12",
+      "text": "Casarões desse calçadão lembram a época da borracha e da castanha-do-brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_GAMELEIRA"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P13",
+      "factKey": "norte-rio-branco-F13",
+      "text": "Em 1902, o lugar foi palco de combates entre brasileiros e bolivianos.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_CAPITAL"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P14",
+      "factKey": "norte-rio-branco-F14",
+      "text": "O nome atual homenageia um barão diplomata, ligado à anexação do território ao Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_AZ",
+       "RIOBRANCO_PA_136"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P15",
+      "factKey": "norte-rio-branco-F15",
+      "text": "Uma passarela sobre o rio oferece uma bela vista da água e da cidade.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "RIOBRANCO_OPOVO"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P16",
+      "factKey": "norte-rio-branco-F16",
+      "text": "No Novo Mercado Velho há ervas amazônicas, comidas típicas e artesanato.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_OPOVO"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P17",
+      "factKey": "norte-rio-branco-F17",
+      "text": "No café da manhã faz sucesso a baixaria: cuscuz de milho com carne moída, ovo frito e cheiro-verde.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_OPOVO"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P18",
+      "factKey": "norte-rio-branco-F18",
+      "text": "Um parque comprido acompanha um igarapé no centro, com ciclovia, quadras e pista de corrida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_SETE",
+       "RIOBRANCO_OPOVO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P19",
+      "factKey": "norte-rio-branco-F19",
+      "text": "Por causa dos muitos parques, a cidade ganhou o apelido de Cidade Verde.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_136"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P20",
+      "factKey": "norte-rio-branco-F20",
+      "text": "Um museu da cidade é dedicado à história da borracha.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_136",
+       "RIOBRANCO_OPOVO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P21",
+      "factKey": "norte-rio-branco-F21",
+      "text": "Um parque ambiental tem trilhas e um memorial ao seringueiro.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "RIOBRANCO_OPOVO"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P22",
+      "factKey": "norte-rio-branco-F22",
+      "text": "O Censo de 2022 contou mais de 360 mil moradores no município.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_GAZETA_POP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P23",
+      "factKey": "norte-rio-branco-F23",
+      "text": "É a cidade mais antiga do seu estado, um ano mais velha que Xapuri.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_CAPITAL"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P24",
+      "factKey": "norte-rio-branco-F24",
+      "text": "Entre 1909 e 1912, a sede do município ficou do outro lado do rio, numa vila chamada Penápolis.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_IBGE_HIST",
+       "RIOBRANCO_PA_136"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-viajante-P25",
+      "factKey": "norte-rio-branco-F25",
+      "text": "O rio que atravessa a cidade tem o mesmo nome do estado: é o rio Acre.",
+      "relatedFields": [
+       "C4",
+       "C3"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_CAPITAL",
+       "RIOBRANCO_PA_AZ"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "norte-rio-branco-geografo-P01",
+      "factKey": "norte-rio-branco-F01",
+      "text": "O destino exerce função de capital estadual no território brasileiro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_IBGE_HIST",
+       "RIOBRANCO_PA_CAPITAL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P02",
+      "factKey": "norte-rio-branco-F02",
+      "text": "A cidade integra a rede urbana amazônica da região Norte.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_AZ"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P03",
+      "factKey": "norte-rio-branco-F03",
+      "text": "O sítio original foi a beira de um rio navegável, onde o seringal logo se tornou porto comercial.",
+      "relatedFields": [
+       "C4",
+       "C2"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_CAPITAL"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P04",
+      "factKey": "norte-rio-branco-F04",
+      "text": "A expansão urbana atravessou o curso fluvial e passou a ocupar as duas margens.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_AZ",
+       "RIOBRANCO_PA_136"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P05",
+      "factKey": "norte-rio-branco-F05",
+      "text": "A gênese urbana liga-se à economia extrativa do látex das seringueiras das florestas equatoriais.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_AZ"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P06",
+      "factKey": "norte-rio-branco-F06",
+      "text": "A função portuária fez desse seringal o primeiro do estado a evoluir para povoado e espaço público.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_CAPITAL"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P07",
+      "factKey": "norte-rio-branco-F07",
+      "text": "O povoamento inicial resultou da migração de nordestinos para a fronteira oeste do Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_AZ"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P08",
+      "factKey": "norte-rio-branco-F08",
+      "text": "A fundação, em 1882, fez parte de uma leva de seringais abertos ao longo do mesmo rio, como o Bagaço e o de Xapuri.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "RIOBRANCO_IBGE_HIST"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P09",
+      "factKey": "norte-rio-branco-F09",
+      "text": "No momento da fundação, o vale era tido como boliviano; a posse brasileira veio com o Tratado de Petrópolis.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "RIOBRANCO_IBGE_HIST",
+       "RIOBRANCO_PA_AZ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P10",
+      "factKey": "norte-rio-branco-F10",
+      "text": "Em 1902, combates da Revolução Acreana ocorreram no núcleo, então chamado Volta da Empresa.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_CAPITAL"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P11",
+      "factKey": "norte-rio-branco-F11",
+      "text": "O primeiro núcleo ficou na margem direita, onde uma gameleira serviu de marco da fundação.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_SETE",
+       "RIOBRANCO_PA_GAMELEIRA"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P12",
+      "factKey": "norte-rio-branco-F12",
+      "text": "O setor mais antigo corresponde hoje ao Segundo Distrito, que abriga um sítio histórico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_CAPITAL",
+       "RIOBRANCO_PA_GAMELEIRA"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P13",
+      "factKey": "norte-rio-branco-F13",
+      "text": "Os casarões do sítio histórico registram o auge da borracha e da castanha, entre o fim do século XIX e o início do XX.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_GAMELEIRA"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P14",
+      "factKey": "norte-rio-branco-F14",
+      "text": "Em 1909, terras da margem esquerda foram desapropriadas para criar um novo núcleo, mais tarde unificado ao antigo.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_136"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P15",
+      "factKey": "norte-rio-branco-F15",
+      "text": "Entre 1904 e 1912, a cidade foi sede apenas do Departamento do Alto Acre, um dos quatro em que o território se dividia.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_CAPITAL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P16",
+      "factKey": "norte-rio-branco-F16",
+      "text": "Na unificação do governo territorial, superou Sena Madureira, que vinha sendo preparada para ser a capital.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_CAPITAL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P17",
+      "factKey": "norte-rio-branco-F17",
+      "text": "É o núcleo urbano mais antigo do estado, fundado um ano antes de Xapuri.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_CAPITAL"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P18",
+      "factKey": "norte-rio-branco-F18",
+      "text": "Um parque linear de cerca de 6 km acompanha o Igarapé da Maternidade, que corta a área central.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_SETE"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P19",
+      "factKey": "norte-rio-branco-F19",
+      "text": "O relevo quase plano favorece percursos a pé ao longo da orla fluvial.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "RIOBRANCO_OPOVO"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P20",
+      "factKey": "norte-rio-branco-F20",
+      "text": "Comércio, pesca, extrativismo e serviços formam a base econômica atual.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_AZ"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P21",
+      "factKey": "norte-rio-branco-F21",
+      "text": "Equipamentos de memória, como o Museu da Borracha, mantêm o ciclo extrativista no centro da identidade urbana.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_136"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P22",
+      "factKey": "norte-rio-branco-F22",
+      "text": "O Novo Mercado Velho concentra ervas amazônicas, comida típica, artesanato e produtos regionais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_OPOVO"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P23",
+      "factKey": "norte-rio-branco-F23",
+      "text": "Segundo o Censo 2022 do IBGE, o município tinha 364.756 habitantes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_GAZETA_POP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P24",
+      "factKey": "norte-rio-branco-F24",
+      "text": "O topônimo passou por Volta da Empresa e Penápolis até se fixar, em 1912, em homenagem ao barão que negociou a anexação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RIOBRANCO_IBGE_HIST",
+       "RIOBRANCO_PA_AZ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-rio-branco-geografo-P25",
+      "factKey": "norte-rio-branco-F25",
+      "text": "O curso que atravessa a capital, separando o Segundo Distrito do centro, é o rio Acre, homônimo do estado.",
+      "relatedFields": [
+       "C4",
+       "C3"
+      ],
+      "sources": [
+       "RIOBRANCO_PA_CAPITAL",
+       "RIOBRANCO_PA_AZ",
+       "RIOBRANCO_PA_GAMELEIRA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Capital do Acre, às margens do rio Acre, nascida do Seringal Volta da Empreza, fundado pelo cearense Neutel Maia em 28 de dezembro de 1882, e que hoje ocupa as duas margens do rio.",
+   "editorialNotes": [
+    "A data da escolha como capital única diverge: o Portal Amazônia fala em 1920 (unificação do território); o histórico do IBGE registra decreto de 1929 elevando a sede a capital do território. As pistas não citam esse ano.",
+    "O IBGE registra 13/05/1909 para a transferência da sede a Penápolis e o Portal Amazônia, 13 de junho de 1909 para a criação de Penápolis; as pistas usam só o ano.",
+    "População do Censo 2022 (364.756) conferida em tabela de A Gazeta do Acre com dados do IBGE; a página do IBGE Cidades não abriu (erro do site)."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Fontes do rascunho (prefeitura, MTur, IBGE Cidades) não vieram das buscas ou não abriram; substituídas por histórico do IBGE, Portal Amazônia, O Povo e A Gazeta do Acre; C2 e C4 refeitos com alternativas comparáveis; origem no seringal, margem direita, gameleira, Penápolis, distritos, parques e população conferidos."
+  }
+ },
+ "sources": {
+  "RIOBRANCO_IBGE_HIST": {
+   "id": "RIOBRANCO_IBGE_HIST",
+   "title": "Rio Branco (AC) — histórico e formação administrativa",
+   "publisher": "IBGE (Biblioteca)",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/acre/riobranco.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "RIOBRANCO_PA_CAPITAL": {
+   "id": "RIOBRANCO_PA_CAPITAL",
+   "title": "Saiba como Rio Branco virou a capital do Acre",
+   "publisher": "Portal Amazônia",
+   "url": "https://portalamazonia.com/estados/acre/saiba-como-rio-branco-virou-a-capital-do-acre",
+   "checkedAt": "2026-11-15"
+  },
+  "RIOBRANCO_PA_AZ": {
+   "id": "RIOBRANCO_PA_AZ",
+   "title": "Rio Branco (Amazônia de A a Z)",
+   "publisher": "Portal Amazônia",
+   "url": "https://portalamazonia.com/amazonia-de-a-a-z/rio-branco/",
+   "checkedAt": "2026-11-15"
+  },
+  "RIOBRANCO_PA_136": {
+   "id": "RIOBRANCO_PA_136",
+   "title": "Rio Branco comemora 136 anos de criação; conheça 10 curiosidades sobre a capital",
+   "publisher": "Portal Amazônia",
+   "url": "https://portalamazonia.com/cidades/rio-branco-comemora-136-anos-de-criacao-conheca-10-curiosidades-sobre-a-capital/",
+   "checkedAt": "2026-11-15"
+  },
+  "RIOBRANCO_PA_SETE": {
+   "id": "RIOBRANCO_PA_SETE",
+   "title": "Lago do Amor, Canal da Maternidade e Gameleira: confira sete locais para conhecer em Rio Branco",
+   "publisher": "Portal Amazônia",
+   "url": "https://portalamazonia.com/turismo/lago-do-amor-canal-da-maternidade-e-gameleira-confira-sete-locais-para-conhecer-em-rio-branco/",
+   "checkedAt": "2026-11-15"
+  },
+  "RIOBRANCO_PA_GAMELEIRA": {
+   "id": "RIOBRANCO_PA_GAMELEIRA",
+   "title": "Calçadão da Gameleira (Amazônia de A a Z)",
+   "publisher": "Portal Amazônia",
+   "url": "https://portalamazonia.com/amazonia-az/calcadao-da-gameleira",
+   "checkedAt": "2026-11-15"
+  },
+  "RIOBRANCO_OPOVO": {
+   "id": "RIOBRANCO_OPOVO",
+   "title": "Fundada no ciclo da borracha, esta capital mistura rio, memória dos seringais e natureza amazônica no Acre",
+   "publisher": "O Povo (O Povo Trends)",
+   "url": "https://opovo.com.br/trends/fundada-no-ciclo-da-borracha-esta-capital-mistura-rio-memoria-dos-seringais-e-natureza-amazonica-no-acre/",
+   "checkedAt": "2026-11-15"
+  },
+  "RIOBRANCO_GAZETA_POP": {
+   "id": "RIOBRANCO_GAZETA_POP",
+   "title": "População do Acre cresce 6% e chega a 880,6 mil em 2024, aponta IBGE",
+   "publisher": "A Gazeta do Acre",
+   "url": "https://agazetadoacre.com/2024/08/noticias/geral/populacao-do-acre-cresce-6-e-chega-a-8806-mil-em-2024-aponta-ibge",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "alteracoes": [
+   "Fontes RIOBRANCO_PREF e RIOBRANCO_MTUR (URLs do rascunho, não vindas de busca) e RIOBRANCO_IBGE (IBGE Cidades, erro do site) substituídas por histórico municipal do IBGE, cinco páginas do Portal Amazônia, O Povo Trends (2026) e A Gazeta do Acre (população).",
+   "C2: rótulo trocado para “Origem do primeiro núcleo” e alternativas implausíveis (sal marinho, carvão, café) trocadas por origens de outras capitais da lista (ferrovia, mineração de ouro, fortificação); gabarito mantido (seringal de borracha).",
+   "C4: alternativas Rio Branco (homônimo do título), Tocantins e Araguaia trocadas por Purus, Juruá e Madeira; gabarito Rio Acre mantido.",
+   "viajante: P01–P10 reescritas/ajustadas; P11–P25 trocadas ou reescritas — madeira nas construções, cheias da margem baixa, vapores no porto, casas de comércio e Mercado Velho histórico (sem apoio) saíram; entraram calçadão tombado em 1981, casarões, combates de 1902, Xapuri, passarela, Novo Mercado Velho, baixaria, Parque da Maternidade, Cidade Verde, Museu da Borracha, parque com memorial ao seringueiro, Penápolis 1909–1912.",
+   "geografo: P03–P25 reescritas ou trocadas com os mesmos critérios (porto comercial, migração nordestina, leva de seringais de 1882, Tratado de Petrópolis, Segundo Distrito, desapropriação da margem esquerda em 1909, departamentos de 1904–1912, disputa com Sena Madureira, Igarapé da Maternidade, base econômica, topônimo).",
+   "Força das pistas: viajante P01–P02 abertura, P24–P25 decisivas; geografo P01–P02 abertura, P24–P25 decisivas."
+  ],
+  "fontesAbertas": [
+   "https://biblioteca.ibge.gov.br/visualizacao/dtb/acre/riobranco.pdf",
+   "https://portalamazonia.com/estados/acre/saiba-como-rio-branco-virou-a-capital-do-acre",
+   "https://portalamazonia.com/amazonia-de-a-a-z/rio-branco/",
+   "https://portalamazonia.com/cidades/rio-branco-comemora-136-anos-de-criacao-conheca-10-curiosidades-sobre-a-capital/",
+   "https://portalamazonia.com/turismo/lago-do-amor-canal-da-maternidade-e-gameleira-confira-sete-locais-para-conhecer-em-rio-branco/",
+   "https://portalamazonia.com/amazonia-az/calcadao-da-gameleira",
+   "https://opovo.com.br/trends/fundada-no-ciclo-da-borracha-esta-capital-mistura-rio-memoria-dos-seringais-e-natureza-amazonica-no-acre/",
+   "https://agazetadoacre.com/2024/08/noticias/geral/populacao-do-acre-cresce-6-e-chega-a-8806-mil-em-2024-aponta-ibge"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

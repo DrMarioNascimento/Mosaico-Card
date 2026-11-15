@@ -1,0 +1,1102 @@
+{
+ "case": {
+  "id": "lug3-barcelona",
+  "placeId": "barcelona",
+  "title": "Barcelona",
+  "aliases": [],
+  "answerType": "cidade",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "ES"
+   ],
+   "continents": [
+    "europa"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Barcelona"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Madri"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Valência"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Sevilha"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Málaga"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Bilbao"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Lisboa"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Porto"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Marselha"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Nice"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Gênova"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Nápoles"
+     },
+     {
+      "id": "C1-O13",
+      "text": "Palermo"
+     },
+     {
+      "id": "C1-O14",
+      "text": "Roma"
+     },
+     {
+      "id": "C1-O15",
+      "text": "Milão"
+     },
+     {
+      "id": "C1-O16",
+      "text": "Paris"
+     },
+     {
+      "id": "C1-O17",
+      "text": "Atenas"
+     },
+     {
+      "id": "C1-O18",
+      "text": "Viena"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Barcelona",
+    "sources": [
+     "BARCELONA_BRIT"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Arquiteto de sete obras da cidade e arredores inscritas juntas pela UNESCO",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Antoni Gaudí"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Victor Horta"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Otto Wagner"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Hector Guimard"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Antoni Gaudí",
+    "sources": [
+     "BARCELONA_UNESCO_GAUDI",
+     "BARCELONA_PARK_GUELL"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Autor do plano de expansão aprovado em 1859, com quadras de esquinas chanfradas",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Ildefons Cerdà"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Georges-Eugène Haussmann"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Carlos María de Castro"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Arturo Soria"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Ildefons Cerdà",
+    "sources": [
+     "BARCELONA_UB_CERDA",
+     "BARCELONA_MUHBA_CERDA"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Grande evento internacional sediado pela cidade em 1992",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Jogos Olímpicos de Verão"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Exposição Universal"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Copa do Mundo de futebol"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Jogos do Mediterrâneo"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Jogos Olímpicos de Verão",
+    "sources": [
+     "BARCELONA_BRIT_PEOPLE"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "barcelona-viajante-P01",
+      "factKey": "barcelona-F01",
+      "text": "É uma grande cidade portuária à beira do Mediterrâneo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BRIT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P02",
+      "factKey": "barcelona-F02",
+      "text": "A cidade nasceu como uma pequena colônia romana no fim do século I a.C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_MUHBA_COLONIA",
+       "BARCELONA_BARCINO"
+      ],
+      "clueType": "historia",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P03",
+      "factKey": "barcelona-F03",
+      "text": "O núcleo romano ficava no alto de um monte voltado para o mar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BARCINO"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P04",
+      "factKey": "barcelona-F04",
+      "text": "A cidade fica entre os deltas de dois rios, o Besòs e o Llobregat.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BARCINO"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P05",
+      "factKey": "barcelona-F05",
+      "text": "Fica no nordeste da Espanha, a cerca de 150 km da fronteira com a França.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BRIT"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P06",
+      "factKey": "barcelona-F06",
+      "text": "É capital de uma comunidade autônoma espanhola, e as aulas nas escolas são dadas em espanhol e catalão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BRIT",
+       "BARCELONA_BRIT_PEOPLE"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P07",
+      "factKey": "barcelona-F07",
+      "text": "Quatro colunas de 12 metros de um templo romano de Augusto sobrevivem no pátio de um palácio gótico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BARCINO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P08",
+      "factKey": "barcelona-F08",
+      "text": "Um museu foi construído sobre as ruínas romanas, e os visitantes caminham por ruas antigas no subsolo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BARCINO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P09",
+      "factKey": "barcelona-F09",
+      "text": "Do lado do porto, a muralha romana tinha uma Porta do Mar e termas junto ao cais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BARCINO"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P10",
+      "factKey": "barcelona-F10",
+      "text": "Sete obras de um mesmo arquiteto, na cidade e nos arredores, foram inscritas juntas pela UNESCO.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BARCELONA_UNESCO_GAUDI"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P11",
+      "factKey": "barcelona-F11",
+      "text": "Esse arquiteto é Antoni Gaudí, que viveu de 1852 a 1926.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BARCELONA_UNESCO_GAUDI"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P12",
+      "factKey": "barcelona-F12",
+      "text": "Uma grande igreja dele continua em obras; só a fachada da Natividade e a cripta foram feitas por ele.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BARCELONA_UNESCO_GAUDI"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P13",
+      "factKey": "barcelona-F13",
+      "text": "Um parque de 12 hectares projetado por ele é Patrimônio Mundial desde 1984.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BARCELONA_PARK_GUELL",
+       "BARCELONA_UNESCO_GAUDI"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P14",
+      "factKey": "barcelona-F14",
+      "text": "Entre as obras inscritas estão a Casa Milà, conhecida como La Pedrera, e a Casa Batlló.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "BARCELONA_UNESCO_GAUDI"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P15",
+      "factKey": "barcelona-F15",
+      "text": "O estilo desse arquiteto, muito pessoal, aparece em prédios, jardins, esculturas e artes decorativas.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BARCELONA_UNESCO_GAUDI"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P16",
+      "factKey": "barcelona-F16",
+      "text": "Em 1859, foi aprovado um plano de expansão que criou uma malha de ruas em ângulo reto.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BARCELONA_UB_CERDA"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P17",
+      "factKey": "barcelona-F17",
+      "text": "As quadras desse bairro planejado têm esquinas chanfradas a 45 graus.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BARCELONA_UB_CERDA"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P18",
+      "factKey": "barcelona-F18",
+      "text": "Cada quadra foi pensada com prédios nas laterais e jardins abertos no centro.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BARCELONA_UB_CERDA"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P19",
+      "factKey": "barcelona-F19",
+      "text": "O autor desse plano de expansão foi Ildefons Cerdà.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BARCELONA_UB_CERDA",
+       "BARCELONA_MUHBA_CERDA"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P20",
+      "factKey": "barcelona-F20",
+      "text": "A cidade sediou os Jogos Olímpicos de 1992.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "BARCELONA_BRIT_PEOPLE"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P21",
+      "factKey": "barcelona-F21",
+      "text": "Uma grande feira comercial acontece todo ano desde 1929 num centro de exposições na colina de Montjuïc.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BRIT_PEOPLE"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P22",
+      "factKey": "barcelona-F22",
+      "text": "Até um terço dos moradores nasceu fora da região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BRIT_PEOPLE"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P23",
+      "factKey": "barcelona-F23",
+      "text": "Parte da água potável é captada rio acima, no Llobregat.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BRIT_PEOPLE"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P24",
+      "factKey": "barcelona-F24",
+      "text": "Um teatro da cidade é centro do teatro em língua catalã desde o século XIX.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BRIT_PEOPLE"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-viajante-P25",
+      "factKey": "barcelona-F25",
+      "text": "É a capital da Catalunha e o principal porto espanhol no Mediterrâneo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BRIT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "barcelona-geografo-P01",
+      "factKey": "barcelona-F26",
+      "text": "A cidade nasceu de uma fundação colonial romana planejada, com uma malha de ruas definida de antemão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_MUHBA_COLONIA"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P02",
+      "factKey": "barcelona-F27",
+      "text": "Ligada à Via Augusta e às rotas comerciais, a colônia controlava terras extensas e férteis, apesar da pequena área urbana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_MUHBA_COLONIA"
+      ],
+      "clueType": "processo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P03",
+      "factKey": "barcelona-F03",
+      "text": "O núcleo romano ficava num monte voltado para o mar, onde hoje está a praça de Sant Jaume.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BARCINO"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P04",
+      "factKey": "barcelona-F29",
+      "text": "O cardo e o decúmano levavam a quatro portas; ruas atuais como Llibreteria e Bisbe ainda seguem esses eixos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BARCINO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P05",
+      "factKey": "barcelona-F30",
+      "text": "A muralha dos séculos I e II, reforçada entre os séculos III e IV, manteve o mesmo perímetro até a Idade Média.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BARCINO"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P06",
+      "factKey": "barcelona-F31",
+      "text": "A colônia foi fundada sob Augusto, entre 15 e 13 a.C., com o nome de Julia Augusta Faventia Paterna Barcino.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BARCINO"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P07",
+      "factKey": "barcelona-F04",
+      "text": "O sítio urbano fica entre os deltas do Besòs e do Llobregat, rio de onde vem parte da água potável.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BARCINO",
+       "BARCELONA_BRIT_PEOPLE"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P08",
+      "factKey": "barcelona-F33",
+      "text": "As fontes de água locais não dão conta, ao mesmo tempo, das demandas industrial e doméstica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BRIT_PEOPLE"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P09",
+      "factKey": "barcelona-F34",
+      "text": "A derrubada das muralhas abriu a fase-chave da modernização, que vai até a anexação dos povoados da planície.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "BARCELONA_MUHBA_CERDA"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P10",
+      "factKey": "barcelona-F16",
+      "text": "O plano de reforma e expansão aprovado em 1859 ocupou a área entre a cidade velha e a vila de Gràcia.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BARCELONA_UB_CERDA"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P11",
+      "factKey": "barcelona-F17",
+      "text": "A malha ortogonal combinou ruas largas, chanfros de 45 graus pensados para o tráfego e grandes vias oblíquas.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BARCELONA_UB_CERDA"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P12",
+      "factKey": "barcelona-F37",
+      "text": "O ideal igualitário e racional do plano foi atropelado pela especulação imobiliária, que adensou as quadras.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BARCELONA_UB_CERDA"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P13",
+      "factKey": "barcelona-F19",
+      "text": "O projeto de Cerdà entrou em choque com os planos do concurso municipal de 1859, e ele conduziu sua aplicação até 1866.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BARCELONA_MUHBA_CERDA"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P14",
+      "factKey": "barcelona-F10",
+      "text": "Sete obras de Gaudí, na cidade e nos arredores, formam um único bem em série do Patrimônio Mundial.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BARCELONA_UNESCO_GAUDI",
+       "BARCELONA_PARK_GUELL"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P15",
+      "factKey": "barcelona-F40",
+      "text": "A UNESCO vê nessa obra uma síntese criativa de escolas do século XIX, como Arts and Crafts, simbolismo, expressionismo e racionalismo.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BARCELONA_UNESCO_GAUDI"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P16",
+      "factKey": "barcelona-F41",
+      "text": "Segundo a UNESCO, essa arquitetura antecipou muitas técnicas da construção do século XX.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BARCELONA_UNESCO_GAUDI"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P17",
+      "factKey": "barcelona-F42",
+      "text": "O arquiteto é visto como o mais representativo e destacado do Modernisme.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BARCELONA_UNESCO_GAUDI"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P18",
+      "factKey": "barcelona-F43",
+      "text": "O bem inclui o Parque Güell, o Palácio Güell, a Casa Vicens, a cripta da Colônia Güell e a fachada da Natividade de uma igreja ainda em obras.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BARCELONA_UNESCO_GAUDI"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P19",
+      "factKey": "barcelona-F44",
+      "text": "Três dessas obras já tinham sido inscritas antes, num bem depois incorporado ao conjunto em série.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BARCELONA_UNESCO_GAUDI"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P20",
+      "factKey": "barcelona-F13",
+      "text": "O parque inscrito, de 12 ha, também é protegido pela Espanha desde 1969 e pela Catalunha desde 1993.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BARCELONA_PARK_GUELL"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P21",
+      "factKey": "barcelona-F20",
+      "text": "A Olimpíada de 1992 deu projeção internacional à cidade.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BARCELONA_BRIT_PEOPLE"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P22",
+      "factKey": "barcelona-F22",
+      "text": "Até um terço da população nasceu fora da Catalunha, e a imigração pesou no crescimento econômico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BRIT_PEOPLE"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P23",
+      "factKey": "barcelona-F05",
+      "text": "É capital de província e de comunidade autônoma, a cerca de 150 km ao sul da fronteira francesa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BRIT"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P24",
+      "factKey": "barcelona-F21",
+      "text": "Uma feira anual, realizada desde 1929, ocupa um centro de exposições em Montjuïc.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BRIT_PEOPLE"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "barcelona-geografo-P25",
+      "factKey": "barcelona-F25",
+      "text": "Principal porto mediterrâneo da Espanha e grande centro comercial, é a capital catalã.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BARCELONA_BRIT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Capital da Catalunha e principal porto espanhol no Mediterrâneo: nasceu como a colônia romana de Barcino, cresceu com o plano de expansão de Ildefons Cerdà (1859), reúne sete obras de Antoni Gaudí no Patrimônio Mundial e sediou os Jogos Olímpicos de 1992.",
+   "editorialNotes": [
+    "A data da fundação romana varia: o site da prefeitura fala em 15–13 a.C., sob Augusto; o Museu de História, em fim do século I a.C.",
+    "A UNESCO dá 1984 como ano de inscrição das obras de Gaudí; a ampliação de 2005 aparece só no texto em espanhol da página.",
+    "Lluís Domènech i Montaner também tem obras de Barcelona no Patrimônio Mundial (Palau de la Música e Hospital de Sant Pau); por isso não entra nas alternativas de C2."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Criado e verificado nas fontes: UNESCO (obras de Gaudí), Britannica, Universitat de Barcelona, Prefeitura e Museu de História de Barcelona e site oficial do Parque Güell; C1 com 18 cidades europeias, sobretudo ibéricas e mediterrâneas."
+  }
+ },
+ "sources": {
+  "BARCELONA_BRIT": {
+   "id": "BARCELONA_BRIT",
+   "title": "Barcelona",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/place/Barcelona",
+   "checkedAt": "2026-11-15"
+  },
+  "BARCELONA_BRIT_PEOPLE": {
+   "id": "BARCELONA_BRIT_PEOPLE",
+   "title": "Barcelona — The people",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://britannica.com/place/Barcelona/The-people",
+   "checkedAt": "2026-11-15"
+  },
+  "BARCELONA_UNESCO_GAUDI": {
+   "id": "BARCELONA_UNESCO_GAUDI",
+   "title": "Works of Antoni Gaudí",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/list/320/",
+   "checkedAt": "2026-11-15"
+  },
+  "BARCELONA_PARK_GUELL": {
+   "id": "BARCELONA_PARK_GUELL",
+   "title": "World Heritage Site — Park Güell",
+   "publisher": "Park Güell (Barcelona de Serveis Municipals / Ajuntament de Barcelona)",
+   "url": "https://parkguell.barcelona/en/park-guell/world-heritage-site",
+   "checkedAt": "2026-11-15"
+  },
+  "BARCELONA_UB_CERDA": {
+   "id": "BARCELONA_UB_CERDA",
+   "title": "The Cerdà Plan",
+   "publisher": "Universitat de Barcelona",
+   "url": "https://www.ub.edu/visitavirtual/visitavirtualEH/index.php/en/get-to-know-the-university-of-barcelona/the-city-in-the-nineteenth-century/the-eixample-and-the-historic-building/399-the-cerda-plan",
+   "checkedAt": "2026-11-15"
+  },
+  "BARCELONA_MUHBA_CERDA": {
+   "id": "BARCELONA_MUHBA_CERDA",
+   "title": "Cerdà i Barcelona. La primera metròpoli, 1853–1897",
+   "publisher": "Museu d'Història de Barcelona (MUHBA) / Ajuntament de Barcelona",
+   "url": "https://www.barcelona.cat/museuhistoria/en/anteriors/cerda-i-barcelona-la-primera-metropoli-1853-1897",
+   "checkedAt": "2026-11-15"
+  },
+  "BARCELONA_BARCINO": {
+   "id": "BARCELONA_BARCINO",
+   "title": "Roman Bàrcino",
+   "publisher": "Ajuntament de Barcelona",
+   "url": "https://barcelona.cat/en/discoverbcn/history/roman-barcino",
+   "checkedAt": "2026-11-15"
+  },
+  "BARCELONA_MUHBA_COLONIA": {
+   "id": "BARCELONA_MUHBA_COLONIA",
+   "title": "4. The foundation of the Roman colony",
+   "publisher": "Museu d'Història de Barcelona (MUHBA) / Ajuntament de Barcelona",
+   "url": "https://barcelona.cat/museuhistoria/en/heritages/muhba-placa-de-rei/4-foundation-roman-colony",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.britannica.com/place/Barcelona",
+   "https://britannica.com/place/Barcelona/The-people",
+   "https://whc.unesco.org/en/list/320/",
+   "https://parkguell.barcelona/en/park-guell/world-heritage-site",
+   "https://www.ub.edu/visitavirtual/visitavirtualEH/index.php/en/get-to-know-the-university-of-barcelona/the-city-in-the-nineteenth-century/the-eixample-and-the-historic-building/399-the-cerda-plan",
+   "https://www.barcelona.cat/museuhistoria/en/anteriors/cerda-i-barcelona-la-primera-metropoli-1853-1897",
+   "https://barcelona.cat/en/discoverbcn/history/roman-barcino",
+   "https://barcelona.cat/museuhistoria/en/heritages/muhba-placa-de-rei/4-foundation-roman-colony"
+  ],
+  "alteracoes": [
+   "criado do zero"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

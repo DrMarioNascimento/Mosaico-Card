@@ -1,0 +1,1088 @@
+{
+  "case": {
+    "id": "lug2-parque-chitwan",
+    "placeId": "parque-chitwan",
+    "title": "Parque Nacional de Chitwan",
+    "aliases": [
+      "Chitwan"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "NP"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional de Chitwan"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional de Bardia"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional de Shuklaphanta"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional de Parsa"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional de Banke"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional de Sagarmatha"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional de Langtang"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional de Kaziranga"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional de Manas"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional Jim Corbett"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional de Dudhwa"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional de Sundarbans"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional de Chitwan",
+        "sources": [
+          "CHITWAN_IUCN_WHO",
+          "CHITWAN_SOC2016",
+          "CHITWAN_CNP"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Ambiente em que o parque se insere",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Terai interior, ao pé do Himalaia"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Alta montanha com geleiras"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Planície aluvial do Brahmaputra"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Delta de manguezais"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Terai interior, ao pé do Himalaia",
+        "sources": [
+          "CHITWAN_IUCN_WHO",
+          "CHITWAN_CNP",
+          "CHITWAN_DNPWC2019"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Rios que marcam o limite norte",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Narayani e Rapti"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Karnali e Babai"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Koshi e Arun"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Bagmati e Lalbakeya"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Narayani e Rapti",
+        "sources": [
+          "CHITWAN_CNP",
+          "CHITWAN_IUCN_WHO"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Grande herbívoro do qual o parque tem a segunda maior população do mundo",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Rinoceronte-de-um-chifre"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Elefante-asiático"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Gauro"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Búfalo-asiático selvagem"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Rinoceronte-de-um-chifre",
+        "sources": [
+          "CHITWAN_IUCN_WHO",
+          "CHITWAN_SOC2016"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "parque-chitwan-viajante-P01",
+            "factKey": "parque-chitwan-F01",
+            "text": "Este destino é um parque de planície no sul da Ásia, com florestas, capinzais e rios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO",
+              "CHITWAN_CNP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P02",
+            "factKey": "parque-chitwan-F02",
+            "text": "O clima é subtropical, com chuvas de monção de junho a setembro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CHITWAN_SOC2016",
+              "CHITWAN_CNP"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P03",
+            "factKey": "parque-chitwan-F03",
+            "text": "O parque fica no centro-sul do Nepal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_CNP",
+              "CHITWAN_DNPWC2019"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P04",
+            "factKey": "parque-chitwan-F04",
+            "text": "Fica nas terras baixas ao pé do Himalaia, numa faixa chamada Terai.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO",
+              "CHITWAN_DNPWC2019"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P05",
+            "factKey": "parque-chitwan-F05",
+            "text": "A altitude é baixa para o país: vai de pouco mais de 100 m a cerca de 800 m.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CHITWAN_CNP",
+              "CHITWAN_DNPWC2019"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P06",
+            "factKey": "parque-chitwan-F06",
+            "text": "De março a junho, o calor pode chegar a 43 °C.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CHITWAN_CNP"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P07",
+            "factKey": "parque-chitwan-F07",
+            "text": "Cerca de 70% do parque é coberto por floresta de sal (Shorea robusta).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO",
+              "CHITWAN_CNP",
+              "CHITWAN_SOC2016"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P08",
+            "factKey": "parque-chitwan-F08",
+            "text": "Nos capinzais, o capim-elefante pode chegar a 8 metros de altura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_CNP",
+              "CHITWAN_DNPWC2019"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P09",
+            "factKey": "parque-chitwan-F09",
+            "text": "Os rios Narayani e Rapti marcam o limite norte do parque.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CHITWAN_CNP"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P10",
+            "factKey": "parque-chitwan-F10",
+            "text": "Na época das monções, os rios mudam de curso e trazem pedras, areia e lama.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CHITWAN_SOC2016"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P11",
+            "factKey": "parque-chitwan-F11",
+            "text": "Só um parque no mundo tem mais rinocerontes-de-um-chifre do que este.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO",
+              "CHITWAN_SOC2016"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P12",
+            "factKey": "parque-chitwan-F12",
+            "text": "A estimativa de 2021–2022 chegou a 694 rinocerontes no parque.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P13",
+            "factKey": "parque-chitwan-F13",
+            "text": "Tigres-de-bengala também vivem nas matas e capinzais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO",
+              "CHITWAN_SOC2016"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P14",
+            "factKey": "parque-chitwan-F14",
+            "text": "Nos rios e lagos vivem o gavial, o crocodilo-palustre e o golfinho-do-ganges.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO",
+              "CHITWAN_DNPWC2019"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P15",
+            "factKey": "parque-chitwan-F15",
+            "text": "Elefantes selvagens, gauros e ursos-beiçudos também habitam o parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_DNPWC2019"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P16",
+            "factKey": "parque-chitwan-F16",
+            "text": "Mais de 540 espécies de aves já foram registradas ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_CNP",
+              "CHITWAN_DNPWC2019"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P17",
+            "factKey": "parque-chitwan-F17",
+            "text": "O povo tharu, indígena da região, é conhecido por suas aldeias e pela dança dos bastões.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_DNPWC2019",
+              "CHITWAN_IUCN_WHO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P18",
+            "factKey": "parque-chitwan-F18",
+            "text": "Antes de virar parque, a área era terreno de caça da realeza, dos governantes Rana e de seus convidados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_CNP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P19",
+            "factKey": "parque-chitwan-F19",
+            "text": "Em 1973, a área se tornou o primeiro parque nacional do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_SOC2016",
+              "CHITWAN_DNPWC2019"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P20",
+            "factKey": "parque-chitwan-F20",
+            "text": "A UNESCO reconheceu o parque como Patrimônio Mundial em 1984.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO",
+              "CHITWAN_SOC2016",
+              "CHITWAN_CNP"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P21",
+            "factKey": "parque-chitwan-F21",
+            "text": "Sauraha é um dos principais destinos turísticos do parque, com centro de visitantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_DNPWC2019",
+              "CHITWAN_IUCN_WHO"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P22",
+            "factKey": "parque-chitwan-F22",
+            "text": "De 30% a 50% do dinheiro arrecadado pelo parque volta para as comunidades do entorno.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_CNP",
+              "CHITWAN_DNPWC2019"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P23",
+            "factKey": "parque-chitwan-F23",
+            "text": "Uma planta invasora, a Mikania, cobre e sufoca a vegetação nativa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P24",
+            "factKey": "parque-chitwan-F24",
+            "text": "A leste, o parque faz divisa com o Parque Nacional de Parsa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_DNPWC2019",
+              "CHITWAN_CNP"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-viajante-P25",
+            "factKey": "parque-chitwan-F25",
+            "text": "Ao sul, do outro lado da fronteira, fica a Reserva de Tigres de Valmiki, na Índia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_DNPWC2019",
+              "CHITWAN_SOC2016"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "parque-chitwan-geografo-P01",
+            "factKey": "parque-chitwan-F01",
+            "text": "A unidade protege um dos poucos remanescentes pouco alterados das planícies subtropicais ao pé do Himalaia.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P02",
+            "factKey": "parque-chitwan-F02",
+            "text": "Abrange ecossistemas do Terai interior e das colinas Siwalik, também chamadas Churia.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO",
+              "CHITWAN_DNPWC2019"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P03",
+            "factKey": "parque-chitwan-F03",
+            "text": "As colinas Churia sobem de cerca de 150 m a mais de 800 m dentro da área protegida.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CHITWAN_DNPWC2019"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P04",
+            "factKey": "parque-chitwan-F04",
+            "text": "Narayani e Rapti formam o limite norte, uma barreira natural entre o parque e os povoados.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CHITWAN_CNP",
+              "CHITWAN_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P05",
+            "factKey": "parque-chitwan-F05",
+            "text": "Na monção, Narayani e Rapti depositam blocos, areia e silte e mudam de curso, o que aumenta o risco de cheias.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CHITWAN_SOC2016"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P06",
+            "factKey": "parque-chitwan-F06",
+            "text": "Chove em média 2.150 mm por ano, e a monção vai do fim de junho a setembro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CHITWAN_CNP"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P07",
+            "factKey": "parque-chitwan-F07",
+            "text": "A floresta de sal ocupa cerca de 70% da área; matas ribeirinhas, capinzais e lagos de meandro abandonado completam o mosaico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO",
+              "CHITWAN_SOC2016",
+              "CHITWAN_CNP"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P08",
+            "factKey": "parque-chitwan-F08",
+            "text": "Os capinzais, que cobriam cerca de 20% da área, vêm diminuindo, e seu manejo é um desafio de conservação.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CHITWAN_SOC2016",
+              "CHITWAN_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P09",
+            "factKey": "parque-chitwan-F09",
+            "text": "O parque tem a segunda maior população mundial do rinoceronte-de-um-chifre, atrás apenas de Kaziranga.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P10",
+            "factKey": "parque-chitwan-F10",
+            "text": "A população de rinocerontes cresceu de 503 em 2011 para 605 em 2015.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CHITWAN_SOC2016"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P11",
+            "factKey": "parque-chitwan-F11",
+            "text": "O parque é considerado uma população-fonte de tigres-de-bengala.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_SOC2016"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P12",
+            "factKey": "parque-chitwan-F12",
+            "text": "Abriga cerca de 31% das espécies de mamíferos e 65% das de peixes registradas no país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P13",
+            "factKey": "parque-chitwan-F13",
+            "text": "Um remanescente da população do gavial, crocodilo criticamente ameaçado, recebe ações de reintrodução.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_SOC2016",
+              "CHITWAN_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P14",
+            "factKey": "parque-chitwan-F14",
+            "text": "A floresta de Barandabhar liga o parque às montanhas baixas do Himalaia, e o Terai ao sul o conecta a três áreas protegidas indianas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_SOC2016"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P15",
+            "factKey": "parque-chitwan-F15",
+            "text": "Após a queda da fauna nos anos 1950, por desmatamento e caça, vieram santuários de rinocerontes (1957 e 1963) e, em 1973, o primeiro parque nacional do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_DNPWC2019",
+              "CHITWAN_CNP",
+              "CHITWAN_SOC2016"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P16",
+            "factKey": "parque-chitwan-F16",
+            "text": "A inscrição como Patrimônio Mundial, em 1984, valeu-se de critérios de beleza natural, processos ecológicos e biodiversidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO",
+              "CHITWAN_SOC2016"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P17",
+            "factKey": "parque-chitwan-F17",
+            "text": "A zona de amortecimento, de 1996, mistura florestas e terras privadas cultivadas ao redor do núcleo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_CNP",
+              "CHITWAN_DNPWC2019"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P18",
+            "factKey": "parque-chitwan-F18",
+            "text": "Os lagos Beeshazar, sítio Ramsar desde 2003, ficam na zona de amortecimento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO",
+              "CHITWAN_DNPWC2019"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P19",
+            "factKey": "parque-chitwan-F19",
+            "text": "De 30% a 50% da receita volta à zona de amortecimento, onde 22 comitês de usuários manejam florestas comunitárias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_CNP",
+              "CHITWAN_DNPWC2019",
+              "CHITWAN_IUCN_WHO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P20",
+            "factKey": "parque-chitwan-F20",
+            "text": "Tharu e bote estão entre as comunidades indígenas tradicionais da região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO",
+              "CHITWAN_DNPWC2019"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P21",
+            "factKey": "parque-chitwan-F21",
+            "text": "A Mikania micrantha, invasora que se espalha com o movimento de pessoas e animais, sufoca plantas nativas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P22",
+            "factKey": "parque-chitwan-F22",
+            "text": "A rodovia Terai Hulaki e o traçado da ferrovia elétrica leste-oeste pressionam a integridade da área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO",
+              "CHITWAN_SOC2016"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P23",
+            "factKey": "parque-chitwan-F23",
+            "text": "A barragem de Gandak, no Narayani, interrompe o deslocamento de animais aquáticos.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P24",
+            "factKey": "parque-chitwan-F24",
+            "text": "O turismo se concentra em Sauraha e em Kasara, sede do parque, que tem um museu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_IUCN_WHO",
+              "CHITWAN_DNPWC2019"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-chitwan-geografo-P25",
+            "factKey": "parque-chitwan-F25",
+            "text": "Faz divisa a leste com o Parque Nacional de Parsa e ao sul com a Reserva de Tigres de Valmiki, na Índia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CHITWAN_DNPWC2019"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Primeiro parque nacional do Nepal (1973), no Terai interior ao pé do Himalaia: floresta de sal, capinzais e rios como Narayani e Rapti abrigam a segunda maior população mundial de rinocerontes-de-um-chifre, além de tigres e gaviais.",
+      "editorialNotes": [
+        "Área: 952,63 km² no site do parque e no folheto do DNPWC (2019); o relatório de 2016 e a proclamação de 1973 citam 932 km². Altitude: 110–850 m (site) ou 140–800 m (folheto); as pistas usam faixas arredondadas.",
+        "Parsa, antes Reserva de Vida Selvagem, aparece como Parque Nacional no folheto do DNPWC de 2019. Os números de tigres divergem na IUCN (128 em 2022 e 152 em 2025), e por isso as pistas não os usam.",
+        "Para diferenciar de Sagarmatha (também no Nepal), as pistas se apoiam em planície, Terai, rinocerontes, floresta de sal e rios de várzea."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na IUCN World Heritage Outlook (2025), no relatório de conservação de 2016 (DNPWC/UNESCO), no site oficial do parque e no folheto do DNPWC (2019); C1–C4 e as 50 pistas refeitos para diferenciar de Sagarmatha e dos parques do Terai."
+    }
+  },
+  "sources": {
+    "CHITWAN_IUCN_WHO": {
+      "id": "CHITWAN_IUCN_WHO",
+      "title": "Chitwan National Park — Conservation Outlook Assessment (2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1011",
+      "checkedAt": "2026-11-15"
+    },
+    "CHITWAN_SOC2016": {
+      "id": "CHITWAN_SOC2016",
+      "title": "Report on State of Conservation of Chitwan National Park (Nepal) (N 284), dezembro de 2016",
+      "publisher": "Governo do Nepal (DNPWC) / UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/155772",
+      "checkedAt": "2026-11-15"
+    },
+    "CHITWAN_CNP": {
+      "id": "CHITWAN_CNP",
+      "title": "About Chitwan National Park",
+      "publisher": "Chitwan National Park Office — Governo do Nepal",
+      "url": "https://chitwannationalpark.gov.np/about.html",
+      "checkedAt": "2026-11-15"
+    },
+    "CHITWAN_DNPWC2019": {
+      "id": "CHITWAN_DNPWC2019",
+      "title": "Chitwan National Park — brochure (2019)",
+      "publisher": "Department of National Parks and Wildlife Conservation (Nepal)",
+      "url": "https://dnpwc.gov.np/media/publication/Chitwan_brochure_2019.pdf",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://worldheritageoutlook.iucn.org/node/1011",
+      "https://whc.unesco.org/document/155772",
+      "https://chitwannationalpark.gov.np/about.html",
+      "https://dnpwc.gov.np/media/publication/Chitwan_brochure_2019.pdf"
+    ],
+    "alteracoes": [
+      "Fonte ASIA_CHI_UNESCO (whc.unesco.org/en/list/284, não aberta por regra do protocolo) substituída por IUCN World Heritage Outlook 2025 (CHITWAN_IUCN_WHO), relatório de conservação de 2016 (CHITWAN_SOC2016), site oficial do parque (CHITWAN_CNP) e folheto do DNPWC de 2019 (CHITWAN_DNPWC2019).",
+      "C1: rótulo ‘Parque nacional asiático’ → ‘Parque nacional’; saíram Khao Yai, Yala, Ujung Kulon e Komodo (outro recorte); entraram Banke, Langtang, Jim Corbett e Dudhwa (Nepal e Terai indiano).",
+      "C2: rótulo e alternativas refeitos (‘Ambiente em que o parque se insere’: Terai interior × alta montanha × planície do Brahmaputra × delta de manguezais).",
+      "C3: rótulo ‘Rios próximos ao limite norte’ → ‘Rios que marcam o limite norte’ (site oficial); ‘Karnali e Bheri’ trocado por ‘Karnali e Babai’.",
+      "C4: ‘Área protegida adjacente a leste’ (alternativa ‘Reserva de Parsa’ com nome desatualizado) trocado por ‘Grande herbívoro com a segunda maior população do mundo’ (rinoceronte; IUCN e relatório 2016); Parsa passou a pista decisiva.",
+      "Viajante: 25 pistas reescritas ou trocadas — números conferidos (altitude, 43 °C, 70% de sal, capim de 8 m, 694 rinocerontes, 540+ aves, 1973, 1984, 30–50% da receita); entraram caça real/Rana, tharu e dança dos bastões, Sauraha, Mikania, Parsa e Valmiki (decisivas); saíram ‘Rio Reu fica próximo da parte sul’ (as fontes só o citam como rio principal) e ‘locais visitados por peregrinos’ (genérica).",
+      "Geógrafo: 25 pistas reescritas para processos e relações (Terai interior e Churia, rios como limite e dinâmica de cheias, monção, mosaico vegetal, declínio dos capinzais, rinocerontes 2011–2015, população-fonte de tigres, conectividade com Barandabhar e áreas indianas, histórico 1957–1963–1973, zona de amortecimento, Ramsar, repartição de receita, invasoras, rodovia/ferrovia, barragem de Gandak); saiu a pista sobre Bikram Baba e Balmiki Ashram (Bikram Baba não aparece nas fontes abertas).",
+      "Sinais: P01–P02 abertura e P24–P25 decisiva nos dois perfis; relatedFields distribuídos entre C1–C4. C4: alternativa ‘Rinoceronte-de-um-chifre’ (mesmo nome usado nas pistas)."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

@@ -1,0 +1,1108 @@
+{
+ "case": {
+  "id": "lug3-berlim",
+  "placeId": "berlim",
+  "title": "Berlim",
+  "aliases": [],
+  "answerType": "cidade",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "DE"
+   ],
+   "continents": [
+    "europa"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Berlim"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Paris"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Londres"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Viena"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Praga"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Varsóvia"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Budapeste"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Amsterdã"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Bruxelas"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Copenhague"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Estocolmo"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Munique"
+     },
+     {
+      "id": "C1-O13",
+      "text": "Hamburgo"
+     },
+     {
+      "id": "C1-O14",
+      "text": "Dresden"
+     },
+     {
+      "id": "C1-O15",
+      "text": "Colônia"
+     },
+     {
+      "id": "C1-O16",
+      "text": "Roma"
+     },
+     {
+      "id": "C1-O17",
+      "text": "Madri"
+     },
+     {
+      "id": "C1-O18",
+      "text": "Lisboa"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Berlim",
+    "sources": [
+     "BERLIM_BRIT"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Rio que atravessa o centro da cidade",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Spree"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Elba"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Reno"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Danúbio"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Spree",
+    "sources": [
+     "BERLIM_BRIT_LAYOUT",
+     "BERLIM_ICOMOS_MUSEUMSINSEL"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Onde ficam os cinco museus do centro inscritos pela UNESCO em 1999",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Numa ilha do rio"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Numa colina fortificada"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Num antigo cais do porto"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Num parque real"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Numa ilha do rio",
+    "sources": [
+     "BERLIM_ICOMOS_MUSEUMSINSEL",
+     "BERLIM_RP_MUSEUMSINSEL",
+     "BERLIM_WELTERBE_MUSEUMSINSEL"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Cidade vizinha com a qual divide um conjunto de palácios e parques do Patrimônio Mundial",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Potsdam"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Versalhes"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Sintra"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Peterhof"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Potsdam",
+    "sources": [
+     "BERLIM_UNESCO_POTSDAM"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "berlim-viajante-P01",
+      "factKey": "berlim-F01",
+      "text": "É uma capital europeia com rio, canais e um cinturão de lagos a leste e a oeste.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "BERLIM_BRIT_LAYOUT"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P02",
+      "factKey": "berlim-F02",
+      "text": "A cidade fica no coração de uma grande planície do norte da Europa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P03",
+      "factKey": "berlim-F03",
+      "text": "O rio que atravessa o centro da cidade é o Spree.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BERLIM_BRIT_LAYOUT",
+       "BERLIM_ICOMOS_MUSEUMSINSEL"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P04",
+      "factKey": "berlim-F04",
+      "text": "A cidade nasceu de duas vilas gêmeas que cresceram a partir do início do século XIII.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT_LAYOUT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P05",
+      "factKey": "berlim-F05",
+      "text": "Foi capital de um reino e, a partir de 1871, de um país recém-unificado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P06",
+      "factKey": "berlim-F06",
+      "text": "Na madrugada de 13 de agosto de 1961, a cidade foi cortada por arame farpado, que dias depois virou muro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_STIFTUNG_MAUER",
+       "BERLIM_VISITBERLIN_MURO"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P07",
+      "factKey": "berlim-F07",
+      "text": "O muro que dividia a cidade caiu em 9 de novembro de 1989.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_VISITBERLIN_MURO",
+       "BERLIM_STIFTUNG_MAUER"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P08",
+      "factKey": "berlim-F08",
+      "text": "Uma fileira dupla de paralelepípedos no chão mostra por onde passava o muro no centro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_VISITBERLIN_MURO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P09",
+      "factKey": "berlim-F09",
+      "text": "Em 1990, 118 artistas de 21 países pintaram a East Side Gallery, num trecho do antigo muro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_VISITBERLIN_MURO"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P10",
+      "factKey": "berlim-F10",
+      "text": "Uma trilha de cerca de 180 km, dividida em 14 trechos, acompanha a antiga faixa de fronteira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_VISITBERLIN_MURO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P11",
+      "factKey": "berlim-F11",
+      "text": "O posto de controle mais famoso entre as duas metades da cidade ficava na Friedrichstrasse.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT_LAYOUT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P12",
+      "factKey": "berlim-F12",
+      "text": "Uma larga avenida liga as proximidades da Alexanderplatz a um portão monumental, cuja quadriga foi restaurada em 1958 e em 1991.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT_LAYOUT"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P13",
+      "factKey": "berlim-F13",
+      "text": "Logo a oeste desse portão fica o Tiergarten, grande parque perto do centro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT_LAYOUT"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P14",
+      "factKey": "berlim-F14",
+      "text": "Uma torre de televisão de 365 metros, concluída em 1969, é um dos marcos do centro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT_LAYOUT"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P15",
+      "factKey": "berlim-F15",
+      "text": "O velho prédio do parlamento, muito restaurado, voltou a receber o legislativo nacional em 1999.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT_LAYOUT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P16",
+      "factKey": "berlim-F16",
+      "text": "Numa ilha do rio, no centro, cinco museus foram construídos entre 1824 e 1930.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "BERLIM_ICOMOS_MUSEUMSINSEL",
+       "BERLIM_RP_MUSEUMSINSEL"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P17",
+      "factKey": "berlim-F17",
+      "text": "Entre os tesouros desses museus estão o busto de Nefertiti, o Portão de Ishtar e o Altar de Pérgamo.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "BERLIM_WELTERBE_MUSEUMSINSEL"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P18",
+      "factKey": "berlim-F18",
+      "text": "Um dos museus da ilha ficou em ruínas por cerca de 60 anos antes de ser reconstruído.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BERLIM_WELTERBE_MUSEUMSINSEL"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P19",
+      "factKey": "berlim-F19",
+      "text": "O bairro de Kreuzberg tem a maior comunidade turca da Europa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT_LAYOUT"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P20",
+      "factKey": "berlim-F20",
+      "text": "O Palácio de Charlottenburg, do fim do século XVII, é um dos grandes edifícios barrocos da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT_LAYOUT"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P21",
+      "factKey": "berlim-F21",
+      "text": "Palácios e parques à beira do rio Havel e do lago Glienicke ligam a cidade à vizinha onde fica o palácio de Sanssouci.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BERLIM_UNESCO_POTSDAM"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P22",
+      "factKey": "berlim-F22",
+      "text": "Voltaire se hospedou em Sanssouci, palácio construído para Frederico II entre 1745 e 1747.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BERLIM_UNESCO_POTSDAM"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P23",
+      "factKey": "berlim-F23",
+      "text": "Os parques desse conjunto de palácios somam 500 hectares, com 150 edifícios erguidos entre 1730 e 1916.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BERLIM_UNESCO_POTSDAM"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P24",
+      "factKey": "berlim-F24",
+      "text": "A sala de concertos da Filarmônica da cidade foi projetada por Hans Scharoun.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-viajante-P25",
+      "factKey": "berlim-F25",
+      "text": "É a capital da Alemanha e seu principal centro urbano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "berlim-geografo-P01",
+      "factKey": "berlim-F01",
+      "text": "Um rio que cruza o centro, canais e uma faixa de lagos a leste e a oeste estruturam a paisagem urbana.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "BERLIM_BRIT_LAYOUT"
+      ],
+      "clueType": "agua",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P02",
+      "factKey": "berlim-F05",
+      "text": "A posição num eixo comercial e geográfico leste–oeste ajudou a cidade a virar capital de um reino e, depois, de um país unificado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P03",
+      "factKey": "berlim-F04",
+      "text": "O tecido urbano original vem de duas cidades gêmeas que se desenvolveram desde o início do século XIII.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT_LAYOUT"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P04",
+      "factKey": "berlim-F29",
+      "text": "O centro histórico, o Mitte, concentrava funções administrativas, comerciais e culturais e ficou do lado oriental na divisão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT_LAYOUT"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P05",
+      "factKey": "berlim-F30",
+      "text": "Na divisão, as duas metades tinham áreas parecidas, e a ocidental criou um novo centro em torno de um bulevar de um antigo subúrbio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT_LAYOUT"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P06",
+      "factKey": "berlim-F06",
+      "text": "O muro, erguido pelo governo da Alemanha Oriental em 1961, separava as duas metades e cercava toda a parte ocidental.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT_LAYOUT",
+       "BERLIM_STIFTUNG_MAUER"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P07",
+      "factKey": "berlim-F32",
+      "text": "Entre as duas metades havia sete passagens rodoviárias e uma ferroviária.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_STIFTUNG_MAUER"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P08",
+      "factKey": "berlim-F33",
+      "text": "A faixa de fronteira, chamada de faixa da morte no lado ocidental, era mantida livre para dar visão e campo de tiro aos guardas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_STIFTUNG_MAUER"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P09",
+      "factKey": "berlim-F34",
+      "text": "Segundo a fundação do memorial, 140 pessoas morreram no muro entre 1961 e 1989; 91 foram baleadas por guardas, a maioria tentando fugir.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_STIFTUNG_MAUER"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P10",
+      "factKey": "berlim-F07",
+      "text": "Depois da queda do muro, em 1989, a demolição no centro terminou oficialmente em 30 de novembro de 1990.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_VISITBERLIN_MURO"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P11",
+      "factKey": "berlim-F08",
+      "text": "O antigo traçado do muro no centro está marcado no chão com paralelepípedos e placas de ferro fundido.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_VISITBERLIN_MURO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P12",
+      "factKey": "berlim-F37",
+      "text": "Um trecho do muro na Bernauer Strasse foi protegido como monumento em 1990 e hoje integra um memorial com segmento reconstituído e torre de observação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_STIFTUNG_MAUER",
+       "BERLIM_VISITBERLIN_MURO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P13",
+      "factKey": "berlim-F15",
+      "text": "O legislativo nacional passou a ocupar o prédio histórico do parlamento, restaurado, em 1999.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT_LAYOUT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P14",
+      "factKey": "berlim-F39",
+      "text": "A Potsdamer Platz já foi o nó de tráfego mais movimentado da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT_LAYOUT"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P15",
+      "factKey": "berlim-F16",
+      "text": "Os cinco museus ocupam parte de uma ilha do Spree e formam uma espécie de coroa no tecido urbano.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "BERLIM_ICOMOS_MUSEUMSINSEL",
+       "BERLIM_RP_MUSEUMSINSEL"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P16",
+      "factKey": "berlim-F41",
+      "text": "O conjunto foi erguido entre 1824 e 1930 pelos arquitetos prussianos mais renomados; o primeiro museu, de Schinkel, é de 1824–28.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BERLIM_RP_MUSEUMSINSEL",
+       "BERLIM_ICOMOS_MUSEUMSINSEL"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P17",
+      "factKey": "berlim-F42",
+      "text": "Um plano de Friedrich August Stüler, de 1841, encomendado por Frederico Guilherme IV, orientou a ampliação do conjunto de museus.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BERLIM_ICOMOS_MUSEUMSINSEL"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P18",
+      "factKey": "berlim-F43",
+      "text": "A UNESCO inscreveu os museus em 1999, com 8,6 ha de área principal e 22,5 ha de zona de amortecimento.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BERLIM_RP_MUSEUMSINSEL"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P19",
+      "factKey": "berlim-F18",
+      "text": "Três dos museus sofreram danos e destruição parcial na Segunda Guerra Mundial; um deles foi reconstruído por David Chipperfield.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BERLIM_ICOMOS_MUSEUMSINSEL",
+       "BERLIM_WELTERBE_MUSEUMSINSEL"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P20",
+      "factKey": "berlim-F45",
+      "text": "Verões quentes e secos, chuvas fortes, tempestades e secas afetam os edifícios e jardins da ilha dos museus.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BERLIM_RP_MUSEUMSINSEL"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P21",
+      "factKey": "berlim-F23",
+      "text": "Um conjunto de 500 ha de parques e 150 edifícios, de 1730 a 1916, avança da cidade vizinha sobre a margem do Havel e do lago Glienicke.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BERLIM_UNESCO_POTSDAM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P22",
+      "factKey": "berlim-F47",
+      "text": "Para a UNESCO, esses palácios e parques formam um todo artístico cujo ecletismo reforça sua singularidade.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BERLIM_UNESCO_POTSDAM"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P23",
+      "factKey": "berlim-F19",
+      "text": "A maior comunidade turca da Europa vive num distrito da cidade, Kreuzberg.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT_LAYOUT"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P24",
+      "factKey": "berlim-F24",
+      "text": "O Portão de Brandemburgo, o Reichstag e a Filarmônica de Hans Scharoun estão entre os marcos da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "berlim-geografo-P25",
+      "factKey": "berlim-F25",
+      "text": "Capital e principal centro urbano da Alemanha, fica no coração da planície do norte alemão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BERLIM_BRIT"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Capital da Alemanha, no coração da planície do norte alemão, cortada pelo rio Spree: dividida por um muro de 1961 a 1989, tem a Ilha dos Museus e divide com Potsdam o conjunto de palácios e parques do Patrimônio Mundial.",
+   "editorialNotes": [
+    "A extensão do muro varia conforme a fonte e o que se mede: 155 km (Fundação do Muro), 156,4 km (visitBerlin) ou 166 km somando os limites (Britannica); por isso as pistas não dão o número.",
+    "Os mortos no muro também variam: 140 (Fundação do Muro) ou ao menos 136 (visitBerlin, que cita outros 48 mortos em postos de controle).",
+    "A página da lista da UNESCO para Potsdam e Berlim (532) não abriu; as pistas vêm da descrição UNESCO/NHK do bem."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Criado e verificado nas fontes: Britannica, documentos da UNESCO e do ICOMOS (Ilha dos Museus; Potsdam e Berlim), Welterbe Deutschland, visitBerlin e Fundação do Muro de Berlim; C1 com 18 cidades europeias, incluindo outras alemãs."
+  }
+ },
+ "sources": {
+  "BERLIM_BRIT": {
+   "id": "BERLIM_BRIT",
+   "title": "Berlin",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/place/Berlin",
+   "checkedAt": "2026-11-15"
+  },
+  "BERLIM_BRIT_LAYOUT": {
+   "id": "BERLIM_BRIT_LAYOUT",
+   "title": "Berlin — The city layout",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/place/Berlin/The-city-layout",
+   "checkedAt": "2026-11-15"
+  },
+  "BERLIM_ICOMOS_MUSEUMSINSEL": {
+   "id": "BERLIM_ICOMOS_MUSEUMSINSEL",
+   "title": "Museumsinsel (Museum Island), Berlin — nomination record and ICOMOS evaluation (1999)",
+   "publisher": "ICOMOS / UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/154535",
+   "checkedAt": "2026-11-15"
+  },
+  "BERLIM_RP_MUSEUMSINSEL": {
+   "id": "BERLIM_RP_MUSEUMSINSEL",
+   "title": "Museumsinsel (Museum Island), Berlin — Periodic Report, Section II",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/217428",
+   "checkedAt": "2026-11-15"
+  },
+  "BERLIM_WELTERBE_MUSEUMSINSEL": {
+   "id": "BERLIM_WELTERBE_MUSEUMSINSEL",
+   "title": "Berlin Museum Island",
+   "publisher": "UNESCO-Welterbestätten Deutschland e.V.",
+   "url": "https://welterbedeutschland.de/berlin-museum-island/",
+   "checkedAt": "2026-11-15"
+  },
+  "BERLIM_UNESCO_POTSDAM": {
+   "id": "BERLIM_UNESCO_POTSDAM",
+   "title": "Palaces and Parks of Potsdam and Berlin (UNESCO/NHK)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/documents/104090",
+   "checkedAt": "2026-11-15"
+  },
+  "BERLIM_VISITBERLIN_MURO": {
+   "id": "BERLIM_VISITBERLIN_MURO",
+   "title": "The Berlin Wall: History at a Glance",
+   "publisher": "visitBerlin",
+   "url": "https://about.visitberlin.de/en/press/press-releases/berlin-wall-history-glance",
+   "checkedAt": "2026-11-15"
+  },
+  "BERLIM_STIFTUNG_MAUER": {
+   "id": "BERLIM_STIFTUNG_MAUER",
+   "title": "The Berlin Wall",
+   "publisher": "Stiftung Berliner Mauer (Berlin Wall Foundation)",
+   "url": "https://www.stiftung-berliner-mauer.de/en/node/9",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.britannica.com/place/Berlin",
+   "https://www.britannica.com/place/Berlin/The-city-layout",
+   "https://whc.unesco.org/document/154535",
+   "https://whc.unesco.org/document/217428",
+   "https://welterbedeutschland.de/berlin-museum-island/",
+   "https://whc.unesco.org/en/documents/104090",
+   "https://about.visitberlin.de/en/press/press-releases/berlin-wall-history-glance",
+   "https://www.stiftung-berliner-mauer.de/en/node/9"
+  ],
+  "alteracoes": [
+   "criado do zero"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

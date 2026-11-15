@@ -219,7 +219,41 @@
     "Parque Nacional Impenetrável de Bwindi",
     "Parque Estadual de Itaúnas",
     "Rio Grande",
-    "Santa Maria"
+    "Santa Maria",
+    "Auckland",
+    "Baía do Almirantado",
+    "Barcelona",
+    "Berlim",
+    "Geleira Lambert",
+    "Independence Hall",
+    "Parque Nacional de Komodo",
+    "Lago Vostok",
+    "Lisboa",
+    "Londres",
+    "Mar de Areia do Namibe",
+    "Mbanza Kongo",
+    "Melbourne",
+    "Parque Nacional Mesa Verde",
+    "Rio Branco",
+    "Santarém",
+    "Parque Nacional Montanhas do Tumucumaque",
+    "Parque Nacional do Juruena",
+    "Parque Nacional de Chitwan",
+    "Parque Nacional da Serra do Cipó",
+    "Parque Nacional de Virunga",
+    "Polo Sul de Inacessibilidade",
+    "Queenstown",
+    "Reserva da Biosfera da Borboleta-Monarca",
+    "Rio São Francisco",
+    "Rotorua",
+    "Sant’Ana do Livramento",
+    "São Francisco do Sul",
+    "Reserva da Biosfera Sian Ka’an",
+    "Parque Nacional do Superagui",
+    "Parque Nacional Tikal",
+    "Centro Arqueológico de Tiwanaku",
+    "Torres",
+    "Wellington"
   ],
   "groups": {
     "Brasil Norte": [
@@ -246,7 +280,11 @@
       "Macapá",
       "Palmas",
       "Parque Nacional da Amazônia",
-      "Parque Nacional do Araguaia"
+      "Parque Nacional do Araguaia",
+      "Rio Branco",
+      "Santarém",
+      "Parque Nacional Montanhas do Tumucumaque",
+      "Parque Nacional do Juruena"
     ],
     "Brasil Nordeste": [
       "Parque Nacional dos Lençóis Maranhenses",
@@ -317,7 +355,9 @@
       "Reservas de Mata Atlântica do Sudeste",
       "Sítio Arqueológico Cais do Valongo",
       "Centro Histórico de Diamantina",
-      "Parque Estadual de Itaúnas"
+      "Parque Estadual de Itaúnas",
+      "Parque Nacional da Serra do Cipó",
+      "Rio São Francisco"
     ],
     "Brasil Sul": [
       "Florianópolis",
@@ -346,7 +386,11 @@
       "Pelotas",
       "Pomerode",
       "Rio Grande",
-      "Santa Maria"
+      "Santa Maria",
+      "Sant’Ana do Livramento",
+      "São Francisco do Sul",
+      "Parque Nacional do Superagui",
+      "Torres"
     ],
     "América outros recortes": [
       "Peru",
@@ -382,7 +426,13 @@
       "Parque Nacional Everglades",
       "Parque Nacional Gros Morne",
       "Parque Nacional Ilha do Coco",
-      "Panamá Viejo e Distrito Histórico do Panamá"
+      "Panamá Viejo e Distrito Histórico do Panamá",
+      "Independence Hall",
+      "Parque Nacional Mesa Verde",
+      "Reserva da Biosfera da Borboleta-Monarca",
+      "Reserva da Biosfera Sian Ka’an",
+      "Parque Nacional Tikal",
+      "Centro Arqueológico de Tiwanaku"
     ],
     "Europa": [
       "Portugal",
@@ -404,7 +454,9 @@
       "Centro Histórico de Bruges",
       "Cidade Antiga de Ávila e suas Igrejas Extramuros",
       "Gante",
-      "Cidade Antiga de Dubrovnik"
+      "Cidade Antiga de Dubrovnik",
+      "Barcelona",
+      "Lisboa"
     ],
     "África": [
       "Egito",
@@ -428,7 +480,10 @@
       "Ilha de Gorée",
       "Ilha de Moçambique",
       "Ilha Robben",
-      "Parque Nacional Impenetrável de Bwindi"
+      "Parque Nacional Impenetrável de Bwindi",
+      "Mar de Areia do Namibe",
+      "Mbanza Kongo",
+      "Parque Nacional de Virunga"
     ],
     "Ásia": [
       "Japão",
@@ -449,7 +504,9 @@
       "Kyoto",
       "Castelo de Himeji",
       "Cidade Proibida",
-      "Ilha de Jeju"
+      "Ilha de Jeju",
+      "Parque Nacional de Komodo",
+      "Parque Nacional de Chitwan"
     ],
     "Oceania": [
       "Austrália",
@@ -470,7 +527,10 @@
       "Sítio Agrícola Antigo de Kuk",
       "Cidade Portuária Histórica de Levuka",
       "Grupo de Ilhas Lord Howe",
-      "Rennell Oriental"
+      "Rennell Oriental",
+      "Auckland",
+      "Queenstown",
+      "Rotorua"
     ],
     "Antártida": [
       "Polo Sul Geográfico",
@@ -492,7 +552,11 @@
       "Ilha Cuverville",
       "Ilha Detaille e Base W",
       "Ilha Petermann",
-      "Neko Harbour"
+      "Neko Harbour",
+      "Baía do Almirantado",
+      "Geleira Lambert",
+      "Lago Vostok",
+      "Polo Sul de Inacessibilidade"
     ]
   },
   "classificationNotes": [

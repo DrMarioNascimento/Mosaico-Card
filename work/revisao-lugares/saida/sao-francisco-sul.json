@@ -1,0 +1,1109 @@
+{
+  "case": {
+    "id": "lug2-sao-francisco-sul",
+    "placeId": "sao-francisco-sul",
+    "title": "São Francisco do Sul",
+    "aliases": [],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sul"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade litorânea",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "São Francisco do Sul"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Laguna"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Paranaguá"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Antonina"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Porto Belo"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Itajaí"
+          },
+          {
+            "id": "C1-O7",
+            "text": "São Sebastião"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Santos"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Rio Grande"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Florianópolis"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Itapoá"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Joinville"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "São Francisco do Sul",
+        "sources": [
+          "SFS_UNIVILLE",
+          "SFS_ANPUH"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Baía que banha a cidade",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Baía da Babitonga"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Baía de Paranaguá"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Baía de Guaratuba"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Baía Norte"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Baía da Babitonga",
+        "sources": [
+          "SFS_ANPUH",
+          "SFS_MPF"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Museu ligado ao mar e à navegação",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Museu Nacional do Mar"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Museu Náutico da Bahia"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Museu Oceanográfico Prof. Eliézer de Carvalho Rios"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Espaço Cultural da Marinha"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Museu Nacional do Mar",
+        "sources": [
+          "SFS_ALESC",
+          "SFS_UNIVILLE"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Invocação da Igreja Matriz do centro histórico",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Nossa Senhora da Graça"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Nossa Senhora do Rosário"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Santo Antônio dos Anjos"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Nossa Senhora do Pilar"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Nossa Senhora da Graça",
+        "sources": [
+          "SFS_UNIVILLE"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "sao-francisco-sul-viajante-P01",
+            "factKey": "sao-francisco-sul-viajante-F01",
+            "text": "É uma cidade do litoral do Sul do Brasil, à beira de uma grande baía de águas calmas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SFS_UNB",
+              "SFS_PORTO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P02",
+            "factKey": "sao-francisco-sul-viajante-F02",
+            "text": "Casarões antigos ficam espremidos entre morros e o mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_UNIVILLE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P03",
+            "factKey": "sao-francisco-sul-viajante-F03",
+            "text": "Fica no litoral norte de Santa Catarina.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_ANPUH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P04",
+            "factKey": "sao-francisco-sul-viajante-F04",
+            "text": "A baía que banha a cidade tem 24 ilhas e é dividida com outros municípios.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SFS_ANPUH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P05",
+            "factKey": "sao-francisco-sul-viajante-F05",
+            "text": "O porto é a principal atividade econômica da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_UNIVILLE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P06",
+            "factKey": "sao-francisco-sul-viajante-F06",
+            "text": "O porto fica de frente para a baía, junto ao centro histórico.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SFS_UNIVILLE",
+              "SFS_UNB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P07",
+            "factKey": "sao-francisco-sul-viajante-F07",
+            "text": "O centro histórico foi tombado pelo Iphan em 1987.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_UNIVILLE",
+              "SFS_ANPUH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P08",
+            "factKey": "sao-francisco-sul-viajante-F08",
+            "text": "A área protegida reúne cerca de 400 imóveis antigos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_UNIVILLE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P09",
+            "factKey": "sao-francisco-sul-viajante-F09",
+            "text": "É considerada a cidade mais antiga de Santa Catarina.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_UNIVILLE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P10",
+            "factKey": "sao-francisco-sul-viajante-F10",
+            "text": "Uma expedição francesa teria chegado a essa costa em 1504.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_UNIVILLE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P11",
+            "factKey": "sao-francisco-sul-viajante-F11",
+            "text": "O Mercado Público Municipal, do início do século XX, fica no centro histórico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_UNIVILLE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P12",
+            "factKey": "sao-francisco-sul-viajante-F12",
+            "text": "A Igreja Matriz, dedicada a Nossa Senhora da Graça, foi erguida no século XVII.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "SFS_UNIVILLE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P13",
+            "factKey": "sao-francisco-sul-viajante-F13",
+            "text": "Um museu nacional dedicado ao mar guarda cerca de cem embarcações em tamanho real.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SFS_CATRACA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P14",
+            "factKey": "sao-francisco-sul-viajante-F14",
+            "text": "Jangadas nordestinas e saveiros baianos estão entre os barcos do museu.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SFS_CATRACA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P15",
+            "factKey": "sao-francisco-sul-viajante-F15",
+            "text": "O museu também guarda peças ligadas às expedições de Amyr Klink.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SFS_CATRACA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P16",
+            "factKey": "sao-francisco-sul-viajante-F16",
+            "text": "Antigos trapiches marcavam a orla do centro, onde se concentrava o movimento do porto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_UNB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P17",
+            "factKey": "sao-francisco-sul-viajante-F17",
+            "text": "Na baía vivem botos-cinza o ano todo.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SFS_PORTO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P18",
+            "factKey": "sao-francisco-sul-viajante-F18",
+            "text": "Os manguezais da baía abrigam peixes, crustáceos, tartarugas e aves.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SFS_MPF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P19",
+            "factKey": "sao-francisco-sul-viajante-F19",
+            "text": "O território da cidade era uma ilha, hoje ligada ao continente por um aterro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_MPF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P20",
+            "factKey": "sao-francisco-sul-viajante-F20",
+            "text": "Uma ilha da baía serviu de base da Marinha e, em 1999, foi cedida a uma universidade.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SFS_ANPUH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P21",
+            "factKey": "sao-francisco-sul-viajante-F21",
+            "text": "A rua à beira da baía, antiga Rua da Praia, hoje se chama Rua Babitonga.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SFS_UNB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P22",
+            "factKey": "sao-francisco-sul-viajante-F22",
+            "text": "A Praça da Bandeira foi por muito tempo o ponto de encontro do centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_UNB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P23",
+            "factKey": "sao-francisco-sul-viajante-F23",
+            "text": "Um antigo ramal de trem ligava a cidade a Porto União, no interior.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_UNIVILLE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P24",
+            "factKey": "sao-francisco-sul-viajante-F24",
+            "text": "A Biblioteca Pública e as ruínas de um antigo leprosário estão entre os patrimônios locais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_UNIVILLE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-viajante-P25",
+            "factKey": "sao-francisco-sul-viajante-F25",
+            "text": "Na Ponta do Saí, franceses criaram uma comunidade inspirada em Fourier em 1842.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_ANPUH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "sao-francisco-sul-geografo-P01",
+            "factKey": "sao-francisco-sul-geografo-F01",
+            "text": "O núcleo urbano surgiu junto a um grande estuário, ambiente de transição entre a água doce dos rios e o mar.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SFS_PORTO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P02",
+            "factKey": "sao-francisco-sul-geografo-F02",
+            "text": "A economia local passou a depender do movimento do porto, que atraiu trabalhadores e impulsionou a construção de casas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_UNB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P03",
+            "factKey": "sao-francisco-sul-geografo-F03",
+            "text": "A baía tem cerca de 160 km² e é o maior ecossistema estuarino de Santa Catarina.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SFS_MPF",
+              "SFS_PORTO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P04",
+            "factKey": "sao-francisco-sul-geografo-F04",
+            "text": "Seus manguezais são o último grande remanescente desse ecossistema perto do limite sul de sua distribuição no Atlântico.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SFS_PORTO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P05",
+            "factKey": "sao-francisco-sul-geografo-F05",
+            "text": "O aterro de um canal, iniciado no começo do século XX para a ferrovia chegar ao porto, foi concluído na década de 1930.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_MPF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P06",
+            "factKey": "sao-francisco-sul-geografo-F06",
+            "text": "Com o canal do Linguado fechado, a ilha virou península e a circulação de água na baía caiu muito.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SFS_MPF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P07",
+            "factKey": "sao-francisco-sul-geografo-F07",
+            "text": "Estudos projetam assoreamento crescente da baía nos próximos 50 anos.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SFS_MPF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P08",
+            "factKey": "sao-francisco-sul-geografo-F08",
+            "text": "Em 2025, o projeto de duplicação da BR-280 foi ajustado para permitir a reabertura parcial do canal aterrado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_MPF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P09",
+            "factKey": "sao-francisco-sul-geografo-F09",
+            "text": "Antes do fechamento total, a passagem de água já tinha encolhido de cerca de 1.000 m para 120 m, cruzada por ponte giratória.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_MPF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P10",
+            "factKey": "sao-francisco-sul-geografo-F10",
+            "text": "O porto ocupa a margem leste da baía, de águas profundas e calmas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SFS_PORTO",
+              "SFS_UNB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P11",
+            "factKey": "sao-francisco-sul-geografo-F11",
+            "text": "A chegada da ferrovia, no início do século XX, fez da baía o eixo da vida econômica do município.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SFS_UNB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P12",
+            "factKey": "sao-francisco-sul-geografo-F12",
+            "text": "O Morro da Caixa D'Água, um divisor de águas, marca o limite da área tombada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_UNIVILLE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P13",
+            "factKey": "sao-francisco-sul-geografo-F13",
+            "text": "O traçado do centro histórico se formou ao longo da orla portuária.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_UNB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P14",
+            "factKey": "sao-francisco-sul-geografo-F14",
+            "text": "Uma lei municipal de 1981 criou uma zona especial de proteção, antes do tombamento federal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_UNIVILLE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P15",
+            "factKey": "sao-francisco-sul-geografo-F15",
+            "text": "Ao contrário de muitos centros históricos brasileiros, o núcleo tombado segue como principal polo de comércio e serviços.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_UNIVILLE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P16",
+            "factKey": "sao-francisco-sul-geografo-F16",
+            "text": "Desde 2002, o Programa Monumenta priorizou o museu marítimo, o mercado, a orla e a igreja matriz.",
+            "relatedFields": [
+              "C1",
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "SFS_UNIVILLE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P17",
+            "factKey": "sao-francisco-sul-geografo-F17",
+            "text": "Galpões industriais da Companhia Hoepcke, na orla, foram convertidos em museu de embarcações tradicionais do país.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SFS_CATRACA",
+              "SFS_UNIVILLE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P18",
+            "factKey": "sao-francisco-sul-geografo-F18",
+            "text": "Erva-mate e farinha de mandioca destinadas ao Rio da Prata eram embarcadas no porto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_NAUI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P19",
+            "factKey": "sao-francisco-sul-geografo-F19",
+            "text": "A baía abriga a toninha, o golfinho mais ameaçado do Atlântico Sul.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SFS_PORTO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P20",
+            "factKey": "sao-francisco-sul-geografo-F20",
+            "text": "Uma lei estadual de 2025 autorizou doar ao município os imóveis do museu marítimo, com o encargo de geri-lo.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SFS_ALESC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P21",
+            "factKey": "sao-francisco-sul-geografo-F21",
+            "text": "A história do porto como ente público remonta a 1941; a inauguração foi em 1955.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_PORTO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P22",
+            "factKey": "sao-francisco-sul-geografo-F22",
+            "text": "O naturalista Saint-Hilaire passou pela região em 1820.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_ANPUH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P23",
+            "factKey": "sao-francisco-sul-geografo-F23",
+            "text": "A fundação, em 1658, foi obra de uma expedição liderada por Manoel Lourenço de Andrade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_UNIVILLE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P24",
+            "factKey": "sao-francisco-sul-geografo-F24",
+            "text": "Em 2004, as comemorações dos 500 anos da chegada de Gonneville trouxeram atenção e investimentos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SFS_UNIVILLE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sao-francisco-sul-geografo-P25",
+            "factKey": "sao-francisco-sul-geografo-F25",
+            "text": "O porto mantém um programa de monitoramento da pesca artesanal, que divide a baía com a navegação de cargas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SFS_PORTO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade portuária do litoral norte de Santa Catarina, fundada em 1658 na antiga ilha da Baía da Babitonga, com centro histórico tombado pelo Iphan em 1987 e o Museu Nacional do Mar.",
+      "editorialNotes": [
+        "C2–C4 refeitos: baías do litoral sul no lugar de Guanabara e Ilha Grande; museus ligados ao mar (antes só o gabarito combinava com o rótulo); invocação da Igreja Matriz no lugar de \"Estado\".",
+        "Datas divergentes: a ferrovia chega em 1905 (UnB) e o ramal opera desde 1910 (Univille); a Matriz é datada de c. 1660 ou 1665; a fatia de manguezais catarinenses na baía é 75% (porto) ou 80% (MPF) — as pistas evitam esses números.",
+        "O Museu Nacional do Mar estava fechado para restauração desde 2022 (Catraca Livre) e, em 2025, o Estado autorizou doar seus imóveis ao município; conferir a visitação antes de citá-la."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes abertas (Univille, ANPUH, UnB, MPF, Porto de SFS, Lei SC 19.615/2025); C2–C4 refeitos e pistas sem fonte acessível (Plano Mestre, IBGE) trocadas por fatos verificados"
+    }
+  },
+  "sources": {
+    "SFS_UNIVILLE": {
+      "id": "SFS_UNIVILLE",
+      "title": "Representações sociais sobre o centro histórico tombado de São Francisco do Sul (dissertação, 2010)",
+      "publisher": "Univille — Mestrado em Patrimônio Cultural e Sociedade",
+      "url": "https://univille.edu.br/account/mpcs/VirtualDisk.html/downloadDirect/2641805/RobertaPauli.PDF",
+      "checkedAt": "2026-11-15"
+    },
+    "SFS_ANPUH": {
+      "id": "SFS_ANPUH",
+      "title": "A pluralidade do patrimônio cultural da Ilha da Rita e Distrito do Saí – São Francisco do Sul/SC",
+      "publisher": "ANPUH — XXVI Simpósio Nacional de História (2011)",
+      "url": "https://anpuh.org.br/uploads/anais-simposios/pdf/2019-01/1548856594_43c2727ca5bd134d3a7e09a00854025d.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "SFS_UNB": {
+      "id": "SFS_UNB",
+      "title": "Entre a praça, o casario e a baía: camadas de construções e sentidos",
+      "publisher": "Museologia & Interdisciplinaridade (UnB), v. 13, n. 26, 2024",
+      "url": "https://periodicos.unb.br/index.php/museologia/article/download/52722/42042/202563",
+      "checkedAt": "2026-11-15"
+    },
+    "SFS_MPF": {
+      "id": "SFS_MPF",
+      "title": "Dnit acata recomendação do MPF e altera projeto da BR-280 para reabertura parcial do Canal do Linguado (SC)",
+      "publisher": "Ministério Público Federal",
+      "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-sc/noticias/dnit-acata-recomendacao-do-mpf-e-altera-projeto-da-br-280-para-reabertura-parcial-do-canal-do-linguado-sc",
+      "checkedAt": "2026-11-15"
+    },
+    "SFS_PORTO": {
+      "id": "SFS_PORTO",
+      "title": "Agenda Ambiental Local (GE030, Rev.01)",
+      "publisher": "SCPar Porto de São Francisco do Sul S.A.",
+      "url": "https://portosaofrancisco.com.br/public/uploads/meio_ambiente/17.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "SFS_CATRACA": {
+      "id": "SFS_CATRACA",
+      "title": "Às margens da Baía da Babitonga, a cidade catarinense que abriga um museu com cerca de 100 embarcações históricas em tamanho real",
+      "publisher": "Catraca Livre",
+      "url": "https://catracalivre.com.br/noticias/as-margens-da-baia-da-babitonga-a-cidade-catarinense-que-abriga-um-museu-com-cerca-de-100-embarcacoes-historicas-em-tamanho-real/",
+      "checkedAt": "2026-11-15"
+    },
+    "SFS_ALESC": {
+      "id": "SFS_ALESC",
+      "title": "Lei nº 19.615, de 16 de dezembro de 2025 — autoriza a doação de imóveis no Município de São Francisco do Sul",
+      "publisher": "Assembleia Legislativa de Santa Catarina (Portal e-Legis)",
+      "url": "https://portalelegis.alesc.sc.gov.br/documentos/V7AoM",
+      "checkedAt": "2026-11-15"
+    },
+    "SFS_NAUI": {
+      "id": "SFS_NAUI",
+      "title": "O complexo industrial no conjunto Rita Maria",
+      "publisher": "Cadernos Naui (UFSC), v. 15, n. 28, 2026",
+      "url": "https://ojs.sites.ufsc.br/index.php/naui/article/download/8272/9695/41712",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://anpuh.org.br/uploads/anais-simposios/pdf/2019-01/1548856594_43c2727ca5bd134d3a7e09a00854025d.pdf",
+      "https://periodicos.unb.br/index.php/museologia/article/download/52722/42042/202563",
+      "https://ojs.sites.ufsc.br/index.php/naui/article/download/8272/9695/41712",
+      "https://portalelegis.alesc.sc.gov.br/documentos/V7AoM",
+      "https://www.mpf.mp.br/o-mpf/unidades/pr-sc/noticias/dnit-acata-recomendacao-do-mpf-e-altera-projeto-da-br-280-para-reabertura-parcial-do-canal-do-linguado-sc",
+      "https://portosaofrancisco.com.br/public/uploads/meio_ambiente/17.pdf",
+      "https://univille.edu.br/account/mpcs/VirtualDisk.html/downloadDirect/2641805/RobertaPauli.PDF",
+      "https://catracalivre.com.br/noticias/as-margens-da-baia-da-babitonga-a-cidade-catarinense-que-abriga-um-museu-com-cerca-de-100-embarcacoes-historicas-em-tamanho-real/",
+      "https://www.gov.br/iphan/pt-br/assuntos/noticias/iphan-lanca-material-sobre-a-preservacao-da-cultura-catarinense/conservacao-preventiva-de-imoveis-antigos-em-nucleos-historicos.pdf"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho (Plano Mestre do MPor, IBGE Cidades e páginas do Iphan) não puderam ser abertas por busca; substituídas por dissertação da Univille (2010, com dados do Iphan), ANPUH (2011), UnB (2024), MPF (2025), Agenda Ambiental do Porto de SFS, Lei SC 19.615/2025 e Catraca Livre (museu).",
+      "C2: alternativas Guanabara e Ilha Grande trocadas por Guaratuba e Baía Norte (baías do mesmo recorte).",
+      "C3: alternativas Ipiranga/Amanhã/Imperial (só o gabarito combinava com 'navegação') trocadas por museus marítimos; rótulo ajustado.",
+      "C4: 'Estado brasileiro' trocado por 'Invocação da Igreja Matriz' (Nossa Senhora da Graça).",
+      "Viajante: 17 pistas reescritas ou trocadas (saíram Morro do Hospício como relevo, Cineteatro, Enseada/Prainha, sambaquis no centro, complexo estuarino genérico; entraram fundação/antiguidade, 1504, acervo do museu, botos, aterro da ilha, Ilha da Rita, Rua Babitonga, Ponta do Saí).",
+      "Geógrafo: 19 pistas reescritas ou trocadas (saíram população 2022, ocupação 'entre três morros até 1950', influência de Joinville, Plano Mestre, canal Palmital; entraram 160 km², limite sul do manguezal, canal do Linguado 1.000→120 m, assoreamento, BR-280, lei de 1981, Monumenta, erva-mate para o Prata, toninha, Lei SC 2025).",
+      "População do Censo 2022 retirada (página do IBGE não aberta)."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

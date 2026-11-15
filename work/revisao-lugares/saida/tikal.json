@@ -1,0 +1,1021 @@
+{
+ "case": {
+  "id": "lug2-tikal",
+  "placeId": "tikal",
+  "title": "Parque Nacional Tikal",
+  "aliases": [
+   "Tikal"
+  ],
+  "answerType": "parque arqueológico e natural",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "GT"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Área protegida ou arqueológica",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Parque Nacional Tikal"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Parque Nacional Yaxhá-Nakum-Naranjo"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Antiga Cidade Maia de Calakmul"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Cidade Pré-hispânica de Palenque"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Sítio Maia de Copán"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Sítio Arqueológico de Caracol"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Cidade Pré-hispânica de Chichén Itzá"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Cidade Pré-hispânica de Uxmal"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Parque Arqueológico e Ruínas de Quiriguá"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Cidade Maia de Yaxchilán"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Sítio Arqueológico de El Mirador"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Sítio Arqueológico de Lamanai"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Parque Nacional Tikal",
+    "sources": [
+     "TIKAL_PR"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "País",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Guatemala"
+     },
+     {
+      "id": "C2-O2",
+      "text": "México"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Belize"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Honduras"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Guatemala",
+    "sources": [
+     "TIKAL_PR"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Departamento guatemalteco onde fica",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Petén"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Izabal"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Alta Verapaz"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Quiché"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Petén",
+    "sources": [
+     "TIKAL_PR"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Reserva da biosfera da qual o parque é zona núcleo",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Reserva da Biosfera Maia"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Reserva da Biosfera Sierra de las Minas"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Reserva da Biosfera Trifinio Fraternidad"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Reserva da Biosfera La Amistad"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Reserva da Biosfera Maia",
+    "sources": [
+     "TIKAL_PR"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "tikal-viajante-P01",
+      "factKey": "tikal-F01",
+      "text": "Este destino guarda ruínas de uma cidade antiga no meio da floresta.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P02",
+      "factKey": "tikal-F02",
+      "text": "Templos, palácios e praças de pedra formam o centro das ruínas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P03",
+      "factKey": "tikal-F03",
+      "text": "Fica na América Central, na Guatemala.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P04",
+      "factKey": "tikal-F04",
+      "text": "As ruínas ficam no norte do país, na região de Petén.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P05",
+      "factKey": "tikal-F05",
+      "text": "A cidade foi um grande centro político, econômico e militar dos maias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P06",
+      "factKey": "tikal-F06",
+      "text": "Os primeiros moradores chegaram por volta de 800 a.C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P07",
+      "factKey": "tikal-F07",
+      "text": "O centro da cidade entrou em colapso por volta do ano 900.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P08",
+      "factKey": "tikal-F08",
+      "text": "Um conjunto de construções chamado Mundo Perdido está entre os destaques das ruínas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P09",
+      "factKey": "tikal-F09",
+      "text": "Há conjuntos formados por pares de pirâmides gêmeas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P10",
+      "factKey": "tikal-F10",
+      "text": "Quadras do jogo de bola maia fazem parte das ruínas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P11",
+      "factKey": "tikal-F11",
+      "text": "Antigos reservatórios, chamados aguadas, guardavam água.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P12",
+      "factKey": "tikal-F12",
+      "text": "Bairros de moradias se espalhavam em volta do centro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P13",
+      "factKey": "tikal-F13",
+      "text": "Estelas de pedra esculpidas contam a história dos governantes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P14",
+      "factKey": "tikal-F14",
+      "text": "A estela mais antiga do sítio é do ano 292.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P15",
+      "factKey": "tikal-F15",
+      "text": "A floresta tem árvores de folhas largas e palmeiras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P16",
+      "factKey": "tikal-F16",
+      "text": "Também há savanas, brejos e áreas de água doce.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P17",
+      "factKey": "tikal-F17",
+      "text": "Onças-pintadas e pumas estão entre os cinco felinos do parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P18",
+      "factKey": "tikal-F18",
+      "text": "Várias espécies de macacos e tamanduás vivem na mata.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P19",
+      "factKey": "tikal-F19",
+      "text": "Mais de 300 espécies de aves foram registradas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P20",
+      "factKey": "tikal-F20",
+      "text": "A mata continua pelos países vizinhos, México e Belize.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P21",
+      "factKey": "tikal-F21",
+      "text": "O lugar virou monumento nacional em 1931 e parque nacional em 1955.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P22",
+      "factKey": "tikal-F22",
+      "text": "A UNESCO o reconheceu em 1979, tanto pela natureza quanto pela cultura.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P23",
+      "factKey": "tikal-F23",
+      "text": "O parque é uma das áreas centrais de uma grande reserva da biosfera reconhecida em 1990.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P24",
+      "factKey": "tikal-F24",
+      "text": "Em 2019, o parque recebeu mais de 340 mil visitas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-viajante-P25",
+      "factKey": "tikal-F25",
+      "text": "O clima tropical úmido desgasta as pedras das ruínas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "tikal-geografo-P01",
+      "factKey": "tikal-F01",
+      "text": "O bem é um dos poucos do Patrimônio Mundial inscritos ao mesmo tempo por critérios naturais e culturais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P02",
+      "factKey": "tikal-F02",
+      "text": "A floresta tropical envolve os vestígios de um grande centro urbano pré-colombiano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P03",
+      "factKey": "tikal-F03",
+      "text": "O parque fica na província de Petén, no norte da Guatemala, e ocupa 57.600 ha.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P04",
+      "factKey": "tikal-F04",
+      "text": "A floresta maia se estende ao México e a Belize, e o parque é contíguo a outras áreas de conservação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P05",
+      "factKey": "tikal-F05",
+      "text": "Desde 1990, o parque é uma das zonas núcleo de uma vasta reserva da biosfera da floresta maia.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P06",
+      "factKey": "tikal-F06",
+      "text": "A ocupação vai do Pré-Clássico, por volta de 600 a.C., ao colapso do centro urbano perto de 900 d.C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P07",
+      "factKey": "tikal-F07",
+      "text": "Uma zona urbana interna de cerca de 400 ha forma o núcleo da antiga cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P08",
+      "factKey": "tikal-F08",
+      "text": "Uma faixa mais ampla, de cerca de 1.200 ha, abrange as áreas residenciais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P09",
+      "factKey": "tikal-F09",
+      "text": "A periferia teve papel importante na produção agrícola que abastecia o centro densamente povoado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "agricultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P10",
+      "factKey": "tikal-F10",
+      "text": "Mais de 25 sítios secundários se distribuem pelo território do parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P11",
+      "factKey": "tikal-F11",
+      "text": "As aguadas, reservatórios históricos, integram o antigo sistema de água da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P12",
+      "factKey": "tikal-F12",
+      "text": "Palácios, templos, plataformas cerimoniais e praças de vários tamanhos organizam o núcleo monumental.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P13",
+      "factKey": "tikal-F13",
+      "text": "Complexos de pirâmides gêmeas e quadras de jogo de bola estão entre os conjuntos do sítio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P14",
+      "factKey": "tikal-F14",
+      "text": "A Grande Praça e o complexo Mundo Perdido estão entre os espaços excepcionais citados pela UNESCO.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P15",
+      "factKey": "tikal-F15",
+      "text": "Estelas registram 33 governantes, da Estela 29 (ano 292) à Estela 11 (ano 869).",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P16",
+      "factKey": "tikal-F16",
+      "text": "Os monumentos registram a história dinástica e as relações da cidade com Teotihuacan e Calakmul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P17",
+      "factKey": "tikal-F17",
+      "text": "Florestas tropicais de folhas largas e de palmeiras alternam-se com savanas e áreas úmidas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P18",
+      "factKey": "tikal-F18",
+      "text": "Mais de 200 espécies de árvores e mais de 2 mil plantas superiores compõem a flora.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P19",
+      "factKey": "tikal-F19",
+      "text": "Cerca de 330 espécies de aves e mais de 100 de mamíferos, com cinco felinos, ocupam os hábitats.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P20",
+      "factKey": "tikal-F20",
+      "text": "Para a UNESCO, a floresta maia do parque é uma das joias da conservação na América Central.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P21",
+      "factKey": "tikal-F21",
+      "text": "Declarado monumento nacional em 1931 e parque nacional em 1955, foi inscrito na lista mundial em 1979.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P22",
+      "factKey": "tikal-F22",
+      "text": "O clima tropical úmido torna o intemperismo um problema crítico para os vestígios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P23",
+      "factKey": "tikal-F23",
+      "text": "Saques de peças arqueológicas e caça ilegal por moradores do entorno ameaçam o bem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P24",
+      "factKey": "tikal-F24",
+      "text": "Aldeias e lavouras se aproximam do limite sul do parque, onde há perda de floresta.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tikal-geografo-P25",
+      "factKey": "tikal-F25",
+      "text": "As visitas caíram de 342.803 em 2019 para 70.312 em 2020.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIKAL_PR"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Parque nacional de 57.600 ha em Petén, no norte da Guatemala, que protege o grande centro maia ocupado de cerca de 600 a.C. a 900 d.C. e a floresta tropical ao redor; bem misto do Patrimônio Mundial desde 1979 e zona núcleo da Reserva da Biosfera Maia.",
+   "editorialNotes": [
+    "Início da ocupação: o relatório periódico fala no Pré-Clássico (600 a.C.) e também em primeiros moradores por volta de 800 a.C.; as pistas usam cada data com a sua formulação.",
+    "Visitação: 342.803 visitas em 2019 e 70.312 em 2020, segundo o relatório; a pista não explica a queda.",
+    "O C1 reúne só sítios maias, por isso a civilização deixou de ser campo; Yaxhá-Nakum-Naranjo e El Mirador também ficam em Petén e na Reserva da Biosfera Maia."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e gabaritos conferidos no relatório periódico da UNESCO, com a declaração de valor universal; C1 alinhado aos títulos do banco e restrito a sítios maias, C3 e C4 refeitos."
+  }
+ },
+ "sources": {
+  "TIKAL_PR": {
+   "id": "TIKAL_PR",
+   "title": "Tikal National Park — Periodic Report (Section II), with Statement of Outstanding Universal Value",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/216032",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://whc.unesco.org/document/216032"
+  ],
+  "alteracoes": [
+   "Fontes TIKAL64 (whc.unesco.org/en/list/64) e TIKAL_CONAP substituídas: a página de lista não abre nesta sessão e a página do CONAP não foi aberta; a declaração de valor universal, a Reserva da Biosfera Maia (1990) e os demais dados foram conferidos no relatório periódico da UNESCO (TIKAL_PR).",
+   "C1: nomes alinhados aos títulos do banco e dos rascunhos (Sítio Maia de Copán, Antiga Cidade Maia de Calakmul, Cidade Pré-hispânica de Palenque, Parque Arqueológico e Ruínas de Quiriguá); saíram Serra do Divisor (Brasil), Darién e Corcovado; entraram Yaxchilán, El Mirador e Lamanai.",
+   "C3: ‘Civilização ligada ao antigo centro urbano’ (todas as opções do C1 agora são maias) trocado por ‘Departamento guatemalteco onde fica’ (Petén).",
+   "C4: mantida a Reserva da Biosfera Maia, com rótulo precisado (‘zona núcleo’) conforme a UNESCO.",
+   "Viajante: P01–P25 reescritas ou trocadas; ‘pirâmides’ e ‘inscrições’ genéricas viraram pirâmides gêmeas, estelas e a estela de 292; ‘agricultura’ e ‘saque’ saíram; entraram 800 a.C., colapso por volta de 900, Mundo Perdido, aguadas, cinco felinos, monumento nacional de 1931, 340 mil visitas em 2019 e intemperismo.",
+   "Geógrafo: P01–P25 reescritas para relações e processos (bem misto, 57.600 ha, contiguidade com México e Belize, zona urbana de 400 ha e residencial de 1.200 ha, periferia agrícola, 25 sítios secundários, 33 governantes de 292 a 869, Teotihuacan e Calakmul, flora e fauna, avanço de aldeias no sul).",
+   "Sinais: P01–P02 abertura nos dois perfis; decisivas = Mundo Perdido (Viajante P08; Geógrafo P14) e relações com Teotihuacan e Calakmul (Geógrafo P16); relatedFields ampliados para C2, C3 e C4."
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

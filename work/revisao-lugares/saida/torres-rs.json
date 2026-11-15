@@ -1,0 +1,1138 @@
+{
+  "case": {
+    "id": "lug2-torres-rs",
+    "placeId": "torres-rs",
+    "title": "Torres",
+    "aliases": [],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sul"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade litorânea",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Torres"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Capão da Canoa"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Tramandaí"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Imbé"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Rio Grande"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Mostardas"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Osório"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Arroio do Sal"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Xangri-lá"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Cidreira"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Laguna"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Garopaba"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Torres",
+        "sources": [
+          "TORRES_UFPE",
+          "TORRES_COSTAS"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Praia que dá nome a um parque estadual",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Guarita"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Cassino"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Ferrugem"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Mar Grosso"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Guarita",
+        "sources": [
+          "TORRES_CB1",
+          "TORRES_CB2"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Rio que banha a cidade",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Mampituba"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Tramandaí"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Araranguá"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Tubarão"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Mampituba",
+        "sources": [
+          "TORRES_COSTAS",
+          "TORRES_BIOBR"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Unidade de conservação federal no mar em frente à cidade",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Refúgio de Vida Silvestre da Ilha dos Lobos"
+          },
+          {
+            "id": "C4-O2",
+            "text": "APA da Baleia Franca"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Reserva Biológica Marinha do Arvoredo"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Parque Nacional da Lagoa do Peixe"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Refúgio de Vida Silvestre da Ilha dos Lobos",
+        "sources": [
+          "TORRES_DECRETO",
+          "TORRES_FOLDER"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "torres-rs-viajante-P01",
+            "factKey": "torres-rs-viajante-F01",
+            "text": "É uma cidade de praia no litoral do Sul do Brasil, com morros rochosos à beira-mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_UFPE",
+              "TORRES_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P02",
+            "factKey": "torres-rs-viajante-F02",
+            "text": "No verão, a cidade recebe muito mais gente do que tem de moradores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_UFPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P03",
+            "factKey": "torres-rs-viajante-F03",
+            "text": "Fica no litoral do Rio Grande do Sul, colada à divisa com Santa Catarina.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_COSTAS",
+              "TORRES_BIOBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P04",
+            "factKey": "torres-rs-viajante-F04",
+            "text": "Uma ponte pênsil sobre o rio leva ao estado vizinho.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "TORRES_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P05",
+            "factKey": "torres-rs-viajante-F05",
+            "text": "Os Molhes da Barra, paredões de pedra, avançam mar adentro na divisa entre os estados.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "TORRES_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P06",
+            "factKey": "torres-rs-viajante-F06",
+            "text": "Passeios de barco saem do rio da divisa rumo a uma ilha frequentada por leões-marinhos.",
+            "relatedFields": [
+              "C1",
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "TORRES_BIOBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P07",
+            "factKey": "torres-rs-viajante-F07",
+            "text": "A Praia da Cal é uma enseada calma entre morros, boa para famílias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P08",
+            "factKey": "torres-rs-viajante-F08",
+            "text": "A Praia Grande é a mais movimentada, com calçadão comprido e quiosques.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P09",
+            "factKey": "torres-rs-viajante-F09",
+            "text": "Mais ao sul, a Praia do Itapeva tem dunas, vegetação nativa e uma lagoa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P10",
+            "factKey": "torres-rs-viajante-F10",
+            "text": "Do Morro do Farol dá para ver baleias e o pôr do sol.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P11",
+            "factKey": "torres-rs-viajante-F11",
+            "text": "Trilhas e escadas levam ao alto das falésias, com vista para o mar.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "TORRES_CB1",
+              "TORRES_CB2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P12",
+            "factKey": "torres-rs-viajante-F12",
+            "text": "Três dos quatro grandes morros à beira-mar ficam dentro de um parque estadual.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "TORRES_CB2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P13",
+            "factKey": "torres-rs-viajante-F13",
+            "text": "A Praia da Guarita fica junto ao parque que leva o mesmo nome.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "TORRES_CB1",
+              "TORRES_SGBMAPA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P14",
+            "factKey": "torres-rs-viajante-F14",
+            "text": "A cidade sedia todo ano um festival internacional de balonismo, realizado desde 1989.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_CB2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P15",
+            "factKey": "torres-rs-viajante-F15",
+            "text": "Uma lei federal de 2024 a declarou Capital Nacional do Balonismo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_CB2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P16",
+            "factKey": "torres-rs-viajante-F16",
+            "text": "O festival de balões costuma acontecer entre o fim de abril e o começo de maio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_CB2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P17",
+            "factKey": "torres-rs-viajante-F17",
+            "text": "Em frente à cidade fica a única ilha do litoral gaúcho.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "TORRES_FOLDER",
+              "TORRES_BIOBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P18",
+            "factKey": "torres-rs-viajante-F18",
+            "text": "Na ilha descansam leões-marinhos e lobos-marinhos, sobretudo no inverno e na primavera.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "TORRES_BIOBR",
+              "TORRES_FOLDER"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P19",
+            "factKey": "torres-rs-viajante-F19",
+            "text": "Os leões-marinhos chegam da costa do Uruguai em busca de comida.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "TORRES_FAPESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P20",
+            "factKey": "torres-rs-viajante-F20",
+            "text": "É proibido desembarcar na ilha; a visita é feita de barco, caiaque ou stand up paddle.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "TORRES_FOLDER"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P21",
+            "factKey": "torres-rs-viajante-F21",
+            "text": "Baleias-francas e golfinhos aparecem nas águas próximas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_BIOBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P22",
+            "factKey": "torres-rs-viajante-F22",
+            "text": "Lagoas como a do Violão e a de Itapeva ficam no território do município.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_SGBMAPA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P23",
+            "factKey": "torres-rs-viajante-F23",
+            "text": "A cidade fica a cerca de 200 km de Porto Alegre pela BR-101.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P24",
+            "factKey": "torres-rs-viajante-F24",
+            "text": "Dom Pedro I passou uma noite no forte do Morro do Farol em 1826.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_UFPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-viajante-P25",
+            "factKey": "torres-rs-viajante-F25",
+            "text": "A região foi ocupada por povos que deixaram sambaquis e, depois, por grupos Taquara e Guarani.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_UFPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "torres-rs-geografo-P01",
+            "factKey": "torres-rs-geografo-F01",
+            "text": "A planície costeira é estreita porque a escarpa da Serra Geral chega perto do mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_UFPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P02",
+            "factKey": "torres-rs-geografo-F02",
+            "text": "Morros testemunhos interrompem a sequência de praias arenosas, abertas ao norte e ao sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_UFPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P03",
+            "factKey": "torres-rs-geografo-F03",
+            "text": "Os morros testemunhos têm base de arenito e topo de basalto e são mais antigos que o resto da planície litorânea.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "TORRES_UFPE",
+              "TORRES_SGBMAPA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P04",
+            "factKey": "torres-rs-geografo-F04",
+            "text": "O arenito da base é interpretado como dunas do antigo deserto Botucatu, do Jurássico-Cretáceo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_UFPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P05",
+            "factKey": "torres-rs-geografo-F05",
+            "text": "Onde a lava encontrou areia úmida, formaram-se brechas peperíticas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_UFPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P06",
+            "factKey": "torres-rs-geografo-F06",
+            "text": "O soerguimento da borda leste no Cretáceo e a erosão regressiva moldaram o relevo regional.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_SGBMAPA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P07",
+            "factKey": "torres-rs-geografo-F07",
+            "text": "Nas rochas vulcânicas da área há registro de deslizamentos, quedas e rolamento de blocos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_SGBMAPA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P08",
+            "factKey": "torres-rs-geografo-F08",
+            "text": "No parque das falésias aflora o arenito Botucatu, com estratificação visível.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "TORRES_SGBMAPA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P09",
+            "factKey": "torres-rs-geografo-F09",
+            "text": "Um parque estadual de cerca de 13 ha reúne as melhores exposições dos morros testemunhos.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "TORRES_UFPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P10",
+            "factKey": "torres-rs-geografo-F10",
+            "text": "Esse parque e o Morro do Farol são geossítios de relevância internacional de um geoparque da UNESCO reconhecido em 2022.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "TORRES_SGBMAPA",
+              "TORRES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P11",
+            "factKey": "torres-rs-geografo-F11",
+            "text": "O município é um dos três gaúchos entre os sete que formam o geoparque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P12",
+            "factKey": "torres-rs-geografo-F12",
+            "text": "A margem do rio fronteiriço abriga uma comunidade pesqueira e é o ponto de saída do turismo embarcado.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "TORRES_BIOBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P13",
+            "factKey": "torres-rs-geografo-F13",
+            "text": "Duas colônias de pesca, uma de cada lado da divisa, somam cerca de 1.000 associados.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "TORRES_COSTAS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P14",
+            "factKey": "torres-rs-geografo-F14",
+            "text": "A ilha em frente, a menos de 2 km da foz, tem origem ligada aos processos que formaram a Formação Serra Geral.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "TORRES_COSTAS",
+              "TORRES_BIOBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P15",
+            "factKey": "torres-rs-geografo-F15",
+            "text": "A ilha é o ponto de descanso de pinípedes mais ao norte da costa brasileira, mas não uma colônia reprodutiva.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "TORRES_COSTAS",
+              "TORRES_BIOBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P16",
+            "factKey": "torres-rs-geografo-F16",
+            "text": "A reserva ecológica de 1983 virou refúgio de vida silvestre em 2005 e passou de 1,69 ha para 142,39 ha ao incluir águas vizinhas.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "TORRES_COSTAS",
+              "TORRES_DECRETO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P17",
+            "factKey": "torres-rs-geografo-F17",
+            "text": "O pico de pinípedes no inverno e na primavera não coincide com o pico turístico de janeiro e fevereiro.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "TORRES_BIOBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P18",
+            "factKey": "torres-rs-geografo-F18",
+            "text": "Pescadores atribuem aos leões-marinhos grandes perdas, mas observações de campo estimaram cerca de 3%.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "TORRES_FAPESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P19",
+            "factKey": "torres-rs-geografo-F19",
+            "text": "A maria-luísa responde por cerca de metade da dieta dos leões-marinhos na área.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "TORRES_FAPESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P20",
+            "factKey": "torres-rs-geografo-F20",
+            "text": "A unidade de conservação marinha inclui um cinturão de 500 m de mar ao redor da ilha.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "TORRES_BIOBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P21",
+            "factKey": "torres-rs-geografo-F21",
+            "text": "Em 1777 foi erguido um forte no Morro do Farol, abandonado quatro meses depois.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_UFPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P22",
+            "factKey": "torres-rs-geografo-F22",
+            "text": "O posto de controle foi refeito ao longo do século XIX e, em 1824, passou a se chamar Baluarte Ipiranga.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_UFPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P23",
+            "factKey": "torres-rs-geografo-F23",
+            "text": "A região foi palco de batalhas da Guerra dos Farrapos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_UFPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P24",
+            "factKey": "torres-rs-geografo-F24",
+            "text": "O crescimento urbano e a verticalização da faixa costeira pressionam sistemas litorâneos frágeis.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_SGBMAPA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "torres-rs-geografo-P25",
+            "factKey": "torres-rs-geografo-F25",
+            "text": "Um parque estadual de dunas e restinga, ao sul, sofre influência direta do polo turístico vizinho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TORRES_SINAGEO",
+              "TORRES_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade do litoral norte gaúcho, na divisa com Santa Catarina pelo rio Mampituba, com morros testemunhos de arenito e basalto à beira-mar (Parque da Guarita, Morro do Farol) e, em frente, o Refúgio de Vida Silvestre da Ilha dos Lobos.",
+      "editorialNotes": [
+        "C2–C4 refeitos: praias de outras cidades da lista (Cassino, Ferrugem, Mar Grosso); rio que banha a cidade com rios costeiros (o rótulo \"divisa interestadual\" e a alternativa Uruguai, também rio de divisa, tornavam o campo revelador e ambíguo); unidade de conservação federal no lugar de \"Estado\".",
+        "Área do refúgio: 142,39 ha com o entorno marinho (decreto de 2005; Revista Costas); a parte emersa tem 1,69 ha (Costas) ou 16,9 mil m² (FAPESP).",
+        "Os nomes \"Torre do Meio\" e \"Torre Sul\" do rascunho não foram confirmados nas fontes abertas e saíram; a distância de Porto Alegre aparece como 190 e 200 km na mesma matéria."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes abertas (SGB, ICMBio, decreto de 2005, artigos UFPE, Revista Costas, Biodiversidade Brasileira, Pesquisa FAPESP, Correio Braziliense); C2–C4 refeitos e pistas sem apoio trocadas por fatos verificados"
+    }
+  },
+  "sources": {
+    "TORRES_UFPE": {
+      "id": "TORRES_UFPE",
+      "title": "Patrimônio geológico de Torres (Rio Grande do Sul) e sua relação com o desenvolvimento da região sul do Brasil: contexto histórico e perspectivas futuras",
+      "publisher": "Revista Movimentos Sociais e Dinâmicas Espaciais (UFPE), v. 13, n. 1, 2024",
+      "url": "https://periodicos.ufpe.br/revistas/revistamseu/article/download/260737/47313/267604",
+      "checkedAt": "2026-11-15"
+    },
+    "TORRES_SGBMAPA": {
+      "id": "TORRES_SGBMAPA",
+      "title": "Geoparque Caminhos dos Cânions do Sul: Mapa da Geodiversidade",
+      "publisher": "Serviço Geológico do Brasil (SGB)",
+      "url": "https://rigeo.sgb.gov.br/bitstreams/93ebe3ab-0aab-4d12-9ffe-489089c36c03/download",
+      "checkedAt": "2026-11-15"
+    },
+    "TORRES_SGB": {
+      "id": "TORRES_SGB",
+      "title": "Potencialidades geoturísticas do Geoparque da UNESCO Caminhos dos Cânions do Sul",
+      "publisher": "Serviço Geológico do Brasil (RIGeo)",
+      "url": "https://rigeo.sgb.gov.br/bitstream/doc/25144/1/bellettini_et%20al_potencialidades_turisticas_geoparque_canions_sul.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "TORRES_SINAGEO": {
+      "id": "TORRES_SINAGEO",
+      "title": "Geoturismo e geoconservação no Geoparque Caminhos dos Cânions do Sul: estudo da frequência de visitação aos geossítios",
+      "publisher": "UFSC — anais do SINAGEO 2025 (Editora Realize)",
+      "url": "https://www.editorarealize.com.br/editora/anais/sinageo/2025/TRABALHO_COMPLETO_EV217_ID1357_TB418_21072025125549.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "TORRES_COSTAS": {
+      "id": "TORRES_COSTAS",
+      "title": "Conselho Gestor do Refúgio de Vida Silvestre da Ilha dos Lobos",
+      "publisher": "Revista Costas, v. 2, n. 2, 2020",
+      "url": "https://hum117.uca.es/revista-costas/attachment/2206",
+      "checkedAt": "2026-11-15"
+    },
+    "TORRES_BIOBR": {
+      "id": "TORRES_BIOBR",
+      "title": "O turismo embarcado no Refúgio de Vida Silvestre da Ilha dos Lobos, Sul do Brasil: estado atual e perspectivas futuras",
+      "publisher": "Biodiversidade Brasileira (ICMBio), 12(3), 2022",
+      "url": "https://revistaeletronica.icmbio.gov.br/BioBR/article/download/1960/1383/11935",
+      "checkedAt": "2026-11-15"
+    },
+    "TORRES_FOLDER": {
+      "id": "TORRES_FOLDER",
+      "title": "REVIS Ilha dos Lobos — folder de uso público",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/visite-as-unidades-de-conservacao-federais/revisilhadoslobos/central-de-conteudos/publicacoes/folder-uso-publico.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "TORRES_DECRETO": {
+      "id": "TORRES_DECRETO",
+      "title": "Decreto de 4 de julho de 2005 — altera a categoria da Reserva Ecológica Ilha dos Lobos para Refúgio de Vida Silvestre",
+      "publisher": "Senado Federal — Legislação",
+      "url": "https://legis.senado.leg.br/norma/379795/publicacao/15836778",
+      "checkedAt": "2026-11-15"
+    },
+    "TORRES_FAPESP": {
+      "id": "TORRES_FAPESP",
+      "title": "A disputa entre pescadores e leões-marinhos por peixes",
+      "publisher": "Revista Pesquisa FAPESP (2021)",
+      "url": "https://revistapesquisa.fapesp.br/a-disputa-entre-pescadores-e-leoes-marinhos-por-peixes/",
+      "checkedAt": "2026-11-15"
+    },
+    "TORRES_CB1": {
+      "id": "TORRES_CB1",
+      "title": "A mais bela praia dos gaúchos e o único lugar do RS com paredões rochosos à beira-mar",
+      "publisher": "Correio Braziliense (2026)",
+      "url": "https://www.correiobraziliense.com.br/cbradar/a-mais-bela-praia-dos-gauchos-e-o-unico-lugar-do-rs-com-paredoes-rochosos-a-beira-mar/",
+      "checkedAt": "2026-11-15"
+    },
+    "TORRES_CB2": {
+      "id": "TORRES_CB2",
+      "title": "O maior festival de balonismo da América Latina em meio às praias mais famosas do litoral gaúcho",
+      "publisher": "Correio Braziliense (2026)",
+      "url": "https://www.correiobraziliense.com.br/cbradar/o-maior-festival-de-balonismo-da-america-latina-em-meio-as-praias-mais-famosas-do-litoral-gaucho/",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.gov.br/icmbio/pt-br/assuntos/visite-as-unidades-de-conservacao-federais/revisilhadoslobos/central-de-conteudos/publicacoes/folder-uso-publico.pdf",
+      "https://legis.senado.leg.br/norma/379795/publicacao/15836778",
+      "https://revistapesquisa.fapesp.br/a-disputa-entre-pescadores-e-leoes-marinhos-por-peixes/",
+      "https://revistaeletronica.icmbio.gov.br/BioBR/article/download/1960/1383/11935",
+      "https://hum117.uca.es/revista-costas/attachment/2206",
+      "https://rigeo.sgb.gov.br/bitstream/doc/25144/1/bellettini_et%20al_potencialidades_turisticas_geoparque_canions_sul.pdf",
+      "https://rigeo.sgb.gov.br/bitstreams/93ebe3ab-0aab-4d12-9ffe-489089c36c03/download",
+      "https://www.editorarealize.com.br/editora/anais/sinageo/2025/TRABALHO_COMPLETO_EV217_ID1357_TB418_21072025125549.pdf",
+      "https://periodicos.ufpe.br/revistas/revistamseu/article/download/260737/47313/267604",
+      "https://www.correiobraziliense.com.br/cbradar/a-mais-bela-praia-dos-gauchos-e-o-unico-lugar-do-rs-com-paredoes-rochosos-a-beira-mar/",
+      "https://www.correiobraziliense.com.br/cbradar/o-maior-festival-de-balonismo-da-america-latina-em-meio-as-praias-mais-famosas-do-litoral-gaucho/"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho (IBGE, páginas da prefeitura e do Passaporte Torres, Turismo RS e páginas do ICMBio) não puderam ser abertas por busca; substituídas por folder do ICMBio, decreto de 2005, SGB (2 documentos), artigos UFPE, Revista Costas, Biodiversidade Brasileira, Pesquisa FAPESP, SINAGEO e Correio Braziliense.",
+      "C2: alternativas Joaquina e Itamambuca trocadas por Ferrugem e Mar Grosso (praias de cidades da lista de C1); rótulo precisado.",
+      "C3: rótulo 'Rio na divisa interestadual' (revelava a cidade e tornava 'Uruguai' também correto) trocado por 'Rio que banha a cidade', com rios costeiros como alternativas.",
+      "C4: 'Estado brasileiro' trocado pela unidade de conservação federal em frente à cidade (REVIS Ilha dos Lobos).",
+      "Viajante: 20 pistas reescritas ou trocadas (saíram Torre do Meio/Torre Sul, origem 'vulcânica' da ilha e guarnição genérica; entraram Molhes da Barra, ponte pênsil, Praia da Cal/Grande/Itapeva com descrição, Morro do Farol, balonismo e lei de 2024, regras de visita, origem uruguaia dos leões-marinhos, D. Pedro I em 1826).",
+      "Geógrafo: 21 pistas reescritas ou trocadas (entraram planície estreita pela Serra Geral, arenito Botucatu e brechas peperíticas, geoparque UNESCO 2022, colônias de pesca, ampliação 1,69→142,39 ha, descompasso entre pico de pinípedes e de turistas, conflito com a pesca, forte de 1777 e Baluarte Ipiranga; saíram naufrágio de 1960, registro de 1797 e a 'guarita militar de 1774–1776', sem fonte aberta)."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

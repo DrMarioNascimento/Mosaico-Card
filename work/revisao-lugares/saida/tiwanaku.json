@@ -1,0 +1,1041 @@
+{
+ "case": {
+  "id": "lug2-tiwanaku",
+  "placeId": "tiwanaku",
+  "title": "Centro Arqueológico de Tiwanaku",
+  "aliases": [
+   "Tiwanaku",
+   "Tiahuanaco",
+   "Tiahuanacu"
+  ],
+  "answerType": "sítio arqueológico",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BO"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Sítio arqueológico",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Centro Arqueológico de Tiwanaku"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Machu Picchu"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Parque Arqueológico de Sacsayhuamán"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Linhas e Geoglifos de Nasca e Palpa"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Sítio Arqueológico de Chavín de Huántar"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Zona Arqueológica de Chan Chan"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Cidade Sagrada de Caral-Supe"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Forte de Samaipata"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Santuário Arqueológico de Pachacámac"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Fortaleza de Kuélap"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Sítio Maia de Copán"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Cidade Pré-hispânica de Teotihuacán"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Centro Arqueológico de Tiwanaku",
+    "sources": [
+     "TIWANAKU_PR",
+     "TIWANAKU_EB"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "País",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Bolívia"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Peru"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Equador"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Chile"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Bolívia",
+    "sources": [
+     "TIWANAKU_PR",
+     "TIWANAKU_EB"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Lago próximo",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Titicaca"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Poopó"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Junín"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Chungará"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Titicaca",
+    "sources": [
+     "TIWANAKU_PR",
+     "TIWANAKU_EB"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Grande pirâmide escalonada do sítio",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Akapana"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Huaca del Sol"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Pirâmide do Sol"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Huaca Pucllana"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Akapana",
+    "sources": [
+     "TIWANAKU_PR",
+     "TIWANAKU_EB"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "tiwanaku-viajante-P01",
+      "factKey": "tiwanaku-F01",
+      "text": "Este destino guarda ruínas de templos e monumentos de pedra muito antigos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P02",
+      "factKey": "tiwanaku-F02",
+      "text": "As ruínas ficam num planalto alto dos Andes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P03",
+      "factKey": "tiwanaku-F03",
+      "text": "Fica na América do Sul, na Bolívia.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "TIWANAKU_PR",
+       "TIWANAKU_EB"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P04",
+      "factKey": "tiwanaku-F04",
+      "text": "O sítio fica perto da margem sul de um grande lago.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TIWANAKU_PR",
+       "TIWANAKU_EB"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P05",
+      "factKey": "tiwanaku-F05",
+      "text": "O lago Titicaca fica perto das ruínas.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TIWANAKU_PR",
+       "TIWANAKU_EB"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P06",
+      "factKey": "tiwanaku-F06",
+      "text": "As ruínas estão a cerca de 3.850 metros de altitude.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P07",
+      "factKey": "tiwanaku-F07",
+      "text": "Ficam no departamento de La Paz, e a estrada que vem da cidade de La Paz vive cheia de carros.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P08",
+      "factKey": "tiwanaku-F08",
+      "text": "A cidade foi a capital de um império poderoso que durou vários séculos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P09",
+      "factKey": "tiwanaku-F09",
+      "text": "Ela é mais antiga que o Império Inca.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P10",
+      "factKey": "tiwanaku-F10",
+      "text": "A influência dessa cultura chegou ao sul do Peru, ao norte do Chile e ao noroeste da Argentina.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_EB"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P11",
+      "factKey": "tiwanaku-F11",
+      "text": "A maior parte da cidade antiga era feita de adobe.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P12",
+      "factKey": "tiwanaku-F12",
+      "text": "O povoado atual foi construído por cima de boa parte das ruínas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P13",
+      "factKey": "tiwanaku-F13",
+      "text": "Os construtores cortavam e poliam as pedras com grande precisão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P14",
+      "factKey": "tiwanaku-F14",
+      "text": "Um grande portal foi esculpido num único bloco de pedra, com uma figura central segurando bastões.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR",
+       "TIWANAKU_EB"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P15",
+      "factKey": "tiwanaku-F15",
+      "text": "Os relevos de um portal de pedra do sítio já foram interpretados como um calendário agrícola.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P16",
+      "factKey": "tiwanaku-F16",
+      "text": "Uma pirâmide de plataformas tem muros de pedra com mais de 18 metros de altura.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P17",
+      "factKey": "tiwanaku-F17",
+      "text": "Canais de drenagem muito bem conservados cercam a pirâmide principal.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P18",
+      "factKey": "tiwanaku-F18",
+      "text": "Um grande templo retangular a céu aberto pode ter servido de observatório.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P19",
+      "factKey": "tiwanaku-F19",
+      "text": "Num templo semienterrado, cabeças de pedra esculpidas ficam encaixadas nas paredes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P20",
+      "factKey": "tiwanaku-F20",
+      "text": "Na região há quase 50 mil campos de cultivo elevados, com irrigação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "agricultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P21",
+      "factKey": "tiwanaku-F21",
+      "text": "As técnicas agrícolas desenvolvidas ali se espalharam até a região de Cusco.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "agricultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P22",
+      "factKey": "tiwanaku-F22",
+      "text": "Os aimarás de hoje podem descender dos construtores da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_EB"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P23",
+      "factKey": "tiwanaku-F23",
+      "text": "Todo 21 de junho, um ritual reúne multidões nas ruínas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P24",
+      "factKey": "tiwanaku-F24",
+      "text": "A UNESCO incluiu o sítio no Patrimônio Mundial em 2000.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-viajante-P25",
+      "factKey": "tiwanaku-F25",
+      "text": "Liquens e microrganismos atacam as esculturas de pedra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "tiwanaku-geografo-P01",
+      "factKey": "tiwanaku-F01",
+      "text": "O bem preserva um dos centros urbanos pré-incas mais importantes da região andina.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P02",
+      "factKey": "tiwanaku-F02",
+      "text": "Edifícios cerimoniais e públicos de pedra testemunham o poder de um antigo império andino.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P03",
+      "factKey": "tiwanaku-F03",
+      "text": "O sítio ocupa o altiplano a 3.850 m, perto da margem sul do lago Titicaca.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TIWANAKU_PR",
+       "TIWANAKU_EB"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P04",
+      "factKey": "tiwanaku-F04",
+      "text": "Fica na província de Ingavi, no departamento boliviano de La Paz.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P05",
+      "factKey": "tiwanaku-F05",
+      "text": "Um pequeno povoado tornou-se cidade planejada entre 400 e 900 d.C., segundo a UNESCO.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P06",
+      "factKey": "tiwanaku-F06",
+      "text": "Para a Britannica, a construção prosseguiu no Horizonte Médio (600–1000), e a cultura desapareceu por volta de 1200.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_EB"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P07",
+      "factKey": "tiwanaku-F07",
+      "text": "A influência da cidade se estendeu aos vales interandinos e à costa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P08",
+      "factKey": "tiwanaku-F08",
+      "text": "Traços dessa cultura também aparecem em Huari, no centro e no sul dos Andes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_EB"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P09",
+      "factKey": "tiwanaku-F09",
+      "text": "Quase 50 mil campos elevados irrigados, os sukakollos, adaptavam o cultivo às condições do altiplano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR",
+       "TIWANAKU_EB"
+      ],
+      "clueType": "agricultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P10",
+      "factKey": "tiwanaku-F10",
+      "text": "A Akapana, monte de terra revestido de andesito cortado, tinha originalmente sete plataformas sobrepostas.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TIWANAKU_EB",
+       "TIWANAKU_PR"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P11",
+      "factKey": "tiwanaku-F11",
+      "text": "Muros de contenção de pedra com mais de 18 m e canais de drenagem envolvem a Akapana.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P12",
+      "factKey": "tiwanaku-F12",
+      "text": "O Kalasasaya alterna colunas altas de pedra e blocos retangulares menores.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_EB"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P13",
+      "factKey": "tiwanaku-F13",
+      "text": "O Kalasasaya, templo a céu aberto talvez usado como observatório, abriga dois monólitos e um portal monumental.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P14",
+      "factKey": "tiwanaku-F14",
+      "text": "A Porta do Sol, de um só bloco de andesito, traz um friso interpretado como calendário agrícola.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR",
+       "TIWANAKU_EB"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P15",
+      "factKey": "tiwanaku-F15",
+      "text": "O templo semissubterrâneo tem paredes de pilares de arenito vermelho com cabeças de pedra encaixadas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P16",
+      "factKey": "tiwanaku-F16",
+      "text": "Puma Punku, outra estrutura cerimonial, forma uma área protegida própria de 7 ha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P17",
+      "factKey": "tiwanaku-F17",
+      "text": "A cidade antiga, sobretudo de adobe, ficou em grande parte sob o povoado moderno.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P18",
+      "factKey": "tiwanaku-F18",
+      "text": "O bem soma 71,5 ha, e um decreto de 2000 fixou os limites de proteção em três áreas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P19",
+      "factKey": "tiwanaku-F19",
+      "text": "Em 1945, o povoado e um raio de 5 km ao redor foram declarados monumento nacional.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P20",
+      "factKey": "tiwanaku-F20",
+      "text": "Umidade, chuva, vento e poeira desgastam as estruturas expostas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P21",
+      "factKey": "tiwanaku-F21",
+      "text": "O crescimento urbano e a agricultura ameaçam vestígios enterrados no entorno.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P22",
+      "factKey": "tiwanaku-F22",
+      "text": "O ritual de 21 de junho concentra multidões que pisoteiam os vestígios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P23",
+      "factKey": "tiwanaku-F23",
+      "text": "Saques e tráfico de bens arqueológicos exigem controle mais rigoroso.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P24",
+      "factKey": "tiwanaku-F24",
+      "text": "Inscrito em 2000, o bem tem autenticidade preservada, mas integridade avaliada como comprometida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_PR"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "tiwanaku-geografo-P25",
+      "factKey": "tiwanaku-F25",
+      "text": "Copos de boca larga pintados de preto, branco e vermelho-claro marcam a cerâmica dessa cultura.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TIWANAKU_EB"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Ruínas da capital de um império pré-inca no altiplano boliviano, a 3.850 m, perto da margem sul do lago Titicaca, com a pirâmide Akapana, o templo Kalasasaya e a Porta do Sol, o templo semissubterrâneo e Puma Punku.",
+   "editorialNotes": [
+    "Datas: o relatório periódico da UNESCO diz que a cidade planejada floresceu entre 400 e 900 d.C.; a Britannica situa a construção até o Horizonte Médio (600–1000) e o fim da cultura por volta de 1200. O rascunho usava 500–900 sem fonte aberta, e a pista foi trocada.",
+    "Área: a tabela do relatório dá 71,5 ha e zona de amortecimento 0 ha, mas a seção de proteção descreve uma faixa de 100 m; as pistas não citam a faixa.",
+    "O C4 nomeia pirâmides de outras culturas (Huaca del Sol e Huaca Pucllana, no Peru; Pirâmide do Sol, em Teotihuacán): só a Akapana fica no sítio."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e gabaritos conferidos no relatório periódico da UNESCO (com a declaração de valor universal) e na Britannica; C1 alinhado aos títulos do banco, C3 e C4 refeitos com alternativas andinas plausíveis."
+  }
+ },
+ "sources": {
+  "TIWANAKU_PR": {
+   "id": "TIWANAKU_PR",
+   "title": "Tiwanaku: Spiritual and Political Centre of the Tiwanaku Culture — Periodic Report (Section II), with Statement of Outstanding Universal Value",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/216962",
+   "checkedAt": "2026-11-15"
+  },
+  "TIWANAKU_EB": {
+   "id": "TIWANAKU_EB",
+   "title": "Tiwanaku",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/place/Tiwanaku",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://whc.unesco.org/document/216962",
+   "https://www.britannica.com/place/Tiwanaku"
+  ],
+  "alteracoes": [
+   "Fonte TIWANAKU567 (whc.unesco.org/en/list/567) substituída: a página de lista não abre nesta sessão; a declaração de valor universal foi conferida no relatório periódico da UNESCO (TIWANAKU_PR); acrescentada a Britannica (TIWANAKU_EB).",
+   "C1: nomes alinhados aos títulos do banco (Machu Picchu, Linhas e Geoglifos de Nasca e Palpa, Sítio Maia de Copán, Cidade Pré-hispânica de Teotihuacán); saíram Ollantaytambo, Tikal, Monte Albán e Palenque; entraram Machu Picchu, Nasca e Palpa, Caral-Supe, Kuélap e o Forte de Samaipata; Chan Chan e Sacsayhuamán com o nome de zona/parque arqueológico.",
+   "C3: Maracaibo, Nicarágua e General Carrera trocados por lagos altoandinos (Poopó, Junín, Chungará).",
+   "C4: ‘Construção destacada’ contra Coliseu, Partenon e Grande Muralha trocado por ‘Grande pirâmide escalonada do sítio’ (Akapana), conforme UNESCO e Britannica.",
+   "Viajante: P23 (‘importância entre 500 e 900 d.C.’) trocada pelo ritual de 21 de junho; ‘porta de uma única peça’ ganhou a figura com bastões (Britannica); ‘canais de chuva’ virou canais de drenagem da pirâmide; entraram estrada de La Paz, influência até Peru, Chile e Argentina, calendário agrícola, observatório, 50 mil campos elevados, Cusco, aimarás e liquens; demais reescritas.",
+   "Geógrafo: P01–P25 reescritas para relações e processos (pré-inca, Ingavi, 400–900 × Horizonte Médio, vales interandinos e costa, Huari, sukakollos, andesito da Akapana, Kalasasaya, arenito vermelho, Puma Punku 7 ha, 71,5 ha e decreto de 2000, monumento de 1945, pressões e integridade comprometida, cerâmica).",
+   "Sinais: P01–P02 abertura nos dois perfis; decisivas = portal monolítico e cabeças do templo semienterrado (Viajante), Porta do Sol e Puma Punku (Geógrafo); relatedFields ampliados para C2, C3 e C4."
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

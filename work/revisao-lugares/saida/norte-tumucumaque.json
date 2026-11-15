@@ -1,0 +1,1106 @@
+{
+ "case": {
+  "id": "lug2-norte-tumucumaque",
+  "placeId": "norte-tumucumaque",
+  "title": "Parque Nacional Montanhas do Tumucumaque",
+  "aliases": [
+   "Tumucumaque"
+  ],
+  "answerType": "parque nacional",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "norte"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Parque nacional",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Parque Nacional Montanhas do Tumucumaque"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Parque Nacional do Pico da Neblina"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Parque Nacional do Monte Roraima"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Parque Nacional da Serra do Divisor"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Parque Nacional do Viruá"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Parque Nacional da Serra da Mocidade"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Parque Nacional da Amazônia"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Parque Nacional do Jaú"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Parque Nacional de Anavilhanas"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Parque Nacional do Cabo Orange"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Parque Nacional do Juruena"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Parque Nacional do Araguaia"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Parque Nacional Montanhas do Tumucumaque",
+    "sources": [
+     "TUMUC_DECRETO",
+     "TUMUC_PA_CONHECA",
+     "TUMUC_JBRJ_NEWS"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Município paraense com parte da área",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Almeirim"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Oriximiná"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Óbidos"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Alenquer"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Almeirim",
+    "sources": [
+     "TUMUC_JBRJ_NEWS",
+     "TUMUC_PA_PLANTAS",
+     "TUMUC_PA_TRILHAS"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Estados abrangidos",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Amapá e Pará"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Acre e Rondônia"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Roraima e Amazonas"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Amazonas e Mato Grosso"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Amapá e Pará",
+    "sources": [
+     "TUMUC_DECRETO",
+     "TUMUC_JBRJ_NEWS",
+     "TUMUC_PA_CONHECA"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Países e territórios vizinhos na fronteira",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Suriname e Guiana Francesa"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Venezuela e Guiana"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Colômbia e Venezuela"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Peru e Bolívia"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Suriname e Guiana Francesa",
+    "sources": [
+     "TUMUC_DECRETO",
+     "TUMUC_PA_CONHECA"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "norte-tumucumaque-viajante-P01",
+      "factKey": "norte-tumucumaque-F01",
+      "text": "Este lugar é um parque nacional brasileiro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_PA_CONHECA",
+       "TUMUC_DECRETO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P02",
+      "factKey": "norte-tumucumaque-F02",
+      "text": "Ele protege uma enorme área de floresta tropical no extremo norte do Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_CATRACA",
+       "TUMUC_JBRJ_NEWS"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P03",
+      "factKey": "norte-tumucumaque-F03",
+      "text": "O parque foi criado em 2002.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_DECRETO",
+       "TUMUC_PA_CONHECA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P04",
+      "factKey": "norte-tumucumaque-F04",
+      "text": "É o maior parque nacional do Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_PA_CONHECA",
+       "TUMUC_JBRJ_NEWS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P05",
+      "factKey": "norte-tumucumaque-F05",
+      "text": "Quase toda a área fica num só estado; só um pedacinho fica no estado vizinho.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TUMUC_JBRJ_NEWS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P06",
+      "factKey": "norte-tumucumaque-F06",
+      "text": "O parque ocupa mais de um quarto do território do seu estado principal.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TUMUC_PA_CONHECA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P07",
+      "factKey": "norte-tumucumaque-F07",
+      "text": "No estado vizinho, a parte do parque fica num único município.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "TUMUC_JBRJ_NEWS",
+       "TUMUC_PA_TRILHAS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P08",
+      "factKey": "norte-tumucumaque-F08",
+      "text": "A borda do parque acompanha a fronteira do Brasil com dois vizinhos.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TUMUC_DECRETO",
+       "TUMUC_PA_CONHECA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P09",
+      "factKey": "norte-tumucumaque-F09",
+      "text": "Lá dentro nascem alguns dos maiores rios do estado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_PA_TRILHAS"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P10",
+      "factKey": "norte-tumucumaque-F10",
+      "text": "No meio da floresta, morros de pedra isolados ficam mais altos que as copas das árvores.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_RAP",
+       "TUMUC_CATRACA"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P11",
+      "factKey": "norte-tumucumaque-F11",
+      "text": "Perto da fronteira norte, alguns desses morros chegam a cerca de 700 metros de altitude.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TUMUC_RAP"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P12",
+      "factKey": "norte-tumucumaque-F12",
+      "text": "No resto do parque, o terreno é suavemente ondulado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_RAP"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P13",
+      "factKey": "norte-tumucumaque-F13",
+      "text": "Algumas árvores, como o angelim-vermelho, passam de 80 metros de altura.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_JBRJ_NEWS",
+       "TUMUC_PA_PLANTAS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P14",
+      "factKey": "norte-tumucumaque-F14",
+      "text": "Uma lista oficial registrou 664 espécies de plantas no parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_JBRJ_NEWS",
+       "TUMUC_PA_PLANTAS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P15",
+      "factKey": "norte-tumucumaque-F15",
+      "text": "Expedições de pesquisa contaram mais de 360 espécies de aves por lá.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_RAP"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P16",
+      "factKey": "norte-tumucumaque-F16",
+      "text": "Para visitar, é preciso pedir autorização à gestão do parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_PA_TRILHAS",
+       "TUMUC_PA_CONHECA"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P17",
+      "factKey": "norte-tumucumaque-F17",
+      "text": "Uma das trilhas só é alcançada depois de quase três horas de viagem de barco.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_PA_TRILHAS"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P18",
+      "factKey": "norte-tumucumaque-F18",
+      "text": "Um mirante novo leva o nome de uma árvore gigante da Amazônia, a sumaúma.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_PA_TRILHAS"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P19",
+      "factKey": "norte-tumucumaque-F19",
+      "text": "Dá para acampar numa base rústica na entrada ou no meio da floresta.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_PA_TRILHAS"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P20",
+      "factKey": "norte-tumucumaque-F20",
+      "text": "Nas trilhas aparecem árvores como copaíba, andiroba e angelim.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_PA_TRILHAS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P21",
+      "factKey": "norte-tumucumaque-F21",
+      "text": "Povos indígenas como os Wayana e os Wajãpi encontraram refúgio nessa região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_PA_CONHECA"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P22",
+      "factKey": "norte-tumucumaque-F22",
+      "text": "O garimpo ilegal de ouro é uma das grandes ameaças ao parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_JBRJ_NEWS",
+       "TUMUC_RAP"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P23",
+      "factKey": "norte-tumucumaque-F23",
+      "text": "Uma pequena comunidade vive dentro do parque, na beira do rio Oiapoque.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TUMUC_RAP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P24",
+      "factKey": "norte-tumucumaque-F24",
+      "text": "Do outro lado da fronteira ficam o Suriname e a Guiana Francesa.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TUMUC_DECRETO",
+       "TUMUC_PA_CONHECA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-viajante-P25",
+      "factKey": "norte-tumucumaque-F25",
+      "text": "O parque fica quase todo no Amapá, com uma pontinha no Pará.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TUMUC_JBRJ_NEWS",
+       "TUMUC_PA_CONHECA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "norte-tumucumaque-geografo-P01",
+      "factKey": "norte-tumucumaque-F01",
+      "text": "A área é uma unidade de conservação federal gerida pelo ICMBio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_PA_TRILHAS",
+       "TUMUC_CATRACA"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P02",
+      "factKey": "norte-tumucumaque-F02",
+      "text": "A unidade conserva uma das florestas tropicais menos impactadas do mundo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_PA_CONHECA"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P03",
+      "factKey": "norte-tumucumaque-F03",
+      "text": "Um decreto federal de 22 de agosto de 2002 criou a unidade, com área aproximada de 3.867.000 ha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_DECRETO"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P04",
+      "factKey": "norte-tumucumaque-F04",
+      "text": "É apontada como a maior unidade de conservação de floresta tropical do mundo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_JBRJ_NEWS",
+       "TUMUC_PA_PLANTAS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P05",
+      "factKey": "norte-tumucumaque-F05",
+      "text": "Cerca de 98,8% da área está em um estado e 1,2% em outro.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TUMUC_JBRJ_NEWS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P06",
+      "factKey": "norte-tumucumaque-F06",
+      "text": "A unidade equivale a 26,4% do território de seu estado principal.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TUMUC_PA_CONHECA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P07",
+      "factKey": "norte-tumucumaque-F07",
+      "text": "No estado minoritário, a unidade ocupa parte de um único município.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "TUMUC_JBRJ_NEWS",
+       "TUMUC_PA_PLANTAS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P08",
+      "factKey": "norte-tumucumaque-F08",
+      "text": "Cinco municípios do estado principal, entre eles Calçoene e Serra do Navio, dividem a maior parte da área.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TUMUC_JBRJ_NEWS",
+       "TUMUC_PA_CONHECA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P09",
+      "factKey": "norte-tumucumaque-F09",
+      "text": "O perímetro do decreto parte de uma fronteira internacional, acompanha o limite com um segundo território e volta à primeira fronteira.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TUMUC_DECRETO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P10",
+      "factKey": "norte-tumucumaque-F10",
+      "text": "O parque ocupa o oeste de seu estado principal e o norte do estado vizinho.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TUMUC_PA_CONHECA"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P11",
+      "factKey": "norte-tumucumaque-F11",
+      "text": "Cabeceiras do Araguari, do Amapari, do Oiapoque e do Jari ficam na unidade, que protege a origem de bacias regionais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_JBRJ_NEWS",
+       "TUMUC_CATRACA"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P12",
+      "factKey": "norte-tumucumaque-F12",
+      "text": "No Escudo das Guianas, o relevo é suavemente ondulado, com altitudes de 100 a 400 m.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_RAP"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P13",
+      "factKey": "norte-tumucumaque-F13",
+      "text": "Inselbergs se projetam acima do dossel e chegam a cerca de 700 m perto das fronteiras do norte.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TUMUC_RAP"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P14",
+      "factKey": "norte-tumucumaque-F14",
+      "text": "Escarpas graníticas ao longo da cordilheira criam microclimas e funcionam como mirantes naturais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_CATRACA"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P15",
+      "factKey": "norte-tumucumaque-F15",
+      "text": "Afloramentos rochosos sustentam formações mais secas, em contraste com a floresta densa de terra firme ao redor.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_RAP"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P16",
+      "factKey": "norte-tumucumaque-F16",
+      "text": "Além da terra firme, há florestas de igapó e de encosta, associadas à rede fluvial e ao relevo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_RAP"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P17",
+      "factKey": "norte-tumucumaque-F17",
+      "text": "Cinco expedições entre 2004 e 2006 inventariaram mais de 1.600 espécies, entre elas 366 aves e 207 peixes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_RAP"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P18",
+      "factKey": "norte-tumucumaque-F18",
+      "text": "O catálogo oficial registra 664 espécies de plantas, nove ameaçadas, usando só coletas posteriores à criação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_JBRJ_NEWS",
+       "TUMUC_PA_PLANTAS"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P19",
+      "factKey": "norte-tumucumaque-F19",
+      "text": "A população de angelim-vermelho, com árvores de mais de 80 m, é destaque botânico da unidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_JBRJ_NEWS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P20",
+      "factKey": "norte-tumucumaque-F20",
+      "text": "A unidade é o núcleo de um corredor de biodiversidade estadual anunciado em 2003.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TUMUC_CI_CORREDOR"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P21",
+      "factKey": "norte-tumucumaque-F21",
+      "text": "Vestígios indicam ocupação humana na região há cerca de 12 mil anos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_PA_CONHECA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P22",
+      "factKey": "norte-tumucumaque-F22",
+      "text": "A região serviu de refúgio a povos como Wayana e Wajãpi, dos troncos linguísticos Caribe e Tupi-Guarani.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TUMUC_PA_CONHECA"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P23",
+      "factKey": "norte-tumucumaque-F23",
+      "text": "Garimpo ilegal, pistas de pouso clandestinas e ocupações às margens do Oiapoque pressionam a conservação.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TUMUC_JBRJ_NEWS",
+       "TUMUC_RAP"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P24",
+      "factKey": "norte-tumucumaque-F24",
+      "text": "Os limites internacionais da unidade são com o Suriname e a Guiana Francesa.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TUMUC_DECRETO",
+       "TUMUC_PA_CONHECA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "norte-tumucumaque-geografo-P25",
+      "factKey": "norte-tumucumaque-F25",
+      "text": "A porção paraense fica em Almeirim; o restante se distribui por municípios do Amapá.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "TUMUC_JBRJ_NEWS",
+       "TUMUC_PA_PLANTAS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Maior parque nacional do Brasil, criado por decreto de 22 de agosto de 2002 com cerca de 3,87 milhões de hectares, quase todo no Amapá e com uma pequena parte em Almeirim (PA), na fronteira com o Suriname e a Guiana Francesa, no Escudo das Guianas, com inselbergs e nascentes de rios como Araguari, Oiapoque e Jari.",
+   "editorialNotes": [
+    "A área varia entre fontes: 3.867.000 ha no decreto de 2002, 3.864.443 ha (Portal Amazônia, 2023) e 3.865.000 ha (JBRJ); as pistas usam o número do decreto ou valores arredondados.",
+    "O decreto é de 22 de agosto de 2002; uma matéria do Portal Amazônia cita 23 de agosto (provável data de publicação).",
+    "A página do ICMBio e o Catálogo de Plantas do JBRJ indicados no rascunho não vieram de busca; o gavião-real e as serras Lombarda e Uassipein não foram confirmados e saíram das pistas."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Fontes do rascunho (catálogo JBRJ, ICMBio, catálogo de aves do MTur) não vieram das buscas; substituídas pelo decreto de criação (Câmara), notícia do JBRJ, relatório RAP e documento do corredor da Conservação Internacional, Portal Amazônia e Catraca Livre; C2 trocado (formação vegetal óbvia) por município paraense; C3 e C4 com distratores corrigidos."
+  }
+ },
+ "sources": {
+  "TUMUC_DECRETO": {
+   "id": "TUMUC_DECRETO",
+   "title": "Decreto de 22 de agosto de 2002 (cria o Parque Nacional Montanhas do Tumucumaque) — publicação original",
+   "publisher": "Câmara dos Deputados (Legislação Informatizada)",
+   "url": "https://www2.camara.leg.br/legin/fed/decret_sn/2002/decreto-51434-22-agosto-2002-601760-publicacaooriginal-123301-pe.html",
+   "checkedAt": "2026-11-15"
+  },
+  "TUMUC_PA_TRILHAS": {
+   "id": "TUMUC_PA_TRILHAS",
+   "title": "Renovado: PARNA Montanhas do Tumucumaque passa a contar com mirante e trilhas sinalizadas",
+   "publisher": "Portal Amazônia",
+   "url": "https://portalamazonia.com/turismo/renovado-parna-montanhas-do-tumucumaque-passa-a-contar-com-mirante-e-trilhas-sinalizadas/",
+   "checkedAt": "2026-11-15"
+  },
+  "TUMUC_JBRJ_NEWS": {
+   "id": "TUMUC_JBRJ_NEWS",
+   "title": "PN Montanhas do Tumucumaque and Flona Jamari have their lists published in the Catalog of Plants of Brazil's Conservation Units",
+   "publisher": "Jardim Botânico do Rio de Janeiro",
+   "url": "https://www.gov.br/jbrj/en/subjects/news/pn-montanhas-do-tumucumaque-and-flona-jamari-have-their-lists-published-in-the-catalog-of-plants-of-brazils-conservation-units-1",
+   "checkedAt": "2026-11-15"
+  },
+  "TUMUC_PA_PLANTAS": {
+   "id": "TUMUC_PA_PLANTAS",
+   "title": "Lista oficial: 664 espécies de plantas são registradas no PARNA Montanhas do Tumucumaque",
+   "publisher": "Portal Amazônia",
+   "url": "https://portalamazonia.com/meio-ambiente/plantas-registradas-tumucumaque/",
+   "checkedAt": "2026-11-15"
+  },
+  "TUMUC_RAP": {
+   "id": "TUMUC_RAP",
+   "title": "Inventários Biológicos Rápidos no Parque Nacional Montanhas do Tumucumaque, Amapá, Brasil (RAP Bulletin of Biological Assessment 48, 2008)",
+   "publisher": "Conservation International",
+   "url": "https://conservation.org/docs/default-source/brasil/rap_tumucumaque.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "TUMUC_CATRACA": {
+   "id": "TUMUC_CATRACA",
+   "title": "Florestas tropicais, rios caudalosos e serras isoladas formam um mosaico natural impressionante no parque nacional localizado entre Amapá e Pará",
+   "publisher": "Catraca Livre",
+   "url": "https://catracalivre.com.br/noticias/florestas-tropicais-rios-caudalosos-e-serras-isoladas-formam-um-mosaico-natural-impressionante-no-parque-nacional-localizado-entre-amapa-e-para/",
+   "checkedAt": "2026-11-15"
+  },
+  "TUMUC_PA_CONHECA": {
+   "id": "TUMUC_PA_CONHECA",
+   "title": "Conheça o PARNA Montanhas do Tumucumaque, considerado o maior parque do Brasil",
+   "publisher": "Portal Amazônia",
+   "url": "https://portalamazonia.com/amazonia/conheca-o-parna-montanhas-do-tumucumaque-considerado-o-maior-parque-do-brasil/",
+   "checkedAt": "2026-11-15"
+  },
+  "TUMUC_CI_CORREDOR": {
+   "id": "TUMUC_CI_CORREDOR",
+   "title": "Corredor de Biodiversidade do Amapá (2009)",
+   "publisher": "Conservação Internacional do Brasil e Governo do Amapá",
+   "url": "https://www.conservation.org/docs/default-source/brasil/corredor_do_amapa.pdf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "alteracoes": [
+   "Fontes TUMUC_JBRJ, TUMUC_ICMBIO e TUMUC_MTUR (URLs do rascunho, não vindas de busca) substituídas por decreto de 2002 (Câmara dos Deputados), notícia do JBRJ sobre o catálogo de plantas, RAP Bulletin 48 (2008) e Corredor de Biodiversidade do Amapá (2009) da Conservação Internacional, três matérias do Portal Amazônia e Catraca Livre (2026). A página do planalto.gov.br e a Wikipedia não abriram (acesso negado / permissão).",
+   "C2: “Formação predominante” (só a floresta ombrófila combinava com um parque amazônico) trocado por “Município paraense com parte da área” (Almeirim; distratores Oriximiná, Óbidos e Alenquer, citados no decreto como municípios de terras indígenas vizinhas).",
+   "C3: distrator “Tocantins e Goiás” trocado por “Amazonas e Mato Grosso”. C4: distratores “Uruguai e Argentina” (implausível) e “Colômbia e Equador” (o Brasil não faz fronteira com o Equador) trocados por “Venezuela e Guiana” e “Colômbia e Venezuela”.",
+   "viajante: P03–P04 (ano repetido) fundidas e P04 passou a ser “maior parque nacional”; P05–P07 reescritas (98,8%/1,2%, um quarto do estado, município único); P11–P25 trocadas ou reescritas — serras genéricas, vegetação sob influência de rios, Amapari/Araguari, gavião-real (não confirmado) e expedições genéricas saíram; entraram inselbergs de até ~700 m, angelim-vermelho, 664 plantas, 366 aves, autorização de visita, trilha fluvial, Mirante da Sumaúma, acampamento, Wayana e Wajãpi, garimpo, comunidade na beira do rio de fronteira.",
+   "geografo: P01–P25 reescritas ou trocadas (gestão ICMBio, floresta pouco impactada, decreto e área de 3.867.000 ha, 26,4% do Amapá, perímetro do decreto, Escudo das Guianas 100–400 m, inselbergs, escarpas graníticas, formações secas em afloramentos, igapó e encosta, RAP 2004–2006, catálogo de plantas, corredor de biodiversidade de 2003, ocupação de 12 mil anos, troncos linguísticos, pressões); serras Lombarda e Uassipein e classificação ombrófila submontana/aluvial/pioneira (sem fonte aberta) retiradas.",
+   "Força das pistas: viajante P01–P02 abertura, P24–P25 decisivas; geografo P01–P02 abertura, P24–P25 decisivas."
+  ],
+  "fontesAbertas": [
+   "https://www2.camara.leg.br/legin/fed/decret_sn/2002/decreto-51434-22-agosto-2002-601760-publicacaooriginal-123301-pe.html",
+   "https://portalamazonia.com/turismo/renovado-parna-montanhas-do-tumucumaque-passa-a-contar-com-mirante-e-trilhas-sinalizadas/",
+   "https://www.gov.br/jbrj/en/subjects/news/pn-montanhas-do-tumucumaque-and-flona-jamari-have-their-lists-published-in-the-catalog-of-plants-of-brazils-conservation-units-1",
+   "https://portalamazonia.com/meio-ambiente/plantas-registradas-tumucumaque/",
+   "https://conservation.org/docs/default-source/brasil/rap_tumucumaque.pdf",
+   "https://catracalivre.com.br/noticias/florestas-tropicais-rios-caudalosos-e-serras-isoladas-formam-um-mosaico-natural-impressionante-no-parque-nacional-localizado-entre-amapa-e-para/",
+   "https://portalamazonia.com/amazonia/conheca-o-parna-montanhas-do-tumucumaque-considerado-o-maior-parque-do-brasil/",
+   "https://www.conservation.org/docs/default-source/brasil/corredor_do_amapa.pdf"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

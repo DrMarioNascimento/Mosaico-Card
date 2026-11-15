@@ -1,0 +1,1100 @@
+{
+  "case": {
+    "id": "lug3-melbourne",
+    "placeId": "melbourne",
+    "title": "Melbourne",
+    "aliases": [],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "AU"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade da Oceania",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Melbourne"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Sydney"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Brisbane"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Perth"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Adelaide"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Hobart"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Camberra"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Darwin"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Cairns"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Auckland"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Wellington"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Christchurch"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Dunedin"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Napier"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Nelson"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Rotorua"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Taupō"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Queenstown"
+          },
+          {
+            "id": "C1-O19",
+            "text": "Suva"
+          },
+          {
+            "id": "C1-O20",
+            "text": "Nouméa"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Melbourne",
+        "sources": [
+          "MELBOURNE_BRIT",
+          "MELBOURNE_EBSCO"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rio junto a cuja foz a cidade nasceu",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Rio Yarra"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Rio Swan"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Rio Torrens"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Rio Derwent"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Rio Yarra",
+        "sources": [
+          "MELBOURNE_BRIT",
+          "MELBOURNE_EBSCO"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Fenômeno que fez a população disparar na década de 1850",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Corrida do ouro"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Ferrovia transcontinental"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Caça à baleia"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Mineração de cobre"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Corrida do ouro",
+        "sources": [
+          "MELBOURNE_BRIT",
+          "MELBOURNE_EBSCO"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Movimento histórico de que o Patrimônio Mundial da cidade é testemunho",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Exposições internacionais do século XIX"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Colônias penais britânicas"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Missões religiosas no Pacífico"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Arquitetura modernista do século XX"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Exposições internacionais do século XIX",
+        "sources": [
+          "MELBOURNE_MV",
+          "MELBOURNE_HCV"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "melbourne-viajante-P01",
+            "factKey": "melbourne-F01",
+            "text": "É uma metrópole litorânea do hemisfério sul, banhada por uma grande baía.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_BRIT"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P02",
+            "factKey": "melbourne-F02",
+            "text": "O tempo aqui é imprevisível: pode mudar mais de uma vez no mesmo dia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P03",
+            "factKey": "melbourne-F03",
+            "text": "Os verões são quentes, os invernos são frescos e raramente congelam; chove o ano todo e venta com frequência.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P04",
+            "factKey": "melbourne-F04",
+            "text": "O centro fica junto à foz de um rio, no fundo da baía.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "MELBOURNE_BRIT"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P05",
+            "factKey": "melbourne-F05",
+            "text": "O primeiro povoado nasceu na margem norte do rio Yarra.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P06",
+            "factKey": "melbourne-F06",
+            "text": "É a segunda maior cidade do país, atrás apenas de Sydney.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_BRIT",
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P07",
+            "factKey": "melbourne-F07",
+            "text": "É a capital do estado de Victoria.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_BRIT",
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P08",
+            "factKey": "melbourne-F08",
+            "text": "A rede de bondes é apontada como a maior do mundo, com cerca de 250 km de trilhos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P09",
+            "factKey": "melbourne-F09",
+            "text": "No centro, há uma zona em que andar de bonde é de graça.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P10",
+            "factKey": "melbourne-F10",
+            "text": "Cerca de quarenta vielas reúnem cafés, lojas e arte de rua.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P11",
+            "factKey": "melbourne-F11",
+            "text": "Um mercado público funciona no centro desde 1878.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P12",
+            "factKey": "melbourne-F12",
+            "text": "O maior estádio do país, para mais de 100 mil pessoas, é a casa do futebol australiano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P13",
+            "factKey": "melbourne-F13",
+            "text": "Todo mês de janeiro, a cidade recebe o Aberto da Austrália de tênis.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P14",
+            "factKey": "melbourne-F14",
+            "text": "Todo novembro, o hipódromo de Flemington recebe uma grande corrida de cavalos que leva o nome da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P15",
+            "factKey": "melbourne-F15",
+            "text": "Sediou os Jogos Olímpicos de 1956, os primeiros fora da Europa e dos Estados Unidos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P16",
+            "factKey": "melbourne-F16",
+            "text": "Em 1851, a descoberta de ouro fez a população saltar de cerca de 25 mil para 40 mil pessoas em poucos meses.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P17",
+            "factKey": "melbourne-F17",
+            "text": "Com a corrida do ouro chegaram imigrantes da China e da Europa, e no mesmo ano surgiu um bairro chinês.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P18",
+            "factKey": "melbourne-F18",
+            "text": "Tem a maior população de língua grega fora da Grécia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P19",
+            "factKey": "melbourne-F19",
+            "text": "Um grande salão de exposições do século XIX, com cúpula, fica entre jardins formais com fontes e lagos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MELBOURNE_HCV"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P20",
+            "factKey": "melbourne-F20",
+            "text": "Esse salão e seus jardins entraram para a Lista do Patrimônio Mundial em 2004.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MELBOURNE_MV"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P21",
+            "factKey": "melbourne-F21",
+            "text": "Foi nesse salão que se abriu o primeiro Parlamento federal do país, em 9 de maio de 1901.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "MELBOURNE_MV"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P22",
+            "factKey": "melbourne-F22",
+            "text": "De 1901 a 1927, a cidade foi a sede provisória do governo do país, até a mudança para Camberra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO",
+              "MELBOURNE_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P23",
+            "factKey": "melbourne-F23",
+            "text": "Os povos Wurundjeri Woi Wurrung e Bunurong Boon Wurrung, da nação Kulin, são os donos tradicionais destas terras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_COM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P24",
+            "factKey": "melbourne-F24",
+            "text": "À beira do rio, o parque Birrarung Marr guarda o nome aborígene do rio, que quer dizer \"rio de névoas\".",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MELBOURNE_COM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-viajante-P25",
+            "factKey": "melbourne-F25",
+            "text": "Em 1837, a cidade recebeu o nome de um primeiro-ministro britânico da época, William Lamb.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_BRIT",
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "melbourne-geografo-P01",
+            "factKey": "melbourne-F26",
+            "text": "Grande cidade costeira cuja ocupação europeia permanente começou na década de 1830.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P02",
+            "factKey": "melbourne-F27",
+            "text": "A área metropolitana cobre quase 10 mil km² e é administrada por 31 governos locais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P03",
+            "factKey": "melbourne-F04",
+            "text": "O núcleo urbano ocupa a cabeceira de uma grande baía, junto à foz do rio que corta a cidade.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "MELBOURNE_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P04",
+            "factKey": "melbourne-F28",
+            "text": "Há cerca de 20 mil anos, com o mar mais baixo, a baía era uma bacia de planícies e áreas úmidas, e uma plataforma ligava o continente à Tasmânia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_DEECA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P05",
+            "factKey": "melbourne-F29",
+            "text": "Com o degelo do fim da última Era Glacial, o mar subiu e inundou essa bacia; a costa atual se formou há cerca de 5 a 6 mil anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_DEECA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P06",
+            "factKey": "melbourne-F30",
+            "text": "O delta do rio já foi bem mais largo: o atual lago do Albert Park fazia parte dele.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MELBOURNE_DEECA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P07",
+            "factKey": "melbourne-F31",
+            "text": "Para os povos tradicionais, o rio se chama Birrarung, e a baía se chamava Nerrm.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MELBOURNE_DEECA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P08",
+            "factKey": "melbourne-F32",
+            "text": "O centro era ponto de encontro dos cinco grupos linguísticos kulin, que ali faziam cerimônias, trocas, casamentos e resolviam disputas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_DEECA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P09",
+            "factKey": "melbourne-F33",
+            "text": "O \"tratado\" de 1835 entre John Batman e líderes tradicionais foi declarado inválido pelas autoridades britânicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_DEECA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P10",
+            "factKey": "melbourne-F34",
+            "text": "Os colonos do primeiro assentamento permanente, em 1835, vieram da Terra de Van Diemen, a atual Tasmânia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_BRIT",
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P11",
+            "factKey": "melbourne-F35",
+            "text": "A escalada administrativa foi rápida: assentamento da Coroa em 1837, vila em 1842, cidade em 1847 e capital de colônia em 1851.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P12",
+            "factKey": "melbourne-F36",
+            "text": "A área foi incorporada primeiro a Nova Gales do Sul; em 1851, a cidade virou capital da nova colônia de Victoria.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_BRIT",
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P13",
+            "factKey": "melbourne-F37",
+            "text": "A corrida do ouro iniciada em 1851 acelerou o crescimento urbano e atraiu imigrantes da China e da Europa.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MELBOURNE_BRIT",
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P14",
+            "factKey": "melbourne-F38",
+            "text": "Depois da federação de 1901, a cidade foi sede provisória do governo, e o Parlamento se reuniu no salão de exposições até 1927.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P15",
+            "factKey": "melbourne-F39",
+            "text": "É um centro industrial, comercial e financeiro, sede de bancos como ANZ e National Australia Bank.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_BRIT",
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P16",
+            "factKey": "melbourne-F40",
+            "text": "Saúde e educação pesam na economia: são cerca de 30 hospitais públicos e sete universidades públicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P17",
+            "factKey": "melbourne-F41",
+            "text": "Em 2024, a região metropolitana tinha cerca de 5,35 milhões de habitantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P18",
+            "factKey": "melbourne-F42",
+            "text": "No Censo de 2021, 58,8% dos moradores tinham nascido na Austrália; a Índia vinha em seguida, com 4,9%.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P19",
+            "factKey": "melbourne-F43",
+            "text": "O conjunto Patrimônio Mundial da cidade é um raro testemunho intacto do movimento das exposições internacionais do século XIX.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MELBOURNE_MV"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P20",
+            "factKey": "melbourne-F44",
+            "text": "O Grande Salão foi erguido para as exposições internacionais de 1880 e 1888, os maiores eventos da Austrália colonial.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MELBOURNE_HCV"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P21",
+            "factKey": "melbourne-F45",
+            "text": "Projetado por Joseph Reed, o salão de planta em cruz mistura elementos bizantinos, românicos, lombardos e do Renascimento italiano.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MELBOURNE_HCV"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P22",
+            "factKey": "melbourne-F46",
+            "text": "A área inscrita tem 26 ha, com zona de amortecimento de 55,26 ha, e mantém os limites definidos em 1879.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MELBOURNE_HCV"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P23",
+            "factKey": "melbourne-F47",
+            "text": "Foi o primeiro patrimônio construído da Austrália na Lista do Patrimônio Mundial, inscrito pelo critério (ii).",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MELBOURNE_MV"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P24",
+            "factKey": "melbourne-F48",
+            "text": "O prédio é administrado pelo museu estadual e os jardins pela prefeitura, sob um acordo firmado em 2004.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MELBOURNE_MV"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "melbourne-geografo-P25",
+            "factKey": "melbourne-F25",
+            "text": "O nome da cidade vem do título de nobreza de William Lamb, segundo visconde e primeiro-ministro britânico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MELBOURNE_EBSCO",
+              "MELBOURNE_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Capital do estado de Victoria, no sudeste da Austrália, nascida em 1835 junto à foz do rio Yarra, na Baía de Port Phillip, impulsionada pela corrida do ouro de 1851 e sede provisória do governo federal de 1901 a 1927; guarda o Edifício Real de Exposições e os Jardins Carlton, Patrimônio Mundial desde 2004.",
+      "editorialNotes": [
+        "Britannica chama a cidade de primeira capital da Commonwealth (1901–1927); a EBSCO fala em sede provisória do governo, termo usado nas pistas.",
+        "A página da UNESCO (lista 1131) não abriu; o Patrimônio Mundial foi conferido no site do Museums Victoria (inscrição em 1º/7/2004, critério ii) e na citação do Heritage Council Victoria.",
+        "A rede de bondes \"maior do mundo\" e os números de população e censo vêm da EBSCO (Research Starters)."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "MELBOURNE_BRIT": {
+      "id": "MELBOURNE_BRIT",
+      "title": "Melbourne (summary)",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/summary/Melbourne",
+      "checkedAt": "2026-11-15"
+    },
+    "MELBOURNE_EBSCO": {
+      "id": "MELBOURNE_EBSCO",
+      "title": "Melbourne — Research Starters",
+      "publisher": "EBSCO",
+      "url": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/melbourne",
+      "checkedAt": "2026-11-15"
+    },
+    "MELBOURNE_MV": {
+      "id": "MELBOURNE_MV",
+      "title": "World Heritage — Royal Exhibition Building",
+      "publisher": "Museums Victoria",
+      "url": "https://museumsvictoria.com.au/reb/world-heritage/",
+      "checkedAt": "2026-11-15"
+    },
+    "MELBOURNE_HCV": {
+      "id": "MELBOURNE_HCV",
+      "title": "Royal Exhibition Building and Carlton Gardens — World Heritage citation (Appendix 2)",
+      "publisher": "Heritage Council Victoria",
+      "url": "https://assets.heritagecouncil.vic.gov.au/assets/Appendix-2-World-Heritage-Citation-FORMATTED2022.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "MELBOURNE_COM": {
+      "id": "MELBOURNE_COM",
+      "title": "Aboriginal Melbourne",
+      "publisher": "City of Melbourne (What's On Melbourne)",
+      "url": "https://whatson.melbourne.vic.gov.au/things-to-do/aboriginal-melbourne",
+      "checkedAt": "2026-11-15"
+    },
+    "MELBOURNE_DEECA": {
+      "id": "MELBOURNE_DEECA",
+      "title": "Shrine to Sea — Celebrating local stories, part 5: Nerrm",
+      "publisher": "Governo do Estado de Victoria (environment.vic.gov.au)",
+      "url": "https://environment.vic.gov.au/shrine-to-sea/celebrating-local-stories/part-5-nerrm",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.britannica.com/summary/Melbourne",
+      "https://www.ebsco.com/research-starters/social-sciences-and-humanities/melbourne",
+      "https://museumsvictoria.com.au/reb/world-heritage/",
+      "https://assets.heritagecouncil.vic.gov.au/assets/Appendix-2-World-Heritage-Citation-FORMATTED2022.pdf",
+      "https://whatson.melbourne.vic.gov.au/things-to-do/aboriginal-melbourne",
+      "https://environment.vic.gov.au/shrine-to-sea/celebrating-local-stories/part-5-nerrm"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

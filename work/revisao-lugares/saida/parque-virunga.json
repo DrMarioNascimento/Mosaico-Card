@@ -1,0 +1,1074 @@
+{
+  "case": {
+    "id": "lug2-parque-virunga",
+    "placeId": "parque-virunga",
+    "title": "Parque Nacional de Virunga",
+    "aliases": [
+      "Virunga"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "CD"
+      ],
+      "continents": [
+        "africa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional de Virunga"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional Impenetrável de Bwindi"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional das Montanhas Rwenzori"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional de Kahuzi-Biega"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional dos Vulcões"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional dos Gorilas de Mgahinga"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional Queen Elizabeth"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional de Garamba"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional da Salonga"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional da Floresta de Nyungwe"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional de Kibale"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional de Akagera"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Parque Nacional do Serengeti"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional de Virunga",
+        "sources": [
+          "VIRUNGA_IUCN_WHO",
+          "VIRUNGA_EB"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Vulcão ativo dentro do parque",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Nyiragongo"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Ol Doinyo Lengai"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Monte Camarões"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Erta Ale"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Nyiragongo",
+        "sources": [
+          "VIRUNGA_IUCN_WHO",
+          "VIRUNGA_ORG"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Lago que ocupa boa parte da região central do parque",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Lago Edward"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Lago Tanganica"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Lago Vitória"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Lago Turkana"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Lago Edward",
+        "sources": [
+          "VIRUNGA_EB",
+          "VIRUNGA_IUCN_WHO"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "País",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "República Democrática do Congo"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Uganda"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Ruanda"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Burundi"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "República Democrática do Congo",
+        "sources": [
+          "VIRUNGA_IUCN_WHO",
+          "VIRUNGA_EB"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "parque-virunga-viajante-P01",
+            "factKey": "parque-virunga-F01",
+            "text": "Este destino é uma área protegida africana cujas paisagens vão de pântanos e savanas a montanhas com neve.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P02",
+            "factKey": "parque-virunga-F02",
+            "text": "O parque foi criado há cerca de cem anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_EB",
+              "VIRUNGA_ORG"
+            ],
+            "clueType": "historia",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P03",
+            "factKey": "parque-virunga-F03",
+            "text": "É uma faixa comprida e estreita: cerca de 300 km de comprimento e, em média, só 25 km de largura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P04",
+            "factKey": "parque-virunga-F04",
+            "text": "A área total chega perto de 8 mil km².",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO",
+              "VIRUNGA_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P05",
+            "factKey": "parque-virunga-F05",
+            "text": "Dentro do parque, a altitude vai de menos de 700 metros a mais de 5 mil metros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P06",
+            "factKey": "parque-virunga-F06",
+            "text": "Além de savanas e pântanos, há turfeiras e planícies de lava.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_EB"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P07",
+            "factKey": "parque-virunga-F07",
+            "text": "No sul, uma cadeia de vulcões domina a paisagem, e dois deles ainda estão ativos.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO",
+              "VIRUNGA_EB"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P08",
+            "factKey": "parque-virunga-F08",
+            "text": "Um dos vulcões tem na cratera um lago de lava quase permanente, que de tempos em tempos se esvazia.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P09",
+            "factKey": "parque-virunga-F09",
+            "text": "A administração do parque diz que esse é o maior lago de lava do mundo, com cerca de 210 metros de largura.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIRUNGA_ORG"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P10",
+            "factKey": "parque-virunga-F10",
+            "text": "Em 2002, um derrame de lava destruiu boa parte da cidade de Goma, vizinha ao parque.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P11",
+            "factKey": "parque-virunga-F11",
+            "text": "Esse vulcão voltou a entrar em erupção em maio de 2021.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P12",
+            "factKey": "parque-virunga-F12",
+            "text": "No norte, o parque sobe até picos com neve quase em cima da linha do equador.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO",
+              "VIRUNGA_EB"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P13",
+            "factKey": "parque-virunga-F13",
+            "text": "O ponto mais alto do parque, a 5.109 metros, é o terceiro pico mais alto da África e é dividido com um parque de Uganda.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P14",
+            "factKey": "parque-virunga-F14",
+            "text": "As geleiras dessas montanhas encolheram de cerca de 600 hectares em 1906 para 200 hectares em 2005.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P15",
+            "factKey": "parque-virunga-F15",
+            "text": "Um grande lago ocupa boa parte da região central do parque.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "VIRUNGA_EB"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P16",
+            "factKey": "parque-virunga-F16",
+            "text": "O parque fica na República Democrática do Congo e está desde 1994 na lista do Patrimônio Mundial em Perigo, por causa de conflitos armados.",
+            "relatedFields": [
+              "C4",
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO",
+              "VIRUNGA_SOC2024",
+              "VIRUNGA_EB"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P17",
+            "factKey": "parque-virunga-F17",
+            "text": "A descrição da UNESCO fala em uns 20 mil hipopótamos nos rios, mas um levantamento recente contou cerca de 1.400.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P18",
+            "factKey": "parque-virunga-F18",
+            "text": "Aves vindas da Sibéria passam o inverno no parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P19",
+            "factKey": "parque-virunga-F19",
+            "text": "São mais de 700 espécies de aves, cerca de dois terços das registradas no país.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P20",
+            "factKey": "parque-virunga-F20",
+            "text": "Todos os gorilas-das-montanhas do parque vivem num só setor, o de Mikeno, nome de um dos vulcões adormecidos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO",
+              "VIRUNGA_EB"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P21",
+            "factKey": "parque-virunga-F21",
+            "text": "Numa montanha isolada vive um pequeno grupo de gorilas-de-grauer, que passou de 7 para 11 em 2024 com a chegada de quatro fêmeas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P22",
+            "factKey": "parque-virunga-F22",
+            "text": "O ocapi, um animal raro, e chimpanzés vivem nas florestas úmidas do vale do rio Semliki.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P23",
+            "factKey": "parque-virunga-F23",
+            "text": "Elefantes e até um leão atravessam a fronteira entre este parque e o Parque Nacional Queen Elizabeth, em Uganda.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P24",
+            "factKey": "parque-virunga-F24",
+            "text": "Segundo a administração, é o único lugar do mundo onde vivem três tipos de grandes primatas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_ORG"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-viajante-P25",
+            "factKey": "parque-virunga-F25",
+            "text": "Foi o primeiro parque nacional criado na África, em 1925, com o nome de Parque Nacional Albert.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_ORG",
+              "VIRUNGA_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "parque-virunga-geografo-P01",
+            "factKey": "parque-virunga-F01",
+            "text": "O gradiente de altitude, de mais de 4 mil metros, explica a variedade de habitats, de pântanos e estepes a campos de neve.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P02",
+            "factKey": "parque-virunga-F02",
+            "text": "A unidade fica no centro do Rift Albertino, ramo do Grande Vale do Rift.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P03",
+            "factKey": "parque-virunga-F03",
+            "text": "A forma alongada — 300 km de extensão, largura média de 25 km e mínima de 2,5 km — gera mais de 1.150 km de limites a vigiar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P04",
+            "factKey": "parque-virunga-F04",
+            "text": "Dois vulcões ativos da unidade respondem por cerca de dois quintos das erupções históricas registradas na África.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P05",
+            "factKey": "parque-virunga-F05",
+            "text": "O maciço vulcânico do sul reúne oito vulcões, sete deles total ou parcialmente dentro da unidade; o mais alto chega a cerca de 4.500 m.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P06",
+            "factKey": "parque-virunga-F06",
+            "text": "A cratera de um desses vulcões guarda um lago de lava quase permanente, que se esvazia periodicamente.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P07",
+            "factKey": "parque-virunga-F07",
+            "text": "A atividade vulcânica ameaça o entorno: um derrame destruiu grande parte de Goma em 2002, e houve nova erupção em maio de 2021.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P08",
+            "factKey": "parque-virunga-F08",
+            "text": "No norte, a unidade divide com um parque ugandense o pico de 5.109 m, terceiro mais alto da África.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO",
+              "VIRUNGA_EB"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P09",
+            "factKey": "parque-virunga-F09",
+            "text": "As geleiras desse maciço do norte caíram de 600 ha em 1906 para 200 ha em 2005 e hoje estão quase extintas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P10",
+            "factKey": "parque-virunga-F10",
+            "text": "Os rios Rwindi, Rutshuru e Semliki formam o habitat dos hipopótamos da unidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P11",
+            "factKey": "parque-virunga-F11",
+            "text": "As planícies do setor central já tiveram a maior densidade de hipopótamos conhecida na África.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P12",
+            "factKey": "parque-virunga-F12",
+            "text": "O lago que ocupa boa parte do centro da unidade produzia 15 a 16 mil toneladas de peixe por ano em 1989; hoje seriam menos de 400.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO",
+              "VIRUNGA_EB"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P13",
+            "factKey": "parque-virunga-F13",
+            "text": "O direito de pesca das comunidades foi mantido na criação do parque, e o número de barcos no lago cresceu mais de 300%.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P14",
+            "factKey": "parque-virunga-F14",
+            "text": "Com 218 espécies de mamíferos, a unidade reúne mais da metade dos mamíferos do país.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P15",
+            "factKey": "parque-virunga-F15",
+            "text": "São 2.077 espécies de plantas superiores, num mosaico que vai de pântanos e estepes a planícies de lava.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P16",
+            "factKey": "parque-virunga-F16",
+            "text": "As florestas úmidas do vale do Semliki, onde vivem chimpanzés e ocapis, são ameaçadas pelo desmatamento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P17",
+            "factKey": "parque-virunga-F17",
+            "text": "Os gorilas-das-montanhas da unidade se concentram no setor Mikeno, e o ebola é um risco sério para eles.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P18",
+            "factKey": "parque-virunga-F18",
+            "text": "A unidade integra uma colaboração transfronteiriça com Uganda e Ruanda e troca elefantes com o Parque Nacional Queen Elizabeth.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P19",
+            "factKey": "parque-virunga-F19",
+            "text": "O comércio ilegal de carvão vegetal movimenta, conforme a estimativa, de 35 milhões a mais de 170 milhões de dólares por ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P20",
+            "factKey": "parque-virunga-F20",
+            "text": "Em 2007, cerca de 85% da área foi destinada a concessões de petróleo; o Comitê do Patrimônio Mundial pede o cancelamento definitivo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO",
+              "VIRUNGA_SOC2024"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P21",
+            "factKey": "parque-virunga-F21",
+            "text": "Grupos armados controlam setores da unidade, e 14 funcionários do parque foram mortos em 2023.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO",
+              "VIRUNGA_SOC2024"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P22",
+            "factKey": "parque-virunga-F22",
+            "text": "Inscrita em 1979 por critérios naturais, a unidade está desde 1994 na Lista do Patrimônio Mundial em Perigo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO",
+              "VIRUNGA_SOC2024",
+              "VIRUNGA_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P23",
+            "factKey": "parque-virunga-F23",
+            "text": "A gestão cabe ao instituto congolês de conservação da natureza (ICCN), em cogestão com uma fundação até 2040.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P24",
+            "factKey": "parque-virunga-F24",
+            "text": "É o único sítio do mundo com três grandes primatas: gorila-das-montanhas, gorila-de-grauer e chimpanzé-oriental.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_ORG",
+              "VIRUNGA_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-virunga-geografo-P25",
+            "factKey": "parque-virunga-F25",
+            "text": "Criado em 1925 como Parque Nacional Albert, foi o primeiro parque nacional da África.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIRUNGA_ORG",
+              "VIRUNGA_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque nacional da República Democrática do Congo, no Rift Albertino, que vai das planícies do lago Edward aos vulcões ativos Nyiragongo e Nyamuragira e aos picos nevados do Rwenzori; criado em 1925, foi o primeiro parque nacional da África.",
+      "editorialNotes": [
+        "Números divergentes: a descrição da UNESCO fala em cerca de 20 mil hipopótamos e a IUCN World Heritage Outlook (2025) cita levantamento recente de cerca de 1.400; área de 790 mil ha (IUCN), 7.900 km² (Britannica) ou 7.800 km² (site do parque) — as pistas usam “perto de 8 mil km²”.",
+        "“Primeiro parque nacional da África”, “maior lago de lava do mundo” e “três grandes primatas” vêm do site oficial do parque (virunga.org) e aparecem atribuídos à administração quando é o caso.",
+        "Para diferenciar de Bwindi e Rwenzori (já no banco), as pistas se apoiam em vulcões ativos, lago Edward, rios Rwindi/Rutshuru/Semliki, savanas, hipopótamos e a criação em 1925; a situação de segurança muda rápido e deve ser reconferida."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na IUCN World Heritage Outlook (2025), no relatório de conservação da UNESCO (2024), na Britannica e no site oficial do parque; C1–C4 e as 50 pistas refeitos para diferenciar de Bwindi e Rwenzori."
+    }
+  },
+  "sources": {
+    "VIRUNGA_IUCN_WHO": {
+      "id": "VIRUNGA_IUCN_WHO",
+      "checkedAt": "2026-11-15",
+      "title": "Virunga National Park — Conservation Outlook Assessment (2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/970"
+    },
+    "VIRUNGA_SOC2024": {
+      "id": "VIRUNGA_SOC2024",
+      "checkedAt": "2026-11-15",
+      "title": "State of conservation: Virunga National Park (2024)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/4574"
+    },
+    "VIRUNGA_EB": {
+      "id": "VIRUNGA_EB",
+      "checkedAt": "2026-11-15",
+      "title": "Virunga National Park",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Virunga-National-Park"
+    },
+    "VIRUNGA_ORG": {
+      "id": "VIRUNGA_ORG",
+      "checkedAt": "2026-11-15",
+      "title": "About Virunga National Park",
+      "publisher": "Virunga National Park (ICCN / Virunga Foundation)",
+      "url": "https://virunga.org/about"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://worldheritageoutlook.iucn.org/node/970",
+      "https://whc.unesco.org/en/soc/4574",
+      "https://www.britannica.com/place/Virunga-National-Park",
+      "https://virunga.org/about"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho (whc.unesco.org/en/list/63 e /en/news/2114) não abertas nesta sessão; substituídas por IUCN World Heritage Outlook (2025), SOC UNESCO 2024, Britannica e site oficial do parque.",
+      "C1: nomes alinhados aos títulos do banco (Parque Nacional Impenetrável de Bwindi, Parque Nacional dos Vulcões) e trocados Amboseli, Kruger, Kilimanjaro e Selous por parques do Rift Albertino e da RDC (Kahuzi-Biega, Mgahinga, Salonga, Nyungwe, Kibale, Akagera).",
+      "C2: rótulo passou a “Vulcão ativo dentro do parque” e distratores trocados por vulcões ativos de fora (Ol Doinyo Lengai, Monte Camarões, Erta Ale).",
+      "C3: rótulo precisado (lago do setor central, Britannica) e distratores trocados por grandes lagos da África Oriental; C4: Quênia trocado por Burundi.",
+      "Viajante: 25 pistas reescritas; país sai da 2ª pista para o meio; números com fonte (altitude 680–5.109 m, 706 aves, geleiras 1906/2005, gorilas-de-grauer 2024); P13 do rascunho (lago de lava) mantida e qualificada.",
+      "Geógrafo: 25 pistas reescritas com processos (Rift Albertino, vulcanismo, pesca no lago, petróleo, carvão, corredores transfronteiriços); “desde 1925” mantido e acrescido “primeiro parque nacional da África”."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

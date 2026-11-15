@@ -1,0 +1,1102 @@
+{
+  "case": {
+    "id": "lug3-wellington",
+    "placeId": "wellington",
+    "title": "Wellington",
+    "aliases": [],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "NZ"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade da Oceania",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Wellington"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Melbourne"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Sydney"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Brisbane"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Perth"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Adelaide"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Hobart"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Camberra"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Darwin"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Cairns"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Auckland"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Christchurch"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Dunedin"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Napier"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Nelson"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Rotorua"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Taupō"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Queenstown"
+          },
+          {
+            "id": "C1-O19",
+            "text": "Suva"
+          },
+          {
+            "id": "C1-O20",
+            "text": "Nouméa"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Wellington",
+        "sources": [
+          "WELLINGTON_TEARA",
+          "WELLINGTON_TEARA_CAP"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Estreito em cuja borda fica a cidade",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Estreito de Cook"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Estreito de Foveaux"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Estreito de Bass"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Estreito de Torres"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Estreito de Cook",
+        "sources": [
+          "WELLINGTON_TEARA"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Fenômeno que, em 1855, ergueu a orla e abriu terreno para o centro",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Terremoto"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Erupção vulcânica"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Deslizamento de encosta"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Cheia de rio"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Terremoto",
+        "sources": [
+          "WELLINGTON_NZH_1855",
+          "WELLINGTON_WCC_PRE"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Nome maori do porto",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Te Whanganui-a-Tara"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Waitematā"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Whakaraupō"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Ōtākou"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Te Whanganui-a-Tara",
+        "sources": [
+          "WELLINGTON_TEARA",
+          "WELLINGTON_WCC_PRE"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "wellington-viajante-P01",
+            "factKey": "wellington-F01",
+            "text": "Esta cidade compacta fica espremida entre o mar e morros cobertos de mata.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P02",
+            "factKey": "wellington-F02",
+            "text": "Aqui as ventanias sopram tanto do norte quanto do sul.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P03",
+            "factKey": "wellington-F03",
+            "text": "Fica na ponta sul da Ilha Norte, na beira do Estreito de Cook.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA",
+              "WELLINGTON_TEARA_CAP"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P04",
+            "factKey": "wellington-F04",
+            "text": "O porto é quase circular, com uns 10 km de diâmetro, cercado de morros e com uma entrada estreita para o mar.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P05",
+            "factKey": "wellington-F05",
+            "text": "Um recife na entrada do porto desafia os navegantes quando sopra forte o vento sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P06",
+            "factKey": "wellington-F06",
+            "text": "Boa parte do centro foi construída sobre aterros no porto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P07",
+            "factKey": "wellington-F07",
+            "text": "A cidade está sobre uma grande falha ativa, e os tremores de terra são frequentes.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P08",
+            "factKey": "wellington-F08",
+            "text": "Em 23 de janeiro de 1855, um terremoto de magnitude 8,2 sacudiu a região por cerca de 50 segundos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WELLINGTON_NZH_1855"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P09",
+            "factKey": "wellington-F09",
+            "text": "Dez minutos depois do tremor de 1855, uma onda de 4 m entrou no porto e inundou a rua da orla, Lambton Quay.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WELLINGTON_NZH_1855"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P10",
+            "factKey": "wellington-F10",
+            "text": "O tremor de 1855 secou um pântano onde depois nasceu o campo de críquete Basin Reserve.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WELLINGTON_NZH_1855",
+              "WELLINGTON_WCC_PRE"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P11",
+            "factKey": "wellington-F11",
+            "text": "Na tradição maori, o navegador Kupe foi o primeiro a visitar o porto.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P12",
+            "factKey": "wellington-F12",
+            "text": "A âncora de pedra de Kupe está exposta no museu nacional Te Papa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P13",
+            "factKey": "wellington-F13",
+            "text": "O museu nacional Te Papa abriu em 1998, à beira d'água.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA_CAP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P14",
+            "factKey": "wellington-F14",
+            "text": "Um bondinho de cabo sobe do centro para os morros desde 1902.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P15",
+            "factKey": "wellington-F15",
+            "text": "Na Oriental Bay, uma praia de areia e um amplo calçadão ficam de frente para o porto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P16",
+            "factKey": "wellington-F16",
+            "text": "O Jardim Botânico foi criado em 1869, entre os bairros de Thorndon e Kelburn.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P17",
+            "factKey": "wellington-F17",
+            "text": "No bairro de Karori, uma cerca à prova de predadores protege uma espécie de \"ilha\" de natureza em terra firme.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P18",
+            "factKey": "wellington-F18",
+            "text": "Muitos moradores trabalham no serviço público, e várias missões diplomáticas ficam na cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA_CAP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P19",
+            "factKey": "wellington-F19",
+            "text": "Aqui ficam o Parlamento e a ala executiva apelidada de \"Colmeia\" (Beehive).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA_CAP"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P20",
+            "factKey": "wellington-F20",
+            "text": "Os primeiros colonos britânicos desembarcaram em 1840 em Petone, no fundo do porto, antes de mudar o povoado de lugar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_WCC_PRE"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P21",
+            "factKey": "wellington-F21",
+            "text": "Em 1839, a Companhia da Nova Zelândia escolheu este porto para seu primeiro assentamento britânico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P22",
+            "factKey": "wellington-F22",
+            "text": "Os lotes urbanos dos primeiros colonos foram distribuídos por sorteio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_WCC_PRE"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P23",
+            "factKey": "wellington-F23",
+            "text": "Em 1865, a cidade passou a sediar o Parlamento, que antes ficava em Auckland.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA",
+              "WELLINGTON_WCC_1865",
+              "WELLINGTON_TEARA_CAP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P24",
+            "factKey": "wellington-F24",
+            "text": "Em 2011, um guia de viagem a chamou de \"a pequena capital mais legal do mundo\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA_CAP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-viajante-P25",
+            "factKey": "wellington-F25",
+            "text": "É a capital nacional mais ao sul do planeta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA_CAP"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "wellington-geografo-P01",
+            "factKey": "wellington-F26",
+            "text": "O porto e os morros definem a cidade: o mar e as encostas com mata limitam a expansão de um núcleo compacto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P02",
+            "factKey": "wellington-F27",
+            "text": "Em 2013, a cidade tinha 190.959 habitantes, e seus moradores tinham a maior renda per capita do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P03",
+            "factKey": "wellington-F28",
+            "text": "O soerguimento ao longo de uma falha ajudou a formar a bacia do porto e elevou o bloco oeste numa escarpa até o vale do Hutt.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P04",
+            "factKey": "wellington-F29",
+            "text": "O terremoto de 1855, de magnitude 8,2, teve centro a cerca de 25 km da cidade e foi sentido até Canterbury.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WELLINGTON_WCC_PRE"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P05",
+            "factKey": "wellington-F30",
+            "text": "Em 1855, o extremo sul da cordilheira Remutaka subiu cerca de 6 m.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WELLINGTON_NZH_1855"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P06",
+            "factKey": "wellington-F31",
+            "text": "Em alguns pontos, a costa subiu 1,5 m em 1855, e as plataformas rochosas erguidas em volta do porto viraram caminhos naturais para estrada e ferrovia.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WELLINGTON_WCC_PRE",
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P07",
+            "factKey": "wellington-F32",
+            "text": "A terra erguida em 1855, somada a aterros posteriores, formou grande parte do centro comercial.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WELLINGTON_NZH_1855"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P08",
+            "factKey": "wellington-F33",
+            "text": "Os aterros do porto começaram na década de 1850, e um grande aterro dos anos 1960 serviu ao transporte de contêineres.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P09",
+            "factKey": "wellington-F34",
+            "text": "Em 1855, as casas térreas de madeira em geral resistiram, enquanto a câmara do conselho, de dois andares, desabou.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "WELLINGTON_NZH_1855"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P10",
+            "factKey": "wellington-F35",
+            "text": "Pela tradição maori, o nome do porto homenageia Tara, filho do chefe Whātonga.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "WELLINGTON_WCC_PRE",
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P11",
+            "factKey": "wellington-F36",
+            "text": "O nome maori do porto significa \"o grande porto de Tara\".",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P12",
+            "factKey": "wellington-F37",
+            "text": "Nas décadas de 1820 e 1830, tribos vindas de Taranaki ocuparam a área e ergueram pā em Kumutoto e Pipitea.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA",
+              "WELLINGTON_WCC_PRE"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P13",
+            "factKey": "wellington-F38",
+            "text": "Em 1839, a bordo do navio Tory, dezesseis chefes maori e a Companhia da Nova Zelândia assinaram a compra de Port Nicholson.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_WCC_PRE"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P14",
+            "factKey": "wellington-F39",
+            "text": "O plano urbano foi traçado pelo agrimensor William Mein Smith, e o povoado saiu de Petone para o sudoeste do porto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_WCC_PRE"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P15",
+            "factKey": "wellington-F40",
+            "text": "Nos anos 1860, o ouro ajudou a Ilha Sul a superar a Norte em população, e a sede do governo, distante em Auckland, passou a ser contestada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA_CAP"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P16",
+            "factKey": "wellington-F41",
+            "text": "Após a proposta de 1863 de buscar um sítio no Estreito de Cook, comissários vindos de colônias australianas escolheram este porto em 1864, pela posição central e pelo porto.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA_CAP",
+              "WELLINGTON_WCC_1865",
+              "WELLINGTON_NZH_CAP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P17",
+            "factKey": "wellington-F42",
+            "text": "Antes de decidir, a comissão visitou também Whanganui, Picton, Port Underwood, Havelock e Nelson.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_NZH_CAP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P18",
+            "factKey": "wellington-F43",
+            "text": "O Parlamento se reuniu aqui pela primeira vez em 26 de julho de 1865, na antiga câmara do Conselho Provincial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_WCC_1865",
+              "WELLINGTON_NZH_CAP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P19",
+            "factKey": "wellington-F44",
+            "text": "Ganhou o status de cidade em 1881, quando a população não maori passou de 20 mil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_WCC_1865"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P20",
+            "factKey": "wellington-F45",
+            "text": "O reservatório de Karori, de 1879, trouxe água limpa a um centro onde muitos poços estavam contaminados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_WCC_1865"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P21",
+            "factKey": "wellington-F17",
+            "text": "As cabeceiras de Karori foram cercadas contra predadores, criando uma \"ilha continental\" para a fauna nativa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P22",
+            "factKey": "wellington-F46",
+            "text": "O Parlamento e a ala executiva receberam reforço estrutural, porque a cidade está sobre várias linhas de falha.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA_CAP"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P23",
+            "factKey": "wellington-F47",
+            "text": "Abriga a Corte de Apelação, a Suprema Corte e as residências oficiais do primeiro-ministro e do governador-geral.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA_CAP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P24",
+            "factKey": "wellington-F48",
+            "text": "A população do centro quase dobrou entre 2001 (6.726) e 2013 (12.987).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "wellington-geografo-P25",
+            "factKey": "wellington-F49",
+            "text": "Como o país não tem constituição escrita, o status desta capital não é protegido por lei suprema; o recinto parlamentar consta do plano distrital.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "WELLINGTON_TEARA_CAP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Capital da Nova Zelândia desde 1865, na ponta sul da Ilha Norte, à beira do Estreito de Cook: cidade compacta entre morros e o porto Te Whanganui-a-Tara, sobre falhas ativas, com centro ampliado pelo soerguimento do terremoto de 1855 e por aterros.",
+      "editorialNotes": [
+        "Te Ara chama o tremor de 1855 de terremoto de Wairarapa (magnitude 8,2); a NZHistory atribui a ruptura a uma falha na baía de Palliser. As pistas não nomeiam a falha.",
+        "Te Ara diz que o governador George Grey nomeou três comissários australianos; a NZHistory diz que foram escolhidos pelos governadores das colônias australianas. As pistas dizem só \"comissários vindos de colônias australianas\".",
+        "Na tradição, a prefeitura diz que Whātonga deu ao porto o nome do filho Tara; Te Ara diz que Tara e Tautoki, filhos de Whātonga, se fixaram ali e o nomearam. A pista só afirma que o nome homenageia Tara."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "WELLINGTON_TEARA": {
+      "id": "WELLINGTON_TEARA",
+      "title": "Wellington places",
+      "publisher": "Te Ara – The Encyclopedia of New Zealand (Manatū Taonga)",
+      "url": "https://www.TeAra.govt.nz/en/wellington-places/print",
+      "checkedAt": "2026-11-15"
+    },
+    "WELLINGTON_TEARA_CAP": {
+      "id": "WELLINGTON_TEARA_CAP",
+      "title": "Capital city",
+      "publisher": "Te Ara – The Encyclopedia of New Zealand (Manatū Taonga)",
+      "url": "https://teara.govt.nz/mi/capital-city/print",
+      "checkedAt": "2026-11-15"
+    },
+    "WELLINGTON_NZH_CAP": {
+      "id": "WELLINGTON_NZH_CAP",
+      "title": "Parliament sits for the first time in Wellington",
+      "publisher": "NZHistory (Manatū Taonga – Ministry for Culture and Heritage)",
+      "url": "https://nzhistory.govt.nz/parliament-sits-for-the-first-time-in-wellington",
+      "checkedAt": "2026-11-15"
+    },
+    "WELLINGTON_NZH_1855": {
+      "id": "WELLINGTON_NZH_1855",
+      "title": "Massive earthquake hits Wellington",
+      "publisher": "NZHistory (Manatū Taonga – Ministry for Culture and Heritage)",
+      "url": "https://nzhistory.govt.nz/massive-earthquake-hits-wellington",
+      "checkedAt": "2026-11-15"
+    },
+    "WELLINGTON_WCC_1865": {
+      "id": "WELLINGTON_WCC_1865",
+      "title": "History of Wellington: 1865–1890",
+      "publisher": "Wellington City Council",
+      "url": "https://wellington.govt.nz/about-wellington/history/history-of-wellington/1865-1890",
+      "checkedAt": "2026-11-15"
+    },
+    "WELLINGTON_WCC_PRE": {
+      "id": "WELLINGTON_WCC_PRE",
+      "title": "History of Wellington: pre-European settlement to 1865",
+      "publisher": "Wellington City Council",
+      "url": "https://wellington.govt.nz/about-wellington/history/history-of-wellington/pre-european-settlement-1865",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.TeAra.govt.nz/en/wellington-places/print",
+      "https://teara.govt.nz/mi/capital-city/print",
+      "https://nzhistory.govt.nz/parliament-sits-for-the-first-time-in-wellington",
+      "https://nzhistory.govt.nz/massive-earthquake-hits-wellington",
+      "https://wellington.govt.nz/about-wellington/history/history-of-wellington/1865-1890",
+      "https://wellington.govt.nz/about-wellington/history/history-of-wellington/pre-european-settlement-1865"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

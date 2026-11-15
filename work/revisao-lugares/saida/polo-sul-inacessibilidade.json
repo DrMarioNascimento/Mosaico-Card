@@ -1,0 +1,1065 @@
+{
+ "case": {
+  "id": "lug3-polo-sul-inacessibilidade",
+  "placeId": "polo-sul-inacessibilidade",
+  "title": "Polo Sul de Inacessibilidade",
+  "aliases": [
+   "Polo de Inacessibilidade da Antártida",
+   "Polo de Inacessibilidade"
+  ],
+  "answerType": "ponto geográfico",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Ponto geográfico",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Polo Sul de Inacessibilidade"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Polo Sul Geográfico"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Polo Sul Magnético"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Polo Sul Geomagnético"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Polo Sul Cerimonial"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Polo Norte Geográfico"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Polo Norte Magnético"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Polo Norte Geomagnético"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Polo de Inacessibilidade do Ártico"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Domo A"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Domo C"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Domo Fuji"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Polo Sul de Inacessibilidade",
+    "sources": [
+     "INACESS_POLARRECORD",
+     "INACESS_AU_PROC2007"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "País cuja expedição montou ali uma estação em 1958",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "União Soviética"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Estados Unidos"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Reino Unido"
+     },
+     {
+      "id": "C2-O4",
+      "text": "França"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "União Soviética",
+    "sources": [
+     "INACESS_RFERL",
+     "INACESS_UK_SI1995",
+     "INACESS_AU_PROC2007"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Monumento que marca o local",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Busto de Lênin"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Cruz em memória de Scott"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Estátua de Amundsen"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Obelisco do Ano Geofísico Internacional"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Busto de Lênin",
+    "sources": [
+     "INACESS_RFERL",
+     "INACESS_UK_SI1995",
+     "INACESS_AU_PROC2007"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Critério que define o ponto",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Ponto mais distante de qualquer costa"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Ponto onde convergem os meridianos"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Ponto para onde aponta a agulha da bússola"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Ponto mais alto do manto de gelo"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Ponto mais distante de qualquer costa",
+    "sources": [
+     "INACESS_POLARRECORD"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P01",
+      "factKey": "polo-sul-inacessibilidade-F01",
+      "text": "Este destino é um ponto perdido no meio do gelo antártico, longe de tudo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P02",
+      "factKey": "polo-sul-inacessibilidade-F02",
+      "text": "Não é uma montanha nem uma ilha: é um ponto calculado no mapa.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P03",
+      "factKey": "polo-sul-inacessibilidade-F03",
+      "text": "É o ponto do continente mais distante do mar.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P04",
+      "factKey": "polo-sul-inacessibilidade-F04",
+      "text": "Contando as plataformas de gelo como parte do continente, a costa mais próxima fica a uns 1.590 km.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P05",
+      "factKey": "polo-sul-inacessibilidade-F05",
+      "text": "Sem as plataformas de gelo, essa distância cai para uns 1.180 km.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P06",
+      "factKey": "polo-sul-inacessibilidade-F06",
+      "text": "A posição muda com o tempo, porque as plataformas de gelo avançam e perdem icebergs.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P07",
+      "factKey": "polo-sul-inacessibilidade-F07",
+      "text": "Quando um grande iceberg se soltou em 2019, o ponto provavelmente mudou de lugar.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P08",
+      "factKey": "polo-sul-inacessibilidade-F08",
+      "text": "Mapas e livros já deram posições bem diferentes para ele, algumas com erro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P09",
+      "factKey": "polo-sul-inacessibilidade-F09",
+      "text": "Há um ponto equivalente no Ártico, perto de 86° de latitude norte.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P10",
+      "factKey": "polo-sul-inacessibilidade-F25",
+      "text": "Fica a mais de 82° de latitude sul, perto do meridiano de 55° leste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INACESS_RFERL",
+       "INACESS_POLARRECORD",
+       "INACESS_AU_PROC2007"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P11",
+      "factKey": "polo-sul-inacessibilidade-F10",
+      "text": "Uma estação soviética foi montada ali perto em dezembro de 1958.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "INACESS_RFERL",
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P12",
+      "factKey": "polo-sul-inacessibilidade-F11",
+      "text": "A equipe, de 18 homens, chegou de trator, vinda de outra base soviética.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "INACESS_RFERL"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P13",
+      "factKey": "polo-sul-inacessibilidade-F12",
+      "text": "O chefe dessa equipe era Yevgeny Tolstikov.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "INACESS_RFERL"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P14",
+      "factKey": "polo-sul-inacessibilidade-F13",
+      "text": "Tudo aconteceu durante o Ano Geofísico Internacional.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P15",
+      "factKey": "polo-sul-inacessibilidade-F14",
+      "text": "A cabana era pequena, para quatro pessoas, e ficava montada sobre um trenó.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INACESS_RFERL"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P16",
+      "factKey": "polo-sul-inacessibilidade-F15",
+      "text": "Lá dentro havia aquecedor elétrico, gerador e uma sala de rádio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INACESS_RFERL"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P17",
+      "factKey": "polo-sul-inacessibilidade-F16",
+      "text": "Levaram comida e combustível para seis meses.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INACESS_RFERL"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P18",
+      "factKey": "polo-sul-inacessibilidade-F17",
+      "text": "Mesmo assim, a estação foi praticamente abandonada depois de umas duas semanas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P19",
+      "factKey": "polo-sul-inacessibilidade-F18",
+      "text": "Na inauguração, hastearam a bandeira, gritaram “hurra” e soltaram foguetes.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "INACESS_RFERL"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P20",
+      "factKey": "polo-sul-inacessibilidade-F19",
+      "text": "Um busto foi colocado em cima da chaminé da cabana.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "INACESS_RFERL",
+       "INACESS_UK_SI1995"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P21",
+      "factKey": "polo-sul-inacessibilidade-F20",
+      "text": "No começo, o busto olhava na direção de Moscou.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "INACESS_RFERL"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P22",
+      "factKey": "polo-sul-inacessibilidade-F21",
+      "text": "O busto é de Lênin.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "INACESS_RFERL",
+       "INACESS_UK_SI1995",
+       "INACESS_AU_PROC2007"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P23",
+      "factKey": "polo-sul-inacessibilidade-F22",
+      "text": "Uma placa lembra a chegada dos exploradores soviéticos em 1958.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "INACESS_UK_SI1995",
+       "INACESS_AU_PROC2007"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P24",
+      "factKey": "polo-sul-inacessibilidade-F23",
+      "text": "A cabana com o busto é um sítio histórico protegido pelo Tratado da Antártida.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "INACESS_UK_SI1995",
+       "INACESS_AU_PROC2007"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-viajante-P25",
+      "factKey": "polo-sul-inacessibilidade-F24",
+      "text": "Numa foto de 2008, o busto ainda aparecia sobre a chaminé.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "INACESS_RFERL"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P01",
+      "factKey": "polo-sul-inacessibilidade-F01",
+      "text": "O recorte é um ponto calculado da superfície do continente, definido pela forma do litoral, e não por uma feição do relevo.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P02",
+      "factKey": "polo-sul-inacessibilidade-F26",
+      "text": "É um “polo” que não depende do eixo de rotação nem do campo magnético da Terra.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P03",
+      "factKey": "polo-sul-inacessibilidade-F03",
+      "text": "É o ponto do continente cuja distância até a borda é a maior possível.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P04",
+      "factKey": "polo-sul-inacessibilidade-F27",
+      "text": "Há duas versões: uma usa o litoral externo, com as plataformas flutuantes; a outra, a linha de encalhe, sem o gelo flutuante.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P05",
+      "factKey": "polo-sul-inacessibilidade-F04",
+      "text": "Pelo litoral externo, o ponto fica em 83°54′ S, 64°53′ L, a ~1.590 km da costa.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P06",
+      "factKey": "polo-sul-inacessibilidade-F05",
+      "text": "Pelo litoral interno, fica em 83°37′ S, 53°43′ L, a ~1.179 km da linha de encalhe.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P07",
+      "factKey": "polo-sul-inacessibilidade-F06",
+      "text": "A versão externa migra ~1 km por ano, conforme mudam as plataformas Amery, Ronne-Filchner e Ross.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P08",
+      "factKey": "polo-sul-inacessibilidade-F28",
+      "text": "Os três pontos de costa que definem o cálculo ficam perto das plataformas Amery, Ronne-Filchner e Ross; o da Amery se desloca ~5 km por ano.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P09",
+      "factKey": "polo-sul-inacessibilidade-F07",
+      "text": "O desprendimento do iceberg D28 da plataforma Amery, em 2019, provavelmente deslocou a versão externa do ponto.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P10",
+      "factKey": "polo-sul-inacessibilidade-F29",
+      "text": "O deslocamento aparente de ~75 km da versão interna em uma década reflete sobretudo o mapeamento melhor da linha de encalhe, por velocidade do gelo e interferometria de radar.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P11",
+      "factKey": "polo-sul-inacessibilidade-F08",
+      "text": "Posições publicadas antes variavam muito, em boa parte por erros de cálculo ou de transcrição, e não por mudança geográfica real.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P12",
+      "factKey": "polo-sul-inacessibilidade-F09",
+      "text": "O análogo no Ártico foi recalculado em 85°48′ N, 176°09′ O, corrigindo um erro de mais de 200 km.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P13",
+      "factKey": "polo-sul-inacessibilidade-F30",
+      "text": "Dois algoritmos independentes chegaram ao mesmo ponto com diferença de poucos metros.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P14",
+      "factKey": "polo-sul-inacessibilidade-F10",
+      "text": "A estação soviética de 1958, em 82°06′ S, 54°58′ L, foi posta perto do ponto calculado na época e corresponde, grosso modo, à versão de litoral interno.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD",
+       "INACESS_RFERL"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P15",
+      "factKey": "polo-sul-inacessibilidade-F13",
+      "text": "A instalação fez parte do Ano Geofísico Internacional e foi quase abandonada após cerca de duas semanas.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P16",
+      "factKey": "polo-sul-inacessibilidade-F11",
+      "text": "Uma equipe de 18 homens em tratores, liderada por Yevgeny Tolstikov na 3ª Expedição Antártica Soviética, chegou em 14 de dezembro de 1958, vinda da estação Sovetskaya.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "INACESS_RFERL"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P17",
+      "factKey": "polo-sul-inacessibilidade-F14",
+      "text": "A cabana de ~24 m², sobre trenó, tinha forno elétrico, fogareiro a óleo de reserva, gerador de 13 kW e sala de rádio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INACESS_RFERL"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P18",
+      "factKey": "polo-sul-inacessibilidade-F16",
+      "text": "Foi abastecida com comida e combustível para seis meses, embora a ocupação tenha sido bem mais curta.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INACESS_RFERL",
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P19",
+      "factKey": "polo-sul-inacessibilidade-F19",
+      "text": "Um busto de plástico foi fixado no alto da chaminé, voltado originalmente para Moscou.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "INACESS_RFERL"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P20",
+      "factKey": "polo-sul-inacessibilidade-F21",
+      "text": "O busto retrata o líder revolucionário V. I. Lênin.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "INACESS_RFERL",
+       "INACESS_UK_SI1995",
+       "INACESS_AU_PROC2007"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P21",
+      "factKey": "polo-sul-inacessibilidade-F22",
+      "text": "Uma placa homenageia a “conquista” do lugar por exploradores antárticos soviéticos em 1958.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "INACESS_UK_SI1995",
+       "INACESS_AU_PROC2007"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P22",
+      "factKey": "polo-sul-inacessibilidade-F23",
+      "text": "O prédio com busto e placa é o Sítio e Monumento Histórico nº 4 do Tratado da Antártida, reproduzido nas leis britânica e australiana.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "INACESS_UK_SI1995",
+       "INACESS_AU_PROC2007"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P23",
+      "factKey": "polo-sul-inacessibilidade-F31",
+      "text": "As listas legais de patrimônio dão 83°06′ S para o sítio, um grau a mais que a posição da estação (82°06′ S) citada no estudo de 2021.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INACESS_UK_SI1995",
+       "INACESS_AU_PROC2007",
+       "INACESS_POLARRECORD"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P24",
+      "factKey": "polo-sul-inacessibilidade-F24",
+      "text": "Uma foto de 2008 ainda mostrava o busto sobre a chaminé da antiga estação.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "INACESS_RFERL"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "polo-sul-inacessibilidade-geografo-P25",
+      "factKey": "polo-sul-inacessibilidade-F18",
+      "text": "A inauguração teve a bandeira da URSS hasteada, gritos de “hurra” e disparo de foguetes.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "INACESS_RFERL"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Ponto da Antártida mais distante de qualquer costa — cerca de 1.590 km do litoral externo pelo cálculo de 2021 —, perto do qual a 3ª Expedição Antártica Soviética montou em dezembro de 1958 uma estação cuja cabana, com um busto de Lênin, é o Sítio e Monumento Histórico nº 4.",
+   "editorialNotes": [
+    "A posição depende da definição de litoral (externo, com plataformas de gelo, ou interno, pela linha de encalhe) e muda com o tempo; as pistas usam os valores de Rees et al. (Polar Record, 2021).",
+    "As listas legais de sítios históricos (Reino Unido, 1995; Austrália, 2007) dão 83°06′ S para o monumento; a estação soviética aparece em 82°06′ S na RFE/RL e no artigo de 2021.",
+    "O material do busto (plástico) vem da RFE/RL; o estado atual do sítio não foi verificado."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "criado e verificado nas fontes"
+  }
+ },
+ "sources": {
+  "INACESS_POLARRECORD": {
+   "id": "INACESS_POLARRECORD",
+   "title": "Finding Antarctica's Pole of Inaccessibility (Rees, Gerrish, Fox e Barnes, Polar Record, 2021)",
+   "publisher": "Cambridge University Press",
+   "url": "https://core-prod.cambridgecore.org/core/product/0B60DD5B8B675CA16812A2250B3E3547/core-reader",
+   "checkedAt": "2026-11-15"
+  },
+  "INACESS_RFERL": {
+   "id": "INACESS_RFERL",
+   "title": "PACKAGE: Pole of Inaccessibility -- Lenin Bust At Soviet Polar Station (24 out. 2019)",
+   "publisher": "Radio Free Europe/Radio Liberty",
+   "url": "https://thehub.rferl.org/a/soviet-russia-lenin-antarctica/30234532.html",
+   "checkedAt": "2026-11-15"
+  },
+  "INACESS_UK_SI1995": {
+   "id": "INACESS_UK_SI1995",
+   "title": "Antarctic Regulations 1995 (SI 1995/490), Schedule 2 — Antarctic Historic Sites and Monuments, paragraph 4",
+   "publisher": "legislation.gov.uk (The National Archives, Reino Unido)",
+   "url": "https://legislation.gov.uk/uksi/1995/490/schedule/2/paragraph/4/made/data.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "INACESS_AU_PROC2007": {
+   "id": "INACESS_AU_PROC2007",
+   "title": "Antarctic Treaty (Environment Protection — Historic Sites and Monuments) Proclamation 2007",
+   "publisher": "Federal Register of Legislation (Governo da Austrália)",
+   "url": "https://legislation.gov.au/F2007L02623/asmade/2007-08-29/text/original/pdf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://core-prod.cambridgecore.org/core/product/0B60DD5B8B675CA16812A2250B3E3547/core-reader",
+   "https://thehub.rferl.org/a/soviet-russia-lenin-antarctica/30234532.html",
+   "https://legislation.gov.uk/uksi/1995/490/schedule/2/paragraph/4/made/data.pdf",
+   "https://legislation.gov.au/F2007L02623/asmade/2007-08-29/text/original/pdf"
+  ],
+  "alteracoes": [
+   "criado do zero"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

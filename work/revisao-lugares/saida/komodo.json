@@ -1,0 +1,1076 @@
+{
+  "case": {
+    "id": "lug2-komodo",
+    "placeId": "komodo",
+    "title": "Parque Nacional de Komodo",
+    "aliases": [
+      "Komodo"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "ID"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional de Komodo"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional de Ujung Kulon"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional de Lorentz"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional de Gunung Leuser"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional de Tanjung Puting"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional de Bromo Tengger Semeru"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional de Baluran"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional de Bali Barat"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional de Bunaken"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional de Wakatobi"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional de Kerinci Seblat"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional de Kinabalu"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Parque Nacional de Khao Yai"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Parque Nacional do Rio Subterrâneo de Puerto Princesa"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional de Komodo",
+        "sources": [
+          "KOMODO_IUCN_WHO",
+          "KOMODO_WII",
+          "KOMODO_WIKI"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Animal cuja proteção motivou a criação do parque",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Lagarto gigante"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Rinoceronte-de-java"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Orangotango"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Tigre-de-sumatra"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Lagarto gigante",
+        "sources": [
+          "KOMODO_WIKI",
+          "KOMODO_IUCN_WHO"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Paisagem terrestre predominante",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Colinas secas cobertas de savana"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Floresta tropical úmida de planície"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Florestas de turfa e pântanos"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Picos com geleiras equatoriais"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Colinas secas cobertas de savana",
+        "sources": [
+          "KOMODO_IUCN_WHO",
+          "KOMODO_WII"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Região biogeográfica onde fica o parque",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Wallacea"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Plataforma de Sunda"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Plataforma de Sahul"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Indochina"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Wallacea",
+        "sources": [
+          "KOMODO_IUCN_WHO"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "komodo-viajante-P01",
+            "factKey": "komodo-F01",
+            "text": "Este destino protege ilhas tropicais e o mar ao redor delas, no Sudeste Asiático.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P02",
+            "factKey": "komodo-F02",
+            "text": "É uma das regiões mais secas do país: chove só de 800 a 1.000 mm por ano.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "KOMODO_WIKI"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P03",
+            "factKey": "komodo-F03",
+            "text": "O parque fica na Indonésia, nas Pequenas Ilhas da Sonda.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_WIKI",
+              "KOMODO_IUCN_WHO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P04",
+            "factKey": "komodo-F04",
+            "text": "São três ilhas maiores e 26 menores, todas de origem vulcânica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_WII",
+              "KOMODO_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P05",
+            "factKey": "komodo-F05",
+            "text": "As ilhas ficam no estreito de Sape, entre Sumbawa e Flores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_WII",
+              "KOMODO_WIKI"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P06",
+            "factKey": "komodo-F06",
+            "text": "Parte da área protegida está nas costas oeste e norte da ilha de Flores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P07",
+            "factKey": "komodo-F07",
+            "text": "Encostas secas contrastam com manchas verdes, praias brancas e águas cheias de corais.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "KOMODO_WII"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P08",
+            "factKey": "komodo-F08",
+            "text": "Na savana crescem capins e palmeiras lontar, um tipo de palmeira-de-leque.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "KOMODO_WIKI",
+              "KOMODO_WII"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P09",
+            "factKey": "komodo-F09",
+            "text": "O relevo é acidentado, com morros que chegam a 735 metros.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "KOMODO_WII"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P10",
+            "factKey": "komodo-F10",
+            "text": "Na estação seca, de maio a outubro, o calor pode chegar perto de 40 °C.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "KOMODO_WIKI"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P11",
+            "factKey": "komodo-F11",
+            "text": "A estrela do lugar é um réptil enorme: o maior e mais pesado lagarto do mundo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO",
+              "KOMODO_WII"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P12",
+            "factKey": "komodo-F12",
+            "text": "Os machos desse lagarto chegam a uns 3 metros de comprimento.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "KOMODO_WIKI"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P13",
+            "factKey": "komodo-F13",
+            "text": "O cervo-de-timor é a principal presa desse lagarto.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "KOMODO_WIKI"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P14",
+            "factKey": "komodo-F14",
+            "text": "O parque foi criado em 1980, principalmente para proteger esse lagarto.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "KOMODO_WIKI",
+              "KOMODO_WII"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P15",
+            "factKey": "komodo-F15",
+            "text": "Búfalos, javalis e macacos-cinomolgos também vivem nas ilhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO",
+              "KOMODO_WIKI"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P16",
+            "factKey": "komodo-F16",
+            "text": "Há mais de 70 espécies de aves, entre elas uma cacatua muito ameaçada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO",
+              "KOMODO_WIKI"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P17",
+            "factKey": "komodo-F17",
+            "text": "Debaixo d’água vivem mais de mil espécies de peixes de recife.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO",
+              "KOMODO_WII"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P18",
+            "factKey": "komodo-F18",
+            "text": "Raias-manta, dugongos e tartarugas marinhas nadam nessas águas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO",
+              "KOMODO_WII",
+              "KOMODO_WIKI"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P19",
+            "factKey": "komodo-F19",
+            "text": "Golfinhos de dez espécies e até baleias-azuis e cachalotes passam por ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P20",
+            "factKey": "komodo-F20",
+            "text": "As correntes marinhas no estreito são fortes e podem ser perigosas para guias inexperientes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_WIKI"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P21",
+            "factKey": "komodo-F21",
+            "text": "Nas aldeias dentro do parque, quase todo mundo vive do mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_WIKI"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P22",
+            "factKey": "komodo-F22",
+            "text": "O turismo do parque tem como base a cidade vizinha de Labuan Bajo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO",
+              "KOMODO_WIKI"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P23",
+            "factKey": "komodo-F23",
+            "text": "A UNESCO reconheceu o parque como Patrimônio Mundial em 1991.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO",
+              "KOMODO_WII"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P24",
+            "factKey": "komodo-F24",
+            "text": "Rinca e Padar estão entre as ilhas protegidas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_WII",
+              "KOMODO_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-viajante-P25",
+            "factKey": "komodo-F25",
+            "text": "Mergulhadores procuram pontos chamados Manta Alley, Batu Bolong e Castle Rock.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_WIKI"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "komodo-geografo-P01",
+            "factKey": "komodo-F01",
+            "text": "A unidade protege ecossistemas insulares terrestres e marinhos num arquipélago tropical do Sudeste Asiático.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P02",
+            "factKey": "komodo-F02",
+            "text": "As ilhas são vulcânicas e ficam numa zona de fratura no encontro de duas placas, o que explica o relevo acidentado.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO",
+              "KOMODO_WII"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P03",
+            "factKey": "komodo-F03",
+            "text": "Pertence a uma região biogeográfica de transição entre os ecossistemas da Plataforma de Sunda e os da Austrália.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO"
+            ],
+            "clueType": "biogeografia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P04",
+            "factKey": "komodo-F04",
+            "text": "Ocupa o estreito de Sape, entre Sumbawa e Flores, na província de Nusa Tenggara Oriental.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_WII",
+              "KOMODO_IUCN_WHO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P05",
+            "factKey": "komodo-F05",
+            "text": "Abrange três ilhas maiores, 26 menores e trechos costeiros do oeste e do norte de Flores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_WIKI",
+              "KOMODO_WII",
+              "KOMODO_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P06",
+            "factKey": "komodo-F06",
+            "text": "Com 800 a 1.000 mm de chuva por ano e seca de maio a outubro, é uma das áreas mais secas da Indonésia.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "KOMODO_WIKI"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P07",
+            "factKey": "komodo-F07",
+            "text": "A falta de água favorece savanas com palmeiras-de-leque; a floresta de nuvens só aparece acima de 500 m.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "KOMODO_WII",
+              "KOMODO_WIKI"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P08",
+            "factKey": "komodo-F08",
+            "text": "Florestas decíduas com tamarindeiros e manguezais em baías abrigadas completam a vegetação.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "KOMODO_WIKI",
+              "KOMODO_WII"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P09",
+            "factKey": "komodo-F09",
+            "text": "Onze montanhas compõem o relevo; a mais alta, o monte Satalibo, atinge 735 m.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "KOMODO_WII"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P10",
+            "factKey": "komodo-F10",
+            "text": "A conservação do maior lagarto vivo depende de suas presas: cervo-de-timor, búfalo-asiático e javali.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO",
+              "KOMODO_WIKI"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P11",
+            "factKey": "komodo-F11",
+            "text": "A caça ilegal de cervos ameaça indiretamente o lagarto gigante, ao reduzir sua principal presa.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "KOMODO_WII"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P12",
+            "factKey": "komodo-F12",
+            "text": "Desde 2021 a espécie consta como Em Perigo na Lista Vermelha, com menos de 1.400 adultos em oito subpopulações.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P13",
+            "factKey": "komodo-F13",
+            "text": "As contagens anuais do lagarto passaram de 2.897 indivíduos em 2018 para 3.396 em 2023.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P14",
+            "factKey": "komodo-F14",
+            "text": "Criado em 1980 para proteger o lagarto, o parque depois estendeu a proteção à vida marinha.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "KOMODO_WIKI",
+              "KOMODO_WII"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P15",
+            "factKey": "komodo-F15",
+            "text": "Entre os poucos mamíferos terrestres nativos há um rato endêmico, Rattus rintjanus.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P16",
+            "factKey": "komodo-F16",
+            "text": "Entre 72 espécies de aves, uma cacatua criticamente ameaçada teve 931 indivíduos contados em 2023.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO",
+              "KOMODO_WIKI"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P17",
+            "factKey": "komodo-F17",
+            "text": "Diferenças de nível entre os oceanos Pacífico e Índico geram correntes fortes no estreito.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_WIKI"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P18",
+            "factKey": "komodo-F18",
+            "text": "Os recifes somam 385 espécies de corais duros e mais de mil espécies de peixes recifais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P19",
+            "factKey": "komodo-F19",
+            "text": "Ao menos 14 espécies de cetáceos usam a área, de golfinhos a baleias-azuis e cachalotes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P20",
+            "factKey": "komodo-F20",
+            "text": "Recifes, pradarias marinhas, manguezais e montes submarinos compõem os habitats marinhos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_WII"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P21",
+            "factKey": "komodo-F21",
+            "text": "A pesca com explosivos e cianeto foi historicamente a maior ameaça aos recifes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO",
+              "KOMODO_WII"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P22",
+            "factKey": "komodo-F22",
+            "text": "A visitação chegou a 221.703 pessoas em 2019, e o turismo é avaliado como ameaça alta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P23",
+            "factKey": "komodo-F23",
+            "text": "Reserva da biosfera desde 1977, a área foi inscrita como Patrimônio Mundial em 1991.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO",
+              "KOMODO_WII"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P24",
+            "factKey": "komodo-F24",
+            "text": "Kerora e Papagaran estão entre as aldeias que já existiam na área antes da criação do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_WIKI"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "komodo-geografo-P25",
+            "factKey": "komodo-F25",
+            "text": "Rinca, Padar, Gili Motang e Nusa Kode estão entre as ilhas vulcânicas protegidas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KOMODO_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque nacional da Indonésia nas Pequenas Ilhas da Sonda, entre Sumbawa e Flores: ilhas vulcânicas secas, cobertas de savana, cercadas por recifes muito ricos, e principal refúgio do dragão-de-komodo, o maior lagarto do mundo.",
+      "editorialNotes": [
+        "População de dragões: a IUCN World Heritage Outlook (2025) cita cerca de 5.700 na descrição e contagens de monitoramento de 2.897 (2018) a 3.396 (2023); as pistas usam as contagens do monitoramento.",
+        "Área total: as fontes divergem (1.733 km² na Wikipedia; 219.322 ha na página do WII), e por isso o número foi omitido. Criação do parque em 1980 (WII e Wikipedia); a IUCN registra os limites atuais fixados em 1991.",
+        "Para não confundir com Borobudur (também na Indonésia), as pistas se apoiam no lagarto, na savana seca, no estreito de Sape e nas ilhas Rinca e Padar."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na IUCN World Heritage Outlook (2025), na página do WII/UNESCO C2C e na Wikipedia; C1–C4 e as 50 pistas refeitos, com alternativas plausíveis e sem números divergentes de área."
+    }
+  },
+  "sources": {
+    "KOMODO_IUCN_WHO": {
+      "id": "KOMODO_IUCN_WHO",
+      "title": "Komodo National Park — Conservation Outlook Assessment (2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1051",
+      "checkedAt": "2026-11-15"
+    },
+    "KOMODO_WII": {
+      "id": "KOMODO_WII",
+      "title": "Komodo National Park (609)",
+      "publisher": "Wildlife Institute of India — Centro de Categoria 2 da UNESCO para Patrimônio Natural (Ásia-Pacífico)",
+      "url": "https://c2c.wii.gov.in/komodo-national-park",
+      "checkedAt": "2026-11-15"
+    },
+    "KOMODO_WIKI": {
+      "id": "KOMODO_WIKI",
+      "title": "Komodo National Park",
+      "publisher": "Wikipedia (en)",
+      "url": "https://en.wikipedia.org/wiki/Komodo_National_Park",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://worldheritageoutlook.iucn.org/node/1051",
+      "https://whc.unesco.org/document/162881",
+      "https://c2c.wii.gov.in/komodo-national-park",
+      "https://en.wikipedia.org/wiki/Komodo_National_Park"
+    ],
+    "alteracoes": [
+      "Fonte KOMODO609 (whc.unesco.org/en/list/609, não aberta por regra do protocolo) substituída por IUCN World Heritage Outlook 2025 (KOMODO_IUCN_WHO), página do WII/UNESCO C2C (KOMODO_WII) e Wikipedia (KOMODO_WIKI); o relatório de conservação UNESCO (document/162881) foi aberto, mas não usado por afirmar que o parque é o único habitat do lagarto, o que as outras fontes não sustentam.",
+      "C1: saíram Galápagos, Kakadu e Ranomafana (fora do recorte); entraram Baluran, Bali Barat, Bunaken, Wakatobi, Kerinci Seblat e Puerto Princesa; saiu Kaeng Krachan.",
+      "C2: rótulo ‘Animal terrestre marcante’ → ‘Animal cuja proteção motivou a criação do parque’ (Wikipedia/WII); alternativas implausíveis (gorila, pinguim, urso-polar) trocadas por rinoceronte-de-java, orangotango e tigre-de-sumatra, que remetem a outros parques do C1.",
+      "C3: ‘País’ (trivial, com o C1 quase todo indonésio) trocado por ‘Paisagem terrestre predominante’ (savana seca; IUCN/WII).",
+      "C4: ‘Ambientes protegidos’ com distratores absurdos trocado por ‘Região biogeográfica’ (Wallacea; IUCN), com Sunda, Sahul e Indochina como alternativas.",
+      "Viajante: 25 pistas reescritas ou trocadas — números conferidos (800–1.000 mm, 26 ilhas menores, 735 m, ~40 °C, ~3 m, 1980, 70+ aves, 1.000+ peixes, 10 golfinhos, 1991); entraram clima, palmeira lontar, correntes, aldeias de pescadores, Labuan Bajo e pontos de mergulho (decisiva); saíram afirmações genéricas (‘aves também vivem’).",
+      "Geógrafo: 25 pistas reescritas para processos e relações (zona de fratura entre placas, Wallacea, aridez × savana e floresta de nuvens, correntes entre Pacífico e Índico, presas × lagarto, Lista Vermelha 2021, contagens 2018–2023, 385 corais, 14 cetáceos, pesca destrutiva, turismo 2019, reserva da biosfera 1977); ‘Padar é uma das ilhas maiores’ retirada (sem apoio).",
+      "Sinais: P01–P02 abertura e P24–P25 decisiva nos dois perfis; relatedFields distribuídos entre C1–C4."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

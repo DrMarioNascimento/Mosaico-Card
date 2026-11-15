@@ -1,0 +1,1050 @@
+{
+ "case": {
+  "id": "lug2-independence-hall",
+  "placeId": "independence-hall",
+  "title": "Independence Hall",
+  "aliases": [
+   "Independence Hall",
+   "Salão da Independência"
+  ],
+  "answerType": "edifício histórico",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "US"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Edifício histórico",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Independence Hall"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Congress Hall"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Old City Hall"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Federal Hall"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Pennsylvania State Capitol"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Capitólio dos Estados Unidos"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Massachusetts State House"
+     },
+     {
+      "id": "C1-O8",
+      "text": "New York City Hall"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Virginia State Capitol"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Maryland State House"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Faneuil Hall"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Old State House (Boston)"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Independence Hall",
+    "sources": [
+     "INDE_PR3",
+     "INDE_PR2"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Cidade",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Filadélfia"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Boston"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Nova York"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Washington, D.C."
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Filadélfia",
+    "sources": [
+     "INDE_PR3"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Documento adotado no edifício em 1776",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Declaração de Independência dos Estados Unidos"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Declaração de Direitos dos Estados Unidos"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Tratado de Paris"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Proclamação de Emancipação"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Declaração de Independência dos Estados Unidos",
+    "sources": [
+     "INDE_PR3",
+     "INDE_PR2"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Instituição para a qual o prédio foi construído",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Assembleia da colônia da Pensilvânia"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Congresso Continental"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Suprema Corte dos Estados Unidos"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Câmara municipal da Filadélfia"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Assembleia da colônia da Pensilvânia",
+    "sources": [
+     "INDE_PR3"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "independence-hall-viajante-P01",
+      "factKey": "independence-hall-F01",
+      "text": "Este destino é um prédio histórico de tijolos em plena cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P02",
+      "factKey": "independence-hall-F02",
+      "text": "Uma torre de madeira se ergue sobre o telhado do prédio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P03",
+      "factKey": "independence-hall-F03",
+      "text": "Fica na América do Norte, nos Estados Unidos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P04",
+      "factKey": "independence-hall-F04",
+      "text": "O prédio fica em Filadélfia, no estado da Pensilvânia.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P05",
+      "factKey": "independence-hall-F05",
+      "text": "Uma rua com trânsito de carros passa logo ao norte do prédio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P06",
+      "factKey": "independence-hall-F06",
+      "text": "O edifício ocupa um quarteirão da cidade que virou praça histórica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P07",
+      "factKey": "independence-hall-F07",
+      "text": "A construção começou em 1732 e terminou em 1753.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P08",
+      "factKey": "independence-hall-F08",
+      "text": "O prédio foi erguido para abrigar a assembleia da colônia da Pensilvânia.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P09",
+      "factKey": "independence-hall-F09",
+      "text": "Um advogado desenhou o edifício junto com um mestre de obras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P10",
+      "factKey": "independence-hall-F10",
+      "text": "A torre de madeira que se vê hoje foi erguida em 1828.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P11",
+      "factKey": "independence-hall-F11",
+      "text": "O famoso Sino da Liberdade já ficou na torre do edifício.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P12",
+      "factKey": "independence-hall-F12",
+      "text": "A Declaração de Independência dos Estados Unidos foi adotada aqui em 1776.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "INDE_PR3",
+       "INDE_PR2"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P13",
+      "factKey": "independence-hall-F13",
+      "text": "Em 1787, a Constituição dos Estados Unidos foi redigida no mesmo prédio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3",
+       "INDE_PR2"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P14",
+      "factKey": "independence-hall-F14",
+      "text": "Na Sala da Assembleia, os visitantes ouvem a explicação do que aconteceu ali.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P15",
+      "factKey": "independence-hall-F15",
+      "text": "Cópias dos documentos que fundaram o país ficam expostas na ala oeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR2"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P16",
+      "factKey": "independence-hall-F16",
+      "text": "A entrada é gratuita, com ingresso marcado por horário.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3",
+       "INDE_PR2"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P17",
+      "factKey": "independence-hall-F17",
+      "text": "O número de pessoas por visita e o de visitas por dia são limitados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P18",
+      "factKey": "independence-hall-F18",
+      "text": "Na mesma praça ficam um antigo tribunal e a antiga prefeitura, construídos depois.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P19",
+      "factKey": "independence-hall-F19",
+      "text": "O prédio é da prefeitura, mas quem cuida dele é o serviço federal de parques.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3",
+       "INDE_PR2"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P20",
+      "factKey": "independence-hall-F20",
+      "text": "O serviço de parques assumiu a guarda do prédio no primeiro dia de 1951.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR2"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P21",
+      "factKey": "independence-hall-F21",
+      "text": "Um arquiteto restaurou o edifício na década de 1830.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P22",
+      "factKey": "independence-hall-F22",
+      "text": "Desde os anos 1950, uma restauração devolveu ao prédio o aspecto da época da independência.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P23",
+      "factKey": "independence-hall-F23",
+      "text": "Uma reforma de 4 milhões de dólares na torre terminou em 2011.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR2"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P24",
+      "factKey": "independence-hall-F24",
+      "text": "A UNESCO incluiu o prédio no Patrimônio Mundial em 1979.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3",
+       "INDE_PR2"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-viajante-P25",
+      "factKey": "independence-hall-F25",
+      "text": "A chuva ácida desgasta o mármore da parte de fora do prédio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR2"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "independence-hall-geografo-P01",
+      "factKey": "independence-hall-F01",
+      "text": "O bem foi inscrito só pelo critério vi, ligado a acontecimentos e ideias de alcance universal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3",
+       "INDE_PR2"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P02",
+      "factKey": "independence-hall-F02",
+      "text": "O valor do bem se concentra num prédio de tijolos com torre de madeira, em plena malha urbana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P03",
+      "factKey": "independence-hall-F03",
+      "text": "Em Filadélfia, o prédio foi projetado para sediar a assembleia da colônia da Pensilvânia.",
+      "relatedFields": [
+       "C2",
+       "C4"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P04",
+      "factKey": "independence-hall-F04",
+      "text": "As obras duraram de 1732 a 1753, com projeto do advogado Andrew Hamilton e do construtor Edmund Woolley.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P05",
+      "factKey": "independence-hall-F05",
+      "text": "Sem zona de amortecimento formal, o bem é protegido pelo parque histórico nacional que o envolve.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3",
+       "INDE_PR2"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P06",
+      "factKey": "independence-hall-F06",
+      "text": "O parque histórico nacional que envolve o prédio foi criado por lei federal de junho de 1948.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P07",
+      "factKey": "independence-hall-F07",
+      "text": "A propriedade é municipal e a gestão é federal, com base num acordo de cooperação de 1950.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3",
+       "INDE_PR2"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P08",
+      "factKey": "independence-hall-F08",
+      "text": "A coordenação entre a prefeitura e o governo federal na gestão do bem é avaliada como excelente.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR2"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P09",
+      "factKey": "independence-hall-F09",
+      "text": "A torre de madeira de 1828, obra do arquiteto William Strickland, substituiu uma estrutura anterior.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3",
+       "INDE_PR2"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P10",
+      "factKey": "independence-hall-F10",
+      "text": "Concluída em 2011, a reabilitação da torre foi a primeira grande intervenção nela desde 1828.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR2"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P11",
+      "factKey": "independence-hall-F11",
+      "text": "John Haviland conduziu uma restauração nos anos 1830, antes das intervenções federais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P12",
+      "factKey": "independence-hall-F12",
+      "text": "A partir dos anos 1950, a restauração federal buscou o aspecto do prédio na época da independência e da Constituição.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P13",
+      "factKey": "independence-hall-F13",
+      "text": "Suportes de aço inseridos em meados do século XX estabilizam a estrutura.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P14",
+      "factKey": "independence-hall-F14",
+      "text": "A Declaração de Independência foi adotada no prédio em 1776, e a Constituição foi redigida ali em 1787.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "INDE_PR3",
+       "INDE_PR2"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P15",
+      "factKey": "independence-hall-F15",
+      "text": "Para a UNESCO, os princípios da Declaração e da Constituição influenciaram legisladores no mundo todo.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "INDE_PR3",
+       "INDE_PR2"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P16",
+      "factKey": "independence-hall-F16",
+      "text": "A torre já abrigou o Sino da Liberdade, que o turismo da cidade promove como atração central ao lado do prédio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3",
+       "INDE_PR2"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P17",
+      "factKey": "independence-hall-F17",
+      "text": "Na mesma praça, as alas laterais, o tribunal de 1787–89 e a antiga prefeitura de 1790–91 ficam fora do valor do bem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P18",
+      "factKey": "independence-hall-F18",
+      "text": "A Sala da Assembleia funciona como espaço de interpretação dos acontecimentos ocorridos ali.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P19",
+      "factKey": "independence-hall-F19",
+      "text": "Ingressos gratuitos com horário marcado e limites de pessoas por visita regulam o fluxo no interior.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3",
+       "INDE_PR2"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P20",
+      "factKey": "independence-hall-F20",
+      "text": "A média anual de visitantes caiu de cerca de 687 mil (2008–2012) para cerca de 346 mil (2018–2022).",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR2",
+       "INDE_PR3"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P21",
+      "factKey": "independence-hall-F21",
+      "text": "Poluição do ar e chuva ácida degradam o mármore externo; leis federais reduziram, mas não detiveram, o dano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR2",
+       "INDE_PR3"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P22",
+      "factKey": "independence-hall-F22",
+      "text": "A conversão de imóveis vizinhos em moradias, restaurantes e bares aumentou a aglomeração e o movimento noturno.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR2"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P23",
+      "factKey": "independence-hall-F23",
+      "text": "O trânsito de veículos na rua logo ao norte do prédio se mantém estável, segundo o relatório periódico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P24",
+      "factKey": "independence-hall-F24",
+      "text": "O prédio e o terreno somam cerca de 2 ha, área considerada suficiente para expressar o valor do bem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "independence-hall-geografo-P25",
+      "factKey": "independence-hall-F25",
+      "text": "A inscrição na Lista do Patrimônio Mundial ocorreu em 1979.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "INDE_PR3",
+       "INDE_PR2"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Prédio de tijolos com torre de madeira em Filadélfia, construído entre 1732 e 1753 para a assembleia colonial da Pensilvânia, onde a Declaração de Independência foi adotada (1776) e a Constituição dos Estados Unidos foi redigida (1787).",
+   "editorialNotes": [
+    "O relatório periódico da UNESCO cita a lei que criou o parque histórico ora como Public Law 795, ora como 798 (ambas de 28/6/1948); as pistas falam só em “lei federal de junho de 1948”.",
+    "Área do parque histórico que envolve o bem: 18 ha no 3º ciclo do relatório periódico e 20,84 ha no 2º ciclo (após a incorporação da Washington Square); as pistas não usam número.",
+    "C1 inclui Congress Hall e Old City Hall, que ficam na mesma praça: as pistas sobre Filadélfia e a praça valem para eles, mas as de 1732–1753, 1776 e 1787 só para o gabarito."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e gabaritos conferidos nos relatórios periódicos da UNESCO (2º e 3º ciclos, com a declaração de valor universal); C3 e C4 refeitos com alternativas plausíveis."
+  }
+ },
+ "sources": {
+  "INDE_PR3": {
+   "id": "INDE_PR3",
+   "title": "Independence Hall — Periodic Report, Third Cycle (Section II), with Statement of Outstanding Universal Value",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/216059",
+   "checkedAt": "2026-11-15"
+  },
+  "INDE_PR2": {
+   "id": "INDE_PR2",
+   "title": "Independence Hall — Periodic Report, Second Cycle (Section II)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/164474",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://whc.unesco.org/document/216059",
+   "https://whc.unesco.org/document/164474"
+  ],
+  "alteracoes": [
+   "Fonte INDEPENDENCE78 (whc.unesco.org/en/list/78) substituída: a página de lista não abre nesta sessão; a declaração de valor universal e os dados de gestão foram conferidos nos relatórios periódicos da UNESCO do 3º ciclo (INDE_PR3) e do 2º ciclo (INDE_PR2).",
+   "C1: “United States Capitol” e “Old State House de Boston” renomeados (Capitólio dos Estados Unidos; Old State House (Boston)).",
+   "C3: alternativas implausíveis (Tratado de Versalhes, Carta da ONU) trocadas por documentos da história americana (Declaração de Direitos, Tratado de Paris, Proclamação de Emancipação); a Constituição saiu das opções, porque também foi redigida no prédio (1787).",
+   "C4: ‘Material principal’ contra opções implausíveis (gelo, bambu, basalto) trocado por ‘Instituição para a qual o prédio foi construído’ (assembleia da colônia da Pensilvânia), conforme a UNESCO.",
+   "Viajante: P01–P25 reescritas ou trocadas; saíram ‘imóvel em praça histórica’ genérico e ‘controle de visitantes’ vago; entraram rua ao norte, ala oeste com cópias dos documentos, ingresso gratuito com horário, tribunal e antiga prefeitura na mesma praça, guarda federal desde 1/1/1951, reforma da torre (2011) e chuva ácida no mármore.",
+   "Geógrafo: P01–P25 reescritas para relações e processos (critério vi, propriedade municipal e gestão federal, acordo de 1950, parque de 1948 como proteção equivalente, torre de Strickland, suportes de aço, queda da visitação 2008–12 → 2018–22, conversão de imóveis vizinhos, 2 ha).",
+   "Sinais: P01–P02 abertura nos dois perfis; decisivas = Sino da Liberdade e Declaração de 1776 (Viajante P11–P12; Geógrafo P14 e P16); relatedFields ampliados para C2, C3 e C4."
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

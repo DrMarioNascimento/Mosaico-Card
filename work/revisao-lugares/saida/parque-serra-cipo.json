@@ -1,0 +1,1082 @@
+{
+  "case": {
+    "id": "lug2-parque-serra-cipo",
+    "placeId": "parque-serra-cipo",
+    "title": "Parque Nacional da Serra do Cipó",
+    "aliases": [
+      "Serra do Cipó"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sudeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional da Serra do Cipó"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional da Serra da Canastra"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional do Caparaó"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional da Serra da Bocaina"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional do Itatiaia"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional da Serra da Capivara"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional das Emas"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional da Chapada dos Veadeiros"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional da Chapada dos Guimarães"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional da Chapada Diamantina"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional da Serra da Bodoquena"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional do Iguaçu"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional da Serra do Cipó",
+        "sources": [
+          "CIPO_DECRETO",
+          "CIPO_FOGO_HIST"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Estado",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Minas Gerais"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Goiás"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Mato Grosso do Sul"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Bahia"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Minas Gerais",
+        "sources": [
+          "CIPO_DECRETO",
+          "CIPO_FOGO_HIST"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Ano de criação como parque nacional",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "1984"
+          },
+          {
+            "id": "C3-O2",
+            "text": "1972"
+          },
+          {
+            "id": "C3-O3",
+            "text": "1990"
+          },
+          {
+            "id": "C3-O4",
+            "text": "2001"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "1984",
+        "sources": [
+          "CIPO_DECRETO",
+          "CIPO_FOGO_HIST"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Área de proteção ambiental federal que envolve o parque",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "APA Morro da Pedreira"
+          },
+          {
+            "id": "C4-O2",
+            "text": "APA da Serra da Mantiqueira"
+          },
+          {
+            "id": "C4-O3",
+            "text": "APA do Planalto Central"
+          },
+          {
+            "id": "C4-O4",
+            "text": "APA Serra da Ibiapaba"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "APA Morro da Pedreira",
+        "sources": [
+          "CIPO_FOGO_HIST",
+          "CIPO_GEODIV"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "parque-serra-cipo-viajante-P01",
+            "factKey": "parque-serra-cipo-F01",
+            "text": "É um parque nacional de serras, com cachoeiras, cânions e campos que crescem sobre as pedras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_EM_2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P02",
+            "factKey": "parque-serra-cipo-F02",
+            "text": "A sede do parque fica a cerca de 100 km, por estrada, do centro de uma capital estadual.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_FOGO_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P03",
+            "factKey": "parque-serra-cipo-F03",
+            "text": "Quem sai da capital chega pela rodovia MG-010.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CIPO_EM_2026",
+              "CIPO_EM_2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P04",
+            "factKey": "parque-serra-cipo-F04",
+            "text": "O verão é chuvoso e o inverno é seco; de junho a agosto é a época indicada para banhos e mirantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_EM_2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P05",
+            "factKey": "parque-serra-cipo-F05",
+            "text": "Muitas cachoeiras caem em piscinas naturais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_EM_2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P06",
+            "factKey": "parque-serra-cipo-F06",
+            "text": "As altitudes vão de cerca de 750 m até quase 1.670 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_FOGO_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P07",
+            "factKey": "parque-serra-cipo-F07",
+            "text": "Uma das cachoeiras mais procuradas é uma sequência de sete quedas, alcançada por uma trilha de cerca de 8 km.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_EM_2026",
+              "CIPO_GEODIV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P08",
+            "factKey": "parque-serra-cipo-F08",
+            "text": "Um cânion com cerca de 6 km de paredões é um dos cenários mais impressionantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_EM_2026",
+              "CIPO_GEODIV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P09",
+            "factKey": "parque-serra-cipo-F09",
+            "text": "Uma cachoeira larga, com uns 10 m de altura e 60 m de largura, fica a 1 km de trilha leve.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_EM_2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P10",
+            "factKey": "parque-serra-cipo-F10",
+            "text": "São mais de 60 cachoeiras protegidas, além de cânions, sítios arqueológicos e trilhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_EM_2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P11",
+            "factKey": "parque-serra-cipo-F11",
+            "text": "Abrigos sob as rochas foram usados por antigos caçadores-coletores, e alguns guardam pinturas rupestres.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_GEODIV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P12",
+            "factKey": "parque-serra-cipo-F12",
+            "text": "A região tem quase 200 cavernas conhecidas, e 15 delas ficam dentro do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_GEODIV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P13",
+            "factKey": "parque-serra-cipo-F13",
+            "text": "As rochas da serra têm idade estimada em cerca de 1,7 bilhão de anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_EM_2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P14",
+            "factKey": "parque-serra-cipo-F14",
+            "text": "Sempre-vivas, orquídeas, cactos e até plantas carnívoras fazem parte da flora.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_EM_2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P15",
+            "factKey": "parque-serra-cipo-F15",
+            "text": "Perto da entrada principal, um mirante abre a vista para a serra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_GEODIV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P16",
+            "factKey": "parque-serra-cipo-F16",
+            "text": "Na mesa da região aparecem frango caipira com angu, tutu de feijão com torresmo e doces de pequi e jabuticaba.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CIPO_EM_2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P17",
+            "factKey": "parque-serra-cipo-F17",
+            "text": "Perto de uma das portarias, um morro com cruzeiro já foi palco de encontros religiosos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_GEODIV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P18",
+            "factKey": "parque-serra-cipo-F18",
+            "text": "Mais de 1.700 espécies de plantas já foram registradas, muitas delas exclusivas da região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUDESTE_CIPO_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P19",
+            "factKey": "parque-serra-cipo-F19",
+            "text": "Um decreto federal de setembro de 1984 transformou a área em parque nacional.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CIPO_DECRETO",
+              "CIPO_FOGO_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P20",
+            "factKey": "parque-serra-cipo-F20",
+            "text": "Em volta de todo o parque existe uma área de proteção ambiental federal, criada em 1990.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CIPO_FOGO_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P21",
+            "factKey": "parque-serra-cipo-F21",
+            "text": "A serra faz parte de uma Reserva da Biosfera reconhecida pela UNESCO em 2005.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_FOGO_HIST",
+              "CIPO_GEODIV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P22",
+            "factKey": "parque-serra-cipo-F22",
+            "text": "O parque é administrado pelo ICMBio, e as travessias pelas serras exigem autorização prévia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_EM_2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P23",
+            "factKey": "parque-serra-cipo-F23",
+            "text": "Entre os atrativos estão o Vale do Travessão, a Cachoeira do Espelho e o Santuário das Vellozias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_EM_2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P24",
+            "factKey": "parque-serra-cipo-F24",
+            "text": "O paisagista Roberto Burle Marx chamou a região de \"Jardim do Brasil\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_EM_2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-viajante-P25",
+            "factKey": "parque-serra-cipo-F25",
+            "text": "Cerca de dois terços da área ficam em Jaboticatubas; o resto se divide entre Morro do Pilar, Santana do Riacho e Itambé do Mato Dentro.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SUDESTE_CIPO_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "parque-serra-cipo-geografo-P01",
+            "factKey": "parque-serra-cipo-F01",
+            "text": "Unidade de conservação federal em serras de quartzito, cujas partes altas formam um enclave de campos rupestres.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_GEODIV",
+              "CIPO_FOGO_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P02",
+            "factKey": "parque-serra-cipo-F02",
+            "text": "Está oficialmente no bioma Cerrado, mas faz transição para a Mata Atlântica na vertente leste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_FOGO_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P03",
+            "factKey": "parque-serra-cipo-F03",
+            "text": "Corresponde à porção meridional de uma cadeia de cerca de 1.000 km que se estende para o norte até a Bahia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_FOGO_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P04",
+            "factKey": "parque-serra-cipo-F04",
+            "text": "A serra age como divisor atmosférico: barra a umidade e diferencia a vegetação de cada vertente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_GEODIV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P05",
+            "factKey": "parque-serra-cipo-F05",
+            "text": "A vertente oeste é uma escarpa íngreme, enquanto a leste desce em encostas mais suaves.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_GEODIV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P06",
+            "factKey": "parque-serra-cipo-F06",
+            "text": "A crista é o divisor de águas entre as bacias do São Francisco e do Doce.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_FOGO_HIST",
+              "SUDESTE_CIPO_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P07",
+            "factKey": "parque-serra-cipo-F07",
+            "text": "O rio que dá nome à serra começa na junção dos ribeirões Mascates e Bocaina.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_GEODIV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P08",
+            "factKey": "parque-serra-cipo-F08",
+            "text": "O vale do Ribeirão Mascates guarda as menores altitudes do parque, em torno de 800 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_GEODIV",
+              "CIPO_FOGO_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P09",
+            "factKey": "parque-serra-cipo-F09",
+            "text": "O clima é tropical de altitude (Cwb), com 1.300 a 1.600 mm de chuva por ano e duas estações bem definidas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_FOGO_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P10",
+            "factKey": "parque-serra-cipo-F10",
+            "text": "Quartzitos sustentam as partes altas, e carbonatos do Grupo Bambuí ocupam as cotas mais baixas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_GEODIV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P11",
+            "factKey": "parque-serra-cipo-F11",
+            "text": "Na parte baixa, perto da portaria do Retiro, os calcários formam relevo cárstico, com grutas que têm sumidouro e ressurgência.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_GEODIV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P12",
+            "factKey": "parque-serra-cipo-F12",
+            "text": "A mata seca sobre calcário é decídua: as árvores perdem as folhas na estação seca.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_GEODIV",
+              "SUDESTE_CIPO_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P13",
+            "factKey": "parque-serra-cipo-F13",
+            "text": "Um dique de rocha sustenta o degrau de uma cachoeira com cerca de 60 m de largura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_GEODIV",
+              "CIPO_EM_2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P14",
+            "factKey": "parque-serra-cipo-F14",
+            "text": "A canela-de-ema-gigante (Vellozia gigantea) é endêmica: só ocorre no parque e nos arredores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_GEODIV",
+              "SUDESTE_CIPO_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P15",
+            "factKey": "parque-serra-cipo-F15",
+            "text": "Os campos rupestres concentram alta riqueza de espécies e endemismo de plantas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_FOGO_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P16",
+            "factKey": "parque-serra-cipo-F16",
+            "text": "Desde ao menos o século XVIII, o fogo é usado no entorno para renovar pastagens e abrir áreas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_FOGO_HIST",
+              "SUDESTE_CIPO_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P17",
+            "factKey": "parque-serra-cipo-F17",
+            "text": "Os incêndios tardios concentram-se de agosto a outubro, e o plano de manejo do fogo quer limitar os de origem humana a 25% da área do parque por ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUDESTE_CIPO_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P18",
+            "factKey": "parque-serra-cipo-F18",
+            "text": "A proteção começou na esfera estadual, como parque estadual em 1978, e passou à federal seis anos depois.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CIPO_FOGO_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P19",
+            "factKey": "parque-serra-cipo-F19",
+            "text": "O Decreto 90.223, de 25 de setembro de 1984, fixou os limites e entregou a gestão ao antigo IBDF.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CIPO_DECRETO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P20",
+            "factKey": "parque-serra-cipo-F20",
+            "text": "Os limites seguem rios e divisores de bacias menores; em 1987, as terras foram declaradas de utilidade pública para desapropriação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_DECRETO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P21",
+            "factKey": "parque-serra-cipo-F21",
+            "text": "Em 1990 criou-se uma APA federal que envolve todo o parque, pensada como sua zona de amortecimento.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CIPO_FOGO_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P22",
+            "factKey": "parque-serra-cipo-F22",
+            "text": "A APA Morro da Pedreira, bem maior que o parque, tem entre seus objetivos protegê-lo.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CIPO_GEODIV",
+              "SUDESTE_CIPO_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P23",
+            "factKey": "parque-serra-cipo-F23",
+            "text": "É uma das 11 áreas-núcleo de uma Reserva da Biosfera reconhecida pela UNESCO em 2005.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CIPO_FOGO_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P24",
+            "factKey": "parque-serra-cipo-F24",
+            "text": "A área se reparte de forma desigual: cerca de 65,6% em Jaboticatubas, 18,8% em Morro do Pilar, 8,3% em Santana do Riacho e 7,3% em Itambé do Mato Dentro.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SUDESTE_CIPO_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-cipo-geografo-P25",
+            "factKey": "parque-serra-cipo-F25",
+            "text": "A cerca de 100 km da capital mineira, o entorno sofre pressão de turismo desordenado e especulação imobiliária.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CIPO_FOGO_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque nacional criado em 1984 (antes parque estadual, de 1978) na porção sul da Serra do Espinhaço, em Minas Gerais, a cerca de 100 km de Belo Horizonte; protege campos rupestres de alto endemismo, cachoeiras, cânions e cavernas no divisor entre as bacias do São Francisco e do Doce, e é envolvido pela APA Morro da Pedreira, criada em 1990.",
+      "editorialNotes": [
+        "A área varia entre fontes: o decreto de 1984 fala em cerca de 33.800 ha; o ICMBio (2011, 2025 e PMIF 2023–2026) usa cerca de 31.617 ha. As pistas evitam o número.",
+        "A área da APA Morro da Pedreira também diverge (131.770,84 ha no livro do ICMBio de 2025; 97.168 ha no PMIF 2023–2026); por isso a pista só diz que ela é bem maior que o parque.",
+        "A Cachoeira Véu da Noiva fica em propriedade particular (ACM), fora do parque, e não foi usada; as pistas evitam o nome do rio principal e da orquídea Grobya cipoensis, que entregariam o lugar."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "página do ICMBio do rascunho não aberta (fonte trocada pelos decretos de 1984/1987, livro de geodiversidade do ICMBio de 2025, artigo da BioBR de 2011, PMIF 2023–2026 e duas reportagens do Estado de Minas); C4 com APAs federais do interior; 50 pistas conferidas e diversificadas"
+    }
+  },
+  "sources": {
+    "CIPO_DECRETO": {
+      "id": "CIPO_DECRETO",
+      "title": "Decreto nº 90.223, de 25 de setembro de 1984 (cria o Parque Nacional da Serra do Cipó) e Decreto nº 94.984, de 30 de setembro de 1987",
+      "publisher": "Presidência da República (cópia na base FAOLEX, FAO)",
+      "url": "https://faolex.fao.org/docs/pdf/bra24805.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "CIPO_GEODIV": {
+      "id": "CIPO_GEODIV",
+      "title": "Montanhas de Geodiversidade: explorando o Parque Nacional da Serra do Cipó - MG",
+      "publisher": "ICMBio / Centro Nacional de Pesquisa e Conservação de Cavernas (CECAV), 2025",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/cavernas/publicacoes/20250127_tcce-ferropuro_cipo_montanhas-de-geodiversidade_web_compressed-1.pdf/@@download/file",
+      "checkedAt": "2026-11-15"
+    },
+    "CIPO_FOGO_HIST": {
+      "id": "CIPO_FOGO_HIST",
+      "title": "Uma abordagem histórica do fogo no Parque Nacional da Serra do Cipó, Minas Gerais – Brasil (Ribeiro e Figueira)",
+      "publisher": "Biodiversidade Brasileira, ICMBio, Ano I, nº 2, 2011",
+      "url": "https://revistaeletronica.icmbio.gov.br/BioBR/article/download/96/104/495",
+      "checkedAt": "2026-11-15"
+    },
+    "SUDESTE_CIPO_FOGO": {
+      "id": "SUDESTE_CIPO_FOGO",
+      "title": "Plano de Manejo Integrado do Fogo: Parque Nacional da Serra do Cipó e APA Morro da Pedreira (2023–2026)",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/planos-de-manejo-integrado-do-fogo/PMIF_Cipo_Pedreira_2023a2026.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "CIPO_EM_2025": {
+      "id": "CIPO_EM_2025",
+      "title": "Parque Nacional da Serra do Cipó reabre atrativos após ações de segurança",
+      "publisher": "Estado de Minas (16/07/2025)",
+      "url": "https://em.com.br/gerais/2025/07/7202705-parque-nacional-da-serra-do-cipo-reabre-atrativos-apos-acoes-de-seguranca.html",
+      "checkedAt": "2026-11-15"
+    },
+    "CIPO_EM_2026": {
+      "id": "CIPO_EM_2026",
+      "title": "Eleita Jardim do Brasil por Burle Marx: o vilarejo a 100 km de BH que guarda as piscinas naturais mais lindas de Minas Gerais",
+      "publisher": "Estado de Minas — Em Foco (26/04/2026)",
+      "url": "https://www.em.com.br/emfoco/2026/04/26/eleita-jardim-do-brasil-por-burle-marx-o-vilarejo-a-100-km-de-bh-que-guarda-as-piscinas-naturais-mais-lindas-de-minas-gerais/",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://faolex.fao.org/docs/pdf/bra24805.pdf",
+      "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/cavernas/publicacoes/20250127_tcce-ferropuro_cipo_montanhas-de-geodiversidade_web_compressed-1.pdf/@@download/file",
+      "https://revistaeletronica.icmbio.gov.br/BioBR/article/download/96/104/495",
+      "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/planos-de-manejo-integrado-do-fogo/PMIF_Cipo_Pedreira_2023a2026.pdf",
+      "https://em.com.br/gerais/2025/07/7202705-parque-nacional-da-serra-do-cipo-reabre-atrativos-apos-acoes-de-seguranca.html",
+      "https://www.em.com.br/emfoco/2026/04/26/eleita-jardim-do-brasil-por-burle-marx-o-vilarejo-a-100-km-de-bh-que-guarda-as-piscinas-naturais-mais-lindas-de-minas-gerais/"
+    ],
+    "alteracoes": [
+      "Fonte SUDESTE_CIPO_ICMBIO (página da unidade) não aberta; substituída por CIPO_DECRETO (Decretos 90.223/1984 e 94.984/1987), CIPO_GEODIV (ICMBio/CECAV, 2025), CIPO_FOGO_HIST (Biodiversidade Brasileira, 2011), CIPO_EM_2025 e CIPO_EM_2026 (Estado de Minas); SUDESTE_CIPO_FOGO (PMIF 2023–2026) aberta e mantida",
+      "C3: rótulo precisado para \"Ano de criação como parque nacional\" (o parque estadual é de 1978); gabarito 1984 conferido no decreto",
+      "C4: rótulo passou a \"Área de proteção ambiental federal que envolve o parque\"; distratores litorâneos (APA Cairuçu, Guapimirim, Cananéia-Iguape-Peruíbe), que só por isso se distinguiam do gabarito, trocados por APAs federais do interior (Serra da Mantiqueira, Planalto Central, Serra da Ibiapaba)",
+      "retiradas por falta de apoio nas fontes abertas: lista de espécies ameaçadas da página do ICMBio (lobo-guará, onça-parda, gavião-pomba, piabinha, Nirodia belphegor), brejos e lagoas marginais, \"maior parcela no plano do fogo\" sem número (substituída pelos percentuais do PMIF)",
+      "pistas repetitivas (quatro municípios em cartas separadas, \"tem plano de manejo\", \"a APA é outra unidade\") substituídas por fatos verificados: relevo e geologia (quartzito/Bambuí, carste, escarpa oeste, divisor atmosférico), Rio formado por Mascates e Bocaina, cavernas, Cachoeira da Farofa, Cânion das Bandeirinhas, Cachoeira Grande e seu dique, mata seca, Vellozia gigantea, arte rupestre, clima Cwb, histórico do fogo, Reserva da Biosfera, parque estadual de 1978, gestão e atrativos atuais",
+      "sinal ajustado para 2 aberturas e 2 decisivas por perfil; relatedFields distribuídos entre C1–C4",
+      "viajante: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)",
+      "geografo: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

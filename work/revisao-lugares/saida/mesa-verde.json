@@ -1,0 +1,1042 @@
+{
+ "case": {
+  "id": "lug2-mesa-verde",
+  "placeId": "mesa-verde",
+  "title": "Parque Nacional Mesa Verde",
+  "aliases": [
+   "Mesa Verde",
+   "Mesa Verde National Park"
+  ],
+  "answerType": "parque arqueológico",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "US"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Área arqueológica",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Parque Nacional Mesa Verde"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Parque Histórico Nacional da Cultura Chaco"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Monumento Nacional Bandelier"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Monumento Nacional Canyon de Chelly"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Monumento Nacional Montezuma Castle"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Monumento Nacional Hovenweep"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Monumento Nacional Navajo"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Monumento Nacional Gila Cliff Dwellings"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Monumento Nacional Aztec Ruins"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Monumento Nacional Canyons of the Ancients"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Taos Pueblo"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Zona Arqueológica de Paquimé"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Parque Nacional Mesa Verde",
+    "sources": [
+     "MEVE_PR3",
+     "MEVE_NPS"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Estado",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Colorado"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Novo México"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Arizona"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Utah"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Colorado",
+    "sources": [
+     "MEVE_PR3"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Povo que construiu as moradias nos paredões",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Povos Pueblo ancestrais"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Hohokam"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Mogollon"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Sinagua"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Povos Pueblo ancestrais",
+    "sources": [
+     "MEVE_PR3",
+     "MEVE_NPS"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Período de construção das moradias nos paredões, segundo a UNESCO",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Entre 1100 e 1300 d.C."
+     },
+     {
+      "id": "C4-O2",
+      "text": "Entre 450 e 750 d.C."
+     },
+     {
+      "id": "C4-O3",
+      "text": "Entre 1450 e 1600 d.C."
+     },
+     {
+      "id": "C4-O4",
+      "text": "Entre 200 a.C. e 200 d.C."
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Entre 1100 e 1300 d.C.",
+    "sources": [
+     "MEVE_PR3"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "mesa-verde-viajante-P01",
+      "factKey": "mesa-verde-F01",
+      "text": "Este destino protege ruínas de antigas aldeias indígenas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3",
+       "MEVE_NPS"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P02",
+      "factKey": "mesa-verde-F02",
+      "text": "A paisagem é um planalto alto, cortado por cânions.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3",
+       "MEVE_NPS"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P03",
+      "factKey": "mesa-verde-F03",
+      "text": "Fica na América do Norte, nos Estados Unidos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3",
+       "MEVE_NPS"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P04",
+      "factKey": "mesa-verde-F04",
+      "text": "O parque fica no sudoeste do estado do Colorado.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P05",
+      "factKey": "mesa-verde-F05",
+      "text": "O alto do planalto passa dos 2.600 metros de altitude.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P06",
+      "factKey": "mesa-verde-F06",
+      "text": "Bosques antigos de pinheiros e zimbros cobrem partes do planalto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P07",
+      "factKey": "mesa-verde-F07",
+      "text": "O clima da região está ficando mais quente e mais seco.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P08",
+      "factKey": "mesa-verde-F08",
+      "text": "Casas de pedra foram construídas em reentrâncias abrigadas nos paredões dos cânions.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_NPS",
+       "MEVE_PR3"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P09",
+      "factKey": "mesa-verde-F09",
+      "text": "Pelo menos 600 moradias nos paredões já foram registradas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_NPS",
+       "MEVE_PR3"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P10",
+      "factKey": "mesa-verde-F10",
+      "text": "As paredes são de arenito unido com argamassa de barro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P11",
+      "factKey": "mesa-verde-F11",
+      "text": "O ambiente seco das reentrâncias ajudou a conservar as construções.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P12",
+      "factKey": "mesa-verde-F12",
+      "text": "As maiores moradias são aldeias com 50 a 200 cômodos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P13",
+      "factKey": "mesa-verde-F13",
+      "text": "Cliff Palace, Balcony House e Square Tower House estão entre as casas de pedra do parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P14",
+      "factKey": "mesa-verde-F14",
+      "text": "Nos topos, nos paredões e nos cânions há quase 5 mil sítios arqueológicos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_NPS"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P15",
+      "factKey": "mesa-verde-F15",
+      "text": "Também há restos de casas semienterradas e de aldeias com muros de pedra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P16",
+      "factKey": "mesa-verde-F16",
+      "text": "Terraços de cultivo e pequenas barragens mostram como se plantava ali.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "agricultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P17",
+      "factKey": "mesa-verde-F17",
+      "text": "Reservatórios e valas guardavam e conduziam a água.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P18",
+      "factKey": "mesa-verde-F18",
+      "text": "Há arte rupestre e pequenos santuários espalhados pelo parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P19",
+      "factKey": "mesa-verde-F19",
+      "text": "Os moradores começaram a partir no fim dos anos 1200 e migraram para o sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_NPS"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P20",
+      "factKey": "mesa-verde-F20",
+      "text": "Hopis, zunis e outros povos pueblo atuais descendem dos antigos moradores.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MEVE_NPS"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P21",
+      "factKey": "mesa-verde-F21",
+      "text": "Vaqueiros da região redescobriram as casas nos paredões há mais de um século.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_NPS"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P22",
+      "factKey": "mesa-verde-F22",
+      "text": "O Congresso americano criou o parque nacional em 1906.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3",
+       "MEVE_NPS"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P23",
+      "factKey": "mesa-verde-F23",
+      "text": "O nome do parque, em espanhol, compara o planalto a uma mesa coberta de verde.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_NPS"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P24",
+      "factKey": "mesa-verde-F24",
+      "text": "A visita às casas nos paredões é quase sempre controlada ou guiada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-viajante-P25",
+      "factKey": "mesa-verde-F25",
+      "text": "Depois de incêndios florestais, a erosão ameaça os sítios antigos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "mesa-verde-geografo-P01",
+      "factKey": "mesa-verde-F01",
+      "text": "O bem protege uma paisagem de povoamento pré-histórico muito bem preservada, ocupada de cerca de 450 a 1300.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P02",
+      "factKey": "mesa-verde-F02",
+      "text": "Os sítios se distribuem entre o topo do planalto, os paredões e os cânions.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_NPS"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P03",
+      "factKey": "mesa-verde-F03",
+      "text": "O planalto fica no sudoeste do Colorado, a mais de 2.600 m de altitude.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P04",
+      "factKey": "mesa-verde-F04",
+      "text": "A arquitetura preservada registra mais de 700 anos de história humana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_NPS"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P05",
+      "factKey": "mesa-verde-F05",
+      "text": "O NPS situa a ocupação entre cerca de 600 e 1300 d.C.; a UNESCO começa por volta de 450.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_NPS",
+       "MEVE_PR3"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P06",
+      "factKey": "mesa-verde-F06",
+      "text": "Segundo a UNESCO, as moradias nos paredões foram erguidas pelos Pueblo ancestrais entre 1100 e 1300 d.C.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P07",
+      "factKey": "mesa-verde-F07",
+      "text": "Para o NPS, as moradias nos paredões representam só os últimos 75 a 100 anos de ocupação.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "MEVE_NPS"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P08",
+      "factKey": "mesa-verde-F08",
+      "text": "Cerca de 600 moradias de arenito e argamassa de barro foram registradas nos paredões.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P09",
+      "factKey": "mesa-verde-F09",
+      "text": "Além das moradias nos paredões, outros 4.300 sítios arqueológicos foram descobertos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P10",
+      "factKey": "mesa-verde-F10",
+      "text": "A boa conservação reflete a engenharia dos construtores e o ambiente seco das reentrâncias rochosas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P11",
+      "factKey": "mesa-verde-F11",
+      "text": "Os conjuntos variam de pequenos depósitos a aldeias de 50 a 200 cômodos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P12",
+      "factKey": "mesa-verde-F12",
+      "text": "A UNESCO destaca Cliff Palace, Balcony House e Square Tower House entre as moradias sob os paredões.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P13",
+      "factKey": "mesa-verde-F13",
+      "text": "Aldeias de casas semienterradas e povoados com muros de alvenaria completam o registro da ocupação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P14",
+      "factKey": "mesa-verde-F14",
+      "text": "Terraços agrícolas e pequenas barragens de contenção mostram o manejo do solo para o cultivo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "agricultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P15",
+      "factKey": "mesa-verde-F15",
+      "text": "Reservatórios e valas revelam o controle da água pelos antigos moradores.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P16",
+      "factKey": "mesa-verde-F16",
+      "text": "Santuários e arte rupestre acrescentam evidências religiosas e simbólicas à paisagem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P17",
+      "factKey": "mesa-verde-F17",
+      "text": "A saída da população, no fim dos anos 1200, foi uma migração para o sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_NPS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P18",
+      "factKey": "mesa-verde-F18",
+      "text": "Hopi, Zuni, Acoma e outros pueblos do Rio Grande são descendentes dos construtores.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MEVE_NPS"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P19",
+      "factKey": "mesa-verde-F19",
+      "text": "A equipe do parque consulta 26 tribos e pueblos cultural ou tradicionalmente associados.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P20",
+      "factKey": "mesa-verde-F20",
+      "text": "Para a UNESCO, o sítio é um elo vivo entre o passado dos povos Pueblo e seu modo de vida atual.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P21",
+      "factKey": "mesa-verde-F21",
+      "text": "Criado pelo Congresso em 1906, foi a primeira área arqueológica do mundo reconhecida e protegida dessa forma.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3",
+       "MEVE_NPS"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P22",
+      "factKey": "mesa-verde-F22",
+      "text": "Inscrito em 1978 pelo critério iii, o bem abrange 21.043 ha e não tem zona de amortecimento.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3",
+       "MEVE_NPS"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P23",
+      "factKey": "mesa-verde-F23",
+      "text": "Tempestades mais intensas e a erosão após incêndios florestais ameaçam os vestígios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P24",
+      "factKey": "mesa-verde-F24",
+      "text": "Plantas exóticas invasoras e um clima mais quente e seco pressionam o ecossistema do planalto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "mesa-verde-geografo-P25",
+      "factKey": "mesa-verde-F25",
+      "text": "Muitos visitantes danificam sítios frágeis, e o corredor de uma rodovia vizinha pode atrair novas construções.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MEVE_PR3"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Parque nacional no planalto do sudoeste do Colorado, criado em 1906, que protege cerca de 600 moradias de arenito construídas nos paredões pelos povos Pueblo ancestrais entre 1100 e 1300 e milhares de outros sítios arqueológicos.",
+   "editorialNotes": [
+    "Início da ocupação: a UNESCO fala em cerca de 450 d.C.; o NPS, em cerca de 600 d.C. As pistas citam as duas datas com a fonte.",
+    "Moradias nos paredões: a UNESCO data a construção de 1100–1300 d.C.; o NPS diz que representam os últimos 75 a 100 anos de ocupação. O C4 segue a UNESCO e as alternativas não se sobrepõem.",
+    "Número de sítios: o NPS dá quase 5 mil no total; a UNESCO, cerca de 600 moradias nos paredões mais 4.300 outros sítios."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e gabaritos conferidos no relatório periódico da UNESCO (com a declaração de valor universal) e na página do NPS sobre o Patrimônio Mundial; C1 sem parques naturais, C2–C4 refeitos com alternativas do Sudoeste americano."
+  }
+ },
+ "sources": {
+  "MEVE_PR3": {
+   "id": "MEVE_PR3",
+   "title": "Mesa Verde National Park — Periodic Report (Section II), with Statement of Outstanding Universal Value",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/215981",
+   "checkedAt": "2026-11-15"
+  },
+  "MEVE_NPS": {
+   "id": "MEVE_NPS",
+   "title": "Mesa Verde National Park — A National and Worldwide Treasure",
+   "publisher": "National Park Service",
+   "url": "https://www.nps.gov/meve/learn/management/worldheritage_meve.htm",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://whc.unesco.org/document/215981",
+   "https://www.nps.gov/meve/learn/management/worldheritage_meve.htm"
+  ],
+  "alteracoes": [
+   "Fonte MESA27 (whc.unesco.org/en/list/27) substituída: a página de lista não abre nesta sessão; a declaração de valor universal foi conferida no relatório periódico da UNESCO (MEVE_PR3); acrescentada a página do NPS sobre o Patrimônio Mundial (MEVE_NPS).",
+   "C1: saíram Tikal, Uxmal, Grand Canyon e Zion (fora da categoria); entraram Navajo, Gila Cliff Dwellings, Aztec Ruins e Canyons of the Ancients, áreas pueblo do Sudoeste; Paquimé com o nome do bem.",
+   "C2: Califórnia, Alasca e Flórida trocados por Novo México, Arizona e Utah (estados vizinhos com sítios pueblo).",
+   "C3: ‘Comunidade ancestral’ contra vikings, romanos e polinésios trocado por ‘Povo que construiu as moradias nos paredões’ com culturas do Sudoeste (Hohokam, Mogollon, Sinagua).",
+   "C4: ‘Construções marcantes’ contra opções implausíveis trocado por ‘Período de construção das moradias nos paredões, segundo a UNESCO’ (1100–1300 d.C.).",
+   "Viajante: P01–P25 reescritas ou trocadas; ‘mais de cem cômodos’ virou 50 a 200 cômodos (UNESCO); ‘cerimonial’ virou santuários e arte rupestre; ‘vínculos com povos atuais’ virou hopis e zunis (NPS); entraram bosques de pinheiro e zimbro, clima mais seco, quase 5 mil sítios, saída no fim dos anos 1200, vaqueiros e o sentido do nome.",
+   "Geógrafo: P01–P25 reescritas para relações e processos (topo, paredões e cânions; datas UNESCO × NPS; 600 + 4.300 sítios; ambiente seco das reentrâncias; 26 tribos consultadas; primeira área arqueológica protegida, 1906; 21.043 ha; invasoras, erosão pós-fogo, rodovia).",
+   "Sinais: P01–P02 abertura nos dois perfis; decisivas = Cliff Palace e cia. e o sentido do nome (Viajante), Cliff Palace e cia. e a proteção pioneira de 1906 (Geógrafo); relatedFields ampliados para C2, C3 e C4."
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

@@ -1,0 +1,1049 @@
+{
+ "case": {
+  "id": "lug2-sian-kaan",
+  "placeId": "sian-kaan",
+  "title": "Reserva da Biosfera Sian Ka’an",
+  "aliases": [
+   "Sian Ka’an",
+   "Sian Ka'an",
+   "Sian Kaan"
+  ],
+  "answerType": "reserva da biosfera",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "MX"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Área protegida",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Reserva da Biosfera Sian Ka’an"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Reserva da Biosfera Banco Chinchorro"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Reserva da Biosfera Ría Lagartos"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Reserva da Biosfera Ría Celestún"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Reserva da Biosfera Calakmul"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Reserva da Biosfera Los Petenes"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Reserva da Biosfera da Borboleta-Monarca"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Reserva da Biosfera El Vizcaíno"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Reserva da Biosfera Pantanos de Centla"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Reserva da Biosfera La Amistad"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Reserva da Biosfera Bosawás"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Sistema de Reservas da Barreira de Corais de Belize"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Reserva da Biosfera Sian Ka’an",
+    "sources": [
+     "SIANKAAN_PR",
+     "SIANKAAN_WHO"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "País",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "México"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Belize"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Guatemala"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Honduras"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "México",
+    "sources": [
+     "SIANKAAN_PR",
+     "SIANKAAN_WHO"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Mar que banha a reserva",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Mar do Caribe"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Golfo do México"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Oceano Pacífico"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Golfo da Califórnia"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Mar do Caribe",
+    "sources": [
+     "SIANKAAN_PR"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Estado mexicano",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Quintana Roo"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Yucatán"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Campeche"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Tabasco"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Quintana Roo",
+    "sources": [
+     "SIANKAAN_PR"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "sian-kaan-viajante-P01",
+      "factKey": "sian-kaan-F01",
+      "text": "Este destino junta florestas, lagoas e praias numa mesma área protegida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P02",
+      "factKey": "sian-kaan-F02",
+      "text": "Os muitos tons de azul das lagoas e do mar chamam a atenção.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P03",
+      "factKey": "sian-kaan-F03",
+      "text": "Fica no México, na América do Norte.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SIANKAAN_PR",
+       "SIANKAAN_WHO"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P04",
+      "factKey": "sian-kaan-F04",
+      "text": "A reserva fica na costa leste da península de Iucatã.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR",
+       "SIANKAAN_WHO"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P05",
+      "factKey": "sian-kaan-F05",
+      "text": "Ela pertence ao estado de Quintana Roo.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P06",
+      "factKey": "sian-kaan-F06",
+      "text": "As praias dão para o mar do Caribe.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P07",
+      "factKey": "sian-kaan-F07",
+      "text": "A área protegida tem cerca de 120 km de litoral.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P08",
+      "factKey": "sian-kaan-F08",
+      "text": "Há florestas tropicais e savanas com palmeiras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P09",
+      "factKey": "sian-kaan-F09",
+      "text": "Manguezais, brejos e dunas também fazem parte da paisagem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P10",
+      "factKey": "sian-kaan-F10",
+      "text": "Centenas de ilhas de mata surgem no meio de brejos alagados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P11",
+      "factKey": "sian-kaan-F11",
+      "text": "Poços naturais fundos, os cenotes, deixam à mostra a água subterrânea.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P12",
+      "factKey": "sian-kaan-F12",
+      "text": "No mar, a reserva protege um trecho de recife de coral.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR",
+       "SIANKAAN_WHO"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P13",
+      "factKey": "sian-kaan-F13",
+      "text": "Onças-pintadas, pumas e jaguatiricas vivem nas matas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P14",
+      "factKey": "sian-kaan-F14",
+      "text": "A anta centro-americana também vive por ali.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P15",
+      "factKey": "sian-kaan-F15",
+      "text": "Um pequeno grupo de peixes-boi vive nas águas da costa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR",
+       "SIANKAAN_WHO"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P16",
+      "factKey": "sian-kaan-F16",
+      "text": "Quatro espécies de tartarugas marinhas se reproduzem na reserva.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P17",
+      "factKey": "sian-kaan-F17",
+      "text": "Mais de 300 espécies de aves foram registradas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR",
+       "SIANKAAN_WHO"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P18",
+      "factKey": "sian-kaan-F18",
+      "text": "Macacos-aranha e bugios ameaçados vivem nas florestas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P19",
+      "factKey": "sian-kaan-F19",
+      "text": "O crocodilo-americano está entre os répteis do lugar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P20",
+      "factKey": "sian-kaan-F20",
+      "text": "A maioria dos moradores da reserva são pescadores da vila de Punta Allen.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_WHO",
+       "SIANKAAN_PR"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P21",
+      "factKey": "sian-kaan-F21",
+      "text": "Cooperativas de pescadores locais são reconhecidas pela pesca sustentável de lagosta.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P22",
+      "factKey": "sian-kaan-F22",
+      "text": "Furacões e tempestades tropicais atingem essa costa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR",
+       "SIANKAAN_WHO"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P23",
+      "factKey": "sian-kaan-F23",
+      "text": "Desde 2014, grandes levas sazonais de sargaço chegam ao litoral.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_WHO"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P24",
+      "factKey": "sian-kaan-F24",
+      "text": "Na língua maia, o nome do lugar quer dizer “origem do céu”.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR",
+       "SIANKAAN_WHO"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-viajante-P25",
+      "factKey": "sian-kaan-F25",
+      "text": "A reserva fica perto de Tulum, cidade turística que cresce muito depressa.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "SIANKAAN_PR",
+       "SIANKAAN_WHO"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "sian-kaan-geografo-P01",
+      "factKey": "sian-kaan-F01",
+      "text": "O bem combina ecossistemas terrestres, costeiros e marinhos num contato pouco perturbado entre mar e terra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P02",
+      "factKey": "sian-kaan-F02",
+      "text": "Mais de 400 mil ha de terra e cerca de 120 mil ha de mar compõem o bem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P03",
+      "factKey": "sian-kaan-F03",
+      "text": "A reserva ocupa a costa oriental da península de Iucatã, no estado de Quintana Roo.",
+      "relatedFields": [
+       "C2",
+       "C4"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P04",
+      "factKey": "sian-kaan-F04",
+      "text": "O litoral voltado para o Caribe se estende por cerca de 120 km dentro do bem.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P05",
+      "factKey": "sian-kaan-F05",
+      "text": "Ao sul, os limites alcançam a bacia de drenagem da baía do Espírito Santo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P06",
+      "factKey": "sian-kaan-F06",
+      "text": "No relevo cárstico, o colapso do calcário expõe a água subterrânea e forma os cenotes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P07",
+      "factKey": "sian-kaan-F07",
+      "text": "Sistemas subterrâneos de água doce interligam cenotes e petenes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR",
+       "SIANKAAN_WHO"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P08",
+      "factKey": "sian-kaan-F08",
+      "text": "Os petenes são ilhas de floresta que emergem de pântanos inundados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P09",
+      "factKey": "sian-kaan-F09",
+      "text": "Os manguezais reduzem a energia das ondas, o nível das inundações e a perda de sedimentos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_WHO"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P10",
+      "factKey": "sian-kaan-F10",
+      "text": "Segundo a IUCN, os manguezais sustentam 90% das espécies de peixes de valor comercial.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_WHO"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P11",
+      "factKey": "sian-kaan-F11",
+      "text": "Pradarias marinhas produzem a biomassa que sustenta a base das cadeias alimentares.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_WHO"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P12",
+      "factKey": "sian-kaan-F12",
+      "text": "O bem inclui um trecho relativamente intacto, de cerca de 120 km, do Recife Mesoamericano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_WHO",
+       "SIANKAAN_PR"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P13",
+      "factKey": "sian-kaan-F13",
+      "text": "Mais de 850 plantas vasculares e cerca de 330 espécies de aves, 219 delas reprodutoras, foram registradas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P14",
+      "factKey": "sian-kaan-F14",
+      "text": "Mais de 100 mamíferos, como onça-pintada, puma e anta centro-americana, ocupam as florestas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P15",
+      "factKey": "sian-kaan-F15",
+      "text": "No mar, há mais de 400 espécies de peixes e cerca de 80 de corais construtores de recife.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P16",
+      "factKey": "sian-kaan-F16",
+      "text": "Quatro das seis espécies de tartarugas marinhas da costa mexicana se reproduzem no bem.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P17",
+      "factKey": "sian-kaan-F17",
+      "text": "A terra é sobretudo federal, e ejidos vizinhos funcionam na prática como zona de amortecimento.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P18",
+      "factKey": "sian-kaan-F18",
+      "text": "Cerca de 1.500 pessoas vivem na reserva, a maioria pescadores.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_WHO"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P19",
+      "factKey": "sian-kaan-F19",
+      "text": "A pesca ilegal persiste em alguns pontos e afeta lagosta, caramujo-rainha e garoupa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_WHO"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P20",
+      "factKey": "sian-kaan-F20",
+      "text": "O crescimento turístico, hoteleiro e urbano no corredor Cancún–Tulum é a maior ameaça atual ao bem.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "SIANKAAN_WHO",
+       "SIANKAAN_PR"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P21",
+      "factKey": "sian-kaan-F21",
+      "text": "O esgoto mal tratado polui os rios subterrâneos da região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P22",
+      "factKey": "sian-kaan-F22",
+      "text": "O projeto de um trem turístico e de carga acompanha os limites do bem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_WHO",
+       "SIANKAAN_PR"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P23",
+      "factKey": "sian-kaan-F23",
+      "text": "A chegada sazonal maciça de sargaço desde 2014 é tratada pela IUCN como ameaça séria.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_WHO"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P24",
+      "factKey": "sian-kaan-F24",
+      "text": "Desde os anos 1980, 109 incêndios, todos de origem humana, atingiram 37.450 ha; caçadores usam fogo para abrir savanas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR",
+       "SIANKAAN_WHO"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "sian-kaan-geografo-P25",
+      "factKey": "sian-kaan-F25",
+      "text": "Decretada reserva da biosfera em 1986, a área entrou na Lista do Patrimônio Mundial em 1987.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SIANKAAN_PR"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Reserva da biosfera de cerca de 528 mil ha na costa caribenha da península de Iucatã (Quintana Roo), com florestas tropicais, savanas, manguezais, petenes, cenotes ligados por água subterrânea e um trecho de cerca de 120 km do Recife Mesoamericano.",
+   "editorialNotes": [
+    "Área: o relatório periódico dá 528.000 ha na tabela e 528.148 ha na declaração de valor universal; as pistas usam “mais de 400 mil ha de terra e cerca de 120 mil ha de mar”.",
+    "Aves: cerca de 330 espécies na UNESCO e “mais de 300” na IUCN; as pistas seguem as duas formulações.",
+    "O C1 inclui Los Petenes (Campeche), que também tem petenes: as pistas sobre petenes não bastam sozinhas para decidir."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e gabaritos conferidos no relatório periódico da UNESCO (com a declaração de valor universal) e na IUCN World Heritage Outlook 2025; C3 e C4 refeitos com mares e estados plausíveis."
+  }
+ },
+ "sources": {
+  "SIANKAAN_PR": {
+   "id": "SIANKAAN_PR",
+   "title": "Sian Ka’an — Periodic Report (Section II), with Statement of Outstanding Universal Value",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/216693",
+   "checkedAt": "2026-11-15"
+  },
+  "SIANKAAN_WHO": {
+   "id": "SIANKAAN_WHO",
+   "title": "Sian Ka’an — 2025 Conservation Outlook Assessment",
+   "publisher": "IUCN World Heritage Outlook",
+   "url": "https://worldheritageoutlook.iucn.org/node/1034",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://whc.unesco.org/document/216693",
+   "https://worldheritageoutlook.iucn.org/node/1034"
+  ],
+  "alteracoes": [
+   "Fonte SIANKAAN410 (whc.unesco.org/en/list/410) substituída: a página de lista não abre nesta sessão; a declaração de valor universal foi conferida no relatório periódico da UNESCO (SIANKAAN_PR); acrescentada a IUCN World Heritage Outlook 2025 (SIANKAAN_WHO).",
+   "C1: ‘Mariposa Monarca’ alinhado ao título do rascunho (Reserva da Biosfera da Borboleta-Monarca); ‘Talamanca’ trocado por La Amistad (nome da reserva); Montes Azules trocado pelo Sistema de Reservas da Barreira de Corais de Belize (título do banco), para dar sentido ao C2.",
+   "C3: ‘Ambientes interligados’ contra tundra, savana árida e floresta boreal trocado por ‘Mar que banha a reserva’ (Mar do Caribe).",
+   "C4: ‘Península’ com Labrador e Flórida trocado por ‘Estado mexicano’ (Quintana Roo, Yucatán, Campeche, Tabasco).",
+   "Viajante: P01–P25 reescritas ou trocadas; ‘pescadores utilizam recursos’ virou Punta Allen e cooperativas de lagosta; entraram tons de azul, 120 km de litoral, dunas, jaguatirica, macacos ameaçados, crocodilo, sargaço desde 2014, sentido do nome e Tulum.",
+   "Geógrafo: P01–P25 reescritas para relações e processos (interface mar–terra, 400 mil + 120 mil ha, bacia da baía do Espírito Santo, carste e cenotes, água subterrânea ligando cenotes e petenes, papel dos manguezais e pradarias, contagens de espécies, ejidos como amortecimento, corredor Cancún–Tulum, esgoto, trem, fogo).",
+   "Sinais: P01–P02 abertura nos dois perfis; decisivas = sentido do nome e Tulum (Viajante), corredor Cancún–Tulum (Geógrafo); relatedFields ampliados para C2, C3 e C4."
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

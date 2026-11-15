@@ -1,0 +1,1106 @@
+{
+ "case": {
+  "id": "lug3-londres",
+  "placeId": "londres",
+  "title": "Londres",
+  "aliases": [],
+  "answerType": "cidade",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "GB"
+   ],
+   "continents": [
+    "europa"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Londres"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Paris"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Berlim"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Lisboa"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Madri"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Roma"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Viena"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Amsterdã"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Bruxelas"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Dublin"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Edimburgo"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Praga"
+     },
+     {
+      "id": "C1-O13",
+      "text": "Budapeste"
+     },
+     {
+      "id": "C1-O14",
+      "text": "Copenhague"
+     },
+     {
+      "id": "C1-O15",
+      "text": "Estocolmo"
+     },
+     {
+      "id": "C1-O16",
+      "text": "Varsóvia"
+     },
+     {
+      "id": "C1-O17",
+      "text": "Atenas"
+     },
+     {
+      "id": "C1-O18",
+      "text": "Barcelona"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Londres",
+    "sources": [
+     "LONDRES_BRIT"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Rio que atravessa a cidade",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Tâmisa"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Sena"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Reno"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Elba"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Tâmisa",
+    "sources": [
+     "LONDRES_BRIT",
+     "LONDRES_UNESCO_TORRE"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Catástrofe de 1666 que destruiu a maior parte do núcleo antigo",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Grande incêndio"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Terremoto"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Grande enchente do rio"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Bombardeio naval"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Grande incêndio",
+    "sources": [
+     "LONDRES_BRIT"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Padrões mundiais ligados ao observatório real de um distrito ribeirinho da cidade",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Meridiano de referência e hora média"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Sistema métrico decimal"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Calendário gregoriano"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Escala Celsius de temperatura"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Meridiano de referência e hora média",
+    "sources": [
+     "LONDRES_UNESCO_GREENWICH",
+     "LONDRES_ROYAL_GREENWICH"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "londres-viajante-P01",
+      "factKey": "londres-F01",
+      "text": "É uma grande capital europeia de museus, palácios e pontes, atravessada por um rio.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P02",
+      "factKey": "londres-F02",
+      "text": "A cidade foi fundada pelos romanos no século I da nossa era.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P03",
+      "factKey": "londres-F03",
+      "text": "O rio que corta a cidade é o Tâmisa.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LONDRES_BRIT",
+       "LONDRES_UNESCO_TORRE"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P04",
+      "factKey": "londres-F04",
+      "text": "Depois dos romanos, a cidade passou aos saxões, entre os séculos V e VI.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P05",
+      "factKey": "londres-F05",
+      "text": "Em 865, invasores dinamarqueses chegaram à cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P06",
+      "factKey": "londres-F06",
+      "text": "Logo depois da conquista normanda de 1066, Guilherme, o Conquistador, ergueu ali uma fortaleza de pedra à beira do rio.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "LONDRES_UNESCO_TORRE",
+       "LONDRES_BRIT"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P07",
+      "factKey": "londres-F07",
+      "text": "Essa fortaleza guarda as joias da Coroa desde o século XVII.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_UNESCO_TORRE",
+       "LONDRES_TORRE_PLANO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P08",
+      "factKey": "londres-F08",
+      "text": "Três rainhas inglesas foram executadas no gramado dessa fortaleza.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_UNESCO_TORRE",
+       "LONDRES_TORRE_PLANO"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P09",
+      "factKey": "londres-F09",
+      "text": "Corvos vivem na fortaleza, e uma lenda diz que ela e o reino cairão se eles forem embora.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_TORRE_PLANO"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P10",
+      "factKey": "londres-F10",
+      "text": "Guardas cerimoniais, os Yeoman Warders, mantêm as tradições da velha fortaleza.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_TORRE_PLANO"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P11",
+      "factKey": "londres-F11",
+      "text": "Uma ponte famosa do entorno da fortaleza foi construída entre 1886 e 1894.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_TORRE_PLANO"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P12",
+      "factKey": "londres-F12",
+      "text": "Em 1666, um grande incêndio consumiu cinco sextos do núcleo antigo, que depois foi reconstruído.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P13",
+      "factKey": "londres-F13",
+      "text": "Pouco antes do incêndio, em 1664–65, uma peste matou cerca de 70 mil moradores.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P14",
+      "factKey": "londres-F14",
+      "text": "Em 1890, a cidade abriu a primeira ferrovia subterrânea elétrica do mundo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P15",
+      "factKey": "londres-F15",
+      "text": "Na Segunda Guerra Mundial, bombas alemãs danificaram muito a cidade, que foi reconstruída.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P16",
+      "factKey": "londres-F16",
+      "text": "Entre seus museus estão o Museu Britânico, a National Gallery, as galerias Tate e o Victoria and Albert.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P17",
+      "factKey": "londres-F17",
+      "text": "O Palácio de Buckingham está entre os pontos de visita da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P18",
+      "factKey": "londres-F18",
+      "text": "Os soberanos do país são coroados numa abadia gótica da cidade desde o século XI.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_UNESCO_WESTMINSTER",
+       "LONDRES_WESTMINSTER_SOC"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P19",
+      "factKey": "londres-F19",
+      "text": "Um palácio neogótico à beira do rio foi reconstruído a partir de 1840 sobre importantes restos medievais.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "LONDRES_UNESCO_WESTMINSTER",
+       "LONDRES_WESTMINSTER_SOC"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P20",
+      "factKey": "londres-F20",
+      "text": "Num distrito ribeirinho afastado do centro fica um observatório real fundado em 1675.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LONDRES_UNESCO_GREENWICH",
+       "LONDRES_ROYAL_GREENWICH"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P21",
+      "factKey": "londres-F21",
+      "text": "O trabalho desse observatório fez o meridiano e a hora média do distrito virarem padrões mundiais.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LONDRES_UNESCO_GREENWICH",
+       "LONDRES_ROYAL_GREENWICH"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P22",
+      "factKey": "londres-F22",
+      "text": "No mesmo distrito, a Queen's House, de Inigo Jones, foi o primeiro edifício palladiano da Grã-Bretanha.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "LONDRES_UNESCO_GREENWICH"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P23",
+      "factKey": "londres-F23",
+      "text": "Segundo o plano de gestão de 2016, mais de 3 milhões de pessoas visitam a velha fortaleza por ano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_TORRE_PLANO"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P24",
+      "factKey": "londres-F24",
+      "text": "Arranha-céus apelidados de Walkie Talkie e Cheesegrater aparecem no horizonte perto da fortaleza.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_TORRE_PLANO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-viajante-P25",
+      "factKey": "londres-F25",
+      "text": "É a capital e a maior cidade do Reino Unido.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "londres-geografo-P01",
+      "factKey": "londres-F26",
+      "text": "De origem romana, a cidade tornou-se o centro político, industrial, cultural e financeiro de seu país.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P02",
+      "factKey": "londres-F27",
+      "text": "A peste negra de 1348–49 atingiu a cidade, como a boa parte da Europa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P03",
+      "factKey": "londres-F03",
+      "text": "O sítio urbano fica no sudeste da Inglaterra, às margens do Tâmisa.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P04",
+      "factKey": "londres-F04",
+      "text": "A ocupação passou dos romanos aos saxões nos séculos V e VI, sofreu invasão dinamarquesa em 865 e conquista normanda em 1066.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P05",
+      "factKey": "londres-F30",
+      "text": "Por volta de 1085, já era a maior cidade da Europa ao norte dos Alpes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P06",
+      "factKey": "londres-F31",
+      "text": "Os reis normandos fixaram a sede do governo num bairro onde Eduardo, o Confessor, já havia erguido uma abadia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P07",
+      "factKey": "londres-F06",
+      "text": "A fortaleza normanda foi implantada estrategicamente numa curva do rio para proteger e controlar a cidade.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "LONDRES_UNESCO_TORRE",
+       "LONDRES_TORRE_PLANO"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P08",
+      "factKey": "londres-F33",
+      "text": "Ela ocupa o ângulo sudeste da muralha romana, cujos trechos ainda aparecem ao norte do fosso.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_TORRE_PLANO"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P09",
+      "factKey": "londres-F34",
+      "text": "A Torre Branca, feita em grande parte com pedra importada de Caen, é para a UNESCO o exemplo por excelência do castelo real normando do fim do século XI.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_UNESCO_TORRE",
+       "LONDRES_TORRE_PLANO"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P10",
+      "factKey": "londres-F35",
+      "text": "A fortaleza abrigou funções de Estado ligadas à defesa, aos registros e à cunhagem; a casa da moeda saiu de lá em 1810.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_UNESCO_TORRE",
+       "LONDRES_TORRE_PLANO"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P11",
+      "factKey": "londres-F36",
+      "text": "Inscrita pela UNESCO em 1988, a fortaleza tem 7,3 hectares, incluindo o fosso, hoje seco e gramado desde meados do século XIX.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_TORRE_PLANO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P12",
+      "factKey": "londres-F24",
+      "text": "O maior desafio a esse patrimônio é o impacto de arranha-céus no entorno, como os do aglomerado leste do distrito financeiro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_TORRE_PLANO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P13",
+      "factKey": "londres-F12",
+      "text": "Uma peste matou cerca de 70 mil habitantes em 1664–65; no ano seguinte, um incêndio destruiu cinco sextos da cidade antiga.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P14",
+      "factKey": "londres-F39",
+      "text": "A reconstrução depois do incêndio de 1666 está associada ao arquiteto Christopher Wren.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P15",
+      "factKey": "londres-F40",
+      "text": "O comércio cresceu com o império ultramarino a partir de meados do século XVI, e a cidade foi o centro do comércio mundial do fim do século XVIII até 1914.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P16",
+      "factKey": "londres-F14",
+      "text": "A primeira ferrovia subterrânea elétrica do mundo foi inaugurada ali em 1890.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P17",
+      "factKey": "londres-F15",
+      "text": "Depois dos bombardeios alemães da Segunda Guerra Mundial, a cidade foi reconstruída e cresceu rapidamente no pós-guerra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P18",
+      "factKey": "londres-F43",
+      "text": "O condado metropolitano criado em 1965 reúne 33 distritos, incluindo o núcleo original, em cerca de 1.706 km²; hoje tem prefeito e assembleia eleitos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P19",
+      "factKey": "londres-F44",
+      "text": "Esses distritos formam um anel interno de 14, que inclui o núcleo original, e um anel externo de 19.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P20",
+      "factKey": "londres-F19",
+      "text": "O palácio neogótico ribeirinho é um dos três marcos estratégicos cujas vistas o planejamento urbano da cidade protege.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "LONDRES_WESTMINSTER_SOC"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P21",
+      "factKey": "londres-F46",
+      "text": "Num distrito periférico, palácio, hospital naval e parque formam um conjunto disposto simetricamente ao longo do rio.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "LONDRES_UNESCO_GREENWICH"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P22",
+      "factKey": "londres-F47",
+      "text": "O parque real desse distrito, de André Le Nôtre, aplica um desenho simétrico a um terreno irregular.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LONDRES_UNESCO_GREENWICH"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P23",
+      "factKey": "londres-F21",
+      "text": "Observações astronômicas ligadas a John Flamsteed, primeiro Astrônomo Real, levaram o meridiano e a hora média do local a virar padrões mundiais.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LONDRES_UNESCO_GREENWICH",
+       "LONDRES_ROYAL_GREENWICH"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P24",
+      "factKey": "londres-F49",
+      "text": "Esse conjunto marítimo e astronômico entrou na lista do Patrimônio Mundial em 1997.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LONDRES_ROYAL_GREENWICH"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londres-geografo-P25",
+      "factKey": "londres-F25",
+      "text": "A metrópole é a sede política do Reino Unido e sua maior cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRES_BRIT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Capital do Reino Unido, no sudeste da Inglaterra, às margens do Tâmisa: fundada pelos romanos no século I, reconstruída após o grande incêndio de 1666 e sede de bens do Patrimônio Mundial como a Torre de Londres, Westminster e a Greenwich marítima.",
+   "editorialNotes": [
+    "A Britannica (resumo) conta 33 boroughs incluindo a City of London; outras contagens falam em 32 boroughs mais a City.",
+    "A página da lista da UNESCO para Westminster (426) não abriu; as pistas sobre o palácio e a abadia vêm da descrição UNESCO/NHK e do relatório de conservação do Reino Unido (2026).",
+    "O número de visitantes da Torre (mais de 3 milhões por ano) é do plano de gestão de 2016 e pode ter mudado."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Criado e verificado nas fontes: Britannica, páginas e documentos da UNESCO (Torre, Westminster, Greenwich) e Royal Borough of Greenwich; C1 com 18 cidades europeias comparáveis."
+  }
+ },
+ "sources": {
+  "LONDRES_BRIT": {
+   "id": "LONDRES_BRIT",
+   "title": "London (summary)",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/summary/London",
+   "checkedAt": "2026-11-15"
+  },
+  "LONDRES_UNESCO_TORRE": {
+   "id": "LONDRES_UNESCO_TORRE",
+   "title": "Tower of London",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/list/488",
+   "checkedAt": "2026-11-15"
+  },
+  "LONDRES_TORRE_PLANO": {
+   "id": "LONDRES_TORRE_PLANO",
+   "title": "Tower of London World Heritage Site Management Plan (2016)",
+   "publisher": "Historic Royal Palaces / UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/208916",
+   "checkedAt": "2026-11-15"
+  },
+  "LONDRES_UNESCO_GREENWICH": {
+   "id": "LONDRES_UNESCO_GREENWICH",
+   "title": "Maritime Greenwich",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/list/795",
+   "checkedAt": "2026-11-15"
+  },
+  "LONDRES_ROYAL_GREENWICH": {
+   "id": "LONDRES_ROYAL_GREENWICH",
+   "title": "History of Maritime Greenwich",
+   "publisher": "Royal Borough of Greenwich",
+   "url": "https://www.royalgreenwich.gov.uk/history-local-areas-0/history-maritime-greenwich",
+   "checkedAt": "2026-11-15"
+  },
+  "LONDRES_UNESCO_WESTMINSTER": {
+   "id": "LONDRES_UNESCO_WESTMINSTER",
+   "title": "Westminster Palace, Westminster Abbey and Saint Margaret's Church (UNESCO/NHK)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/documents/104129",
+   "checkedAt": "2026-11-15"
+  },
+  "LONDRES_WESTMINSTER_SOC": {
+   "id": "LONDRES_WESTMINSTER_SOC",
+   "title": "Palace of Westminster and Westminster Abbey including Saint Margaret's Church — State of Conservation Report by the State Party (2026)",
+   "publisher": "UK Department for Culture, Media and Sport / UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/224739",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.britannica.com/summary/London",
+   "https://whc.unesco.org/en/list/488",
+   "https://whc.unesco.org/document/208916",
+   "https://whc.unesco.org/en/list/795",
+   "https://www.royalgreenwich.gov.uk/history-local-areas-0/history-maritime-greenwich",
+   "https://whc.unesco.org/en/documents/104129",
+   "https://whc.unesco.org/document/224739"
+  ],
+  "alteracoes": [
+   "criado do zero"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

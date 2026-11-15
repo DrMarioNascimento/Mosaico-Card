@@ -1,0 +1,1141 @@
+{
+  "case": {
+    "id": "lug2-superagui",
+    "placeId": "superagui",
+    "title": "Parque Nacional do Superagui",
+    "aliases": [
+      "Superagui"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sul"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional do Superagui"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional de Saint-Hilaire/Lange"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional da Restinga de Jurubatiba"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional Marinho dos Abrolhos"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional da Lagoa do Peixe"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional do Cabo Orange"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional de Anavilhanas"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional da Serra do Itajaí"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional de Ilha Grande"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional da Serra da Bocaina"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional do Iguaçu"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional Marinho de Fernando de Noronha"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional do Superagui",
+        "sources": [
+          "SUPER_CNUC",
+          "SUPER_DECRETO"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Primata ameaçado que vive no parque",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Mico-leão-da-cara-preta"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Mico-leão-dourado"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Mico-leão-de-cara-dourada"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Mico-leão-preto"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Mico-leão-da-cara-preta",
+        "sources": [
+          "SUPER_OECO1",
+          "SUPER_VIAJE"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Município que abriga o parque",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Guaraqueçaba"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Paranaguá"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Antonina"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Cananéia"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Guaraqueçaba",
+        "sources": [
+          "SUPER_CNUC",
+          "SUPER_DECRETO"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Papagaio com dormitório coletivo nas ilhas do parque",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Papagaio-de-cara-roxa"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Papagaio-charão"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Papagaio-de-peito-roxo"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Papagaio-verdadeiro"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Papagaio-de-cara-roxa",
+        "sources": [
+          "SUPER_OECO2",
+          "SUPER_UNIFESP"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "superagui-viajante-P01",
+            "factKey": "superagui-F01",
+            "text": "É uma área protegida do litoral do Sul do Brasil, formada por ilhas e um trecho de continente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_UNIFESP",
+              "SUPER_EVEN3"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P02",
+            "factKey": "superagui-F02",
+            "text": "Para chegar à ilha principal, só de barco.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_VIAJE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P03",
+            "factKey": "superagui-F03",
+            "text": "Fica no litoral norte do Paraná, perto da divisa com São Paulo.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SUPER_VIAJE",
+              "SUPER_UNIFESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P04",
+            "factKey": "superagui-F04",
+            "text": "Os barcos saem de Paranaguá, de Guaraqueçaba ou da Ilha do Mel, e a viagem leva umas três horas.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SUPER_VIAJE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P05",
+            "factKey": "superagui-F05",
+            "text": "Na ilha principal não há carros, e as pousadas são simples, de madeira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_VIAJE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P06",
+            "factKey": "superagui-F06",
+            "text": "A vila de pescadores tem casas de madeira coloridas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_VIAJE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P07",
+            "factKey": "superagui-F07",
+            "text": "Uma praia selvagem de cerca de 38 km pede de quatro a sete horas de caminhada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_VIAJE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P08",
+            "factKey": "superagui-F08",
+            "text": "A Praia Deserta, comprida e vazia, também pode ser percorrida de bicicleta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_VIAJE",
+              "SUPER_LEI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P09",
+            "factKey": "superagui-F09",
+            "text": "A Trilha da Lagoa, de uns 3 km, liga o vilarejo à praia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_VIAJE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P10",
+            "factKey": "superagui-F10",
+            "text": "Em março e abril, a migração de aves faz dessa trilha um bom lugar para observar pássaros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_VIAJE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P11",
+            "factKey": "superagui-F11",
+            "text": "Botos nadam entre os barcos de pesca ancorados em frente à vila.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_VIAJE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P12",
+            "factKey": "superagui-F12",
+            "text": "Na Baía dos Golfinhos, guias locais levam visitantes de canoa para ver botos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_UNIFESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P13",
+            "factKey": "superagui-F13",
+            "text": "No fim da tarde, centenas de papagaios voltam para dormir nas árvores de uma ilha.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "SUPER_VIAJE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P14",
+            "factKey": "superagui-F14",
+            "text": "Um mico-leão de cara preta, ameaçado de extinção, vive nessas matas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SUPER_VIAJE",
+              "SUPER_OECO1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P15",
+            "factKey": "superagui-F15",
+            "text": "O principal dormitório coletivo do papagaio-de-cara-roxa no Paraná fica numa ilha do parque.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "SUPER_OECO2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P16",
+            "factKey": "superagui-F16",
+            "text": "O fandango, dança popular do litoral paranaense, anima os fins de semana na vila.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_VIAJE",
+              "SUPER_OECO1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P17",
+            "factKey": "superagui-F17",
+            "text": "A cataia, bebida apelidada de \"uísque caiçara\", é feita com folhas de um arbusto local.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_VIAJE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P18",
+            "factKey": "superagui-F18",
+            "text": "A Ilha das Peças, entre a ilha principal e a Ilha do Mel, tem restaurantes de comida caseira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_VIAJE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P19",
+            "factKey": "superagui-F19",
+            "text": "Na região, a Reserva do Sebuí atrai por cachoeiras de águas cristalinas, depois de barco e trilha na mata.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_VIAJE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P20",
+            "factKey": "superagui-F20",
+            "text": "As ilhas do Pinheiro e do Pinheirinho são desabitadas e fechadas à visitação.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "SUPER_UNIFESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P21",
+            "factKey": "superagui-F21",
+            "text": "É apontado como o primeiro lugar do Paraná onde o Sol nasce.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_VIAJE_SOL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P22",
+            "factKey": "superagui-F22",
+            "text": "O parque protege Mata Atlântica, restinga e manguezal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_VIAJE_SOL",
+              "SUPER_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P23",
+            "factKey": "superagui-F23",
+            "text": "Moradores caiçaras vivem da pesca artesanal dentro e em volta do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_UNIFESP",
+              "SUPER_EVEN3"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P24",
+            "factKey": "superagui-F24",
+            "text": "Réveillon e Carnaval são as épocas mais movimentadas da vila de pescadores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_UNIFESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-viajante-P25",
+            "factKey": "superagui-F25",
+            "text": "Um canal estreito, de cerca de 6 km, permite navegar por dentro até Cananéia, em São Paulo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_AEN",
+              "SUPER_VIAJE_CANAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "superagui-geografo-P01",
+            "factKey": "superagui-F01",
+            "text": "A unidade combina ilhas costeiras e uma porção continental, num litoral recortado por baías e canais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_UNIFESP",
+              "SUPER_LEI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P02",
+            "factKey": "superagui-F02",
+            "text": "É uma unidade federal de proteção integral, criada para preservar amostras dos ecossistemas locais com uso público controlado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_DECRETO",
+              "SUPER_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P03",
+            "factKey": "superagui-F03",
+            "text": "Foi criada por decreto em 1989, com cerca de 21.400 ha distribuídos em duas ilhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_DECRETO",
+              "SUPER_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P04",
+            "factKey": "superagui-F04",
+            "text": "Uma lei de 1997 ampliou a área para cerca de 33,9 mil ha, com trecho continental até a Serra do Rio Branco, na divisa estadual.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_LEI",
+              "SUPER_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P05",
+            "factKey": "superagui-F05",
+            "text": "Terras acrescidas às ilhas por sedimentação e ação de marés e correntes passam automaticamente a integrar o parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_LEI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P06",
+            "factKey": "superagui-F06",
+            "text": "A ilha principal surgiu da abertura de um canal de cerca de 6 km, iniciada por moradores em 1820 e inaugurada em 1952.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_AEN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P07",
+            "factKey": "superagui-F07",
+            "text": "Esse canal ligava Paranaguá a Cananéia e servia ao transporte de produtos e passageiros entre os dois estados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_AEN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P08",
+            "factKey": "superagui-F08",
+            "text": "A navegação pelo Canal do Varadouro é permitida por lei, e o canal figura como zona de uso conflitante no zoneamento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_LEI",
+              "SUPER_EVEN3"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P09",
+            "factKey": "superagui-F09",
+            "text": "Todo o município onde fica o parque é coberto por um conjunto de unidades de conservação.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SUPER_UNIFESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P10",
+            "factKey": "superagui-F10",
+            "text": "Em 1997, áreas de uma APA e de uma estação ecológica vizinhas foram excluídas delas para formar o novo limite do parque.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SUPER_LEI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P11",
+            "factKey": "superagui-F11",
+            "text": "Nove comunidades caiçaras vivem dentro do perímetro e outras nove no entorno imediato.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_EVEN3"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P12",
+            "factKey": "superagui-F12",
+            "text": "A criação do parque restringiu práticas tradicionais, como derrubar árvores e construir casas, gerando conflitos com moradores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_UFF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P13",
+            "factKey": "superagui-F13",
+            "text": "Um termo de compromisso implementado em 2024 regulou o cerco-fixo, prática tradicional de pesca artesanal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_EVEN3"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P14",
+            "factKey": "superagui-F14",
+            "text": "O plano de manejo, iniciado em 2012, só foi publicado em 2020.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_EVEN3",
+              "SUPER_UNIFESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P15",
+            "factKey": "superagui-F15",
+            "text": "A área é quase toda de Mata Atlântica, com cerca de 155 ha de área marinha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P16",
+            "factKey": "superagui-F16",
+            "text": "É uma das 25 áreas de um sítio do Patrimônio Mundial da Mata Atlântica e integra a Reserva da Biosfera desse bioma.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P17",
+            "factKey": "superagui-F17",
+            "text": "O censo do papagaio-de-cara-roxa no litoral paranaense é feito desde 2003.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "SUPER_OECO2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P18",
+            "factKey": "superagui-F18",
+            "text": "Em 2009, metade dos papagaios-de-cara-roxa do litoral paranaense dormia numa só ilha do parque; em 2024, menos de 9%.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "SUPER_OECO2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P19",
+            "factKey": "superagui-F19",
+            "text": "Esse papagaio é endêmico da Mata Atlântica, com distribuição do sul de São Paulo ao litoral do Paraná.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "SUPER_OECO2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P20",
+            "factKey": "superagui-F20",
+            "text": "Um estudo de 2025 recomenda canoas a remo para observar cetáceos, por serem mais silenciosas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_UNIFESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P21",
+            "factKey": "superagui-F21",
+            "text": "Conflitos de uso envolvem moradores, pescadores de fora, pesquisadores e operadores de turismo vindos da Ilha do Mel.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_UNIFESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P22",
+            "factKey": "superagui-F22",
+            "text": "Leontopithecus caissara, primata ameaçado de extinção, está entre as espécies protegidas pela unidade.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SUPER_OECO1",
+              "SUPER_VIAJE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P23",
+            "factKey": "superagui-F23",
+            "text": "Pescadores locais apontam a pesca de arrasto de grande porte perto da costa como causa da queda do pescado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_UFF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P24",
+            "factKey": "superagui-F24",
+            "text": "Pousadas e restaurantes vêm ganhando espaço como fonte de renda das comunidades caiçaras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_UFF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "superagui-geografo-P25",
+            "factKey": "superagui-F25",
+            "text": "Fica a cerca de 150 km de Curitiba, ao norte da Baía de Paranaguá.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUPER_VIAJE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque nacional do litoral norte do Paraná, em Guaraqueçaba, com as ilhas do Superagui, das Peças, do Pinheiro e do Pinheirinho e um trecho continental de Mata Atlântica, restinga e manguezal; abriga o mico-leão-da-cara-preta e dormitórios do papagaio-de-cara-roxa.",
+      "editorialNotes": [
+        "Recorte: só o Parque Nacional (Guaraqueçaba, PR). As Reservas de Mata Atlântica do Sudeste (sítio UNESCO de 25 áreas, já no banco) e a Ilha do Mel (Paranaguá) são lugares distintos; as pistas citam o sítio só como contexto.",
+        "Canal do Varadouro: o rascunho dizia 1953; a AEN informa abertura iniciada por moradores em 1820 e inauguração em 1952 (o Viaje Paraná fala em \"anos 1950\").",
+        "O principal dormitório do papagaio-de-cara-roxa no PR é a Ilha do Pinheiro (SPVS, via ((o))eco, 2024); o Viaje Paraná cita Barbados como dormitório — por isso as pistas não nomeiam a ilha. Na lista nacional a espécie passou de vulnerável a quase ameaçada."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes abertas (CNUC/MMA, Decreto 97.688/1989, Lei 9.513/1997, Viaje Paraná, AEN, ((o))eco, artigos UFPR/UFF/Rev. Bras. Ecoturismo); C3–C4 refeitos e pistas sem apoio (geologia, felinos, sambaquis, Lagamar) trocadas"
+    }
+  },
+  "sources": {
+    "SUPER_CNUC": {
+      "id": "SUPER_CNUC",
+      "title": "Parque Nacional do Superagui — relatório do Cadastro Nacional de Unidades de Conservação",
+      "publisher": "Ministério do Meio Ambiente (CNUC)",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/15075",
+      "checkedAt": "2026-11-15"
+    },
+    "SUPER_DECRETO": {
+      "id": "SUPER_DECRETO",
+      "title": "Decreto nº 97.688, de 25 de abril de 1989 — cria, no Estado do Paraná, o Parque Nacional do Superagui",
+      "publisher": "Câmara dos Deputados — Legislação Informatizada",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/1989/decreto-97688-25-abril-1989-448079-publicacaooriginal-1-pe.html",
+      "checkedAt": "2026-11-15"
+    },
+    "SUPER_LEI": {
+      "id": "SUPER_LEI",
+      "title": "Lei nº 9.513, de 20 de novembro de 1997 — amplia os limites do Parque Nacional do Superagui",
+      "publisher": "Senado Federal — Legislação",
+      "url": "https://legis.senado.leg.br/norma/551389/publicacao/15813066",
+      "checkedAt": "2026-11-15"
+    },
+    "SUPER_VIAJE": {
+      "id": "SUPER_VIAJE",
+      "title": "Ilha de Superagui",
+      "publisher": "Viaje Paraná (Governo do Paraná)",
+      "url": "https://www.viajeparana.com/print/pdf/node/5275",
+      "checkedAt": "2026-11-15"
+    },
+    "SUPER_VIAJE_SOL": {
+      "id": "SUPER_VIAJE_SOL",
+      "title": "Conheça três pontos turísticos do Paraná para contemplar o nascer do Sol",
+      "publisher": "Viaje Paraná (Governo do Paraná)",
+      "url": "https://www.viajeparana.com/print/pdf/node/14969",
+      "checkedAt": "2026-11-15"
+    },
+    "SUPER_VIAJE_CANAL": {
+      "id": "SUPER_VIAJE_CANAL",
+      "title": "Canal do Varadouro: governador mostra projeto em maior evento náutico da América Latina",
+      "publisher": "Viaje Paraná (Governo do Paraná)",
+      "url": "https://www.viajeparana.com/print/pdf/node/14511",
+      "checkedAt": "2026-11-15"
+    },
+    "SUPER_AEN": {
+      "id": "SUPER_AEN",
+      "title": "Paraná e São Paulo firmam acordo para fomentar turismo no Canal do Varadouro",
+      "publisher": "Agência Estadual de Notícias do Paraná",
+      "url": "https://www.parana.pr.gov.br/aen/Noticia/Parana-e-Sao-Paulo-firmam-acordo-para-fomentar-turismo-no-Canal-do-Varadouro",
+      "checkedAt": "2026-11-15"
+    },
+    "SUPER_OECO1": {
+      "id": "SUPER_OECO1",
+      "title": "2ª temporada do Pé no Parque exibe paraíso desconhecido do Superagui",
+      "publisher": "((o))eco",
+      "url": "https://oeco.org.br/wp-content/uploads/wp-post-to-pdf-enhanced-cache/1/2a-temporada-do-pe-no-parque-exibe-paraiso-desconhecido-do-superagui.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "SUPER_OECO2": {
+      "id": "SUPER_OECO2",
+      "title": "Principal dormitório coletivo do Paraná, que já reuniu até 50% da população do litoral do estado de papagaio-de-cara-roxa, somou menos de 9% das visualizações em 2024",
+      "publisher": "((o))eco",
+      "url": "https://oeco.org.br/wp-content/uploads/2024/08/Principal_dormitorio_coletivo_do_Parana_que_ja_reuniu_ate_50_da_populacao_do_litoral_do_estado_de_papagaio-de-cara-roxa_somou_menos_de_9_das_visualizacoes_em_20241.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "SUPER_UNIFESP": {
+      "id": "SUPER_UNIFESP",
+      "title": "Turismo de observação de cetáceos: recomendações ao Parque Nacional do Superagui (PR, Brasil)",
+      "publisher": "Revista Brasileira de Ecoturismo, v. 18, n. 1, 2025",
+      "url": "https://periodicos.unifesp.br/index.php/ecoturismo/article/download/19473/13337/85057",
+      "checkedAt": "2026-11-15"
+    },
+    "SUPER_EVEN3": {
+      "id": "SUPER_EVEN3",
+      "title": "Comunidades tradicionais dentro do Parque Nacional do Superagui: do conflito à transitoriedade",
+      "publisher": "UFPR — anais publicados na Even3",
+      "url": "https://static.even3.com/anais/1223537.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "SUPER_UFF": {
+      "id": "SUPER_UFF",
+      "title": "Histórias de pescadores: as transformações em uma comunidade caiçara (Vila Barra do Superagüi/PR, 1989-2005)",
+      "publisher": "Cantareira — Revista Eletrônica de História (UFF), 2005",
+      "url": "https://periodicos.uff.br/cantareira/article/download/27836/16243/96254",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://cnuc-backend.mma.gov.br/api/v1/report/uc/15075",
+      "https://www2.camara.leg.br/legin/fed/decret/1989/decreto-97688-25-abril-1989-448079-publicacaooriginal-1-pe.html",
+      "https://legis.senado.leg.br/norma/551389/publicacao/15813066",
+      "https://www.viajeparana.com/print/pdf/node/5275",
+      "https://www.viajeparana.com/index.php/en/Ilha-de-Superagui",
+      "https://www.viajeparana.com/print/pdf/node/14969",
+      "https://www.viajeparana.com/print/pdf/node/14511",
+      "https://www.parana.pr.gov.br/aen/Noticia/Parana-e-Sao-Paulo-firmam-acordo-para-fomentar-turismo-no-Canal-do-Varadouro",
+      "https://oeco.org.br/wp-content/uploads/wp-post-to-pdf-enhanced-cache/1/2a-temporada-do-pe-no-parque-exibe-paraiso-desconhecido-do-superagui.pdf",
+      "https://oeco.org.br/wp-content/uploads/2024/08/Principal_dormitorio_coletivo_do_Parana_que_ja_reuniu_ate_50_da_populacao_do_litoral_do_estado_de_papagaio-de-cara-roxa_somou_menos_de_9_das_visualizacoes_em_20241.pdf",
+      "https://periodicos.unifesp.br/index.php/ecoturismo/article/download/19473/13337/85057",
+      "https://static.even3.com/anais/1223537.pdf",
+      "https://periodicos.uff.br/cantareira/article/download/27836/16243/96254"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho (página de visitação do ICMBio e página de bem tombado do Patrimônio Cultural do PR) não puderam ser abertas por busca; substituídas por CNUC/MMA, decreto de criação, lei de ampliação, Viaje Paraná, AEN, ((o))eco e três artigos acadêmicos.",
+      "C3: 'Conjunto ambiental predominante' (só uma alternativa costeira) trocado por 'Município que abriga o parque' (Guaraqueçaba).",
+      "C4: 'Estado do parque' trocado por 'Papagaio com dormitório coletivo nas ilhas do parque' (papagaio-de-cara-roxa).",
+      "C2 mantido (mico-leão-da-cara-preta confirmado); rótulo ajustado.",
+      "Viajante: 19 pistas reescritas ou trocadas (saíram anta, onças, bugios, sambaquis, Lagamar e Canal do Varadouro 'em 1953'; entraram acesso só por barco, Praia Deserta de 38 km, Trilha da Lagoa, cataia, Baía dos Golfinhos, nascer do sol, Réveillon/Carnaval).",
+      "Geógrafo: 22 pistas reescritas ou trocadas (saíram as pistas de geologia quaternária e de dinâmica costeira sem fonte aberta; entraram áreas de 1989 e 1997, acréscimo automático de terras por sedimentação, canal 1820/1952, exclusão de APA/ESEC, 18 comunidades, cerco-fixo 2024, plano de manejo 2020, censo do papagaio 2009→2024, conflitos de uso).",
+      "Data do Canal do Varadouro corrigida de 1953 para inauguração em 1952 (AEN)."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}
