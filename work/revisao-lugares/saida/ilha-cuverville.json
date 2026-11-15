@@ -1,0 +1,1042 @@
+{
+ "case": {
+  "id": "lug2-ilha-cuverville",
+  "placeId": "ilha-cuverville",
+  "title": "Ilha Cuverville",
+  "aliases": [
+   "Cuverville"
+  ],
+  "answerType": "ilha antártica",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "AQ"
+   ],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Ilha antártica",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Ilha Cuverville"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Ilha Half Moon"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Ilha Deception"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Ilha Paulet"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Ilha Goudier"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Ilha Petermann"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Ilha Rei George"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Ilha Livingston"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Ilha Greenwich"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Ilha Danco"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Ilha Wiencke"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Ilha Snow Hill"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Ilha Cuverville",
+    "sources": [
+     "ATS_CUVERVILLE"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Canal onde fica a ilha",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Canal Errera"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Canal Neumayer"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Canal Lemaire"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Estreito de Penola"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Canal Errera",
+    "sources": [
+     "ATS_CUVERVILLE"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Pinguim da grande colônia reprodutora",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Pinguim-gentoo"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Pinguim-de-barbicha"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Pinguim-de-adélia"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Pinguim-imperador"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Pinguim-gentoo",
+    "sources": [
+     "ATS_CUVERVILLE"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Vestígios históricos no local",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Restos da caça à baleia do início do século XX"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Cabana de expedição da Era Heroica"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Base científica britânica dos anos 1950"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Marco de pedras de expedição francesa"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Restos da caça à baleia do início do século XX",
+    "sources": [
+     "ATS_CUVERVILLE"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "ilha-cuverville-viajante-P01",
+      "factKey": "ilha-cuverville-F01",
+      "text": "Este destino é uma ilha antártica com paisagem de gelo e geleiras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P02",
+      "factKey": "ilha-cuverville-F02",
+      "text": "Fica na parte norte do Canal Errera.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P03",
+      "factKey": "ilha-cuverville-F03",
+      "text": "A ilha mede cerca de 2 km por 2,5 km.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P04",
+      "factKey": "ilha-cuverville-F04",
+      "text": "Cerca de dois terços da ilha ficam sob uma calota de gelo permanente.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P05",
+      "factKey": "ilha-cuverville-F05",
+      "text": "Vista do mar, a ilha parece uma cúpula de lados íngremes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P06",
+      "factKey": "ilha-cuverville-F06",
+      "text": "Uma praia de pedras e grandes blocos, com cerca de 1,5 km, ocupa a costa norte.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P07",
+      "factKey": "ilha-cuverville-F07",
+      "text": "Atrás da praia há falésias cobertas de vegetação a leste e encostas mais suaves a oeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P08",
+      "factKey": "ilha-cuverville-F08",
+      "text": "Uma enorme colônia de pinguins-gentoo vive na ilha.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P09",
+      "factKey": "ilha-cuverville-F09",
+      "text": "Os pinguins usam as prainhas do lado leste como caminho até o mar.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P10",
+      "factKey": "ilha-cuverville-F10",
+      "text": "Gaivotas-dominicanas e trinta-réis-antárticos também fazem ninhos ali.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P11",
+      "factKey": "ilha-cuverville-F11",
+      "text": "Petréis-das-neves e pombas-do-cabo estão entre as aves que se reproduzem ali.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P12",
+      "factKey": "ilha-cuverville-F12",
+      "text": "Focas-leopardo costumam caçar perto da costa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P13",
+      "factKey": "ilha-cuverville-F13",
+      "text": "Focas-de-weddell e lobos-marinhos descansam nas praias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P14",
+      "factKey": "ilha-cuverville-F14",
+      "text": "Tapetes de musgo e vários líquens crescem na ilha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P15",
+      "factKey": "ilha-cuverville-F15",
+      "text": "Duas plantas com flor foram registradas na ilha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P16",
+      "factKey": "ilha-cuverville-F16",
+      "text": "Ossos de baleia espalhados lembram os tempos da caça às baleias.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P17",
+      "factKey": "ilha-cuverville-F17",
+      "text": "Os baleeiros deixaram uma pequena barragem na praia de desembarque.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P18",
+      "factKey": "ilha-cuverville-F18",
+      "text": "Numa ilhota vizinha ficaram um velho barco de água e uma corrente de amarração.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P19",
+      "factKey": "ilha-cuverville-F19",
+      "text": "Em 2010, foi registrada uma pichação no velho barco de água.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P20",
+      "factKey": "ilha-cuverville-F20",
+      "text": "O desembarque costuma ser na larga praia de pedras do norte.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P21",
+      "factKey": "ilha-cuverville-F21",
+      "text": "No lado leste da praia, só grupos pequenos, de até 15 pessoas, circulam com supervisão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P22",
+      "factKey": "ilha-cuverville-F22",
+      "text": "No fim da temporada, quando os pinguins trocam de penas, a visita fica limitada perto da praia.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P23",
+      "factKey": "ilha-cuverville-F23",
+      "text": "Até 100 visitantes podem ficar em terra ao mesmo tempo, com um guia para cada 20.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P24",
+      "factKey": "ilha-cuverville-F24",
+      "text": "No Canal Errera, esta é a ilha dos pinguins-gentoo e dos ossos de baleia.",
+      "relatedFields": [
+       "C1",
+       "C2",
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-viajante-P25",
+      "factKey": "ilha-cuverville-F25",
+      "text": "Uma área fechada protege ninhos de pinguins no alto e os caminhos deles até o mar.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "ilha-cuverville-geografo-P01",
+      "factKey": "ilha-cuverville-F01",
+      "text": "O recorte é uma ilha da região da Península Antártica, de paisagem dominada por gelo glacial.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUVERVILLE_ATCM29",
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P02",
+      "factKey": "ilha-cuverville-F02",
+      "text": "Ocupa o setor setentrional do Canal Errera, a cerca de 64°41′ S.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P03",
+      "factKey": "ilha-cuverville-F03",
+      "text": "Em planta, a ilha mede aproximadamente 2 km por 2,5 km.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P04",
+      "factKey": "ilha-cuverville-F04",
+      "text": "A calota de gelo permanente recobre aproximadamente dois terços da superfície insular.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P05",
+      "factKey": "ilha-cuverville-F05",
+      "text": "O relevo dômico, de vertentes íngremes, contrasta com a orla de seixos ao norte.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P06",
+      "factKey": "ilha-cuverville-F06",
+      "text": "A costa norte é uma praia de seixos e matacões com cerca de 1,5 km.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P07",
+      "factKey": "ilha-cuverville-F07",
+      "text": "A orla norte é assimétrica: falésias íngremes e vegetadas a leste, vertentes suaves a oeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P08",
+      "factKey": "ilha-cuverville-F08",
+      "text": "Uma colônia extensa de pinguins-gentoo é o primeiro atributo listado nas diretrizes do sítio.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CUVERVILLE_ATCM29",
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P09",
+      "factKey": "ilha-cuverville-F09",
+      "text": "As pequenas praias orientais são corredores principais de pinguins até o mar e, por isso, não servem de desembarque.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P10",
+      "factKey": "ilha-cuverville-F10",
+      "text": "Nove espécies de aves têm reprodução confirmada, de pinguins a petréis e trinta-réis.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P11",
+      "factKey": "ilha-cuverville-F11",
+      "text": "Petréis-das-neves, pombas-do-cabo e petréis-de-wilson figuram entre os procelariiformes reprodutores.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P12",
+      "factKey": "ilha-cuverville-F12",
+      "text": "A foca-leopardo usa as águas próximas à costa como área frequente de caça.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P13",
+      "factKey": "ilha-cuverville-F13",
+      "text": "Focas-de-weddell e lobos-marinhos-antárticos utilizam a orla regularmente para repouso.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P14",
+      "factKey": "ilha-cuverville-F14",
+      "text": "Tapetes de musgo e líquens dos gêneros Xanthoria, Buellia, Caloplaca e Usnea compõem a cobertura vegetal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P15",
+      "factKey": "ilha-cuverville-F15",
+      "text": "Deschampsia antarctica e Colobanthus quitensis, plantas vasculares, ocorrem junto aos musgos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P16",
+      "factKey": "ilha-cuverville-F16",
+      "text": "Ossos de baleia dispersos na praia de desembarque registram a fase baleeira do início do século XX.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P17",
+      "factKey": "ilha-cuverville-F17",
+      "text": "Uma barragem construída por baleeiros integra o conjunto de artefatos da praia de desembarque.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P18",
+      "factKey": "ilha-cuverville-F18",
+      "text": "Em uma ilhota ao largo, um barco de água e uma corrente de amarração completam o patrimônio baleeiro.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P19",
+      "factKey": "ilha-cuverville-F19",
+      "text": "A pichação no barco de água, registrada em 2010, é o impacto conhecido da visitação.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P20",
+      "factKey": "ilha-cuverville-F20",
+      "text": "O desembarque preferencial usa a praia larga do extremo norte, evitando as colônias de gentoo do oeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P21",
+      "factKey": "ilha-cuverville-F21",
+      "text": "No extremo leste da praia, com menos espaço e mais risco de cortar rotas de pinguins, só circulam grupos de até 15 pessoas sob supervisão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P22",
+      "factKey": "ilha-cuverville-F22",
+      "text": "Na muda tardia, a densidade de pinguins tende a restringir a visita às imediações da praia de desembarque.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P23",
+      "factKey": "ilha-cuverville-F23",
+      "text": "As diretrizes limitam a 100 os visitantes simultâneos em terra e vedam a presença em terra entre 22h e 4h.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P24",
+      "factKey": "ilha-cuverville-F24",
+      "text": "A combinação de Canal Errera, colônia extensa de gentoo e artefatos baleeiros distingue esta ilha.",
+      "relatedFields": [
+       "C1",
+       "C2",
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-cuverville-geografo-P25",
+      "factKey": "ilha-cuverville-F25",
+      "text": "A área fechada resguarda os corredores entre mar e colônias e os ninhos adensados no alto e sob as falésias.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ATS_CUVERVILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Ilha em domo no norte do Canal Errera, com cerca de dois terços sob calota de gelo permanente, grande colônia de pinguins-gentoo e vestígios baleeiros do início do século XX.",
+   "editorialNotes": [
+    "A página do Tratado indica revisão de 2013, mas o PDF vinculado tem nome de 2018; as pistas não citam o ano das diretrizes.",
+    "A versão de 2006 (ATCM XXIX) foi usada só para situar a ilha na região da Península Antártica e confirmar a colônia de gentoo."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e campos conferidos nas diretrizes de visita do Tratado; C2–C4 refeitos com alternativas antárticas comparáveis e vestígios históricos como C4."
+  }
+ },
+ "sources": {
+  "ATS_CUVERVILLE": {
+   "id": "ATS_CUVERVILLE",
+   "title": "Visitor Site Guidelines: 3. Cuverville Island",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://www.ats.aq/devAS/Ats/Guideline/0f0b44b5-6b96-42af-b88e-dfdf5944fe7b",
+   "checkedAt": "2026-11-15"
+  },
+  "CUVERVILLE_ATCM29": {
+   "id": "CUVERVILLE_ATCM29",
+   "title": "Site guidelines: Cuverville Island (ATCM XXIX, documento anexo)",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://documents.ats.aq/ATCM29/att/ATCM29_att002_e.pdf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.ats.aq/devAS/Ats/Guideline/0f0b44b5-6b96-42af-b88e-dfdf5944fe7b",
+   "https://guidelines.ats.aq/GuideLinePDF/0f0b44b5-6b96-42af-b88e-dfdf5944fe7b/3_Cuverville_2018_e.pdf",
+   "https://documents.ats.aq/ATCM29/att/ATCM29_att002_e.pdf"
+  ],
+  "alteracoes": [
+   "geography.countries: [] -> [\"AQ\"] (o validador exige código ISO; o banco usa [] para a Antártida)",
+   "ATS_CUVERVILLE: URL trocada pela página de diretrizes efetivamente aberta (mesmo identificador 0f0b44b5, caminho /devAS/Ats/)",
+   "C1: \"Ilha Aitcho\" (grupo de ilhas) trocada por \"Ilha Greenwich\"",
+   "C2: distratores McMurdo/Beagle/Suez trocados por canais da Península (Neumayer, Lemaire, Penola); Gerlache evitado por ambiguidade",
+   "C3: alternativas de pinguins não antárticos trocadas por barbicha, adélia e imperador (só o gentoo é reprodutor confirmado)",
+   "C4: \"Cobertura característica\" (só uma alternativa plausível) trocado por \"Vestígios históricos no local\" = restos da caça à baleia; a calota de dois terços virou pista",
+   "retirada a menção a \"diretrizes de 2013\" da pista sobre as praias orientais (a página diz 2013, o PDF tem nome de 2018)",
+   "novas pistas verificadas: 9 espécies reprodutoras, pomba-do-cabo, pichação de 2010, grupos de até 15 no leste, limite de 100 visitantes",
+   "pistas realinhadas por factKey e relatedFields ajustados; aberturas P01 e P13; decisiva P24 nos dois perfis",
+   "viajante: 25 de 25 pistas reescritas ou trocadas; geografo: 25 de 25"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

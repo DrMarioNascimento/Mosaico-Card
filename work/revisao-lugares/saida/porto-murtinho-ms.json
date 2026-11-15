@@ -1,0 +1,1098 @@
+{
+ "case": {
+  "id": "lug2-porto-murtinho-ms",
+  "placeId": "porto-murtinho-ms",
+  "title": "Porto Murtinho",
+  "aliases": [],
+  "answerType": "cidade brasileira",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "centro-oeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade brasileira",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Porto Murtinho"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Corumbá"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Cáceres"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Ladário"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Aquidauana"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Bonito"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Poconé"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Miranda"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Cuiabá"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Ponta Porã"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Barra do Garças"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Aragarças"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Porto Murtinho",
+    "sources": [
+     "PMURT_IBGE_HIST",
+     "PMURT_INTERACOES"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Rio às margens do qual fica a cidade",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Rio Paraguai"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Rio Paraná"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Rio Cuiabá"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Rio Aquidauana"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Rio Paraguai",
+    "sources": [
+     "PMURT_IBGE_HIST"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Produto do primeiro ciclo econômico ligado ao porto",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Erva-mate"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Ouro"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Borracha"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Café"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Erva-mate",
+    "sources": [
+     "PMURT_INTERACOES",
+     "PMURT_IBGE_HIST"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Estado brasileiro",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Mato Grosso do Sul"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Mato Grosso"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Goiás"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Rondônia"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Mato Grosso do Sul",
+    "sources": [
+     "PMURT_IBGE_HIST",
+     "PMURT_CENSO"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "porto-murtinho-ms-viajante-P01",
+      "factKey": "porto-murtinho-ms-F01",
+      "text": "Este destino é uma cidade brasileira que nasceu em torno de um porto de rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_IBGE_HIST",
+       "PMURT_INTERACOES"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P02",
+      "factKey": "porto-murtinho-ms-F02",
+      "text": "Fica no estado de Mato Grosso do Sul.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "PMURT_IBGE_HIST",
+       "PMURT_CENSO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P03",
+      "factKey": "porto-murtinho-ms-F03",
+      "text": "A cidade fica na fronteira com o Paraguai.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_SEBRAE",
+       "PMURT_CGN_113"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P04",
+      "factKey": "porto-murtinho-ms-F04",
+      "text": "O rio Paraguai passa junto à cidade.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "PMURT_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P05",
+      "factKey": "porto-murtinho-ms-F05",
+      "text": "A erva-mate foi o primeiro grande produto embarcado no porto local.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "PMURT_INTERACOES",
+       "PMURT_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P06",
+      "factKey": "porto-murtinho-ms-F06",
+      "text": "A produção de charque também marcou a economia local.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_INTERACOES",
+       "PMURT_CGN_113"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P07",
+      "factKey": "porto-murtinho-ms-F07",
+      "text": "O tanino, tirado de uma árvore chamada quebracho, já movimentou fábricas na região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_KMITTA",
+       "PMURT_INTERACOES"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P08",
+      "factKey": "porto-murtinho-ms-F08",
+      "text": "Uma antiga locomotiva é lembrança dos tempos da erva-mate.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "PMURT_KMITTA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P09",
+      "factKey": "porto-murtinho-ms-F09",
+      "text": "Uma linha de trem de 22 km ligava uma fazenda ao porto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_INTERACOES"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P10",
+      "factKey": "porto-murtinho-ms-F10",
+      "text": "Hoje o antigo trem é monumento em uma praça da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_INTERACOES"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P11",
+      "factKey": "porto-murtinho-ms-F11",
+      "text": "Há uma praça dedicada ao tereré, onde se pode provar a bebida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_SEBRAE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P12",
+      "factKey": "porto-murtinho-ms-F12",
+      "text": "Um monumento chamado Touro Candil vem do folclore paraguaio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_SEBRAE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P13",
+      "factKey": "porto-murtinho-ms-F13",
+      "text": "A antiga Padaria Cuê é hoje um museu da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_CGN_CUE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P14",
+      "factKey": "porto-murtinho-ms-F14",
+      "text": "O prédio da antiga padaria também tinha um moinho de trigo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_CGN_CUE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P15",
+      "factKey": "porto-murtinho-ms-F15",
+      "text": "A antiga padaria foi concluída em 1928.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_CGN_CUE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P16",
+      "factKey": "porto-murtinho-ms-F16",
+      "text": "A fachada da antiga padaria é de tijolo aparente.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_CGN_CUE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P17",
+      "factKey": "porto-murtinho-ms-F17",
+      "text": "O prédio histórico da prefeitura foi erguido no começo dos anos 1920.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_CGN_CUE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P18",
+      "factKey": "porto-murtinho-ms-F18",
+      "text": "Em 2024, o conselho estadual de cultura aprovou o tombamento de dois prédios históricos da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_CGN_CUE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P19",
+      "factKey": "porto-murtinho-ms-F19",
+      "text": "Uma chaminé e ruínas de uma antiga vila fabril lembram a época do tanino.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_KMITTA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P20",
+      "factKey": "porto-murtinho-ms-F20",
+      "text": "Pequenos barcos chamados chalanas atravessam o rio levando pessoas e objetos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_INTERACOES"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P21",
+      "factKey": "porto-murtinho-ms-F21",
+      "text": "Um monumento homenageia o chalaneiro, navegante do rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_SEBRAE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P22",
+      "factKey": "porto-murtinho-ms-F22",
+      "text": "Costumes do país vizinho aparecem na música, na dança, no teatro e na comida locais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_CGN_113",
+       "PMURT_SEBRAE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P23",
+      "factKey": "porto-murtinho-ms-F23",
+      "text": "Um monumento na cidade marca o portal de uma rota que liga o Atlântico ao Pacífico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_SEBRAE",
+       "PMURT_CGN_113"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P24",
+      "factKey": "porto-murtinho-ms-F24",
+      "text": "A partir dos anos 1980, a pesca passou a atrair turistas à cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_INTERACOES"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-viajante-P25",
+      "factKey": "porto-murtinho-ms-F25",
+      "text": "A planície do Pantanal faz parte da paisagem do município.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_INTERACOES"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "porto-murtinho-ms-geografo-P01",
+      "factKey": "porto-murtinho-ms-F01",
+      "text": "O núcleo urbano formou-se a partir de um porto fluvial criado no fim do século XIX.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_IBGE_HIST",
+       "PMURT_INTERACOES"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P02",
+      "factKey": "porto-murtinho-ms-F02",
+      "text": "O Censo 2022 registrou 12.859 habitantes neste município sul-mato-grossense.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "PMURT_CENSO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P03",
+      "factKey": "porto-murtinho-ms-F03",
+      "text": "Sua localização na fronteira com o Paraguai é vista como estratégica para a integração regional.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_SEBRAE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P04",
+      "factKey": "porto-murtinho-ms-F04",
+      "text": "A sede ocupa a margem esquerda do rio Paraguai, cerca de 50 km acima da foz do rio Apa.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "PMURT_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P05",
+      "factKey": "porto-murtinho-ms-F05",
+      "text": "Mesmo sem ervais nativos, o lugar tornou-se ponto de transbordo da erva-mate.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "PMURT_INTERACOES"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P06",
+      "factKey": "porto-murtinho-ms-F06",
+      "text": "Saladeiros produziram charque na área urbana e arredores até a década de 1960.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_INTERACOES"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P07",
+      "factKey": "porto-murtinho-ms-F07",
+      "text": "A extração predatória do quebracho-vermelho contribuiu para o declínio da indústria do tanino.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_INTERACOES",
+       "PMURT_KMITTA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P08",
+      "factKey": "porto-murtinho-ms-F08",
+      "text": "A locomotiva preservada é vestígio da companhia que controlou o comércio da erva-mate.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "PMURT_KMITTA",
+       "PMURT_INTERACOES"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P09",
+      "factKey": "porto-murtinho-ms-F09",
+      "text": "Uma ferrovia de 22 km entre a fazenda São Roque e o porto integrava transporte terrestre e fluvial.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_INTERACOES",
+       "PMURT_KMITTA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P10",
+      "factKey": "porto-murtinho-ms-F10",
+      "text": "Exposto em praça pública, o antigo trem tornou-se monumento da memória econômica local.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_INTERACOES"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P11",
+      "factKey": "porto-murtinho-ms-F11",
+      "text": "A Praça do Tereré transforma uma tradição local de consumo da bebida em atrativo urbano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_SEBRAE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P12",
+      "factKey": "porto-murtinho-ms-F12",
+      "text": "O monumento Touro Candil adapta o folclore paraguaio e simboliza a relação entre povos de fronteira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_SEBRAE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P13",
+      "factKey": "porto-murtinho-ms-F13",
+      "text": "A antiga Padaria Cuê abriga hoje um museu com mais de dois mil itens no acervo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_CGN_CUE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P14",
+      "factKey": "porto-murtinho-ms-F14",
+      "text": "O edifício reunia moinho de trigo e padaria no térreo, com residência no andar superior.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_CGN_CUE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P15",
+      "factKey": "porto-murtinho-ms-F15",
+      "text": "Concluída em 1928, a antiga padaria usa elementos de arquitetura industrial vindos da Europa e da América do Norte.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_CGN_CUE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P16",
+      "factKey": "porto-murtinho-ms-F16",
+      "text": "O tijolo cerâmico aparente da fachada remete à arquitetura difundida pela Revolução Industrial.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_CGN_CUE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P17",
+      "factKey": "porto-murtinho-ms-F17",
+      "text": "Erguido entre 1920 e 1922 para sediar a prefeitura, o prédio combina traços neoclássicos e coloniais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_CGN_CUE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P18",
+      "factKey": "porto-murtinho-ms-F18",
+      "text": "O tombamento estadual aprovado em 2024 busca impedir a descaracterização da antiga padaria e do prédio histórico da prefeitura.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_CGN_CUE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P19",
+      "factKey": "porto-murtinho-ms-F19",
+      "text": "A chaminé da Florestal e as ruínas de Porto Quebracho registram o fim das fábricas de tanino, em meados dos anos 1970.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_KMITTA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P20",
+      "factKey": "porto-murtinho-ms-F20",
+      "text": "A travessia por chalanas sustenta trocas de saberes e relações socioculturais na fronteira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_INTERACOES"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P21",
+      "factKey": "porto-murtinho-ms-F21",
+      "text": "O Monumento ao Chalaneiro reconhece uma profissão de longa tradição na fronteira fluvial.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_SEBRAE",
+       "PMURT_INTERACOES"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P22",
+      "factKey": "porto-murtinho-ms-F22",
+      "text": "A cultura local incorpora usos e costumes paraguaios preservados pela população.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_SEBRAE",
+       "PMURT_CGN_113"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P23",
+      "factKey": "porto-murtinho-ms-F23",
+      "text": "Como portal da Rota Bioceânica, o município pode articular modais fluvial e rodoviário na transferência de cargas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_SEBRAE",
+       "PMURT_CGN_113"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P24",
+      "factKey": "porto-murtinho-ms-F24",
+      "text": "O turismo de pesca cresceu a partir dos anos 1980, mas a exploração excessiva reduziu o pescado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_INTERACOES"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "porto-murtinho-ms-geografo-P25",
+      "factKey": "porto-murtinho-ms-F25",
+      "text": "O município está na planície pantaneira, no Chaco úmido, extremo leste da província chaquenha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PMURT_INTERACOES"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Porto Murtinho é uma cidade de Mato Grosso do Sul, na fronteira com o Paraguai e à margem esquerda do rio Paraguai, nascida de um porto criado em 1892 para escoar a erva-mate.",
+   "editorialNotes": [
+    "O tombamento da Padaria Cuê e da Prefeitura Cuê foi aprovado pelo Conselho Estadual de Políticas Culturais em fevereiro de 2024; na data da notícia, faltava a homologação do governador. As pistas falam só da aprovação.",
+    "As fontes divergem sobre o início da Florestal Brasileira (instalada em 1935 segundo Kmitta e Leite; em operação desde 1936 segundo Benites et al.), por isso as pistas não usam essa data.",
+    "As páginas da prefeitura, da Setesc e do IBGE Cidades indicadas no rascunho não abriram nesta revisão; foram trocadas por fontes equivalentes que foram abertas (IBGE Biblioteca, SEMADESC, artigos acadêmicos, Sebrae/MS e imprensa regional)."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Fontes reabertas ou substituídas; 50 pistas conferidas, com troca das afirmações sem apoio (cine-teatro, tereré feito com erva-mate, trem levando erva até o depósito) e ajuste de C1, C2 e C3 para alternativas comparáveis."
+  }
+ },
+ "sources": {
+  "PMURT_IBGE_HIST": {
+   "id": "PMURT_IBGE_HIST",
+   "title": "Porto Murtinho (MS) — Histórico",
+   "publisher": "IBGE — Biblioteca",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/matogrossodosul/portomurtinho.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "PMURT_INTERACOES": {
+   "id": "PMURT_INTERACOES",
+   "title": "Porto Murtinho, Mato Grosso do Sul, e o Corredor Bioceânico: caminhos possíveis para a sustentabilidade socioambiental (Benites, Mamede, Centeno e Alves, 2019)",
+   "publisher": "Interações — Universidade Católica Dom Bosco",
+   "url": "https://interacoes.ucdb.br/interacoes/article/download/2413/pdf/10035",
+   "checkedAt": "2026-11-15"
+  },
+  "PMURT_KMITTA": {
+   "id": "PMURT_KMITTA",
+   "title": "No sul do Mato Grosso, nas fábricas de tanino emergem os “marca onças” (Kmitta e Leite)",
+   "publisher": "UFMS — Anais do Núcleo de Documentação Histórica (CPTL), 2010",
+   "url": "https://ndh-cptl.ufms.br/wp-anais/Anais2010/Aceitos%20em%20ordem%20alfabetica/Ilsyane%20do%20Rocio%20KMITTA.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "PMURT_CGN_CUE": {
+   "id": "PMURT_CGN_CUE",
+   "title": "Padaria, moinho de trigo e prefeitura do século passado serão tombados (21/02/2024)",
+   "publisher": "Campo Grande News",
+   "url": "https://www.campograndenews.com.br/lado-b/arquitetura-23-08-2011-08/padaria-moinho-de-trigo-e-prefeitura-do-seculo-passado-serao-tombados",
+   "checkedAt": "2026-11-15"
+  },
+  "PMURT_CGN_113": {
+   "id": "PMURT_CGN_113",
+   "title": "Porto Murtinho celebra hoje 113 anos de emancipação (13/06/2025)",
+   "publisher": "Campo Grande News",
+   "url": "https://www.campograndenews.com.br/cidades/interior/porto-murtinho-celebra-hoje-113-anos-de-emancipacao",
+   "checkedAt": "2026-11-15"
+  },
+  "PMURT_SEBRAE": {
+   "id": "PMURT_SEBRAE",
+   "title": "O território de Porto Murtinho – MS",
+   "publisher": "Sebrae/MS — Programa Cidade Empreendedora",
+   "url": "https://cidadeempreendedora.ms.sebrae.com.br/wp-content/uploads/2024/05/PORTO-MURTINHO_FINAL.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "PMURT_CENSO": {
+   "id": "PMURT_CENSO",
+   "title": "Nota Técnica 003 — Censo Demográfico 2022: população, primeiros resultados",
+   "publisher": "Secretaria de Estado de Meio Ambiente, Desenvolvimento, Ciência, Tecnologia e Inovação de Mato Grosso do Sul (SEMADESC)",
+   "url": "https://www.semadesc.ms.gov.br/wp-content/uploads/2023/06/MS-Censo-2022-Populacao.pdf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://biblioteca.ibge.gov.br/visualizacao/dtb/matogrossodosul/portomurtinho.pdf",
+   "https://interacoes.ucdb.br/interacoes/article/download/2413/pdf/10035",
+   "https://ndh-cptl.ufms.br/wp-anais/Anais2010/Aceitos%20em%20ordem%20alfabetica/Ilsyane%20do%20Rocio%20KMITTA.pdf",
+   "https://www.campograndenews.com.br/lado-b/arquitetura-23-08-2011-08/padaria-moinho-de-trigo-e-prefeitura-do-seculo-passado-serao-tombados",
+   "https://www.campograndenews.com.br/cidades/interior/porto-murtinho-celebra-hoje-113-anos-de-emancipacao",
+   "https://cidadeempreendedora.ms.sebrae.com.br/wp-content/uploads/2024/05/PORTO-MURTINHO_FINAL.pdf",
+   "https://www.semadesc.ms.gov.br/wp-content/uploads/2023/06/MS-Censo-2022-Populacao.pdf"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (prefeitura, Setesc, IBGE Cidades) não abriram (bloqueio de acesso); substituídas por PMURT_IBGE_HIST, PMURT_INTERACOES, PMURT_KMITTA, PMURT_CGN_CUE, PMURT_CGN_113, PMURT_SEBRAE e PMURT_CENSO, todas abertas",
+   "C1: Porto Velho (Norte) trocado por Ponta Porã, para manter o recorte Centro-Oeste",
+   "C2: rótulo passou a \"Rio às margens do qual fica a cidade\"; Rio Araguaia e Rio Madeira trocados por Rio Cuiabá e Rio Aquidauana (o Apa ficou de fora por ser vizinho e ambíguo)",
+   "C3: rótulo passou a \"Produto do primeiro ciclo econômico ligado ao porto\"; alternativas que só por exclusão não combinavam (borracha amazônica, cacau, sal marinho) trocadas por Ouro, Borracha e Café",
+   "viajante P08/P09/P10 e geógrafo P08/P09/P10: o trem não levava erva-mate a um depósito; reescritas com a ferrovia de 22 km entre a fazenda São Roque e o porto e o trem exposto em praça (Benites et al.; Kmitta e Leite)",
+   "viajante P12 e geógrafo P12 trocadas: \"tereré é feito com erva-mate\" sem fonte → monumento Touro Candil (Sebrae/MS)",
+   "viajante P19 e geógrafo P19 trocadas: depósito virou cine-teatro sem fonte → chaminé da Florestal e ruínas de Porto Quebracho (Kmitta e Leite)",
+   "viajante P23 e geógrafo P23 trocadas: música e dança (repetia P22) → portal da Rota Bioceânica (Sebrae/MS; Campo Grande News)",
+   "viajante P18 e geógrafo P18 corrigidas: em 2024 o conselho estadual aprovou o tombamento, com homologação do governador ainda pendente na notícia",
+   "geógrafo P02: população do Censo 2022 (12.859) passou para a pista do estado, com fonte da SEMADESC; geógrafo P25 passou a planície pantaneira e Chaco úmido",
+   "viajante P13, P17, P20, P22, P24 e geógrafo P03, P04, P05, P06, P13–P17, P20, P21, P24 reescritas com os detalhes das fontes (museu, datas 1920–1922, travessia por chalanas, pesca desde os anos 1980)",
+   "Marcadas pistas de abertura (P01 e P25) e decisivas (viajante P13 e P23; geógrafo P04 e P23) nos dois perfis"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

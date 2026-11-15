@@ -1,0 +1,1043 @@
+{
+ "case": {
+  "id": "lug2-cabo-crozier",
+  "placeId": "cabo-crozier",
+  "title": "Cabo Crozier",
+  "aliases": [
+   "Cape Crozier"
+  ],
+  "answerType": "cabo e área protegida",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "AQ"
+   ],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Sítio antártico",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Cabo Crozier"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Cabo Royds"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Cabo Evans e Cabana Terra Nova"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Cabo Adare e Praia Ridley"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Cabo Denison e Cabanas de Mawson"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Cabo Bird"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Cabo Hallett"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Cabo Washington"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Hut Point e Cabana Discovery"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Ilha Snow Hill"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Ilha Paulet"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Point Wild"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Cabo Crozier",
+    "sources": [
+     "CROZIER_ASPA124"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Montanha em cujas encostas fica a parte terrestre da área",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Monte Terror"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Monte Erebus"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Monte Bird"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Monte Terra Nova"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Monte Terror",
+    "sources": [
+     "CROZIER_ASPA124"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Pinguins com colônias reprodutoras na área",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Imperador e adélia"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Adélia e barbicha"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Gentoo e barbicha"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Imperador e rei"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Imperador e adélia",
+    "sources": [
+     "CROZIER_ASPA124"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Plataforma de gelo que encontra a costa do sítio",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Plataforma de Gelo Ross"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Plataforma de Gelo Larsen C"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Plataforma de Gelo Filchner"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Plataforma de Gelo George VI"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Plataforma de Gelo Ross",
+    "sources": [
+     "CROZIER_ASPA124"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "cabo-crozier-viajante-P01",
+      "factKey": "cabo-crozier-F01",
+      "text": "É uma área protegida onde rocha, mar e gelo se encontram.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P02",
+      "factKey": "cabo-crozier-F02",
+      "text": "Duas espécies de pinguim têm colônias de reprodução por aqui.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P03",
+      "factKey": "cabo-crozier-F03",
+      "text": "O lugar fica na ponta leste de uma ilha antártica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P04",
+      "factKey": "cabo-crozier-F04",
+      "text": "A parte de terra fica nas encostas baixas do Monte Terror.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P05",
+      "factKey": "cabo-crozier-F05",
+      "text": "Morros como Post Office Hill e Bomb Peak aparecem na paisagem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P06",
+      "factKey": "cabo-crozier-F06",
+      "text": "A maior parte da área protegida fica no mar e no gelo, não em terra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P07",
+      "factKey": "cabo-crozier-F07",
+      "text": "Aqui uma enorme plataforma de gelo encosta na costa da ilha.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P08",
+      "factKey": "cabo-crozier-F08",
+      "text": "O gelo empurra a terra e abre grandes rachaduras, onde os imperadores criam filhotes.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P09",
+      "factKey": "cabo-crozier-F09",
+      "text": "A colônia de imperadores muda de lugar de um ano para outro.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P10",
+      "factKey": "cabo-crozier-F10",
+      "text": "É a colônia de pinguins-imperadores mais ao sul que se conhece.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P11",
+      "factKey": "cabo-crozier-F11",
+      "text": "Essa colônia de imperadores foi descoberta em 1902.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P12",
+      "factKey": "cabo-crozier-F12",
+      "text": "Entre 2001 e 2005, icebergs gigantes atrapalharam a colônia, que depois voltou ao lugar de antes.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P13",
+      "factKey": "cabo-crozier-F13",
+      "text": "Os pinguins-de-adélia formam dois grandes grupos, a cerca de 1 km um do outro.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P14",
+      "factKey": "cabo-crozier-F14",
+      "text": "Em 2012, os pinguins-de-adélia passaram de 270 mil casais.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P15",
+      "factKey": "cabo-crozier-F15",
+      "text": "Restos muito antigos de pinguins ajudam cientistas a estudar genética.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P16",
+      "factKey": "cabo-crozier-F16",
+      "text": "Cerca de mil casais de skua-polar-do-sul vivem ao redor dos pinguins.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P17",
+      "factKey": "cabo-crozier-F17",
+      "text": "Focas-de-weddell têm filhotes dentro da área.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P18",
+      "factKey": "cabo-crozier-F18",
+      "text": "Orcas costumam aparecer perto da costa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P19",
+      "factKey": "cabo-crozier-F19",
+      "text": "Manchas de algas colorem a neve perto das colônias de aves.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P20",
+      "factKey": "cabo-crozier-F20",
+      "text": "Há muitos líquens, mas os musgos são raros e pequenos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P21",
+      "factKey": "cabo-crozier-F21",
+      "text": "Foram achados ali dois líquens que nunca tinham sido registrados na Antártida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P22",
+      "factKey": "cabo-crozier-F22",
+      "text": "Um poste de 1902 servia para deixar recados aos navios de apoio de uma expedição.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124",
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P23",
+      "factKey": "cabo-crozier-F23",
+      "text": "Restos de um abrigo de pedra lembram uma viagem de inverno, em 1911, para buscar ovos de pinguim-imperador.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA",
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P24",
+      "factKey": "cabo-crozier-F24",
+      "text": "Quem fez o abrigo foi o grupo de Edward Wilson, de uma expedição britânica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-viajante-P25",
+      "factKey": "cabo-crozier-F25",
+      "text": "A área é protegida desde 1966, e hoje só se entra com permissão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "cabo-crozier-geografo-P01",
+      "factKey": "cabo-crozier-F01",
+      "text": "A área protegida combina terreno livre de gelo, mar e um trecho de plataforma de gelo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P02",
+      "factKey": "cabo-crozier-F02",
+      "text": "O principal valor ecológico do sítio são as colônias reprodutoras de duas espécies de pinguim.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P03",
+      "factKey": "cabo-crozier-F03",
+      "text": "O sítio ocupa a extremidade oriental da Ilha Ross, no Mar de Ross.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P04",
+      "factKey": "cabo-crozier-F04",
+      "text": "A porção livre de gelo corresponde às encostas baixas do flanco leste do Monte Terror.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P05",
+      "factKey": "cabo-crozier-F05",
+      "text": "A área se situa nas vizinhanças de Post Office Hill (407 m), Bomb Peak (740 m) e The Knoll (360 m) e se estende até os cones Gamble, Topping e Kyle.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P06",
+      "factKey": "cabo-crozier-F06",
+      "text": "Dos cerca de 70 km² da área, cerca de 43 km² (61%) são marinhos, incluindo plataforma de gelo, e 27 km² são terrestres.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P07",
+      "factKey": "cabo-crozier-F07",
+      "text": "A Plataforma de Gelo Ross encontra a costa nesse ponto, e um trecho dela está dentro da área protegida.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P08",
+      "factKey": "cabo-crozier-F08",
+      "text": "Ao pressionar a terra, a plataforma de gelo abre grandes fendas, entre as quais se forma o gelo fixo usado pelos imperadores na reprodução.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P09",
+      "factKey": "cabo-crozier-F09",
+      "text": "Como as fendas se deslocam com o movimento da plataforma, a posição da colônia de imperadores varia de ano para ano.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P10",
+      "factKey": "cabo-crozier-F10",
+      "text": "O plano de manejo de 2014 descreve a colônia de imperadores como a mais meridional conhecida e a de série de estudos mais longa.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P11",
+      "factKey": "cabo-crozier-F11",
+      "text": "A colônia de imperadores foi descoberta em outubro de 1902 por R. S. Skelton.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P12",
+      "factKey": "cabo-crozier-F12",
+      "text": "Os icebergs B15A e C16, presentes de 2001 a 2005, perturbaram a colônia de imperadores, que em 2006 voltou à posição anterior.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P13",
+      "factKey": "cabo-crozier-F13",
+      "text": "A colônia de adélias se divide em dois núcleos principais, Leste e Oeste, separados por cerca de 1 km.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P14",
+      "factKey": "cabo-crozier-F14",
+      "text": "A população de adélias gira em torno de 150 mil pares reprodutores, com pouco mais de 270 mil em 2012.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P15",
+      "factKey": "cabo-crozier-F15",
+      "text": "Restos antigos e bem preservados de adélias têm valor científico particular para estudos genéticos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P16",
+      "factKey": "cabo-crozier-F16",
+      "text": "Uma colônia de skua-polar-do-sul, estimada em mil pares, ocupa o terreno livre de gelo em volta da colônia de adélias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P17",
+      "factKey": "cabo-crozier-F17",
+      "text": "A foca-de-weddell se reproduz na área, com cerca de 20 filhotes registrados em anos recentes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P18",
+      "factKey": "cabo-crozier-F18",
+      "text": "Focas-leopardo frequentam a área, e orcas são avistadas com frequência junto à costa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P19",
+      "factKey": "cabo-crozier-F19",
+      "text": "Algas da neve cobrem mais de 4 hectares junto às colônias de skuas e pinguins, um dos registros mais meridionais desse tipo de alga.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P20",
+      "factKey": "cabo-crozier-F20",
+      "text": "Líquens são abundantes, enquanto musgos são escassos e dispersos, quase sempre em almofadas isoladas de até 10 cm de diâmetro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P21",
+      "factKey": "cabo-crozier-F21",
+      "text": "Os líquens Caloplaca erecta e C. soropelta, observados na área, não tinham registro anterior na Antártida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P22",
+      "factKey": "cabo-crozier-F22",
+      "text": "O poste de mensagens erguido em 22 de janeiro de 1902 pela expedição Discovery, de Scott, é o Sítio Histórico nº 69.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124",
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P23",
+      "factKey": "cabo-crozier-F23",
+      "text": "O abrigo de pedra de julho de 1911 (Sítio Histórico nº 21) foi construído na jornada de inverno para coletar ovos de imperador.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA",
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P24",
+      "factKey": "cabo-crozier-F24",
+      "text": "A jornada de inverno de 1911 foi feita pelo grupo de Edward Wilson, da Expedição Antártica Britânica de 1910–1913.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-crozier-geografo-P25",
+      "factKey": "cabo-crozier-F25",
+      "text": "Protegida desde 1966, a área é hoje a Área Antártica Especialmente Protegida nº 124, com entrada só por permissão de autoridade nacional.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CROZIER_ASPA124"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Extremidade leste da Ilha Ross, nas encostas baixas do Monte Terror, onde a Plataforma de Gelo Ross encontra a costa: abriga a colônia de pinguins-imperadores mais meridional conhecida, uma grande colônia de adélias e o abrigo de pedra da jornada de inverno de 1911.",
+   "editorialNotes": [
+    "Números populacionais e a área (cerca de 70 km²) seguem o plano de manejo da ASPA 124 adotado pela Measure 3 (2014); contagens mudam entre temporadas.",
+    "A colônia de imperadores ocupa gelo fixo entre fendas da plataforma e muda de posição de ano para ano.",
+    "O plano citado no rascunho (documents.ats.aq/recatt/att719_e.pdf) não pôde ser aberto; a afirmação sobre ninhos de adélia sobre gelo marinho em 2018, que dependia dele, foi retirada."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e gabaritos conferidos no plano de manejo da ASPA 124 (Measure 3/2014) e na lista de sítios históricos do Tratado; C2 e C3 refeitos com alternativas comparáveis."
+  }
+ },
+ "sources": {
+  "CROZIER_ASPA124": {
+   "id": "CROZIER_ASPA124",
+   "title": "Management Plan for Antarctic Specially Protected Area No. 124: Cape Crozier, Ross Island (Measure 3, 2014)",
+   "publisher": "Ministry of the Environment, Japan (cópia do plano adotado pela RCTA)",
+   "url": "https://www.env.go.jp/nature/nankyoku/kankyohogo/database/jyouyaku/aspa/aspa_pdf_en/124.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "ATS_HSM_LISTA": {
+   "id": "ATS_HSM_LISTA",
+   "title": "List of Historic Sites and Monuments approved by the ATCM",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://documents.ats.aq/atcm34/ww/atcm34_ww002_e.pdf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.env.go.jp/nature/nankyoku/kankyohogo/database/jyouyaku/aspa/aspa_pdf_en/124.pdf",
+   "https://documents.ats.aq/atcm34/ww/atcm34_ww002_e.pdf"
+  ],
+  "alteracoes": [
+   "Fonte ATS_CROZIER (documents.ats.aq/recatt/att719_e.pdf) não aberta (acesso bloqueado nesta sessão) e substituída por CROZIER_ASPA124: plano de manejo da ASPA 124 (Measure 3, 2014) publicado pelo Ministério do Meio Ambiente do Japão; os bancos de dados ats.aq da ASPA 124 e do HSM 21 só carregam com JavaScript.",
+   "Nova fonte ATS_HSM_LISTA (HSM 21 e 69).",
+   "C1: \"Cabo Roberts\", \"Cabo Irizar\" e \"Baía das Baleias\" trocados por \"Cabo Washington\", \"Hut Point e Cabana Discovery\" e \"Ilha Snow Hill\"; \"Ponto Wild\" corrigido para \"Point Wild\"; nomes alinhados aos títulos dos outros lugares.",
+   "C2: \"Ilha\" (Ilha Ross, a mesma de vários outros cabos) virou \"Montanha em cujas encostas fica a parte terrestre da área\" = Monte Terror, com Erebus, Bird e Terra Nova (todos da Ilha Ross) como alternativas.",
+   "C3: alternativas absurdas (\"Avestruzes e emas\", pinguins africanos e de Galápagos) trocadas por pares de pinguins antárticos ou subantárticos.",
+   "C4: \"Plataforma de Ross\" padronizada para \"Plataforma de Gelo Ross\" e demais nomes completados.",
+   "Geógrafo P10 (ninhos de adélia sobre gelo marinho em 2018) retirada: não consta no plano de 2014 aberto.",
+   "Viajante P07 e Geógrafo P06 reescritas com o processo descrito no plano (a plataforma pressiona a terra e abre fendas que se deslocam).",
+   "Novas pistas verificadas: colônia de imperadores mais meridional conhecida e descoberta em 1902 (Skelton), icebergs B15A e C16 (2001–2005), núcleos Leste e Oeste das adélias, 150 mil/270 mil pares, mil pares de skuas, 20 filhotes de foca-de-weddell, algas da neve em mais de 4 ha, líquens Caloplaca inéditos para a Antártida, área de cerca de 70 km², proteção desde 1966.",
+   "Pistas reorganizadas em pares por fato (25), com 2 de abertura e 2 decisivas por perfil, clueType e relatedFields ligados a C2–C4.",
+   "geography.countries: o banco usa [] para a Antártida, mas o validador exige código ISO; usado \"AQ\"."
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

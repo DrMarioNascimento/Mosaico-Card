@@ -1,0 +1,1066 @@
+{
+ "case": {
+  "id": "lug2-cabo-adare",
+  "placeId": "cabo-adare",
+  "title": "Cabo Adare e Praia Ridley",
+  "aliases": [
+   "Cabo Adare",
+   "Cape Adare"
+  ],
+  "answerType": "cabo e sítio histórico",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "AQ"
+   ],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Sítio antártico",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Cabo Adare e Praia Ridley"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Cabo Royds e Cabana de Shackleton"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Cabo Evans e Cabana Terra Nova"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Cabo Denison e Cabanas de Mawson"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Hut Point e Cabana Discovery"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Port Lockroy e Base A"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Baía Esperança"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Ilha Snow Hill"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Cabo Crozier"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Point Wild"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Cabo Hallett"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Cabo Bird"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Cabo Adare e Praia Ridley",
+    "sources": [
+     "ATS_ADARE",
+     "ADARE_ASPA159"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Região antártica onde fica o sítio",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Terra Vitória"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Terra de George V"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Terra de Graham"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Terra da Rainha Maud"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Terra Vitória",
+    "sources": [
+     "ATS_ADARE",
+     "ADARE_ASPA159"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Marco pioneiro registrado no sítio",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Primeiro inverno passado no continente antártico"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Primeira chegada ao Polo Sul"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Primeiro voo sobre o Polo Sul"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Primeira travessia terrestre do continente"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Primeiro inverno passado no continente antártico",
+    "sources": [
+     "ADARE_ASPA159"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Expedição que construiu as cabanas mais antigas do sítio",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Expedição Southern Cross"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Expedição Nimrod"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Expedição Discovery"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Expedição Antártica Australasiana"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Expedição Southern Cross",
+    "sources": [
+     "ATS_HSM_LISTA",
+     "ATS_ADARE"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "cabo-adare-viajante-P01",
+      "factKey": "cabo-adare-F01",
+      "text": "Uma praia plana de cascalho se abre ao pé de um cabo antártico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ADARE_ASPA159",
+       "ATS_ADARE"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P02",
+      "factKey": "cabo-adare-F02",
+      "text": "No verão, pinguins ocupam a praia e as encostas em volta.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE",
+       "ADARE_ASPA159"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P03",
+      "factKey": "cabo-adare-F03",
+      "text": "O cabo fica na ponta norte da Terra Vitória.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ADARE_ASPA159",
+       "ATS_ADARE"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P04",
+      "factKey": "cabo-adare-F04",
+      "text": "O mar que banha o lugar é o Mar de Ross.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P05",
+      "factKey": "cabo-adare-F05",
+      "text": "As cabanas antigas ficam na beira da praia, a menos de 2 km do cabo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P06",
+      "factKey": "cabo-adare-F06",
+      "text": "Aqui vive a maior colônia de pinguins-de-adélia da Antártida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P07",
+      "factKey": "cabo-adare-F07",
+      "text": "Em 2018, a colônia de pinguins somava cerca de meio milhão de casais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P08",
+      "factKey": "cabo-adare-F08",
+      "text": "Os pinguins fazem ninhos ao redor das cabanas antigas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P09",
+      "factKey": "cabo-adare-F09",
+      "text": "Uns 300 casais de skua-polar-do-sul se reproduzem acima da colônia de pinguins.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P10",
+      "factKey": "cabo-adare-F10",
+      "text": "Focas-de-weddell costumam descansar na praia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE",
+       "ADARE_ASPA159"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P11",
+      "factKey": "cabo-adare-F11",
+      "text": "Vários petréis, como o petrel-das-neves, passam pela área.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P12",
+      "factKey": "cabo-adare-F12",
+      "text": "Pinguins-imperadores e pinguins-reis aparecem só de vez em quando.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P13",
+      "factKey": "cabo-adare-F13",
+      "text": "Nas rochas da península crescem musgos, líquens e algas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P14",
+      "factKey": "cabo-adare-F14",
+      "text": "As primeiras construções erguidas no continente antártico estão aqui.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P15",
+      "factKey": "cabo-adare-F15",
+      "text": "Duas das cabanas foram montadas em fevereiro de 1899.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA",
+       "ADARE_ASPA159"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P16",
+      "factKey": "cabo-adare-F16",
+      "text": "A expedição britânica que montou essas cabanas durou de 1898 a 1900.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P17",
+      "factKey": "cabo-adare-F17",
+      "text": "Carsten Borchgrevink liderou a expedição dessas cabanas.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P18",
+      "factKey": "cabo-adare-F18",
+      "text": "Foi aqui que um grupo passou o inverno em terra firme antártica pela primeira vez.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ADARE_ASPA159"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P19",
+      "factKey": "cabo-adare-F19",
+      "text": "A terceira cabana, erguida em 1911, desabou.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA",
+       "ATS_ADARE"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P20",
+      "factKey": "cabo-adare-F20",
+      "text": "Essa cabana de 1911 era do grupo do norte da expedição de Robert Scott.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA",
+       "ADARE_ASPA159"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P21",
+      "factKey": "cabo-adare-F21",
+      "text": "Um biólogo norueguês da expedição de 1898–1900 foi enterrado no alto da península.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA",
+       "ATS_ADARE"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P22",
+      "factKey": "cabo-adare-F22",
+      "text": "Uma grande rocha, uma cruz e pedras brancas marcam esse túmulo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA",
+       "ADARE_ASPA159"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P23",
+      "factKey": "cabo-adare-F23",
+      "text": "No verão, a subida até o túmulo fica fechada por causa dos ninhos de pinguins.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P24",
+      "factKey": "cabo-adare-F24",
+      "text": "Só entra na área das cabanas quem tem permissão e vai com guia treinado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-viajante-P25",
+      "factKey": "cabo-adare-F25",
+      "text": "A chegada é de bote, e helicópteros não podem pousar ali.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "cabo-adare-geografo-P01",
+      "factKey": "cabo-adare-F01",
+      "text": "Ao pé de um promontório antártico estende-se uma planície costeira baixa e triangular, formada por seixos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ADARE_ASPA159",
+       "ATS_ADARE"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P02",
+      "factKey": "cabo-adare-F02",
+      "text": "No verão, a colônia de aves ocupa a planície costeira e as encostas baixas vizinhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE",
+       "ADARE_ASPA159"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P03",
+      "factKey": "cabo-adare-F03",
+      "text": "O promontório vulcânico, em grande parte livre de gelo, marca o extremo norte da Terra Vitória.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ADARE_ASPA159",
+       "ATS_ADARE"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P04",
+      "factKey": "cabo-adare-F04",
+      "text": "O trecho de litoral pertence à Costa de Borchgrevink, no Mar de Ross.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P05",
+      "factKey": "cabo-adare-F05",
+      "text": "As cabanas ficam na margem sul da planície de seixos, cerca de 1,7 km a sudoeste do cabo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P06",
+      "factKey": "cabo-adare-F06",
+      "text": "Segundo as diretrizes de visita do Tratado da Antártida, a colônia local de pinguins-de-adélia é a maior do continente.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P07",
+      "factKey": "cabo-adare-F07",
+      "text": "A contagem de 2018 estimou cerca de meio milhão de pares reprodutores, e o sítio é reconhecido como Área Importante para Aves.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P08",
+      "factKey": "cabo-adare-F08",
+      "text": "Ninhos e edificações históricas dividem o mesmo terreno, o que condiciona a circulação de visitantes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P09",
+      "factKey": "cabo-adare-F09",
+      "text": "Cerca de 300 pares de skua-polar-do-sul nidificam em posição mais elevada que a colônia de pinguins.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P10",
+      "factKey": "cabo-adare-F10",
+      "text": "A faixa de praia funciona como área regular de repouso da foca-de-weddell.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE",
+       "ADARE_ASPA159"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P11",
+      "factKey": "cabo-adare-F11",
+      "text": "Petrel-das-neves, petrel-gigante, petrel-antártico e alma-de-mestre são observados, mas só adélias e skuas têm reprodução confirmada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P12",
+      "factKey": "cabo-adare-F12",
+      "text": "Pinguins-imperadores e pinguins-reis ocorrem apenas como visitantes ocasionais, assim como focas-leopardo e elefantes-marinhos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P13",
+      "factKey": "cabo-adare-F13",
+      "text": "A flora terrestre da península se resume a algas, líquens crostosos e musgos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P14",
+      "factKey": "cabo-adare-F14",
+      "text": "As cabanas mais antigas do sítio foram as primeiras estruturas erguidas no continente antártico.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P15",
+      "factKey": "cabo-adare-F15",
+      "text": "Duas das três cabanas históricas datam de fevereiro de 1899; a terceira, de fevereiro de 1911.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA",
+       "ADARE_ASPA159"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P16",
+      "factKey": "cabo-adare-F16",
+      "text": "As cabanas de 1899 pertencem à Expedição Antártica Britânica de 1898–1900.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P17",
+      "factKey": "cabo-adare-F17",
+      "text": "A liderança da expedição de 1898–1900 coube a Carsten E. Borchgrevink.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P18",
+      "factKey": "cabo-adare-F18",
+      "text": "A ocupação das cabanas em 1899 corresponde ao primeiro inverno passado no continente antártico.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ADARE_ASPA159"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P19",
+      "factKey": "cabo-adare-F19",
+      "text": "A cabana de 1911 entrou em colapso; em 2002 restava de pé praticamente só o alpendre.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA",
+       "ATS_ADARE"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P20",
+      "factKey": "cabo-adare-F20",
+      "text": "O Grupo do Norte da expedição de Scott, chefiado por Victor Campbell, invernou ali em 1911.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA",
+       "ADARE_ASPA159"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P21",
+      "factKey": "cabo-adare-F21",
+      "text": "Nicolai Hanson, biólogo norueguês da expedição, foi a primeira pessoa sepultada no continente antártico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA",
+       "ATS_ADARE"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P22",
+      "factKey": "cabo-adare-F22",
+      "text": "O túmulo é marcado por um grande matacão com cruz e placa, e o contorno é feito de pedras de quartzo branco.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA",
+       "ADARE_ASPA159"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P23",
+      "factKey": "cabo-adare-F23",
+      "text": "O acesso ao túmulo é íngreme e perigoso, e as encostas ficam fechadas no verão por estarem ocupadas por ninhos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P24",
+      "factKey": "cabo-adare-F24",
+      "text": "As cabanas formam a Área Antártica Especialmente Protegida nº 159, com entrada apenas por permissão e acompanhamento de guia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-adare-geografo-P25",
+      "factKey": "cabo-adare-F25",
+      "text": "Helicópteros, sobrevoos e veículos são proibidos; o acesso é feito por pequenos botes até a linha da costa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ADARE"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Cabo no extremo norte da Terra Vitória, no Mar de Ross: a planície de seixos ao lado do cabo reúne a maior colônia de pinguins-de-adélia da Antártida e as cabanas de 1899 da Expedição Southern Cross, primeiras construções do continente e base do primeiro inverno em terra antártica.",
+   "editorialNotes": [
+    "O tamanho da colônia (cerca de meio milhão de pares) é a contagem de 2018 citada nas diretrizes de visita revisadas em 2021; populações variam entre temporadas.",
+    "A terceira cabana (1911) é do Grupo do Norte da expedição Terra Nova; por isso a Terra Nova não aparece entre as alternativas de C4, que pergunta pelas cabanas mais antigas.",
+    "As pistas evitam os nomes \"Adare\" e \"Ridley\", que entregariam o C1."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e gabaritos conferidos nas diretrizes do Tratado (2021), no plano de manejo da ASPA 159 e na lista de sítios históricos; C2–C4 reformulados para alternativas comparáveis."
+  }
+ },
+ "sources": {
+  "ATS_ADARE": {
+   "id": "ATS_ADARE",
+   "title": "Visitor Site Guidelines: 45. Cape Adare",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://www.ats.aq/devAS/Ats/Guideline/fe5fd16a-eee3-4577-9fbf-3fcbf4b3b082",
+   "checkedAt": "2026-11-15"
+  },
+  "ADARE_ASPA159": {
+   "id": "ADARE_ASPA159",
+   "title": "Management Plan for Antarctic Specially Protected Area No. 159: Cape Adare, Borchgrevink Coast (Measure 14, 2015)",
+   "publisher": "Ministry of the Environment, Japan (cópia do plano adotado pela RCTA)",
+   "url": "https://www.env.go.jp/nature/nankyoku/kankyohogo/database/jyouyaku/aspa/aspa_pdf_en/Measure14_ASPA159.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "ATS_HSM_LISTA": {
+   "id": "ATS_HSM_LISTA",
+   "title": "List of Historic Sites and Monuments approved by the ATCM",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://documents.ats.aq/atcm34/ww/atcm34_ww002_e.pdf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.ats.aq/devAS/Ats/Guideline/fe5fd16a-eee3-4577-9fbf-3fcbf4b3b082",
+   "https://guidelines.ats.aq/GuideLinePDF/fe5fd16a-eee3-4577-9fbf-3fcbf4b3b082/Cape%20Adare_2021_e.pdf",
+   "https://www.env.go.jp/nature/nankyoku/kankyohogo/database/jyouyaku/aspa/aspa_pdf_en/Measure14_ASPA159.pdf",
+   "https://documents.ats.aq/atcm34/ww/atcm34_ww002_e.pdf"
+  ],
+  "alteracoes": [
+   "Fonte ATS_ADARE: URL trocada pela página que foi efetivamente aberta (/devAS/Ats/Guideline/..., sem /e/); mesmo documento (revisão 2021).",
+   "Novas fontes: ADARE_ASPA159 (plano de manejo, Measure 14/2015) e ATS_HSM_LISTA (lista de sítios e monumentos históricos, HSM 22 e 23).",
+   "C1: \"Ponto Wild\" corrigido para \"Point Wild\" (nome usado no banco); \"Baía das Baleias\" trocada por \"Cabo Hallett\"; alternativas encurtadas (\"Baía Esperança\", \"Ilha Snow Hill\").",
+   "C2: rótulo \"Localização\" virou \"Região antártica onde fica o sítio\"; \"Ilha Geórgia do Sul\" e \"Polo Sul Geográfico\" (fora da categoria) trocados por \"Terra de George V\", \"Terra de Graham\" e \"Terra da Rainha Maud\".",
+   "C3: campo \"Ave reprodutora\" (só a adélia era antártica entre as opções) substituído por \"Marco pioneiro registrado no sítio\" = primeiro inverno no continente (plano da ASPA 159).",
+   "C4: rótulo precisado e \"Expedição Terra Nova\" (também presente no sítio, com a cabana de 1911) trocada por \"Expedição Discovery\", para o gabarito ficar inequívoco.",
+   "Viajante P05 e Geógrafo P04 (e outras menções) deixaram de citar o nome da praia, que entregava o C1; pistas reescritas com o que as fontes dizem (planície de seixos, 1,7 km a sudoeste do cabo).",
+   "Geógrafo P05: \"a maior registrada\" corrigido para \"a maior colônia de pinguins-de-adélia do continente\", como dizem as diretrizes.",
+   "Pistas reorganizadas em pares por fato (25), com metadados revistos: 2 de abertura e 2 decisivas por perfil, clueType e relatedFields ligados a C2–C4.",
+   "Novas pistas verificadas: datas das cabanas (fevereiro de 1899 e 1911), Victor Campbell e o inverno de 1911, marcação do túmulo de Hanson, Área Importante para Aves, proibição de helicópteros.",
+   "geography.countries: o banco usa [] para a Antártida, mas o validador exige código ISO; usado \"AQ\" (código ISO 3166-1 da Antártida)."
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

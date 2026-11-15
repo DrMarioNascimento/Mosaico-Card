@@ -1,0 +1,1058 @@
+{
+ "case": {
+  "id": "lug2-cabo-evans",
+  "placeId": "cabo-evans",
+  "title": "Cabo Evans e Cabana Terra Nova",
+  "aliases": [
+   "Cabo Evans",
+   "Cape Evans"
+  ],
+  "answerType": "sítio histórico antártico",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "AQ"
+   ],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Sítio antártico",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Cabo Evans e Cabana Terra Nova"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Cabo Royds e Cabana de Shackleton"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Cabo Denison e Cabanas de Mawson"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Cabo Adare e Praia Ridley"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Hut Point e Cabana Discovery"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Port Lockroy e Base A"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Baía Esperança"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Ilha Snow Hill"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Cabo Crozier"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Point Wild"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Cabo Bird"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Cabo Hallett"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Cabo Evans e Cabana Terra Nova",
+    "sources": [
+     "ATS_EVANS",
+     "ATS_HSM_LISTA"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Braço de mar diante do sítio",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Estreito de McMurdo"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Estreito de Gerlache"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Estreito de Bransfield"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Estreito Antártico"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Estreito de McMurdo",
+    "sources": [
+     "ATS_EVANS"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Ave com reprodução confirmada no cabo",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Skua-polar-do-sul"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Pinguim-de-adélia"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Pinguim-imperador"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Petrel-das-neves"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Skua-polar-do-sul",
+    "sources": [
+     "ATS_EVANS"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Líder da expedição que construiu a cabana",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Robert Falcon Scott"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Ernest Shackleton"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Douglas Mawson"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Roald Amundsen"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Robert Falcon Scott",
+    "sources": [
+     "ATS_HSM_LISTA",
+     "ATS_EVANS"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "cabo-evans-viajante-P01",
+      "factKey": "cabo-evans-F01",
+      "text": "Uma cabana histórica fica a poucos passos do mar, numa costa antártica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P02",
+      "factKey": "cabo-evans-F02",
+      "text": "Daqui se avistam um vulcão ativo e uma grande cadeia de montanhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P03",
+      "factKey": "cabo-evans-F03",
+      "text": "O lugar fica na costa oeste de uma ilha antártica.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P04",
+      "factKey": "cabo-evans-F04",
+      "text": "É um pedaço de terra baixo, sem gelo, em forma de triângulo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P05",
+      "factKey": "cabo-evans-F05",
+      "text": "O chão tem origem vulcânica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS",
+       "EVANS_ASPA155"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P06",
+      "factKey": "cabo-evans-F06",
+      "text": "O vulcão Erebus, ativo, fica a uns 22 km a nordeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P07",
+      "factKey": "cabo-evans-F07",
+      "text": "O vizinho Cabo Royds fica uns 10 km ao norte.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS",
+       "EVANS_ASPA155"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P08",
+      "factKey": "cabo-evans-F08",
+      "text": "A cabana fica junto à praia de Home Beach, na North Bay.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS",
+       "EVANS_ASPA155"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P09",
+      "factKey": "cabo-evans-F09",
+      "text": "A cabana foi erguida em janeiro de 1911.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P10",
+      "factKey": "cabo-evans-F10",
+      "text": "Quem comandou a expedição que construiu a cabana foi Robert Falcon Scott.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA",
+       "ATS_EVANS"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P11",
+      "factKey": "cabo-evans-F11",
+      "text": "É a maior das cabanas históricas da região do Mar de Ross.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EVANS_ASPA155"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P12",
+      "factKey": "cabo-evans-F12",
+      "text": "Depois, um grupo de uma expedição de Shackleton também usou a cabana como base.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "EVANS_ASPA155"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P13",
+      "factKey": "cabo-evans-F13",
+      "text": "Duas âncoras de um navio chamado Aurora estão perto da cabana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EVANS_ASPA155"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P14",
+      "factKey": "cabo-evans-F14",
+      "text": "Uma cruz num morrinho lembra três homens que morreram em 1916.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA",
+       "ATS_EVANS"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P15",
+      "factKey": "cabo-evans-F15",
+      "text": "Esse morrinho tem só 20 m de altura e fica a uns 150 m da cabana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P16",
+      "factKey": "cabo-evans-F16",
+      "text": "Uma antiga cabana magnética está fechada porque tem amianto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P17",
+      "factKey": "cabo-evans-F17",
+      "text": "Muitos objetos da expedição continuam dentro e em volta da cabana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P18",
+      "factKey": "cabo-evans-F18",
+      "text": "A única ave que comprovadamente se reproduz ali é a skua-polar-do-sul.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P19",
+      "factKey": "cabo-evans-F19",
+      "text": "Pinguins-de-adélia e imperadores passam por ali, mas não fazem ninho.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P20",
+      "factKey": "cabo-evans-F20",
+      "text": "Focas-de-weddell descansam na costa, e às vezes aparece uma foca-leopardo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P21",
+      "factKey": "cabo-evans-F21",
+      "text": "Líquens em forma de crosta foram encontrados nas rochas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P22",
+      "factKey": "cabo-evans-F22",
+      "text": "Um pequeno lago chamado Skua Lake fica a leste da cabana.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "EVANS_ASPA155"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P23",
+      "factKey": "cabo-evans-F23",
+      "text": "Só se entra com permissão e guia, e cabem no máximo 8 pessoas dentro da cabana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P24",
+      "factKey": "cabo-evans-F24",
+      "text": "Antes de entrar, é preciso secar a roupa molhada de mar, porque o sal estraga os objetos de metal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-viajante-P25",
+      "factKey": "cabo-evans-F25",
+      "text": "As visitas anotadas no livro da cabana são comparadas com a temperatura e a umidade lá dentro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "cabo-evans-geografo-P01",
+      "factKey": "cabo-evans-F01",
+      "text": "Uma edificação da era heroica da exploração antártica fica a cerca de 30 m da linha de costa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P02",
+      "factKey": "cabo-evans-F02",
+      "text": "O sítio tem vista para o Monte Erebus e para as Montanhas Transantárticas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P03",
+      "factKey": "cabo-evans-F03",
+      "text": "O cabo está na costa oeste da Ilha Ross, voltado para o Estreito de McMurdo.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P04",
+      "factKey": "cabo-evans-F04",
+      "text": "Trata-se de uma pequena área triangular, baixa e livre de gelo, de origem vulcânica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P05",
+      "factKey": "cabo-evans-F05",
+      "text": "O substrato é de basalto recoberto por till, sedimento deixado pelo gelo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS",
+       "EVANS_ASPA155"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P06",
+      "factKey": "cabo-evans-F06",
+      "text": "O Monte Erebus (3.795 m), vulcão ativo, situa-se a cerca de 22 km a nordeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P07",
+      "factKey": "cabo-evans-F07",
+      "text": "O Cabo Royds fica cerca de 10 km ao norte, e a Península de Hut Point, cerca de 22 km ao sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS",
+       "EVANS_ASPA155"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P08",
+      "factKey": "cabo-evans-F08",
+      "text": "A cabana fica em Home Beach, na North Bay, na costa noroeste do cabo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS",
+       "EVANS_ASPA155"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P09",
+      "factKey": "cabo-evans-F09",
+      "text": "A construção data de janeiro de 1911, durante a expedição britânica de 1910–1913.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P10",
+      "factKey": "cabo-evans-F10",
+      "text": "A Expedição Antártica Britânica de 1910–1913, chefiada por Robert Falcon Scott, construiu a cabana.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA",
+       "ATS_EVANS"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P11",
+      "factKey": "cabo-evans-F11",
+      "text": "Entre as cabanas históricas da região do Mar de Ross, esta é a maior, segundo o plano de manejo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EVANS_ASPA155"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P12",
+      "factKey": "cabo-evans-F12",
+      "text": "O grupo do Mar de Ross, da expedição de Shackleton de 1914–1917, usou depois a cabana como base.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "EVANS_ASPA155"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P13",
+      "factKey": "cabo-evans-F13",
+      "text": "Duas âncoras do Aurora, navio da Expedição Imperial Transantártica, estão ao redor da cabana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EVANS_ASPA155"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P14",
+      "factKey": "cabo-evans-F14",
+      "text": "A cruz de Wind Vane Hill (Sítio Histórico nº 17) lembra três membros do grupo do Mar de Ross mortos em 1916.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA",
+       "ATS_EVANS"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P15",
+      "factKey": "cabo-evans-F15",
+      "text": "Wind Vane Hill, com 20 m, eleva-se cerca de 150 m a sudeste da cabana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P16",
+      "factKey": "cabo-evans-F16",
+      "text": "A Cabana Magnética, em Wind Vane Hill, permanece trancada e coberta por conter amianto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P17",
+      "factKey": "cabo-evans-F17",
+      "text": "Numerosos artefatos permanecem dentro da cabana (Sítio Histórico nº 16) e espalhados pelo entorno.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P18",
+      "factKey": "cabo-evans-F18",
+      "text": "Entre as aves, apenas a skua-polar-do-sul tem reprodução confirmada no cabo.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P19",
+      "factKey": "cabo-evans-F19",
+      "text": "Adélias, imperadores, petréis-das-neves e petréis-antárticos são frequentes, mas não se reproduzem no cabo.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P20",
+      "factKey": "cabo-evans-F20",
+      "text": "A foca-de-weddell usa regularmente a costa para repouso; a foca-leopardo surge ocasionalmente.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P21",
+      "factKey": "cabo-evans-F21",
+      "text": "Líquens crostosos são a flora registrada nas diretrizes do sítio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P22",
+      "factKey": "cabo-evans-F22",
+      "text": "O Skua Lake fica a leste, e o riacho que sai dele marca parte do limite nordeste da área protegida.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "EVANS_ASPA155"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P23",
+      "factKey": "cabo-evans-F23",
+      "text": "Como Área Antártica Especialmente Protegida nº 155, admite até 2.000 visitantes por ano, 40 por vez e 8 na cabana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P24",
+      "factKey": "cabo-evans-F24",
+      "text": "Partículas de sal trazidas em roupas e botas aceleram a corrosão dos objetos metálicos da cabana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-evans-geografo-P25",
+      "factKey": "cabo-evans-F25",
+      "text": "O livro de visitas é cruzado com dados de temperatura e umidade registrados automaticamente no interior da cabana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_EVANS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Pequeno cabo triangular e vulcânico na costa oeste da Ilha Ross, diante do Estreito de McMurdo: guarda a cabana construída em 1911 pela expedição de Robert Falcon Scott (1910–1913), depois usada pelo grupo do Mar de Ross, e a cruz de Wind Vane Hill.",
+   "editorialNotes": [
+    "A cabana também foi base do grupo do Mar de Ross (expedição de Shackleton, 1914–1917); o C4 pergunta por quem a construiu, e por isso o gabarito é Scott.",
+    "No cabo só a skua-polar-do-sul tem reprodução confirmada: adélias e imperadores aparecem, mas não se reproduzem ali (diretrizes de 2021).",
+    "As pistas evitam os nomes \"Evans\" e \"Terra Nova\", que entregariam o C1."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e gabaritos conferidos nas diretrizes do Tratado (2021), no plano de manejo da ASPA 155 e na lista de sítios históricos; C2 e C3 refeitos porque o gabarito da expedição repetia o título."
+  }
+ },
+ "sources": {
+  "ATS_EVANS": {
+   "id": "ATS_EVANS",
+   "title": "Visitor Site Guidelines: 43. Cape Evans",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://www.ats.aq/devAS/e/Ats/Guideline/3b1b86b6-3e0b-4698-a367-79b2422e3026",
+   "checkedAt": "2026-11-15"
+  },
+  "EVANS_ASPA155": {
+   "id": "EVANS_ASPA155",
+   "title": "Management Plan for Antarctic Specially Protected Area No. 155: Cape Evans, Ross Island (Measure 11, 2015)",
+   "publisher": "Ministry of the Environment, Japan (cópia do plano adotado pela RCTA)",
+   "url": "https://www.env.go.jp/nature/nankyoku/kankyohogo/database/jyouyaku/aspa/aspa_pdf_en/Measure11_ASPA155.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "ATS_HSM_LISTA": {
+   "id": "ATS_HSM_LISTA",
+   "title": "List of Historic Sites and Monuments approved by the ATCM",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://documents.ats.aq/atcm34/ww/atcm34_ww002_e.pdf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.ats.aq/devAS/e/Ats/Guideline/3b1b86b6-3e0b-4698-a367-79b2422e3026",
+   "https://guidelines.ats.aq/GuideLinePDF/3b1b86b6-3e0b-4698-a367-79b2422e3026/Cape_Evans_2021_e.pdf",
+   "https://www.env.go.jp/nature/nankyoku/kankyohogo/database/jyouyaku/aspa/aspa_pdf_en/Measure11_ASPA155.pdf",
+   "https://documents.ats.aq/atcm34/ww/atcm34_ww002_e.pdf"
+  ],
+  "alteracoes": [
+   "Novas fontes: EVANS_ASPA155 (plano de manejo, Measure 11/2015) e ATS_HSM_LISTA (HSM 16 e 17).",
+   "C3: \"Expedição histórica = Expedição Terra Nova\" (nome que está no título) substituído por \"Ave com reprodução confirmada no cabo\" = skua-polar-do-sul; adélia, imperador e petrel-das-neves são observados mas não se reproduzem ali (diretrizes).",
+   "C2: \"Ilha\" (mesma de vários outros cabos) substituído por \"Braço de mar diante do sítio\" = Estreito de McMurdo.",
+   "C4: rótulo precisado para \"Líder da expedição que construiu a cabana\", já que o grupo de Shackleton também usou a cabana.",
+   "C1: \"Ponto Wild\" corrigido para \"Point Wild\"; \"Cabo Adare e Cabanas de Borchgrevink\" alinhado ao título \"Cabo Adare e Praia Ridley\"; \"Baía das Baleias\" trocada por \"Cabo Hallett\".",
+   "Viajante P09 (\"o navio chamava-se Terra Nova\") e Geógrafo P07 retiradas: entregavam o título.",
+   "Viajante P05 e Geógrafo P03: origem vulcânica mantida; Geógrafo P05 passou a explicar o substrato (basalto coberto por till, plano da ASPA 155).",
+   "Novas pistas verificadas: 10 km do Cabo Royds e 22 km de Hut Point, maior cabana histórica do Mar de Ross, uso pelo grupo do Mar de Ross (1914–1917), âncoras do Aurora, Wind Vane Hill (20 m, 150 m a sudeste), Skua Lake, limites de visitantes, livro de visitas e umidade.",
+   "Pistas reorganizadas em pares por fato (25), com 2 de abertura e 2 decisivas por perfil.",
+   "geography.countries: o banco usa [] para a Antártida, mas o validador exige código ISO; usado \"AQ\"."
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

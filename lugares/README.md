@@ -97,6 +97,23 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Centro Histórico da Cidade de Goiás | Brasil / Centro-Oeste |
 | Parque Nacional da Serra da Capivara | Brasil / Nordeste |
 | Praça de São Francisco em São Cristóvão | Brasil / Nordeste |
+| Cabo Adare e Praia Ridley | Antártida |
+| Cabo Crozier | Antártida |
+| Cabo Denison e Cabanas de Mawson | Antártida |
+| Cabo Evans e Cabana Terra Nova | Antártida |
+| Cabo Royds | Antártida |
+| Ilha Half Moon | Antártida |
+| Ilha Cuverville | Antártida |
+| Ilha Detaille e Base W | Antártida |
+| Ilha do Mel | Brasil / Sul |
+| Ilha Petermann | Antártida |
+| Joinville | Brasil / Sul |
+| Parque Nacional da Lagoa do Peixe | Brasil / Sul |
+| Neko Harbour | Antártida |
+| Parque Estadual do Cantão | Brasil / Norte |
+| Porto Murtinho | Brasil / Centro-Oeste |
+| Rio Paraguai | Brasil / Centro-Oeste |
+| Trinidad e Vale dos Engenhos | Américas |
 
 | Parque Nacional do Catimbau | Brasil / Nordeste |
 | Parque Nacional de Ubajara | Brasil / Nordeste |
@@ -123,7 +140,7 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Belo Horizonte | Brasil / Sudeste |
 | Parque Nacional Los Glaciares | Américas |
 
-São 108 lugares, 216 conjuntos de pistas (dois por lugar), 5.400 pistas, 432 perguntas distintas e 3.194 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 125 lugares, 250 conjuntos de pistas (dois por lugar), 6.250 pistas, 500 perguntas distintas e 3.604 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 

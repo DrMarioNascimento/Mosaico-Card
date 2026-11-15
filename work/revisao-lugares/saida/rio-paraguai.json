@@ -1,0 +1,1148 @@
+{
+ "case": {
+  "id": "lug2-rio-paraguai",
+  "placeId": "rio-paraguai",
+  "title": "Rio Paraguai",
+  "aliases": [
+   "Paraguai"
+  ],
+  "answerType": "rio sul-americano",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR",
+    "BO",
+    "PY",
+    "AR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "centro-oeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Rio sul-americano",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Rio Paraguai"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Rio Paraná"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Rio Uruguai"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Rio Araguaia"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Rio Tocantins"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Rio São Francisco"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Rio Madeira"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Rio Xingu"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Rio Tapajós"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Rio Juruena"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Rio Parnaíba"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Rio Negro"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Rio Paraguai",
+    "sources": [
+     "CENTRO_RPA_ANA",
+     "RPAR_ANA_NT2019"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Rio em que deságua",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Rio Paraná"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Rio Uruguai"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Rio Amazonas"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Rio Tocantins"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Rio Paraná",
+    "sources": [
+     "RPAR_MAGYP",
+     "CENTRO_RPA_ANA"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Planície alagável associada",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Pantanal"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Planície do Bananal"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Campos do Marajó"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Delta do Parnaíba"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Pantanal",
+    "sources": [
+     "CENTRO_RPA_ANA",
+     "CENTRO_RPA_ANA2",
+     "RPAR_ANA_NT2020"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Serra das nascentes",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Serra dos Parecis"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Serra da Canastra"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Serra do Roncador"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Serra do Espinhaço"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Serra dos Parecis",
+    "sources": [
+     "CENTRO_RPA_ANA"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "rio-paraguai-viajante-P01",
+      "factKey": "rio-paraguai-F01",
+      "text": "Este destino é um grande rio da América do Sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P02",
+      "factKey": "rio-paraguai-F02",
+      "text": "Ele nasce no Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA",
+       "RPAR_ANA_NT2019"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P03",
+      "factKey": "rio-paraguai-F03",
+      "text": "A nascente fica em Mato Grosso.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P04",
+      "factKey": "rio-paraguai-F04",
+      "text": "As nascentes ficam na Serra dos Parecis.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P05",
+      "factKey": "rio-paraguai-F05",
+      "text": "Em território brasileiro, ele corre por Mato Grosso e Mato Grosso do Sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA",
+       "RPAR_SGB_2024"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P06",
+      "factKey": "rio-paraguai-F06",
+      "text": "Suas águas atravessam uma grande planície que alaga na época das cheias.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "RPAR_ANA_NT2020",
+       "RPAR_SGB_2024"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P07",
+      "factKey": "rio-paraguai-F07",
+      "text": "Essa planície é o Pantanal.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA",
+       "CENTRO_RPA_ANA2"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P08",
+      "factKey": "rio-paraguai-F08",
+      "text": "O nível da água sobe e desce bastante ao longo do ano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_SGB_2024",
+       "CENTRO_RPA_ANA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P09",
+      "factKey": "rio-paraguai-F09",
+      "text": "Nas cheias, a água se espalha e cobre grandes áreas da planície.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "RPAR_ANA_NT2019"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P10",
+      "factKey": "rio-paraguai-F10",
+      "text": "Num trecho ao sul, o rio serve de fronteira entre o Brasil e um país vizinho.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_ANA_NT2019",
+       "RPAR_ANA_NT2020"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P11",
+      "factKey": "rio-paraguai-F11",
+      "text": "Parte da bacia do rio fica na Bolívia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA",
+       "RPAR_ANA_NT2020"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P12",
+      "factKey": "rio-paraguai-F12",
+      "text": "Depois de deixar o Brasil, o rio segue até a Argentina.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA",
+       "RPAR_ANA_NT2020"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P13",
+      "factKey": "rio-paraguai-F13",
+      "text": "No fim do percurso, ele encontra outro grande rio.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "RPAR_MAGYP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P14",
+      "factKey": "rio-paraguai-F14",
+      "text": "O rio que recebe suas águas é o Paraná.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "RPAR_MAGYP",
+       "CENTRO_RPA_ANA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P15",
+      "factKey": "rio-paraguai-F15",
+      "text": "A navegação está entre os usos importantes do rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA",
+       "CENTRO_RPA_ANA2"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P16",
+      "factKey": "rio-paraguai-F16",
+      "text": "Há transporte de cargas tanto rio abaixo quanto rio acima.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_MAGYP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P17",
+      "factKey": "rio-paraguai-F17",
+      "text": "Soja e minério estão entre as cargas que viajam pelo rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_MAGYP",
+       "RPAR_BCR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P18",
+      "factKey": "rio-paraguai-F18",
+      "text": "Em Cáceres, em Mato Grosso, começa a hidrovia que usa o rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_TCU",
+       "RPAR_MAGYP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P19",
+      "factKey": "rio-paraguai-F19",
+      "text": "Corumbá, em Mato Grosso do Sul, fica às margens dele.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_SGB_2024",
+       "RPAR_TCU"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P20",
+      "factKey": "rio-paraguai-F20",
+      "text": "Em Porto Murtinho, um terminal embarca soja pelo rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_SEMADESC_2022"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P21",
+      "factKey": "rio-paraguai-F21",
+      "text": "Os rios Cuiabá e São Lourenço fazem parte da sua bacia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P22",
+      "factKey": "rio-paraguai-F22",
+      "text": "O rio Taquari também faz parte da sua bacia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P23",
+      "factKey": "rio-paraguai-F23",
+      "text": "O rio Miranda é outro curso de água da sua bacia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P24",
+      "factKey": "rio-paraguai-F24",
+      "text": "Erosão e assoreamento preocupam quem cuida das águas da região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA2",
+       "RPAR_IMASUL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-viajante-P25",
+      "factKey": "rio-paraguai-F25",
+      "text": "Esgoto sem tratamento e a agropecuária pressionam a qualidade da água na bacia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_IMASUL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "rio-paraguai-geografo-P01",
+      "factKey": "rio-paraguai-F01",
+      "text": "O objeto é um curso de água cuja bacia se estende por mais de um país sul-americano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA",
+       "RPAR_ANA_NT2020"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P02",
+      "factKey": "rio-paraguai-F02",
+      "text": "As cabeceiras ficam no extremo norte da sua região hidrográfica, em território brasileiro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_ANA_NT2019"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P03",
+      "factKey": "rio-paraguai-F03",
+      "text": "Nasce em Mato Grosso e corre para o sul, no limite entre os biomas Amazônia e Cerrado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_ANA_NT2020",
+       "CENTRO_RPA_ANA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P04",
+      "factKey": "rio-paraguai-F04",
+      "text": "Notas técnicas da ANA situam a nascente na Chapada dos Parecis.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "RPAR_ANA_NT2019",
+       "RPAR_ANA_NT2020"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P05",
+      "factKey": "rio-paraguai-F05",
+      "text": "No Brasil, sua região hidrográfica ocupa 4,3% do território nacional, em partes de Mato Grosso e Mato Grosso do Sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA2",
+       "CENTRO_RPA_ANA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P06",
+      "factKey": "rio-paraguai-F06",
+      "text": "O rio é o principal responsável pela drenagem da depressão pantaneira.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "RPAR_ANA_NT2020"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P07",
+      "factKey": "rio-paraguai-F07",
+      "text": "A planície pantaneira ocupa cerca de 36% da bacia do alto curso; o restante é planalto.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P08",
+      "factKey": "rio-paraguai-F08",
+      "text": "Entre dezembro e abril o monitoramento acompanha as cheias; de julho a outubro, a vazante.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_SGB_2024"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P09",
+      "factKey": "rio-paraguai-F09",
+      "text": "A água produzida no planalto sustenta o pulso de inundação, e a área alagada variou de cerca de 8 mil a 100 mil km² entre 2003 e 2018.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "RPAR_ANA_NT2019"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P10",
+      "factKey": "rio-paraguai-F10",
+      "text": "Antes de deixar o Brasil, o curso forma parte do limite natural com o país vizinho ao sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_ANA_NT2020",
+       "RPAR_ANA_NT2019"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P11",
+      "factKey": "rio-paraguai-F11",
+      "text": "A região hidrográfica tem cerca de 600 mil km², dos quais pouco mais de 362 mil km² estão no Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_ANA_NT2019",
+       "RPAR_ANA_NT2020"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P12",
+      "factKey": "rio-paraguai-F12",
+      "text": "A região hidrográfica é compartilhada pelo Brasil, pela Bolívia e por mais um país vizinho.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_ANA_NT2020",
+       "CENTRO_RPA_ANA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P13",
+      "factKey": "rio-paraguai-F13",
+      "text": "Depois de mais de 2.500 km, a foz fica em território argentino.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA",
+       "RPAR_ANA_NT2019"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P14",
+      "factKey": "rio-paraguai-F14",
+      "text": "No ponto chamado Confluencia, a hidrovia deixa este rio e segue pelo Paraná Médio rumo a Santa Fe.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "RPAR_MAGYP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P15",
+      "factKey": "rio-paraguai-F15",
+      "text": "Sem eclusas, a hidrovia de 3.442 km liga Cáceres a Nueva Palmira, no Uruguai.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_BCR",
+       "RPAR_TCU"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P16",
+      "factKey": "rio-paraguai-F16",
+      "text": "Na hidrovia, o tráfego descendente de cargas é cerca de quatro vezes maior que o ascendente.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_MAGYP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P17",
+      "factKey": "rio-paraguai-F17",
+      "text": "Minério de ferro e manganês de Corumbá e grãos de Mato Grosso e Mato Grosso do Sul usam a hidrovia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_BCR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P18",
+      "factKey": "rio-paraguai-F18",
+      "text": "O tramo norte da hidrovia, com cerca de 680 km, vai de Cáceres a Corumbá.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_TCU"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P19",
+      "factKey": "rio-paraguai-F19",
+      "text": "A estação de Ladário é usada com frequência como referência regional para o nível do rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_SGB_2024"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P20",
+      "factKey": "rio-paraguai-F20",
+      "text": "O sistema de alerta hidrológico acompanha a calha principal de Cáceres até Porto Murtinho.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_SGB_2024"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P21",
+      "factKey": "rio-paraguai-F21",
+      "text": "O estudo de viabilidade da hidrovia inclui trechos navegáveis dos rios Cuiabá, São Lourenço e Miranda.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_EVTEA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P22",
+      "factKey": "rio-paraguai-F22",
+      "text": "Taquari, Itiquira e Jauru estão entre os principais rios da sua região hidrográfica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P23",
+      "factKey": "rio-paraguai-F23",
+      "text": "Miranda, Aquidauana, Negro e Apa também figuram entre os principais rios da região hidrográfica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P24",
+      "factKey": "rio-paraguai-F24",
+      "text": "Sedimentos produzidos no planalto são carreados pelos rios e se depositam na planície.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RPAR_ANA_NT2020"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-paraguai-geografo-P25",
+      "factKey": "rio-paraguai-F25",
+      "text": "Em 2024, a ANA declarou escassez hídrica crítica na região após mínimas históricas do rio em estações da calha principal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_RPA_ANA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "O Rio Paraguai nasce na Serra dos Parecis, em Mato Grosso, drena o Pantanal, forma parte da fronteira do Brasil com o Paraguai e deságua no Rio Paraná, na Argentina.",
+   "editorialNotes": [
+    "A extensão total varia entre documentos da ANA (2.582 km na notícia de 2024; 2.621 km na Nota Técnica 3/2019); as pistas usam só \"mais de 2.500 km\".",
+    "A nascente aparece como Serra dos Parecis (notícia da ANA, 2024) e Chapada dos Parecis (Notas Técnicas da ANA); C4 usa Serra dos Parecis.",
+    "O alias \"Paraguai\" impede citar o país vizinho pelo nome nas pistas; a confluência com o Paraná se apoia na lista oficial de tramos da hidrovia (MAGyP) e na foz argentina indicada pela ANA."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Fontes reabertas ou substituídas por ANA, SGB, TCU, DNIT/UFPR, MAGyP e órgãos de MS; 50 pistas conferidas, trocando a fronteira com a Bolívia (sem fonte) e repetições por fatos verificados, e alternativas de C2–C4 ajustadas."
+  }
+ },
+ "sources": {
+  "CENTRO_RPA_ANA": {
+   "id": "CENTRO_RPA_ANA",
+   "title": "Diretoria Colegiada da ANA aprova declaração de escassez quantitativa dos recursos hídricos da Região Hidrográfica do Paraguai (13/05/2024)",
+   "publisher": "Agência Nacional de Águas e Saneamento Básico (ANA)",
+   "url": "https://www.gov.br/ana/pt-br/assuntos/noticias-e-eventos/noticias/diretoria-colegiada-da-ana-aprova-declaracao-de-escassez-quantitativa-dos-recursos-hidricos-da-regiao-hidrografica-do-paraguai",
+   "checkedAt": "2026-11-15"
+  },
+  "CENTRO_RPA_ANA2": {
+   "id": "CENTRO_RPA_ANA2",
+   "title": "Região Hidrográfica do Paraguai",
+   "publisher": "Agência Nacional de Águas e Saneamento Básico (ANA)",
+   "url": "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/panorama-das-aguas/regioes-hidrograficas/regiao-hidrografica-paraguai",
+   "checkedAt": "2026-11-15"
+  },
+  "RPAR_SGB_2024": {
+   "id": "RPAR_SGB_2024",
+   "title": "Operação do Sistema de Alerta Hidrológico da Bacia do Rio Paraguai 2024",
+   "publisher": "Serviço Geológico do Brasil (SGB)",
+   "url": "https://rigeo.sgb.gov.br/bitstream/doc/25308/13/sah_paraguai_2024.pdf.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "RPAR_TCU": {
+   "id": "RPAR_TCU",
+   "title": "Manutenção de hidrovia no rio Paraguai é fiscalizada pelo TCU (30/10/2023)",
+   "publisher": "Tribunal de Contas da União",
+   "url": "https://portal.tcu.gov.br/imprensa/noticias/manutencao-de-hidrovia-no-rio-paraguai-e-fiscalizada-pelo-tcu",
+   "checkedAt": "2026-11-15"
+  },
+  "RPAR_EVTEA": {
+   "id": "RPAR_EVTEA",
+   "title": "Estudo de Viabilidade Técnica, Econômica e Ambiental da Hidrovia do Paraguai — Hidráulica e Hidrologia (2015)",
+   "publisher": "DNIT, UFPR e ITTI (documento publicado pela ANA)",
+   "url": "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/planos-e-estudos-sobre-rec-hidricos/plano-de-recursos-hidricos-rio-paraguai/grupo-de-acompanhamento/5a-reuniao-do-gap/dnit-e-ufpr_hidrovia-paraguai-anexo3.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "RPAR_ANA_NT2019": {
+   "id": "RPAR_ANA_NT2019",
+   "title": "Nota Técnica Conjunta nº 3/2019/SPR/SRE — Plano de Recursos Hídricos da Região Hidrográfica do Paraguai",
+   "publisher": "Agência Nacional de Águas e Saneamento Básico (ANA)",
+   "url": "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/planos-e-estudos-sobre-rec-hidricos/plano-de-recursos-hidricos-rio-paraguai/05-nt-3_2019_spr_sre.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "RPAR_ANA_NT2020": {
+   "id": "RPAR_ANA_NT2020",
+   "title": "Nota Técnica Conjunta nº 1/2020/SPR/SRE — Plano de Recursos Hídricos da Região Hidrográfica do Paraguai",
+   "publisher": "Agência Nacional de Águas e Saneamento Básico (ANA)",
+   "url": "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/planos-e-estudos-sobre-rec-hidricos/plano-de-recursos-hidricos-rio-paraguai/19-nt-1_2020_spr_sre_1a_parte.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "RPAR_MAGYP": {
+   "id": "RPAR_MAGYP",
+   "title": "Hidrovía Paraná-Paraguay",
+   "publisher": "Ministerio de Agricultura, Ganadería y Pesca (Argentina)",
+   "url": "https://www.magyp.gob.ar/new/0-0/programas/dma/regimenes_especiales/Hidrovia%20Parana%20Paraguay.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "RPAR_BCR": {
+   "id": "RPAR_BCR",
+   "title": "El transporte de granos desde Mato Grosso y Mato Grosso do Sul por la Hidrovía Paraguay-Paraná (07/12/2017)",
+   "publisher": "Bolsa de Comercio de Rosario",
+   "url": "https://www.bcr.com.ar/es/print/pdf/node/72412",
+   "checkedAt": "2026-11-15"
+  },
+  "RPAR_SEMADESC_2022": {
+   "id": "RPAR_SEMADESC_2022",
+   "title": "Com melhora do nível da hidrovia terminal de Porto Murtinho fará primeiro embarque do ano (16/03/2022)",
+   "publisher": "SEMADESC — Governo de Mato Grosso do Sul",
+   "url": "https://www.semadesc.ms.gov.br/?p=118706",
+   "checkedAt": "2026-11-15"
+  },
+  "RPAR_IMASUL": {
+   "id": "RPAR_IMASUL",
+   "title": "Estudo mostra que recursos hídricos da Bacia do Paraguai têm qualidade e quantidade adequadas (14/07/2017)",
+   "publisher": "Instituto de Meio Ambiente de Mato Grosso do Sul (IMASUL)",
+   "url": "https://www.imasul.ms.gov.br/estudo-mostra-que-recursos-hidricos-da-bacia-do-paraguai-tem-qualidade-e-quantidade-adequadas",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.gov.br/ana/pt-br/assuntos/noticias-e-eventos/noticias/diretoria-colegiada-da-ana-aprova-declaracao-de-escassez-quantitativa-dos-recursos-hidricos-da-regiao-hidrografica-do-paraguai",
+   "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/panorama-das-aguas/regioes-hidrograficas/regiao-hidrografica-paraguai",
+   "https://rigeo.sgb.gov.br/bitstream/doc/25308/13/sah_paraguai_2024.pdf.pdf",
+   "https://portal.tcu.gov.br/imprensa/noticias/manutencao-de-hidrovia-no-rio-paraguai-e-fiscalizada-pelo-tcu",
+   "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/planos-e-estudos-sobre-rec-hidricos/plano-de-recursos-hidricos-rio-paraguai/grupo-de-acompanhamento/5a-reuniao-do-gap/dnit-e-ufpr_hidrovia-paraguai-anexo3.pdf",
+   "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/planos-e-estudos-sobre-rec-hidricos/plano-de-recursos-hidricos-rio-paraguai/05-nt-3_2019_spr_sre.pdf",
+   "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/planos-e-estudos-sobre-rec-hidricos/plano-de-recursos-hidricos-rio-paraguai/19-nt-1_2020_spr_sre_1a_parte.pdf",
+   "https://www.magyp.gob.ar/new/0-0/programas/dma/regimenes_especiales/Hidrovia%20Parana%20Paraguay.pdf",
+   "https://www.bcr.com.ar/es/print/pdf/node/72412",
+   "https://www.semadesc.ms.gov.br/?p=118706",
+   "https://www.imasul.ms.gov.br/estudo-mostra-que-recursos-hidricos-da-bacia-do-paraguai-tem-qualidade-e-quantidade-adequadas"
+  ],
+  "alteracoes": [
+   "Fontes CENTRO_RPA_DNIT e CENTRO_RPA_SGB do rascunho não abriram (bloqueio de acesso); substituídas por TCU, EVTEA DNIT/UFPR, boletim SGB 2024, notas técnicas da ANA, MAGyP, BCR, SEMADESC e IMASUL; CENTRO_RPA_ANA teve o título corrigido para o da notícia real",
+   "C2: Rio São Francisco trocado por Rio Uruguai (mesma bacia platina, alternativa mais plausível)",
+   "C3: \"Planície dos Lençóis Maranhenses\" (não é planície fluvial alagável) trocada por Planície do Bananal; Marajó virou \"Campos do Marajó\"",
+   "C4: Serra do Mar, Mantiqueira e Órgãos (todas do Sudeste, eliminação fácil) trocadas por Serra da Canastra, Serra do Roncador e Serra do Espinhaço",
+   "viajante P11 e geógrafo P11: divisa com a Bolívia sem fonte aberta → bacia que inclui território boliviano / área da região hidrográfica (ANA)",
+   "viajante P10 e geógrafo P10 reescritas: o limite natural confirmado nas fontes é com o país vizinho ao sul, na porção sul do curso (ANA)",
+   "viajante P12/P13 e geógrafo P12/P13/P14: repetições sobre \"mais de um país\" trocadas por foz em território argentino, extensão de mais de 2.500 km e passagem ao Paraná Médio na Confluencia (ANA; MAGyP)",
+   "viajante P15–P17 e geógrafo P15–P17: navegação e cargas reescritas com dados das fontes (3.442 km sem eclusas, tráfego descendente maior, soja, minério de ferro e manganês)",
+   "viajante P18–P20 e geógrafo P18–P21: cidades e hidrovia com dados verificados (tramo norte de cerca de 680 km, estação de Ladário, terminal de soja em Porto Murtinho, trechos navegáveis do Cuiabá, São Lourenço e Miranda)",
+   "geógrafo P03, P04, P06–P09, P22–P25 reescritas com processos das fontes (limite Amazônia–Cerrado, drenagem da depressão pantaneira, pulso de inundação e área alagada 2003–2018, sedimentação, escassez de 2024)",
+   "viajante P25: \"qualidade da água\" genérica → pressões de esgoto e agropecuária (IMASUL)",
+   "Marcadas aberturas (viajante P01 e P08; geógrafo P01 e P02) e decisivas (P18 e P19 nos dois perfis)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

@@ -1,0 +1,1047 @@
+{
+ "case": {
+  "id": "lug2-ilha-petermann",
+  "placeId": "ilha-petermann",
+  "title": "Ilha Petermann",
+  "aliases": [
+   "Petermann"
+  ],
+  "answerType": "ilha antártica",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "AQ"
+   ],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Ilha antártica",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Ilha Petermann"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Ilha Cuverville"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Ilha Deception"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Ilha Paulet"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Ilha Goudier"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Ilha Half Moon"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Ilha Rei George"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Ilha Livingston"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Ilha Greenwich"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Ilha Danco"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Ilha Wiencke"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Ilha Snow Hill"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Ilha Petermann",
+    "sources": [
+     "ATS_PETERMANN"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Estreito ou canal onde fica a ilha",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Estreito de Penola"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Canal Errera"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Canal Neumayer"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Estreito de Gerlache"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Estreito de Penola",
+    "sources": [
+     "ATS_PETERMANN"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Pinguins que se reproduzem na ilha",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Pinguins-de-adélia e gentoo"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Pinguins-de-barbicha e macaroni"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Pinguins-imperador e rei"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Pinguins-de-barbicha e imperador"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Pinguins-de-adélia e gentoo",
+    "sources": [
+     "ATS_PETERMANN"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Expedição histórica associada",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Segunda expedição francesa de Charcot"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Expedição Southern Cross, de Borchgrevink"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Expedição Antártica Australasiana, de Mawson"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Expedição Nimrod, de Shackleton"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Segunda expedição francesa de Charcot",
+    "sources": [
+     "ATS_PETERMANN",
+     "PETERMANN_HSM"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "ilha-petermann-viajante-P01",
+      "factKey": "ilha-petermann-F01",
+      "text": "Este destino é uma pequena ilha antártica, com pinguins e montanhas ao redor.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P02",
+      "factKey": "ilha-petermann-F02",
+      "text": "A ilha tem cerca de 1 km de comprimento.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P03",
+      "factKey": "ilha-petermann-F03",
+      "text": "O ponto mais alto chega a uns 150 metros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P04",
+      "factKey": "ilha-petermann-F04",
+      "text": "Fica no Estreito de Penola.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P05",
+      "factKey": "ilha-petermann-F05",
+      "text": "Uma calota de gelo cobre parte da ponta noroeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P06",
+      "factKey": "ilha-petermann-F06",
+      "text": "Boa parte do sul da ilha fica sob uma rampa de gelo cheia de fendas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P07",
+      "factKey": "ilha-petermann-F07",
+      "text": "Pequenas baías de pedras recortam o litoral, cheio de rochas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P08",
+      "factKey": "ilha-petermann-F08",
+      "text": "Pinguins-de-adélia fazem ninhos na ilha.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P09",
+      "factKey": "ilha-petermann-F09",
+      "text": "Pinguins-gentoo também se reproduzem ali.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P10",
+      "factKey": "ilha-petermann-F10",
+      "text": "Biguás-de-olhos-azuis fazem ninhos junto a um dique de basalto, na ponta nordeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P11",
+      "factKey": "ilha-petermann-F11",
+      "text": "Skuas-polares-do-sul e petréis-de-wilson também se reproduzem ali.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P12",
+      "factKey": "ilha-petermann-F12",
+      "text": "Pombas-antárticas estão entre as aves que fazem ninhos na ilha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P13",
+      "factKey": "ilha-petermann-F13",
+      "text": "Musgos e uma gramínea antártica crescem na ilha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P14",
+      "factKey": "ilha-petermann-F14",
+      "text": "Algas que vivem na neve podem cobrir grandes áreas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P15",
+      "factKey": "ilha-petermann-F15",
+      "text": "Uma expedição francesa passou o inverno ali, a bordo do navio Pourquoi-Pas?.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P16",
+      "factKey": "ilha-petermann-F16",
+      "text": "Em 1909, essa expedição ergueu um marco de pedras num morro da ilha.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PETERMANN_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P17",
+      "factKey": "ilha-petermann-F17",
+      "text": "A placa original do marco está num museu em Paris; no local fica uma réplica.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PETERMANN_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P18",
+      "factKey": "ilha-petermann-F18",
+      "text": "Correntes, uma marca de maré e as letras “PP” gravadas na pedra lembram a expedição.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P19",
+      "factKey": "ilha-petermann-F19",
+      "text": "Há um refúgio argentino na ilha, onde os visitantes não devem entrar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P20",
+      "factKey": "ilha-petermann-F20",
+      "text": "Uma cruz lembra três integrantes do serviço antártico britânico mortos em 1982.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P21",
+      "factKey": "ilha-petermann-F21",
+      "text": "O desembarque é feito na costa de uma enseada chamada Port Circumcision.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P22",
+      "factKey": "ilha-petermann-F22",
+      "text": "A subida até o marco histórico é feita só em pequenos grupos guiados.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_PETERMANN",
+       "PETERMANN_ATCM29"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P23",
+      "factKey": "ilha-petermann-F23",
+      "text": "Câmeras automáticas de monitoramento podem estar instaladas e devem ser respeitadas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P24",
+      "factKey": "ilha-petermann-F24",
+      "text": "Foi aqui que o explorador francês Jean-Baptiste Charcot passou o inverno com seu navio.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-viajante-P25",
+      "factKey": "ilha-petermann-F25",
+      "text": "A Ilha Hovgaard fica logo ao norte deste destino.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "ilha-petermann-geografo-P01",
+      "factKey": "ilha-petermann-F01",
+      "text": "O recorte é uma ilha pequena, de cenário montanhoso, onde se reproduzem duas espécies de pinguins.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P02",
+      "factKey": "ilha-petermann-F02",
+      "text": "O eixo maior da ilha mede aproximadamente 1 km.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P03",
+      "factKey": "ilha-petermann-F03",
+      "text": "A altitude máxima, cerca de 150 m, é alcançada numa ilha de só 1 km de extensão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P04",
+      "factKey": "ilha-petermann-F04",
+      "text": "Situa-se no Estreito de Penola, ao sul da Ilha Hovgaard.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P05",
+      "factKey": "ilha-petermann-F05",
+      "text": "A calota do extremo noroeste é íngreme e fendilhada, só visitável com guias experientes e equipados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P06",
+      "factKey": "ilha-petermann-F06",
+      "text": "Uma encosta de gelo permanente e fendilhada recobre grande parte do extremo sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P07",
+      "factKey": "ilha-petermann-F07",
+      "text": "O litoral é recortado por pequenas baías de seixos, com afloramentos rochosos quase contínuos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P08",
+      "factKey": "ilha-petermann-F08",
+      "text": "O pinguim-de-adélia nidifica em dois setores fechados: junto ao dique do nordeste e em cotas altas a noroeste de Port Circumcision.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P09",
+      "factKey": "ilha-petermann-F09",
+      "text": "O pinguim-gentoo se reproduz, entre outros setores, no extremo sudoeste, protegido como área fechada.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P10",
+      "factKey": "ilha-petermann-F10",
+      "text": "O dique basáltico do extremo nordeste concentra ninhos de biguás-de-olhos-azuis.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P11",
+      "factKey": "ilha-petermann-F11",
+      "text": "No extremo sudoeste, skuas, petréis-de-wilson e vegetação dividem a mesma área protegida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P12",
+      "factKey": "ilha-petermann-F12",
+      "text": "Seis espécies de aves têm reprodução confirmada, incluindo a pomba-antártica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P13",
+      "factKey": "ilha-petermann-F13",
+      "text": "Deschampsia antarctica, tapetes de musgo e líquens crostosos compõem a vegetação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P14",
+      "factKey": "ilha-petermann-F14",
+      "text": "Algas de neve podem formar manchas extensas, e a alga verde Prasiola crispa também ocorre.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P15",
+      "factKey": "ilha-petermann-F15",
+      "text": "A segunda expedição antártica francesa invernou a bordo do Pourquoi-Pas? neste local.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P16",
+      "factKey": "ilha-petermann-F16",
+      "text": "O marco de pedras de 1909 no Morro Megalestris é o Sítio e Monumento Histórico nº 27 do Tratado.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PETERMANN_HSM",
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P17",
+      "factKey": "ilha-petermann-F17",
+      "text": "A placa de chumbo original foi levada ao Museu Nacional de História Natural, em Paris, e o marco exibe uma réplica.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PETERMANN_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P18",
+      "factKey": "ilha-petermann-F18",
+      "text": "Correntes, marca de maré e as letras “PP” gravadas em rocha são artefatos remanescentes do invernamento.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P19",
+      "factKey": "ilha-petermann-F19",
+      "text": "Um refúgio argentino compõe o conjunto edificado, sem entrada de visitantes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P20",
+      "factKey": "ilha-petermann-F20",
+      "text": "Uma cruz comemorativa marca a morte de três membros do British Antarctic Survey em 1982.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P21",
+      "factKey": "ilha-petermann-F21",
+      "text": "O desembarque ocorre na orla de Port Circumcision, ponto de partida das caminhadas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P22",
+      "factKey": "ilha-petermann-F22",
+      "text": "O acesso ao Morro Megalestris é feito em pequenos grupos guiados, e o mirante sul exige rota marcada ou guiada.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_PETERMANN",
+       "PETERMANN_ATCM29"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P23",
+      "factKey": "ilha-petermann-F23",
+      "text": "Atividades científicas e de monitoramento, como câmeras automáticas, convivem com a visitação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P24",
+      "factKey": "ilha-petermann-F24",
+      "text": "Invernada da segunda expedição de Charcot, a ilha guarda o marco nº 27 no Estreito de Penola.",
+      "relatedFields": [
+       "C1",
+       "C2",
+       "C4"
+      ],
+      "sources": [
+       "ATS_PETERMANN",
+       "PETERMANN_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-petermann-geografo-P25",
+      "factKey": "ilha-petermann-F25",
+      "text": "A Ilha Hovgaard, ao norte, é a referência de localização imediata usada nas diretrizes.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "ATS_PETERMANN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Ilha de cerca de 1 km no Estreito de Penola, ao sul da Ilha Hovgaard, com pinguins-de-adélia e gentoo, invernada da segunda expedição francesa de Charcot e o marco de 1909 (Sítio e Monumento Histórico nº 27).",
+   "editorialNotes": [
+    "A página do Tratado indica revisão de 2013 (PDF com nome de 2019).",
+    "O ano de 1909 vem da lista de Sítios e Monumentos Históricos (2012) e se refere à ereção do marco; as diretrizes de visita não trazem datas da expedição."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e campos conferidos nas diretrizes de visita do Tratado e na lista de Sítios e Monumentos Históricos; C2 e C3 refeitos com alternativas antárticas comparáveis."
+  }
+ },
+ "sources": {
+  "ATS_PETERMANN": {
+   "id": "ATS_PETERMANN",
+   "title": "Visitor Site Guidelines: 9. Petermann Island",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://www.ats.aq/devAS/e/Ats/Guideline/ec310aa8-bccd-493d-9773-22f9cee801d9",
+   "checkedAt": "2026-11-15"
+  },
+  "PETERMANN_ATCM29": {
+   "id": "PETERMANN_ATCM29",
+   "title": "Site guidelines: Petermann Island (ATCM XXIX, documento anexo)",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://documents.ats.aq/ATCM29/att/ATCM29_att008_e.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "PETERMANN_HSM": {
+   "id": "PETERMANN_HSM",
+   "title": "List of Historic Sites and Monuments approved by the ATCM (2012)",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://documents.ats.aq/ATCM35/WW/atcm35_ww003_e.pdf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.ats.aq/devAS/e/Ats/Guideline/ec310aa8-bccd-493d-9773-22f9cee801d9",
+   "https://documents.ats.aq/ATCM29/att/ATCM29_att008_e.pdf",
+   "https://documents.ats.aq/ATCM35/WW/atcm35_ww003_e.pdf"
+  ],
+  "alteracoes": [
+   "geography.countries: [] -> [\"AQ\"] (o validador exige código ISO; o banco usa [] para a Antártida)",
+   "C1: \"Ilha Aitcho\" (grupo de ilhas) trocada por \"Ilha Greenwich\"",
+   "C2: distratores McMurdo/Beagle/Magalhães trocados por Errera, Neumayer e Gerlache; Lemaire evitado (a ilha fica logo ao sul dele e geraria ambiguidade)",
+   "C3: pares absurdos (africano, galápagos, avestruz, ema) trocados por pares de pinguins antárticos que não se reproduzem ali",
+   "C4: mantido; fonte acrescida da lista de SMH (2012) para o vínculo com a segunda expedição de Charcot",
+   "pistas sobre o marco ganharam data (1909), local (Morro Megalestris) e réplica da placa, conforme a lista de SMH",
+   "retirada a afirmação \"passou o inverno próximo à ilha\": a fonte diz que invernou neste local",
+   "novas pistas verificadas: seis espécies reprodutoras, áreas fechadas por setor, letras \"PP\", Port Circumcision, câmeras automáticas",
+   "pistas realinhadas por factKey e relatedFields ajustados; aberturas P01 e P07; decisiva P24 nos dois perfis",
+   "viajante: 25 de 25 pistas reescritas ou trocadas; geografo: 25 de 25"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

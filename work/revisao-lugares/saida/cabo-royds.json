@@ -1,0 +1,1035 @@
+{
+ "case": {
+  "id": "lug2-cabo-royds",
+  "placeId": "cabo-royds",
+  "title": "Cabo Royds",
+  "aliases": [
+   "Cape Royds"
+  ],
+  "answerType": "cabo antártico",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "AQ"
+   ],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cabo antártico",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Cabo Royds"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Cabo Evans"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Cabo Crozier"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Cabo Adare"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Cabo Denison"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Cabo Bird"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Cabo Hallett"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Cabo Washington"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Cabo Roberts"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Cabo Shirreff"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Cabo Tuxen"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Cabo Irizar"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Cabo Royds",
+    "sources": [
+     "ATS_ROYDS"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Ilha onde se situa",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Ilha Ross"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Ilha Deception"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Ilha Rei George"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Ilha Elefante"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Ilha Ross",
+    "sources": [
+     "ATS_ROYDS"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Pinguim com colônia reprodutora no cabo",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Pinguim-de-adélia"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Pinguim-imperador"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Pinguim-gentoo"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Pinguim-de-barbicha"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Pinguim-de-adélia",
+    "sources": [
+     "ATS_ROYDS"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Expedição que construiu a cabana histórica",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Expedição Nimrod"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Expedição Discovery"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Expedição Terra Nova"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Expedição Southern Cross"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Expedição Nimrod",
+    "sources": [
+     "ATS_HSM_LISTA",
+     "ATS_ROYDS"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "cabo-royds-viajante-P01",
+      "factKey": "cabo-royds-F01",
+      "text": "Uma faixa baixa de terra sem gelo fica à beira de um estreito antártico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P02",
+      "factKey": "cabo-royds-F02",
+      "text": "Uma cabana antiga e uma colônia de pinguins dividem a paisagem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P03",
+      "factKey": "cabo-royds-F03",
+      "text": "O lugar fica na costa oeste de uma ilha antártica.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P04",
+      "factKey": "cabo-royds-F04",
+      "text": "O vulcão Erebus, ativo, fica uns 24 km a leste.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P05",
+      "factKey": "cabo-royds-F05",
+      "text": "Daqui também se veem as Montanhas Transantárticas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P06",
+      "factKey": "cabo-royds-F06",
+      "text": "Aqui fica a colônia de pinguins-de-adélia mais ao sul que se conhece.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P07",
+      "factKey": "cabo-royds-F07",
+      "text": "Além desses pinguins, só a skua-polar-do-sul tem reprodução confirmada ali.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P08",
+      "factKey": "cabo-royds-F08",
+      "text": "A colônia de pinguins é uma área protegida separada, fechada para passeios turísticos.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P09",
+      "factKey": "cabo-royds-F09",
+      "text": "Os visitantes olham os pinguins de longe, em pontos de observação.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P10",
+      "factKey": "cabo-royds-F10",
+      "text": "No mar em frente costuma haver uma área de água livre no meio do gelo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P11",
+      "factKey": "cabo-royds-F11",
+      "text": "Pinguins-imperadores, petréis e focas-leopardo aparecem perto da costa.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P12",
+      "factKey": "cabo-royds-F12",
+      "text": "Focas-de-weddell costumam descansar por ali.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P13",
+      "factKey": "cabo-royds-F13",
+      "text": "Perto dos pinguins aparecem as algas verdes de neve mais ao sul já vistas na região do Mar de Ross.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P14",
+      "factKey": "cabo-royds-F14",
+      "text": "Líquens em forma de crosta, raros na região, também foram encontrados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P15",
+      "factKey": "cabo-royds-F15",
+      "text": "A cabana foi construída em fevereiro de 1908.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P16",
+      "factKey": "cabo-royds-F16",
+      "text": "Ernest Shackleton comandou a expedição que montou a cabana.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_ROYDS",
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P17",
+      "factKey": "cabo-royds-F17",
+      "text": "Em 1961, uma equipe da Nova Zelândia restaurou a cabana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P18",
+      "factKey": "cabo-royds-F18",
+      "text": "Muitos objetos históricos seguem dentro da cabana e ao redor dela.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P19",
+      "factKey": "cabo-royds-F19",
+      "text": "A cabana é um símbolo da chamada era heroica da exploração antártica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P20",
+      "factKey": "cabo-royds-F20",
+      "text": "A área da cabana é protegida, e só se entra com permissão e guia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P21",
+      "factKey": "cabo-royds-F21",
+      "text": "No máximo 8 pessoas podem ficar dentro da cabana ao mesmo tempo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P22",
+      "factKey": "cabo-royds-F22",
+      "text": "Quem chega de bote ou a pé entra por uma baía chamada Backdoor Bay.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P23",
+      "factKey": "cabo-royds-F23",
+      "text": "O ponto principal de pouso de helicópteros fica a uns 250 m da cabana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P24",
+      "factKey": "cabo-royds-F24",
+      "text": "A cabana fica trancada, e a chave só é entregue a quem tem permissão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-viajante-P25",
+      "factKey": "cabo-royds-F25",
+      "text": "Fumar e acender chamas são proibidos dentro e perto da cabana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "cabo-royds-geografo-P01",
+      "factKey": "cabo-royds-F01",
+      "text": "Uma faixa costeira baixa, livre de gelo e de origem vulcânica, margeia um estreito antártico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P02",
+      "factKey": "cabo-royds-F02",
+      "text": "O sítio associa uma cabana da era heroica da exploração a uma colônia reprodutora de pinguins.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P03",
+      "factKey": "cabo-royds-F03",
+      "text": "O cabo ocupa a costa oeste da Ilha Ross, junto ao Estreito de McMurdo.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P04",
+      "factKey": "cabo-royds-F04",
+      "text": "O Monte Erebus (3.795 m), vulcão ativo, ergue-se cerca de 24 km a leste do cabo.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P05",
+      "factKey": "cabo-royds-F05",
+      "text": "A paisagem visível a partir do cabo inclui as Montanhas Transantárticas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P06",
+      "factKey": "cabo-royds-F06",
+      "text": "O cabo abriga a colônia estabelecida de pinguins-de-adélia mais meridional.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P07",
+      "factKey": "cabo-royds-F07",
+      "text": "As aves com reprodução confirmada são o pinguim-de-adélia e a skua-polar-do-sul.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P08",
+      "factKey": "cabo-royds-F08",
+      "text": "A colônia forma a Área Antártica Especialmente Protegida nº 121, onde não se concedem permissões para visitas recreativas.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P09",
+      "factKey": "cabo-royds-F09",
+      "text": "Rotas preferenciais de caminhada levam os visitantes a pontos de observação da colônia.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P10",
+      "factKey": "cabo-royds-F10",
+      "text": "Uma polínia, comum ao largo do cabo, sustenta uma fauna marinha rica e diversa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P11",
+      "factKey": "cabo-royds-F11",
+      "text": "Pinguim-imperador, petrel-antártico, petrel-das-neves e foca-leopardo são vistos junto à costa, sem reprodução no cabo.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P12",
+      "factKey": "cabo-royds-F12",
+      "text": "A foca-de-weddell usa a costa regularmente para repouso.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P13",
+      "factKey": "cabo-royds-F13",
+      "text": "As algas verdes de neve mais meridionais registradas na região do Mar de Ross ocorrem junto à colônia de pinguins.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P14",
+      "factKey": "cabo-royds-F14",
+      "text": "Líquens crostosos, comuns em poucos sítios da região, foram registrados no cabo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P15",
+      "factKey": "cabo-royds-F15",
+      "text": "A cabana data de fevereiro de 1908, durante a Expedição Antártica Britânica de 1907–1909.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P16",
+      "factKey": "cabo-royds-F16",
+      "text": "A expedição britânica de 1907–1909, conhecida pelo nome Nimrod, era liderada por Ernest Shackleton.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_ROYDS",
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P17",
+      "factKey": "cabo-royds-F17",
+      "text": "A restauração de janeiro de 1961 foi feita pela Divisão Antártica do Departamento de Pesquisa Científica e Industrial da Nova Zelândia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P18",
+      "factKey": "cabo-royds-F18",
+      "text": "Numerosos artefatos permanecem no interior da cabana e no terreno ao redor.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P19",
+      "factKey": "cabo-royds-F19",
+      "text": "Como Sítio e Monumento Histórico nº 15, a cabana é tida como símbolo da era heroica da exploração antártica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P20",
+      "factKey": "cabo-royds-F20",
+      "text": "A cabana integra a Área Antártica Especialmente Protegida nº 157, com entrada só por permissão e com guia treinado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P21",
+      "factKey": "cabo-royds-F21",
+      "text": "Os limites são 2.000 visitantes por ano, 40 pessoas por vez na área protegida e 8 dentro da cabana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P22",
+      "factKey": "cabo-royds-F22",
+      "text": "O acesso a pé ou de bote é feito por Backdoor Bay, evitando a porção marinha da área protegida da colônia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P23",
+      "factKey": "cabo-royds-F23",
+      "text": "O pouso principal de helicópteros fica 250 m a nordeste da cabana, e sobrevoos abaixo de 610 m são proibidos sobre as áreas protegidas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P24",
+      "factKey": "cabo-royds-F24",
+      "text": "A cabana permanece trancada, e a chave é obtida pelo processo de concessão de permissão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-royds-geografo-P25",
+      "factKey": "cabo-royds-F25",
+      "text": "O risco de incêndio, apontado entre os impactos potenciais, leva à proibição de fumar e de chamas na cabana e no entorno.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_ROYDS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Faixa costeira baixa, vulcânica e sem gelo na costa oeste da Ilha Ross, a cerca de 24 km do Monte Erebus: abriga a colônia de pinguins-de-adélia mais meridional e a cabana construída em 1908 pela expedição Nimrod, de Ernest Shackleton.",
+   "editorialNotes": [
+    "Há duas áreas protegidas no cabo: a ASPA 157 (cabana, visitável com permissão e guia) e a ASPA 121 (colônia de adélias, sem permissões para visitas recreativas).",
+    "Pinguins-imperadores aparecem perto da costa, mas só o pinguim-de-adélia tem reprodução confirmada no cabo (diretrizes de 2021).",
+    "Em outros casos o C1 usa a forma longa \"Cabo Royds e Cabana de Shackleton\"; aqui o título é só \"Cabo Royds\"."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e gabaritos conferidos nas diretrizes de visita do Tratado (2021) e na lista de sítios históricos (HSM 15); C3 e C4 refeitos com alternativas antárticas comparáveis."
+  }
+ },
+ "sources": {
+  "ATS_ROYDS": {
+   "id": "ATS_ROYDS",
+   "title": "Visitor Site Guidelines: 21. Cape Royds",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://www.ats.aq/devAS/Ats/Guideline/f2c01058-4419-40b3-bea0-d18b8a26fb90",
+   "checkedAt": "2026-11-15"
+  },
+  "ATS_HSM_LISTA": {
+   "id": "ATS_HSM_LISTA",
+   "title": "List of Historic Sites and Monuments approved by the ATCM",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://documents.ats.aq/atcm34/ww/atcm34_ww002_e.pdf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.ats.aq/devAS/Ats/Guideline/f2c01058-4419-40b3-bea0-d18b8a26fb90",
+   "https://documents.ats.aq/atcm34/ww/atcm34_ww002_e.pdf"
+  ],
+  "alteracoes": [
+   "Fonte ATS_ROYDS: URL trocada pela página que foi efetivamente aberta (/devAS/Ats/Guideline/..., sem /e/); mesmo documento (revisão 2021).",
+   "Nova fonte ATS_HSM_LISTA (HSM 15: construção em fevereiro de 1908, restauração em 1961).",
+   "C1: \"Cabo Wild\" (o mesmo que Point Wild, já no banco) trocado por \"Cabo Washington\".",
+   "C3: pinguins de Galápagos, de Magalhães e africano (fora da Antártida) trocados por imperador, gentoo e barbicha; rótulo precisado para \"Pinguim com colônia reprodutora no cabo\", já que o imperador aparece perto da costa.",
+   "C4: Fram, Belgica e Challenger trocadas por Discovery, Terra Nova e Southern Cross (expedições com cabanas na região do Mar de Ross); rótulo precisado para \"Expedição que construiu a cabana histórica\".",
+   "Viajante P12 e Geógrafo P12 (\"navio Nimrod\"): as fontes falam em \"Expedição Antártica Britânica (Nimrod)\", sem citar o navio; reescritas.",
+   "Viajante P07/P08 e Geógrafo P07/P08: viraram pistas específicas (colônia de adélias mais meridional, ASPA 121 fechada a visitas recreativas).",
+   "Novas pistas verificadas: polínia, algas verdes de neve mais meridionais do Mar de Ross, líquens crostosos raros, restauração de 1961, Backdoor Bay, pouso de helicópteros a 250 m e limite de 610 m, limites de visitantes, cabana trancada.",
+   "Pistas reorganizadas em pares por fato (25), com 2 de abertura e 2 decisivas por perfil.",
+   "geography.countries: o banco usa [] para a Antártida, mas o validador exige código ISO; usado \"AQ\"."
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

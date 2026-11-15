@@ -1,0 +1,871 @@
+[
+ {
+  "lote": "norte-1",
+  "recorte": "norte",
+  "lugares": [
+   {
+    "placeId": "campos-amazonicos",
+    "title": "Parque Nacional dos Campos Amazônicos",
+    "arquivo": "centro12.json"
+   },
+   {
+    "placeId": "norte-arquipelago-marajo",
+    "title": "Arquipélago do Marajó",
+    "arquivo": "norte15.json"
+   },
+   {
+    "placeId": "norte-flona-tapajos",
+    "title": "Floresta Nacional do Tapajós",
+    "arquivo": "norte7.json"
+   },
+   {
+    "placeId": "norte-macapa",
+    "title": "Macapá",
+    "arquivo": "norte3.json"
+   },
+   {
+    "placeId": "norte-palmas",
+    "title": "Palmas",
+    "arquivo": "norte5.json"
+   },
+   {
+    "placeId": "norte-parna-amazonia",
+    "title": "Parque Nacional da Amazônia",
+    "arquivo": "norte16.json"
+   },
+   {
+    "placeId": "norte-parna-araguaia",
+    "title": "Parque Nacional do Araguaia",
+    "arquivo": "norte6.json"
+   }
+  ]
+ },
+ {
+  "lote": "norte-2",
+  "recorte": "norte",
+  "lugares": [
+   {
+    "placeId": "norte-parque-cantao",
+    "title": "Parque Estadual do Cantão",
+    "arquivo": "norte13.json"
+   },
+   {
+    "placeId": "norte-parque-chandless",
+    "title": "Parque Estadual Chandless",
+    "arquivo": "norte14.json"
+   },
+   {
+    "placeId": "norte-parque-monte-alegre",
+    "title": "Parque Estadual Monte Alegre",
+    "arquivo": "norte12.json"
+   },
+   {
+    "placeId": "norte-pico-neblina",
+    "title": "Parque Nacional do Pico da Neblina",
+    "arquivo": "norte8.json"
+   },
+   {
+    "placeId": "norte-porto-velho",
+    "title": "Porto Velho",
+    "arquivo": "norte4.json"
+   },
+   {
+    "placeId": "norte-rds-mamiraua",
+    "title": "Reserva de Desenvolvimento Sustentável Mamirauá",
+    "arquivo": "norte10.json"
+   },
+   {
+    "placeId": "norte-rio-amazonas",
+    "title": "Rio Amazonas (trecho brasileiro)",
+    "arquivo": "norte17.json"
+   }
+  ]
+ },
+ {
+  "lote": "norte-3",
+  "recorte": "norte",
+  "lugares": [
+   {
+    "placeId": "norte-rio-branco",
+    "title": "Rio Branco",
+    "arquivo": "norte3.json"
+   },
+   {
+    "placeId": "norte-santarem",
+    "title": "Santarém",
+    "arquivo": "norte9.json"
+   },
+   {
+    "placeId": "norte-tumucumaque",
+    "title": "Parque Nacional Montanhas do Tumucumaque",
+    "arquivo": "norte11.json"
+   },
+   {
+    "placeId": "parna-juruena",
+    "title": "Parque Nacional do Juruena",
+    "arquivo": "centro7.json"
+   },
+   {
+    "placeId": "rio-araguaia",
+    "title": "Rio Araguaia",
+    "arquivo": "centro8.json"
+   },
+   {
+    "placeId": "rio-tocantins",
+    "title": "Rio Tocantins",
+    "arquivo": "centro14.json"
+   }
+  ]
+ },
+ {
+  "lote": "nordeste-1",
+  "recorte": "nordeste",
+  "lugares": [
+   {
+    "placeId": "aracaju",
+    "title": "Aracaju",
+    "arquivo": "nordeste_aracaju.json"
+   },
+   {
+    "placeId": "atol-rocas",
+    "title": "Reserva Biológica do Atol das Rocas",
+    "arquivo": "nordeste_atol_rocas.json"
+   },
+   {
+    "placeId": "centro-oeiras",
+    "title": "Centro Histórico de Oeiras",
+    "arquivo": "nordeste_oeiras.json"
+   },
+   {
+    "placeId": "centro-penedo",
+    "title": "Centro Histórico de Penedo",
+    "arquivo": "nordeste_penedo.json"
+   },
+   {
+    "placeId": "fortaleza",
+    "title": "Fortaleza",
+    "arquivo": "nordeste_fortaleza.json"
+   },
+   {
+    "placeId": "joao-pessoa",
+    "title": "João Pessoa",
+    "arquivo": "nordeste_joao_pessoa.json"
+   },
+   {
+    "placeId": "maceio",
+    "title": "Maceió",
+    "arquivo": "nordeste_maceio.json"
+   },
+   {
+    "placeId": "natal",
+    "title": "Natal",
+    "arquivo": "nordeste_natal.json"
+   }
+  ]
+ },
+ {
+  "lote": "nordeste-2",
+  "recorte": "nordeste",
+  "lugares": [
+   {
+    "placeId": "parque-furna-feia",
+    "title": "Parque Nacional da Furna Feia",
+    "arquivo": "nordeste_furna.json"
+   },
+   {
+    "placeId": "parque-serra-itabaiana",
+    "title": "Parque Nacional da Serra de Itabaiana",
+    "arquivo": "nordeste_itabaiana.json"
+   },
+   {
+    "placeId": "parque-sete-cidades",
+    "title": "Parque Nacional de Sete Cidades",
+    "arquivo": "nordeste_sete_cidades.json"
+   },
+   {
+    "placeId": "recife",
+    "title": "Recife",
+    "arquivo": "nordeste_recife.json"
+   },
+   {
+    "placeId": "rio-parnaiba",
+    "title": "Rio Parnaíba",
+    "arquivo": "nordeste_parnaiba.json"
+   },
+   {
+    "placeId": "serra-barriga",
+    "title": "Serra da Barriga",
+    "arquivo": "nordeste_serra_barriga.json"
+   },
+   {
+    "placeId": "teresina",
+    "title": "Teresina",
+    "arquivo": "nordeste_teresina.json"
+   }
+  ]
+ },
+ {
+  "lote": "centro-oeste-1",
+  "recorte": "centro-oeste",
+  "lugares": [
+   {
+    "placeId": "caceres-mt",
+    "title": "Cáceres",
+    "arquivo": "centro5.json"
+   },
+   {
+    "placeId": "caldas-novas-go",
+    "title": "Caldas Novas",
+    "arquivo": "centro18.json"
+   },
+   {
+    "placeId": "cuiaba-mt",
+    "title": "Cuiabá",
+    "arquivo": "centro3.json"
+   },
+   {
+    "placeId": "encontro-aguas-mt",
+    "title": "Parque Estadual Encontro das Águas",
+    "arquivo": "centro15.json"
+   },
+   {
+    "placeId": "parna-brasilia",
+    "title": "Parque Nacional de Brasília",
+    "arquivo": "centro9.json"
+   },
+   {
+    "placeId": "parque-itiquira-go",
+    "title": "Parque Municipal do Itiquira",
+    "arquivo": "centro16.json"
+   },
+   {
+    "placeId": "parque-pireneus-go",
+    "title": "Parque Estadual dos Pireneus",
+    "arquivo": "centro13.json"
+   }
+  ]
+ },
+ {
+  "lote": "centro-oeste-2",
+  "recorte": "centro-oeste",
+  "lugares": [
+   {
+    "placeId": "porto-murtinho-ms",
+    "title": "Porto Murtinho",
+    "arquivo": "centro6.json"
+   },
+   {
+    "placeId": "rio-paraguai",
+    "title": "Rio Paraguai",
+    "arquivo": "centro19.json"
+   },
+   {
+    "placeId": "serra-caldas-go",
+    "title": "Parque Estadual da Serra de Caldas Novas",
+    "arquivo": "centro11.json"
+   },
+   {
+    "placeId": "terra-ronca-go",
+    "title": "Parque Estadual de Terra Ronca",
+    "arquivo": "centro10.json"
+   },
+   {
+    "placeId": "territorio-indigena-xingu",
+    "title": "Território Indígena do Xingu",
+    "arquivo": "centro17.json"
+   },
+   {
+    "placeId": "vila-bela-mt",
+    "title": "Vila Bela da Santíssima Trindade",
+    "arquivo": "centro4.json"
+   }
+  ]
+ },
+ {
+  "lote": "sul-1",
+  "recorte": "sul",
+  "lugares": [
+   {
+    "placeId": "balneario-camboriu",
+    "title": "Balneário Camboriú",
+    "arquivo": "sul_lote10.json"
+   },
+   {
+    "placeId": "bento-goncalves",
+    "title": "Bento Gonçalves",
+    "arquivo": "sul_lote19.json"
+   },
+   {
+    "placeId": "blumenau",
+    "title": "Blumenau",
+    "arquivo": "sul.json"
+   },
+   {
+    "placeId": "geoparque-cacapava",
+    "title": "Geoparque Caçapava",
+    "arquivo": "sul_lote20.json"
+   },
+   {
+    "placeId": "geoparque-quarta-colonia",
+    "title": "Geoparque Quarta Colônia",
+    "arquivo": "sul_lote21.json"
+   },
+   {
+    "placeId": "gramado",
+    "title": "Gramado",
+    "arquivo": "sul_lote2.json"
+   }
+  ]
+ },
+ {
+  "lote": "sul-2",
+  "recorte": "sul",
+  "lugares": [
+   {
+    "placeId": "ilha-do-mel",
+    "title": "Ilha do Mel",
+    "arquivo": "sul_lote17.json"
+   },
+   {
+    "placeId": "joinville",
+    "title": "Joinville",
+    "arquivo": "sul_lote6.json"
+   },
+   {
+    "placeId": "lagoa-peixe",
+    "title": "Parque Nacional da Lagoa do Peixe",
+    "arquivo": "sul_lote2.json"
+   },
+   {
+    "placeId": "lapa-pr",
+    "title": "Lapa",
+    "arquivo": "sul_lote9.json"
+   },
+   {
+    "placeId": "londrina",
+    "title": "Londrina",
+    "arquivo": "sul_lote15.json"
+   },
+   {
+    "placeId": "maringa",
+    "title": "Maringá",
+    "arquivo": "sul_lote14.json"
+   }
+  ]
+ },
+ {
+  "lote": "sul-3",
+  "recorte": "sul",
+  "lugares": [
+   {
+    "placeId": "parque-campos-gerais",
+    "title": "Parque Nacional dos Campos Gerais",
+    "arquivo": "sul_lote7.json"
+   },
+   {
+    "placeId": "parque-ilha-grande",
+    "title": "Parque Nacional de Ilha Grande",
+    "arquivo": "sul_lote4.json"
+   },
+   {
+    "placeId": "parque-sao-joaquim",
+    "title": "Parque Nacional de São Joaquim",
+    "arquivo": "sul_lote5.json"
+   },
+   {
+    "placeId": "pelotas",
+    "title": "Pelotas",
+    "arquivo": "sul_lote3.json"
+   },
+   {
+    "placeId": "pomerode",
+    "title": "Pomerode",
+    "arquivo": "sul_lote12.json"
+   },
+   {
+    "placeId": "porto-alegre",
+    "title": "Porto Alegre",
+    "arquivo": "sul.json"
+   }
+  ]
+ },
+ {
+  "lote": "sul-4",
+  "recorte": "sul",
+  "lugares": [
+   {
+    "placeId": "rio-grande-rs",
+    "title": "Rio Grande",
+    "arquivo": "sul_lote16.json"
+   },
+   {
+    "placeId": "santa-maria-rs",
+    "title": "Santa Maria",
+    "arquivo": "sul_lote13.json"
+   },
+   {
+    "placeId": "santana-livramento",
+    "title": "Sant’Ana do Livramento",
+    "arquivo": "sul_lote11.json"
+   },
+   {
+    "placeId": "sao-francisco-sul",
+    "title": "São Francisco do Sul",
+    "arquivo": "sul_lote8.json"
+   },
+   {
+    "placeId": "superagui",
+    "title": "Parque Nacional do Superagui",
+    "arquivo": "sul.json"
+   },
+   {
+    "placeId": "torres-rs",
+    "title": "Torres",
+    "arquivo": "sul_lote18.json"
+   }
+  ]
+ },
+ {
+  "lote": "america-1",
+  "recorte": "america",
+  "lugares": [
+   {
+    "placeId": "barreira-belize",
+    "title": "Sistema de Reservas da Barreira de Corais de Belize",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "canaima",
+    "title": "Parque Nacional Canaima",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "cidade-cusco",
+    "title": "Cidade Histórica de Cusco",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "cidade-quito",
+    "title": "Cidade Histórica de Quito",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "colonia-sacramento",
+    "title": "Bairro Histórico de Colônia do Sacramento",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "copan",
+    "title": "Sítio Maia de Copán",
+    "arquivo": "internacional.json"
+   }
+  ]
+ },
+ {
+  "lote": "america-2",
+  "recorte": "america",
+  "lugares": [
+   {
+    "placeId": "darien",
+    "title": "Parque Nacional Darién",
+    "arquivo": "america_darien_revisado.json"
+   },
+   {
+    "placeId": "everglades",
+    "title": "Parque Nacional Everglades",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "gros-morne",
+    "title": "Parque Nacional Gros Morne",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "ilha-cocos",
+    "title": "Parque Nacional Ilha do Coco",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "independence-hall",
+    "title": "Independence Hall",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "mesa-verde",
+    "title": "Parque Nacional Mesa Verde",
+    "arquivo": "internacional.json"
+   }
+  ]
+ },
+ {
+  "lote": "america-3",
+  "recorte": "america",
+  "lugares": [
+   {
+    "placeId": "nasca-palpa",
+    "title": "Linhas e Geoglifos de Nasca e Palpa",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "panama-antigo",
+    "title": "Panamá Viejo e Distrito Histórico do Panamá",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "reserva-monarca",
+    "title": "Reserva da Biosfera da Borboleta-Monarca",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "sian-kaan",
+    "title": "Reserva da Biosfera Sian Ka’an",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "tikal",
+    "title": "Parque Nacional Tikal",
+    "arquivo": "america_tikal_revisado.json"
+   },
+   {
+    "placeId": "tiwanaku",
+    "title": "Centro Arqueológico de Tiwanaku",
+    "arquivo": "internacional.json"
+   }
+  ]
+ },
+ {
+  "lote": "america-4",
+  "recorte": "america",
+  "lugares": [
+   {
+    "placeId": "trinidad-cuba",
+    "title": "Trinidad e Vale dos Engenhos",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "valparaiso",
+    "title": "Bairro Histórico da Cidade Portuária de Valparaíso",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "yosemite",
+    "title": "Parque Nacional Yosemite",
+    "arquivo": "america_yosemite_revisado.json"
+   }
+  ]
+ },
+ {
+  "lote": "sudeste-1",
+  "recorte": "sudeste",
+  "lugares": [
+   {
+    "placeId": "bom-jesus-congonhas",
+    "title": "Santuário do Bom Jesus de Matosinhos",
+    "arquivo": "sudeste.json"
+   },
+   {
+    "placeId": "cais-valongo",
+    "title": "Sítio Arqueológico Cais do Valongo",
+    "arquivo": "sudeste.json"
+   },
+   {
+    "placeId": "centro-diamantina",
+    "title": "Centro Histórico de Diamantina",
+    "arquivo": "sudeste.json"
+   },
+   {
+    "placeId": "cidade-campos-jordao",
+    "title": "Campos do Jordão",
+    "arquivo": "sudeste_campos.json"
+   },
+   {
+    "placeId": "cidade-santos",
+    "title": "Santos",
+    "arquivo": "sudeste_santos.json"
+   },
+   {
+    "placeId": "cidade-sao-paulo",
+    "title": "São Paulo",
+    "arquivo": "sudeste_cidade.json"
+   },
+   {
+    "placeId": "cidade-vitoria",
+    "title": "Vitória",
+    "arquivo": "sudeste_vitoria.json"
+   }
+  ]
+ },
+ {
+  "lote": "sudeste-2",
+  "recorte": "sudeste",
+  "lugares": [
+   {
+    "placeId": "costa-descobrimento",
+    "title": "Reservas de Mata Atlântica da Costa do Descobrimento",
+    "arquivo": "sudeste.json"
+   },
+   {
+    "placeId": "parque-itaunas",
+    "title": "Parque Estadual de Itaúnas",
+    "arquivo": "sudeste_itaunas.json"
+   },
+   {
+    "placeId": "parque-serra-cipo",
+    "title": "Parque Nacional da Serra do Cipó",
+    "arquivo": "sudeste.json"
+   },
+   {
+    "placeId": "reservas-mata-sudeste",
+    "title": "Reservas de Mata Atlântica do Sudeste",
+    "arquivo": "sudeste.json"
+   },
+   {
+    "placeId": "rio-sao-francisco",
+    "title": "Rio São Francisco",
+    "arquivo": "nordeste_sao_francisco.json"
+   },
+   {
+    "placeId": "serra-canastra",
+    "title": "Parque Nacional da Serra da Canastra",
+    "arquivo": "sudeste.json"
+   },
+   {
+    "placeId": "sitio-burle-marx",
+    "title": "Sítio Roberto Burle Marx",
+    "arquivo": "sudeste.json"
+   }
+  ]
+ },
+ {
+  "lote": "antartida-1",
+  "recorte": "antartida",
+  "lugares": [
+   {
+    "placeId": "cabo-adare",
+    "title": "Cabo Adare e Praia Ridley",
+    "arquivo": "antartida.json"
+   },
+   {
+    "placeId": "cabo-crozier",
+    "title": "Cabo Crozier",
+    "arquivo": "antartida.json"
+   },
+   {
+    "placeId": "cabo-denison",
+    "title": "Cabo Denison e Cabanas de Mawson",
+    "arquivo": "antartida.json"
+   },
+   {
+    "placeId": "cabo-evans",
+    "title": "Cabo Evans e Cabana Terra Nova",
+    "arquivo": "antartida.json"
+   },
+   {
+    "placeId": "cabo-royds",
+    "title": "Cabo Royds",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "goudier",
+    "title": "Ilha Goudier e Base A de Port Lockroy",
+    "arquivo": "antartida.json"
+   }
+  ]
+ },
+ {
+  "lote": "antartida-2",
+  "recorte": "antartida",
+  "lugares": [
+   {
+    "placeId": "half-moon",
+    "title": "Ilha Half Moon",
+    "arquivo": "antartida.json"
+   },
+   {
+    "placeId": "ilha-cuverville",
+    "title": "Ilha Cuverville",
+    "arquivo": "antartida.json"
+   },
+   {
+    "placeId": "ilha-detaille",
+    "title": "Ilha Detaille e Base W",
+    "arquivo": "antartida.json"
+   },
+   {
+    "placeId": "ilha-petermann",
+    "title": "Ilha Petermann",
+    "arquivo": "antartida.json"
+   },
+   {
+    "placeId": "neko-harbour",
+    "title": "Neko Harbour",
+    "arquivo": "antartida.json"
+   }
+  ]
+ },
+ {
+  "lote": "africa-1",
+  "recorte": "africa",
+  "lugares": [
+   {
+    "placeId": "cidades-antigas-djenne",
+    "title": "Cidades Antigas de Djenné",
+    "arquivo": "africa_djenne.json"
+   },
+   {
+    "placeId": "goree",
+    "title": "Ilha de Gorée",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "ilha-mocambique",
+    "title": "Ilha de Moçambique",
+    "arquivo": "africa_ilha_mocambique.json"
+   },
+   {
+    "placeId": "ilha-robben",
+    "title": "Ilha Robben",
+    "arquivo": "africa_robben.json"
+   },
+   {
+    "placeId": "mar-areia-namibe",
+    "title": "Mar de Areia do Namibe",
+    "arquivo": "africa_namibe.json"
+   },
+   {
+    "placeId": "mbanza-kongo",
+    "title": "Mbanza Kongo",
+    "arquivo": "africa_mbanza.json"
+   }
+  ]
+ },
+ {
+  "lote": "africa-2",
+  "recorte": "africa",
+  "lugares": [
+   {
+    "placeId": "parque-bwindi",
+    "title": "Parque Nacional Impenetrável de Bwindi",
+    "arquivo": "africa_bwindi.json"
+   },
+   {
+    "placeId": "parque-virunga",
+    "title": "Parque Nacional de Virunga",
+    "arquivo": "africa_virunga.json"
+   },
+   {
+    "placeId": "ruinas-kilwa-songo",
+    "title": "Ruínas de Kilwa Kisiwani e Songo Mnara",
+    "arquivo": "africa_kilwa.json"
+   },
+   {
+    "placeId": "stone-town-zanzibar",
+    "title": "Stone Town de Zanzibar",
+    "arquivo": "africa_zanzibar.json"
+   },
+   {
+    "placeId": "tassili-n-ajjer",
+    "title": "Tassili n’Ajjer",
+    "arquivo": "africa_tassili.json"
+   }
+  ]
+ },
+ {
+  "lote": "asia-1",
+  "recorte": "asia",
+  "lugares": [
+   {
+    "placeId": "castelo-himeji",
+    "title": "Castelo de Himeji",
+    "arquivo": "asia2.json"
+   },
+   {
+    "placeId": "cidade-proibida",
+    "title": "Cidade Proibida",
+    "arquivo": "asia3.json"
+   },
+   {
+    "placeId": "ilha-jeju",
+    "title": "Ilha vulcânica e tubos de lava de Jeju",
+    "arquivo": "asia4.json"
+   },
+   {
+    "placeId": "komodo",
+    "title": "Parque Nacional de Komodo",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "parque-chitwan",
+    "title": "Parque Nacional de Chitwan",
+    "arquivo": "asia6.json"
+   },
+   {
+    "placeId": "sundarbans-india",
+    "title": "Parque Nacional de Sundarbans",
+    "arquivo": "asia5.json"
+   },
+   {
+    "placeId": "terracos-ifugao",
+    "title": "Terraços de arroz das Cordilheiras das Filipinas",
+    "arquivo": "asia1.json"
+   }
+  ]
+ },
+ {
+  "lote": "oceania-1",
+  "recorte": "oceania",
+  "lugares": [
+   {
+    "placeId": "greater-blue-mountains",
+    "title": "Área das Grandes Montanhas Azuis",
+    "arquivo": "internacional.json"
+   },
+   {
+    "placeId": "oceania-kuk",
+    "title": "Sítio Agrícola Antigo de Kuk",
+    "arquivo": "oceania3.json"
+   },
+   {
+    "placeId": "oceania-levuka",
+    "title": "Cidade Portuária Histórica de Levuka",
+    "arquivo": "oceania4.json"
+   },
+   {
+    "placeId": "oceania-lord-howe",
+    "title": "Grupo de Ilhas Lord Howe",
+    "arquivo": "oceania1.json"
+   },
+   {
+    "placeId": "oceania-rennell-oriental",
+    "title": "Rennell Oriental",
+    "arquivo": "oceania2.json"
+   }
+  ]
+ },
+ {
+  "lote": "europa-1",
+  "recorte": "europa",
+  "lugares": [
+   {
+    "placeId": "centro-historico-bruges",
+    "title": "Centro Histórico de Bruges",
+    "arquivo": "europa_bruges.json"
+   },
+   {
+    "placeId": "cidade-antiga-avila",
+    "title": "Cidade Antiga de Ávila e suas Igrejas Extramuros",
+    "arquivo": "europa_avila.json"
+   },
+   {
+    "placeId": "cidade-gante",
+    "title": "Gante",
+    "arquivo": "europa_gante.json"
+   },
+   {
+    "placeId": "dubrovnik",
+    "title": "Cidade Antiga de Dubrovnik",
+    "arquivo": "internacional.json"
+   }
+  ]
+ }
+]

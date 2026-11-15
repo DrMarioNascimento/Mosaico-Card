@@ -1,0 +1,1045 @@
+{
+ "case": {
+  "id": "lug2-neko-harbour",
+  "placeId": "neko-harbour",
+  "title": "Neko Harbour",
+  "aliases": [
+   "Neko Harbour",
+   "Neko"
+  ],
+  "answerType": "enseada antártica",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "AQ"
+   ],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Enseada antártica",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Neko Harbour"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Paradise Harbour"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Port Lockroy"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Orne Harbour"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Mikkelsen Harbour"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Yankee Harbour"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Cierva Cove"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Whalers Bay"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Baía Esperança"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Baía do Almirantado"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Enseada Potter"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Baía Maxwell"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Neko Harbour",
+    "sources": [
+     "ATS_NEKO",
+     "NEKO_ATCM29"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Baía maior onde fica a enseada",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Baía Andvord"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Baía Wilhelmina"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Baía Charlotte"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Baía Flandres"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Baía Andvord",
+    "sources": [
+     "ATS_NEKO",
+     "NEKO_ATCM29"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Pinguim da colônia reprodutora",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Pinguim-gentoo"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Pinguim-de-barbicha"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Pinguim-de-adélia"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Pinguim-imperador"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Pinguim-gentoo",
+    "sources": [
+     "ATS_NEKO"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Onde se pisa ao desembarcar",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "No continente antártico"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Numa ilha vulcânica"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Numa ilhota rochosa"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Numa ilha coberta por calota de gelo"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "No continente antártico",
+    "sources": [
+     "ATS_NEKO"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "neko-harbour-viajante-P01",
+      "factKey": "neko-harbour-F01",
+      "text": "Este destino é uma pequena enseada antártica cercada de geleiras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO",
+       "NEKO_ATCM29"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P02",
+      "factKey": "neko-harbour-F02",
+      "text": "Aqui dá para pisar no próprio continente antártico, não numa ilha.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P03",
+      "factKey": "neko-harbour-F03",
+      "text": "A enseada fica dentro de uma baía maior, a Baía Andvord.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P04",
+      "factKey": "neko-harbour-F04",
+      "text": "Picos altos se erguem atrás da praia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P05",
+      "factKey": "neko-harbour-F05",
+      "text": "As geleiras ao redor são cheias de fendas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P06",
+      "factKey": "neko-harbour-F06",
+      "text": "De vez em quando, blocos de gelo se soltam das geleiras e caem no mar.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P07",
+      "factKey": "neko-harbour-F07",
+      "text": "Quando o gelo despenca, pode formar ondas perigosas na praia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P08",
+      "factKey": "neko-harbour-F08",
+      "text": "Ao desembarcar, a orientação é subir logo para um ponto mais alto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P09",
+      "factKey": "neko-harbour-F09",
+      "text": "Pinguins-gentoo formam uma colônia perto da praia.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P10",
+      "factKey": "neko-harbour-F10",
+      "text": "Ao longo da temporada, os ninhos dos pinguins fecham parte do caminho.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P11",
+      "factKey": "neko-harbour-F11",
+      "text": "A parte norte do circuito é rota dos pinguins e área de ninhos, fora do alcance dos visitantes.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P12",
+      "factKey": "neko-harbour-F12",
+      "text": "A praia de areia a oeste da colônia é um caminho dos pinguins até o mar.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P13",
+      "factKey": "neko-harbour-F13",
+      "text": "Skuas podem fazer ninhos perto das rochas do mirante e às vezes ficam agressivas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO",
+       "NEKO_ATCM29"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P14",
+      "factKey": "neko-harbour-F14",
+      "text": "Gaivotas-dominicanas também se reproduzem ali.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P15",
+      "factKey": "neko-harbour-F15",
+      "text": "Focas-de-weddell costumam descansar na praia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P16",
+      "factKey": "neko-harbour-F16",
+      "text": "Musgos e algas, inclusive algas que vivem na neve, foram registrados ali.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P17",
+      "factKey": "neko-harbour-F17",
+      "text": "Restam no chão as fundações de um antigo refúgio argentino.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P18",
+      "factKey": "neko-harbour-F18",
+      "text": "O refúgio foi danificado pelo mau tempo e retirado em 2010.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P19",
+      "factKey": "neko-harbour-F19",
+      "text": "Uma rampa de neve permanente leva a um afloramento rochoso mais alto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO",
+       "NEKO_ATCM29"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P20",
+      "factKey": "neko-harbour-F20",
+      "text": "A subida pela neve até o mirante só é feita com rota avaliada, guiada ou marcada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P21",
+      "factKey": "neko-harbour-F21",
+      "text": "A praia de seixos tem cerca de 500 metros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NEKO_ATCM29"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P22",
+      "factKey": "neko-harbour-F22",
+      "text": "Uma pedra grande e um pequeno recife ajudam a achar o ponto de desembarque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P23",
+      "factKey": "neko-harbour-F23",
+      "text": "No começo da temporada, pode ser preciso cavar degraus na neve para desembarcar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P24",
+      "factKey": "neko-harbour-F24",
+      "text": "Aqui se pisa no continente antártico, numa enseada da Baía Andvord com pinguins-gentoo.",
+      "relatedFields": [
+       "C1",
+       "C2",
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-viajante-P25",
+      "factKey": "neko-harbour-F25",
+      "text": "Sinais de fendas no gelo devem ser avisados o quanto antes à associação dos operadores de turismo antártico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "neko-harbour-geografo-P01",
+      "factKey": "neko-harbour-F01",
+      "text": "O recorte é uma pequena enseada glacial, com praia e afloramento rochoso ao pé de geleiras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO",
+       "NEKO_ATCM29"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P02",
+      "factKey": "neko-harbour-F02",
+      "text": "O desembarque ocorre em terra continental, atributo listado entre as características-chave do sítio.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P03",
+      "factKey": "neko-harbour-F03",
+      "text": "A enseada é uma reentrância da Baía Andvord, cujas águas acumulam gelo em muitas formas.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P04",
+      "factKey": "neko-harbour-F04",
+      "text": "Praia e afloramento rochoso se apoiam num fundo de picos elevados e geleiras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P05",
+      "factKey": "neko-harbour-F05",
+      "text": "Geleiras intensamente fraturadas por fendas cercam o sítio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P06",
+      "factKey": "neko-harbour-F06",
+      "text": "As geleiras da Baía Andvord desprendem blocos de gelo regularmente.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P07",
+      "factKey": "neko-harbour-F07",
+      "text": "As ondas geradas pelo desprendimento de gelo tornam arriscado permanecer na faixa de praia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P08",
+      "factKey": "neko-harbour-F08",
+      "text": "Por causa das ondas de desprendimento, o desembarque é seguido de deslocamento imediato para cotas mais altas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P09",
+      "factKey": "neko-harbour-F09",
+      "text": "A colônia reprodutora de pinguins-gentoo ocupa o entorno da área de desembarque.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P10",
+      "factKey": "neko-harbour-F10",
+      "text": "Com a colônia instalada, o circuito completo deixa de ser possível e vira duas caminhadas de ida e volta.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P11",
+      "factKey": "neko-harbour-F11",
+      "text": "O setor norte funciona como corredor principal e área de nidificação dos pinguins, por isso fica vedado.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P12",
+      "factKey": "neko-harbour-F12",
+      "text": "A praia arenosa a oeste da colônia é rota de acesso dos pinguins ao mar e deve ser evitada no desembarque.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P13",
+      "factKey": "neko-harbour-F13",
+      "text": "Uma possível área de nidificação de skuas junto ao mirante rochoso exige afastamento dos visitantes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P14",
+      "factKey": "neko-harbour-F14",
+      "text": "Além do gentoo, só gaivotas-dominicanas e skuas têm reprodução confirmada no sítio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P15",
+      "factKey": "neko-harbour-F15",
+      "text": "A foca-de-weddell usa regularmente a costa como área de repouso.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P16",
+      "factKey": "neko-harbour-F16",
+      "text": "A flora registrada se resume a tapetes de musgo, à alga verde Prasiola crispa e a algas de neve.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P17",
+      "factKey": "neko-harbour-F17",
+      "text": "Fundações visíveis são o que resta de um refúgio argentino que existia no sítio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P18",
+      "factKey": "neko-harbour-F18",
+      "text": "Danificado pelas intempéries, o refúgio foi removido em 2010 e a área foi limpa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P19",
+      "factKey": "neko-harbour-F19",
+      "text": "Um banco de neve permanente liga a orla a um afloramento rochoso superior, usado como mirante.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO",
+       "NEKO_ATCM29"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P20",
+      "factKey": "neko-harbour-F20",
+      "text": "Como neve e gelo ao redor têm fendas, a rota ao afloramento superior só deve ser avaliada por guias de montanha treinados e equipados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P21",
+      "factKey": "neko-harbour-F21",
+      "text": "Uma praia de seixos de cerca de 500 m ocupa o extremo sudoeste da pequena baía.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NEKO_ATCM29"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P22",
+      "factKey": "neko-harbour-F22",
+      "text": "O ponto de desembarque preferido fica a sudoeste de um grande matacão, junto a um pequeno recife.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P23",
+      "factKey": "neko-harbour-F23",
+      "text": "No início da temporada, a neve acumulada na ponta sul permite desembarcar sobre um matacão e abrir degraus.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P24",
+      "factKey": "neko-harbour-F24",
+      "text": "Desembarque continental na Baía Andvord, com colônia de gentoo e geleiras que desprendem gelo, define este sítio.",
+      "relatedFields": [
+       "C1",
+       "C2",
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "neko-harbour-geografo-P25",
+      "factKey": "neko-harbour-F25",
+      "text": "Indícios de fendas nas rotas ao afloramento superior devem ser comunicados à IAATO o mais cedo possível.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_NEKO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Enseada da Baía Andvord com desembarque no continente antártico, colônia de pinguins-gentoo e geleiras fendilhadas que desprendem gelo e podem gerar ondas perigosas.",
+   "editorialNotes": [
+    "A página do Tratado indica revisão de 2013 (PDF com nome de 2019). A URL do rascunho não pôde ser aberta; a fonte foi trocada pela página de diretrizes de Neko Harbour localizada no site do Tratado.",
+    "O tamanho da praia (cerca de 500 m) vem da versão de 2006 das diretrizes (ATCM XXIX)."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e campos conferidos nas diretrizes de visita do Tratado (rev. 2013 e versão de 2006); C1 restrito a enseadas e baías, C2–C4 refeitos com alternativas comparáveis."
+  }
+ },
+ "sources": {
+  "ATS_NEKO": {
+   "id": "ATS_NEKO",
+   "title": "Visitor Site Guidelines: 7. Neko Harbour",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://www.ats.aq/devAS/Ats/Guideline/39864605-7e82-4f8e-a171-49bdb8423e4f",
+   "checkedAt": "2026-11-15"
+  },
+  "NEKO_ATCM29": {
+   "id": "NEKO_ATCM29",
+   "title": "Site guidelines: Neko Harbour (ATCM XXIX, documento anexo)",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://documents.ats.aq/ATCM29/att/ATCM29_att006_e.pdf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.ats.aq/devAS/Ats/Guideline/39864605-7e82-4f8e-a171-49bdb8423e4f",
+   "https://documents.ats.aq/ATCM29/att/ATCM29_att006_e.pdf"
+  ],
+  "alteracoes": [
+   "geography.countries: [] -> [\"AQ\"] (o validador exige código ISO; o banco usa [] para a Antártida)",
+   "ATS_NEKO: URL do rascunho (6ccbefc1…) não aberta; trocada pela página de diretrizes 39864605… aberta no site do Tratado",
+   "alias \"Neko\" acrescentado; answerType \"baía antártica\" -> \"enseada antártica\"",
+   "C1: lista mista (ilhas, penhasco e baías, com nomes em inglês de lugares já em português no banco) trocada por 12 enseadas, baías e portos antárticos",
+   "C2: distratores Commonwealth/McMurdo/Baía das Baleias trocados por baías da mesma costa (Wilhelmina, Charlotte, Flandres)",
+   "C3: alternativas de pinguins não antárticos trocadas por barbicha, adélia e imperador",
+   "C4: \"Dinâmica costeira\" (alternativas absurdas) trocado por \"Onde se pisa ao desembarcar\" = continente antártico; o desprendimento de gelo virou pistas",
+   "novas pistas verificadas: praia de ~500 m (2006), matacão e recife, degraus na neve, circuito convertido em duas caminhadas, aviso de fendas à IAATO",
+   "pistas realinhadas por factKey e relatedFields ajustados; aberturas P01 e P15; decisiva P24 nos dois perfis",
+   "viajante: 25 de 25 pistas reescritas ou trocadas; geografo: 25 de 25"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

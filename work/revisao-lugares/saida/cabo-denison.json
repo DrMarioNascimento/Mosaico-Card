@@ -1,0 +1,1043 @@
+{
+ "case": {
+  "id": "lug2-cabo-denison",
+  "placeId": "cabo-denison",
+  "title": "Cabo Denison e Cabanas de Mawson",
+  "aliases": [
+   "Cabo Denison",
+   "Cape Denison"
+  ],
+  "answerType": "sítio histórico antártico",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "AQ"
+   ],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Sítio antártico",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Cabo Denison e Cabanas de Mawson"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Cabo Royds e Cabana de Shackleton"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Cabo Evans e Cabana Terra Nova"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Cabo Adare e Praia Ridley"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Hut Point e Cabana Discovery"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Port Lockroy e Base A"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Baía Esperança"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Ilha Snow Hill"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Cabo Crozier"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Point Wild"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Cabo Bird"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Cabo Hallett"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Cabo Denison e Cabanas de Mawson",
+    "sources": [
+     "ATS_DENISON",
+     "ATS_HSM_LISTA"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Baía onde fica o sítio",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Baía Commonwealth"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Baía das Baleias"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Baía Esperança"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Baía do Almirantado"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Baía Commonwealth",
+    "sources": [
+     "ATS_DENISON",
+     "ATS_HSM_LISTA"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Expedição que construiu as cabanas históricas",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Expedição Antártica Australasiana"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Expedição Nimrod"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Expedição Terra Nova"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Expedição Discovery"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Expedição Antártica Australasiana",
+    "sources": [
+     "ATS_DENISON"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Região antártica onde fica o sítio",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Terra de George V"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Terra Vitória"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Terra de Graham"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Terra da Rainha Maud"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Terra de George V",
+    "sources": [
+     "ATS_HSM_LISTA"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "cabo-denison-viajante-P01",
+      "factKey": "cabo-denison-F01",
+      "text": "Construções antigas de uma expedição resistem numa costa rochosa antártica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P02",
+      "factKey": "cabo-denison-F02",
+      "text": "Ventos que descem do gelo e o mar agitado muitas vezes atrapalham o desembarque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "clima",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P03",
+      "factKey": "cabo-denison-F03",
+      "text": "O lugar fica na Antártida Oriental.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ATS_DENISON",
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P04",
+      "factKey": "cabo-denison-F04",
+      "text": "É uma península quase sem gelo, logo abaixo do grande planalto gelado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P05",
+      "factKey": "cabo-denison-F05",
+      "text": "O chão é feito de cristas de rocha e pequenos vales.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P06",
+      "factKey": "cabo-denison-F06",
+      "text": "O lugar fica na Baía Commonwealth.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ATS_DENISON",
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P07",
+      "factKey": "cabo-denison-F07",
+      "text": "Uma expedição australasiana montou as cabanas.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P08",
+      "factKey": "cabo-denison-F08",
+      "text": "A expedição durou de 1911 a 1914.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P09",
+      "factKey": "cabo-denison-F09",
+      "text": "Instrumentos e instalações científicas da expedição ainda estão no local.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P10",
+      "factKey": "cabo-denison-F10",
+      "text": "A cabana principal continua de pé e inteira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P11",
+      "factKey": "cabo-denison-F11",
+      "text": "Outra construção inteira é a casa onde funcionava um magnetógrafo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P12",
+      "factKey": "cabo-denison-F12",
+      "text": "Duas cabanas menores restam como ruínas em pé.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P13",
+      "factKey": "cabo-denison-F13",
+      "text": "Mastros antigos de rádio fazem parte dos vestígios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P14",
+      "factKey": "cabo-denison-F14",
+      "text": "Uma cruz memorial se ergue no sítio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P15",
+      "factKey": "cabo-denison-F15",
+      "text": "Três cabanas mais novas servem para pesquisa, gestão ou emergência.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P16",
+      "factKey": "cabo-denison-F16",
+      "text": "Pinguins-de-adélia fazem ninhos por perto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P17",
+      "factKey": "cabo-denison-F17",
+      "text": "Petréis-das-neves e almas-de-mestre também se reproduzem ali.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P18",
+      "factKey": "cabo-denison-F18",
+      "text": "Elefantes-marinhos, focas-leopardo e focas-de-weddell descansam na costa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P19",
+      "factKey": "cabo-denison-F19",
+      "text": "Pinguins-imperadores e petréis-gigantes também aparecem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P20",
+      "factKey": "cabo-denison-F20",
+      "text": "Já foram contadas 13 espécies de líquen na área.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P21",
+      "factKey": "cabo-denison-F21",
+      "text": "A área protegida vai de um ponto chamado Land’s End até outro chamado John O’Groats.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P22",
+      "factKey": "cabo-denison-F22",
+      "text": "Para visitar, é preciso permissão de uma autoridade nacional.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON",
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P23",
+      "factKey": "cabo-denison-F23",
+      "text": "Nas cabanas, só se entra com um guia preparado em patrimônio cultural.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P24",
+      "factKey": "cabo-denison-F24",
+      "text": "O aumento da umidade dentro das cabanas ajuda a estragá-las.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-viajante-P25",
+      "factKey": "cabo-denison-F25",
+      "text": "Perto de aves em ninho, é preciso manter pelo menos 15 metros de distância.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "cabo-denison-geografo-P01",
+      "factKey": "cabo-denison-F01",
+      "text": "Cabanas de expedição compõem uma paisagem cultural pouco modificada, com objetos mantidos no contexto original.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P02",
+      "factKey": "cabo-denison-F02",
+      "text": "Ventos catabáticos ou dominantes e mar grosso frequentemente impedem os desembarques de bote.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "clima",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P03",
+      "factKey": "cabo-denison-F03",
+      "text": "O sítio fica na Antártida Oriental, no litoral da Terra de George V.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ATS_DENISON",
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P04",
+      "factKey": "cabo-denison-F04",
+      "text": "A península, em grande parte livre de gelo, é adjacente ao planalto polar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P05",
+      "factKey": "cabo-denison-F05",
+      "text": "Cristas rochosas alternadas com vales compõem a topografia do cabo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P06",
+      "factKey": "cabo-denison-F06",
+      "text": "O sítio histórico abrange o cabo e o porto natural de Boat Harbour, com os artefatos em suas águas, na Baía Commonwealth.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ATS_DENISON",
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P07",
+      "factKey": "cabo-denison-F07",
+      "text": "As cabanas e seu conteúdo original pertencem à Expedição Antártica Australasiana.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "essential",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P08",
+      "factKey": "cabo-denison-F08",
+      "text": "A expedição que ocupou o cabo se estendeu de 1911 a 1914.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P09",
+      "factKey": "cabo-denison-F09",
+      "text": "Instrumentos e instalações científicas remanescentes documentam a pesquisa feita durante a expedição.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P10",
+      "factKey": "cabo-denison-F10",
+      "text": "A Cabana Principal está intacta e recebe no máximo quatro pessoas por vez, guia incluído.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P11",
+      "factKey": "cabo-denison-F11",
+      "text": "A Casa do Magnetógrafo, também intacta, recebe no máximo três pessoas por vez.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P12",
+      "factKey": "cabo-denison-F12",
+      "text": "A Cabana Magnética Absoluta e a Cabana do Trânsito restam como ruínas em pé.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P13",
+      "factKey": "cabo-denison-F13",
+      "text": "Mastros de telegrafia sem fio e dispersões de artefatos integram os vestígios da expedição.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P14",
+      "factKey": "cabo-denison-F14",
+      "text": "O caminho até a cruz memorial deve desviar de pinguins-de-adélia e de petréis em ninho.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P15",
+      "factKey": "cabo-denison-F15",
+      "text": "Três cabanas recentes apoiam pesquisa e gestão ou servem de abrigo em emergências.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P16",
+      "factKey": "cabo-denison-F16",
+      "text": "Pinguins-de-adélia se reproduzem no cabo, e as rotas deles entre ninhos e mar devem ficar livres.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P17",
+      "factKey": "cabo-denison-F17",
+      "text": "Petrel-das-neves, skua-polar-do-sul e alma-de-mestre completam as aves com reprodução confirmada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P18",
+      "factKey": "cabo-denison-F18",
+      "text": "Elefante-marinho, foca-leopardo e foca-de-weddell usam o cabo regularmente para repouso.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P19",
+      "factKey": "cabo-denison-F19",
+      "text": "Pinguim-imperador, petrel-antártico, pomba-do-cabo e petrel-gigante também são registrados na área.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P20",
+      "factKey": "cabo-denison-F20",
+      "text": "Foram registradas 13 espécies de líquens, além de algas não marinhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P21",
+      "factKey": "cabo-denison-F21",
+      "text": "A Área Especialmente Protegida se estende de Land’s End a John O’Groats e, ao sul, até a linha de morenas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P22",
+      "factKey": "cabo-denison-F22",
+      "text": "As cabanas formam a Área Antártica Especialmente Protegida nº 162, e o sítio histórico nº 77 fica dentro de uma Área Antártica Especialmente Gerenciada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON",
+       "ATS_HSM_LISTA"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P23",
+      "factKey": "cabo-denison-F23",
+      "text": "O ingresso nas cabanas exige guia com qualificação em patrimônio cultural e instrução prévia sobre os valores do sítio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P24",
+      "factKey": "cabo-denison-F24",
+      "text": "O aumento da umidade interna é um fator de deterioração das estruturas e dos artefatos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cabo-denison-geografo-P25",
+      "factKey": "cabo-denison-F25",
+      "text": "A distância mínima é de 15 m de aves em ninho e de 5 m de focas adultas ou de adélias fora das colônias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DENISON"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Península rochosa e quase livre de gelo na Baía Commonwealth, Terra de George V (Antártida Oriental), junto ao planalto polar: preserva as cabanas e os artefatos da Expedição Antártica Australasiana (1911–1914), liderada por Douglas Mawson.",
+   "editorialNotes": [
+    "As diretrizes de visita usadas são da revisão de 2014; os limites de ocupação das cabanas podem mudar em revisões futuras.",
+    "As pistas evitam os nomes \"Denison\" e \"Mawson\", que entregariam o C1; o líder da expedição só aparece na revelação.",
+    "A lista de sítios históricos registra que o HSM 77 fica dentro da Área Antártica Especialmente Gerenciada nº 3."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e gabaritos conferidos nas diretrizes de visita do Tratado (revisão 2014) e na lista de sítios históricos (HSM 77); C2 e C4 refeitos para não repetir o nome do título."
+  }
+ },
+ "sources": {
+  "ATS_DENISON": {
+   "id": "ATS_DENISON",
+   "title": "Visitor Site Guidelines: 32. Mawson’s Huts and Cape Denison",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://www.ats.aq/devAS/e/Ats/Guideline/b7c5d2a7-3532-4dfa-8002-4605f5d4584b",
+   "checkedAt": "2026-11-15"
+  },
+  "ATS_HSM_LISTA": {
+   "id": "ATS_HSM_LISTA",
+   "title": "List of Historic Sites and Monuments approved by the ATCM",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://documents.ats.aq/atcm34/ww/atcm34_ww002_e.pdf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.ats.aq/devAS/e/Ats/Guideline/b7c5d2a7-3532-4dfa-8002-4605f5d4584b",
+   "https://documents.ats.aq/atcm34/ww/atcm34_ww002_e.pdf"
+  ],
+  "alteracoes": [
+   "Nova fonte ATS_HSM_LISTA (HSM 77: Terra de George V, Boat Harbour, ASMA nº 3).",
+   "C4: \"Responsável histórico = Douglas Mawson\" (nome que está no próprio título) substituído por \"Região antártica onde fica o sítio\" = Terra de George V.",
+   "C2: \"McMurdo\" (estreito, não baía) trocado por \"Baía das Baleias\"; nomes completados (\"Baía Commonwealth\", \"Baía Esperança\", \"Baía do Almirantado\").",
+   "C3: rótulo \"Expedição histórica\" precisado para \"Expedição que construiu as cabanas históricas\".",
+   "C1: \"Ponto Wild\" corrigido para \"Point Wild\"; \"Cabo Adare e Cabanas de Borchgrevink\" alinhado ao título \"Cabo Adare e Praia Ridley\"; \"Baía das Baleias\" trocada por \"Cabo Hallett\".",
+   "Viajante P09 e Geógrafo P07 (que diziam o nome do líder, parte do título) reescritas sem o nome.",
+   "Viajante P10 e P11, Geógrafo P09: separadas Cabana Principal e Casa do Magnetógrafo, com os limites de ocupação das diretrizes.",
+   "Geógrafo P04 (\"cristas e vales próximos ao planalto polar\") ajustada: as diretrizes dizem que a península é adjacente ao planalto e formada por cristas e vales.",
+   "Viajante P20 e P21 do rascunho (focas) fundidas numa pista com as três focas de repouso regular; nova pista com aves apenas registradas (imperador, petréis, pomba-do-cabo).",
+   "Novas pistas verificadas: limites Land’s End–John O’Groats, Boat Harbour, guia qualificado em patrimônio cultural, distância de 15 m de aves em ninho.",
+   "Pistas reorganizadas em pares por fato (25), com 2 de abertura e 2 decisivas por perfil.",
+   "geography.countries: o banco usa [] para a Antártida, mas o validador exige código ISO; usado \"AQ\"."
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

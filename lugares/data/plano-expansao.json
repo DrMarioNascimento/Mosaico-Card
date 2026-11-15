@@ -109,7 +109,24 @@
     "Vila Velha",
     "Niterói",
     "Belo Horizonte",
-    "Parque Nacional Los Glaciares"
+    "Parque Nacional Los Glaciares",
+    "Cabo Adare e Praia Ridley",
+    "Cabo Crozier",
+    "Cabo Denison e Cabanas de Mawson",
+    "Cabo Evans e Cabana Terra Nova",
+    "Cabo Royds",
+    "Ilha Half Moon",
+    "Ilha Cuverville",
+    "Ilha Detaille e Base W",
+    "Ilha do Mel",
+    "Ilha Petermann",
+    "Joinville",
+    "Parque Nacional da Lagoa do Peixe",
+    "Neko Harbour",
+    "Parque Estadual do Cantão",
+    "Porto Murtinho",
+    "Rio Paraguai",
+    "Trinidad e Vale dos Engenhos"
   ],
   "groups": {
     "Brasil Norte": [
@@ -122,7 +139,8 @@
       "Jalapão",
       "Monte Roraima",
       "Teatro Amazonas",
-      "Parque Nacional de Anavilhanas"
+      "Parque Nacional de Anavilhanas",
+      "Parque Estadual do Cantão"
     ],
     "Brasil Nordeste": [
       "Parque Nacional dos Lençóis Maranhenses",
@@ -148,7 +166,9 @@
       "Campo Grande",
       "Goiânia",
       "Rio Araguaia",
-      "Parque Nacional das Emas"
+      "Parque Nacional das Emas",
+      "Porto Murtinho",
+      "Rio Paraguai"
     ],
     "Brasil Sudeste": [
       "Rio de Janeiro",
@@ -175,7 +195,9 @@
       "Lagoa dos Patos",
       "Gramado",
       "Parque Nacional de Aparados da Serra",
-      "Ilha do Mel"
+      "Ilha do Mel",
+      "Joinville",
+      "Parque Nacional da Lagoa do Peixe"
     ],
     "América outros recortes": [
       "Peru",
@@ -196,7 +218,8 @@
       "Ilhas Galápagos",
       "Parque Nacional Rapa Nui",
       "Parque Nacional Yellowstone",
-      "Parque Nacional Los Glaciares"
+      "Parque Nacional Los Glaciares",
+      "Trinidad e Vale dos Engenhos"
     ],
     "Europa": [
       "Portugal",
@@ -279,7 +302,17 @@
       "Plataforma de Gelo Larsen C",
       "Monte Vinson",
       "Vales Secos de McMurdo",
-      "Ilha Paulet"
+      "Ilha Paulet",
+      "Cabo Adare e Praia Ridley",
+      "Cabo Crozier",
+      "Cabo Denison e Cabanas de Mawson",
+      "Cabo Evans e Cabana Terra Nova",
+      "Cabo Royds",
+      "Ilha Half Moon",
+      "Ilha Cuverville",
+      "Ilha Detaille e Base W",
+      "Ilha Petermann",
+      "Neko Harbour"
     ]
   },
   "classificationNotes": [

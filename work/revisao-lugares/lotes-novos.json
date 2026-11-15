@@ -1,0 +1,193 @@
+{
+ "meta_minima": {
+  "sudeste": 6,
+  "europa": 18,
+  "africa": 8,
+  "asia": 13,
+  "oceania": 16,
+  "antartida": 8
+ },
+ "lotes": [
+  {
+   "lote": "novo-sudeste-1",
+   "recorte": "sudeste",
+   "lugares": [
+    "Parque Estadual Turístico do Alto Ribeira (PETAR, SP)",
+    "Ilhabela (SP)",
+    "Tiradentes (MG)",
+    "Parque Nacional da Serra dos Órgãos (RJ)",
+    "Arraial do Cabo (RJ)"
+   ]
+  },
+  {
+   "lote": "novo-sudeste-2",
+   "recorte": "sudeste",
+   "lugares": [
+    "Parque Estadual do Ibitipoca (MG)"
+   ]
+  },
+  {
+   "lote": "novo-europa-1",
+   "recorte": "europa",
+   "lugares": [
+    "Londres",
+    "Berlim",
+    "Lisboa",
+    "Barcelona",
+    "Praga"
+   ]
+  },
+  {
+   "lote": "novo-europa-2",
+   "recorte": "europa",
+   "lugares": [
+    "Amsterdã",
+    "Florença",
+    "Edimburgo",
+    "Alhambra de Granada",
+    "Viena"
+   ]
+  },
+  {
+   "lote": "novo-europa-3",
+   "recorte": "europa",
+   "lugares": [
+    "Budapeste",
+    "Cracóvia",
+    "Fiordes do Oeste da Noruega (Geirangerfjord e Nærøyfjord)",
+    "Calçada dos Gigantes",
+    "Pompeia"
+   ]
+  },
+  {
+   "lote": "novo-europa-4",
+   "recorte": "europa",
+   "lugares": [
+    "Dolomitas",
+    "Parque Nacional dos Lagos de Plitvice",
+    "Kremlin e Praça Vermelha",
+    "Sintra",
+    "Santorini"
+   ]
+  },
+  {
+   "lote": "novo-africa-1",
+   "recorte": "africa",
+   "lugares": [
+    "Cidade do Cabo",
+    "Tsingy de Bemaraha",
+    "Área de Conservação de Ngorongoro",
+    "Templos de Abu Simbel",
+    "Medina de Fez"
+   ]
+  },
+  {
+   "lote": "novo-africa-2",
+   "recorte": "africa",
+   "lugares": [
+    "Cartago",
+    "Parque Nacional Kruger",
+    "Aksum",
+    "Lago Malawi",
+    "Cidade Velha de Lamu"
+   ]
+  },
+  {
+   "lote": "novo-asia-1",
+   "recorte": "asia",
+   "lugares": [
+    "Tóquio",
+    "Bangkok",
+    "Mar Morto",
+    "Varanasi",
+    "Singapura"
+   ]
+  },
+  {
+   "lote": "novo-asia-2",
+   "recorte": "asia",
+   "lugares": [
+    "Memorial da Paz de Hiroshima",
+    "Persépolis",
+    "Samarcanda",
+    "Capadócia (Parque Nacional de Göreme)",
+    "Mausoléu do Primeiro Imperador Qin (Exército de Terracota)"
+   ]
+  },
+  {
+   "lote": "novo-asia-3",
+   "recorte": "asia",
+   "lugares": [
+    "Hoi An",
+    "Lago Baikal",
+    "Seul",
+    "Luang Prabang",
+    "Dubai"
+   ]
+  },
+  {
+   "lote": "novo-oceania-1",
+   "recorte": "oceania",
+   "lugares": [
+    "Melbourne",
+    "Wellington",
+    "Auckland",
+    "Rotorua",
+    "Queenstown"
+   ]
+  },
+  {
+   "lote": "novo-oceania-2",
+   "recorte": "oceania",
+   "lugares": [
+    "Parque Nacional Aoraki/Monte Cook",
+    "Bora Bora",
+    "Baía Shark",
+    "Parque Nacional Purnululu",
+    "Doze Apóstolos (Great Ocean Road)"
+   ]
+  },
+  {
+   "lote": "novo-oceania-3",
+   "recorte": "oceania",
+   "lugares": [
+    "Trópicos Úmidos de Queensland (Daintree)",
+    "Ilhas Whitsunday",
+    "Atol de Bikini",
+    "Nan Madol",
+    "Lagoas da Nova Caledônia"
+   ]
+  },
+  {
+   "lote": "novo-oceania-4",
+   "recorte": "oceania",
+   "lugares": [
+    "Lagoa Sul das Ilhas Rock (Palau)",
+    "Áreas Selvagens da Tasmânia",
+    "Parque Nacional dos Vulcões do Havaí"
+   ]
+  },
+  {
+   "lote": "novo-antartida-1",
+   "recorte": "antartida",
+   "lugares": [
+    "Baía do Almirantado (Ilha Rei George, Estação Comandante Ferraz)",
+    "Geleira Lambert",
+    "Lago Vostok",
+    "Polo Sul de Inacessibilidade",
+    "Península Byers (Ilha Livingston)"
+   ]
+  },
+  {
+   "lote": "novo-antartida-2",
+   "recorte": "antartida",
+   "lugares": [
+    "Ilha Snow Hill",
+    "Montes Transantárticos",
+    "Plataforma de Gelo Filchner-Ronne",
+    "Geleira Beardmore",
+    "Domo A"
+   ]
+  }
+ ]
+}

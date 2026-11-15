@@ -1,0 +1,1058 @@
+{
+ "case": {
+  "id": "lug2-ilha-detaille",
+  "placeId": "ilha-detaille",
+  "title": "Ilha Detaille e Base W",
+  "aliases": [
+   "Ilha Detaille",
+   "Detaille Island",
+   "Detaille",
+   "Base W"
+  ],
+  "answerType": "ilha e base histórica",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "AQ"
+   ],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Sítio histórico antártico",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Ilha Detaille e Base W"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Ilha Goudier e Base A de Port Lockroy"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Ilha Horseshoe e Base Y"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Ilha Stonington e Base E"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Ilha Winter e Base F (Wordie House)"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Cabo Royds e Cabana de Shackleton"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Cabo Evans e Cabana Terra Nova"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Cabo Denison e Cabanas de Mawson"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Cabo Adare e Cabanas de Borchgrevink"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Hut Point e Cabana Discovery"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Ilha Snow Hill e Cabana de Nordenskjöld"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Ilha Paulet e cabana de pedra"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Ilha Detaille e Base W",
+    "sources": [
+     "ATS_DETAILLE",
+     "DETAILLE_HSM"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Fiorde, baía ou estreito onde fica a ilha",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Fiorde Lallemand"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Baía Andvord"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Estreito de Penola"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Canal Errera"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Fiorde Lallemand",
+    "sources": [
+     "ATS_DETAILLE",
+     "DETAILLE_HSM"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Uso principal da base",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Levantamentos de terreno, geologia e meteorologia"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Caça e processamento de baleias"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Perfuração profunda de testemunhos de gelo"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Observação astronômica"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Levantamentos de terreno, geologia e meteorologia",
+    "sources": [
+     "DETAILLE_HSM"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Década de construção da base",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Década de 1950"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Década de 1890"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Década de 1930"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Década de 1980"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Década de 1950",
+    "sources": [
+     "ATS_DETAILLE",
+     "DETAILLE_HSM"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "ilha-detaille-viajante-P01",
+      "factKey": "ilha-detaille-F01",
+      "text": "Este destino é uma pequena ilha antártica onde ficou uma antiga base científica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P02",
+      "factKey": "ilha-detaille-F02",
+      "text": "A ilha fica num fiorde, um braço de mar que entra pela costa.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P03",
+      "factKey": "ilha-detaille-F03",
+      "text": "O fiorde se chama Lallemand.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ATS_DETAILLE",
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P04",
+      "factKey": "ilha-detaille-F04",
+      "text": "O chão é quase todo de rocha, com trechos de cascalho.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P05",
+      "factKey": "ilha-detaille-F05",
+      "text": "A base fica numa faixa estreita de terra no norte da ilha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P06",
+      "factKey": "ilha-detaille-F06",
+      "text": "Era uma base científica britânica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE",
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P07",
+      "factKey": "ilha-detaille-F07",
+      "text": "A base foi construída em 1956.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_DETAILLE",
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P08",
+      "factKey": "ilha-detaille-F08",
+      "text": "Foi fechada em 1959, porque era difícil chegar até ela.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P09",
+      "factKey": "ilha-detaille-F09",
+      "text": "Anos depois, a base voltou a ser usada por seis meses, em 1965 e 1966.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P10",
+      "factKey": "ilha-detaille-F10",
+      "text": "A base servia sobretudo para medir e mapear o terreno, estudar as rochas e acompanhar o tempo.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P11",
+      "factKey": "ilha-detaille-F11",
+      "text": "A base participou de um grande programa científico internacional dos anos 1950.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "ATS_DETAILLE",
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P12",
+      "factKey": "ilha-detaille-F12",
+      "text": "Uma torre de anemômetro, para medir o vento, faz parte do conjunto.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_DETAILLE",
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P13",
+      "factKey": "ilha-detaille-F13",
+      "text": "Mastros de rádio também ficaram no local.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE",
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P14",
+      "factKey": "ilha-detaille-F14",
+      "text": "Antigos canis fazem parte das construções ao redor da base.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P15",
+      "factKey": "ilha-detaille-F15",
+      "text": "Um depósito de emergência e depósitos de carga e de tambores de combustível também ficaram por lá.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P16",
+      "factKey": "ilha-detaille-F16",
+      "text": "A base é um sítio histórico protegido pelo Tratado da Antártida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE",
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P17",
+      "factKey": "ilha-detaille-F17",
+      "text": "Por dentro, a base continua quase como era no fim dos anos 1950.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P18",
+      "factKey": "ilha-detaille-F18",
+      "text": "As janelas têm venezianas fixas, então é preciso lanterna para ver o interior.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P19",
+      "factKey": "ilha-detaille-F19",
+      "text": "A visita à cabana precisa de permissão prévia de um dos países do Tratado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P20",
+      "factKey": "ilha-detaille-F20",
+      "text": "No máximo 12 pessoas podem estar dentro da base ao mesmo tempo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P21",
+      "factKey": "ilha-detaille-F21",
+      "text": "É proibido fumar, acender velas ou usar fogareiros dentro e perto da cabana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P22",
+      "factKey": "ilha-detaille-F22",
+      "text": "Quem visita deve assinar um livro de visitantes guardado na base.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P23",
+      "factKey": "ilha-detaille-F23",
+      "text": "Na chegada de bote, há pedras submersas e rochas escorregadias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P24",
+      "factKey": "ilha-detaille-F24",
+      "text": "Só uma espécie de líquen está registrada na ilha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-viajante-P25",
+      "factKey": "ilha-detaille-F25",
+      "text": "A antiga estação britânica era identificada pela letra W.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "ilha-detaille-geografo-P01",
+      "factKey": "ilha-detaille-F01",
+      "text": "O recorte combina uma pequena ilha e uma estação científica preservada como patrimônio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE",
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P02",
+      "factKey": "ilha-detaille-F02",
+      "text": "A ilha situa-se ao largo da Costa Loubet.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE",
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P03",
+      "factKey": "ilha-detaille-F03",
+      "text": "O Fiorde Lallemand é o corpo d’água que envolve a ilha.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ATS_DETAILLE",
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P04",
+      "factKey": "ilha-detaille-F04",
+      "text": "A superfície é predominantemente rochosa, com manchas de cascalho.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P05",
+      "factKey": "ilha-detaille-F05",
+      "text": "A estação ocupa um istmo estreito no extremo norte da ilha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P06",
+      "factKey": "ilha-detaille-F06",
+      "text": "A base foi proposta como patrimônio pelo Reino Unido, que também responde por sua gestão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P07",
+      "factKey": "ilha-detaille-F07",
+      "text": "A construção da estação data de 1956, pouco antes do Ano Geofísico Internacional.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_DETAILLE",
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P08",
+      "factKey": "ilha-detaille-F08",
+      "text": "A dificuldade de acesso encerrou a operação em 1959, três anos após a construção.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P09",
+      "factKey": "ilha-detaille-F09",
+      "text": "Depois do fechamento, houve uma reocupação temporária de seis meses em 1965/66.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P10",
+      "factKey": "ilha-detaille-F10",
+      "text": "Levantamentos de terreno, geologia e meteorologia foram os principais usos científicos da estação.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P11",
+      "factKey": "ilha-detaille-F11",
+      "text": "Os trabalhos da estação integraram o programa geofísico do Ano Geofísico Internacional.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P12",
+      "factKey": "ilha-detaille-F12",
+      "text": "A torre de anemômetro testemunha a rotina de observação meteorológica.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_DETAILLE",
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P13",
+      "factKey": "ilha-detaille-F13",
+      "text": "Mastros de rádio integram as estruturas externas, ao lado da cabana e de construções anexas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE",
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P14",
+      "factKey": "ilha-detaille-F14",
+      "text": "Os antigos canis evidenciam que cães faziam parte da logística da base.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P15",
+      "factKey": "ilha-detaille-F15",
+      "text": "Depósitos de emergência, de carga e de tambores de combustível completam o conjunto material.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P16",
+      "factKey": "ilha-detaille-F16",
+      "text": "A estação é o Sítio e Monumento Histórico nº 83 do Tratado da Antártida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE",
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P17",
+      "factKey": "ilha-detaille-F17",
+      "text": "Pouco alterada, a estação lembra as condições da pesquisa antártica na época da assinatura do Tratado.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_DETAILLE",
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P18",
+      "factKey": "ilha-detaille-F18",
+      "text": "As venezianas fixas das janelas deixam o interior às escuras e exigem lanternas elétricas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P19",
+      "factKey": "ilha-detaille-F19",
+      "text": "O acesso à cabana depende de autorização prévia de uma Parte e de aviso à Parte que administra o sítio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P20",
+      "factKey": "ilha-detaille-F20",
+      "text": "A lotação é de até 12 pessoas dentro da base, sob supervisão próxima, e de até 50 em terra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P21",
+      "factKey": "ilha-detaille-F21",
+      "text": "Fogo e pequenos vazamentos de combustível são os impactos potenciais que levam à proibição de chamas no local.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P22",
+      "factKey": "ilha-detaille-F22",
+      "text": "Cada visita deve ser registrada no livro de visitantes mantido dentro da estação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P23",
+      "factKey": "ilha-detaille-F23",
+      "text": "Rochas submersas na aproximação e superfícies escorregadias no desembarque condicionam a operação de botes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P24",
+      "factKey": "ilha-detaille-F24",
+      "text": "Sem levantamento florístico detalhado, apenas uma espécie de líquen consta dos registros da ilha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_DETAILLE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-detaille-geografo-P25",
+      "factKey": "ilha-detaille-F25",
+      "text": "Identificada pela letra W, a estação britânica do Fiorde Lallemand fecha a identificação.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "ATS_DETAILLE",
+       "DETAILLE_HSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Pequena ilha rochosa no Fiorde Lallemand, ao largo da Costa Loubet, com a Base W britânica (construída em 1956, fechada em 1959), preservada como Sítio e Monumento Histórico nº 83.",
+   "editorialNotes": [
+    "As diretrizes abertas indicam revisão de 2009. A URL do rascunho (versão citada como de 2026) não pôde ser aberta; as pistas de fauna (pinguins-de-adélia, focas, baleias, orcas) e a citação de 2026 dependiam dela e foram retiradas.",
+    "A lista de SMH (2012) põe a base num istmo estreito no norte da ilha; segundo as diretrizes, o desembarque preferido é na pequena baía ao sul da cabana."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e campos conferidos nas diretrizes de visita do Tratado (rev. 2009) e na lista de Sítios e Monumentos Históricos; C2 (letra da base) e C3 (fiorde) refeitos."
+  }
+ },
+ "sources": {
+  "ATS_DETAILLE": {
+   "id": "ATS_DETAILLE",
+   "title": "Visitor Site Guidelines: 25. Detaille Island",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://www.ats.aq/devAS/Ats/Guideline/b4cbb119-f67b-40a9-91bc-d8d2c600fabc",
+   "checkedAt": "2026-11-15"
+  },
+  "DETAILLE_HSM": {
+   "id": "DETAILLE_HSM",
+   "title": "List of Historic Sites and Monuments approved by the ATCM (2012)",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://documents.ats.aq/ATCM35/WW/atcm35_ww003_e.pdf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.ats.aq/devAS/Ats/Guideline/b4cbb119-f67b-40a9-91bc-d8d2c600fabc",
+   "https://documents.ats.aq/ATCM35/WW/atcm35_ww003_e.pdf"
+  ],
+  "alteracoes": [
+   "geography.countries: [] -> [\"AQ\"] (o validador exige código ISO; o banco usa [] para a Antártida)",
+   "ATS_DETAILLE: URL do rascunho (8982c259…) não aberta; trocada pela página de diretrizes b4cbb119… (rev. 2009) aberta no site do Tratado",
+   "aliases \"Detaille\" e \"Base W\" acrescentados",
+   "C1: retiradas ilhas sem base histórica (Cuverville, Petermann, Half Moon, Point Wild); entram Base Y (Horseshoe), Base E (Stonington) e Base F (Wordie House, Winter), além da cabana de pedra de Paulet",
+   "C2: \"Identificação da base histórica\" (Base W/A/Y/T) entregava o C1, cujo gabarito contém \"Base W\"; trocado por \"Fiorde, baía ou estreito onde fica a ilha\" = Fiorde Lallemand",
+   "C3: \"Fiorde\" (Lallemand contra Milford Sound, Geiranger, Scoresby Sund) trocado por \"Uso principal da base\" = levantamentos, geologia e meteorologia (lista de SMH)",
+   "C4: mantido (década de 1950), com fonte da lista de SMH",
+   "retiradas 7 pistas sem fonte aberta: pinguins-de-adélia no sul, focas-de-weddell, baleias-jubarte e orcas, colônia inacessível por terra e menção às \"diretrizes de 2026\"",
+   "novas pistas verificadas: istmo no norte, gestão do Reino Unido, venezianas e lanternas, livro de visitantes, lotação de 12 dentro e 50 em terra, proibição de chamas, líquen único",
+   "pistas realinhadas por factKey e relatedFields ajustados; aberturas P01 e P04; decisiva P25 nos dois perfis",
+   "viajante: 24 de 25 pistas reescritas ou trocadas; geografo: 25 de 25"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

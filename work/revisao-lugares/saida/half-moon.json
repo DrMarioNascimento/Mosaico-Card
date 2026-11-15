@@ -1,0 +1,1045 @@
+{
+ "case": {
+  "id": "lug2-half-moon",
+  "placeId": "half-moon",
+  "title": "Ilha Half Moon",
+  "aliases": [
+   "Half Moon Island",
+   "Half Moon"
+  ],
+  "answerType": "ilha antártica",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "AQ"
+   ],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Ilha antártica",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Ilha Half Moon"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Ilha Cuverville"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Ilha Deception"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Ilha Paulet"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Ilha Goudier"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Ilha Petermann"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Ilha Rei George"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Ilha Livingston"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Ilha Greenwich"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Ilha Danco"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Ilha Wiencke"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Ilha Snow Hill"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Ilha Half Moon",
+    "sources": [
+     "ATS_HALFMOON",
+     "HALFMOON_KBA"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Arquipélago a que pertence",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Ilhas Shetland do Sul"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Ilhas Órcadas do Sul"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Arquipélago Palmer"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Arquipélago Wilhelm"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Ilhas Shetland do Sul",
+    "sources": [
+     "HALFMOON_KBA"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Pinguim que se reproduz na ilha",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Pinguim-de-barbicha"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Pinguim-de-adélia"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Pinguim-imperador"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Pinguim-rei"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Pinguim-de-barbicha",
+    "sources": [
+     "ATS_HALFMOON",
+     "HALFMOON_KBA"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Estação científica argentina vizinha",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Cámara"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Carlini"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Esperanza"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Marambio"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Cámara",
+    "sources": [
+     "ATS_HALFMOON",
+     "HALFMOON_KBA"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "half-moon-viajante-P01",
+      "factKey": "half-moon-F01",
+      "text": "Este destino é uma pequena ilha antártica, com praias de pedras e pinguins.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P02",
+      "factKey": "half-moon-F02",
+      "text": "A ilha tem só cerca de 2 km de comprimento.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P03",
+      "factKey": "half-moon-F03",
+      "text": "Fica entre as ilhas Greenwich e Livingston.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P04",
+      "factKey": "half-moon-F04",
+      "text": "Faz parte do arquipélago das Shetland do Sul.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "HALFMOON_KBA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P05",
+      "factKey": "half-moon-F05",
+      "text": "Praias de pedras roliças se estendem pelo centro e pelo sudeste da ilha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P06",
+      "factKey": "half-moon-F06",
+      "text": "Uma pequena colina com uma torre de navegação se destaca na paisagem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P07",
+      "factKey": "half-moon-F07",
+      "text": "Do lado norte da colina, há encostas íngremes de pedras soltas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P08",
+      "factKey": "half-moon-F08",
+      "text": "Afloramentos de rochas ígneas, formadas por magma resfriado, aparecem pela ilha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P09",
+      "factKey": "half-moon-F09",
+      "text": "Pinguins-de-barbicha fazem ninhos na ilha.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P10",
+      "factKey": "half-moon-F10",
+      "text": "Em dezembro de 2012, cerca de 2 mil casais de pinguins-de-barbicha foram contados ali.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "HALFMOON_KBA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P11",
+      "factKey": "half-moon-F11",
+      "text": "Pequenos petréis-de-wilson cavam tocas entre as pedras soltas da colina.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P12",
+      "factKey": "half-moon-F12",
+      "text": "Trinta-réis e gaivotas fazem ninhos numa ponta de praia perto do desembarque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P13",
+      "factKey": "half-moon-F13",
+      "text": "Os trinta-réis-antárticos podem mudar o lugar do ninho de um ano para outro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P14",
+      "factKey": "half-moon-F14",
+      "text": "Nos anos 1990, cerca de cem casais de skuas-polares-do-sul foram contados na ilha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "HALFMOON_KBA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P15",
+      "factKey": "half-moon-F15",
+      "text": "Lobos-marinhos e focas-de-weddell costumam descansar nas praias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P16",
+      "factKey": "half-moon-F16",
+      "text": "O vaivém de visitantes já causou erosão de trilhas e plantas pisoteadas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P17",
+      "factKey": "half-moon-F17",
+      "text": "Musgos e uma gramínea antártica crescem nas praias elevadas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P18",
+      "factKey": "half-moon-F18",
+      "text": "Líquens cobrem rochas perto das colônias de pinguins.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P19",
+      "factKey": "half-moon-F19",
+      "text": "Um velho bote baleeiro marca a praia de desembarque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P20",
+      "factKey": "half-moon-F20",
+      "text": "Ondulações vindas do leste podem agitar o desembarque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P21",
+      "factKey": "half-moon-F21",
+      "text": "Uma estação científica argentina de verão fica a oeste da área de visitação.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P22",
+      "factKey": "half-moon-F22",
+      "text": "No verão, cientistas da estação trabalham em vários pontos da ilha.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P23",
+      "factKey": "half-moon-F23",
+      "text": "O caminho para a ponta leste passa por uma passagem estreita usada pelos pinguins.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P24",
+      "factKey": "half-moon-F24",
+      "text": "A estação argentina vizinha se chama Cámara.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-viajante-P25",
+      "factKey": "half-moon-F25",
+      "text": "Vista de cima, a ilha tem formato de lua crescente.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "half-moon-geografo-P01",
+      "factKey": "half-moon-F01",
+      "text": "O recorte é uma ilha de pequenas dimensões, com praias de seixos, afloramentos rochosos e colônias de aves.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P02",
+      "factKey": "half-moon-F02",
+      "text": "A ilha inteira, com cerca de 1,5 km², coincide com a Área-Chave de Biodiversidade delimitada ali.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "HALFMOON_KBA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P03",
+      "factKey": "half-moon-F03",
+      "text": "Ocupa posição intermediária entre as ilhas Greenwich e Livingston.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P04",
+      "factKey": "half-moon-F04",
+      "text": "Nas Shetland do Sul, fica dentro de uma baía, a cerca de 2 km da costa de Livingston.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "HALFMOON_KBA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P05",
+      "factKey": "half-moon-F05",
+      "text": "Praias soerguidas de seixos, hoje acima da linha do mar, ocupam o centro e o sudeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P06",
+      "factKey": "half-moon-F06",
+      "text": "A colina da torre de navegação é área fechada, por abrigar ninhos de pinguins e tocas de petréis.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P07",
+      "factKey": "half-moon-F07",
+      "text": "A colina combina encostas de tálus ao norte com falésias voltadas para sul e leste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P08",
+      "factKey": "half-moon-F08",
+      "text": "O substrato inclui afloramentos de rocha ígnea entre as praias e a colina.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P09",
+      "factKey": "half-moon-F09",
+      "text": "Pinguins-de-barbicha nidificam na colina e nos afloramentos rochosos.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P10",
+      "factKey": "half-moon-F10",
+      "text": "Um censo de dezembro de 2012 estimou cerca de 2,1 mil casais reprodutores de pinguim-de-barbicha.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "HALFMOON_KBA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P11",
+      "factKey": "half-moon-F11",
+      "text": "O tálus da colina serve de área de tocas para o petrel-de-wilson, reprodutor confirmado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P12",
+      "factKey": "half-moon-F12",
+      "text": "Uma ponta de praia a leste do desembarque principal é fechada para proteger ninhos de trinta-réis e gaivotas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P13",
+      "factKey": "half-moon-F13",
+      "text": "Como os trinta-réis-antárticos mudam o local dos ninhos entre temporadas, as diretrizes pedem distância cautelosa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P14",
+      "factKey": "half-moon-F14",
+      "text": "A população reprodutora de skua-polar-do-sul (103 casais em 1995/96) qualifica a ilha como Área-Chave de Biodiversidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "HALFMOON_KBA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P15",
+      "factKey": "half-moon-F15",
+      "text": "Lobos-marinhos-antárticos e focas-de-weddell usam a costa como área regular de repouso; os lobos-marinhos se camuflam nos seixos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P16",
+      "factKey": "half-moon-F16",
+      "text": "Erosão de trilhas e pisoteio da vegetação são impactos já documentados num sítio que recebeu 9.760 visitantes em 2009/10.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON",
+       "HALFMOON_KBA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P17",
+      "factKey": "half-moon-F17",
+      "text": "Deschampsia antarctica, Colobanthus quitensis e manchas de musgo colonizam as praias soerguidas e os vãos entre afloramentos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P18",
+      "factKey": "half-moon-F18",
+      "text": "Líquens como Usnea antarctica e espécies crostosas recobrem afloramentos próximos às pinguineiras.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P19",
+      "factKey": "half-moon-F19",
+      "text": "Um bote baleeiro, às vezes encoberto pela neve no início da temporada, assinala a praia principal de desembarque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P20",
+      "factKey": "half-moon-F20",
+      "text": "O desembarque principal, na costa norte do extremo sudeste, fica exposto a ondulações de leste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P21",
+      "factKey": "half-moon-F21",
+      "text": "A estação argentina de verão, a oeste, fica fora do perímetro das diretrizes de visita, que cobrem o extremo leste.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P22",
+      "factKey": "half-moon-F22",
+      "text": "A estação, que funciona só no verão e comporta cerca de 36 pessoas, opera próxima à fauna reprodutora.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "HALFMOON_KBA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P23",
+      "factKey": "half-moon-F23",
+      "text": "De outubro a meados de janeiro, na incubação inicial dos pinguins, é fortemente desaconselhado cruzar a passagem estreita rumo ao extremo leste.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P24",
+      "factKey": "half-moon-F24",
+      "text": "O sítio é vizinho da estação argentina Cámara, nas Shetland do Sul.",
+      "relatedFields": [
+       "C1",
+       "C2",
+       "C4"
+      ],
+      "sources": [
+       "ATS_HALFMOON",
+       "HALFMOON_KBA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "half-moon-geografo-P25",
+      "factKey": "half-moon-F25",
+      "text": "A ilha descreve um arco em forma de crescente com cerca de 2 km de extensão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ATS_HALFMOON"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Ilha em forma de crescente, com cerca de 2 km, entre Greenwich e Livingston (Shetland do Sul), com colônia de pinguins-de-barbicha e a estação argentina de verão Cámara a oeste da área de visitação.",
+   "editorialNotes": [
+    "As diretrizes do Tratado (revisão de 2019) tratam só do extremo leste da ilha; a estação Cámara fica fora delas.",
+    "Contagens de aves vêm da ficha KBA (pinguins em dez/2012; skuas em 1995/96) e podem estar desatualizadas.",
+    "A ficha KBA põe a estação no sul da ilha; as diretrizes, a oeste da área de visitação. As pistas seguem as diretrizes."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e campos conferidos nas diretrizes de visita do Tratado (rev. 2019) e na ficha KBA; C2–C4 refeitos com alternativas antárticas comparáveis."
+  }
+ },
+ "sources": {
+  "ATS_HALFMOON": {
+   "id": "ATS_HALFMOON",
+   "title": "Visitor Site Guidelines: 18. Half Moon Island",
+   "publisher": "Secretariat of the Antarctic Treaty",
+   "url": "https://www.ats.aq/devAS/e/Ats/Guideline/d31a8aaf-cc8b-4d3b-9215-9b0e661bf70c",
+   "checkedAt": "2026-11-15"
+  },
+  "HALFMOON_KBA": {
+   "id": "HALFMOON_KBA",
+   "title": "Key Biodiversity Areas factsheet: Half Moon Island",
+   "publisher": "Key Biodiversity Areas Partnership (BirdLife International)",
+   "url": "https://www.keybiodiversityareas.org/site/factsheet/29441",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.ats.aq/devAS/e/Ats/Guideline/d31a8aaf-cc8b-4d3b-9215-9b0e661bf70c",
+   "https://guidelines.ats.aq/GuideLinePDF/d31a8aaf-cc8b-4d3b-9215-9b0e661bf70c/18_Half_2019_e_rev1.pdf",
+   "https://www.keybiodiversityareas.org/site/factsheet/29441"
+  ],
+  "alteracoes": [
+   "geography.countries: [] -> [\"AQ\"] (o validador exige código ISO; o banco usa [] para a Antártida)",
+   "C1: \"Ilha Aitcho\" (não é uma ilha única, e sim um grupo) trocada por \"Ilha Greenwich\"; fontes ATS + KBA",
+   "C2: \"Forma aproximada\" (gabarito \"Crescente\" traduzia o nome e alternativas absurdas) trocado por \"Arquipélago a que pertence\" = Ilhas Shetland do Sul (KBA)",
+   "C3: alternativas de pinguins não antárticos trocadas por adélia, imperador e rei (ATS lista só o pinguim-de-barbicha como reprodutor)",
+   "C4: distratores Amundsen-Scott/Concordia/Vostok (bases do interior) trocados por bases argentinas Carlini, Esperanza e Marambio",
+   "pistas realinhadas por factKey (viajante Pnn e geografo Pnn tratam do mesmo fato) e relatedFields ajustados aos campos",
+   "novas pistas verificadas: tamanho 1,5 km² e skuas qualificadoras (KBA), censo de 2012 (KBA), capacidade da estação (KBA), torre de navegação, ondulação de leste, restrição out–jan (ATS)",
+   "retiradas pistas meta (“as diretrizes descrevem o extremo oriental” isolada) e genéricas repetidas sobre manejo",
+   "aberturas: P01 e P15; decisivas: P24 e P25 nos dois perfis",
+   "viajante: 24 de 25 pistas reescritas ou trocadas; geografo: 25 de 25"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

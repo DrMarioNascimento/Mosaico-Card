@@ -1,0 +1,1067 @@
+{
+ "case": {
+  "id": "lug2-trinidad-cuba",
+  "placeId": "trinidad-cuba",
+  "title": "Trinidad e Vale dos Engenhos",
+  "aliases": [
+   "Trinidad e Valle de los Ingenios",
+   "Trinidad"
+  ],
+  "answerType": "cidade histórica e vale açucareiro",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "CU"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Patrimônio Mundial",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Trinidad e Vale dos Engenhos"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Havana Velha e seu Sistema de Fortificações"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Centro Histórico de Camagüey"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Centro Histórico Urbano de Cienfuegos"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Vale de Viñales"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Paisagem Arqueológica das Primeiras Plantações de Café do Sudeste de Cuba"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Castelo de San Pedro de la Roca, em Santiago de Cuba"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Cidade Colonial de Santo Domingo"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Parque Histórico Nacional – Cidadela, Sans Souci e Ramiers"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Área Histórica de Willemstad, em Curaçao"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Bridgetown Histórica e sua Guarnição"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Paisagem Cultural Cafeeira da Colômbia"
+     },
+     {
+      "id": "C1-O13",
+      "text": "Paisagem do Agave e Antigas Instalações Industriais de Tequila"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Trinidad e Vale dos Engenhos",
+    "sources": [
+     "TRINIDAD_PR"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "País",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Cuba"
+     },
+     {
+      "id": "C2-O2",
+      "text": "República Dominicana"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Jamaica"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Haiti"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Cuba",
+    "sources": [
+     "TRINIDAD_PR",
+     "TRINIDAD_EB"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Atividade que, segundo a UNESCO, moldou o lugar nos séculos XVIII e XIX",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Produção de açúcar de cana"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Cultivo de café"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Cultivo de tabaco"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Mineração de cobre"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Produção de açúcar de cana",
+    "sources": [
+     "TRINIDAD_PR"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Mão de obra que, segundo a UNESCO, somava mais de 11 mil pessoas nos engenhos em 1827",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Pessoas escravizadas"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Imigrantes chineses contratados"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Colonos europeus assalariados"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Indígenas em regime de encomienda"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Pessoas escravizadas",
+    "sources": [
+     "TRINIDAD_PR"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "trinidad-cuba-viajante-P01",
+      "factKey": "trinidad-cuba-F01",
+      "text": "O destino junta uma cidade antiga e uma paisagem rural.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P02",
+      "factKey": "trinidad-cuba-F02",
+      "text": "Fica numa ilha do Caribe.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "TRINIDAD_EB_CUBA",
+       "TRINIDAD_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P03",
+      "factKey": "trinidad-cuba-F03",
+      "text": "O lugar fica em Cuba.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P04",
+      "factKey": "trinidad-cuba-F04",
+      "text": "A cidade foi fundada no começo do século XVI.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P05",
+      "factKey": "trinidad-cuba-F05",
+      "text": "O açúcar de cana marcou a história do lugar.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P06",
+      "factKey": "trinidad-cuba-F06",
+      "text": "O vale guarda os locais de dezenas de antigos engenhos de açúcar.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P07",
+      "factKey": "trinidad-cuba-F07",
+      "text": "Casas de antigas fazendas de cana aparecem pela paisagem rural.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P08",
+      "factKey": "trinidad-cuba-F08",
+      "text": "Sítios arqueológicos ajudam a contar a história do campo.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P09",
+      "factKey": "trinidad-cuba-F09",
+      "text": "Pessoas escravizadas trabalhavam aos milhares nos engenhos.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P10",
+      "factKey": "trinidad-cuba-F10",
+      "text": "O auge dos engenhos aconteceu no século XIX.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P11",
+      "factKey": "trinidad-cuba-F11",
+      "text": "O ciclo do açúcar ganhou força no fim do século XVIII.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P12",
+      "factKey": "trinidad-cuba-F12",
+      "text": "As ruas do centro antigo são calçadas de pedra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P13",
+      "factKey": "trinidad-cuba-F13",
+      "text": "Pracinhas e largos antigos fazem parte do passeio pelo centro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P14",
+      "factKey": "trinidad-cuba-F14",
+      "text": "O Palácio Brunet é um dos casarões históricos da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P15",
+      "factKey": "trinidad-cuba-F15",
+      "text": "O Palácio Cantero virou museu de história da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P16",
+      "factKey": "trinidad-cuba-F16",
+      "text": "A Plaza Mayor é o coração do centro antigo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P17",
+      "factKey": "trinidad-cuba-F17",
+      "text": "A torre de um antigo convento se destaca sobre a praça principal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P18",
+      "factKey": "trinidad-cuba-F18",
+      "text": "As casas antigas vão das mais simples às mais luxuosas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P19",
+      "factKey": "trinidad-cuba-F19",
+      "text": "Telhas de barro e madeira aparecem nas casas antigas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P20",
+      "factKey": "trinidad-cuba-F20",
+      "text": "Tempestades e enchentes são riscos para as casas antigas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P21",
+      "factKey": "trinidad-cuba-F21",
+      "text": "A parte rural reúne três vales interligados, a cerca de 12 km da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P22",
+      "factKey": "trinidad-cuba-F22",
+      "text": "Uma antiga ferrovia faz parte do patrimônio do vale.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P23",
+      "factKey": "trinidad-cuba-F23",
+      "text": "A UNESCO reconheceu o conjunto em 1988.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P24",
+      "factKey": "trinidad-cuba-F24",
+      "text": "A maioria das antigas fazendas hoje está em ruínas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-viajante-P25",
+      "factKey": "trinidad-cuba-F25",
+      "text": "O turismo traz movimento, mas também pressiona a cidade antiga.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "trinidad-cuba-geografo-P01",
+      "factKey": "trinidad-cuba-F01",
+      "text": "O bem patrimonial articula um núcleo urbano antigo e uma área rural produtiva.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P02",
+      "factKey": "trinidad-cuba-F02",
+      "text": "Situa-se em um país insular das Antilhas, perto do mar do Caribe.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "TRINIDAD_EB_CUBA",
+       "TRINIDAD_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P03",
+      "factKey": "trinidad-cuba-F03",
+      "text": "Situa-se no centro de Cuba, entre encostas de serra ao norte e o porto caribenho de Casilda ao sul.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "TRINIDAD_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P04",
+      "factKey": "trinidad-cuba-F04",
+      "text": "Fundada em 1514, a cidade só encontrou no açúcar, séculos depois, sua razão de ser histórica.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "TRINIDAD_EB",
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P05",
+      "factKey": "trinidad-cuba-F05",
+      "text": "A agroindústria do açúcar dos séculos XVIII e XIX moldou tanto a cidade quanto o campo.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P06",
+      "factKey": "trinidad-cuba-F06",
+      "text": "O vale reúne os sítios de 75 antigos engenhos e é descrito como museu vivo da produção açucareira.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P07",
+      "factKey": "trinidad-cuba-F07",
+      "text": "Casas de fazenda, barracões e outras instalações compõem a paisagem açucareira.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P08",
+      "factKey": "trinidad-cuba-F08",
+      "text": "Sítios arqueológicos registram o processo agroindustrial açucareiro caribenho dos séculos XVIII e XIX.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P09",
+      "factKey": "trinidad-cuba-F09",
+      "text": "Em 1827, mais de 11 mil pessoas escravizadas trabalhavam nos engenhos da região.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P10",
+      "factKey": "trinidad-cuba-F10",
+      "text": "No auge do século XIX, mais de cinquenta engenhos funcionavam nos vales.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P11",
+      "factKey": "trinidad-cuba-F11",
+      "text": "O ciclo açucareiro se estendeu do fim do século XVIII ao fim do século XIX.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P12",
+      "factKey": "trinidad-cuba-F12",
+      "text": "Ruas de pedra e outros elementos urbanos históricos sobreviveram no tecido da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P13",
+      "factKey": "trinidad-cuba-F13",
+      "text": "Um sistema irregular de praças e largos organiza o tecido urbano conservado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P14",
+      "factKey": "trinidad-cuba-F14",
+      "text": "O Palácio Brunet é tido como o retrato mais autêntico da idade de ouro da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P15",
+      "factKey": "trinidad-cuba-F15",
+      "text": "O Palácio Cantero é um exemplar do estilo neoclássico no centro histórico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P16",
+      "factKey": "trinidad-cuba-F16",
+      "text": "O centro histórico, na província de Sancti Spíritus, tem 37 hectares e a Plaza Mayor como núcleo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P17",
+      "factKey": "trinidad-cuba-F17",
+      "text": "O campanário do Convento de São Francisco domina a vista da Plaza Mayor.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P18",
+      "factKey": "trinidad-cuba-F18",
+      "text": "O casario combina tipologias vernaculares modestas e edifícios elaborados e luxuosos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P19",
+      "factKey": "trinidad-cuba-F19",
+      "text": "Argamassa de cal, madeira e telhas de terracota formam as técnicas construtivas tradicionais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P20",
+      "factKey": "trinidad-cuba-F20",
+      "text": "Materiais de base terrosa deixam o casario vulnerável a tempestades e inundações.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P21",
+      "factKey": "trinidad-cuba-F21",
+      "text": "Os vales San Luis, Santa Rosa e Meyer, 12 km a nordeste da cidade, formam a área rural do bem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P22",
+      "factKey": "trinidad-cuba-F22",
+      "text": "Ferrovia e estradas compõem a rede de transporte histórica incluída no bem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P23",
+      "factKey": "trinidad-cuba-F23",
+      "text": "A inscrição de 1988 reuniu a cidade e o vale vizinho em um único Patrimônio Mundial.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR",
+       "TRINIDAD_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P24",
+      "factKey": "trinidad-cuba-F24",
+      "text": "Degradação do solo e falta de água estão entre as causas históricas do declínio do vale.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "trinidad-cuba-geografo-P25",
+      "factKey": "trinidad-cuba-F25",
+      "text": "A gestão precisa proteger cidade, engenhos e vale do avanço do desenvolvimento turístico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRINIDAD_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Cidade fundada no começo do século XVI no centro de Cuba e três vales vizinhos que guardam engenhos, fazendas e vestígios da produção de açúcar com trabalho escravizado nos séculos XVIII e XIX.",
+   "editorialNotes": [
+    "A UNESCO data a fundação no começo do século XVI; a Britannica indica 1514 e Diego Velázquez como fundador.",
+    "A página principal da UNESCO (lista 460) não abriu nesta revisão; a declaração de valor universal foi conferida no relatório periódico publicado pela própria UNESCO.",
+    "C1 passou a reunir bens do Patrimônio Mundial das Américas (cidades e paisagens agroindustriais), porque o rótulo antigo ‘Cidade e vale’ entregava a resposta."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e gabaritos conferidos na declaração de valor universal da UNESCO e na Britannica; rótulos e alternativas de C1, C3 e C4 refeitos."
+  }
+ },
+ "sources": {
+  "TRINIDAD_PR": {
+   "id": "TRINIDAD_PR",
+   "title": "Trinidad and the Valley de los Ingenios — Periodic Report (Section II)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/216792",
+   "checkedAt": "2026-11-15"
+  },
+  "TRINIDAD_EB": {
+   "id": "TRINIDAD_EB",
+   "title": "Trinidad, Cuba",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/place/Trinidad-Cuba",
+   "checkedAt": "2026-11-15"
+  },
+  "TRINIDAD_EB_CUBA": {
+   "id": "TRINIDAD_EB_CUBA",
+   "title": "Cuba summary",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/summary/Cuba",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://whc.unesco.org/document/216792",
+   "https://whc.unesco.org/en/list/460/documents",
+   "https://www.britannica.com/place/Trinidad-Cuba",
+   "https://www.britannica.com/summary/Cuba"
+  ],
+  "alteracoes": [
+   "Fonte TRINIDAD460 (whc.unesco.org/en/list/460/) substituída: a página não abriu (bloqueio de acesso); o mesmo texto da UNESCO (declaração de valor universal) foi conferido no relatório periódico TRINIDAD_PR; acrescentadas Britannica Trinidad (TRINIDAD_EB) e resumo Cuba (TRINIDAD_EB_CUBA).",
+   "C1: rótulo ‘Cidade e vale’ (só a resposta combinava) trocado por ‘Patrimônio Mundial’; alternativas refeitas com 12 bens das Américas fora do Brasil (Salvador e cidades não inscritas saíram).",
+   "C3: alternativas implausíveis (seda, renas, ouro aluvial) trocadas por café, tabaco e cobre; rótulo ancorado na UNESCO para gabarito único.",
+   "C4: alternativas implausíveis trocadas por formas de trabalho comparáveis; rótulo com o dado de 1827 (mais de 11 mil escravizados) para gabarito único.",
+   "Viajante: P01, P02, P06, P07, P08, P09, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P24, P25 reescritas ou trocadas (P16 agora Plaza Mayor; P20 riscos de tempestade/enchente; P24 ‘a maioria’ das fazendas em ruínas, como diz a UNESCO; P17 sem afirmar que o convento fica ‘junto’ à praça).",
+   "Geógrafo: todas as 25 reescritas para relações e processos; P14 (Brunet) corrigida para o que a UNESCO diz (retrato da idade de ouro); P03, P04, P06, P16, P20, P21, P23 com dados novos verificados (Casilda/serra, 1514, 75 engenhos, 37 ha, materiais terrosos, 12 km a nordeste, inscrição conjunta).",
+   "Sinais: P01–P02 abertura e P14 e P21 decisiva nos dois perfis; relatedFields ampliados (C2, C3, C4) onde a pista informa o campo.",
+   "reveal.canonicalSummary e editorialNotes refeitos; review marcado como source-reviewed."
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

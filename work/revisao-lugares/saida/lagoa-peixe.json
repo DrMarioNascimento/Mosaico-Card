@@ -1,0 +1,1037 @@
+{
+ "case": {
+  "id": "lug2-lagoa-peixe",
+  "placeId": "lagoa-peixe",
+  "title": "Parque Nacional da Lagoa do Peixe",
+  "aliases": [
+   "Lagoa do Peixe"
+  ],
+  "answerType": "parque nacional",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "sul"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Parque nacional",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Parque Nacional da Lagoa do Peixe"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Parque Nacional do Superagui"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Parque Nacional da Restinga de Jurubatiba"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Parque Nacional de Ilha Grande"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Parque Nacional da Serra do Itajaí"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Parque Nacional Marinho dos Abrolhos"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Parque Nacional dos Lençóis Maranhenses"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Parque Nacional do Cabo Orange"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Parque Nacional do Iguaçu"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Parque Nacional da Serra da Bocaina"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Parque Nacional de Anavilhanas"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Parque Nacional de Jericoacoara"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Parque Nacional da Lagoa do Peixe",
+    "sources": [
+     "SULLAGOAICMBIO"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Grupo animal que motivou a criação do parque",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Aves migratórias"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Tartarugas marinhas"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Baleias-francas"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Peixes-boi"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Aves migratórias",
+    "sources": [
+     "SULLAGOAICMBIO",
+     "SULLAGOARECURSOS"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Corpo d’água principal",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Laguna rasa ligada ao mar por uma barra"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Lagoa de água doce sem ligação com o mar"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Baía profunda aberta ao oceano"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Represa formada por barragem"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Laguna rasa ligada ao mar por uma barra",
+    "sources": [
+     "SULLAGOAICMBIO",
+     "SULLAGOARECURSOS"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Município da sede e do centro de visitantes",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Mostardas"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Torres"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Santa Vitória do Palmar"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Tramandaí"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Mostardas",
+    "sources": [
+     "SULLAGOAICMBIO"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "lagoa-peixe-viajante-P01",
+      "factKey": "lagoa-peixe-F01",
+      "text": "Este lugar protege ambientes à beira do oceano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P02",
+      "factKey": "lagoa-peixe-F02",
+      "text": "Fica no litoral do Sul do Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P03",
+      "factKey": "lagoa-peixe-F03",
+      "text": "A paisagem reúne lagoas, dunas, banhados e praias.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P04",
+      "factKey": "lagoa-peixe-F04",
+      "text": "A área protegida fica no Rio Grande do Sul.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P05",
+      "factKey": "lagoa-peixe-F05",
+      "text": "Fica numa planície de areia entre uma grande lagoa e o mar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P06",
+      "factKey": "lagoa-peixe-F06",
+      "text": "O Oceano Atlântico banha esse trecho do litoral.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P07",
+      "factKey": "lagoa-peixe-F07",
+      "text": "De um lado da planície está a Lagoa dos Patos; do outro, o oceano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P08",
+      "factKey": "lagoa-peixe-F08",
+      "text": "Aves migratórias se concentram na área e se alimentam ali.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P09",
+      "factKey": "lagoa-peixe-F09",
+      "text": "O parque foi criado para proteger aves migratórias.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P10",
+      "factKey": "lagoa-peixe-F10",
+      "text": "Flamingos se alimentam no ponto em que a lagoa encontra o mar.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P11",
+      "factKey": "lagoa-peixe-F11",
+      "text": "Colhereiros também podem ser observados.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P12",
+      "factKey": "lagoa-peixe-F12",
+      "text": "Cisnes-de-pescoço-preto aparecem na parte norte da lagoa.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P13",
+      "factKey": "lagoa-peixe-F13",
+      "text": "Maçaricos e batuíras aparecem em várias trilhas.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P14",
+      "factKey": "lagoa-peixe-F14",
+      "text": "Há mata de restinga na área.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P15",
+      "factKey": "lagoa-peixe-F15",
+      "text": "Existem lagoas de água doce e de água salobra.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P16",
+      "factKey": "lagoa-peixe-F16",
+      "text": "A lagoa principal se comunica com o mar por um canal chamado barra.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P17",
+      "factKey": "lagoa-peixe-F17",
+      "text": "Por se ligar ao mar, a lagoa principal é, na verdade, uma laguna.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P18",
+      "factKey": "lagoa-peixe-F18",
+      "text": "A lagoa principal é bem rasa: a profundidade média fica em torno de 60 cm.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P19",
+      "factKey": "lagoa-peixe-F19",
+      "text": "A área serve de berçário para espécies marinhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P20",
+      "factKey": "lagoa-peixe-F20",
+      "text": "Camarão-rosa, tainha e linguado estão entre as espécies que usam esse berçário.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P21",
+      "factKey": "lagoa-peixe-F21",
+      "text": "O parque foi criado em 1986.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P22",
+      "factKey": "lagoa-peixe-F22",
+      "text": "Em 1993 foi reconhecido como Sítio Ramsar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P23",
+      "factKey": "lagoa-peixe-F23",
+      "text": "Em 1991 entrou numa rede internacional de reservas para aves limícolas.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P24",
+      "factKey": "lagoa-peixe-F24",
+      "text": "A Trilha das Figueiras, de 6 km, pode ser feita de carro até a margem da lagoa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-viajante-P25",
+      "factKey": "lagoa-peixe-F25",
+      "text": "A sede e o centro de visitantes ficam na praça central de Mostardas.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "lagoa-peixe-geografo-P01",
+      "factKey": "lagoa-peixe-F01",
+      "text": "A laguna protegida tem barra de comunicação intermitente com o mar.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SULLAGOARECURSOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P02",
+      "factKey": "lagoa-peixe-F02",
+      "text": "O ambiente lagunar é raso e rico em nutrientes e alimento para a fauna.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SULLAGOARECURSOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P03",
+      "factKey": "lagoa-peixe-F03",
+      "text": "Um cordão de lagoas e banhados compõe as áreas úmidas da unidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOARECURSOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P04",
+      "factKey": "lagoa-peixe-F04",
+      "text": "As lagoas da Veiana, do Pai João e do Ruivo integram esse cordão de áreas úmidas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOARECURSOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P05",
+      "factKey": "lagoa-peixe-F05",
+      "text": "O campo de dunas abriga fauna e flora adaptadas, como o tuco-tuco-das-dunas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOARECURSOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P06",
+      "factKey": "lagoa-peixe-F06",
+      "text": "Formações campestres nativas são habitat importante para espécies ameaçadas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOARECURSOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P07",
+      "factKey": "lagoa-peixe-F07",
+      "text": "A vegetação de restinga estende-se pela unidade de conservação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOARECURSOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P08",
+      "factKey": "lagoa-peixe-F08",
+      "text": "A unidade inclui uma faixa marinha de 1.000 metros mar adentro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOARECURSOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P09",
+      "factKey": "lagoa-peixe-F09",
+      "text": "Uma planície costeira arenosa separa a Lagoa dos Patos do Oceano Atlântico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P10",
+      "factKey": "lagoa-peixe-F10",
+      "text": "Sementes de pínus, espécie exótica invasora, espalham-se pelo vento sobre as dunas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOARECURSOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P11",
+      "factKey": "lagoa-peixe-F11",
+      "text": "O trânsito de veículos na faixa de praia tem impacto direto sobre a fauna, incluindo as aves.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SULLAGOARECURSOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P12",
+      "factKey": "lagoa-peixe-F12",
+      "text": "Cisnes-de-pescoço-preto ocorrem na porção norte da laguna.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P13",
+      "factKey": "lagoa-peixe-F13",
+      "text": "Aves limícolas, como maçaricos e batuíras, concentram-se nas trilhas das dunas e da barra.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P14",
+      "factKey": "lagoa-peixe-F14",
+      "text": "O Mato da Costa, faixa de mata nativa, acompanha boa parte do limite da unidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOARECURSOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P15",
+      "factKey": "lagoa-peixe-F15",
+      "text": "A laguna é um reservatório natural de água salobra formado por pequenas lagoas interligadas.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P16",
+      "factKey": "lagoa-peixe-F16",
+      "text": "A barra, canal entre a laguna e o mar, reúne grande concentração de aves migratórias.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P17",
+      "factKey": "lagoa-peixe-F17",
+      "text": "Com cerca de 35 km de comprimento e 2 km de largura, a laguna tem profundidade média de 60 cm.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P18",
+      "factKey": "lagoa-peixe-F18",
+      "text": "A laguna funciona como berçário de espécies marinhas, como o camarão-rosa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P19",
+      "factKey": "lagoa-peixe-F19",
+      "text": "Foram catalogadas 349 espécies de aves, 74 delas migratórias.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P20",
+      "factKey": "lagoa-peixe-F20",
+      "text": "Sambaquis estão entre os recursos histórico-culturais protegidos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOARECURSOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P21",
+      "factKey": "lagoa-peixe-F21",
+      "text": "A unidade federal foi criada em 1986 para proteger ecossistemas litorâneos e aves migratórias.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P22",
+      "factKey": "lagoa-peixe-F22",
+      "text": "Desde 1993 é zona úmida de importância internacional reconhecida como Sítio Ramsar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P23",
+      "factKey": "lagoa-peixe-F23",
+      "text": "Em 1991 passou a integrar a Rede Hemisférica de Reservas para Aves Limícolas.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P24",
+      "factKey": "lagoa-peixe-F24",
+      "text": "Em 1999 tornou-se posto avançado da Reserva da Biosfera da Mata Atlântica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lagoa-peixe-geografo-P25",
+      "factKey": "lagoa-peixe-F25",
+      "text": "A sede administrativa e o centro de visitantes situam-se em Mostardas.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SULLAGOAICMBIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Parque nacional do litoral gaúcho, numa planície arenosa entre a Lagoa dos Patos e o Atlântico, criado em 1986 para proteger aves migratórias; sua laguna rasa se liga ao mar por uma barra.",
+   "editorialNotes": [
+    "A \"Lagoa do Peixe\" é uma laguna; o SAMGe descreve a barra com o mar como intermitente.",
+    "Contagens de aves (349 espécies, 74 migratórias) e medidas da laguna são as da página de visitação do ICMBio, sem ano informado.",
+    "C2–C4 reformulados: as alternativas do rascunho eram implausíveis e C4 (Estado) virou o município-sede."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "pistas e gabaritos conferidos na página de visitação do ICMBio e nos recursos e valores do SAMGe; C2–C4 com alternativas plausíveis"
+  }
+ },
+ "sources": {
+  "SULLAGOAICMBIO": {
+   "id": "SULLAGOAICMBIO",
+   "title": "Parque Nacional da Lagoa do Peixe",
+   "publisher": "Instituto Chico Mendes de Conservação da Biodiversidade",
+   "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-da-lagoa-do-peixe/informacoes-sobre-visitacao-parna-da-lagoa-do-peixe",
+   "checkedAt": "2026-11-15"
+  },
+  "SULLAGOARECURSOS": {
+   "id": "SULLAGOARECURSOS",
+   "title": "SAMGe: recursos e valores das unidades de conservação federais (arquivo de 19/06/2024)",
+   "publisher": "Instituto Chico Mendes de Conservação da Biodiversidade",
+   "url": "https://www.gov.br/icmbio/pt-br/acesso-a-informacao/dados-abertos/arquivos/sistema-de-analise-e-monitoramento-da-efetividade-de-gestao-samge/2___recursos_e_valores__rv____19062024.csv/view",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-da-lagoa-do-peixe/informacoes-sobre-visitacao-parna-da-lagoa-do-peixe",
+   "https://www.gov.br/icmbio/pt-br/acesso-a-informacao/dados-abertos/arquivos/sistema-de-analise-e-monitoramento-da-efetividade-de-gestao-samge/2___recursos_e_valores__rv____19062024.csv/view"
+  ],
+  "alteracoes": [
+   "C2: alternativas \"Primatas marinhos\", \"Morcegos de cavernas\", \"Insetos de altitude\" trocadas por Tartarugas marinhas, Baleias-francas, Peixes-boi; rótulo passa a \"que motivou a criação do parque\" (ICMBio)",
+   "C3: alternativas implausíveis (lago glacial, rio subterrâneo) trocadas; gabarito \"Laguna rasa ligada ao mar por uma barra\" (ICMBio/SAMGe)",
+   "C4: trocado de \"Estado brasileiro\" para \"Município da sede e do centro de visitantes\", gabarito Mostardas (ICMBio)",
+   "viajante P07: \"a oeste\" reescrito como \"de um lado... do outro\" (a fonte diz só que a planície fica entre a Lagoa dos Patos e o oceano)",
+   "geografo P24: \"margem oeste\" sem apoio retirado; pista trocada por posto avançado da Reserva da Biosfera (1999)",
+   "geografo P11 e P14 (repetiam outras pistas) trocadas por impacto do trânsito na praia e Mato da Costa (SAMGe)",
+   "viajante: 24 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P22, P23, P24, P25); geografo: 24 (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)",
+   "sinal ajustado para 2 aberturas e 2 decisivas por perfil"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}
