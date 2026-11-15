@@ -1,0 +1,1100 @@
+{
+  "case": {
+    "id": "lug3-bora-bora",
+    "placeId": "bora-bora",
+    "title": "Bora Bora",
+    "aliases": [
+      "Porapora"
+    ],
+    "answerType": "ilha",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "PF"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Ilha da Oceania",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Bora Bora"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Moorea"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Taiti"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Huahine"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Raiatea"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Taha'a"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Maupiti"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Rangiroa"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Fakarava"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Aitutaki"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Rarotonga"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Upolu"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Viti Levu"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Tongatapu"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Ilha dos Pinheiros"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Lifou"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Efate"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Kiritimati"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Bora Bora",
+        "sources": [
+          "BORA_BRIT",
+          "BORA_TT"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Montanha mais alta da ilha",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Monte Otemanu"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Monte Pahia"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Monte Orohena"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Monte Tohivea"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Monte Otemanu",
+        "sources": [
+          "BORA_BRIT",
+          "BORA_BRITK"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Subgrupo de ilhas a que pertence",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Ilhas de Sotavento (Ilhas da Sociedade)"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Ilhas de Barlavento (Ilhas da Sociedade)"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Arquipélago de Tuamotu"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Ilhas Marquesas"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Ilhas de Sotavento (Ilhas da Sociedade)",
+        "sources": [
+          "BORA_BRIT",
+          "BORA_BRITK"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Única passagem entre a laguna e o oceano",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Passe Teavanui"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Passe Tiputa"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Passe Garuae"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Passe Avatoru"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Passe Teavanui",
+        "sources": [
+          "BORA_CRIOBE"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "bora-bora-viajante-P01",
+            "factKey": "bora-bora-F01",
+            "text": "Esta é uma ilha tropical do Pacífico Sul, rodeada de recifes de coral e de uma laguna azul-turquesa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_BRIT",
+              "BORA_TT_VIAGEM"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P02",
+            "factKey": "bora-bora-F02",
+            "text": "A ilha é de origem vulcânica e bastante montanhosa.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "BORA_BRIT",
+              "BORA_BRITK"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P03",
+            "factKey": "bora-bora-F03",
+            "text": "A laguna é famosa pelos seus \"50 tons de azul\" e de verde.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_TT"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P04",
+            "factKey": "bora-bora-F04",
+            "text": "Ilhotas chamadas motus se espalham ao longo do recife de coral que contorna a ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_TT"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P05",
+            "factKey": "bora-bora-F05",
+            "text": "Uma montanha imponente domina a paisagem da ilha.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BORA_TT",
+              "BORA_TT_VIAGEM"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P06",
+            "factKey": "bora-bora-F06",
+            "text": "O pico mais alto tem 727 m.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BORA_BRIT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P07",
+            "factKey": "bora-bora-F07",
+            "text": "Além dele, há um monte de dois cumes, com 658 m.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BORA_BRIT",
+              "BORA_BRITK"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P08",
+            "factKey": "bora-bora-F08",
+            "text": "Do Taiti até aqui são cerca de 50 minutos de avião.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "BORA_TT",
+              "BORA_TT_VIAGEM"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P09",
+            "factKey": "bora-bora-F09",
+            "text": "De Huahine ou de Raiatea, o voo leva uns 20 minutos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BORA_TT_VIAGEM"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P10",
+            "factKey": "bora-bora-F10",
+            "text": "O aeroporto não fica na ilha principal, e sim numa ilhota do recife.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P11",
+            "factKey": "bora-bora-F11",
+            "text": "Esse aeroporto funciona onde havia uma base aérea dos Aliados na Segunda Guerra Mundial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_BRIT",
+              "BORA_BRITK"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P12",
+            "factKey": "bora-bora-F12",
+            "text": "Entre 1942 e 1946, a ilha serviu de base de apoio para as forças armadas americanas, na chamada Operação Bobcat.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_TT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P13",
+            "factKey": "bora-bora-F13",
+            "text": "Segundo o turismo oficial, o bangalô sobre a água foi inventado aqui, em 1967.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_TT_VIAGEM"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P14",
+            "factKey": "bora-bora-F14",
+            "text": "O apelido da ilha é \"Pérola do Pacífico\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_TT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P15",
+            "factKey": "bora-bora-F15",
+            "text": "A principal vila, que também é o centro administrativo, fica na costa oeste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_BRIT"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P16",
+            "factKey": "bora-bora-F16",
+            "text": "O turismo é a principal atividade econômica, mas a ilha também produz copra, baunilha e madrepérola.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P17",
+            "factKey": "bora-bora-F17",
+            "text": "A laguna de Matira recebe a corrida Hawaiki Nui Va'a.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_TT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P18",
+            "factKey": "bora-bora-F18",
+            "text": "Entre os passeios oferecidos estão saídas para observar baleias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_TT"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P19",
+            "factKey": "bora-bora-F19",
+            "text": "No lado oeste, duas ilhotas menores, Toopua e Toopua Iti, protegem um porto muito procurado por velejadores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_BRIT",
+              "BORA_BRITK"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P20",
+            "factKey": "bora-bora-F20",
+            "text": "O navegador holandês Jacob Roggeveen avistou a ilha em 1722.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_BRIT",
+              "BORA_BRITK"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P21",
+            "factKey": "bora-bora-F21",
+            "text": "O capitão James Cook esteve aqui em 1769 e em 1777.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P22",
+            "factKey": "bora-bora-F22",
+            "text": "Polinésios descobriram e povoaram a ilha há mais de mil anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_BRITK"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P23",
+            "factKey": "bora-bora-F23",
+            "text": "A ilha tem cerca de 10 km de comprimento por 4 km de largura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_BRIT",
+              "BORA_BRITK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P24",
+            "factKey": "bora-bora-F24",
+            "text": "A ilha se divide em três distritos: Vaitape, a \"capital\", Anau e Faanui.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_TT_VIAGEM"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-viajante-P25",
+            "factKey": "bora-bora-F25",
+            "text": "Fica a cerca de 265 km a noroeste do Taiti, nas Ilhas de Sotavento da Polinésia Francesa.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "BORA_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "bora-bora-geografo-P01",
+            "factKey": "bora-bora-F26",
+            "text": "É uma ilha alta de basalto: entre a costa e o oceano há uma laguna, fechada por um recife-barreira externo e margeada por um recife de franja colado à ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_EGU"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P02",
+            "factKey": "bora-bora-F27",
+            "text": "Fica no Pacífico Sul central, num arquipélago da Polinésia Francesa.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "BORA_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P03",
+            "factKey": "bora-bora-F28",
+            "text": "Em 1842, Charles Darwin descreveu a ilha como exemplo-chave de ilha oceânica basáltica que afunda enquanto os recifes crescem ao seu redor.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_EGU"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P04",
+            "factKey": "bora-bora-F29",
+            "text": "Sob a laguna, várias sequências de sedimentos empilhadas registram o efeito combinado das variações do nível do mar e do afundamento contínuo da ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_EGU"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P05",
+            "factKey": "bora-bora-F30",
+            "text": "Os sedimentos recentes da laguna misturam carbonato formado ali mesmo, em águas rasas, e grãos minerais erodidos da ilha vulcânica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_EGU"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P06",
+            "factKey": "bora-bora-F31",
+            "text": "Uma ligação permanente da laguna com o oceano aberto parece ter existido só no Holoceno.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BORA_EGU"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P07",
+            "factKey": "bora-bora-F32",
+            "text": "Em 2024, um projeto científico extraiu testemunhos dos sedimentos da laguna para reconstruir clima, nível do mar e afundamento da ilha desde o fim do Pleistoceno.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_EGU"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P08",
+            "factKey": "bora-bora-F33",
+            "text": "A laguna tem uma única passagem para o oceano, na costa oeste, cujo nome quer dizer \"a grande passe\".",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BORA_CRIOBE"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P09",
+            "factKey": "bora-bora-F34",
+            "text": "Essa passagem é ladeada por duas ilhotas: o motu Ahuna, ao norte, e o motu Tapu, ao sul.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BORA_CRIOBE"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P10",
+            "factKey": "bora-bora-F35",
+            "text": "O canal da passagem admite calado máximo de 23 m, e o trecho com mais de 20 m de profundidade tem 47,5 m de largura.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BORA_CRIOBE"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P11",
+            "factKey": "bora-bora-F36",
+            "text": "Além da passagem, a água do oceano entra na laguna pelo recife submerso do sul e por canais rasos, os hoa, no norte e no leste.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BORA_CRIOBE"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P12",
+            "factKey": "bora-bora-F37",
+            "text": "O mapa da laguna combinou um levantamento LIDAR de 2015, dos fundos rasos e da parte emersa, com outro de 2022, das zonas com mais de 5 m de profundidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_CRIOBE"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P13",
+            "factKey": "bora-bora-F19",
+            "text": "A laguna mais ampla fica a oeste, onde estão a vila principal e um porto abrigado por duas ilhotas menores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_BRIT"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P14",
+            "factKey": "bora-bora-F06",
+            "text": "O pico de 727 m e o monte de dois cumes de 658 m formam o núcleo montanhoso de uma ilha de apenas cerca de 10 km por 4 km.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BORA_BRIT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P15",
+            "factKey": "bora-bora-F38",
+            "text": "A tradição diz que esta foi a primeira ilha formada depois de Raiatea, a maior do mesmo subgrupo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BORA_BRITK"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P16",
+            "factKey": "bora-bora-F39",
+            "text": "O nome taitiano da ilha significa \"primogênito\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_BRITK"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P17",
+            "factKey": "bora-bora-F40",
+            "text": "Os polinésios resistiram à colonização europeia por décadas, até a França tomar a ilha como protetorado no fim do século XIX.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_BRITK",
+              "BORA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P18",
+            "factKey": "bora-bora-F41",
+            "text": "Missionários ingleses e franceses chegaram pouco depois das expedições de Cook pelo Pacífico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_BRITK"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P19",
+            "factKey": "bora-bora-F10",
+            "text": "A base aliada da Segunda Guerra, instalada numa ilhota do recife, explica por que o aeroporto atual fica fora da ilha principal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P20",
+            "factKey": "bora-bora-F13",
+            "text": "Para o órgão oficial de turismo, a ilha é o berço do bangalô sobre a água, criado aqui em 1967 e hoje marca da hotelaria de luxo da laguna.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_TT_VIAGEM",
+              "BORA_TT"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P21",
+            "factKey": "bora-bora-F42",
+            "text": "O atol vizinho de Tupai pode ser alcançado daqui de catamarã ou de helicóptero.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "BORA_TT_VIAGEM"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P22",
+            "factKey": "bora-bora-F43",
+            "text": "No censo de 2017, a ilha tinha 10.605 habitantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BORA_BRITK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P23",
+            "factKey": "bora-bora-F09",
+            "text": "Voos curtos, de cerca de 20 minutos, ligam a ilha a vizinhas do mesmo subgrupo, como Huahine e Raiatea.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BORA_TT_VIAGEM"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P24",
+            "factKey": "bora-bora-F44",
+            "text": "O pico mais alto da ilha, o Otemanu (ou Temanu), tem 727 m.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BORA_BRITK"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bora-bora-geografo-P25",
+            "factKey": "bora-bora-F45",
+            "text": "Vaitape, o centro administrativo, fica na mesma costa oeste em que se abre a única passagem da laguna, a Teavanui.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BORA_BRIT",
+              "BORA_CRIOBE"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Ilha vulcânica das Ilhas de Sotavento, no arquipélago da Sociedade (Polinésia Francesa), a cerca de 265 km a noroeste do Taiti, dominada pelo Monte Otemanu (727 m) e cercada por uma laguna com recife-barreira, motus e uma única passagem, a Teavanui; Darwin a descreveu em 1842 como exemplo de ilha que afunda enquanto o recife cresce.",
+      "editorialNotes": [
+        "A área varia entre as fontes (cerca de 38 km² na Britannica, 24 km² no Tahiti Tourisme); por isso nenhuma pista cita a área.",
+        "A invenção do bangalô sobre a água em 1967 é afirmação do órgão oficial de turismo (Tahiti Tourisme), e as pistas a atribuem a ele.",
+        "As pistas de geologia da laguna vêm de um resumo científico da EGU 2025 (Felder et al.) e do mapeamento da laguna publicado pelo CRIOBE; a população (10.605) é do censo de 2017, segundo a Britannica."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "BORA_TT": {
+      "id": "BORA_TT",
+      "title": "Bora Bora",
+      "publisher": "Tahiti Tourisme (órgão oficial de turismo da Polinésia Francesa)",
+      "url": "https://tahititourisme.pf/en-pf/islands-and-archipelagos/the-society-islands/bora-bora",
+      "checkedAt": "2026-11-15"
+    },
+    "BORA_TT_VIAGEM": {
+      "id": "BORA_TT_VIAGEM",
+      "title": "Traveling to Bora Bora",
+      "publisher": "Tahiti Tourisme (órgão oficial de turismo da Polinésia Francesa)",
+      "url": "https://tahititourisme.com/traveling-to-bora-bora",
+      "checkedAt": "2026-11-15"
+    },
+    "BORA_BRIT": {
+      "id": "BORA_BRIT",
+      "title": "Bora-Bora",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Bora-Bora",
+      "checkedAt": "2026-11-15"
+    },
+    "BORA_BRITK": {
+      "id": "BORA_BRITK",
+      "title": "Bora-Bora",
+      "publisher": "Britannica Kids (Encyclopaedia Britannica)",
+      "url": "https://kids.britannica.com/students/article/Bora-Bora/317821",
+      "checkedAt": "2026-11-15"
+    },
+    "BORA_EGU": {
+      "id": "BORA_EGU",
+      "title": "Multiple interglacial sequences in a Darwin-type barrier-reef lagoon: implications for paleoclimate, sea-level changes and subsidence since the Late-Pleistocene (EGU25-16330)",
+      "publisher": "EGU General Assembly 2025 (Copernicus Meetings)",
+      "url": "https://meetingorganizer.copernicus.org/EGU25/EGU25-16330.html",
+      "checkedAt": "2026-11-15"
+    },
+    "BORA_CRIOBE": {
+      "id": "BORA_CRIOBE",
+      "title": "Cartographie du lagon de Bora Bora (A. Mercière e C. Berthe)",
+      "publisher": "CRIOBE (manea.criobe.pf)",
+      "url": "https://manea.criobe.pf/cms/wp-content/uploads/2025/02/1-4-carto-lagon.pdf",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://tahititourisme.pf/en-pf/islands-and-archipelagos/the-society-islands/bora-bora",
+      "https://tahititourisme.com/traveling-to-bora-bora",
+      "https://www.britannica.com/place/Bora-Bora",
+      "https://kids.britannica.com/students/article/Bora-Bora/317821",
+      "https://meetingorganizer.copernicus.org/EGU25/EGU25-16330.html",
+      "https://manea.criobe.pf/cms/wp-content/uploads/2025/02/1-4-carto-lagon.pdf"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

@@ -1,0 +1,1112 @@
+{
+  "case": {
+    "id": "lug3-amsterda",
+    "placeId": "amsterda",
+    "title": "Amsterdã",
+    "aliases": [
+      "Amsterdam"
+    ],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "NL"
+      ],
+      "continents": [
+        "europa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Amsterdã"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Roterdã"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Haia"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Utrecht"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Antuérpia"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Bruxelas"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Bruges"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Gante"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Copenhague"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Estocolmo"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Hamburgo"
+          },
+          {
+            "id": "C1-O12",
+            "text": "São Petersburgo"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Veneza"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Londres"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Berlim"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Paris"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Lisboa"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Oslo"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Amsterdã",
+        "sources": [
+          "AMSTERDA_BRIT"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rio em cujas margens nasceu o povoado medieval",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Amstel"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Escalda"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Mosa"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Reno"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Amstel",
+        "sources": [
+          "AMSTERDA_BRIT_HIST",
+          "AMSTERDA_UNESCO_ATLAS"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Século que dá nome à área urbana planejada inscrita pela UNESCO em 2010",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Século XIII"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Século XV"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Século XVII"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Século XIX"
+          }
+        ],
+        "answerId": "C3-O3",
+        "answerText": "Século XVII",
+        "sources": [
+          "AMSTERDA_RP",
+          "AMSTERDA_UNESCO_ATLAS"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Pintor que viveu e trabalhou na cidade de 1639 a 1658, numa casa que hoje é museu",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Rembrandt"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Vermeer"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Rubens"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Frans Hals"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Rembrandt",
+        "sources": [
+          "AMSTERDA_IAMSTERDAM",
+          "AMSTERDA_REMBRANDTHUIS"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "amsterda-viajante-P01",
+            "factKey": "amsterda-F01",
+            "text": "É uma cidade portuária europeia, cortada por canais e cheia de pontes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_BRIT",
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P02",
+            "factKey": "amsterda-F02",
+            "text": "Turistas vão até lá atrás de sítios históricos, grandes coleções de arte e bairros antigos bem conservados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P03",
+            "factKey": "amsterda-F03",
+            "text": "A cidade começou no século XIII como uma pequena vila de pescadores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_BRIT_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P04",
+            "factKey": "amsterda-F04",
+            "text": "Os primeiros moradores ergueram diques nas duas margens de um rio e, por volta de 1270, uma barragem entre eles.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AMSTERDA_BRIT_HIST"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P05",
+            "factKey": "amsterda-F05",
+            "text": "O rio em que o povoado nasceu é o Amstel, que ainda hoje corta a cidade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AMSTERDA_BRIT_HIST",
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P06",
+            "factKey": "amsterda-F06",
+            "text": "Sobre esse rio passam pontes conhecidas, como a Magere Brug e a Blauwbrug, de 1883.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P07",
+            "factKey": "amsterda-F07",
+            "text": "O famoso anel de canais foi planejado entre o fim do século XVI e o começo do XVII, como uma nova cidade portuária.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P08",
+            "factKey": "amsterda-F08",
+            "text": "Dentro da área protegida pela UNESCO há cerca de 14 km de canais e umas 80 pontes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P09",
+            "factKey": "amsterda-F09",
+            "text": "Os principais canais em arco se chamam Herengracht, Keizersgracht e Prinsengracht.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P10",
+            "factKey": "amsterda-F10",
+            "text": "As casas de mercadores têm fachadas altas e estreitas; as mercadorias eram içadas por fora e entravam por uma abertura no alto da empena.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_ICOMOS"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P11",
+            "factKey": "amsterda-F11",
+            "text": "O solo era pantanoso: foi preciso drená-lo, e muitas casas foram erguidas sobre estacas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_ICOMOS"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P12",
+            "factKey": "amsterda-F12",
+            "text": "Onde hoje correm os canais havia prados de turfa, cultivados entre os séculos X e XIII.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P13",
+            "factKey": "amsterda-F13",
+            "text": "Depois da queda de Antuérpia, em 1585, chegaram cerca de 30 mil imigrantes, perto de um terço da população.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P14",
+            "factKey": "amsterda-F14",
+            "text": "Já no século XIII, os navios mercantes da cidade iam até o mar Báltico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_BRIT_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P15",
+            "factKey": "amsterda-F15",
+            "text": "Um pintor famoso viveu e trabalhou ali de 1639 a 1658, numa casa que hoje é museu.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "AMSTERDA_IAMSTERDAM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P16",
+            "factKey": "amsterda-F16",
+            "text": "Foi nessa casa que ele pintou A Ronda Noturna.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "AMSTERDA_REMBRANDTHUIS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P17",
+            "factKey": "amsterda-F17",
+            "text": "Falido, o pintor teve de deixar a casa em 1658 e foi morar num imóvel alugado no canal Rozengracht.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "AMSTERDA_REMBRANDTHUIS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P18",
+            "factKey": "amsterda-F18",
+            "text": "Incêndios em 1421 e 1452 levaram à proibição de construir com madeira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P19",
+            "factKey": "amsterda-F19",
+            "text": "Licenças para atracar casas-barco nos canais são raras e caras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P20",
+            "factKey": "amsterda-F20",
+            "text": "Um canal externo envolvia o anel de canais e fazia parte das defesas, com baluartes em forma de estrela; só um continua visível.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P21",
+            "factKey": "amsterda-F21",
+            "text": "Ao redor da cidade, uma linha com 46 fortificações principais foi construída entre 1883 e 1920.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_ICOMOS_DEFESA"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P22",
+            "factKey": "amsterda-F22",
+            "text": "Em caso de ataque, essa linha alagava os campos até a altura do joelho, o que barrava tropas a pé e barcos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_ICOMOS_DEFESA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P23",
+            "factKey": "amsterda-F23",
+            "text": "O anel de canais entrou para a lista do Patrimônio Mundial em 2010.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AMSTERDA_RP"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P24",
+            "factKey": "amsterda-F24",
+            "text": "É a capital dos Países Baixos e o principal centro comercial e financeiro do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-viajante-P25",
+            "factKey": "amsterda-F25",
+            "text": "Fica no oeste dos Países Baixos, junto ao IJsselmeer, e tem ligação com o mar do Norte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "amsterda-geografo-P01",
+            "factKey": "amsterda-F26",
+            "text": "O centro ilustra um planejamento hidráulico e urbano em grande escala: a criação artificial de uma cidade portuária.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_RP"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P02",
+            "factKey": "amsterda-F27",
+            "text": "A expansão urbana juntou num só programa a drenagem, a criação de terreno para construir e o transporte por água.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P03",
+            "factKey": "amsterda-F04",
+            "text": "O núcleo surgiu no século XIII, protegido por diques nas duas margens de um rio, fechados por uma barragem por volta de 1270.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AMSTERDA_BRIT_HIST"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P04",
+            "factKey": "amsterda-F28",
+            "text": "O encontro do Amstel com o IJ ofereceu o sítio do primeiro porto, e os canais se ligavam aos dois.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS",
+              "AMSTERDA_ICOMOS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P05",
+            "factKey": "amsterda-F29",
+            "text": "O IJ, uma antiga baía interior, ligava a cidade ao Zuiderzee e ao mar do Norte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P06",
+            "factKey": "amsterda-F12",
+            "text": "Os terrenos eram prados de turfa, drenados e elevados com a terra tirada da escavação dos próprios canais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P07",
+            "factKey": "amsterda-F11",
+            "text": "Fundações sobre estacas foram a resposta construtiva a um subsolo pantanoso, que precisou ser drenado antes de receber casas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_ICOMOS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P08",
+            "factKey": "amsterda-F07",
+            "text": "Canais em arcos concêntricos envolvem a cidade velha e são cortados por canais e ruas radiais.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AMSTERDA_ICOMOS",
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P09",
+            "factKey": "amsterda-F30",
+            "text": "A expansão planejada ocorreu em quatro fases, de cerca de 1585 a 1668.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P10",
+            "factKey": "amsterda-F31",
+            "text": "Na terceira expansão (1609–1620) começaram o bairro do Jordaan, em 1613, o Prinsengracht, em 1614, e o Keizersgracht, em 1615.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P11",
+            "factKey": "amsterda-F32",
+            "text": "Os lotes eram regulados: cerca de 8,5 m de frente no Herengracht e 6,2 m no Prinsengracht, com altura máxima de uns 31 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P12",
+            "factKey": "amsterda-F10",
+            "text": "Construídas segundo poucos modelos-padrão, as casas de mercadores reuniam moradia, trabalho e armazém nos andares de cima.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS",
+              "AMSTERDA_ICOMOS"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P13",
+            "factKey": "amsterda-F33",
+            "text": "Para a UNESCO, as fachadas com empenas refletem um meio burguês moldado pelo comércio marítimo e por uma cultura humanista e tolerante ligada à Reforma calvinista.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_RP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P14",
+            "factKey": "amsterda-F34",
+            "text": "Nos séculos XVII e XVIII, esse traçado serviu de modelo urbano para novas cidades pelo mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_RP"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P15",
+            "factKey": "amsterda-F13",
+            "text": "A queda de Antuérpia, em 1585, desviou para a cidade cerca de 30 mil imigrantes, aproximadamente um terço da população.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P16",
+            "factKey": "amsterda-F20",
+            "text": "O Singelgracht, canal de contorno desenhado por Daniel Stalpaert, levou a linha de defesa da cidade para fora.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_ICOMOS",
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P17",
+            "factKey": "amsterda-F36",
+            "text": "Os muros de cais envelhecidos sofrem com o material, a pressão da água e o uso urbano mais intenso.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_UNESCO_ATLAS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P18",
+            "factKey": "amsterda-F37",
+            "text": "Espera-se uma subsidência do solo de cerca de 2,5 cm no núcleo protegido até 2050.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_RP"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P19",
+            "factKey": "amsterda-F38",
+            "text": "A grafiose, a doença do olmo, ameaça as árvores que formam os \"pulmões verdes\" da área protegida.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_RP"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P20",
+            "factKey": "amsterda-F15",
+            "text": "A única casa-ateliê preservada de um pintor famoso, onde ele viveu e trabalhou de 1639 a 1658, é museu oficial desde 1911.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "AMSTERDA_IAMSTERDAM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P21",
+            "factKey": "amsterda-F41",
+            "text": "A rua dessa casa, hoje Jodenbreestraat, era então uma área de elite, onde moravam artistas de destaque e membros da classe dominante.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "AMSTERDA_REMBRANDTHUIS",
+              "AMSTERDA_IAMSTERDAM"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P22",
+            "factKey": "amsterda-F21",
+            "text": "Um anel de fortes com cerca de 135 km, construído entre 1883 e 1920, envolve a cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_ICOMOS_DEFESA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P23",
+            "factKey": "amsterda-F22",
+            "text": "Esse anel defensivo usava a inundação temporária de pôlderes, com canais, comportas e estações de bombeamento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_ICOMOS_DEFESA",
+              "AMSTERDA_UNESCO_DEC"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P24",
+            "factKey": "amsterda-F23",
+            "text": "Inscrita em 2010, a área dos canais tem 198,2 ha, com uma zona de amortecimento de 481,7 ha.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AMSTERDA_RP"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "amsterda-geografo-P25",
+            "factKey": "amsterda-F24",
+            "text": "Capital do país, é também seu principal centro comercial e financeiro, no oeste dos Países Baixos, junto ao IJsselmeer.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AMSTERDA_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Capital dos Países Baixos, nascida de uma barragem no rio Amstel no século XIII: seu anel de canais concêntricos do século XVII, Patrimônio Mundial desde 2010, guarda a casa onde Rembrandt viveu de 1639 a 1658.",
+      "editorialNotes": [
+        "A área do bem varia entre as fontes: 205 ha na avaliação do ICOMOS (2010) e 198,2 ha no relatório periódico; as pistas usam o relatório periódico.",
+        "A expansão planejada vai de cerca de 1585 a 1668 (fim do século XVI ao XVII); o C3 usa o século que dá nome ao bem na UNESCO.",
+        "A linha de fortes ao redor da cidade, inscrita em 1996, foi avaliada em 2020 para integrar o bem ampliado das Linhas de Defesa d'Água Holandesas; os números das pistas (135 km, 46 fortificações, 1883–1920) vêm dessa avaliação."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: Britannica, documentos da UNESCO e do ICOMOS (anel de canais e linhas de defesa d'água), Atlas do Patrimônio Urbano da UNESCO, Museu Casa de Rembrandt e I amsterdam; C1 com 18 cidades europeias, incluindo outras cidades de canais."
+    }
+  },
+  "sources": {
+    "AMSTERDA_BRIT": {
+      "id": "AMSTERDA_BRIT",
+      "title": "Amsterdam",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Amsterdam",
+      "checkedAt": "2026-11-15"
+    },
+    "AMSTERDA_BRIT_HIST": {
+      "id": "AMSTERDA_BRIT_HIST",
+      "title": "Amsterdam — History",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Amsterdam/History",
+      "checkedAt": "2026-11-15"
+    },
+    "AMSTERDA_UNESCO_ATLAS": {
+      "id": "AMSTERDA_UNESCO_ATLAS",
+      "title": "The Seventeenth-Century Canal Ring of Amsterdam inside the Singelgracht (Netherlands) — Urban Heritage Atlas",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/urban-heritage-atlas/amsterdam/",
+      "checkedAt": "2026-11-15"
+    },
+    "AMSTERDA_ICOMOS": {
+      "id": "AMSTERDA_ICOMOS",
+      "title": "Seventeenth-century canal ring area of Amsterdam inside the Singelgracht — ICOMOS evaluation (2010)",
+      "publisher": "ICOMOS / UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/152438",
+      "checkedAt": "2026-11-15"
+    },
+    "AMSTERDA_RP": {
+      "id": "AMSTERDA_RP",
+      "title": "Seventeenth-Century Canal Ring Area of Amsterdam inside the Singelgracht — Periodic Report, Section II",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/217771",
+      "checkedAt": "2026-11-15"
+    },
+    "AMSTERDA_REMBRANDTHUIS": {
+      "id": "AMSTERDA_REMBRANDTHUIS",
+      "title": "Rembrandt's house",
+      "publisher": "Museum Het Rembrandthuis",
+      "url": "https://archief.rembrandthuis.nl/en/?p=8340",
+      "checkedAt": "2026-11-15"
+    },
+    "AMSTERDA_IAMSTERDAM": {
+      "id": "AMSTERDA_IAMSTERDAM",
+      "title": "Rembrandt van Rijn",
+      "publisher": "I amsterdam",
+      "url": "https://www.iamsterdam.com/en/see-and-do/things-to-do/museums-and-galleries/rembrandt-van-rijn",
+      "checkedAt": "2026-11-15"
+    },
+    "AMSTERDA_ICOMOS_DEFESA": {
+      "id": "AMSTERDA_ICOMOS_DEFESA",
+      "title": "Dutch Water Defence Lines (extension of the Defence Line of Amsterdam) — ICOMOS evaluation (2020)",
+      "publisher": "ICOMOS / UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/189304",
+      "checkedAt": "2026-11-15"
+    },
+    "AMSTERDA_UNESCO_DEC": {
+      "id": "AMSTERDA_UNESCO_DEC",
+      "title": "Decision 7942 — Dutch Water Defence Lines",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/7942",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.britannica.com/place/Amsterdam",
+      "https://www.britannica.com/place/Amsterdam/History",
+      "https://whc.unesco.org/en/urban-heritage-atlas/amsterdam/",
+      "https://whc.unesco.org/document/152438",
+      "https://whc.unesco.org/document/217771",
+      "https://archief.rembrandthuis.nl/en/?p=8340",
+      "https://www.iamsterdam.com/en/see-and-do/things-to-do/museums-and-galleries/rembrandt-van-rijn",
+      "https://whc.unesco.org/document/189304",
+      "https://whc.unesco.org/en/decisions/7942"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

@@ -2,6 +2,26 @@
 # Integra todos os aprovados de saida/ ainda fora do banco, roda os testes, faz commit e push.
 set -e
 cd /home/claude/mosaico-card
+# Lugares já integrados cujo arquivo de saída mudou depois (agente corrigiu algo): saem do banco e entram de novo.
+python3 - <<'PY'
+import json, glob, os
+p = 'lugares/data/lugares-bank.json'; b = json.load(open(p))
+def assin(c):
+    return json.dumps([c['title'], [(f['label'], f['answerText'], [o['text'] for o in f['options']]) for f in c['fields']],
+                       [[k['text'] for k in c['profiles'][q]['cards']] for q in ('viajante', 'geografo')]], ensure_ascii=False)
+por = {c['placeId']: c for c in b['cases']}
+tirar = []
+for f in glob.glob('work/revisao-lugares/saida/*.json'):
+    try: d = json.load(open(f))
+    except Exception: continue
+    c = d.get('case') or {}
+    if d.get('revisao', {}).get('veredito') == 'aprovado' and c.get('placeId') in por and assin(c) != assin(por[c['placeId']]):
+        tirar.append(c['placeId'])
+if tirar:
+    b['cases'] = [c for c in b['cases'] if c['placeId'] not in tirar]
+    open(p, 'w').write(json.dumps(b, ensure_ascii=False, indent=2) + '\n')
+    print('reintegrar (arquivo mudou depois da integração):', ' '.join(tirar))
+PY
 L=$(python3 -c "
 import json,glob,os
 b={c['placeId'] for c in json.load(open('lugares/data/lugares-bank.json'))['cases']}

@@ -10,10 +10,10 @@ Um lugar só conta como jogável após ter os dois perfis completos, quatro camp
 |---|---:|---:|---:|
 | Brasil | 137 | 30 | 0 |
 | Américas (sem Brasil) | 30 | 30 | 0 |
-| Europa | 17 | 30 | 13 |
+| Europa | 22 | 30 | 8 |
 | África | 22 | 30 | 8 |
 | Ásia | 17 | 30 | 13 |
-| Oceania | 20 | 30 | 10 |
+| Oceania | 22 | 30 | 8 |
 | Antártida | 27 | 30 | 3 |
 
 **Atenção:** o filtro Américas reúne lugares do continente fora do Brasil. Brasil e suas regiões constituem filtros próprios; selecionar ambos combina os destinos sem duplicar. Rapa Nui conta em Américas pela administração chilena e em Oceania pela posição polinésia. Os recortes ainda podem se sobrepor.

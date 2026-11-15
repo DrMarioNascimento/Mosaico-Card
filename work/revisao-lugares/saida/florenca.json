@@ -1,0 +1,1093 @@
+{
+  "case": {
+    "id": "lug3-florenca",
+    "placeId": "florenca",
+    "title": "Florença",
+    "aliases": [
+      "Firenze"
+    ],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "IT"
+      ],
+      "continents": [
+        "europa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Florença"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Roma"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Veneza"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Milão"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Bolonha"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Siena"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Pisa"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Nápoles"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Turim"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Gênova"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Verona"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Pádua"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Praga"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Viena"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Paris"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Barcelona"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Sevilha"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Bruges"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Florença",
+        "sources": [
+          "FLORENCA_BRIT_SUM"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rio que atravessa a cidade",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Arno"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Tibre"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Pó"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Ádige"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Arno",
+        "sources": [
+          "FLORENCA_MIC_UNESCO",
+          "FLORENCA_BRIT_SUM"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Arquiteto que concebeu a cúpula da catedral e sua técnica de construção",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Filippo Brunelleschi"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Donato Bramante"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Michelangelo"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Leon Battista Alberti"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Filippo Brunelleschi",
+        "sources": [
+          "FLORENCA_VT_CUPOLA",
+          "FLORENCA_VT_CATTEDRALE"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Família que governou a cidade a partir de 1434 e voltou ao poder como duques em 1531",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Médici"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Sforza"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Gonzaga"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Este"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Médici",
+        "sources": [
+          "FLORENCA_BRIT_SUM",
+          "FLORENCA_MIC_UNESCO"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "florenca-viajante-P01",
+            "factKey": "florenca-F01",
+            "text": "É uma cidade do centro da Itália, cheia de igrejas, palácios e museus de arte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM",
+              "FLORENCA_MIC_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P02",
+            "factKey": "florenca-F02",
+            "text": "Hoje, o turismo é a principal base da economia da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P03",
+            "factKey": "florenca-F03",
+            "text": "Um rio atravessa a cidade de leste para oeste, e as casas se espalham pelas duas margens.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "FLORENCA_MIC_UNESCO",
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P04",
+            "factKey": "florenca-F04",
+            "text": "O rio que cruza a cidade, com suas pontes antigas, é o Arno.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "FLORENCA_MIC_UNESCO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P05",
+            "factKey": "florenca-F05",
+            "text": "Sobre o rio passam pontes históricas, como a Ponte Vecchio e a Ponte Santa Trinita.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "FLORENCA_MIC_UNESCO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P06",
+            "factKey": "florenca-F06",
+            "text": "Antes de virar colônia romana, o lugar teve um povoado etrusco.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_MIC_UNESCO",
+              "FLORENCA_UNESCO_NHK"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P07",
+            "factKey": "florenca-F07",
+            "text": "A colônia romana foi fundada em 59 a.C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_MIC_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P08",
+            "factKey": "florenca-F08",
+            "text": "A cúpula da catedral tem 45,5 m de diâmetro.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FLORENCA_VT_CUPOLA"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P09",
+            "factKey": "florenca-F09",
+            "text": "A obra da cúpula, conduzida por Filippo Brunelleschi, começou em 1420 e terminou em 1436.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FLORENCA_VT_CUPOLA",
+              "FLORENCA_VT_CATTEDRALE"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P10",
+            "factKey": "florenca-F10",
+            "text": "A cúpula tem duas cascas ligadas entre si: a de fora, mais leve, protege a de dentro.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FLORENCA_VT_CUPOLA"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P11",
+            "factKey": "florenca-F11",
+            "text": "Tijolos assentados em espinha de peixe deixaram a cúpula autoportante.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FLORENCA_VT_CUPOLA"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P12",
+            "factKey": "florenca-F12",
+            "text": "Por dentro, a cúpula tem afrescos do Juízo Final, pintados de 1572 a 1579 por Giorgio Vasari e Federico Zuccari.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FLORENCA_VT_CUPOLA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P13",
+            "factKey": "florenca-F13",
+            "text": "No topo, uma bola de cobre dourado com uma cruz, obra de Andrea del Verrocchio, foi colocada em 1466.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FLORENCA_VT_CUPOLA"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P14",
+            "factKey": "florenca-F14",
+            "text": "A fachada da catedral ficou inacabada e só ganhou a forma atual no século XIX.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_VT_CATTEDRALE"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P15",
+            "factKey": "florenca-F15",
+            "text": "Dante, Maquiavel e Galileu estão entre os grandes nomes que floresceram ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P16",
+            "factKey": "florenca-F16",
+            "text": "O dialeto local virou a base da língua italiana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P17",
+            "factKey": "florenca-F17",
+            "text": "Uma família poderosa passou a governar a cidade a partir de 1434.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P18",
+            "factKey": "florenca-F18",
+            "text": "Depois da república de Girolamo Savonarola, essa família voltou ao poder como duques, em 1531.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P19",
+            "factKey": "florenca-F19",
+            "text": "Essa família, os Médici, deixou duas fortalezas: uma ao norte e outra ao sul da cidade.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "FLORENCA_MIC_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P20",
+            "factKey": "florenca-F20",
+            "text": "A Galeria Uffizi, o Palácio Pitti e o Jardim de Boboli estão entre as atrações da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM",
+              "FLORENCA_MIC_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P21",
+            "factKey": "florenca-F21",
+            "text": "A cidade foi capital da Itália por alguns anos, a partir de 1865.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM",
+              "FLORENCA_BRIT_MOD"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P22",
+            "factKey": "florenca-F22",
+            "text": "Da muralha do século XIV restam portas e torres; a maior parte foi derrubada depois da unificação da Itália.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_MIC_UNESCO",
+              "FLORENCA_BRIT_MOD"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P23",
+            "factKey": "florenca-F23",
+            "text": "A universidade da cidade foi fundada em 1321.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P24",
+            "factKey": "florenca-F24",
+            "text": "Além do turismo, a economia local aposta em tecnologia da informação e em moda de luxo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-viajante-P25",
+            "factKey": "florenca-F25",
+            "text": "É a capital da Toscana, região do centro da Itália.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "florenca-geografo-P01",
+            "factKey": "florenca-F26",
+            "text": "Para a UNESCO, a cidade virou símbolo do Renascimento, conceito que tomou forma ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_MIC_UNESCO",
+              "FLORENCA_UNESCO_NHK"
+            ],
+            "clueType": "historia",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P02",
+            "factKey": "florenca-F27",
+            "text": "Do século XIV ao XVI, esteve entre as maiores cidades da Europa em comércio, finanças, saber e artes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P03",
+            "factKey": "florenca-F03",
+            "text": "O tecido urbano ocupa os dois lados de um rio que corre de leste para oeste, costurados por uma sequência de pontes históricas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "FLORENCA_MIC_UNESCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P04",
+            "factKey": "florenca-F07",
+            "text": "O núcleo urbano nasceu sobre um povoado etrusco, transformado na colônia romana de Florentia em 59 a.C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_MIC_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P05",
+            "factKey": "florenca-F28",
+            "text": "Depois dos romanos, godos, bizantinos e lombardos controlaram a cidade, um após o outro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P06",
+            "factKey": "florenca-F29",
+            "text": "No fim do século XII, já era uma das principais cidades da Toscana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P07",
+            "factKey": "florenca-F19",
+            "text": "O sistema defensivo combina muralhas do século XIV, com portas e torres, e duas fortalezas dos Médici: a da Basso, ao norte, e a de Belvedere, ao sul.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "FLORENCA_MIC_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P08",
+            "factKey": "florenca-F22",
+            "text": "Na renovação que se seguiu à unificação italiana, as muralhas medievais foram quase todas demolidas e zonas inteiras do centro antigo deram lugar a praças.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_MOD"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P09",
+            "factKey": "florenca-F21",
+            "text": "Como capital da Itália a partir de 1865, a cidade teve um forte aumento de população.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_MOD"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P10",
+            "factKey": "florenca-F33",
+            "text": "A catedral, do século XIII, segue um projeto de Arnolfo di Cambio, que interveio num edifício preexistente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_UNESCO_NHK",
+              "FLORENCA_VT_CATTEDRALE"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P11",
+            "factKey": "florenca-F34",
+            "text": "Em 1420, um arquiteto foi encarregado da cúpula, dando sequência a obras iniciadas por Arnolfo e Talenti.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FLORENCA_VT_CUPOLA"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P12",
+            "factKey": "florenca-F10",
+            "text": "A cúpula ogival é feita de duas calotas ligadas por nervuras, que trabalham em conjunto.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FLORENCA_VT_CUPOLA"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P13",
+            "factKey": "florenca-F11",
+            "text": "Os tijolos em espinha de peixe, técnica concebida por Brunelleschi, criaram fiadas travadas que tornaram a estrutura autoportante.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FLORENCA_VT_CUPOLA",
+              "FLORENCA_VT_CATTEDRALE"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P14",
+            "factKey": "florenca-F35",
+            "text": "A lanterna no topo seguiu o desenho do arquiteto da cúpula, mas foi feita depois da morte dele, em 1446.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FLORENCA_VT_CUPOLA"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P15",
+            "factKey": "florenca-F36",
+            "text": "O revestimento de mármores coloridos da catedral teve como modelo o batistério vizinho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_VT_CATTEDRALE"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P16",
+            "factKey": "florenca-F32",
+            "text": "Cerca de 600 anos de atividade artística aparecem na catedral, na igreja de Santa Croce, na Galeria Uffizi e no Palácio Pitti.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_UNESCO_NHK"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P17",
+            "factKey": "florenca-F40",
+            "text": "Giotto, Masaccio, Donatello, Botticelli, Leonardo da Vinci e Michelangelo estão entre os artistas citados pela UNESCO.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_MIC_UNESCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P18",
+            "factKey": "florenca-F17",
+            "text": "A partir de 1434, uma família governou a cidade; afastada durante a república de Savonarola, voltou como duques em 1531.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P19",
+            "factKey": "florenca-F16",
+            "text": "A variante linguística local serviu de base para o italiano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P20",
+            "factKey": "florenca-F23",
+            "text": "A universidade, de 1321, reforçou o papel da cidade como polo de saber.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P21",
+            "factKey": "florenca-F31",
+            "text": "O centro histórico, inscrito em 1982, tem 505 ha e uma zona de amortecimento de 10.480 ha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_MIC_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P22",
+            "factKey": "florenca-F38",
+            "text": "A região em volta é conhecida pela produção industrial em pequena escala e por exportações de qualidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P23",
+            "factKey": "florenca-F24",
+            "text": "A economia se apoia no turismo, com setores mais novos em tecnologia da informação e moda de luxo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P24",
+            "factKey": "florenca-F39",
+            "text": "Uma contagem preliminar de 2001 registrou 352.227 habitantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "florenca-geografo-P25",
+            "factKey": "florenca-F25",
+            "text": "Capital regional da Toscana, a cidade ocupa as duas margens do Arno.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "FLORENCA_BRIT_SUM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Capital da Toscana, às margens do Arno: berço do Renascimento sob os Médici, tem a catedral coroada pela cúpula de Brunelleschi (1420–1436) e um centro histórico Patrimônio Mundial desde 1982.",
+      "editorialNotes": [
+        "O período em que foi capital da Itália aparece como 1865–1871 (resumo da Britannica) ou 1865–1870 (artigo sobre a cidade moderna); as pistas dão só o início, 1865.",
+        "Ghiberti chegou a ser um dos vencedores do concurso da cúpula (Visit Tuscany), por isso não entra nas alternativas do C3; a lanterna foi feita depois da morte de Brunelleschi.",
+        "A população citada é da contagem preliminar de 2001 (Britannica); não há número mais recente nas fontes usadas."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: Ministério da Cultura da Itália (Escritório UNESCO), UNESCO/NHK, Visit Tuscany (cúpula e catedral) e Britannica; C1 com 18 cidades europeias, incluindo Pisa, também no Arno."
+    }
+  },
+  "sources": {
+    "FLORENCA_MIC_UNESCO": {
+      "id": "FLORENCA_MIC_UNESCO",
+      "title": "Historic Centre of Florence",
+      "publisher": "Ministero della Cultura — Ufficio UNESCO",
+      "url": "https://unesco.cultura.gov.it/en/projects/centro-storico-di-firenze/",
+      "checkedAt": "2026-11-15"
+    },
+    "FLORENCA_UNESCO_NHK": {
+      "id": "FLORENCA_UNESCO_NHK",
+      "title": "Historic Centre of Florence (UNESCO/NHK)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/documents/125671",
+      "checkedAt": "2026-11-15"
+    },
+    "FLORENCA_VT_CUPOLA": {
+      "id": "FLORENCA_VT_CUPOLA",
+      "title": "La Cupola di Santa Maria del Fiore",
+      "publisher": "Visit Tuscany (Regione Toscana)",
+      "url": "https://www.visittuscany.com/it/attrazioni/la-cupola-di-santa-maria-del-fiore/",
+      "checkedAt": "2026-11-15"
+    },
+    "FLORENCA_VT_CATTEDRALE": {
+      "id": "FLORENCA_VT_CATTEDRALE",
+      "title": "La Cattedrale di Santa Maria del Fiore a Firenze",
+      "publisher": "Visit Tuscany (Regione Toscana)",
+      "url": "https://www.visittuscany.com/it/attrazioni/la-cattedrale-di-santa-maria-del-fiore-a-firenze/",
+      "checkedAt": "2026-11-15"
+    },
+    "FLORENCA_BRIT_SUM": {
+      "id": "FLORENCA_BRIT_SUM",
+      "title": "Florence — summary",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/summary/Florence",
+      "checkedAt": "2026-11-15"
+    },
+    "FLORENCA_BRIT_MOD": {
+      "id": "FLORENCA_BRIT_MOD",
+      "title": "Florence — Evolution of the modern city",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Florence/Evolution-of-the-modern-city",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://unesco.cultura.gov.it/en/projects/centro-storico-di-firenze/",
+      "https://whc.unesco.org/en/documents/125671",
+      "https://www.visittuscany.com/it/attrazioni/la-cupola-di-santa-maria-del-fiore/",
+      "https://www.visittuscany.com/it/attrazioni/la-cattedrale-di-santa-maria-del-fiore-a-firenze/",
+      "https://www.britannica.com/summary/Florence",
+      "https://www.britannica.com/place/Florence/Evolution-of-the-modern-city"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

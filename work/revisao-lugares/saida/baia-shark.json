@@ -1,0 +1,1091 @@
+{
+  "case": {
+    "id": "lug3-baia-shark",
+    "placeId": "baia-shark",
+    "title": "Baía Shark",
+    "aliases": [
+      "Baía dos Tubarões"
+    ],
+    "answerType": "baía",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "AU"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Baía ou costa da Oceania",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Baía Shark"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Costa de Ningaloo"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Golfo de Exmouth"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Baía Roebuck"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Baía Geographe"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Baía de Moreton"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Baía Hervey"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Baía Jervis"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Baía Botany"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Baía de Port Phillip"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Golfo de Carpentária"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Golfo Spencer"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Baía das Ilhas"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Baía Golden"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Baía Hawke"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Lagoas da Nova Caledônia"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Baía Shark",
+        "sources": [
+          "SHARK_DBCA",
+          "SHARK_IUCN"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Formações vivas da enseada hipersalina, chamadas de \"fósseis vivos\"",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Estromatólitos"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Recifes de coral"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Esponjas-de-vidro"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Florestas de kelp"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Estromatólitos",
+        "sources": [
+          "SHARK_DBCA",
+          "SHARK_IUCN",
+          "SHARK_DBCA_GUIA"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Mamífero marinho que tem aqui uma das maiores populações do mundo, de cerca de 10 mil indivíduos",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Dugongo"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Golfinho-nariz-de-garrafa"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Baleia-jubarte"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Leão-marinho-australiano"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Dugongo",
+        "sources": [
+          "SHARK_DBCA_GUIA",
+          "SHARK_IUCN",
+          "SHARK_DBCA"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Povo aborígine que chama a baía de Gathaaguda",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Malgana"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Anangu"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Gija"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Yolŋu"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Malgana",
+        "sources": [
+          "SHARK_DBCA_GUIA",
+          "SHARK_IUCN"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "baia-shark-viajante-P01",
+            "factKey": "baia-shark-F01",
+            "text": "Esta área protegida fica no litoral da Austrália Ocidental e tem cerca de 1.500 km de linha de costa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_DBCA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P02",
+            "factKey": "baia-shark-F02",
+            "text": "Aqui o mar domina: cerca de dois terços da área são águas marinhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_DBCA",
+              "SHARK_SHIRE"
+            ],
+            "clueType": "agua",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P03",
+            "factKey": "baia-shark-F03",
+            "text": "Golfinhos-nariz-de-garrafa selvagens vêm até a beira da praia há mais de 50 anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_SHIRE"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P04",
+            "factKey": "baia-shark-F04",
+            "text": "Na alimentação supervisionada desses golfinhos, só algumas fêmeas adultas já identificadas recebem peixe.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_SHIRE"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P05",
+            "factKey": "baia-shark-F05",
+            "text": "Do píer da praia dos golfinhos dá para ver dugongos, tartarugas e serpentes-marinhas.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SHARK_DBCA_GUIA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P06",
+            "factKey": "baia-shark-F06",
+            "text": "Uma das praias é feita de trilhões de conchinhas de berbigão, em camadas de até 10 m de profundidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_SHIRE"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P07",
+            "factKey": "baia-shark-F07",
+            "text": "Essa praia de conchas fica a 44 km ao sul da cidade de Denham.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_SHIRE"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P08",
+            "factKey": "baia-shark-F08",
+            "text": "As pradarias de capim-marinho daqui estão entre as maiores e mais ricas do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_IUCN",
+              "SHARK_SHIRE"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P09",
+            "factKey": "baia-shark-F09",
+            "text": "Essas pradarias de capim-marinho dão abrigo e alimento a centenas de espécies.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SHARK_DBCA_GUIA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P10",
+            "factKey": "baia-shark-F10",
+            "text": "Um mamífero marinho que vive dessas pradarias tem aqui mais de 10 mil indivíduos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SHARK_DBCA_GUIA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P11",
+            "factKey": "baia-shark-F11",
+            "text": "Numa das enseadas, montinhos de pedra feitos por micróbios crescem só uns 5 cm a cada 100 anos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SHARK_LANDSCOPE"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P12",
+            "factKey": "baia-shark-F12",
+            "text": "Esses montinhos são chamados de \"fósseis vivos\" e são frágeis: se danificados, podem levar centenas de anos para se recuperar.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SHARK_DBCA_GUIA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P13",
+            "factKey": "baia-shark-F13",
+            "text": "A água dessa enseada é duas vezes mais salgada que a do mar.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SHARK_LANDSCOPE"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P14",
+            "factKey": "baia-shark-F14",
+            "text": "No meio da costa em forma de W, uma península tem colinas de areia vermelha e baixadas salgadas de gipsita chamadas birridas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_SHIRE"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P15",
+            "factKey": "baia-shark-F15",
+            "text": "O ponto mais a oeste do continente australiano fica aqui, perto de falésias de calcário de até 200 m sobre o Oceano Índico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_SHIRE",
+              "SHARK_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P16",
+            "factKey": "baia-shark-F16",
+            "text": "Falésias quase contínuas se estendem por uns 200 km e levam o nome de um navio holandês que naufragou ali em 1712.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_SHIRE"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P17",
+            "factKey": "baia-shark-F17",
+            "text": "Baleias-jubarte passam por aqui em grande número durante a migração anual.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_DBCA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P18",
+            "factKey": "baia-shark-F18",
+            "text": "É uma das áreas de desova mais importantes da Austrália para a tartaruga-cabeçuda, ameaçada de extinção.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_DBCA",
+              "SHARK_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P19",
+            "factKey": "baia-shark-F19",
+            "text": "Fica a cerca de 800 km ao norte de Perth.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_DBCA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P20",
+            "factKey": "baia-shark-F20",
+            "text": "Pequenos mamíferos ameaçados, como bandicoots, bilbys e cangurus-lebre, sobrevivem em ilhas e áreas protegidas daqui.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_SHIRE_WH"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P21",
+            "factKey": "baia-shark-F21",
+            "text": "Os povos Malgana, Nanda e Yingkarta ocupam esta região há pelo menos 30 mil anos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SHARK_SHIRE_WH"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P22",
+            "factKey": "baia-shark-F22",
+            "text": "Uma antiga fazenda de ovelhas, comprada pelo governo estadual em 1990, virou parque nacional em 1993.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_SHIRE"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P23",
+            "factKey": "baia-shark-F23",
+            "text": "Em 2011, uma onda de calor no mar destruiu 1.310 km² de capim-marinho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_IUCN"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P24",
+            "factKey": "baia-shark-F24",
+            "text": "Em 1616, o holandês Dirk Hartog fez aqui o primeiro desembarque europeu registrado na costa oeste da Austrália e deixou um prato de estanho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_SHIRE"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-viajante-P25",
+            "factKey": "baia-shark-F25",
+            "text": "A cidade de Denham é a porta de entrada para Monkey Mia, a praia onde golfinhos selvagens chegam à beira da água.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_SHIRE"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "baia-shark-geografo-P01",
+            "factKey": "baia-shark-F26",
+            "text": "Bancos e soleiras construídos por pradarias marinhas restringem a circulação da água e criam gradientes de salinidade fora do comum.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SHARK_DBCA_GUIA",
+              "SHARK_DBCA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P02",
+            "factKey": "baia-shark-F27",
+            "text": "A área foi inscrita no Patrimônio Mundial por cumprir os quatro critérios naturais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_DBCA",
+              "SHARK_SHIRE_WH",
+              "SHARK_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P03",
+            "factKey": "baia-shark-F28",
+            "text": "Esses gradientes dividem as águas em três zonas de salinidade: oceânica, meta-halina e hipersalina.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SHARK_DBCA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P04",
+            "factKey": "baia-shark-F29",
+            "text": "Há cerca de 4.000 anos, sedimentos de um banco de capim-marinho ergueram uma soleira até perto do nível do mar, o que restringiu a troca de água e salgou a enseada do sul.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SHARK_LANDSCOPE"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P05",
+            "factKey": "baia-shark-F11",
+            "text": "Nessa enseada, as estruturas microbianas crescem cerca de 0,5 mm por ano e só se formam entre o nível médio do mar e 4 m de profundidade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SHARK_LANDSCOPE"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P06",
+            "factKey": "baia-shark-F30",
+            "text": "Essas estruturas colonizaram as águas com menos de 4 m de profundidade há cerca de 2.000 a 3.000 anos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SHARK_LANDSCOPE"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P07",
+            "factKey": "baia-shark-F31",
+            "text": "A enseada tem a única gama de formas de estromatólito do mundo comparável ao registro fóssil, um análogo vivo da biosfera da Terra até o início do Cambriano.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SHARK_DBCA"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P08",
+            "factKey": "baia-shark-F32",
+            "text": "O futuro dos estromatólitos depende da soleira: mais restrição os empurraria para águas mais fundas, e a troca livre com o mar deixaria o capim-marinho e talvez os corais tomarem seu lugar.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SHARK_LANDSCOPE"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P09",
+            "factKey": "baia-shark-F33",
+            "text": "O Banco Wooramel, com 103 mil hectares, é considerado o maior banco de capim-marinho do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_DBCA",
+              "SHARK_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P10",
+            "factKey": "baia-shark-F34",
+            "text": "Com 12 espécies de capim-marinho, a baía reúne a maior diversidade dessas plantas numa só área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_DBCA",
+              "SHARK_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P11",
+            "factKey": "baia-shark-F35",
+            "text": "Estima-se que cerca de um oitavo da população mundial de dugongos viva aqui.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SHARK_DBCA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P12",
+            "factKey": "baia-shark-F36",
+            "text": "As ilhas Bernier e Dorre são refúgio de mamíferos ameaçados, vulneráveis ao fogo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P13",
+            "factKey": "baia-shark-F37",
+            "text": "Ilhas e penínsulas isoladas são o último reduto de cinco mamíferos criticamente ameaçados, quatro deles sem ocorrência natural em nenhum outro lugar do planeta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_DBCA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P14",
+            "factKey": "baia-shark-F38",
+            "text": "Na península central, um programa de conservação controla raposas, gatos, ovelhas e cabras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P15",
+            "factKey": "baia-shark-F39",
+            "text": "A ilha que leva o nome do navegador holandês de 1616 virou parque nacional livre de gatos ferais e herbívoros introduzidos, com reintroduções bem-sucedidas de fauna.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_IUCN",
+              "SHARK_SHIRE"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P16",
+            "factKey": "baia-shark-F40",
+            "text": "Um projeto de pesquisa iniciado em 1984 já estudou mais de 1.800 golfinhos na baía.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_IUCN",
+              "SHARK_SHIRE"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P17",
+            "factKey": "baia-shark-F41",
+            "text": "A economia local depende do turismo dos golfinhos, principal motivo das visitas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P18",
+            "factKey": "baia-shark-F23",
+            "text": "A onda de calor marinha de 2011, que destruiu 1.310 km² de capim-marinho, também afetou tartarugas e serpentes-marinhas e fechou temporariamente a pesca comercial de caranguejo e vieira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_IUCN"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P19",
+            "factKey": "baia-shark-F42",
+            "text": "Em 2025, a avaliação da IUCN classificou a perspectiva de conservação do sítio como de \"preocupação significativa\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P20",
+            "factKey": "baia-shark-F43",
+            "text": "Em dezembro de 2018, a Justiça Federal australiana reconheceu os direitos dos Malgana sobre cerca de 28.800 km² de terras e águas da área.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SHARK_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P21",
+            "factKey": "baia-shark-F44",
+            "text": "Um acordo de 2024 criou um território de conservação de 183 mil hectares, a ser gerido em conjunto pelos Malgana e pelo órgão ambiental estadual.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SHARK_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P22",
+            "factKey": "baia-shark-F45",
+            "text": "Inscrita em 13 de dezembro de 1991, foi a décima área de Patrimônio Mundial da Austrália e, na época, a única da Austrália Ocidental.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_DBCA"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P23",
+            "factKey": "baia-shark-F02",
+            "text": "Dos 2,2 milhões de hectares da área, cerca de 65% são águas marinhas, onde as pradarias de capim-marinho somam uns 4.800 km².",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SHARK_DBCA",
+              "SHARK_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P24",
+            "factKey": "baia-shark-F46",
+            "text": "Os estromatólitos mais diversos e abundantes do mundo ficam em Hamelin Pool, uma enseada hipersalina.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SHARK_IUCN",
+              "SHARK_DBCA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "baia-shark-geografo-P25",
+            "factKey": "baia-shark-F47",
+            "text": "Para os Malgana, cujo território marinho tradicional cobre a maior parte do parque marinho local, o nome da baía é Gathaaguda.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SHARK_DBCA_GUIA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Área de Patrimônio Mundial (1991) no litoral da Austrália Ocidental, no ponto mais ocidental do continente, com os estromatólitos vivos da enseada hipersalina de Hamelin Pool, pradarias marinhas entre as maiores do mundo (como o Banco Wooramel), cerca de 10 mil dugongos, os golfinhos de Monkey Mia e uma praia feita de conchas; é terra tradicional dos Malgana, que a chamam de Gathaaguda.",
+      "editorialNotes": [
+        "As fontes divergem na área das pradarias marinhas (cerca de 4.800 km² na IUCN e no site do condado; \"mais de 4.000 km²\" no guia do DBCA de 2024; 3.700 km² na LANDSCOPE de 1991-92) e na parcela marinha (65% no DBCA, cerca de 70% no site do condado).",
+        "O guia do DBCA grafa o nome Malgana da baía como Gathaaguda (a grafia Gathaagudu não aparece nas fontes abertas, nem o significado do nome); o site do condado escreve Yingkarta e o DBCA, Yinggarda.",
+        "Os dados de crescimento e idade dos estromatólitos e a história da soleira Faure vêm da revista LANDSCOPE (CALM, 1991-92). A página do DBCA em sharkbay.org redirecionou para um endereço que não pôde ser aberto; usou-se a página equivalente do DBCA (node/12373). Para não confundir com a vizinha Costa de Ningaloo, as pistas evitam tubarões-baleia e recifes."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "SHARK_DBCA": {
+      "id": "SHARK_DBCA",
+      "title": "Shark Bay World Heritage Area",
+      "publisher": "Department of Biodiversity, Conservation and Attractions (DBCA), governo da Austrália Ocidental",
+      "url": "https://www.dbca.wa.gov.au/node/12373",
+      "checkedAt": "2026-11-15"
+    },
+    "SHARK_IUCN": {
+      "id": "SHARK_IUCN",
+      "title": "Shark Bay, Western Australia – Conservation Outlook Assessment",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1050",
+      "checkedAt": "2026-11-15"
+    },
+    "SHARK_SHIRE": {
+      "id": "SHARK_SHIRE",
+      "title": "About the World Heritage Area",
+      "publisher": "Shark Bay Visit (Shire of Shark Bay)",
+      "url": "https://www.sharkbayvisit.com.au/about-the-world-heritage-area/",
+      "checkedAt": "2026-11-15"
+    },
+    "SHARK_SHIRE_WH": {
+      "id": "SHARK_SHIRE_WH",
+      "title": "World Heritage Status",
+      "publisher": "Shark Bay Visit (Shire of Shark Bay)",
+      "url": "https://www.sharkbayvisit.com.au/world-heritage-status/",
+      "checkedAt": "2026-11-15"
+    },
+    "SHARK_DBCA_GUIA": {
+      "id": "SHARK_DBCA_GUIA",
+      "title": "Shark Bay marine reserves – visitor guide (Shark Bay Marine Park e Hamelin Pool Marine Nature Reserve)",
+      "publisher": "DBCA – Parks and Wildlife Service",
+      "url": "https://exploreparks.dbca.wa.gov.au/media/3317/download",
+      "checkedAt": "2026-11-15"
+    },
+    "SHARK_LANDSCOPE": {
+      "id": "SHARK_LANDSCOPE",
+      "title": "Lilliput's Castles (Bob Burne), LANDSCOPE v. 7, n. 2, 1991-92",
+      "publisher": "Department of Conservation and Land Management (CALM), Austrália Ocidental – biblioteca do DBCA",
+      "url": "https://library.dbca.wa.gov.au/static/Journals/080052/080052-07.027.pdf",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.dbca.wa.gov.au/node/12373",
+      "https://worldheritageoutlook.iucn.org/node/1050",
+      "https://www.sharkbayvisit.com.au/about-the-world-heritage-area/",
+      "https://www.sharkbayvisit.com.au/world-heritage-status/",
+      "https://exploreparks.dbca.wa.gov.au/media/3317/download",
+      "https://library.dbca.wa.gov.au/static/Journals/080052/080052-07.027.pdf"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

@@ -1,0 +1,1082 @@
+{
+  "case": {
+    "id": "lug3-cracovia",
+    "placeId": "cracovia",
+    "title": "Cracóvia",
+    "aliases": [],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "PL"
+      ],
+      "continents": [
+        "europa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Cracóvia"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Varsóvia"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Gdansk"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Breslávia"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Praga"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Budapeste"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Viena"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Bratislava"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Berlim"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Dresden"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Vilnius"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Riga"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Tallinn"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Liubliana"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Zagreb"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Salzburgo"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Lisboa"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Roma"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Cracóvia",
+        "sources": [
+          "CRACOVIA_UNESCO",
+          "CRACOVIA_BRIT"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rio que atravessa a cidade",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Vístula"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Oder"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Danúbio"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Elba"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Vístula",
+        "sources": [
+          "CRACOVIA_BRIT",
+          "CRACOVIA_GUIA"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Artista do grande retábulo da igreja de Santa Maria, na praça do mercado",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Veit Stoss"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Tilman Riemenschneider"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Albrecht Dürer"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Michael Pacher"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Veit Stoss",
+        "sources": [
+          "CRACOVIA_BRIT",
+          "CRACOVIA_GUIA"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Criatura lendária que, segundo a tradição, vivia numa caverna ao pé do castelo real",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Dragão"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Sereia"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Grifo"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Basilisco"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Dragão",
+        "sources": [
+          "CRACOVIA_SMOK",
+          "CRACOVIA_GUIA"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "cracovia-viajante-P01",
+            "factKey": "cracovia-F01",
+            "text": "É uma antiga capital europeia, com centro medieval cheio de casas históricas, palácios e igrejas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P02",
+            "factKey": "cracovia-F02",
+            "text": "A cidade fica às margens de um rio, e seu centro histórico se estende ao pé de um castelo real.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CRACOVIA_UNESCO",
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P03",
+            "factKey": "cracovia-F03",
+            "text": "O rio que passa pela cidade é o Vístula.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT",
+              "CRACOVIA_GUIA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P04",
+            "factKey": "cracovia-F04",
+            "text": "Fica no sul do país e ocupa as duas margens do curso superior do rio.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P05",
+            "factKey": "cracovia-F05",
+            "text": "A praça principal do mercado mede cerca de 200 por 200 metros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_GUIA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P06",
+            "factKey": "cracovia-F06",
+            "text": "Essa praça é apontada como a maior praça medieval de mercado da Europa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_GUIA",
+              "CRACOVIA_UNESCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P07",
+            "factKey": "cracovia-F07",
+            "text": "No meio da praça fica um antigo mercado de tecidos, que sobreviveu até hoje.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_GUIA"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P08",
+            "factKey": "cracovia-F08",
+            "text": "A cada hora, um toque de clarim soa de uma das torres da igreja de Santa Maria, na praça do mercado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_GUIA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P09",
+            "factKey": "cracovia-F09",
+            "text": "Na igreja de Santa Maria, na praça, está a obra de uma vida inteira de um mestre vindo de Nuremberg.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CRACOVIA_GUIA"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P10",
+            "factKey": "cracovia-F10",
+            "text": "O grande retábulo da igreja de Santa Maria foi feito entre 1477 e 1489.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P11",
+            "factKey": "cracovia-F11",
+            "text": "O autor do retábulo é Veit Stoss, que na cidade é chamado de Wit Stwosz.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT",
+              "CRACOVIA_GUIA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P12",
+            "factKey": "cracovia-F12",
+            "text": "O traçado da praça e das ruas do centro foi definido em 1257, quando a cidade foi fundada sob a Lei de Magdeburgo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_GUIA",
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P13",
+            "factKey": "cracovia-F13",
+            "text": "Um parque criado no século XIX contorna o centro antigo, no lugar das muralhas demolidas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_GUIA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P14",
+            "factKey": "cracovia-F14",
+            "text": "Um antigo bairro judeu, com sinagogas antigas, fica na parte sul da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_UNESCO",
+              "CRACOVIA_GUIA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P15",
+            "factKey": "cracovia-F15",
+            "text": "Hoje esse bairro é conhecido por cafés, galerias e um festival de cultura judaica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_GUIA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P16",
+            "factKey": "cracovia-F16",
+            "text": "Uma passarela sobre o rio liga o antigo bairro judeu ao distrito da outra margem.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CRACOVIA_GUIA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P17",
+            "factKey": "cracovia-F17",
+            "text": "Uma estátua de bronze de 6 metros, instalada em 1972, solta fogo de verdade, gerado por gás.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CRACOVIA_SMOK"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P18",
+            "factKey": "cracovia-F18",
+            "text": "A estátua fica na entrada de uma caverna ao pé do castelo, onde, segundo a lenda, vivia um dragão de verdade.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CRACOVIA_SMOK",
+              "CRACOVIA_GUIA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P19",
+            "factKey": "cracovia-F19",
+            "text": "A universidade da cidade, fundada em 1364, é a segunda mais antiga da Europa Central.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P20",
+            "factKey": "cracovia-F20",
+            "text": "Os reis do país eram sepultados numa catedral gótica da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P21",
+            "factKey": "cracovia-F21",
+            "text": "Até 1611, o rei Sigismundo III Vasa já tinha levado a capital para outra cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P22",
+            "factKey": "cracovia-F22",
+            "text": "Logo fora da cidade há uma mina de sal explorada há pelo menos 700 anos, com capelas no subsolo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P23",
+            "factKey": "cracovia-F23",
+            "text": "O centro histórico entrou na lista do Patrimônio Mundial em 1978, no mesmo ano que a mina de sal vizinha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT",
+              "CRACOVIA_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P24",
+            "factKey": "cracovia-F24",
+            "text": "Na Segunda Guerra Mundial, cerca de 55 mil judeus da cidade foram enviados ao campo de extermínio de Auschwitz II (Birkenau).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-viajante-P25",
+            "factKey": "cracovia-F25",
+            "text": "Foi a capital da Polônia a partir de 1320.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT",
+              "CRACOVIA_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "cracovia-geografo-P01",
+            "factKey": "cracovia-F26",
+            "text": "A cidade ocupa as duas margens de um rio, no curso superior, e seu núcleo antigo se estende ao pé de um castelo real.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT",
+              "CRACOVIA_UNESCO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P02",
+            "factKey": "cracovia-F27",
+            "text": "O núcleo urbano é uma cidade de mercadores do século XIII.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P03",
+            "factKey": "cracovia-F28",
+            "text": "No século XIII, a cidade foi devastada por invasões tártaras; em 1257, recebeu uma constituição municipal, os direitos de Magdeburgo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P04",
+            "factKey": "cracovia-F29",
+            "text": "A fundação de 1257 definiu um traçado planejado: a praça do mercado e a malha de ruas do centro antigo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_GUIA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P05",
+            "factKey": "cracovia-F30",
+            "text": "No centro da praça de cerca de 200 m de lado está o mercado de tecidos, que a Britannica cita como belo exemplo de arquitetura renascentista.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_GUIA",
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P06",
+            "factKey": "cracovia-F31",
+            "text": "Boleslau I, o Bravo, fez da cidade a sede de um bispado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P07",
+            "factKey": "cracovia-F32",
+            "text": "O papa João Paulo II, hoje santo, nasceu em Wadowice, nas proximidades da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P08",
+            "factKey": "cracovia-F33",
+            "text": "A cidade perdeu o papel de sede do governo quando Sigismundo III Vasa transferiu a capital, o que estava concluído até 1611.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P09",
+            "factKey": "cracovia-F34",
+            "text": "Fundada como Academia por Casimiro III, o Grande, em 1364, a universidade local é a segunda mais antiga da Europa Central.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P10",
+            "factKey": "cracovia-F35",
+            "text": "Restam trechos das fortificações do século XIV; no lugar do anel de muralhas demolido, criou-se um parque no século XIX.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_UNESCO",
+              "CRACOVIA_GUIA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P11",
+            "factKey": "cracovia-F36",
+            "text": "A parte principal da grande igreja da praça, a Kościół Mariacki, data de 1497 e guarda um vitral de 1370.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P12",
+            "factKey": "cracovia-F37",
+            "text": "O retábulo dessa igreja (1477–89) é obra de Veit Stoss, mestre de Nuremberg que fez ali a obra de sua vida.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT",
+              "CRACOVIA_GUIA"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P13",
+            "factKey": "cracovia-F38",
+            "text": "O antigo distrito judeu, ao sul, guarda sinagogas antigas e o cemitério Remuh, com lápides do século XVI bem conservadas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_UNESCO",
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P14",
+            "factKey": "cracovia-F39",
+            "text": "Ocupada pelos alemães na Segunda Guerra Mundial, a cidade foi libertada por forças soviéticas em 1945.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P15",
+            "factKey": "cracovia-F40",
+            "text": "No pós-guerra, uma siderúrgica gigantesca, a Nowa Huta, foi implantada em Mogiła.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P16",
+            "factKey": "cracovia-F41",
+            "text": "A mina de sal logo fora da cidade tem cerca de 300 km de galerias, hoje com sanatório, museu e capelas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P17",
+            "factKey": "cracovia-F42",
+            "text": "A cidade é a capital da província da Pequena Polônia (Małopolska).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P18",
+            "factKey": "cracovia-F43",
+            "text": "A escultura de 1972 junto à caverna, de Bronisław Chromy, foi pensada de início como fonte para uma praça do antigo bairro judeu.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CRACOVIA_SMOK",
+              "CRACOVIA_GUIA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P19",
+            "factKey": "cracovia-F44",
+            "text": "O fogo da escultura é produzido por gás e, segundo a prefeitura, não contribui para a formação de smog.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CRACOVIA_SMOK"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P20",
+            "factKey": "cracovia-F45",
+            "text": "A caverna da lenda, ao pé do castelo, pode ser alcançada pelos passeios à beira do rio, do lado de Podzamcze.",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "CRACOVIA_SMOK"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P21",
+            "factKey": "cracovia-F46",
+            "text": "Uma passarela de pedestres sobre o rio liga o antigo bairro judeu a Podgórze, na margem oposta.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CRACOVIA_GUIA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P22",
+            "factKey": "cracovia-F47",
+            "text": "A área central protegida pela UNESCO tem 149,65 ha, e a zona de amortecimento, 907,35 ha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P23",
+            "factKey": "cracovia-F48",
+            "text": "Inscrito em 1978 pelo critério (iv), o bem reúne a cidade mercantil medieval, o castelo real e o distrito das antigas sinagogas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P24",
+            "factKey": "cracovia-F49",
+            "text": "A cidade tinha 757.611 habitantes no censo de 2011.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cracovia-geografo-P25",
+            "factKey": "cracovia-F50",
+            "text": "Foi capital do reino polonês de 1320 até a mudança da sede para Varsóvia, concluída até 1611.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CRACOVIA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Antiga capital da Polônia, no sul do país, às margens do Vístula, com a praça do mercado de 1257, o retábulo de Veit Stoss, o castelo de Wawel e o bairro de Kazimierz no Patrimônio Mundial desde 1978.",
+      "editorialNotes": [
+        "A Britannica diz que a capital foi transferida para Varsóvia \"até 1611\"; a data exata da mudança varia nas fontes, por isso as pistas usam essa formulação.",
+        "As fontes oficiais abertas não narram a lenda do dragão; as pistas citam só a estátua e a caverna onde, segundo a lenda, ele vivia.",
+        "A página da UNESCO consultada é a versão em espanhol (es/list/29), que traz a descrição em inglês."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: UNESCO, Britannica, guia oficial do município e portal Magiczny Kraków; C1 com 18 cidades da Europa Central e de outras regiões."
+    }
+  },
+  "sources": {
+    "CRACOVIA_UNESCO": {
+      "id": "CRACOVIA_UNESCO",
+      "title": "Historic Centre of Kraków",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/es/list/29",
+      "checkedAt": "2026-11-15"
+    },
+    "CRACOVIA_BRIT": {
+      "id": "CRACOVIA_BRIT",
+      "title": "Kraków",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Krakow",
+      "checkedAt": "2026-11-15"
+    },
+    "CRACOVIA_GUIA": {
+      "id": "CRACOVIA_GUIA",
+      "title": "Three days in Kraków (guia turístico, 6.ª ed., 2024)",
+      "publisher": "Município de Cracóvia – Departamento de Turismo",
+      "url": "https://krakow.pl/zalacznik/488597",
+      "checkedAt": "2026-11-15"
+    },
+    "CRACOVIA_SMOK": {
+      "id": "CRACOVIA_SMOK",
+      "title": "Smok wawelski",
+      "publisher": "Município de Cracóvia – portal Magiczny Kraków",
+      "url": "https://krakow.pl/instcbi/277531/inst/109885/2721/Smok-wawelski.html",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/es/list/29",
+      "https://www.britannica.com/place/Krakow",
+      "https://krakow.pl/zalacznik/488597",
+      "https://krakow.pl/instcbi/277531/inst/109885/2721/Smok-wawelski.html"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

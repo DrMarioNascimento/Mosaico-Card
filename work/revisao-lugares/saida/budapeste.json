@@ -1,0 +1,1103 @@
+{
+  "case": {
+    "id": "lug3-budapeste",
+    "placeId": "budapeste",
+    "title": "Budapeste",
+    "aliases": [],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "HU"
+      ],
+      "continents": [
+        "europa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Budapeste"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Viena"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Praga"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Bratislava"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Belgrado"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Varsóvia"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Cracóvia"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Berlim"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Bucareste"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Liubliana"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Zagreb"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Paris"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Londres"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Roma"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Lisboa"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Amsterdã"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Copenhague"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Atenas"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Budapeste",
+        "sources": [
+          "BUDAPESTE_BRIT",
+          "BUDAPESTE_UNESCO"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rio que atravessa a cidade",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Danúbio"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Vístula"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Elba"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Moldava"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Danúbio",
+        "sources": [
+          "BUDAPESTE_UNESCO",
+          "BUDAPESTE_BRIT"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Ano da unificação oficial das cidades vizinhas que formaram a cidade atual",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "1873"
+          },
+          {
+            "id": "C3-O2",
+            "text": "1686"
+          },
+          {
+            "id": "C3-O3",
+            "text": "1848"
+          },
+          {
+            "id": "C3-O4",
+            "text": "1918"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "1873",
+        "sources": [
+          "BUDAPESTE_UNESCO",
+          "BUDAPESTE_ARQUIVO",
+          "BUDAPESTE_BRIT"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Estilo do grande edifício do Parlamento, à beira do rio",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Neogótico"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Neoclássico"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Barroco"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Art nouveau"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Neogótico",
+        "sources": [
+          "BUDAPESTE_UNESCO",
+          "BUDAPESTE_UNESCO_RP"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "budapeste-viajante-P01",
+            "factKey": "budapeste-F01",
+            "text": "É uma grande cidade da Europa Central, dividida por um rio largo, com pontes, palácios e colinas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "BUDAPESTE_BRIT",
+              "BUDAPESTE_UNESCO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P02",
+            "factKey": "budapeste-F02",
+            "text": "Antes dos romanos, celtas já viviam no lugar; depois, os romanos fundaram ali uma cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_BRIT",
+              "BUDAPESTE_ARQUIVO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P03",
+            "factKey": "budapeste-F03",
+            "text": "O rio que corta a cidade é o Danúbio.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BUDAPESTE_BRIT",
+              "BUDAPESTE_UNESCO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P04",
+            "factKey": "budapeste-F04",
+            "text": "De um lado do rio, a cidade sobe por colinas; do outro, o terreno é mais plano e a cidade, mais moderna.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P05",
+            "factKey": "budapeste-F05",
+            "text": "No alto de uma colina rochosa fica o bairro do castelo, com o antigo palácio real.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO",
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P06",
+            "factKey": "budapeste-F06",
+            "text": "A colina do castelo tem cerca de 168 metros de altitude.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P07",
+            "factKey": "budapeste-F07",
+            "text": "Outra colina, de cerca de 245 metros, tem uma cidadela no topo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_BRIT",
+              "BUDAPESTE_UNESCO_RP"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P08",
+            "factKey": "budapeste-F08",
+            "text": "Perto dessa colina brotam águas quentes naturais, que os turcos usaram para construir banhos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_ARQUIVO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P09",
+            "factKey": "budapeste-F09",
+            "text": "No meio do rio há uma ilha que virou parque; ali o rio se divide em dois braços.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P10",
+            "factKey": "budapeste-F10",
+            "text": "Numa outra ilha do rio funciona um porto livre que movimenta cargas internacionais.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P11",
+            "factKey": "budapeste-F11",
+            "text": "A cidade passou cerca de um século e meio sob domínio turco.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_ARQUIVO",
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P12",
+            "factKey": "budapeste-F12",
+            "text": "A cidade da margem do castelo foi libertada do domínio turco em 2 de setembro de 1686.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_ARQUIVO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P13",
+            "factKey": "budapeste-F13",
+            "text": "A primeira ponte permanente da cidade sobre o rio, uma ponte pênsil, ficou pronta em 1849.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO",
+              "BUDAPESTE_ARQUIVO",
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P14",
+            "factKey": "budapeste-F14",
+            "text": "Essa ponte virou símbolo da reunião das duas metades da cidade.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P15",
+            "factKey": "budapeste-F15",
+            "text": "Em 1873, uma lei juntou três cidades vizinhas numa só.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BUDAPESTE_ARQUIVO",
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P16",
+            "factKey": "budapeste-F16",
+            "text": "Um enorme Parlamento neogótico, construído entre 1884 e 1904, fica à beira do rio.",
+            "relatedFields": [
+              "C4",
+              "C2"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO",
+              "BUDAPESTE_UNESCO_RP",
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P17",
+            "factKey": "budapeste-F17",
+            "text": "O Parlamento, a Ópera, a Academia de Ciências e o grande Mercado continuam com suas funções originais.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P18",
+            "factKey": "budapeste-F18",
+            "text": "Uma longa avenida, aberta entre 1872 e 1885, faz parte do patrimônio junto com a Praça dos Heróis e o Parque da Cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO",
+              "BUDAPESTE_UNESCO_RP"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P19",
+            "factKey": "budapeste-F19",
+            "text": "Debaixo dessa avenida corre a primeira ferrovia subterrânea da Europa continental, construída em 1893–96.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO",
+              "BUDAPESTE_UNESCO_RP"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P20",
+            "factKey": "budapeste-F20",
+            "text": "Na Segunda Guerra Mundial, os alemães em retirada explodiram todas as pontes sobre o rio.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "BUDAPESTE_ARQUIVO",
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P21",
+            "factKey": "budapeste-F21",
+            "text": "As pontes destruídas na guerra foram refeitas em até quatro anos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BUDAPESTE_ARQUIVO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P22",
+            "factKey": "budapeste-F22",
+            "text": "Em 1956, tropas soviéticas retomaram a cidade para esmagar uma revolta popular contra o governo comunista.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_BRIT",
+              "BUDAPESTE_ARQUIVO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P23",
+            "factKey": "budapeste-F23",
+            "text": "No fim do século XIX, a cidade viveu as comemorações dos mil anos da conquista magiar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_ARQUIVO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P24",
+            "factKey": "budapeste-F24",
+            "text": "Em 1987, as margens do rio e o bairro do castelo entraram na lista do Patrimônio Mundial.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO_RP",
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-viajante-P25",
+            "factKey": "budapeste-F25",
+            "text": "É a capital da Hungria.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "budapeste-geografo-P01",
+            "factKey": "budapeste-F26",
+            "text": "Este trecho do vale fluvial tem ocupação humana desde o Paleolítico.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P02",
+            "factKey": "budapeste-F27",
+            "text": "O sítio urbano aproveita o contraste entre uma margem de colinas, a oeste, e uma margem mais plana, a leste.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P03",
+            "factKey": "budapeste-F28",
+            "text": "No fim do século I, os romanos instalaram um acampamento militar e uma cidade civil no norte da área atual, junto à fronteira fortificada do império.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_BRIT",
+              "BUDAPESTE_ARQUIVO",
+              "BUDAPESTE_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P04",
+            "factKey": "budapeste-F29",
+            "text": "Para a UNESCO, essa cidade romana difundiu formas arquitetônicas romanas pelas províncias da Panônia e da Dácia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P05",
+            "factKey": "budapeste-F30",
+            "text": "Celtas eraviscos já ocupavam uma colina junto ao rio nos séculos III e IV a.C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_ARQUIVO",
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P06",
+            "factKey": "budapeste-F31",
+            "text": "Na origem, as duas margens abrigavam cidades separadas: uma na margem direita, sobre colinas, e outra na margem esquerda, em terreno mais plano.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO",
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P07",
+            "factKey": "budapeste-F32",
+            "text": "Depois da devastação mongol de 1241–42, o rei Béla IV ergueu um castelo e o primeiro palácio real sobre um esporão rochoso.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO",
+              "BUDAPESTE_ARQUIVO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P08",
+            "factKey": "budapeste-F33",
+            "text": "A partir do século XIV, o castelo real irradiou a arte gótica pela região magiar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P09",
+            "factKey": "budapeste-F34",
+            "text": "Sob Matias Corvino (1458–1490), a cidade do castelo foi um centro artístico que a UNESCO compara a Cracóvia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO",
+              "BUDAPESTE_ARQUIVO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P10",
+            "factKey": "budapeste-F35",
+            "text": "O bairro do castelo mostra dois períodos históricos separados pela invasão turca.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P11",
+            "factKey": "budapeste-F36",
+            "text": "Depois da batalha de Mohács (1526), os turcos saquearam e queimaram a cidade do castelo; o domínio otomano foi de 1541 a 1686.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_ARQUIVO",
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P12",
+            "factKey": "budapeste-F37",
+            "text": "Fontes termais naturais, em uma colina e em seus arredores, foram aproveitadas pelos otomanos para construir banhos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_ARQUIVO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P13",
+            "factKey": "budapeste-F38",
+            "text": "A recuperação depois da ocupação turca só ganhou força no século XVIII.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P14",
+            "factKey": "budapeste-F39",
+            "text": "A ponte pênsil de W. T. Clark, concluída em 1849, simbolizou a reunificação das duas margens, que só se efetivou em 1873.",
+            "relatedFields": [
+              "C3",
+              "C2"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P15",
+            "factKey": "budapeste-F40",
+            "text": "A unificação legislativa de 1873 juntou três municípios: as cidades das duas margens e um núcleo antigo ao norte, onde ficava a cidade romana.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BUDAPESTE_ARQUIVO",
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P16",
+            "factKey": "budapeste-F41",
+            "text": "Com a unificação de 1872–73, a cidade voltou a ser um grande centro europeu no fim do século XIX e no início do XX.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P17",
+            "factKey": "budapeste-F42",
+            "text": "A margem mais plana cresceu no século XIX como centro comercial e industrial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P18",
+            "factKey": "budapeste-F43",
+            "text": "O Parlamento neogótico (1884–1904), na margem leste, e a Academia de Ciências reforçaram no século XIX o papel de capital.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO",
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P19",
+            "factKey": "budapeste-F44",
+            "text": "Para a UNESCO, o grande edifício neogótico do Parlamento exemplifica a arquitetura eclética do século XIX.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P20",
+            "factKey": "budapeste-F45",
+            "text": "A avenida radial de 1872–1885 e a ferrovia subterrânea do Milênio (1893–96), a primeira da Europa continental, são soluções urbanas ligadas à tecnologia da época.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO",
+              "BUDAPESTE_UNESCO_RP"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P21",
+            "factKey": "budapeste-F46",
+            "text": "Em 1950, a incorporação de cidades vizinhas levou o município a 22 distritos; hoje são 23.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_ARQUIVO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P22",
+            "factKey": "budapeste-F47",
+            "text": "Os combates de 1944–45 destruíram todas as pontes e cerca de três quartos das moradias.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P23",
+            "factKey": "budapeste-F48",
+            "text": "Entre as ameaças ao patrimônio estão as cheias do rio, a poluição do ar e a deterioração do calcário.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P24",
+            "factKey": "budapeste-F49",
+            "text": "Inscrito em 1987 com 415,1 ha, o bem do Patrimônio Mundial ganhou em 2002 uma extensão de 57,85 ha com a avenida radial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_UNESCO_RP"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "budapeste-geografo-P25",
+            "factKey": "budapeste-F50",
+            "text": "A cidade é a capital húngara e já foi cocapital, com Viena, da Áustria-Hungria.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BUDAPESTE_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Capital da Hungria, às margens do Danúbio, formada em 1873 pela união de Buda, Peste e Óbuda, com o bairro do castelo de Buda, o Parlamento neogótico e a avenida Andrássy no Patrimônio Mundial.",
+      "editorialNotes": [
+        "A UNESCO fala em unificação de 1872–73 (efetivada em 1873); o arquivo municipal e a Britannica dão 1873, ano usado no gabarito.",
+        "A UNESCO chama o Parlamento de neogótico (1884–1904) e, no critério (iv), de exemplo da arquitetura eclética do século XIX.",
+        "A página da UNESCO em japonês liga o metrô à comemoração milenar; o texto em inglês dá 1893–96, datas usadas nas pistas."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: página e relatório periódico da UNESCO, Arquivo Municipal de Budapeste e Britannica; C1 com 18 cidades europeias comparáveis."
+    }
+  },
+  "sources": {
+    "BUDAPESTE_UNESCO": {
+      "id": "BUDAPESTE_UNESCO",
+      "title": "Budapest, including the Banks of the Danube, the Buda Castle Quarter and Andrássy Avenue",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/400/",
+      "checkedAt": "2026-11-15"
+    },
+    "BUDAPESTE_UNESCO_RP": {
+      "id": "BUDAPESTE_UNESCO_RP",
+      "title": "Periodic Reporting – Budapest, including the Banks of the Danube, the Buda Castle Quarter and Andrássy Avenue",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/216670",
+      "checkedAt": "2026-11-15"
+    },
+    "BUDAPESTE_ARQUIVO": {
+      "id": "BUDAPESTE_ARQUIVO",
+      "title": "History of Budapest",
+      "publisher": "Budapest City Archives (Budapest Főváros Levéltára)",
+      "url": "https://bparchiv.hu/en/history-of-budapest/",
+      "checkedAt": "2026-11-15"
+    },
+    "BUDAPESTE_BRIT": {
+      "id": "BUDAPESTE_BRIT",
+      "title": "Budapest",
+      "publisher": "Encyclopaedia Britannica (Britannica Kids – Students)",
+      "url": "https://kids.britannica.com/students/article/Budapest/273388",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/en/list/400/",
+      "https://whc.unesco.org/document/216670",
+      "https://bparchiv.hu/en/history-of-budapest/",
+      "https://kids.britannica.com/students/article/Budapest/273388"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

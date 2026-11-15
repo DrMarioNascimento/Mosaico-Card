@@ -270,7 +270,14 @@
     "Stone Town de Zanzibar",
     "Parque Nacional de Sundarbans",
     "Tassili n’Ajjer",
-    "Terraços de arroz das Cordilheiras das Filipinas"
+    "Terraços de arroz das Cordilheiras das Filipinas",
+    "Amsterdã",
+    "Baía Shark",
+    "Bora Bora",
+    "Budapeste",
+    "Cracóvia",
+    "Fiordes do Oeste da Noruega",
+    "Florença"
   ],
   "groups": {
     "Brasil Norte": [
@@ -480,7 +487,12 @@
       "Cidade Antiga de Dubrovnik",
       "Barcelona",
       "Lisboa",
-      "Praga"
+      "Praga",
+      "Amsterdã",
+      "Budapeste",
+      "Cracóvia",
+      "Fiordes do Oeste da Noruega",
+      "Florença"
     ],
     "África": [
       "Egito",
@@ -560,7 +572,9 @@
       "Auckland",
       "Queenstown",
       "Rotorua",
-      "Parque Nacional Aoraki/Monte Cook"
+      "Parque Nacional Aoraki/Monte Cook",
+      "Baía Shark",
+      "Bora Bora"
     ],
     "Antártida": [
       "Polo Sul Geográfico",

@@ -1,0 +1,1115 @@
+{
+  "case": {
+    "id": "lug3-fiordes-oeste-noruega",
+    "placeId": "fiordes-oeste-noruega",
+    "title": "Fiordes do Oeste da Noruega",
+    "aliases": [
+      "Geirangerfjord e Nærøyfjord",
+      "Geirangerfjord",
+      "Nærøyfjord"
+    ],
+    "answerType": "conjunto de fiordes",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "NO"
+      ],
+      "continents": [
+        "europa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Paisagem natural",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Fiordes do Oeste da Noruega"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Calçada dos Gigantes"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Ilha de Staffa"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Dolomitas"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional dos Lagos de Plitvice"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Alpes Suíços Jungfrau-Aletsch"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Costa Jurássica (Dorset e East Devon)"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Ilha de Surtsey"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional Vatnajökull"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Alta Costa e Arquipélago de Kvarken"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Mar de Wadden"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Delta do Danúbio"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Monte Etna"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Ilhas Eólias"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Pireneus – Monte Perdido"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Ilha de St Kilda"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Baía de Kotor"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Falésias de Moher"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Fiordes do Oeste da Noruega",
+        "sources": [
+          "FIORDES_UNESCO",
+          "FIORDES_RIKSANT"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Processo principal que modelou os vales",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Erosão glacial"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Vulcanismo"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Dissolução cárstica do calcário"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Erosão pelo vento"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Erosão glacial",
+        "sources": [
+          "FIORDES_UNESCO",
+          "FIORDES_IUCN"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Tipo de rocha das paredes íngremes",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Rocha cristalina"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Calcário"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Arenito"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Giz"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Rocha cristalina",
+        "sources": [
+          "FIORDES_UNESCO",
+          "FIORDES_IUCN",
+          "FIORDES_RIKSANT"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Atividade das antigas fazendas, hoje quase todas abandonadas, presas às encostas",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Pastoreio sazonal de rebanhos (transumância)"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Vinhedos em socalcos"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Plantio de oliveiras"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Cultivo de arroz irrigado"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Pastoreio sazonal de rebanhos (transumância)",
+        "sources": [
+          "FIORDES_UNESCO",
+          "FIORDES_RIKSANT",
+          "FIORDES_IUCN"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "fiordes-oeste-noruega-viajante-P01",
+            "factKey": "fiordes-oeste-noruega-F01",
+            "text": "É uma paisagem natural europeia de paredões de pedra, cachoeiras, geleiras, lagos e florestas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_UNESCO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P02",
+            "factKey": "fiordes-oeste-noruega-F02",
+            "text": "O lugar é patrimônio mundial tanto por sua beleza quanto por sua geologia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P03",
+            "factKey": "fiordes-oeste-noruega-F03",
+            "text": "O conjunto tem duas áreas separadas, a cerca de 120 km uma da outra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_RIKSANT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P04",
+            "factKey": "fiordes-oeste-noruega-F04",
+            "text": "Os paredões sobem até cerca de 1.400 metros acima do mar e descem 500 metros abaixo da superfície da água.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_RIKSANT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P05",
+            "factKey": "fiordes-oeste-noruega-F05",
+            "text": "Em alguns pontos, o braço de mar tem só 250 metros de largura; em outros, chega a 2,5 km.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_RIKSANT"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P06",
+            "factKey": "fiordes-oeste-noruega-F06",
+            "text": "Inúmeras cachoeiras despencam das paredes de pedra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_IUCN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P07",
+            "factKey": "fiordes-oeste-noruega-F07",
+            "text": "Entre as cachoeiras de um dos braços de mar, a mais famosa se chama Sete Irmãs.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_FN_GEIRANGER",
+              "FIORDES_FN_FIORDES"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P08",
+            "factKey": "fiordes-oeste-noruega-F08",
+            "text": "Outra cachoeira conhecida da região se chama O Pretendente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_FN_FIORDES"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P09",
+            "factKey": "fiordes-oeste-noruega-F09",
+            "text": "As paredes são de rocha cristalina, estreitas e muito íngremes.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P10",
+            "factKey": "fiordes-oeste-noruega-F10",
+            "text": "Geleiras da era do gelo escavaram os vales, que depois foram invadidos pelo mar.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P11",
+            "factKey": "fiordes-oeste-noruega-F11",
+            "text": "Ainda há geleiras, lagos glaciais e rios correndo livres entre florestas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "FIORDES_UNESCO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P12",
+            "factKey": "fiordes-oeste-noruega-F12",
+            "text": "Nas encostas há restos de velhas fazendas de pastoreio sazonal, hoje quase todas abandonadas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_RIKSANT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P13",
+            "factKey": "fiordes-oeste-noruega-F13",
+            "text": "A fazenda abandonada mais famosa só se alcança de barco e, depois, por uma trilha íngreme.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "FIORDES_FN_GEIRANGER"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P14",
+            "factKey": "fiordes-oeste-noruega-F14",
+            "text": "Uma trilha leva até uma cachoeira a 550 metros de altitude.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_FN_GEIRANGER"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P15",
+            "factKey": "fiordes-oeste-noruega-F15",
+            "text": "A maioria dos visitantes chega em navios de cruzeiro, numa temporada curta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_RIKSANT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P16",
+            "factKey": "fiordes-oeste-noruega-F16",
+            "text": "Os portos limitam a chegada de cruzeiristas a 6 mil passageiros por dia em dois vilarejos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P17",
+            "factKey": "fiordes-oeste-noruega-F17",
+            "text": "Um dos braços de mar se estende por 15 km entre dois vilarejos ligados por balsa o ano todo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_FN_GEIRANGER"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P18",
+            "factKey": "fiordes-oeste-noruega-F18",
+            "text": "Esse braço de mar chega a 260 metros de profundidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_FN_GEIRANGER"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P19",
+            "factKey": "fiordes-oeste-noruega-F19",
+            "text": "Uma estrada de curvas fechadas, a Estrada das Águias, desce até um dos vilarejos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_FN_GEIRANGER"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P20",
+            "factKey": "fiordes-oeste-noruega-F20",
+            "text": "O outro braço de mar tem cerca de 19 km de comprimento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_FN_FIORDES"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P21",
+            "factKey": "fiordes-oeste-noruega-F21",
+            "text": "Na cabeceira desse outro braço fica um vilarejo que abriga a aldeia viking Njardarheimr.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_FN_FIORDES"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P22",
+            "factKey": "fiordes-oeste-noruega-F22",
+            "text": "Lontras, focas, toninhas e águias vivem na região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P23",
+            "factKey": "fiordes-oeste-noruega-F23",
+            "text": "Há risco de deslizamentos: numa montanha, uma fenda se alarga de 2 a 8 cm por ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P24",
+            "factKey": "fiordes-oeste-noruega-F24",
+            "text": "Inscrito em 2005, foi o primeiro patrimônio mundial do país reconhecido por seu valor natural.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_PARQUE",
+              "FIORDES_IUCN",
+              "FIORDES_RIKSANT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-viajante-P25",
+            "factKey": "fiordes-oeste-noruega-F25",
+            "text": "São braços de mar estreitos e profundos, os famosos fiordes, no sudoeste do país, a nordeste de Bergen.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_RIKSANT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "fiordes-oeste-noruega-geografo-P01",
+            "factKey": "fiordes-oeste-noruega-F26",
+            "text": "A paisagem reúne paredões rochosos, geleiras, lagos glaciais e rios livres entre florestas de folhosas e coníferas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_UNESCO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P02",
+            "factKey": "fiordes-oeste-noruega-F27",
+            "text": "É um bem em série: duas áreas separadas formam um único patrimônio natural.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_RIKSANT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P03",
+            "factKey": "fiordes-oeste-noruega-F28",
+            "text": "Para a UNESCO, os dois vales são exemplos clássicos e complementares de vale glaciado depois submerso pelo mar.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "FIORDES_UNESCO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P04",
+            "factKey": "fiordes-oeste-noruega-F29",
+            "text": "A área guarda exemplos bem desenvolvidos da glaciação jovem e ativa do Pleistoceno.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P05",
+            "factKey": "fiordes-oeste-noruega-F30",
+            "text": "Bacias rochosas profundas, soleiras de rocha e morainas submarinas fazem parte do relevo deixado pelo gelo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "FIORDES_UNESCO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P06",
+            "factKey": "fiordes-oeste-noruega-F31",
+            "text": "Vales suspensos e vales em forma de anzol, criados por captura fluvial, aparecem nas encostas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_RIKSANT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P07",
+            "factKey": "fiordes-oeste-noruega-F32",
+            "text": "O soerguimento isostático pós-glacial torna a área importante para estudar a instabilidade das encostas e os riscos geológicos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "FIORDES_UNESCO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P08",
+            "factKey": "fiordes-oeste-noruega-F33",
+            "text": "Cicatrizes de deslizamentos e depósitos de avalanches marcam as vertentes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_UNESCO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P09",
+            "factKey": "fiordes-oeste-noruega-F34",
+            "text": "Avalanches, quedas de rochas e deslizamentos são riscos persistentes em várias partes da área e exigem planos de prevenção.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P10",
+            "factKey": "fiordes-oeste-noruega-F35",
+            "text": "Paredes de rocha cristalina sobem até 1.400 m acima do mar e se prolongam até 500 m abaixo do nível do mar.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_IUCN",
+              "FIORDES_RIKSANT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P11",
+            "factKey": "fiordes-oeste-noruega-F36",
+            "text": "As duas áreas pertencem a uma paisagem de vales marinhos que se estende por cerca de 500 km, de Stavanger, ao sul, a Åndalsnes, a nordeste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_RIKSANT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P12",
+            "factKey": "fiordes-oeste-noruega-F37",
+            "text": "Os dois vales marinhos estão entre os mais longos e profundos do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_RIKSANT"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P13",
+            "factKey": "fiordes-oeste-noruega-F38",
+            "text": "Entre cerca de 200 vales marinhos da costa oeste do país, estes são os menos afetados por barragens hidrelétricas e infraestrutura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_UNESCO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P14",
+            "factKey": "fiordes-oeste-noruega-F39",
+            "text": "Uma das áreas fica no condado de Møre og Romsdal; a outra, no condado de Vestland.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_RIKSANT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P15",
+            "factKey": "fiordes-oeste-noruega-F40",
+            "text": "Restos de antigas fazendas transumantes, hoje quase todas abandonadas, dão uma dimensão cultural à paisagem natural.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_RIKSANT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P16",
+            "factKey": "fiordes-oeste-noruega-F41",
+            "text": "Numa das áreas, 12 pequenas fazendas ainda funcionam e outras 24 mantêm pastagens, sobretudo de cabras e ovelhas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "FIORDES_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P17",
+            "factKey": "fiordes-oeste-noruega-F42",
+            "text": "Cerca de 85% das terras são privadas, e a maior parte do bem é Paisagem Protegida (categoria V da IUCN).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_RIKSANT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P18",
+            "factKey": "fiordes-oeste-noruega-F43",
+            "text": "Perto de uma das áreas extrai-se peridotito; na outra, há extração subterrânea de anortosito.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_RIKSANT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P19",
+            "factKey": "fiordes-oeste-noruega-F44",
+            "text": "Os navios de cruzeiro passaram de 308 em 2002 para 328 em 2019, e os passageiros, de 265.585 para 617.545.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P20",
+            "factKey": "fiordes-oeste-noruega-F45",
+            "text": "Desde 2000, as geleiras da área perderam 33,2% de sua massa.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "FIORDES_IUCN"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P21",
+            "factKey": "fiordes-oeste-noruega-F46",
+            "text": "Regras de emissão zero para navios turísticos e balsas passam a valer na área em 2026.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P22",
+            "factKey": "fiordes-oeste-noruega-F47",
+            "text": "Focas-comuns, salmão-do-atlântico e truta-marinha usam as águas; o lúcio e o pinheiro Pinus contorta aparecem como espécies invasoras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P23",
+            "factKey": "fiordes-oeste-noruega-F48",
+            "text": "Em 2025, a IUCN avaliou a perspectiva de conservação como \"boa, com algumas preocupações\", pelo efeito somado de mineração, tráfego e turismo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_IUCN"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P24",
+            "factKey": "fiordes-oeste-noruega-F49",
+            "text": "O bem soma 122.712 ha, dos quais 10.746 ha são de mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_RIKSANT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "fiordes-oeste-noruega-geografo-P25",
+            "factKey": "fiordes-oeste-noruega-F50",
+            "text": "São dois fiordes do sudoeste da Noruega, a nordeste de Bergen, considerados localidade-tipo das paisagens de fiorde.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "FIORDES_UNESCO",
+              "FIORDES_RIKSANT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Conjunto de dois fiordes do sudoeste da Noruega (Geirangerfjord e Nærøyfjord), a 120 km um do outro, escavados pelo gelo do Pleistoceno em rocha cristalina e inscritos como Patrimônio Mundial natural em 2005.",
+      "editorialNotes": [
+        "A Fjord Norway cita montanhas de 1.600–1.700 m em torno de um fiorde e de quase 2.000 m no outro; a UNESCO dá paredões de até 1.400 m acima do mar, número usado nas pistas.",
+        "Os comprimentos de 15 km (Hellesylt–Geiranger) e 19 km (Nærøyfjord) vêm da Fjord Norway; a página da UNESCO em inglês não dá comprimentos.",
+        "A UNESCO dá a largura mínima de 250 m para os fiordes em geral; a Fjord Norway a atribui ao ponto mais estreito do Nærøyfjord."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: UNESCO, IUCN World Heritage Outlook 2025, Riksantikvaren, Fjord Norway e parque do patrimônio do Nærøyfjord; C1 com 18 paisagens naturais europeias."
+    }
+  },
+  "sources": {
+    "FIORDES_UNESCO": {
+      "id": "FIORDES_UNESCO",
+      "title": "West Norwegian Fjords – Geirangerfjord and Nærøyfjord",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1195",
+      "checkedAt": "2026-11-15"
+    },
+    "FIORDES_IUCN": {
+      "id": "FIORDES_IUCN",
+      "title": "West Norwegian Fjords – Geirangerfjord and Nærøyfjord (World Heritage Outlook 2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1141",
+      "checkedAt": "2026-11-15"
+    },
+    "FIORDES_RIKSANT": {
+      "id": "FIORDES_RIKSANT",
+      "title": "World heritage: West Norwegian Fjords",
+      "publisher": "Riksantikvaren – Diretoria do Patrimônio Cultural da Noruega",
+      "url": "https://riksantikvaren.no/en/world-heritage/west-norwegian-fjords",
+      "checkedAt": "2026-11-15"
+    },
+    "FIORDES_FN_GEIRANGER": {
+      "id": "FIORDES_FN_GEIRANGER",
+      "title": "Geirangerfjord",
+      "publisher": "Fjord Norway (turismo regional)",
+      "url": "https://www.fjordnorway.com/top-attractions/geirangerfjord",
+      "checkedAt": "2026-11-15"
+    },
+    "FIORDES_FN_FIORDES": {
+      "id": "FIORDES_FN_FIORDES",
+      "title": "Norway's fjords – the most famous fjords",
+      "publisher": "Fjord Norway (turismo regional)",
+      "url": "https://fjordnorway.com/en/inspiration/norways-fjords--the-most-famous-fjords",
+      "checkedAt": "2026-11-15"
+    },
+    "FIORDES_PARQUE": {
+      "id": "FIORDES_PARQUE",
+      "title": "West Norwegian fjord landscape",
+      "publisher": "Nærøyfjorden World Heritage Park",
+      "url": "https://en.naroyfjorden.no/delomrade-naeroyfjorden",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/en/list/1195",
+      "https://worldheritageoutlook.iucn.org/node/1141",
+      "https://riksantikvaren.no/en/world-heritage/west-norwegian-fjords",
+      "https://www.fjordnorway.com/top-attractions/geirangerfjord",
+      "https://fjordnorway.com/en/inspiration/norways-fjords--the-most-famous-fjords",
+      "https://en.naroyfjorden.no/delomrade-naeroyfjorden"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

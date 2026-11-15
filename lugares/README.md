@@ -262,6 +262,13 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Parque Nacional de Sundarbans | Ásia |
 | Tassili n’Ajjer | África |
 | Terraços de arroz das Cordilheiras das Filipinas | Ásia |
+| Amsterdã | Europa |
+| Baía Shark | Oceania |
+| Bora Bora | Oceania |
+| Budapeste | Europa |
+| Cracóvia | Europa |
+| Fiordes do Oeste da Noruega | Europa |
+| Florença | Europa |
 
 | Parque Nacional do Catimbau | Brasil / Nordeste |
 | Parque Nacional de Ubajara | Brasil / Nordeste |
@@ -288,7 +295,7 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Belo Horizonte | Brasil / Sudeste |
 | Parque Nacional Los Glaciares | Américas |
 
-São 269 lugares, 538 conjuntos de pistas (dois por lugar), 13.450 pistas, 1.076 perguntas distintas e 7.150 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 276 lugares, 552 conjuntos de pistas (dois por lugar), 13.800 pistas, 1.104 perguntas distintas e 7.358 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 
