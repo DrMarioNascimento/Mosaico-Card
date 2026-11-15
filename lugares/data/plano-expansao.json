@@ -253,7 +253,24 @@
     "Parque Nacional Tikal",
     "Centro Arqueológico de Tiwanaku",
     "Torres",
-    "Wellington"
+    "Wellington",
+    "Parque Nacional Aoraki/Monte Cook",
+    "Campos do Jordão",
+    "Santos",
+    "São Paulo",
+    "Vitória",
+    "Ilha Goudier e Base A de Port Lockroy",
+    "Península Byers",
+    "Praga",
+    "Rio Araguaia",
+    "Rio Tocantins",
+    "Ruínas de Kilwa Kisiwani e Songo Mnara",
+    "Parque Nacional da Serra da Canastra",
+    "Sítio Roberto Burle Marx",
+    "Stone Town de Zanzibar",
+    "Parque Nacional de Sundarbans",
+    "Tassili n’Ajjer",
+    "Terraços de arroz das Cordilheiras das Filipinas"
   ],
   "groups": {
     "Brasil Norte": [
@@ -284,7 +301,9 @@
       "Rio Branco",
       "Santarém",
       "Parque Nacional Montanhas do Tumucumaque",
-      "Parque Nacional do Juruena"
+      "Parque Nacional do Juruena",
+      "Rio Araguaia",
+      "Rio Tocantins"
     ],
     "Brasil Nordeste": [
       "Parque Nacional dos Lençóis Maranhenses",
@@ -357,7 +376,11 @@
       "Centro Histórico de Diamantina",
       "Parque Estadual de Itaúnas",
       "Parque Nacional da Serra do Cipó",
-      "Rio São Francisco"
+      "Rio São Francisco",
+      "Campos do Jordão",
+      "Santos",
+      "Parque Nacional da Serra da Canastra",
+      "Sítio Roberto Burle Marx"
     ],
     "Brasil Sul": [
       "Florianópolis",
@@ -456,7 +479,8 @@
       "Gante",
       "Cidade Antiga de Dubrovnik",
       "Barcelona",
-      "Lisboa"
+      "Lisboa",
+      "Praga"
     ],
     "África": [
       "Egito",
@@ -483,7 +507,10 @@
       "Parque Nacional Impenetrável de Bwindi",
       "Mar de Areia do Namibe",
       "Mbanza Kongo",
-      "Parque Nacional de Virunga"
+      "Parque Nacional de Virunga",
+      "Ruínas de Kilwa Kisiwani e Songo Mnara",
+      "Stone Town de Zanzibar",
+      "Tassili n’Ajjer"
     ],
     "Ásia": [
       "Japão",
@@ -506,7 +533,9 @@
       "Cidade Proibida",
       "Ilha de Jeju",
       "Parque Nacional de Komodo",
-      "Parque Nacional de Chitwan"
+      "Parque Nacional de Chitwan",
+      "Parque Nacional de Sundarbans",
+      "Terraços de arroz das Cordilheiras das Filipinas"
     ],
     "Oceania": [
       "Austrália",
@@ -530,7 +559,8 @@
       "Rennell Oriental",
       "Auckland",
       "Queenstown",
-      "Rotorua"
+      "Rotorua",
+      "Parque Nacional Aoraki/Monte Cook"
     ],
     "Antártida": [
       "Polo Sul Geográfico",
@@ -556,7 +586,9 @@
       "Baía do Almirantado",
       "Geleira Lambert",
       "Lago Vostok",
-      "Polo Sul de Inacessibilidade"
+      "Polo Sul de Inacessibilidade",
+      "Ilha Goudier e Base A de Port Lockroy",
+      "Península Byers"
     ]
   },
   "classificationNotes": [

@@ -1,0 +1,1072 @@
+{
+  "case": {
+    "id": "lug2-serra-canastra",
+    "placeId": "serra-canastra",
+    "title": "Parque Nacional da Serra da Canastra",
+    "aliases": [
+      "Serra da Canastra"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sudeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional da Serra da Canastra"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional da Serra do Cipó"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional do Caparaó"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional da Chapada dos Veadeiros"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional da Serra da Bocaina"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional do Itatiaia"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional das Emas"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional da Chapada dos Guimarães"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional da Serra da Bodoquena"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional da Serra da Capivara"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional da Chapada Diamantina"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional do Iguaçu"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional da Serra da Canastra",
+        "sources": [
+          "CANASTRA_DECRETO",
+          "CANASTRA_UNESCO_TL"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Grande rio com nascente histórica no parque",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "São Francisco"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Parnaíba"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Jequitinhonha"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Doce"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "São Francisco",
+        "sources": [
+          "CANASTRA_UNESCO_TL",
+          "CANASTRA_WIKI"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Vegetação predominante",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Cerrado e campos rupestres"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Caatinga e matas secas"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Floresta ombrófila e manguezais"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Campos de altitude e araucárias"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Cerrado e campos rupestres",
+        "sources": [
+          "CANASTRA_UNESCO_TL",
+          "CANASTRA_WIKI"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Ano de criação",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "1972"
+          },
+          {
+            "id": "C4-O2",
+            "text": "1984"
+          },
+          {
+            "id": "C4-O3",
+            "text": "1961"
+          },
+          {
+            "id": "C4-O4",
+            "text": "1998"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "1972",
+        "sources": [
+          "CANASTRA_DECRETO",
+          "CANASTRA_WIKI"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "serra-canastra-viajante-P01",
+            "factKey": "serra-canastra-F01",
+            "text": "É um parque nacional de chapadas altas, cercadas de paredões e cachoeiras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P02",
+            "factKey": "serra-canastra-F02",
+            "text": "É uma área protegida do Cerrado, administrada pelo ICMBio.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P03",
+            "factKey": "serra-canastra-F03",
+            "text": "As temperaturas vão de 1 °C a 29 °C, com média de 18 °C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P04",
+            "factKey": "serra-canastra-F04",
+            "text": "Uma estrada cruza a parte mais alta do parque, de leste a oeste, por mais de 60 km.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P05",
+            "factKey": "serra-canastra-F05",
+            "text": "Com tempo bom, dá para chegar de carro a mirantes por estradas de terra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P06",
+            "factKey": "serra-canastra-F06",
+            "text": "Centenas de riachos despencam do alto das chapadas em cascatas e cachoeiras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P07",
+            "factKey": "serra-canastra-F07",
+            "text": "Uma das cachoeiras tem cerca de 200 m de altura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P08",
+            "factKey": "serra-canastra-F08",
+            "text": "Garagem de Pedras e Curral de Pedras estão entre os atrativos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P09",
+            "factKey": "serra-canastra-F09",
+            "text": "O lobo-guará faz parte da fauna do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL",
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P10",
+            "factKey": "serra-canastra-F10",
+            "text": "O tamanduá-bandeira também está entre os mamíferos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL",
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P11",
+            "factKey": "serra-canastra-F11",
+            "text": "Entre as aves estão a ema, a seriema e o tucanuçu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P12",
+            "factKey": "serra-canastra-F12",
+            "text": "Também vivem ali o veado-campeiro, o cachorro-vinagre e a lontra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P13",
+            "factKey": "serra-canastra-F13",
+            "text": "Um pato criticamente ameaçado, com menos de 250 indivíduos no total, tem ali uma de suas áreas de ocorrência.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_PATO_ICMBIO",
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P14",
+            "factKey": "serra-canastra-F14",
+            "text": "Orquídeas, canelas-de-ema e arnica estão entre as plantas citadas para o parque.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P15",
+            "factKey": "serra-canastra-F15",
+            "text": "Musgos como o esfagno e plantas como os licopódios também aparecem na flora.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P16",
+            "factKey": "serra-canastra-F16",
+            "text": "O clima fica na transição entre o tropical quente e o temperado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P17",
+            "factKey": "serra-canastra-F17",
+            "text": "Onças-pardas e jaguatiricas também fazem parte da fauna.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P18",
+            "factKey": "serra-canastra-F18",
+            "text": "O parque fica no sudoeste de Minas Gerais, ao norte do Rio Grande.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P19",
+            "factKey": "serra-canastra-F19",
+            "text": "É ali que fica a nascente histórica do maior rio totalmente brasileiro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL",
+              "SF_CODEVASF_ATLAS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P20",
+            "factKey": "serra-canastra-F20",
+            "text": "Foi criado por decreto em abril de 1972, no governo Médici.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CANASTRA_DECRETO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P21",
+            "factKey": "serra-canastra-F21",
+            "text": "Em 1998, o Brasil o indicou para a lista de candidatos a Patrimônio Mundial da UNESCO.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P22",
+            "factKey": "serra-canastra-F22",
+            "text": "Passos é apontada como a cidade mais próxima.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P23",
+            "factKey": "serra-canastra-F23",
+            "text": "Cerca de 45 espécies de plantas são endêmicas: só existem ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P24",
+            "factKey": "serra-canastra-F24",
+            "text": "Seus limites passam por municípios como São Roque de Minas, Vargem Bonita e Delfinópolis.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_DECRETO",
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-viajante-P25",
+            "factKey": "serra-canastra-F25",
+            "text": "Os pontos mais altos chegam perto de 1.500 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL",
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "serra-canastra-geografo-P01",
+            "factKey": "serra-canastra-F01",
+            "text": "Dois chapadões isolados de quartzito metamórfico, separados por um grande vale, formam o núcleo da unidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P02",
+            "factKey": "serra-canastra-F02",
+            "text": "A cobertura é de Cerrado, com alguma influência da Mata Atlântica.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P03",
+            "factKey": "serra-canastra-F03",
+            "text": "As escarpas resultam da erosão diferencial: rochas mais brandas se desgastam sob capas de quartzo resistentes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P04",
+            "factKey": "serra-canastra-F04",
+            "text": "A unidade fica sobre o divisor entre a bacia do Paranaíba, do sistema Paraná–Prata, e a de um grande rio que corre para leste a partir do parque.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL",
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P05",
+            "factKey": "serra-canastra-F05",
+            "text": "Ao sul, as águas seguem para o Rio Grande; ao norte, para o Araguari, afluente do Paranaíba. Grande e Paranaíba se unem para formar o Paraná.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P06",
+            "factKey": "serra-canastra-F06",
+            "text": "A nascente histórica de um rio de cerca de 2.700 km fica na serra que dá nome ao parque, a 1.480 m segundo a UNESCO.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P07",
+            "factKey": "serra-canastra-F07",
+            "text": "Uma queda de 186 m é descrita como a primeira cachoeira desse rio.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P08",
+            "factKey": "serra-canastra-F08",
+            "text": "A estação seca dura cerca de cinco meses, e abaixo dos 1.000 m a temperatura média fica perto de 20 °C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P09",
+            "factKey": "serra-canastra-F09",
+            "text": "Predominam campos rupestres e cerrado, com capões de mata ciliar em vales e ravinas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P10",
+            "factKey": "serra-canastra-F10",
+            "text": "Os habitats incluem campos úmidos (campo limpo e veredas), campo rupestre, cerradão e matas de galeria ao longo dos rios maiores.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P11",
+            "factKey": "serra-canastra-F11",
+            "text": "A herpetofauna inclui anfíbios endêmicos, como a perereca Hyla ibitiguara.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P12",
+            "factKey": "serra-canastra-F12",
+            "text": "O decreto de 1972 previa cerca de 200 mil ha, mas em 2016 só uns 70 mil ha do chapadão principal estavam regularizados.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CANASTRA_DECRETO",
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P13",
+            "factKey": "serra-canastra-F13",
+            "text": "O Decreto 70.355, de 3 de abril de 1972, criou o parque e deu a gestão ao antigo IBDF.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CANASTRA_DECRETO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P14",
+            "factKey": "serra-canastra-F14",
+            "text": "Boa parte do limite acompanha o sopé da serra pela curva de nível de 900 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_DECRETO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P15",
+            "factKey": "serra-canastra-F15",
+            "text": "A descrição dos limites usa como referências o Chapadão da Babilônia e a barragem de Furnas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_DECRETO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P16",
+            "factKey": "serra-canastra-F16",
+            "text": "A área proposta à UNESCO em 1998 somava cerca de 71.525 ha e 173,4 km de perímetro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P17",
+            "factKey": "serra-canastra-F17",
+            "text": "A proposta à lista indicativa da UNESCO invoca os critérios naturais (vii), (ix) e (x).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P18",
+            "factKey": "serra-canastra-F18",
+            "text": "A fauna ainda é pouco conhecida e pode estar se recuperando da caça do passado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P19",
+            "factKey": "serra-canastra-F19",
+            "text": "O pato-mergulhão, criticamente em perigo, tem registros confirmados em três bacias brasileiras, entre elas a do rio que nasce no parque.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CANASTRA_PATO_ICMBIO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P20",
+            "factKey": "serra-canastra-F20",
+            "text": "Barragens, agropecuária que aumenta sedimentos e esportes como o rafting estão entre as ameaças a esse pato.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_PATO_ICMBIO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P21",
+            "factKey": "serra-canastra-F21",
+            "text": "O plano de ação para o pato prevê concluir as indenizações pendentes da regularização fundiária do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_PATO_ICMBIO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P22",
+            "factKey": "serra-canastra-F22",
+            "text": "Uma proposta de recategorizar parte da área criaria um monumento natural dedicado a \"vales e águas\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_PATO_ICMBIO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P23",
+            "factKey": "serra-canastra-F23",
+            "text": "A área se estende por seis municípios mineiros: São Roque de Minas, Sacramento, Capitólio, Vargem Bonita, São João Batista do Glória e Delfinópolis.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P24",
+            "factKey": "serra-canastra-F24",
+            "text": "As cotas vão de cerca de 900 m, no sopé, a 1.496 m, segundo a UNESCO; outra fonte indica mínimas de 750 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL",
+              "CANASTRA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-canastra-geografo-P25",
+            "factKey": "serra-canastra-F25",
+            "text": "Fica entre 20°00′ e 20°30′ S e entre 46°15′ e 47°00′ O.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANASTRA_UNESCO_TL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque nacional criado em 1972 no sudoeste de Minas Gerais, sobre chapadões de quartzito separados por um grande vale; guarda a nascente histórica do Rio São Francisco e a Casca d'Anta, sua primeira cachoeira, fica no divisor com a bacia do Paraná e protege Cerrado, campos rupestres e veredas, com lobo-guará, tamanduá-bandeira e pato-mergulhão; está na lista indicativa da UNESCO desde 1998.",
+      "editorialNotes": [
+        "A área diverge conforme a fonte: cerca de 200 mil ha no decreto de 1972 (197.810 ha), cerca de 71.525 ha na proposta à UNESCO (1998) e uns 70 mil ha regularizados em 2016 (Wikipédia); as pistas dizem de onde vem cada número.",
+        "Outras divergências: Casca d'Anta com 186 m (Wikipédia) ou cerca de 200 m (UNESCO); nascente histórica a 1.480 m (UNESCO) ou 1.428 m (atlas da Codevasf); altitude mínima de 900 m (UNESCO) ou 750 m (Wikipédia). A UNESCO chama os chapadões de Canastra/Zagaia e Sete Voltas; o decreto cita o Chapadão da Babilônia.",
+        "A pista do tatu-canastra saiu porque praticamente entrega o nome; pela mesma razão as pistas evitam o queijo canastra e espécies com \"canastrensis\". Pauta ligada ao Rio São Francisco: evitar sorteá-los em sequência."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fonte única do rascunho (lista indicativa da UNESCO) aberta e completada com o decreto de 1972, a Wikipédia e o sumário do PAN do pato-mergulhão (ICMBio); C3 com distratores de outros biomas de parques da lista e C4 trocado de estado para ano de criação; pista do tatu-canastra retirada; 50 pistas conferidas"
+    }
+  },
+  "sources": {
+    "CANASTRA_DECRETO": {
+      "id": "CANASTRA_DECRETO",
+      "title": "Decreto nº 70.355, de 3 de abril de 1972 (cria o Parque Nacional da Serra da Canastra)",
+      "publisher": "Presidência da República (cópia na base FAOLEX, FAO)",
+      "url": "https://faolex.fao.org/docs/pdf/bra24802.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "CANASTRA_UNESCO_TL": {
+      "id": "CANASTRA_UNESCO_TL",
+      "title": "Serra da Canastra National Park — Lista Indicativa (ref. 1123, submetida em 16/09/1998)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/1123",
+      "checkedAt": "2026-11-15"
+    },
+    "CANASTRA_WIKI": {
+      "id": "CANASTRA_WIKI",
+      "title": "Serra da Canastra National Park",
+      "publisher": "Wikipedia (em inglês)",
+      "url": "https://en.wikipedia.org/wiki/Serra_da_Canastra_National_Park",
+      "checkedAt": "2026-11-15"
+    },
+    "CANASTRA_PATO_ICMBIO": {
+      "id": "CANASTRA_PATO_ICMBIO",
+      "title": "Sumário Executivo do Plano de Ação Nacional para a Conservação do Pato-Mergulhão",
+      "publisher": "ICMBio (plano do Ibama de 2006, revisão de 2012)",
+      "url": "https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/14965/sumario-pato-mergulhao.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "SF_CODEVASF_ATLAS": {
+      "id": "SF_CODEVASF_ATLAS",
+      "title": "O Rio de São Francisco (atlas, Potira Meirelles Hermuche)",
+      "publisher": "Codevasf, 2002 (cópia hospedada pela Agência Peixe Vivo)",
+      "url": "https://cdn.agenciapeixevivo.org.br/media/2019/06/Cartilha-sobre-o-Rio-S%C3%A3o-Francisco.pdf",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://faolex.fao.org/docs/pdf/bra24802.pdf",
+      "https://whc.unesco.org/en/tentativelists/1123",
+      "https://en.wikipedia.org/wiki/Serra_da_Canastra_National_Park",
+      "https://ava.icmbio.gov.br/pluginfile.php/4592/mod_data/content/14965/sumario-pato-mergulhao.pdf",
+      "https://cdn.agenciapeixevivo.org.br/media/2019/06/Cartilha-sobre-o-Rio-S%C3%A3o-Francisco.pdf"
+    ],
+    "alteracoes": [
+      "Fonte SUDESTE_CANASTRA (lista indicativa da UNESCO) aberta e renomeada CANASTRA_UNESCO_TL (URL sem a barra final, como aberta); acrescentadas CANASTRA_DECRETO (Decreto 70.355/1972), CANASTRA_WIKI, CANASTRA_PATO_ICMBIO e SF_CODEVASF_ATLAS",
+      "C2: rótulo passou a \"Grande rio com nascente histórica no parque\"; gabarito São Francisco conferido na UNESCO e na Wikipédia",
+      "C3: distratores \"Manguezal e restinga\", \"Floresta de araucárias\" e \"Pampa e mata ciliar\", alheios aos parques da lista, trocados por combinações ligadas a outros parques do C1 (Caatinga e matas secas; floresta ombrófila e manguezais; campos de altitude e araucárias); rótulo \"Vegetação predominante\"",
+      "C4: trocado de \"Estado\" (respondido de cara por várias pistas) para \"Ano de criação\", com 1972 conferido no decreto e 1998 (lista indicativa) como distrator",
+      "retiradas: tatu-canastra (entrega o nome, conforme a revisão anterior), São Roque de Minas como \"município próximo\" (passou a município do parque, conforme decreto e Wikipédia), \"lista indicativa não é Patrimônio Mundial\" e \"a preservação da água é importante\" (sem informação), pistas duplicadas sobre bacias e cachoeiras",
+      "novas pistas verificadas: clima (temperaturas, estação seca, transição climática), estrada pelo alto, mirantes, Garagem e Curral de Pedras, fauna da Wikipédia (aves, veado-campeiro, cachorro-vinagre, lontra, onça-parda, jaguatirica, perereca endêmica), pato-mergulhão (PAN do ICMBio), flora da UNESCO (esfagno, licopódio, arnica), 45 endêmicas, divisor Paraná/São Francisco com Rio Grande e Araguari, decreto e regularização fundiária, limites pela cota de 900 m, critérios e área da proposta à UNESCO, coordenadas",
+      "sinal ajustado para 2 aberturas e 2 decisivas por perfil; relatedFields distribuídos entre C1–C4",
+      "viajante: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)",
+      "geografo: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

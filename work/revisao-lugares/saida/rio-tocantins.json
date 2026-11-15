@@ -1,0 +1,1095 @@
+{
+ "case": {
+  "id": "lug2-rio-tocantins",
+  "placeId": "rio-tocantins",
+  "title": "Rio Tocantins",
+  "aliases": [
+   "Tocantins"
+  ],
+  "answerType": "rio brasileiro",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "norte",
+    "centro-oeste",
+    "nordeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Rio brasileiro",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Rio Tocantins"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Rio Araguaia"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Rio São Francisco"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Rio Paraguai"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Rio Paraná"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Rio Xingu"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Rio Tapajós"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Rio Madeira"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Rio Parnaíba"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Rio Tietê"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Rio Negro"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Rio Juruena"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Rio Tocantins",
+    "sources": [
+     "RTOC_BRITANNICA",
+     "RTOC_ECYCLE_IPAM"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Grande afluente que recebe",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Rio Araguaia"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Rio Xingu"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Rio Parnaíba"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Rio Madeira"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Rio Araguaia",
+    "sources": [
+     "RTOC_AGUAS_AMAZONICAS",
+     "RTOC_ECYCLE_IPAM",
+     "RTOC_BRITANNICA"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Usina hidrelétrica em seu curso",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Tucuruí"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Itaipu"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Sobradinho"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Furnas"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Tucuruí",
+    "sources": [
+     "RTOC_BRITANNICA",
+     "RTOC_ECYCLE_IPAM",
+     "RTOC_AGUAS_AMAZONICAS"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Estado onde o rio deságua",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Pará"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Maranhão"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Amapá"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Goiás"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Pará",
+    "sources": [
+     "RTOC_BRITANNICA",
+     "RTOC_AGUAS_AMAZONICAS",
+     "RTOC_ECYCLE_IPAM"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "rio-tocantins-viajante-P01",
+      "factKey": "rio-tocantins-F01",
+      "text": "Este destino é um grande rio brasileiro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_BRITANNICA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P02",
+      "factKey": "rio-tocantins-F02",
+      "text": "O rio nasce no Cerrado, no planalto central do Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_BRITANNICA",
+       "RTOC_ECYCLE_IPAM"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P03",
+      "factKey": "rio-tocantins-F03",
+      "text": "As nascentes ficam em Goiás, a cerca de mil metros de altitude.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_ECYCLE_IPAM",
+       "RTOC_BRITANNICA"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P04",
+      "factKey": "rio-tocantins-F04",
+      "text": "Ele corre para o norte, cruzando Goiás e depois um estado criado em 1989.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_BRITANNICA",
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P05",
+      "factKey": "rio-tocantins-F05",
+      "text": "O rio tem cerca de 2.700 km de extensão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_BRITANNICA"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P06",
+      "factKey": "rio-tocantins-F06",
+      "text": "Num trecho, ele faz a divisa entre um estado do Norte e o Maranhão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_BRITANNICA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P07",
+      "factKey": "rio-tocantins-F07",
+      "text": "Ele recebe as águas de um único afluente realmente grande.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P08",
+      "factKey": "rio-tocantins-F08",
+      "text": "O encontro com esse afluente acontece perto do Bico do Papagaio.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "RTOC_ECYCLE_IPAM"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P09",
+      "factKey": "rio-tocantins-F09",
+      "text": "O rio nasce no Cerrado e chega à Amazônia, ligando os dois biomas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_ECYCLE_IPAM"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P10",
+      "factKey": "rio-tocantins-F10",
+      "text": "Cachoeiras e corredeiras interrompem seu curso em muitos trechos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_BRITANNICA"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P11",
+      "factKey": "rio-tocantins-F11",
+      "text": "Uma hidrelétrica gigante, no Pará, barra o rio.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "RTOC_BRITANNICA",
+       "RTOC_ECYCLE_IPAM"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P12",
+      "factKey": "rio-tocantins-F12",
+      "text": "O lago dessa usina tem quase 3 mil km².",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "RTOC_ECYCLE_IPAM"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P13",
+      "factKey": "rio-tocantins-F13",
+      "text": "Duas eclusas ajudam os barcos a vencer um desnível de 72 metros nessa barragem.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "RTOC_DIARIO_ECLUSA"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P14",
+      "factKey": "rio-tocantins-F14",
+      "text": "A obra da eclusa levou cerca de três décadas, de 1984 a 2010.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "RTOC_AGENCIAINFRA"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P15",
+      "factKey": "rio-tocantins-F15",
+      "text": "A usina de Lajeado, no mesmo rio, atende a capital Palmas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P16",
+      "factKey": "rio-tocantins-F16",
+      "text": "Em Goiás, a usina de Serra da Mesa ajuda a abastecer Brasília.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P17",
+      "factKey": "rio-tocantins-F17",
+      "text": "Um trecho de pedras de cerca de 43 km atrapalha a navegação, sobretudo na seca.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_DIARIO_PEDRAL",
+       "RTOC_AGENCIAINFRA"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P18",
+      "factKey": "rio-tocantins-F18",
+      "text": "Barcaças levam grãos do agronegócio pelo rio até a região de Belém.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "RTOC_AGENCIAINFRA",
+       "RTOC_DIARIO_ECLUSA"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P19",
+      "factKey": "rio-tocantins-F19",
+      "text": "Imperatriz e Marabá aparecem nos planos de terminais de carga do rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_ANA_HIDROVIA"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P20",
+      "factKey": "rio-tocantins-F20",
+      "text": "Perto da foz, as marés do oceano influenciam os últimos 150 km do rio.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P21",
+      "factKey": "rio-tocantins-F21",
+      "text": "Na boca do rio, pesca-se muito o mapará, um bagre que se alimenta de plâncton.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P22",
+      "factKey": "rio-tocantins-F22",
+      "text": "O curimatá sobe os rios da bacia no começo das cheias para desovar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P23",
+      "factKey": "rio-tocantins-F23",
+      "text": "A bacia abastece cerca de 2,5 milhões de pessoas em 453 municípios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_ECYCLE_IPAM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P24",
+      "factKey": "rio-tocantins-F24",
+      "text": "O grande afluente que ele recebe é o Araguaia.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "RTOC_AGUAS_AMAZONICAS",
+       "RTOC_ECYCLE_IPAM"
+      ],
+      "clueType": "agua",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-viajante-P25",
+      "factKey": "rio-tocantins-F25",
+      "text": "Depois de passar pela usina de Tucuruí, o rio deságua no Pará, ao sul da Ilha de Marajó.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "RTOC_AGUAS_AMAZONICAS",
+       "RTOC_BRITANNICA"
+      ],
+      "clueType": "agua",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "rio-tocantins-geografo-P01",
+      "factKey": "rio-tocantins-F01",
+      "text": "O curso de água tem toda a sua bacia em território brasileiro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P02",
+      "factKey": "rio-tocantins-F02",
+      "text": "A bacia ultrapassa 750 mil km², mais que o dobro da área do Equador.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "agua",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P03",
+      "factKey": "rio-tocantins-F03",
+      "text": "Várias cabeceiras no planalto central goiano, logo ao sul de Brasília, formam o rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_BRITANNICA",
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P04",
+      "factKey": "rio-tocantins-F04",
+      "text": "O rio nasce a cerca de 1.000 m de altitude, no Cerrado, e desce até o domínio amazônico, como um corredor entre biomas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_ECYCLE_IPAM"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P05",
+      "factKey": "rio-tocantins-F05",
+      "text": "Depois de correr para o norte, o rio faz uma curva para oeste e serve de limite entre um estado do Norte e o Maranhão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_BRITANNICA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P06",
+      "factKey": "rio-tocantins-F06",
+      "text": "A junção com o único grande afluente, no extremo norte do estado homônimo, devolve o curso ao rumo norte.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "RTOC_BRITANNICA",
+       "RTOC_AGUAS_AMAZONICAS",
+       "RTOC_ECYCLE_IPAM"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P07",
+      "factKey": "rio-tocantins-F07",
+      "text": "O rio e seu grande afluente formam uma das maiores bacias do Brasil, que alcança seis unidades da federação.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "RTOC_DIARIO_PEDRAL",
+       "RTOC_ECYCLE_IPAM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P08",
+      "factKey": "rio-tocantins-F08",
+      "text": "Por desaguar no rio Pará, braço do delta amazônico, costuma ser visto como afluente do Amazonas, embora seja um sistema tecnicamente separado.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "RTOC_BRITANNICA",
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P09",
+      "factKey": "rio-tocantins-F09",
+      "text": "Os últimos 150 km formam uma grande baía de foz, fortemente influenciada pelas marés.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P10",
+      "factKey": "rio-tocantins-F10",
+      "text": "Corredeiras e quedas d’água interrompem frequentemente o curso e limitam a navegação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_BRITANNICA"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P11",
+      "factKey": "rio-tocantins-F11",
+      "text": "O Pedral do Lourenço, cerca de 43 km de rochas em Itupiranga, entre Marabá e Tucuruí, trava a navegação na estiagem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_DIARIO_PEDRAL"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P12",
+      "factKey": "rio-tocantins-F12",
+      "text": "O derrocamento do pedral, licenciado em 2025, busca viabilizar de 20 a 60 milhões de toneladas de carga por ano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_DIARIO_PEDRAL"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P13",
+      "factKey": "rio-tocantins-F13",
+      "text": "A grande usina do baixo curso é apontada como a primeira grande barragem num grande rio amazônico.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P14",
+      "factKey": "rio-tocantins-F14",
+      "text": "A transposição dessa barragem usa duas eclusas de 210 m que vencem 72 m de desnível pela margem esquerda.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "RTOC_DIARIO_ECLUSA"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P15",
+      "factKey": "rio-tocantins-F15",
+      "text": "Na década seguinte à obra, o reservatório multiplicou por dez a biomassa de peixes comerciais.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P16",
+      "factKey": "rio-tocantins-F16",
+      "text": "Depois da barragem, a pesca do mapará na baía de foz entrou em colapso.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P17",
+      "factKey": "rio-tocantins-F17",
+      "text": "Em lista do setor de transportes de 2010, Serra da Mesa, Cana Brava, Peixe Angical, Lajeado e Estreito aparecem entre as usinas do rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_ANA_HIDROVIA"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P18",
+      "factKey": "rio-tocantins-F18",
+      "text": "Projetos de eclusas previam vencer 38 m de desnível em Lajeado e 25 m em Estreito.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_ANA_HIDROVIA"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P19",
+      "factKey": "rio-tocantins-F19",
+      "text": "Mais de 20 barragens foram planejadas para o rio e seu grande afluente.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P20",
+      "factKey": "rio-tocantins-F20",
+      "text": "Serra da Mesa, em Goiás, abastece Brasília, e Lajeado atende Palmas, a mais de 300 km uma da outra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P21",
+      "factKey": "rio-tocantins-F21",
+      "text": "O trecho navegável apontado pelo IPAM vai de Lajeado até Belém.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "RTOC_ECYCLE_IPAM"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P22",
+      "factKey": "rio-tocantins-F22",
+      "text": "Imperatriz, no Maranhão, e Marabá, no Pará, aparecem nos planos de terminais de carga da hidrovia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_ANA_HIDROVIA"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P23",
+      "factKey": "rio-tocantins-F23",
+      "text": "A expansão de soja, pecuária, mineração e barragens segue transformando a bacia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P24",
+      "factKey": "rio-tocantins-F24",
+      "text": "O único grande afluente é o Araguaia, que se junta ao rio perto do Bico do Papagaio.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "RTOC_AGUAS_AMAZONICAS",
+       "RTOC_ECYCLE_IPAM"
+      ],
+      "clueType": "agua",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-tocantins-geografo-P25",
+      "factKey": "rio-tocantins-F25",
+      "text": "A usina de Tucuruí, no Pará, barra o curso antes da foz no rio Pará, ao sul de Marajó.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "RTOC_BRITANNICA",
+       "RTOC_AGUAS_AMAZONICAS"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Rio de cerca de 2.700 km que nasce de várias cabeceiras no planalto central de Goiás, corre para o norte, faz divisa entre o estado do Tocantins e o Maranhão, recebe o Araguaia perto do Bico do Papagaio, passa pela barragem de Tucuruí e deságua no rio Pará, ao sul da Ilha de Marajó; o caso trata do rio, não da capital Palmas.",
+   "editorialNotes": [
+    "A extensão varia: 2.699 km (Britannica) e cerca de 2,6 mil km (IPAM); a área da bacia também (mais de 800 mil km² na Britannica, mais de 750 mil km² no Águas Amazônicas, mais de 938 mil km² para a bacia Tocantins-Araguaia no IPAM).",
+    "As datas de Tucuruí divergem (inauguração em 1984 no IPAM; conclusão em 1988 no Águas Amazônicas); as pistas não citam o ano da usina, só o da eclusa (obra de 1984 a 2010, Agência iNFRA).",
+    "brazilRegions inclui nordeste porque o rio faz divisa entre Tocantins e Maranhão (Britannica); a lista de usinas vem de apresentação de 2010 com dados de 2003 e não indica a situação atual de cada uma."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Fontes do rascunho (ANA e DNIT) não vieram das buscas; substituídas por Britannica, Águas Amazônicas, eCycle/IPAM, apresentação da ANA de 2010, Diário do Pará e Agência iNFRA; brazilRegions corrigido (divisa com o Maranhão); C2–C4 com distratores revistos; pistas sem o nome do rio ou do estado homônimo."
+  }
+ },
+ "sources": {
+  "RTOC_BRITANNICA": {
+   "id": "RTOC_BRITANNICA",
+   "title": "Tocantins River",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/place/Tocantins-River",
+   "checkedAt": "2026-11-15"
+  },
+  "RTOC_ECYCLE_IPAM": {
+   "id": "RTOC_ECYCLE_IPAM",
+   "title": "O curso de um rio-cerrado que banha a Amazônia: rio Tocantins",
+   "publisher": "eCycle (conteúdo do IPAM Amazônia)",
+   "url": "https://www.ecycle.com.br/o-curso-de-um-rio-cerrado-que-banha-a-amazonia-rio-tocantins/",
+   "checkedAt": "2026-11-15"
+  },
+  "RTOC_AGUAS_AMAZONICAS": {
+   "id": "RTOC_AGUAS_AMAZONICAS",
+   "title": "Tocantins (Main river basins)",
+   "publisher": "Águas Amazônicas",
+   "url": "https://en.aguasamazonicas.org/basins/main-river-basins/tocantins",
+   "checkedAt": "2026-11-15"
+  },
+  "RTOC_ANA_HIDROVIA": {
+   "id": "RTOC_ANA_HIDROVIA",
+   "title": "Navegação fluvial — Ações do Ministério dos Transportes (apresentação ao Colegiado da ANA, 2010)",
+   "publisher": "Agência Nacional de Águas / Ministério dos Transportes",
+   "url": "https://www.ana.gov.br/arquivos/planejamento/planos/toaraguaia/Apresentacao_HidroviaTocantins.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "RTOC_DIARIO_PEDRAL": {
+   "id": "RTOC_DIARIO_PEDRAL",
+   "title": "Você sabe o que é o Pedral do Lourenço? Veja por que ele é tema de grandes obras",
+   "publisher": "Diário do Pará",
+   "url": "https://diariodopara.com.br/para/voce-sabe-o-que-e-o-pedral-do-lourenco-veja-por-que-ele-e-tema-de-grandes-obras/",
+   "checkedAt": "2026-11-15"
+  },
+  "RTOC_DIARIO_ECLUSA": {
+   "id": "RTOC_DIARIO_ECLUSA",
+   "title": "Pedral do Lourenço: DNIT recebe licença para operar eclusa de Tucuruí",
+   "publisher": "Diário do Pará",
+   "url": "https://diariodopara.com.br/para/pedral-do-lourenco-dnit-recebe-licenca-para-operar-eclusa-de-tucurui",
+   "checkedAt": "2026-11-15"
+  },
+  "RTOC_AGENCIAINFRA": {
+   "id": "RTOC_AGENCIAINFRA",
+   "title": "Depois de 30 anos de obra, eclusa de Tucuruí alaga e Pedral do Lourenço só começa em 2021",
+   "publisher": "Agência iNFRA",
+   "url": "https://agenciainfra.com/blog/depois-de-30-anos-de-obra-eclusa-de-tucurui-alaga-e-pedral-do-lourenco-so-comeca-em-2021/",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "alteracoes": [
+   "Fontes CENTRO_RTO_ANA, CENTRO_RTO_ANA_REG e CENTRO_RTO_DNIT (URLs do rascunho, não vindas de busca) substituídas por Britannica, Águas Amazônicas, eCycle (conteúdo do IPAM), apresentação do Ministério dos Transportes ao Colegiado da ANA (2010), duas matérias do Diário do Pará (2024 e 2025) e Agência iNFRA (2019).",
+   "geography.brazilRegions: adicionado nordeste (o rio faz divisa entre Tocantins e Maranhão, segundo a Britannica).",
+   "C2: distratores São Francisco e Juruá trocados por Xingu e Madeira. C4: rótulo “Estado próximo à sua foz” trocado por “Estado onde o rio deságua”; distratores Mato Grosso do Sul e Minas Gerais trocados por Maranhão e Amapá; Goiás mantido; gabarito Pará mantido. C3 mantido (Tucuruí).",
+   "viajante: P01–P25 reescritas ou trocadas — lista de usinas uma a uma (Estreito, Peixe Angical), gestão de águas genérica (irrigação, saneamento, órgãos) e praias sem fonte saíram; entraram altitude da nascente, estado de 1989, divisa com o Maranhão, afluente único, Bico do Papagaio, corredeiras, lago de Tucuruí, eclusas de 72 m e obra de 1984–2010, Lajeado/Palmas, Serra da Mesa/Brasília, Pedral do Lourenço, barcaças de grãos, marés na foz, mapará, curimatá, abastecimento da bacia.",
+   "geografo: P01–P25 reescritas ou trocadas (bacia nacional, cabeceiras goianas, corredor Cerrado–Amazônia, curva e divisa, foz no rio Pará e debate sobre afluente do Amazonas, baía de maré, Pedral do Lourenço e derrocamento licenciado em 2025, eclusas, efeitos do reservatório e colapso do mapará, usinas e eclusas projetadas, terminais de Imperatriz e Marabá, pressões na bacia).",
+   "Força das pistas: viajante P01–P02 abertura, P24–P25 decisivas; geografo P01–P02 abertura, P24–P25 decisivas."
+  ],
+  "fontesAbertas": [
+   "https://www.britannica.com/place/Tocantins-River",
+   "https://www.ecycle.com.br/o-curso-de-um-rio-cerrado-que-banha-a-amazonia-rio-tocantins/",
+   "https://en.aguasamazonicas.org/basins/main-river-basins/tocantins",
+   "https://www.ana.gov.br/arquivos/planejamento/planos/toaraguaia/Apresentacao_HidroviaTocantins.pdf",
+   "https://diariodopara.com.br/para/voce-sabe-o-que-e-o-pedral-do-lourenco-veja-por-que-ele-e-tema-de-grandes-obras/",
+   "https://diariodopara.com.br/para/pedral-do-lourenco-dnit-recebe-licenca-para-operar-eclusa-de-tucurui",
+   "https://agenciainfra.com/blog/depois-de-30-anos-de-obra-eclusa-de-tucurui-alaga-e-pedral-do-lourenco-so-comeca-em-2021/"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

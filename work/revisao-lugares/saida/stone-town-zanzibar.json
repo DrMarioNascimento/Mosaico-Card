@@ -1,0 +1,1050 @@
+{
+  "case": {
+    "id": "lug2-stone-town-zanzibar",
+    "placeId": "stone-town-zanzibar",
+    "title": "Stone Town de Zanzibar",
+    "aliases": [
+      "Stone Town de Zanzibar",
+      "Stone Town",
+      "Zanzibar"
+    ],
+    "answerType": "conjunto urbano histórico",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "TZ"
+      ],
+      "continents": [
+        "africa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade histórica costeira africana",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Stone Town de Zanzibar"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Cidade Antiga de Lamu"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Ilha de Moçambique"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Ruínas de Kilwa Kisiwani e Songo Mnara"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Forte Jesus de Mombaça"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Ilha de Gorée"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Ilha de Saint-Louis"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Cidade Histórica de Grand-Bassam"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Medina de Essaouira"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Medina de Túnis"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Medina de Tetuão"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Cidade Velha de Ribeira Grande"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Stone Town de Zanzibar",
+        "sources": [
+          "ZANZIBAR_RMM2019",
+          "ZANZIBAR_RMM2011"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Ilha onde fica",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Unguja"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Pemba"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Máfia"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Grande Comore"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Unguja",
+        "sources": [
+          "ZANZIBAR_RMM2019"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Materiais principais das construções históricas",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Pedra de coral e madeira de mangue"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Adobe e troncos de palmeira"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Granito e madeira de pinho"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Tijolo cozido e telha cerâmica"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Pedra de coral e madeira de mangue",
+        "sources": [
+          "ZANZIBAR_RMM2019",
+          "ZANZIBAR_RMM2011"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Construção erguida no local do último mercado de pessoas escravizadas",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Catedral anglicana de Cristo"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Forte Antigo"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Casa das Maravilhas"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Banhos de Hamamni"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Catedral anglicana de Cristo",
+        "sources": [
+          "ZANZIBAR_RMM2019"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "stone-town-zanzibar-viajante-P01",
+            "factKey": "stone-town-zanzibar-F01",
+            "text": "Este destino é um centro histórico à beira-mar, numa ilha da África.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P02",
+            "factKey": "stone-town-zanzibar-F02",
+            "text": "A maioria dos grandes prédios do centro histórico é dos séculos XVIII e XIX.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "historia",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P03",
+            "factKey": "stone-town-zanzibar-F03",
+            "text": "A cidade antiga ocupa uma ponta de terra que avança sobre o oceano Índico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P04",
+            "factKey": "stone-town-zanzibar-F04",
+            "text": "Ela é considerada um exemplo de cidade comercial suaíli da costa leste africana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2011",
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P05",
+            "factKey": "stone-town-zanzibar-F05",
+            "text": "Nas construções se misturam influências suaíli, indianas, árabes e europeias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P06",
+            "factKey": "stone-town-zanzibar-F06",
+            "text": "As paredes são de pedra de coral assentada em argamassa grossa de cal.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019",
+              "ZANZIBAR_RMM2011"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P07",
+            "factKey": "stone-town-zanzibar-F07",
+            "text": "Além da pedra, a madeira de mangue é o outro material principal das casas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P08",
+            "factKey": "stone-town-zanzibar-F08",
+            "text": "Portas duplas de madeira, ricamente entalhadas, são uma marca da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019",
+              "ZANZIBAR_RMM2011"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P09",
+            "factKey": "stone-town-zanzibar-F09",
+            "text": "Varandas largas e bancos de alvenaria colados às fachadas, as barazas, fazem parte das ruas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P10",
+            "factKey": "stone-town-zanzibar-F10",
+            "text": "Há antigos banhos de estilo persa na cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P11",
+            "factKey": "stone-town-zanzibar-F11",
+            "text": "Um forte antigo foi erguido no lugar de uma igreja portuguesa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P12",
+            "factKey": "stone-town-zanzibar-F12",
+            "text": "Um palácio cerimonial construído para um sultão em 1883 ficou conhecido como Casa das Maravilhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P13",
+            "factKey": "stone-town-zanzibar-F13",
+            "text": "Parte da varanda desse palácio desabou em 2012, e ele foi fechado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P14",
+            "factKey": "stone-town-zanzibar-F14",
+            "text": "Em 2024, a UNESCO pediu que continuem os projetos para recuperar esse palácio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_46COM"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P15",
+            "factKey": "stone-town-zanzibar-F15",
+            "text": "A cidade foi um dos principais portos de comércio de pessoas escravizadas da África Oriental.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2011"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P16",
+            "factKey": "stone-town-zanzibar-F16",
+            "text": "Uma catedral anglicana foi construída onde funcionava o último mercado de pessoas escravizadas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P17",
+            "factKey": "stone-town-zanzibar-F17",
+            "text": "Essa catedral lembra o trabalho de David Livingstone contra o tráfico de escravizados.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P18",
+            "factKey": "stone-town-zanzibar-F18",
+            "text": "A casa de Tippu Tip, famoso traficante de pessoas escravizadas, também fica na cidade antiga.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P19",
+            "factKey": "stone-town-zanzibar-F19",
+            "text": "O principal porto da ilha fica dentro da área histórica.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P20",
+            "factKey": "stone-town-zanzibar-F20",
+            "text": "O movimento de passageiros no porto não para de crescer e congestiona o trânsito.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P21",
+            "factKey": "stone-town-zanzibar-F21",
+            "text": "Um hotel instalado num casarão histórico da beira-mar teve de adotar medidas para reduzir seu impacto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2011",
+              "ZANZIBAR_46COM"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P22",
+            "factKey": "stone-town-zanzibar-F22",
+            "text": "Um projeto de centro comercial dentro da área histórica foi suspenso até nova avaliação de impacto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_46COM",
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P23",
+            "factKey": "stone-town-zanzibar-F23",
+            "text": "A área protegida tem 96 hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2011",
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P24",
+            "factKey": "stone-town-zanzibar-F24",
+            "text": "A cidade histórica fica no lado oeste da ilha de Unguja, na Tanzânia.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-viajante-P25",
+            "factKey": "stone-town-zanzibar-F25",
+            "text": "É Patrimônio Mundial desde 2000, também pelo valor simbólico no fim da escravidão.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2011"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "stone-town-zanzibar-geografo-P01",
+            "factKey": "stone-town-zanzibar-F01",
+            "text": "O núcleo histórico ocupa um promontório costeiro e reúne funções residenciais, comerciais e portuárias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P02",
+            "factKey": "stone-town-zanzibar-F02",
+            "text": "É classificado como exemplo excepcional de cidade mercantil suaíli da costa leste africana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019",
+              "ZANZIBAR_RMM2011"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P03",
+            "factKey": "stone-town-zanzibar-F03",
+            "text": "Os prédios principais, dos séculos XVIII e XIX, expressam a fusão de tradições suaíli, indianas, árabes e europeias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P04",
+            "factKey": "stone-town-zanzibar-F04",
+            "text": "A alvenaria tradicional usa pedra de coral em argamassa espessa de cal, terra e areia, com reboco e caiação de cal.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2011"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P05",
+            "factKey": "stone-town-zanzibar-F05",
+            "text": "A madeira de mangue, usada também em varas (boriti), completa a técnica construtiva das casas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P06",
+            "factKey": "stone-town-zanzibar-F06",
+            "text": "Portas duplas entalhadas, varandas largas e barazas (bancos de alvenaria) são atributos da paisagem urbana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P07",
+            "factKey": "stone-town-zanzibar-F07",
+            "text": "A deterioração do material, a superlotação dos imóveis e andares acrescentados sem licença pressionam o conjunto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2011"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P08",
+            "factKey": "stone-town-zanzibar-F08",
+            "text": "O plano de conservação classifica 26 monumentos nacionais como Grau I e 233 edifícios como Grau II.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P09",
+            "factKey": "stone-town-zanzibar-F09",
+            "text": "O bem tem 96 ha e uma zona de amortecimento de cerca de 85 ha, entre o canal (Creek) e a avenida Michenzani, a leste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P10",
+            "factKey": "stone-town-zanzibar-F10",
+            "text": "Na fronteira com o bairro de Ng’ambo ficam espaços verdes, e o Comitê pede para conter a perda de áreas públicas abertas e o fechamento de pátios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019",
+              "ZANZIBAR_46COM"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P11",
+            "factKey": "stone-town-zanzibar-F11",
+            "text": "O porto de Malindi, principal da ilha, fica dentro dos limites do bem, e o aumento de passageiros congestiona o tráfego.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P12",
+            "factKey": "stone-town-zanzibar-F12",
+            "text": "A UNESCO pede que a reurbanização do porto seja pensada a partir das comunidades locais e do patrimônio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_46COM"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P13",
+            "factKey": "stone-town-zanzibar-F13",
+            "text": "O critério (vi) da inscrição reconhece a importância simbólica do lugar na supressão da escravidão.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2011",
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P14",
+            "factKey": "stone-town-zanzibar-F14",
+            "text": "A cidade é apontada como o lugar onde o comércio de pessoas escravizadas foi finalmente encerrado.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P15",
+            "factKey": "stone-town-zanzibar-F15",
+            "text": "A catedral anglicana erguida sobre o último mercado de escravizados homenageia David Livingstone.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P16",
+            "factKey": "stone-town-zanzibar-F16",
+            "text": "A residência de Tippu Tip, notório traficante, integra o patrimônio ligado a esse passado.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P17",
+            "factKey": "stone-town-zanzibar-F17",
+            "text": "O forte antigo foi construído sobre o local de uma igreja portuguesa anterior.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P18",
+            "factKey": "stone-town-zanzibar-F18",
+            "text": "Banhos de tradição persa, como os de Hamamni, compõem o patrimônio construído.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P19",
+            "factKey": "stone-town-zanzibar-F19",
+            "text": "As avaliações de impacto patrimonial passaram a ser exigência do plano de gestão antes de qualquer projeto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_46COM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P20",
+            "factKey": "stone-town-zanzibar-F20",
+            "text": "Um shopping previsto num cruzamento de avenidas dentro do bem foi suspenso à espera de nova avaliação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_46COM",
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P21",
+            "factKey": "stone-town-zanzibar-F21",
+            "text": "Um casarão de Grau I na orla ganhou um anexo hoteleiro que afetou espaços públicos e exigiu medidas de mitigação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019",
+              "ZANZIBAR_46COM"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P22",
+            "factKey": "stone-town-zanzibar-F22",
+            "text": "A gestão cabe a uma autoridade de conservação e desenvolvimento do centro histórico, com poderes reforçados por lei em 2010.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2011"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P23",
+            "factKey": "stone-town-zanzibar-F23",
+            "text": "A legislação de proteção de monumentos remonta a 1948, ainda no protetorado britânico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2011"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P24",
+            "factKey": "stone-town-zanzibar-F24",
+            "text": "A Casa das Maravilhas, palácio cerimonial do sultão Barghash (1883), fechou após o desabamento parcial da varanda em 2012.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "stone-town-zanzibar-geografo-P25",
+            "factKey": "stone-town-zanzibar-F25",
+            "text": "O promontório fica no lado oeste da ilha de Unguja, na Tanzânia, e o conjunto é Patrimônio Mundial desde 2000.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ZANZIBAR_RMM2019",
+              "ZANZIBAR_RMM2011"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Centro histórico suaíli num promontório do lado oeste da ilha de Unguja, na Tanzânia, de casas de pedra de coral e madeira de mangue, com a Casa das Maravilhas e a catedral anglicana erguida sobre o último mercado de pessoas escravizadas.",
+      "editorialNotes": [
+        "O mercado de pessoas escravizadas e Tippu Tip aparecem como contexto histórico (critério vi da inscrição), não como atração.",
+        "A criação da autoridade de conservação (STCDA) tem datas divergentes nos relatórios da UNESCO (1985 no de 2019; 1995 no de 2011); as pistas evitam o ano. A população citada no relatório de 2011 (pouco mais de 280 mil) não foi usada por não ficar claro se é só do centro histórico.",
+        "A carta delimita o núcleo histórico de 96 ha, não o arquipélago nem a cidade inteira; a situação da Casa das Maravilhas deve ser reconferida (o relatório de 2019 registra o fechamento após 2012)."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos nos relatórios de missão de monitoramento da UNESCO (2011 e 2019) e na decisão 46 COM 7B.24 (2024); C1 e C4 refeitos e as 50 pistas reescritas sem o nome da cidade."
+    }
+  },
+  "sources": {
+    "ZANZIBAR_RMM2019": {
+      "id": "ZANZIBAR_RMM2019",
+      "checkedAt": "2026-11-15",
+      "title": "Report on the Joint UNESCO World Heritage Centre/ICOMOS/ICCROM Reactive Monitoring Mission to Stone Town of Zanzibar World Heritage Property, Tanzania (missão de 5 a 7 de dezembro de 2019)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/187420"
+    },
+    "ZANZIBAR_RMM2011": {
+      "id": "ZANZIBAR_RMM2011",
+      "checkedAt": "2026-11-15",
+      "title": "Report on the Reactive Monitoring Mission to Stone Town of Zanzibar, United Republic of Tanzania (missão de 23 a 31 de janeiro de 2011)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/106958"
+    },
+    "ZANZIBAR_46COM": {
+      "id": "ZANZIBAR_46COM",
+      "checkedAt": "2026-11-15",
+      "title": "Decision 46 COM 7B.24 — Stone Town of Zanzibar (United Republic of Tanzania)",
+      "publisher": "UNESCO World Heritage Committee",
+      "url": "https://whc.unesco.org/en/decisions/8550"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/document/187420",
+      "https://whc.unesco.org/document/106958",
+      "https://whc.unesco.org/en/decisions/8550"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho (whc.unesco.org/en/list/173 e Urban Heritage Atlas) não abertas; substituídas pelos relatórios de missão da UNESCO (2011 e 2019) e pela decisão 46 COM 7B.24.",
+      "C1: “Ruínas de Kilwa Kisiwani” e “Ruínas de Songo Mnara” unidas no título do lote (Ruínas de Kilwa Kisiwani e Songo Mnara); trocados Marrakech, Fez, Djenné (não costeiras) e Évora (fora da África) por Forte Jesus de Mombaça, Saint-Louis, Essaouira, Túnis, Tetuão e Ribeira Grande.",
+      "C2: Madagascar e Lamu trocados por Máfia e Grande Comore; C3 com distratores ajustados; C4 “País” trocado por “Construção erguida no local do último mercado de pessoas escravizadas” (catedral anglicana).",
+      "Viajante e Geógrafo: 50 pistas reescritas a partir das fontes (promontório em Unguja, pedra de coral e mangue, portas entalhadas, barazas, Casa das Maravilhas 1883/2012, catedral e Livingstone, porto de Malindi, graus de proteção, pressões urbanas); o alias “Zanzibar” não aparece nas pistas."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

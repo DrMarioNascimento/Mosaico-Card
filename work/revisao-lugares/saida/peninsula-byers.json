@@ -1,0 +1,1068 @@
+{
+ "case": {
+  "id": "lug3-peninsula-byers",
+  "placeId": "peninsula-byers",
+  "title": "Península Byers",
+  "aliases": [
+   "Byers Peninsula",
+   "Byers"
+  ],
+  "answerType": "península antártica",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Península antártica",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Península Byers"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Península Fildes"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Península Keller"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Península Hurd"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Península Barton"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Península Potter"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Península Tabarin"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Península Trinity"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Península Arrowsmith"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Península Coppermine"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Península Arctowski"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Península Kiev"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Península Byers",
+    "sources": [
+     "BYERS_ASPA126",
+     "BYERS_KBA"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Ilha onde fica a península",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Ilha Livingston"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Ilha Rei George"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Ilha Robert"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Ilha Elefante"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Ilha Livingston",
+    "sources": [
+     "BYERS_ASPA126",
+     "BYERS_ACAP",
+     "BYERS_KBA"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Ocupantes históricos cujos vestígios mais marcam o local",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Caçadores de focas do início do século XIX"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Baleeiros noruegueses do século XX"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Exploradores da era heroica (1897–1922)"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Militares da Operação Tabarin (1943–1945)"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Caçadores de focas do início do século XIX",
+    "sources": [
+     "BYERS_ASPA126",
+     "BYERS_KBA"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Mamífero marinho que se reproduz em grande número nas praias do sul",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Elefante-marinho-do-sul"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Foca-de-weddell"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Foca-leopardo"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Foca-caranguejeira"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Elefante-marinho-do-sul",
+    "sources": [
+     "BYERS_ASPA126",
+     "BYERS_KBA"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "peninsula-byers-viajante-P01",
+      "factKey": "peninsula-byers-F01",
+      "text": "Este destino é uma área baixa e sem gelo na ponta de uma ilha antártica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_ACAP"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P02",
+      "factKey": "peninsula-byers-F02",
+      "text": "O relevo é suave, com morros que não passam de 265 m.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_KBA"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P03",
+      "factKey": "peninsula-byers-F03",
+      "text": "É a maior área sem gelo do seu arquipélago.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P04",
+      "factKey": "peninsula-byers-F04",
+      "text": "A área protegida tem cerca de 85 km².",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P05",
+      "factKey": "peninsula-byers-F05",
+      "text": "A ilha onde fica é a segunda maior do arquipélago das Shetland do Sul.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P06",
+      "factKey": "peninsula-byers-F06",
+      "text": "Há mais de 60 lagos e muitas poças, que congelam até o fundo no inverno.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P07",
+      "factKey": "peninsula-byers-F07",
+      "text": "O maior lago tem uns 587 m de uma margem à outra e até 9 m de fundura.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P08",
+      "factKey": "peninsula-byers-F08",
+      "text": "Praias antigas ficaram a até 54 m de altitude.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P09",
+      "factKey": "peninsula-byers-F09",
+      "text": "As praias do sul se estendem por uns 12 km.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P10",
+      "factKey": "peninsula-byers-F10",
+      "text": "Nas rochas há fósseis de conchas marinhas e de plantas antigas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_KBA"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P11",
+      "factKey": "peninsula-byers-F11",
+      "text": "Ossos de baleia antigos, presos nas praias elevadas, ajudam a datar o terreno.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_KBA"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P12",
+      "factKey": "peninsula-byers-F12",
+      "text": "Chove bastante no verão: são uns 800 mm de precipitação por ano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_KBA"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P13",
+      "factKey": "peninsula-byers-F13",
+      "text": "Ventos de tempestade podem passar de 140 km/h.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P14",
+      "factKey": "peninsula-byers-F14",
+      "text": "Musgos, líquens e as duas espécies de plantas com flor nativas cobrem partes do chão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_KBA"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P15",
+      "factKey": "peninsula-byers-F15",
+      "text": "Ali vive o único inseto alado nativo da Antártida, um mosquitinho.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P16",
+      "factKey": "peninsula-byers-F16",
+      "text": "Pinguins-gentoo e de-barbicha formam colônias no litoral.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_KBA"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P17",
+      "factKey": "peninsula-byers-F17",
+      "text": "Petréis-gigantes fazem ninho ao longo de uns 17 km de costa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ACAP"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P18",
+      "factKey": "peninsula-byers-F18",
+      "text": "Elefantes-marinhos se juntam aos milhares nas praias do sul.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_KBA"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P19",
+      "factKey": "peninsula-byers-F19",
+      "text": "Trinta-réis-antárticos e gaivotas somam quase 2 mil casais cada um.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_KBA"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P20",
+      "factKey": "peninsula-byers-F20",
+      "text": "Entre 1820 e 1824, caçadores de focas quase acabaram com as focas da região.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P21",
+      "factKey": "peninsula-byers-F21",
+      "text": "Até 200 desses caçadores podem ter vivido em terra durante o verão.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P22",
+      "factKey": "peninsula-byers-F22",
+      "text": "Ali está a maior concentração de abrigos de caçadores de focas do século XIX de toda a Antártida.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P23",
+      "factKey": "peninsula-byers-F23",
+      "text": "Pedaços de madeira de antigos navios aparecem pelas praias.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P24",
+      "factKey": "peninsula-byers-F24",
+      "text": "Uma caverna com vestígios de caçadores de focas, achada por acaso em 1995–96, deu início a pesquisas arqueológicas com participação brasileira.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BYERS_UFMG"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-viajante-P25",
+      "factKey": "peninsula-byers-F25",
+      "text": "Só se entra com permissão, e um acampamento internacional de pesquisa fica nas praias do sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_KBA"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "peninsula-byers-geografo-P01",
+      "factKey": "peninsula-byers-F01",
+      "text": "Promontório baixo e desglaciado no extremo oeste de uma ilha das Shetland do Sul, entre o mar e uma calota de gelo.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_KBA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P02",
+      "factKey": "peninsula-byers-F02",
+      "text": "O relevo ondulado tem colinas de 80 a 265 m e plataformas interiores de até 105 m.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P03",
+      "factKey": "peninsula-byers-F26",
+      "text": "Necks vulcânicos, como um cone de 188 m, se erguem acima das plataformas interiores.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P04",
+      "factKey": "peninsula-byers-F03",
+      "text": "É a maior área livre de gelo das Shetland do Sul, com ~9 km de oeste a leste e ~18 km de noroeste a sudeste.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P05",
+      "factKey": "peninsula-byers-F04",
+      "text": "A área protegida soma 84,7 km² e inclui, além do promontório, parte da calota de gelo e ilhotas próximas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_KBA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P06",
+      "factKey": "peninsula-byers-F27",
+      "text": "Protegida desde 1966, virou sítio de interesse científico em 1975, teve os limites ampliados em 1991 e é hoje a ASPA nº 126.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_ACAP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P07",
+      "factKey": "peninsula-byers-F08",
+      "text": "Praias elevadas de 3 a 54 m de altitude registram antigos níveis do mar, mais altos que o atual.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P08",
+      "factKey": "peninsula-byers-F11",
+      "text": "Ossos subfósseis de baleia nessas praias, com cerca de 2.000 a 2.400 anos, servem para datar os antigos níveis do mar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P09",
+      "factKey": "peninsula-byers-F10",
+      "text": "O embasamento, do Jurássico Superior ao Cretáceo Inferior, reúne rochas sedimentares marinhas, vulcânicas e vulcanoclásticas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P10",
+      "factKey": "peninsula-byers-F28",
+      "text": "Moluscos marinhos e floras fósseis desses estratos são chave para estudar as ligações com outros continentes do sul entre o Jurássico e o Cretáceo Inferior.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P11",
+      "factKey": "peninsula-byers-F29",
+      "text": "O permafrost fica sob uma camada ativa de 30 a 70 cm.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P12",
+      "factKey": "peninsula-byers-F06",
+      "text": "Mais de 60 lagos e numerosas poças de água doce congelam até o fundo no inverno; perto da costa há lagoas salobras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P13",
+      "factKey": "peninsula-byers-F07",
+      "text": "O maior lago mede ~587 m e tem 9 m de profundidade máxima; os maiores riachos chegam a 4,5 km.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P14",
+      "factKey": "peninsula-byers-F12",
+      "text": "Pela série da base espanhola vizinha, a média anual fica abaixo de –2,8 °C, com ~800 mm de precipitação, boa parte como chuva de verão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_KBA"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P15",
+      "factKey": "peninsula-byers-F13",
+      "text": "Ventos médios de 24 km/h e tempestades acima de 140 km/h marcam o clima da Antártida marítima.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_ACAP"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P16",
+      "factKey": "peninsula-byers-F14",
+      "text": "Ao menos 56 líquens, 29 musgos, 5 hepáticas e 2 plantas com flor fazem dela uma das floras terrestres mais diversas da Antártida marítima.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_KBA"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P17",
+      "factKey": "peninsula-byers-F15",
+      "text": "A diversidade de artrópodes é a maior já documentada num sítio antártico, com o único inseto alado nativo e um mosquito sem asas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P18",
+      "factKey": "peninsula-byers-F16",
+      "text": "Os gentoos somam cerca de 5 mil casais em várias colônias; os barbichas caíram de ~5.300 casais em 1965 para ~3.000 em 1987.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P19",
+      "factKey": "peninsula-byers-F17",
+      "text": "Os 238 ninhos de petrel-gigante-do-sul contados em 2008/09 pouco diferem dos 216 casais estimados em 1965.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BYERS_ACAP"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P20",
+      "factKey": "peninsula-byers-F18",
+      "text": "As praias do sul reúnem de 4.700 a 6.300 elefantes-marinhos (2008–09), uma das maiores concentrações das Shetland do Sul.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_KBA"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P21",
+      "factKey": "peninsula-byers-F31",
+      "text": "Focas-de-weddell, caranguejeiras e leopardo aparecem só de vez em quando, sem se reproduzir ali.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BYERS_KBA"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P22",
+      "factKey": "peninsula-byers-F20",
+      "text": "A caça intensiva entre 1820 e 1824 quase eliminou os lobos-marinhos e elefantes-marinhos locais.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "BYERS_ASPA126"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P23",
+      "factKey": "peninsula-byers-F22",
+      "text": "Reúne a maior concentração de refúgios e relíquias de caçadores de focas do início do século XIX em toda a Antártida.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_KBA"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P24",
+      "factKey": "peninsula-byers-F24",
+      "text": "A arqueologia ali começou em 1995–96, quando geólogos argentinos acharam uma caverna com estruturas de caçadores de focas; hoje há cooperação entre Brasil, Argentina e Chile.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BYERS_UFMG"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "peninsula-byers-geografo-P25",
+      "factKey": "peninsula-byers-F32",
+      "text": "As estações mais próximas, a espanhola Juan Carlos I e a búlgara St. Kliment Ohridski, ficam numa península uns 30 km a leste.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BYERS_ASPA126",
+       "BYERS_KBA"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Promontório livre de gelo no extremo oeste da Ilha Livingston — a maior área sem gelo das Shetland do Sul —, protegido como ASPA nº 126, com mais de 60 lagos, praias elevadas, grandes concentrações de elefantes-marinhos e a maior concentração antártica de abrigos de caçadores de focas do início do século XIX.",
+   "editorialNotes": [
+    "Área: 84,7 km² no plano de manejo de 2016; 88,71 km² na delimitação da Área-Chave de Biodiversidade.",
+    "O clima vem da série da base espanhola Juan Carlos I (Península Hurd); a ficha da KBA diz apenas \"média anual abaixo de 0 °C\".",
+    "As escavações de 2014 citadas pela UFMG foram em Punta Elefante; a pista arqueológica se refere só à caverna de Byers que deu início às pesquisas."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "criado e verificado nas fontes"
+  }
+ },
+ "sources": {
+  "BYERS_ASPA126": {
+   "id": "BYERS_ASPA126",
+   "title": "Management Plan for Antarctic Specially Protected Area No. 126 — Byers Peninsula, Livingston Island (Measure 4, 2016)",
+   "publisher": "Ministry of the Environment, Japan (texto adotado pela Reunião Consultiva do Tratado da Antártida)",
+   "url": "https://www.env.go.jp/nature/nankyoku/kankyohogo/database/jyouyaku/aspa/aspa_pdf_en/126.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "BYERS_ACAP": {
+   "id": "BYERS_ACAP",
+   "title": "ACAP Breeding Site No. 85. The Southern Giant Petrels of Byers Peninsula, Livingston Island, South Shetland Islands",
+   "publisher": "Agreement on the Conservation of Albatrosses and Petrels (ACAP)",
+   "url": "https://acap.aq/latest-news/acap-breeding-site-no-85-the-southern-giant-petrels-of-byers-peninsula-livingston-island-south-shetland-islands",
+   "checkedAt": "2026-11-15"
+  },
+  "BYERS_KBA": {
+   "id": "BYERS_KBA",
+   "title": "Key Biodiversity Areas factsheet: Byers Peninsula, Livingston Island",
+   "publisher": "Key Biodiversity Areas Partnership",
+   "url": "https://www.keybiodiversityareas.org/site/factsheet/29392",
+   "checkedAt": "2026-11-15"
+  },
+  "BYERS_UFMG": {
+   "id": "BYERS_UFMG",
+   "title": "Equipe da UFMG retorna à Antártica para investigar seu sítio arqueológico mais bem conservado (9 jan. 2014)",
+   "publisher": "Universidade Federal de Minas Gerais",
+   "url": "https://www.ufmg.br/online/arquivos/031554.shtml",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.env.go.jp/nature/nankyoku/kankyohogo/database/jyouyaku/aspa/aspa_pdf_en/126.pdf",
+   "https://acap.aq/latest-news/acap-breeding-site-no-85-the-southern-giant-petrels-of-byers-peninsula-livingston-island-south-shetland-islands",
+   "https://www.keybiodiversityareas.org/site/factsheet/29392",
+   "https://www.ufmg.br/online/arquivos/031554.shtml"
+  ],
+  "alteracoes": [
+   "criado do zero"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

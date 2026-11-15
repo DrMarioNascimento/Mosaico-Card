@@ -1,0 +1,1061 @@
+{
+ "case": {
+  "id": "lug2-rio-araguaia",
+  "placeId": "rio-araguaia",
+  "title": "Rio Araguaia",
+  "aliases": [
+   "Araguaia"
+  ],
+  "answerType": "rio brasileiro",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "norte",
+    "centro-oeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Rio brasileiro",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Rio Araguaia"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Rio Tocantins"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Rio São Francisco"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Rio Paraguai"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Rio Paraná"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Rio Xingu"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Rio Tapajós"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Rio Madeira"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Rio Parnaíba"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Rio Tietê"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Rio Negro"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Rio Juruena"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Rio Araguaia",
+    "sources": [
+     "RARAGUAIA_WIKI"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Rio em que deságua",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Rio Tocantins"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Rio Amazonas"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Rio Xingu"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Rio Paraná"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Rio Tocantins",
+    "sources": [
+     "RARAGUAIA_WIKI",
+     "RARAGUAIA_ECYCLE_IPAM"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Afluente principal",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Rio das Mortes"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Rio das Almas"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Rio Teles Pires"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Rio Paranaíba"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Rio das Mortes",
+    "sources": [
+     "RARAGUAIA_WIKI"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Estados entre os quais o rio forma divisas",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Goiás, Mato Grosso, Tocantins e Pará"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Mato Grosso, Rondônia, Amazonas e Pará"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Minas Gerais, Bahia, Pernambuco e Alagoas"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Goiás, Minas Gerais, Mato Grosso do Sul e São Paulo"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Goiás, Mato Grosso, Tocantins e Pará",
+    "sources": [
+     "RARAGUAIA_WIKI"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "rio-araguaia-viajante-P01",
+      "factKey": "rio-araguaia-F01",
+      "text": "Este lugar é um grande rio brasileiro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P02",
+      "factKey": "rio-araguaia-F02",
+      "text": "Ele corre do Brasil central rumo ao norte.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P03",
+      "factKey": "rio-araguaia-F03",
+      "text": "O rio nasce perto da divisa entre Goiás e Mato Grosso.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI",
+       "RARAGUAIA_INFOESCOLA"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P04",
+      "factKey": "rio-araguaia-F04",
+      "text": "A nascente fica na Serra do Caiapó, perto do Parque Nacional das Emas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_INFOESCOLA"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P05",
+      "factKey": "rio-araguaia-F05",
+      "text": "O rio tem mais de 2.600 km de extensão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P06",
+      "factKey": "rio-araguaia-F06",
+      "text": "Ao longo do caminho, ele serve de divisa entre quatro estados.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P07",
+      "factKey": "rio-araguaia-F07",
+      "text": "Quando as águas baixam, surgem praias de areia clara nas margens.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_GOTUR_FOLDER",
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P08",
+      "factKey": "rio-araguaia-F08",
+      "text": "A temporada de praias vai de junho a setembro e enche os acampamentos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_GOTUR_FOLDER"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P09",
+      "factKey": "rio-araguaia-F09",
+      "text": "Nas férias de julho, milhares de turistas vão para as praias do rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_ARAGARCAS"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P10",
+      "factKey": "rio-araguaia-F10",
+      "text": "É considerado um dos rios mais piscosos do mundo, terra de piraíbas e pirararas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_GOTUR_FOLDER"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P11",
+      "factKey": "rio-araguaia-F11",
+      "text": "Pintado, cachorra, corvina, pirarucu e dourado também aparecem nas pescarias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_GOTUR_FOLDER"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P12",
+      "factKey": "rio-araguaia-F12",
+      "text": "Botos cor-de-rosa vivem perto das praias de cidades ribeirinhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_ARAGARCAS"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P13",
+      "factKey": "rio-araguaia-F13",
+      "text": "Uma cidade goiana tem o nome formado pela junção do nome deste rio com o de um afluente.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_ARAGARCAS"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P14",
+      "factKey": "rio-araguaia-F14",
+      "text": "Bem em frente a essa cidade goiana, do outro lado do rio, ficam duas cidades de Mato Grosso.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "RARAGUAIA_ARAGARCAS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P15",
+      "factKey": "rio-araguaia-F15",
+      "text": "Mais ou menos no meio do caminho, o rio se divide em dois braços que voltam a se juntar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P16",
+      "factKey": "rio-araguaia-F16",
+      "text": "Esses braços cercam a maior ilha fluvial do mundo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P17",
+      "factKey": "rio-araguaia-F17",
+      "text": "Mais abaixo, um parque estadual protege uma área de lagos, igapós e canais de água escura.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P18",
+      "factKey": "rio-araguaia-F18",
+      "text": "Mais de 700 espécies de aves vivem na bacia do rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P19",
+      "factKey": "rio-araguaia-F19",
+      "text": "Ariranhas, jacarés-açu e um boto com o nome do próprio rio habitam suas águas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P20",
+      "factKey": "rio-araguaia-F20",
+      "text": "O nome do rio vem do tupi e é associado às araras-vermelhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_INFOESCOLA"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P21",
+      "factKey": "rio-araguaia-F21",
+      "text": "Seu principal afluente nasce perto de Cuiabá.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P22",
+      "factKey": "rio-araguaia-F22",
+      "text": "Nos anos 1970, a região do rio foi palco de uma guerrilha contra a ditadura militar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P23",
+      "factKey": "rio-araguaia-F23",
+      "text": "Ecoturismo e pesca esportiva são os grandes atrativos do rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI",
+       "RARAGUAIA_GOTUR_FOLDER"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P24",
+      "factKey": "rio-araguaia-F24",
+      "text": "No fim do percurso, ele entrega suas águas ao rio Tocantins, no Pará.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-viajante-P25",
+      "factKey": "rio-araguaia-F25",
+      "text": "Os dois braços que cercam a Ilha do Bananal são este rio, a oeste, e o Javaés, a leste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "rio-araguaia-geografo-P01",
+      "factKey": "rio-araguaia-F01",
+      "text": "O curso de água drena o interior do Brasil, entre o Centro-Oeste e o Norte.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P02",
+      "factKey": "rio-araguaia-F02",
+      "text": "A bacia do rio ultrapassa 350 mil km².",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P03",
+      "factKey": "rio-araguaia-F03",
+      "text": "As cabeceiras ficam no município goiano de Mineiros, a cerca de 858 m de altitude.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P04",
+      "factKey": "rio-araguaia-F04",
+      "text": "Da nascente, junto à divisa sul entre Goiás e Mato Grosso, o escoamento segue rumo ao norte.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI",
+       "RARAGUAIA_INFOESCOLA"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P05",
+      "factKey": "rio-araguaia-F05",
+      "text": "Com cerca de 2.627 km, o rio desce de cerca de 858 m na nascente para cerca de 90 m na foz.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P06",
+      "factKey": "rio-araguaia-F06",
+      "text": "Em vários trechos, o canal principal é limite interestadual entre o Centro-Oeste e o Norte.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P07",
+      "factKey": "rio-araguaia-F07",
+      "text": "No curso médio, a bifurcação em dois braços que se reencontram isola a maior ilha fluvial do mundo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P08",
+      "factKey": "rio-araguaia-F08",
+      "text": "Um setor de cerca de 100 mil ha de igapós, canais de água preta e lagos de meandro abandonado é protegido como parque estadual.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P09",
+      "factKey": "rio-araguaia-F09",
+      "text": "Abaixo dessas áreas alagáveis, corredeiras interrompem a navegação contínua.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P10",
+      "factKey": "rio-araguaia-F10",
+      "text": "Grande parte do curso é navegável o ano todo, mas uma hidrovia industrial proposta é apontada como ameaça.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "mobilidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P11",
+      "factKey": "rio-araguaia-F11",
+      "text": "Na vazante, entre maio e outubro, bancos de areia emergem e sustentam o turismo de praia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P12",
+      "factKey": "rio-araguaia-F12",
+      "text": "O assoreamento crescente em trechos goianos, como em Aragarças, dificulta a navegação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_INFOESCOLA"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P13",
+      "factKey": "rio-araguaia-F13",
+      "text": "Erosão e agrotóxicos ligados à agricultura estão entre as pressões sobre a bacia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_INFOESCOLA"
+      ],
+      "clueType": "conservacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P14",
+      "factKey": "rio-araguaia-F14",
+      "text": "O principal afluente nasce na Serra de São Jerônimo, perto de Cuiabá, e é navegável.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P15",
+      "factKey": "rio-araguaia-F15",
+      "text": "Pela margem esquerda chegam afluentes como o Garças e o Tapirapé; pela direita, o Vermelho e o Claro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P16",
+      "factKey": "rio-araguaia-F16",
+      "text": "Na confluência com o rio Garças, cidades de margens opostas pertencem a estados diferentes.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "RARAGUAIA_ARAGARCAS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P17",
+      "factKey": "rio-araguaia-F17",
+      "text": "O médio e o baixo curso estão numa ecorregião de florestas úmidas batizada com o nome de três rios do leste amazônico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P18",
+      "factKey": "rio-araguaia-F18",
+      "text": "A bacia abriga mais de 700 espécies de aves e cerca de 300 de peixes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P19",
+      "factKey": "rio-araguaia-F19",
+      "text": "Um boto batizado com o nome do próprio rio ocupa suas águas, ao lado de ariranhas e pirarucus.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P20",
+      "factKey": "rio-araguaia-F20",
+      "text": "A região foi cenário de uma guerrilha entre 1972 e 1974, contra a ditadura militar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P21",
+      "factKey": "rio-araguaia-F21",
+      "text": "Pesca esportiva e ecoturismo dominam o uso turístico; piraíbas e pirararas simbolizam a piscosidade do rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_GOTUR_FOLDER",
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "turismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P22",
+      "factKey": "rio-araguaia-F22",
+      "text": "O nome, de origem tupi, é associado às araras-vermelhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "RARAGUAIA_INFOESCOLA"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P23",
+      "factKey": "rio-araguaia-F23",
+      "text": "A foz fica no Pará, a cerca de 90 m de altitude, onde o rio se une a um curso maior.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P24",
+      "factKey": "rio-araguaia-F24",
+      "text": "Seus trechos de divisa separam Goiás, Mato Grosso, Tocantins e Pará.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "rio-araguaia-geografo-P25",
+      "factKey": "rio-araguaia-F25",
+      "text": "O rio é afluente do Tocantins, com o qual forma uma das maiores bacias do Brasil.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "RARAGUAIA_WIKI",
+       "RARAGUAIA_ECYCLE_IPAM"
+      ],
+      "clueType": "agua",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Rio de cerca de 2.627 km que nasce na Serra do Caiapó, em Mineiros (GO), junto à divisa com Mato Grosso, corre para o norte formando divisas entre Goiás, Mato Grosso, Tocantins e Pará, divide-se com o braço Javaés em torno da Ilha do Bananal e deságua no rio Tocantins, no Pará; o caso trata do rio, não do Parque Nacional do Araguaia.",
+   "editorialNotes": [
+    "A extensão (2.627 km) e a área de bacia (377 mil km²; 358.125 km² medidos em Conceição do Araguaia) vêm da Wikipedia; as pistas usam “mais de 2.600 km” e “mais de 350 mil km²”.",
+    "A Serra do Caiapó como nascente vem da InfoEscola; a Wikipedia indica só o município de Mineiros (GO). A InfoEscola inclui o Maranhão entre os estados, o que não foi usado (a Wikipedia lista Goiás, Mato Grosso, Tocantins e Pará).",
+    "A temporada de praias aparece como junho a setembro (Goiás Turismo) e bancos de areia de maio a outubro (Wikipedia); as pistas citam cada período com sua fonte."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Fontes do rascunho (DNIT, IBGE, ANA) não vieram das buscas ou não abriram; substituídas por Wikipedia, InfoEscola, folder e estudo de Aragarças do Goiás Turismo e eCycle/IPAM; C3 e C4 trocados para diferenciar do Parque Nacional do Araguaia; pistas sem o nome do rio."
+  }
+ },
+ "sources": {
+  "RARAGUAIA_WIKI": {
+   "id": "RARAGUAIA_WIKI",
+   "title": "Araguaia River",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Araguaia_River",
+   "checkedAt": "2026-11-15"
+  },
+  "RARAGUAIA_INFOESCOLA": {
+   "id": "RARAGUAIA_INFOESCOLA",
+   "title": "Bacia do Araguaia",
+   "publisher": "InfoEscola",
+   "url": "https://www.infoescola.com/hidrografia/bacia-do-araguaia",
+   "checkedAt": "2026-11-15"
+  },
+  "RARAGUAIA_GOTUR_FOLDER": {
+   "id": "RARAGUAIA_GOTUR_FOLDER",
+   "title": "Araguaia — folder promocional",
+   "publisher": "Goiás Turismo",
+   "url": "https://www.goiasturismo.go.gov.br/ebooks/material-promocional/ebooks/araguaia-folder.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "RARAGUAIA_ARAGARCAS": {
+   "id": "RARAGUAIA_ARAGARCAS",
+   "title": "Município de Aragarças — estudo de Destino Turístico Inteligente",
+   "publisher": "Governo de Goiás (Goiás Turismo) e Sebrae Goiás",
+   "url": "https://goias.gov.br/turismo/wp-content/uploads/sites/4/2023/12/6-Municipio-de-Aragarcas.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "RARAGUAIA_ECYCLE_IPAM": {
+   "id": "RARAGUAIA_ECYCLE_IPAM",
+   "title": "O curso de um rio-cerrado que banha a Amazônia: rio Tocantins",
+   "publisher": "eCycle (conteúdo do IPAM Amazônia)",
+   "url": "https://www.ecycle.com.br/o-curso-de-um-rio-cerrado-que-banha-a-amazonia-rio-tocantins/",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "alteracoes": [
+   "Fontes CENTRO_ARA_DNIT, CENTRO_ARA_IBGE e CENTRO_ARA_ANA (URLs do rascunho, não vindas de busca) substituídas por Wikipedia (Araguaia River), InfoEscola, folder do Goiás Turismo, estudo de Aragarças (Goiás Turismo/Sebrae) e eCycle (conteúdo do IPAM). Mais Goiás, Jornal Opção e Embrapa deram erro do site.",
+   "C2: distratores São Francisco e Paraguai trocados por Amazonas e Xingu; gabarito Tocantins mantido.",
+   "C3: “Ilha fluvial associada” (repetia o C2 do Parque Nacional do Araguaia, já no banco) trocado por “Afluente principal” (Rio das Mortes; distratores Rio das Almas, Teles Pires, Paranaíba).",
+   "C4: “Ramo associado à ilha” (Javaés) trocado por “Estados entre os quais o rio forma divisas” (Goiás, Mato Grosso, Tocantins e Pará); Javaés e Ilha do Bananal ficaram só em pistas.",
+   "viajante: P01–P25 reescritas ou trocadas — “ilha no estado do Tocantins”, territórios indígenas da ilha, cachoeiras da bacia e gestão de águas genérica saíram; entraram Serra do Caiapó, extensão, quatro estados, praias e temporada, peixes, botos, Aragarças, Ilha do Bananal, Cantão, aves, guerrilha, origem do nome, Rio das Mortes.",
+   "geografo: P01–P25 reescritas ou trocadas (bacia, Mineiros a 858 m, perfil 858–90 m, limites interestaduais, bifurcação, Cantão, corredeiras, hidrovia, vazante, assoreamento, afluentes por margem, ecorregião, fauna, foz no Pará); “81% da bacia no Cerrado” (IBGE, não aberto) retirado.",
+   "Força das pistas: viajante P01–P02 abertura, P24–P25 decisivas; geografo P01–P02 abertura, P24–P25 decisivas."
+  ],
+  "fontesAbertas": [
+   "https://en.wikipedia.org/wiki/Araguaia_River",
+   "https://www.infoescola.com/hidrografia/bacia-do-araguaia",
+   "https://www.goiasturismo.go.gov.br/ebooks/material-promocional/ebooks/araguaia-folder.pdf",
+   "https://goias.gov.br/turismo/wp-content/uploads/sites/4/2023/12/6-Municipio-de-Aragarcas.pdf",
+   "https://www.ecycle.com.br/o-curso-de-um-rio-cerrado-que-banha-a-amazonia-rio-tocantins/"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

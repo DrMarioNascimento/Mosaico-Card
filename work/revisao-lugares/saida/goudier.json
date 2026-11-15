@@ -1,0 +1,1073 @@
+{
+  "case": {
+    "id": "lug2-goudier",
+    "placeId": "goudier",
+    "title": "Ilha Goudier e Base A de Port Lockroy",
+    "aliases": [
+      "Ilha Goudier",
+      "Goudier Island",
+      "Goudier",
+      "Port Lockroy",
+      "Base A"
+    ],
+    "answerType": "ilha e base histórica",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [],
+      "continents": [
+        "antartida"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Sítio histórico antártico",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Ilha Goudier e Base A de Port Lockroy"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Ilha Detaille e Base W"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Ilha Horseshoe e Base Y"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Ilha Stonington e Base E"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Ilha Winter e Base F (Wordie House)"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Ilha Deception e Estação Baleeira"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Ilha Paulet e cabana de pedra"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Cabo Royds e Cabana de Shackleton"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Cabo Evans e Cabana Terra Nova"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Cabo Denison e Cabanas de Mawson"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Hut Point e Cabana Discovery"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Ilha Snow Hill e Cabana de Nordenskjöld"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Ilha Goudier e Base A de Port Lockroy",
+        "sources": [
+          "GOUDIER_ATS",
+          "GOUDIER_UKAHT"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Ilha maior junto à qual fica o porto da base",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Ilha Wiencke"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Ilha Anvers"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Ilha Brabant"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Ilha Rongé"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Ilha Wiencke",
+        "sources": [
+          "GOUDIER_ATS",
+          "GOUDIER_UKAHT"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Pinguim que se reproduz na ilha",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Pinguim-gentoo"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Pinguim-de-adélia"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Pinguim-de-barbicha"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Pinguim-imperador"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Pinguim-gentoo",
+        "sources": [
+          "GOUDIER_ATS"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Operação que estabeleceu a base",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Operação Tabarin"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Operação Highjump"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Operação Deep Freeze"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Operação Windmill"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Operação Tabarin",
+        "sources": [
+          "GOUDIER_UKAHT",
+          "GOUDIER_BAMT"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "goudier-viajante-P01",
+            "factKey": "goudier-F01",
+            "text": "É uma ilhota rochosa e baixa no litoral da Península Antártica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_ATS",
+              "GOUDIER_UKAHT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P02",
+            "factKey": "goudier-F02",
+            "text": "Em volta há montanhas e geleiras, no encontro de três passagens marítimas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT",
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P03",
+            "factKey": "goudier-F03",
+            "text": "No começo da temporada, gelo preso à costa costuma cercar boa parte da ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P04",
+            "factKey": "goudier-F04",
+            "text": "No verão a neve recua, e o chão pode ficar enlameado e escorregadio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P05",
+            "factKey": "goudier-F05",
+            "text": "A ilhota fica num porto abrigado junto à costa oeste de uma ilha maior.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "GOUDIER_ATS",
+              "GOUDIER_UKAHT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P06",
+            "factKey": "goudier-F06",
+            "text": "A ilha maior vizinha se chama Wiencke.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P07",
+            "factKey": "goudier-F07",
+            "text": "O porto foi descoberto em 1904 pelo francês Jean-Baptiste Charcot.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT_FACES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P08",
+            "factKey": "goudier-F08",
+            "text": "O nome do porto homenageia Édouard Lockroy, político francês que ajudou a financiar a expedição.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT_FACES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P09",
+            "factKey": "goudier-F09",
+            "text": "No início do século XX, frotas baleeiras usavam o porto como ancoradouro seguro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P10",
+            "factKey": "goudier-F10",
+            "text": "O desembarque preferido fica ao lado das velhas correntes de amarração dos baleeiros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P11",
+            "factKey": "goudier-F11",
+            "text": "Uma antiga base britânica de 1944 virou museu, com loja e agência de correio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P12",
+            "factKey": "goudier-F12",
+            "text": "O \"correio dos pinguins\" local é apontado como o sítio mais visitado da Antártida.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_BAMT",
+              "GOUDIER_UKAHT_FACES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P13",
+            "factKey": "goudier-F13",
+            "text": "O sítio recebe até 18 mil visitantes por temporada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT",
+              "GOUDIER_BAMT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P14",
+            "factKey": "goudier-F14",
+            "text": "O dinheiro da loja e do correio paga a manutenção do lugar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P15",
+            "factKey": "goudier-F15",
+            "text": "O maior prédio se chama Bransfield House.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT",
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P16",
+            "factKey": "goudier-F16",
+            "text": "Um galpão de barcos de 1957 também faz parte do conjunto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P17",
+            "factKey": "goudier-F17",
+            "text": "A equipe dorme numa réplica de cabana Nissen, montada em duas metades para não atrapalhar ninhos de pinguins.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT_FACES",
+              "GOUDIER_UKAHT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P18",
+            "factKey": "goudier-F18",
+            "text": "Pinguins-gentoo fazem ninhos na ilha há mais de 30 anos.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT_FACES",
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P19",
+            "factKey": "goudier-F19",
+            "text": "A pomba-antártica também se reproduz na ilhota.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P20",
+            "factKey": "goudier-F20",
+            "text": "Gaivotas-dominicanas e skuas fazem ninho numa ilhota vizinha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P21",
+            "factKey": "goudier-F21",
+            "text": "Focas-de-weddell costumam descansar nas pedras da ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P22",
+            "factKey": "goudier-F22",
+            "text": "No máximo 60 visitantes podem estar na ilha ao mesmo tempo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P23",
+            "factKey": "goudier-F23",
+            "text": "Antes de entrar no museu, é preciso limpar as botas e tirar a neve.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P24",
+            "factKey": "goudier-F24",
+            "text": "O lado leste da ilha fica isolado por cordas, sem visitação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-viajante-P25",
+            "factKey": "goudier-F25",
+            "text": "A operação que criou a base levou o nome de uma casa noturna de Paris.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "GOUDIER_BAMT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "goudier-geografo-P01",
+            "factKey": "goudier-F01",
+            "text": "No lado oeste da Península Antártica, o patrimônio de uma antiga base científica e uma colônia de pinguins dividem a mesma ilhota.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT",
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P02",
+            "factKey": "goudier-F02",
+            "text": "O local foi escolhido por oferecer ancoradouro seguro e uma área plana para erguer uma cabana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT_FACES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P03",
+            "factKey": "goudier-F03",
+            "text": "As coordenadas aproximadas são 64°49' S e 63°29' O.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P04",
+            "factKey": "goudier-F04",
+            "text": "Em 1944, gelo perigoso e falta de combustível fizeram a expedição desistir de Hope Bay e se instalar ali.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT_FACES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P05",
+            "factKey": "goudier-F05",
+            "text": "A base foi criada em 11 de fevereiro de 1944, numa missão secreta britânica do tempo da guerra.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT",
+              "GOUDIER_BAMT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P06",
+            "factKey": "goudier-F06",
+            "text": "A missão buscava negar ancoradouros a navios corsários alemães e reforçar reivindicações territoriais britânicas.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "GOUDIER_BAMT",
+              "GOUDIER_UKAHT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P07",
+            "factKey": "goudier-F07",
+            "text": "É a única base que sobrevive do primeiro ano da Operação Tabarin.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P08",
+            "factKey": "goudier-F08",
+            "text": "Em 1945, passou ao Falkland Islands Dependencies Survey, antecessor do British Antarctic Survey.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P09",
+            "factKey": "goudier-F09",
+            "text": "O trabalho científico principal era a pesquisa ionosférica, útil às comunicações por rádio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT_FACES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P10",
+            "factKey": "goudier-F10",
+            "text": "A primeira leitura ionosférica da Antártida foi feita ali em 9 de março de 1948.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT_FACES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P11",
+            "factKey": "goudier-F11",
+            "text": "Em 1957, registrou-se ali o primeiro \"whistler\", onda de rádio de baixa frequência gerada por raios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT_FACES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P12",
+            "factKey": "goudier-F12",
+            "text": "A estação também era central de comunicações sem fio para bases mais ao sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P13",
+            "factKey": "goudier-F13",
+            "text": "Em janeiro de 1962, as pesquisas foram transferidas para bases maiores e mais modernas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P14",
+            "factKey": "goudier-F14",
+            "text": "Desde 1995 é o Sítio e Monumento Histórico nº 61 do Tratado da Antártida.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT",
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P15",
+            "factKey": "goudier-F15",
+            "text": "Em 1996, uma equipe restaurou os prédios em nove semanas, e o sítio passou a funcionar como museu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT_FACES",
+              "GOUDIER_BAMT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P16",
+            "factKey": "goudier-F16",
+            "text": "O núcleo do prédio principal é de madeira pré-fabricada vinda de estoques navais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P17",
+            "factKey": "goudier-F17",
+            "text": "O monitoramento não detectou efeito do grande fluxo de visitantes no sucesso reprodutivo da colônia de pinguins.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P18",
+            "factKey": "goudier-F18",
+            "text": "Os riscos apontados para o sítio são fogo, pequenos vazamentos de combustível e perturbação da fauna.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P19",
+            "factKey": "goudier-F19",
+            "text": "Só desembarcam navios com até 500 passageiros, um de cada vez e no máximo três por dia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P20",
+            "factKey": "goudier-F20",
+            "text": "Há limite de 350 visitantes por dia e de 35 pessoas por vez dentro do museu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P21",
+            "factKey": "goudier-F21",
+            "text": "O líquen Verrucaria serpuloides, restrito à área, cresce da linha de maré baixa até cerca de 10 m de profundidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P22",
+            "factKey": "goudier-F22",
+            "text": "A alga verde Prasiola crispa e líquens dos gêneros Buellia e Verrucaria são frequentes nas rochas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P23",
+            "factKey": "goudier-F23",
+            "text": "Focas-caranguejeiras se reproduzem nas águas do porto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_ATS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P24",
+            "factKey": "goudier-F24",
+            "text": "O museu expõe artefatos de várias bases históricas britânicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "goudier-geografo-P25",
+            "factKey": "goudier-F25",
+            "text": "Desde 2006, o sítio é de responsabilidade integral de um fundo britânico de patrimônio antártico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GOUDIER_UKAHT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Ilhota rochosa no porto abrigado junto à Ilha Wiencke, na Península Antártica, onde fica a Base A, criada em 1944 pela Operação Tabarin — hoje museu e correio geridos pelo UK Antarctic Heritage Trust, ao lado de uma colônia de pinguins-gentoo.",
+      "editorialNotes": [
+        "C2 e C4 do rascunho (Port Lockroy, Base A) repetiam o próprio título; viraram a ilha maior (Wiencke) e a operação de 1944 (Tabarin). \"Port Lockroy\" e \"Base A\" entraram nos aliases para não vazar em pistas.",
+        "Correção: gaivotas-dominicanas e skuas nidificam na vizinha Bills Island, não na ilhota; na ilha se reproduzem o gentoo e a pomba-antártica (diretrizes de visitação).",
+        "As diretrizes abertas são a versão de 2008 (cópia oficial argentina); limites de visitação podem ter sido revistos — conferir na página do ATS. Lugar distinto da Ilha Detaille e Base W, já no banco e também gerida pelo UKAHT."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes abertas (diretrizes de visitação do Tratado, UKAHT, British Antarctic Monument Trust); C2–C4 refeitos (não repetem mais o título), aves reprodutoras corrigidas e metadados de abertura/decisiva atribuídos"
+    }
+  },
+  "sources": {
+    "GOUDIER_ATS": {
+      "id": "GOUDIER_ATS",
+      "title": "Site Guidelines for Visitors: Goudier Island",
+      "publisher": "Reunião Consultiva do Tratado da Antártida (texto oficial publicado pela Legislatura da Terra do Fogo, Argentina, 2008)",
+      "url": "https://legistdf.gob.ar/lp/novedadesip/Com.%20Of.%202008/C.Of.%20N%20206-08/documents/pdf_ingles/Goudier_ingles.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "GOUDIER_UKAHT": {
+      "id": "GOUDIER_UKAHT",
+      "title": "Port Lockroy",
+      "publisher": "UK Antarctic Heritage Trust",
+      "url": "https://ukaht.org/places/port-lockroy/",
+      "checkedAt": "2026-11-15"
+    },
+    "GOUDIER_UKAHT_FACES": {
+      "id": "GOUDIER_UKAHT_FACES",
+      "title": "Base value: 12 faces that made Port Lockroy",
+      "publisher": "UK Antarctic Heritage Trust",
+      "url": "https://ukaht.org/latest-news/base-value-12-faces-that-made-port-lockroy/",
+      "checkedAt": "2026-11-15"
+    },
+    "GOUDIER_BAMT": {
+      "id": "GOUDIER_BAMT",
+      "title": "First permanent base established 80 years ago today",
+      "publisher": "British Antarctic Monument Trust",
+      "url": "https://www.antarctic-monument.org/news/2024/feb/11/first-permanent-base-established-80-years-ago-today",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://ukaht.org/places/port-lockroy/",
+      "https://www.ukaht.org/heritage/port-lockroy",
+      "https://ukaht.org/latest-news/base-value-12-faces-that-made-port-lockroy/",
+      "https://www.antarctic-monument.org/news/2024/feb/11/first-permanent-base-established-80-years-ago-today",
+      "https://legistdf.gob.ar/lp/novedadesip/Com.%20Of.%202008/C.Of.%20N%20206-08/documents/pdf_ingles/Goudier_ingles.pdf"
+    ],
+    "alteracoes": [
+      "Fonte do rascunho (página do ATS) não pôde ser aberta por busca; usado o texto oficial das mesmas diretrizes (cópia argentina de 2008), mais UKAHT (2 páginas) e British Antarctic Monument Trust.",
+      "C1: alternativas alinhadas aos sítios históricos do banco (entraram Detaille/Base W, Horseshoe/Base Y, Stonington/Base E, Winter/Base F; saíram Cuverville, Neko Harbour e Point Wild, que não são sítios de base histórica).",
+      "C2: 'Porto' (gabarito Port Lockroy, contido no título) trocado por 'Ilha maior junto à qual fica o porto' (Ilha Wiencke).",
+      "C3: alternativas não antárticas (africano, galápagos, magalhães) trocadas por pinguins antárticos (adélia, barbicha, imperador).",
+      "C4: 'Identificação da base' (Base A, contida no título) trocado por 'Operação que estabeleceu a base' (Tabarin).",
+      "Viajante: 20 pistas reescritas ou trocadas (corrigida a reprodução de gaivotas e skuas, que é numa ilhota vizinha; entraram Charcot 1904, Édouard Lockroy, baleeiros, correio e loja, 18 mil visitantes, réplica Nissen, pomba-antártica, regras de visita, origem do nome Tabarin); pistas que diziam o nome do porto ou a letra da base saíram.",
+      "Geógrafo: 22 pistas reescritas ou trocadas (entraram coordenadas, motivo da escolha do sítio, objetivos da missão de 1944, pesquisa ionosférica 1948 e whistler 1957, transferência em 1962, restauração 1996, ausência de impacto detectado na colônia, limites de navios e visitantes, Verrucaria serpuloides, focas-caranguejeiras).",
+      "Todas as pistas do rascunho estavam como 'conexao'; atribuídas 2 de abertura e 2 decisivas por perfil."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

@@ -1,0 +1,1100 @@
+{
+  "case": {
+    "id": "lug2-cidade-santos",
+    "placeId": "cidade-santos",
+    "title": "Santos",
+    "aliases": [
+      "Cidade de Santos"
+    ],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sudeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade portuária",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Santos"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Paranaguá"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Itajaí"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Rio Grande"
+          },
+          {
+            "id": "C1-O5",
+            "text": "São Francisco do Sul"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Vitória"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Rio de Janeiro"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Salvador"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Recife"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Fortaleza"
+          },
+          {
+            "id": "C1-O11",
+            "text": "São Luís"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Belém"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Santos",
+        "sources": [
+          "SAN_IBGE",
+          "SAN_PORTUS"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Produto negociado na antiga bolsa que hoje abriga um museu",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Café"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Açúcar"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Borracha"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Cacau"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Café",
+        "sources": [
+          "SAN_MUSEU",
+          "SAN_VISITE"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Engenheiro sanitarista que projetou os canais de drenagem da cidade",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Saturnino de Brito"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Pereira Passos"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Paulo de Frontin"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Prestes Maia"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Saturnino de Brito",
+        "sources": [
+          "SAN_VISITE",
+          "SAN_FAPESP",
+          "SAN_RISCO"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Fidalgo português que fundou a Santa Casa de Misericórdia local",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Brás Cubas"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Martim Afonso de Sousa"
+          },
+          {
+            "id": "C4-O3",
+            "text": "João Ramalho"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Vasco Fernandes Coutinho"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Brás Cubas",
+        "sources": [
+          "SAN_IBGE",
+          "SAN_ALMANAQUE"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "cidade-santos-viajante-P01",
+            "factKey": "cidade-santos-F01",
+            "text": "É uma cidade litorânea do Sudeste, com praias urbanas e um porto muito movimentado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_CATRACA",
+              "SAN_PORTUS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P02",
+            "factKey": "cidade-santos-F02",
+            "text": "Atrás da cidade, uma serra com cerca de 700 metros de desnível sobe até o planalto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_PORTUS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P03",
+            "factKey": "cidade-santos-F03",
+            "text": "A orla tem um jardim de 5,3 km registrado pelo Guinness como o maior jardim de orla do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_CATRACA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P04",
+            "factKey": "cidade-santos-F04",
+            "text": "Os jardins da praia começaram a ser feitos a partir dos anos 1930.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_PORTUS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P05",
+            "factKey": "cidade-santos-F05",
+            "text": "Mais de 60 prédios da orla são inclinados; eles são monitorados e considerados seguros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_VISITE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P06",
+            "factKey": "cidade-santos-F06",
+            "text": "Canais abertos atravessam a cidade e ajudam a escoar a água da chuva.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SAN_FAPESP",
+              "SAN_LABVERDE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P07",
+            "factKey": "cidade-santos-F07",
+            "text": "O primeiro desses canais foi entregue em 1907, sobre um antigo ribeirão.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SAN_FAPESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P08",
+            "factKey": "cidade-santos-F08",
+            "text": "No centro histórico, o prédio de uma antiga bolsa de negócios virou museu.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SAN_MUSEU",
+              "SAN_VISITE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P09",
+            "factKey": "cidade-santos-F09",
+            "text": "Esse prédio, com torre de relógio e vitrais, foi inaugurado em 7 de setembro de 1922.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SAN_MUSEU"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P10",
+            "factKey": "cidade-santos-F10",
+            "text": "Uma rua do centro já foi chamada de \"Wall Street brasileira\" pelos negócios de café.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SAN_VISITE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P11",
+            "factKey": "cidade-santos-F11",
+            "text": "Um bonde turístico passeia pelo centro histórico, ligando museus e marcos antigos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_CATRACA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P12",
+            "factKey": "cidade-santos-F12",
+            "text": "Um bondinho leva ao alto do Monte Serrat, que tem mirante sobre a cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_CATRACA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P13",
+            "factKey": "cidade-santos-F13",
+            "text": "Uma placa na rocha do Outeiro de Santa Catarina marca 1543 como o início do povoado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_VISITE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P14",
+            "factKey": "cidade-santos-F14",
+            "text": "O hospital da Santa Casa local, começado em 1542, é apontado como o primeiro do país.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SAN_ALMANAQUE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P15",
+            "factKey": "cidade-santos-F15",
+            "text": "O fundador da vila chegou ao Brasil em 1532 e morreu ali por volta de 1592.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SAN_ALMANAQUE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P16",
+            "factKey": "cidade-santos-F16",
+            "text": "Antes de ganhar o nome atual, o lugar se chamava Enguaguaçu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_ALMANAQUE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P17",
+            "factKey": "cidade-santos-F17",
+            "text": "O clube de futebol da cidade tem um memorial de conquistas que atrai fãs de Pelé.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_CATRACA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P18",
+            "factKey": "cidade-santos-F18",
+            "text": "Um aquário municipal está entre as atrações mais conhecidas da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_CATRACA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P19",
+            "factKey": "cidade-santos-F19",
+            "text": "Um norte-americano que se mudou para cá em 1938 é lembrado como o primeiro surfista do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_VISITE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P20",
+            "factKey": "cidade-santos-F20",
+            "text": "Uma ferrovia aberta em 1867 trazia o café do planalto até o porto.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SAN_IBGE",
+              "SAN_VISITE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P21",
+            "factKey": "cidade-santos-F21",
+            "text": "A cidade divide uma ilha com um município vizinho cuja vila foi fundada em 1532.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_LABVERDE",
+              "SAN_PORTUS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P22",
+            "factKey": "cidade-santos-F22",
+            "text": "Uma casa com fachada de azulejos e a antiga Cadeia Velha fazem parte do patrimônio do centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_VISITE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P23",
+            "factKey": "cidade-santos-F23",
+            "text": "O porto já foi conhecido como \"Porto do Café\".",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SAN_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P24",
+            "factKey": "cidade-santos-F24",
+            "text": "Em 2024 o porto movimentou cerca de 180 milhões de toneladas e disputa com Colón, no Panamá, o posto de maior porto de contêineres da América Latina.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_PORTUS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-viajante-P25",
+            "factKey": "cidade-santos-F25",
+            "text": "Uma estrada até a capital paulista foi aberta em 1827, décadas antes do trem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_PORTUS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "cidade-santos-geografo-P01",
+            "factKey": "cidade-santos-F01",
+            "text": "O sítio urbano ocupa uma planície costeira baixa, historicamente sujeita a inundações constantes.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SAN_LABVERDE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P02",
+            "factKey": "cidade-santos-F02",
+            "text": "O território urbano fica numa ilha, limitada pelo mar e por um município vizinho que divide a mesma ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_LABVERDE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P03",
+            "factKey": "cidade-santos-F03",
+            "text": "A escarpa da serra, com cerca de 700 m de desnível, foi por séculos o grande obstáculo entre o porto e o planalto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_PORTUS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P04",
+            "factKey": "cidade-santos-F04",
+            "text": "A Calçada do Lorena, de 1789, e depois a estrada de 1827 tentaram facilitar a subida da serra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_PORTUS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P05",
+            "factKey": "cidade-santos-F05",
+            "text": "A ferrovia de 1867, construída por empresa britânica, ligou o porto ao planalto e canalizou a exportação do café.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SAN_PORTUS",
+              "SAN_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P06",
+            "factKey": "cidade-santos-F06",
+            "text": "Mesmo sem ser centro produtor de café, a cidade teve a paisagem urbana moldada pela economia cafeeira.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SAN_MUSEU"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P07",
+            "factKey": "cidade-santos-F07",
+            "text": "Uma bolsa oficial mediava os negócios de café num edifício eclético aberto em 1922, no centenário da Independência.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SAN_MUSEU"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P08",
+            "factKey": "cidade-santos-F08",
+            "text": "Em 1890 uma companhia de docas recebeu a concessão do porto por 90 anos; os primeiros 260 m de cais, de 1892, ficavam no Valongo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_PORTUS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P09",
+            "factKey": "cidade-santos-F09",
+            "text": "Um decreto de 1888 fez desse porto o pioneiro no modelo de \"porto organizado\" no país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_PORTUS",
+              "SAN_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P10",
+            "factKey": "cidade-santos-F10",
+            "text": "O porto se instalou em águas abrigadas do estuário, e o canal estuarino separa a cidade do Guarujá.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_PORTUS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P11",
+            "factKey": "cidade-santos-F11",
+            "text": "O primeiro terminal de contêineres do país, aberto em 1982, fica na outra margem do estuário, no Guarujá.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_PORTUS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P12",
+            "factKey": "cidade-santos-F12",
+            "text": "Em 2024 passaram pelo porto cerca de 180 milhões de toneladas e 5,4 milhões de TEUs.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_PORTUS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P13",
+            "factKey": "cidade-santos-F13",
+            "text": "As atividades portuárias respondem por cerca de dois terços da arrecadação de ISS do município e do vizinho do outro lado do canal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_PORTUS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P14",
+            "factKey": "cidade-santos-F14",
+            "text": "Atingida por epidemias de febre amarela, a cidade teve obras de saneamento chefiadas por um engenheiro sanitarista entre 1905 e 1910.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SAN_RISCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P15",
+            "factKey": "cidade-santos-F15",
+            "text": "O plano de saneamento separou a rede de esgoto da rede de águas pluviais e aproveitou as marés para limpar os canais.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SAN_LABVERDE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P16",
+            "factKey": "cidade-santos-F16",
+            "text": "Comportas regulam a troca de água com o mar, e o vaivém das marés evita água parada e a criação de mosquitos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SAN_FAPESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P17",
+            "factKey": "cidade-santos-F17",
+            "text": "Foram projetados oito canais; o primeiro, de 1907, cobriu o antigo Ribeirão dos Soldados, e um nono veio depois.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SAN_FAPESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P18",
+            "factKey": "cidade-santos-F18",
+            "text": "Além da chuva, os canais recolhem a água que escorre dos morros.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SAN_FAPESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P19",
+            "factKey": "cidade-santos-F19",
+            "text": "Do plano de avenidas-parques que cortariam a cidade, só a avenida beira-mar foi implantada por inteiro.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SAN_LABVERDE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P20",
+            "factKey": "cidade-santos-F20",
+            "text": "O povoado nasceu em torno de um porto de canoas aberto em 1534 na foz de um córrego.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P21",
+            "factKey": "cidade-santos-F21",
+            "text": "O maremoto de 1541, que destruiu a vila vizinha, fez crescer a população do porto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P22",
+            "factKey": "cidade-santos-F22",
+            "text": "Um fidalgo transferiu o porto da Ponta da Praia para o Enguaguaçu, no lagamar interno, onde hoje fica o centro histórico.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SAN_IBGE",
+              "SAN_ALMANAQUE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P23",
+            "factKey": "cidade-santos-F23",
+            "text": "O topônimo deriva da irmandade de Misericórdia fundada em 1543, cujo nome passou a designar o porto e depois a vila.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SAN_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P24",
+            "factKey": "cidade-santos-F24",
+            "text": "Guarujá (1934), Cubatão (1948) e Bertioga (1991) saíram do território municipal por desmembramento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-santos-geografo-P25",
+            "factKey": "cidade-santos-F25",
+            "text": "Perto do Monte Serrat, na região da Vila Mathias, ficava o quilombo do Pai Filipe.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SAN_PORTUS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade portuária do litoral paulista, na ilha que divide com São Vicente; vila fundada por Brás Cubas (foros de 1546), cresceu como \"Porto do Café\", ligada ao planalto pela ferrovia de 1867, com a antiga Bolsa Oficial de Café (1922), os canais de drenagem de Saturnino de Brito (a partir de 1907) e o jardim de orla registrado pelo Guinness.",
+      "editorialNotes": [
+        "Datas divergentes: foral de vila em 1545 ou foros em 1546 (IBGE) e 1546 (Prefeitura e Visite São Paulo); cidade em 1839 (Visite São Paulo) e \"1939\" no IBGE, provável erro. As pistas não usam essas datas.",
+        "Santa Casa: início do hospital em 1542 (Prefeitura) e fundação da irmandade em 1º/11/1543 (IBGE). Transferência do porto: 1547 (IBGE) e 1542 (Portus); as pistas citam o porto sem ano.",
+        "População retirada (IBGE Cidades não aberto; Portus cita cerca de 418 mil no Censo 2022 e a Catraca Livre outro número). C2–C4 refeitos para não depender de bonde e de ano da linha turística."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes trocadas por IBGE, Prefeitura (almanaque e folder do Museu do Café), Portus, USP, Pesquisa FAPESP e guias abertos na revisão; C3 e C4 refeitos; pistas conferidas"
+    }
+  },
+  "sources": {
+    "SAN_IBGE": {
+      "id": "SAN_IBGE",
+      "title": "Santos (SP): histórico e formação administrativa",
+      "publisher": "IBGE",
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/saopaulo/santos.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "SAN_ALMANAQUE": {
+      "id": "SAN_ALMANAQUE",
+      "title": "Almanaque Santos 480 anos, n. 2 (Braz Cubas)",
+      "publisher": "Prefeitura de Santos",
+      "url": "https://www.santos.sp.gov.br/static/files_www/files/portal_files/hotsites/snts480/downloads/016887_almanaque_numero_2.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "SAN_MUSEU": {
+      "id": "SAN_MUSEU",
+      "title": "Folder do Museu do Café",
+      "publisher": "Prefeitura de Santos (Secretaria de Educação)",
+      "url": "https://www.santos.sp.gov.br/static/files_www/conteudo/SEDUC/EducaSatos/folder_do_museu.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "SAN_PORTUS": {
+      "id": "SAN_PORTUS",
+      "title": "A brief history of the port city of Santos in Brazil",
+      "publisher": "PORTUS Online",
+      "url": "https://portusonline.org/a-brief-history-of-the-port-city-of-santos-in-brazil/?pdf=54017",
+      "checkedAt": "2026-11-15"
+    },
+    "SAN_VISITE": {
+      "id": "SAN_VISITE",
+      "title": "Cidade de Santos: conheça mais da história da maior cidade da Baixada Santista",
+      "publisher": "Visite São Paulo",
+      "url": "https://visitesaopaulo.com/cidade-de-santos-conheca-mais-da-historia-da-maior-cidade-da-baixada-santista/",
+      "checkedAt": "2026-11-15"
+    },
+    "SAN_CATRACA": {
+      "id": "SAN_CATRACA",
+      "title": "Cidade brasileira possui o maior jardim de orla do mundo e porto recordista da América Latina",
+      "publisher": "Catraca Livre",
+      "url": "https://catracalivre.com.br/noticias/cidade-brasileira-possui-o-maior-jardim-de-orla-do-mundo-e-porto-recordista-da-america-latina/",
+      "checkedAt": "2026-11-15"
+    },
+    "SAN_FAPESP": {
+      "id": "SAN_FAPESP",
+      "title": "Criação no concreto",
+      "publisher": "Revista Pesquisa FAPESP",
+      "url": "https://revistapesquisa.fapesp.br/criacao-no-concreto/",
+      "checkedAt": "2026-11-15"
+    },
+    "SAN_RISCO": {
+      "id": "SAN_RISCO",
+      "title": "A dureza do fazer: a práxis na urbanística de Saturnino de Brito a partir do seu plano de saneamento para a cidade de Santos (1905-1910)",
+      "publisher": "Risco Revista de Pesquisa em Arquitetura e Urbanismo (USP)",
+      "url": "https://revistas.usp.br/risco/article/view/124541",
+      "checkedAt": "2026-11-15"
+    },
+    "SAN_LABVERDE": {
+      "id": "SAN_LABVERDE",
+      "title": "Artigo sobre as avenidas e os canais de drenagem de Santos (Revista LABVERDE)",
+      "publisher": "Revista LABVERDE (FAU-USP)",
+      "url": "https://revistas.usp.br/revistalabverde/article/download/85966/92678/128801",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://biblioteca.ibge.gov.br/visualizacao/dtb/saopaulo/santos.pdf",
+      "https://www.santos.sp.gov.br/static/files_www/files/portal_files/hotsites/snts480/downloads/016887_almanaque_numero_2.pdf",
+      "https://www.santos.sp.gov.br/static/files_www/conteudo/SEDUC/EducaSatos/folder_do_museu.pdf",
+      "https://portusonline.org/a-brief-history-of-the-port-city-of-santos-in-brazil/?pdf=54017",
+      "https://visitesaopaulo.com/cidade-de-santos-conheca-mais-da-historia-da-maior-cidade-da-baixada-santista/",
+      "https://catracalivre.com.br/noticias/cidade-brasileira-possui-o-maior-jardim-de-orla-do-mundo-e-porto-recordista-da-america-latina/",
+      "https://revistapesquisa.fapesp.br/criacao-no-concreto/",
+      "https://revistas.usp.br/risco/article/view/124541",
+      "https://revistas.usp.br/revistalabverde/article/download/85966/92678/128801"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho (três páginas node da Prefeitura e IBGE Cidades) não foram abertas; trocadas por 9 fontes abertas via busca (IBGE Biblioteca, almanaque e folder da Prefeitura, Portus, Visite São Paulo, Catraca Livre, Pesquisa FAPESP, Risco/USP, LABVERDE/USP)",
+      "C2: rótulo para \"Produto negociado na antiga bolsa que hoje abriga um museu\" (mesmo gabarito Café)",
+      "C3: \"Meio de transporte da linha turística\" (Bonde) trocado por \"Engenheiro sanitarista que projetou os canais\", gabarito Saturnino de Brito",
+      "C4: \"Ano da linha turística\" (2000, sem fonte aberta) trocado por \"Fidalgo que fundou a Santa Casa\", gabarito Brás Cubas",
+      "Retiradas: linha turística de 2000, Palácio José Bonifácio, Museu Pelé, Via Anchieta, \"sete quilômetros de praias\", população do Censo 2022 (fontes não abertas ou divergentes)",
+      "Entraram: jardim de orla do Guinness, prédios inclinados, canais (1907, comportas, marés, rede separada), Bolsa de 1922, Porto do Café, ferrovia de 1867, docas de 1890/1892, porto organizado (1888), números de 2024, origem do nome, Enguaguaçu, maremoto de 1541, desmembramentos, quilombo do Pai Filipe",
+      "Sinal ajustado: 2 aberturas e 2 decisivas por perfil (rascunho tinha 7 decisivas); relatedFields agora apontam C2–C4",
+      "viajante: 25 de 25 pistas reescritas ou trocadas; geografo: 25 de 25"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

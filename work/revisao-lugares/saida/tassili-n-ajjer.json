@@ -1,0 +1,1059 @@
+{
+  "case": {
+    "id": "lug2-tassili-n-ajjer",
+    "placeId": "tassili-n-ajjer",
+    "title": "Tassili n’Ajjer",
+    "aliases": [
+      "Tassili n’Ajjer"
+    ],
+    "answerType": "planalto e parque cultural",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "DZ"
+      ],
+      "continents": [
+        "africa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Sítio africano com arte rupestre",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Tassili n’Ajjer"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Tadrart Acacus"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Maciço de Ennedi"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Cultural do Ahaggar"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Aïr e Ténéré"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Gilf Kebir"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Laas Geel"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Twyfelfontein"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Colinas de Tsodilo"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque uKhahlamba-Drakensberg"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Sítios de Arte Rupestre de Kondoa"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Arte Rupestre de Chongoni"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Colinas de Matobo"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Tassili n’Ajjer",
+        "sources": [
+          "TASSILI_IUCN_WHO",
+          "TASSILI_ICOMOS"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Árvore relíquia rara, com menos de 240 exemplares, que sobrevive no planalto",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Cipreste-do-saara (tarout)"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Baobá"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Dragoeiro"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Cedro-do-atlas"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Cipreste-do-saara (tarout)",
+        "sources": [
+          "TASSILI_IUCN_WHO",
+          "TASSILI_WCMC"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Rocha das formações erodidas do planalto",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Arenito"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Granito"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Calcário"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Basalto"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Arenito",
+        "sources": [
+          "TASSILI_WCMC",
+          "TASSILI_IUCN_WHO"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "País",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Argélia"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Líbia"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Níger"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Chade"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Argélia",
+        "sources": [
+          "TASSILI_IUCN_WHO",
+          "TASSILI_ICOMOS"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "tassili-n-ajjer-viajante-P01",
+            "factKey": "tassili-n-ajjer-F01",
+            "text": "Este destino é um planalto no deserto, com milhares de pinturas e gravuras antigas nas rochas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO",
+              "TASSILI_ICOMOS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P02",
+            "factKey": "tassili-n-ajjer-F02",
+            "text": "A paisagem é tão estranha que costuma ser comparada à superfície da Lua.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P03",
+            "factKey": "tassili-n-ajjer-F03",
+            "text": "O vento esculpiu as rochas em formas que lembram ruínas, as chamadas “florestas de pedra”.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TASSILI_WCMC",
+              "TASSILI_IUCN_WHO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P04",
+            "factKey": "tassili-n-ajjer-F04",
+            "text": "As rochas do planalto são de arenito.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TASSILI_WCMC",
+              "TASSILI_IUCN_WHO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P05",
+            "factKey": "tassili-n-ajjer-F05",
+            "text": "Há penhascos, gargantas e vales profundamente escavados pela erosão.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P06",
+            "factKey": "tassili-n-ajjer-F06",
+            "text": "O planalto tem altitude média de cerca de 1.500 metros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_ICOMOS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P07",
+            "factKey": "tassili-n-ajjer-F07",
+            "text": "O clima é hiperárido: chovem em média só 30 milímetros por ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_WCMC"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P08",
+            "factKey": "tassili-n-ajjer-F08",
+            "text": "Mesmo assim, sempre há água guardada em gargantas fundas e sombreadas e em poças que duram depois das chuvas, as gueltas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_WCMC"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P09",
+            "factKey": "tassili-n-ajjer-F09",
+            "text": "Por ali corre o único rio permanente do Saara central.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_WCMC"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P10",
+            "factKey": "tassili-n-ajjer-F10",
+            "text": "Peixes de espécies relictas vivem nas águas desse rio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_WCMC"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P11",
+            "factKey": "tassili-n-ajjer-F11",
+            "text": "Um crocodilo-anão do Saara viveu ali até o século XX; os últimos foram mortos nos anos 1940.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_WCMC"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P12",
+            "factKey": "tassili-n-ajjer-F12",
+            "text": "Uma árvore rara, o cipreste-do-saara, sobrevive ali com menos de 240 exemplares.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO",
+              "TASSILI_WCMC"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P13",
+            "factKey": "tassili-n-ajjer-F13",
+            "text": "Também cresce ali uma murta-do-saara, outra planta relíquia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_WCMC"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P14",
+            "factKey": "tassili-n-ajjer-F14",
+            "text": "Entre os animais estão o carneiro-da-barbária, a gazela-dorcas e até o guepardo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO",
+              "TASSILI_WCMC"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P15",
+            "factKey": "tassili-n-ajjer-F15",
+            "text": "Mais de 15 mil desenhos e gravuras já foram catalogados, e o total pode ser o dobro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO",
+              "TASSILI_ICOMOS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P16",
+            "factKey": "tassili-n-ajjer-F16",
+            "text": "As pinturas vão de cerca de 6000 a.C. aos primeiros séculos da era atual.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P17",
+            "factKey": "tassili-n-ajjer-F17",
+            "text": "Os desenhos mostram cavalos, rebanhos de bois, dromedários e até hipopótamos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_ICOMOS",
+              "TASSILI_IUCN_WHO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P18",
+            "factKey": "tassili-n-ajjer-F18",
+            "text": "O período com mais pinturas é o “bovidiano”, dos rebanhos de bois, entre cerca de 4000 e 1500 a.C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_ICOMOS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P19",
+            "factKey": "tassili-n-ajjer-F19",
+            "text": "As pinturas mais recentes, da época dos dromedários, trazem letras da escrita tifinague.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_WCMC"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P20",
+            "factKey": "tassili-n-ajjer-F20",
+            "text": "Também há restos do Neolítico, como esculturas, cerâmica e pedras de moer.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_WCMC"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P21",
+            "factKey": "tassili-n-ajjer-F21",
+            "text": "É a terra dos tuaregues, que ainda percorrem o planalto com seus rebanhos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO",
+              "TASSILI_ICOMOS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P22",
+            "factKey": "tassili-n-ajjer-F22",
+            "text": "Turistas deixam lixo e pichações, e há até roubo de pedaços de pinturas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P23",
+            "factKey": "tassili-n-ajjer-F23",
+            "text": "Chuvas fortes e enxurradas atingiram a região no verão de 2024.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P24",
+            "factKey": "tassili-n-ajjer-F24",
+            "text": "O planalto fica no sudeste do Saara argelino, perto das fronteiras com a Líbia e o Níger.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TASSILI_WCMC",
+              "TASSILI_ICOMOS"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-viajante-P25",
+            "factKey": "tassili-n-ajjer-F25",
+            "text": "Virou Patrimônio Mundial em 1982, tanto pela natureza quanto pela arte rupestre.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO",
+              "TASSILI_ICOMOS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "tassili-n-ajjer-geografo-P01",
+            "factKey": "tassili-n-ajjer-F01",
+            "text": "A unidade combina valores naturais e culturais: relevo desértico de grande interesse geológico e arte rupestre pré-histórica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P02",
+            "factKey": "tassili-n-ajjer-F02",
+            "text": "O planalto pertence a uma camada de arenito que contorna o maciço do Hoggar, no Saara.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TASSILI_WCMC"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P03",
+            "factKey": "tassili-n-ajjer-F03",
+            "text": "A erosão eólica deixou “florestas de pedra”, formações que lembram ruínas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TASSILI_WCMC",
+              "TASSILI_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P04",
+            "factKey": "tassili-n-ajjer-F04",
+            "text": "A geologia combina elementos cristalinos pré-cambrianos e sucessões de arenito, cortadas por penhascos e gargantas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P05",
+            "factKey": "tassili-n-ajjer-F05",
+            "text": "O maciço tem forma aproximadamente triangular, com o lado maior de cerca de 700 km.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P06",
+            "factKey": "tassili-n-ajjer-F06",
+            "text": "A altitude varia de 1.150 m a 2.158 m, e uma estação a 1.100 m registra média anual de 20,3 °C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_WCMC"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P07",
+            "factKey": "tassili-n-ajjer-F07",
+            "text": "Com cerca de 30 mm de chuva por ano, o planalto é hiperárido, mas abriga microclimas subáridos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_WCMC"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P08",
+            "factKey": "tassili-n-ajjer-F08",
+            "text": "A água persiste em gargantas sombreadas, leitos de oueds e gueltas — poças que resistem depois das chuvas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_WCMC"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P09",
+            "factKey": "tassili-n-ajjer-F09",
+            "text": "O Iherir é o único rio perene do Saara central, e o oued Iherir e as poças de Afilal são sítios Ramsar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_WCMC",
+              "TASSILI_IUCN_WHO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P10",
+            "factKey": "tassili-n-ajjer-F10",
+            "text": "Quatro espécies de peixes relictos da família das tilápias vivem nas águas do Iherir.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_WCMC"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P11",
+            "factKey": "tassili-n-ajjer-F11",
+            "text": "O cipreste-do-saara (Cupressus dupreziana), paleoendemismo relicto, tem menos de 240 exemplares, e o clima atual impede sua reprodução.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO",
+              "TASSILI_WCMC"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P12",
+            "factKey": "tassili-n-ajjer-F12",
+            "text": "A flora soma 73 espécies endêmicas, e a murta-do-saara (Myrtus nivellei) é outra planta relíquia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO",
+              "TASSILI_WCMC"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P13",
+            "factKey": "tassili-n-ajjer-F13",
+            "text": "São 37 espécies de mamíferos, cinco delas ameaçadas; o adax e o órix-de-cimitarra já desapareceram localmente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P14",
+            "factKey": "tassili-n-ajjer-F14",
+            "text": "Com o avanço da aridez, muitas espécies sumiram; os últimos crocodilos-anões foram mortos nos anos 1940.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_ICOMOS",
+              "TASSILI_WCMC"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P15",
+            "factKey": "tassili-n-ajjer-F15",
+            "text": "As pinturas, de cerca de 6000 a.C. aos primeiros séculos da era atual, registram a passagem de um ambiente mais favorável à ocupação humana ao deserto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO",
+              "TASSILI_ICOMOS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P16",
+            "factKey": "tassili-n-ajjer-F16",
+            "text": "A arte é dividida em períodos — naturalista, arcaico, bovidiano, equidiano e camelino —, e o bovidiano (c. 4000–1500 a.C.) é o mais representado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_ICOMOS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P17",
+            "factKey": "tassili-n-ajjer-F17",
+            "text": "O período camelino coincide com o início do clima desértico hiperárido.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_ICOMOS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P18",
+            "factKey": "tassili-n-ajjer-F18",
+            "text": "Datações por radiocarbono situam os vestígios arqueológicos entre cerca de 6000 e 2000 a.C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_WCMC"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P19",
+            "factKey": "tassili-n-ajjer-F19",
+            "text": "Grupos tuaregues ainda percorrem o planalto árido com seus rebanhos, e pecuária, agricultura e turismo sustentam a população local.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_ICOMOS",
+              "TASSILI_WCMC"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P20",
+            "factKey": "tassili-n-ajjer-F20",
+            "text": "O turismo traz lixo, pichações e saque de pinturas, e há grupos de 30 pessoas onde o máximo previsto é 15.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P21",
+            "factKey": "tassili-n-ajjer-F21",
+            "text": "Caça ilegal, pastoreio excessivo e coleta de lenha pressionam a fauna e a vegetação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P22",
+            "factKey": "tassili-n-ajjer-F22",
+            "text": "Um gasoduto entre Illizi e Djanet parece cruzar a área, e há ainda o projeto do Gasoduto Transaariano.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P23",
+            "factKey": "tassili-n-ajjer-F23",
+            "text": "Criado como parque nacional em 1972, é parque cultural protegido pela lei do patrimônio desde 2004, ainda sem plano de gestão aprovado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_WCMC",
+              "TASSILI_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P24",
+            "factKey": "tassili-n-ajjer-F24",
+            "text": "A área, de cerca de 72 mil km², fica no sudeste do Saara argelino, junto às fronteiras da Líbia e do Níger.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TASSILI_ICOMOS",
+              "TASSILI_WCMC"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tassili-n-ajjer-geografo-P25",
+            "factKey": "tassili-n-ajjer-F25",
+            "text": "Inscrito em 1982 pelos critérios (i), (iii), (vii) e (viii), é um bem misto: cultural e natural.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TASSILI_IUCN_WHO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Planalto de arenito no sudeste do Saara argelino, com “florestas de pedra” esculpidas pela erosão, ciprestes-do-saara relictos e mais de 15 mil pinturas e gravuras rupestres que registram a passagem de um Saara mais úmido ao deserto.",
+      "editorialNotes": [
+        "Área: a avaliação do ICOMOS (1982) dá 72.000 km² e a ficha do WCMC, 7,2 milhões de ha; a IUCN World Heritage Outlook cita cerca de 89.342 km² para a região do Tassili. As pistas usam 72 mil km².",
+        "Clima, altitude, rio Iherir, peixes, crocodilo e criação do parque (1972) vêm da ficha do WCMC (1988, revista em 2000); o número de ciprestes (menos de 240) é confirmado pela IUCN (2025).",
+        "O ICOMOS (1982) menciona a wilaya de Ouargla e fronteiras com Líbia, Níger e Mali; a IUCN cita as cidades de Illizi e Djanet. As pistas citam só Líbia e Níger, confirmados também pelo WCMC."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na IUCN World Heritage Outlook (2025), na avaliação do ICOMOS (1982) e na ficha do UNEP-WCMC; C1 e C2 refeitos e as 50 pistas reescritas."
+    }
+  },
+  "sources": {
+    "TASSILI_IUCN_WHO": {
+      "id": "TASSILI_IUCN_WHO",
+      "checkedAt": "2026-11-15",
+      "title": "Tassili n’Ajjer — Conservation Outlook Assessment (2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/988"
+    },
+    "TASSILI_ICOMOS": {
+      "id": "TASSILI_ICOMOS",
+      "checkedAt": "2026-11-15",
+      "title": "Tassili n’Ajjer (Algeria) — ICOMOS evaluation (1982)",
+      "publisher": "UNESCO World Heritage Centre / ICOMOS",
+      "url": "https://whc.unesco.org/document/152910"
+    },
+    "TASSILI_WCMC": {
+      "id": "TASSILI_WCMC",
+      "checkedAt": "2026-11-15",
+      "title": "Parc national de Tassili N’Ajjer — Protected Areas Programme data sheet",
+      "publisher": "UNEP World Conservation Monitoring Centre (arquivo da Universidade de Hamburgo)",
+      "url": "https://www-archiv.fdm.uni-hamburg.de/b-online/afrika/wcmc/tassili.htm"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://worldheritageoutlook.iucn.org/node/988",
+      "https://whc.unesco.org/document/152910",
+      "https://www-archiv.fdm.uni-hamburg.de/b-online/afrika/wcmc/tassili.htm"
+    ],
+    "alteracoes": [
+      "Fonte do rascunho (whc.unesco.org/en/list/179) não abriu (nem a versão em francês); substituída pela IUCN World Heritage Outlook (2025), pela avaliação do ICOMOS (1982) e pela ficha do UNEP-WCMC.",
+      "C1: Serra da Capivara, Cueva de las Manos, Vale do Côa, Valcamonica, Kakadu e Arte Rupestre do Mediterrâneo Ibérico (fora do recorte África) trocados por sítios africanos (Ahaggar, Aïr e Ténéré, Gilf Kebir, Laas Geel, Kondoa, Chongoni, Matobo).",
+      "C2 “Grande ambiente geográfico” (Saara contra Patagônia e Gobi, fácil demais) trocado por “Árvore relíquia rara” (cipreste-do-saara); C3 mantido (arenito) com nova fonte; C4: Mali trocado por Chade.",
+      "Viajante e Geógrafo: 50 pistas reescritas a partir das fontes (florestas de pedra, 30 mm de chuva, Iherir, cipreste, mais de 15 mil figuras, períodos da arte, tuaregues, ameaças, 1972/2004/1982); país sai das primeiras pistas."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

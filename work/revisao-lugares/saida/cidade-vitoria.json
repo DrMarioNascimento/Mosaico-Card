@@ -1,0 +1,1080 @@
+{
+  "case": {
+    "id": "lug2-cidade-vitoria",
+    "placeId": "cidade-vitoria",
+    "title": "Vitória",
+    "aliases": [
+      "Cidade de Vitória"
+    ],
+    "answerType": "capital",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sudeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Capital brasileira",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Vitória"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Florianópolis"
+          },
+          {
+            "id": "C1-O3",
+            "text": "São Luís"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Belém"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Recife"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Salvador"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Rio de Janeiro"
+          },
+          {
+            "id": "C1-O8",
+            "text": "João Pessoa"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Maceió"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Aracaju"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Fortaleza"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Natal"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Vitória",
+        "sources": [
+          "VIT_IBGE",
+          "VIT_ESGOV"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Ofício tradicional da cidade registrado pelo Iphan como patrimônio imaterial",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Ofício das Paneleiras de Goiabeiras"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Ofício das Baianas de Acarajé"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Modo de Fazer Renda Irlandesa"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Modo Artesanal de Fazer Queijo de Minas"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Ofício das Paneleiras de Goiabeiras",
+        "sources": [
+          "VIT_PANELEIRAS",
+          "VIT_UFES"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Sede do governo estadual instalada em antigo colégio jesuíta",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Palácio Anchieta"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Palácio das Esmeraldas"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Palácio da Liberdade"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Palácio Rio Branco"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Palácio Anchieta",
+        "sources": [
+          "VIT_ESGOV"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Ano de fundação oficialmente comemorado",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "1551"
+          },
+          {
+            "id": "C4-O2",
+            "text": "1535"
+          },
+          {
+            "id": "C4-O3",
+            "text": "1565"
+          },
+          {
+            "id": "C4-O4",
+            "text": "1554"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "1551",
+        "sources": [
+          "VIT_IBGE",
+          "VIT_ESGOV"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "cidade-vitoria-viajante-P01",
+            "factKey": "cidade-vitoria-F01",
+            "text": "É uma capital litorânea do Sudeste, com clima quente o ano inteiro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P02",
+            "factKey": "cidade-vitoria-F02",
+            "text": "A maior parte da cidade fica numa ilha, entre uma baía e morros de pedra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_ESGOV",
+              "VIT_UFF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P03",
+            "factKey": "cidade-vitoria-F03",
+            "text": "O município reúne 33 ilhas e mais um pedaço de continente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_ESGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P04",
+            "factKey": "cidade-vitoria-F04",
+            "text": "Sete pontes ligam a ilha principal ao continente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_ESGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P05",
+            "factKey": "cidade-vitoria-F05",
+            "text": "É uma das três capitais brasileiras que ficam em ilhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_ESGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P06",
+            "factKey": "cidade-vitoria-F06",
+            "text": "Os povos indígenas chamavam a ilha de \"Ilha do Mel\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_IBGE",
+              "VIT_ESGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P07",
+            "factKey": "cidade-vitoria-F07",
+            "text": "O aniversário da cidade é 8 de setembro, data de uma batalha travada em 1551.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "VIT_IBGE",
+              "VIT_ESGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P08",
+            "factKey": "cidade-vitoria-F08",
+            "text": "Panelas de barro pretas são feitas à mão por artesãs de um bairro da cidade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIT_PANELEIRAS",
+              "VIT_ESGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P09",
+            "factKey": "cidade-vitoria-F09",
+            "text": "A cor escura das panelas vem de uma tinta tirada da casca do mangue-vermelho.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIT_PANELEIRAS",
+              "VIT_ESGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P10",
+            "factKey": "cidade-vitoria-F10",
+            "text": "As panelas são queimadas em fogueira a céu aberto, sem forno.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIT_PANELEIRAS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P11",
+            "factKey": "cidade-vitoria-F11",
+            "text": "Nelas se faz a moqueca da terra; um ditado local diz que, fora dali, \"o resto é peixada\".",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIT_ESGOV",
+              "VIT_PANELEIRAS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P12",
+            "factKey": "cidade-vitoria-F12",
+            "text": "O saber das artesãs dessas panelas foi o primeiro inscrito no Livro dos Saberes do Iphan, em 2002.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIT_PANELEIRAS",
+              "VIT_UFES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P13",
+            "factKey": "cidade-vitoria-F13",
+            "text": "O governo do estado funciona num antigo colégio jesuíta do século XVI.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "VIT_ESGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P14",
+            "factKey": "cidade-vitoria-F14",
+            "text": "Nesse palácio fica o túmulo do padre José de Anchieta.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "VIT_ESGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P15",
+            "factKey": "cidade-vitoria-F15",
+            "text": "A catedral, em estilo neogótico e com vitrais, levou 50 anos para ficar pronta, de 1920 a 1970.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_ESGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P16",
+            "factKey": "cidade-vitoria-F16",
+            "text": "Um santuário barroco dedicado a Santo Antônio tem três cúpulas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_ESGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P17",
+            "factKey": "cidade-vitoria-F17",
+            "text": "O Teatro Carlos Gomes, no centro, foi concluído em 1927.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_ESGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P18",
+            "factKey": "cidade-vitoria-F18",
+            "text": "A Praia de Camburi, uma das principais atrações, tem cerca de 5 km e é boa para vela e kitesurf.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_ESGOV",
+              "VIT_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P19",
+            "factKey": "cidade-vitoria-F19",
+            "text": "Um parque no maciço central da ilha protege mata de encosta e nascentes e chega a quase 309 m de altitude.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_ESGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P20",
+            "factKey": "cidade-vitoria-F20",
+            "text": "O Parque Moscoso, no centro, foi inaugurado em 1912.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_ESGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P21",
+            "factKey": "cidade-vitoria-F21",
+            "text": "O apelido dos moradores, depois estendido a todo o estado, vem de uma palavra indígena para \"roças\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P22",
+            "factKey": "cidade-vitoria-F22",
+            "text": "Muitos bairros cresceram sobre aterros feitos em cima de manguezais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_ATERROS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P23",
+            "factKey": "cidade-vitoria-F23",
+            "text": "Em 1928, uma ponte ligou a ilha ao município vizinho onde o donatário português se instalou em 1535.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_UFF",
+              "VIT_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P24",
+            "factKey": "cidade-vitoria-F24",
+            "text": "A cidade é conhecida pelo apelido de \"Cidade Presépio\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_UFF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-viajante-P25",
+            "factKey": "cidade-vitoria-F25",
+            "text": "Um parque municipal da cidade se chama Pedra da Cebola.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_ESGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "cidade-vitoria-geografo-P01",
+            "factKey": "cidade-vitoria-F01",
+            "text": "O sítio urbano fica entre uma baía e maciços rochosos, o que limitou cedo a expansão da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_UFF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P02",
+            "factKey": "cidade-vitoria-F02",
+            "text": "O clima é tropical superúmido, com médias acima de 18 °C em todos os meses.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P03",
+            "factKey": "cidade-vitoria-F03",
+            "text": "O território soma ilhas e uma porção continental; a área municipal é de 96,54 km², segundo o IBGE.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_IBGE",
+              "VIT_ESGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P04",
+            "factKey": "cidade-vitoria-F04",
+            "text": "Corpos d'água continentais cobrem cerca de 12,7% do território, e áreas artificiais, mais da metade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P05",
+            "factKey": "cidade-vitoria-F05",
+            "text": "No bioma Mata Atlântica, unidades de conservação de uso sustentável ocupam cerca de 33% do município.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P06",
+            "factKey": "cidade-vitoria-F06",
+            "text": "Em busca de um lugar mais seguro contra ataques, os portugueses seguiram pela baía, contornaram a ilha e aportaram em Santo Antônio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P07",
+            "factKey": "cidade-vitoria-F07",
+            "text": "A ilha ganhou o nome atual depois de uma batalha vencida pelos portugueses contra os goitacazes, em 1551.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "VIT_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P08",
+            "factKey": "cidade-vitoria-F08",
+            "text": "Por cerca de 300 anos o núcleo foi uma vila-porto, disputada por franceses e ingleses atrás de açúcar e pau-brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P09",
+            "factKey": "cidade-vitoria-F09",
+            "text": "Pela formação administrativa do IBGE, foi elevada a vila em 1545 e a cidade em 1823.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "VIT_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P10",
+            "factKey": "cidade-vitoria-F10",
+            "text": "O antigo Colégio de São Tiago, com primeira ala de 1587, funcionou até 1759 e virou sede do governo ainda no século XVIII.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "VIT_ESGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P11",
+            "factKey": "cidade-vitoria-F11",
+            "text": "A argila das panelas vem sempre do Vale do Mulembá, e a modelagem dispensa o torno.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIT_PANELEIRAS",
+              "VIT_UFES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P12",
+            "factKey": "cidade-vitoria-F12",
+            "text": "O tanino da casca do mangue-vermelho impermeabiliza e fortalece as peças, unindo o ofício ao manguezal.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIT_PANELEIRAS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P13",
+            "factKey": "cidade-vitoria-F13",
+            "text": "Sítios arqueológicos cerâmicos no Morro Boa Vista, área ligada às paneleiras, atestam a antiga ocupação indígena.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIT_UFES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P14",
+            "factKey": "cidade-vitoria-F14",
+            "text": "O registro de 2002 seguiu o decreto federal de 2000 que criou o patrimônio imaterial e foi revalidado em 2021.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIT_PANELEIRAS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P15",
+            "factKey": "cidade-vitoria-F15",
+            "text": "No fim do século XIX, o plano do Novo Arrabalde, de Saturnino de Brito, previa multiplicar por seis a área ocupada da ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_UFF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P16",
+            "factKey": "cidade-vitoria-F16",
+            "text": "O plano abrangia cerca de 3,3 milhões de m², com 178 quarteirões e 2.129 lotes, para cerca de 15.400 habitantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_UFF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P17",
+            "factKey": "cidade-vitoria-F17",
+            "text": "Os aterros, concentrados no leste da ilha, eliminaram duas entradas de mar junto à colina e abriram espaço para o porto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_UFF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P18",
+            "factKey": "cidade-vitoria-F18",
+            "text": "A área portuária foi erguida sobre aterro, em obras iniciadas em 1918 e continuadas nas décadas de 1920 e 1930.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_ATERROS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P19",
+            "factKey": "cidade-vitoria-F19",
+            "text": "Nos anos 1950, bairros foram aterrados com areia dragada do canal de acesso ao porto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_ATERROS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P20",
+            "factKey": "cidade-vitoria-F20",
+            "text": "Mais de 40% dos manguezais do município viraram aterro, alterando a dinâmica da baía e favorecendo o assoreamento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_ATERROS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P21",
+            "factKey": "cidade-vitoria-F21",
+            "text": "No fim do século XIX, o governo estadual buscou uma ferrovia até Minas Gerais para escoar a produção pelos portos do estado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_UFF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P22",
+            "factKey": "cidade-vitoria-F22",
+            "text": "O censo de 1872 contou só 3.360 habitantes; no início da República, eram menos de dez mil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_ATERROS",
+              "VIT_UFF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P23",
+            "factKey": "cidade-vitoria-F23",
+            "text": "O Parque da Fonte Grande, aberto em 2001, guarda a última grande área contínua de mata atlântica de encosta da capital.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_ESGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P24",
+            "factKey": "cidade-vitoria-F24",
+            "text": "É uma das três capitais insulares do país e tem dois distritos: a sede e Goiabeiras.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "VIT_ESGOV",
+              "VIT_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-vitoria-geografo-P25",
+            "factKey": "cidade-vitoria-F25",
+            "text": "Desde 1928, uma ponte liga a ilha ao município vizinho que abrigou o primeiro núcleo da capitania.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIT_UFF",
+              "VIT_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Capital do Espírito Santo, num conjunto de ilhas e porção continental entre a baía e maciços rochosos; fundação comemorada em 8 de setembro de 1551, após batalha contra os goitacazes. Tem o Palácio Anchieta (antigo colégio jesuíta), o ofício das Paneleiras de Goiabeiras e bairros sobre aterros; o primeiro núcleo da capitania (1535) ficava na vizinha Vila Velha.",
+      "editorialNotes": [
+        "Área: 96,54 km² (IBGE) e 105 km² (governo estadual); a pista usa o IBGE. O governo fala em \"segunda capital mais antiga\" e o IBGE em \"uma das três mais antigas\"; a ordem não foi usada.",
+        "O IBGE registra elevação a vila em 1545; a fundação comemorada é 8/9/1551 (C4). Diferenciação de Vila Velha: as pistas tratam da ilha, do governo estadual e de Goiabeiras; posse de 1535 e Convento da Penha ficam com Vila Velha.",
+        "A Gazeta cita área aterrada \"mais de 12 mil\" sem unidade e o governo estadual dá 21,8 mil m² para a Fonte Grande; esses números não foram usados. População do Censo 2022 retirada (IBGE Cidades não aberto)."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes trocadas por IBGE (monografia), governo estadual, A Gazeta, UFES e UFF abertos na revisão; C2 refeito com as Paneleiras de Goiabeiras; pistas conferidas e diferenciadas de Vila Velha"
+    }
+  },
+  "sources": {
+    "VIT_IBGE": {
+      "id": "VIT_IBGE",
+      "title": "Vitória (ES): monografia municipal (Série Monografias Municipais)",
+      "publisher": "IBGE",
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2972/momun_se_es_vitoria.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "VIT_ESGOV": {
+      "id": "VIT_ESGOV",
+      "title": "Vitória comemora 464 anos",
+      "publisher": "Governo do Estado do Espírito Santo",
+      "url": "https://www.es.gov.br/Noticia/vitoria-comemora-464-anos",
+      "checkedAt": "2026-11-15"
+    },
+    "VIT_PANELEIRAS": {
+      "id": "VIT_PANELEIRAS",
+      "title": "Dia das Paneleiras de Goiabeiras: um patrimônio vivo do Espírito Santo e do Brasil",
+      "publisher": "A Gazeta",
+      "url": "https://www.agazeta.com.br/artigos/dia-das-paneleiras-de-goiabeiras-um-patrimonio-vivo-do-espirito-santo-e-do-brasil-0726",
+      "checkedAt": "2026-11-15"
+    },
+    "VIT_UFES": {
+      "id": "VIT_UFES",
+      "title": "A exposição de um saber fazer tradicional: análise do caso das paneleiras de Goiabeiras (Geyza Dalmásio Muniz)",
+      "publisher": "Revista do Colóquio de Arte e Pesquisa do PPGA-UFES",
+      "url": "https://periodicos.ufes.br/colartes/article/download/7687/5480/18045",
+      "checkedAt": "2026-11-15"
+    },
+    "VIT_ATERROS": {
+      "id": "VIT_ATERROS",
+      "title": "Vitória, a cidade que cresceu sobre a água",
+      "publisher": "A Gazeta",
+      "url": "https://www.agazeta.com.br/es/cotidiano/vitoria-a-cidade-que-cresceu-sobre-a-agua-0221",
+      "checkedAt": "2026-11-15"
+    },
+    "VIT_UFF": {
+      "id": "VIT_UFF",
+      "title": "A produção do espaço urbano em Vitória-ES ao longo da Primeira República (Vinicius Francisco Marchese)",
+      "publisher": "GEOgraphia (UFF)",
+      "url": "https://periodicos.uff.br/geographia/article/download/28568/26939",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2972/momun_se_es_vitoria.pdf",
+      "https://www.es.gov.br/Noticia/vitoria-comemora-464-anos",
+      "https://www.agazeta.com.br/artigos/dia-das-paneleiras-de-goiabeiras-um-patrimonio-vivo-do-espirito-santo-e-do-brasil-0726",
+      "https://periodicos.ufes.br/colartes/article/download/7687/5480/18045",
+      "https://www.agazeta.com.br/es/cotidiano/vitoria-a-cidade-que-cresceu-sobre-a-agua-0221",
+      "https://periodicos.uff.br/geographia/article/download/28568/26939"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho (cinco páginas da Prefeitura e IBGE Cidades) não foram abertas; trocadas por 6 fontes abertas via busca (monografia do IBGE, governo do ES, A Gazeta sobre paneleiras e sobre aterros, UFES, GEOgraphia/UFF)",
+      "C2: \"Município vizinho ao norte\" (Serra; fonte não aberta) trocado por \"Ofício registrado pelo Iphan\", gabarito Ofício das Paneleiras de Goiabeiras",
+      "C3: rótulo para \"Sede do governo estadual instalada em antigo colégio jesuíta\" (mesmo gabarito Palácio Anchieta)",
+      "C4: alternativas ajustadas (1637 trocado por 1535, data de Vila Velha); gabarito 1551 mantido",
+      "Retiradas por falta de fonte aberta: limites com Serra e Cariacica, Ponte da Passagem (2009) e passarela, Terceira Ponte, explicação das luzes para o apelido Cidade Presépio, Censo 2022",
+      "Entraram: arquipélago de 33 ilhas e sete pontes, capital insular, Ilha do Mel, batalha de 1551, paneleiras (argila do Mulembá, tanino, queima, registro de 2002), Palácio Anchieta, catedral, Santo Antônio, Teatro Carlos Gomes, Camburi, Fonte Grande, Moscoso, origem de \"capixaba\", Novo Arrabalde, aterros e porto, manguezais, ponte de 1928",
+      "Sinal ajustado: 2 aberturas e 2 decisivas por perfil (rascunho tinha 9 decisivas); relatedFields agora apontam C2–C4",
+      "viajante: 25 de 25 pistas reescritas ou trocadas; geografo: 25 de 25"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

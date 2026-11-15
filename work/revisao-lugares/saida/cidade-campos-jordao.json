@@ -1,0 +1,1096 @@
+{
+  "case": {
+    "id": "lug2-cidade-campos-jordao",
+    "placeId": "cidade-campos-jordao",
+    "title": "Campos do Jordão",
+    "aliases": [
+      "Cidade de Campos do Jordão"
+    ],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sudeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade de montanha",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Campos do Jordão"
+          },
+          {
+            "id": "C1-O2",
+            "text": "São Bento do Sapucaí"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Petrópolis"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Teresópolis"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Nova Friburgo"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Gonçalves"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Camanducaia"
+          },
+          {
+            "id": "C1-O8",
+            "text": "São Joaquim"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Urubici"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Gramado"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Canela"
+          },
+          {
+            "id": "C1-O12",
+            "text": "São Francisco de Paula"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Campos do Jordão",
+        "sources": [
+          "CJ_IBGE",
+          "CJ_OA"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Serra em que se localiza",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Serra da Mantiqueira"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Serra do Mar"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Serra da Canastra"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Serra do Espinhaço"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Serra da Mantiqueira",
+        "sources": [
+          "CJ_DECRETO",
+          "CJ_OA"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Ano de inauguração da estrada de ferro que sobe a serra até a cidade",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "1914"
+          },
+          {
+            "id": "C3-O2",
+            "text": "1909"
+          },
+          {
+            "id": "C3-O3",
+            "text": "1922"
+          },
+          {
+            "id": "C3-O4",
+            "text": "1934"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "1914",
+        "sources": [
+          "CJ_IBGE",
+          "CJ_UNISAL"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Município do qual se emancipou em 1934",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "São Bento do Sapucaí"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Pindamonhangaba"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Taubaté"
+          },
+          {
+            "id": "C4-O4",
+            "text": "São José dos Campos"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "São Bento do Sapucaí",
+        "sources": [
+          "CJ_IBGE"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "cidade-campos-jordao-viajante-P01",
+            "factKey": "cidade-campos-jordao-F01",
+            "text": "É uma cidade de serra no Sudeste do Brasil, procurada por quem gosta de frio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_OA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P02",
+            "factKey": "cidade-campos-jordao-F02",
+            "text": "No inverno, as madrugadas podem chegar a 0 °C; no verão, a temperatura fica entre 18 °C e 24 °C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_OA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P03",
+            "factKey": "cidade-campos-jordao-F03",
+            "text": "A sede da cidade fica a 1.628 metros de altitude.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_OA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P04",
+            "factKey": "cidade-campos-jordao-F04",
+            "text": "É chamada de \"Suíça Brasileira\", com construções em estilo alpino.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_OA",
+              "CJ_ALESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P05",
+            "factKey": "cidade-campos-jordao-F05",
+            "text": "Fondue de queijo, de carne e de chocolate e pratos com truta são a cara das noites frias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_OA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P06",
+            "factKey": "cidade-campos-jordao-F06",
+            "text": "O bairro do Capivari concentra comércio, restaurantes e vida noturna.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_OA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P07",
+            "factKey": "cidade-campos-jordao-F07",
+            "text": "Um teleférico de cerca de 550 metros sobe o Morro do Elefante.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_OA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P08",
+            "factKey": "cidade-campos-jordao-F08",
+            "text": "A cidade está na Serra da Mantiqueira.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CJ_OA",
+              "CJ_DECRETO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P09",
+            "factKey": "cidade-campos-jordao-F09",
+            "text": "Um trem sobe a serra desde Pindamonhangaba, num percurso de 47 km.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CJ_UNISAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P10",
+            "factKey": "cidade-campos-jordao-F10",
+            "text": "Essa ferrovia de montanha foi inaugurada em 15 de novembro de 1914.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CJ_IBGE",
+              "CJ_UNISAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P11",
+            "factKey": "cidade-campos-jordao-F11",
+            "text": "Desde 1924, a linha funciona com trens elétricos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CJ_UNISAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P12",
+            "factKey": "cidade-campos-jordao-F12",
+            "text": "Uma parada da linha, a do Cacique, é apontada como o ponto ferroviário mais alto do Brasil.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CJ_UNISAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P13",
+            "factKey": "cidade-campos-jordao-F13",
+            "text": "Antigamente, pessoas com tuberculose vinham para cá buscar no clima da serra um tratamento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_IBGE",
+              "CJ_UNISAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P14",
+            "factKey": "cidade-campos-jordao-F14",
+            "text": "Antes do trem, os doentes subiam a cavalo, em veículos puxados por cavalos ou burros ou em liteiras adaptadas como cama.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P15",
+            "factKey": "cidade-campos-jordao-F15",
+            "text": "Virou município em 1934, ao se separar de uma cidade vizinha.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CJ_IBGE",
+              "CJ_ALESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P16",
+            "factKey": "cidade-campos-jordao-F16",
+            "text": "O nome lembra o brigadeiro Manoel Rodrigues Jordão, que recebeu as terras em hipoteca em 1824.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P17",
+            "factKey": "cidade-campos-jordao-F17",
+            "text": "O brasão tem três pinheiros, lembrando o túmulo de um antigo fazendeiro enterrado entre pinheiros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P18",
+            "factKey": "cidade-campos-jordao-F18",
+            "text": "Em julho, um festival de música clássica ocupa igrejas, praças e um auditório da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_ALESP",
+              "CJ_OA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P19",
+            "factKey": "cidade-campos-jordao-F19",
+            "text": "Esse festival nasceu de concertos de inverno feitos em 1970 num palácio do governo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_ABC",
+              "CJ_MD"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P20",
+            "factKey": "cidade-campos-jordao-F20",
+            "text": "O governador de São Paulo tem ali uma residência oficial de inverno, inaugurada em 1964.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_MD",
+              "CJ_ABC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P21",
+            "factKey": "cidade-campos-jordao-F21",
+            "text": "Esse palácio guarda obras de Tarsila do Amaral, Portinari, Di Cavalcanti e Anita Malfatti.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_MD"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P22",
+            "factKey": "cidade-campos-jordao-F22",
+            "text": "A capela do palácio foi construída sobre um único pilar de concreto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_MD"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P23",
+            "factKey": "cidade-campos-jordao-F23",
+            "text": "Um parque estadual conhecido como Horto Florestal tem trilhas até cachoeiras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_PARQUE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P24",
+            "factKey": "cidade-campos-jordao-F24",
+            "text": "Nas matas desse parque crescem araucárias, e uma torre de madeira de 12 metros serve de mirante.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CJ_PARQUE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-viajante-P25",
+            "factKey": "cidade-campos-jordao-F25",
+            "text": "A região tem mais de cem trilhas, além de rapel e banhos em piscinas naturais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_ALESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "cidade-campos-jordao-geografo-P01",
+            "factKey": "cidade-campos-jordao-F01",
+            "text": "O município ocupa terras altas do Sudeste, encostadas na divisa entre dois estados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_PARQUE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P02",
+            "factKey": "cidade-campos-jordao-F02",
+            "text": "A altitude da sede explica médias anuais em torno de 15 °C e madrugadas de inverno perto de 0 °C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_OA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P03",
+            "factKey": "cidade-campos-jordao-F03",
+            "text": "O relevo é o da Serra da Mantiqueira: só o parque estadual vai de cerca de 1.030 m a 2.007 m de altitude.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CJ_DECRETO",
+              "CJ_PARQUE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P04",
+            "factKey": "cidade-campos-jordao-F04",
+            "text": "Matas de araucária e podocarpo, campos de altitude e mata nebular formam ali um remanescente de Mata Atlântica.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CJ_PARQUE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P05",
+            "factKey": "cidade-campos-jordao-F05",
+            "text": "O parque estadual, criado em 1941, tem 8.341 ha e cobre cerca de um terço do município.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_PARQUE",
+              "CJ_DECRETO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P06",
+            "factKey": "cidade-campos-jordao-F06",
+            "text": "Na criação do parque, incentivou-se o plantio de espécies exóticas; cerca de 2.000 ha foram degradados por plantios de pínus, que deveriam dar lugar à vegetação nativa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_PARQUE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P07",
+            "factKey": "cidade-campos-jordao-F07",
+            "text": "O decreto de 1941 previa um viveiro florestal voltado ao reflorestamento e à fruticultura de clima temperado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_DECRETO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P08",
+            "factKey": "cidade-campos-jordao-F08",
+            "text": "Em 1771, uma fazenda foi erguida junto ao rio Capivari, em terras logo disputadas com pecuaristas da divisa com Minas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P09",
+            "factKey": "cidade-campos-jordao-F09",
+            "text": "Por volta de 1720, sertanistas saídos do Vale do Paraíba cruzaram a serra em busca do caminho das minas de ouro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_IBGE",
+              "CJ_ALESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P10",
+            "factKey": "cidade-campos-jordao-F10",
+            "text": "O topônimo vem da transferência das terras, hipotecadas em 1824, a um brigadeiro de sobrenome Jordão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P11",
+            "factKey": "cidade-campos-jordao-F11",
+            "text": "Em 1874 surgiram pensões e casas de saúde, e abriram-se as primeiras picadas até Pindamonhangaba, no vale.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P12",
+            "factKey": "cidade-campos-jordao-F12",
+            "text": "Uma fazenda loteada em 1891 deu origem ao povoado Vila Jaguaribe, elevado a distrito em 1915.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P13",
+            "factKey": "cidade-campos-jordao-F13",
+            "text": "Estudos publicados em 1883 sobre o clima da Mantiqueira sustentaram o uso do ar serrano no tratamento da tuberculose.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_UNISAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P14",
+            "factKey": "cidade-campos-jordao-F14",
+            "text": "A procura por tratamento pulmonar multiplicou pensões e sanatórios, sobretudo depois da chegada dos trilhos.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CJ_IBGE",
+              "CJ_UNISAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P15",
+            "factKey": "cidade-campos-jordao-F15",
+            "text": "Dois médicos sanitaristas de Pindamonhangaba, Emílio Ribas e Victor Godinho, idealizaram a ferrovia que sobe do vale à serra.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CJ_UNISAL",
+              "CJ_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P16",
+            "factKey": "cidade-campos-jordao-F16",
+            "text": "A linha de 47 km foi inaugurada em 1914, encampada pelo Estado em 1916 e eletrificada em 1924.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CJ_UNISAL",
+              "CJ_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P17",
+            "factKey": "cidade-campos-jordao-F17",
+            "text": "Na subida da serra, a velocidade média dos trens caía para 16 km/h, metade da média nos trechos planos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CJ_UNISAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P18",
+            "factKey": "cidade-campos-jordao-F18",
+            "text": "A partir de 1970, com o crescimento do turismo, a ferrovia passou a operar só para esse fim.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CJ_UNISAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P19",
+            "factKey": "cidade-campos-jordao-F19",
+            "text": "Distrito desde 1915, tornou-se município em 1934, desmembrado do território vizinho a que pertencia.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CJ_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P20",
+            "factKey": "cidade-campos-jordao-F20",
+            "text": "Entre 1938 e 1944, o município incorporou e depois devolveu o distrito de Santo Antônio do Pinhal.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CJ_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P21",
+            "factKey": "cidade-campos-jordao-F21",
+            "text": "Pela estrada, o acesso sobe a serra pela SP-123, que parte da Via Dutra na altura do km 117.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_ALESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P22",
+            "factKey": "cidade-campos-jordao-F22",
+            "text": "Concertos realizados em 1970 no salão nobre de um palácio do governo deram origem a um festival de música.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_ABC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P23",
+            "factKey": "cidade-campos-jordao-F23",
+            "text": "Em 2008, o festival de inverno chegou à 39ª edição, com concertos espalhados por igrejas, praças e auditório.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_ALESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P24",
+            "factKey": "cidade-campos-jordao-F24",
+            "text": "O palácio de inverno do governo paulista, de 1964, foi declarado monumento público do Estado em 1970.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_ABC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-campos-jordao-geografo-P25",
+            "factKey": "cidade-campos-jordao-F25",
+            "text": "Arquitetura alpina e gastronomia de clima frio, como fondue e truta, sustentam a imagem de \"Suíça Brasileira\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CJ_OA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Município paulista da Serra da Mantiqueira, com sede a cerca de 1.628 m, emancipado de São Bento do Sapucaí em 1934; marcado pelo passado de tratamento da tuberculose, pela ferrovia de 1914 que sobe de Pindamonhangaba, pelo Horto Florestal (parque estadual de 1941), pelo Palácio Boa Vista e pelo Festival de Inverno.",
+      "editorialNotes": [
+        "A altitude de 1.628 m e os dados de clima vêm de reportagem (O Antagonista); o IBGE Cidades e o site da prefeitura não foram abertos, e a população do Censo 2022 saiu das pistas.",
+        "O artigo da UNISAL cita desnível de 1.339 m entre Piracuama e o Cacique; o número não foi usado. A ALESP lista a Pedra do Baú entre as atrações, mas ela não entrou (localização municipal não conferida).",
+        "C3 (1914) e C4 (São Bento do Sapucaí) conferidos no histórico do IBGE; calibrar a dificuldade em partidas."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes trocadas por IBGE (histórico), ALESP (notícia e decreto de 1941), UNISAL, Wikipedia e guias abertos na revisão; pistas reescritas e conferidas, sem população"
+    }
+  },
+  "sources": {
+    "CJ_IBGE": {
+      "id": "CJ_IBGE",
+      "title": "Campos do Jordão (SP): histórico e formação administrativa",
+      "publisher": "IBGE",
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/saopaulo/camposdojordao.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "CJ_UNISAL": {
+      "id": "CJ_UNISAL",
+      "title": "Artigo sobre a Estrada de Ferro Campos do Jordão e o tratamento da tuberculose (Revista Jornada)",
+      "publisher": "UNISAL",
+      "url": "https://revista.unisal.br/lo/index.php/revistajornada/article/view/153/156",
+      "checkedAt": "2026-11-15"
+    },
+    "CJ_ALESP": {
+      "id": "CJ_ALESP",
+      "title": "Campos do Jordão, a Suíça Brasileira",
+      "publisher": "Assembleia Legislativa do Estado de São Paulo",
+      "url": "https://www.al.sp.gov.br/noticia/?id=289336",
+      "checkedAt": "2026-11-15"
+    },
+    "CJ_DECRETO": {
+      "id": "CJ_DECRETO",
+      "title": "Decreto-Lei n. 11.908, de 27 de março de 1941 (cria o Parque Estadual)",
+      "publisher": "Assembleia Legislativa do Estado de São Paulo",
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/decreto.lei/1941/decreto.lei-11908-27.03.1941.html",
+      "checkedAt": "2026-11-15"
+    },
+    "CJ_PARQUE": {
+      "id": "CJ_PARQUE",
+      "title": "Campos do Jordão State Park",
+      "publisher": "Wikipedia (inglês)",
+      "url": "https://en.wikipedia.org/wiki/Campos_do_Jord%C3%A3o_State_Park",
+      "checkedAt": "2026-11-15"
+    },
+    "CJ_MD": {
+      "id": "CJ_MD",
+      "title": "Palácio Boa Vista",
+      "publisher": "Melhores Destinos",
+      "url": "https://guia.melhoresdestinos.com.br/palacio-boa-vista-119-2503-l.html",
+      "checkedAt": "2026-11-15"
+    },
+    "CJ_ABC": {
+      "id": "CJ_ABC",
+      "title": "Palácio Boa Vista celebra 60 anos com novas exposições e atividades culturais",
+      "publisher": "ABC do ABC",
+      "url": "https://abcdoabc.com.br/palacio-boa-vista-celebra-60-anos-com-novas-exposicoes-e-atividades-culturais/",
+      "checkedAt": "2026-11-15"
+    },
+    "CJ_OA": {
+      "id": "CJ_OA",
+      "title": "Cidade a 1.628 metros de altitude tem temperaturas que chegam a zero grau no inverno",
+      "publisher": "O Antagonista",
+      "url": "https://oantagonista.com.br/ladooa/entretenimento/cidade-a-1-628-metros-de-altitude-tem-temperaturas-que-chegam-a-zero-grau-no-inverno/",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://biblioteca.ibge.gov.br/visualizacao/dtb/saopaulo/camposdojordao.pdf",
+      "https://revista.unisal.br/lo/index.php/revistajornada/article/view/153/156",
+      "https://www.al.sp.gov.br/noticia/?id=289336",
+      "https://www.al.sp.gov.br/repositorio/legislacao/decreto.lei/1941/decreto.lei-11908-27.03.1941.html",
+      "https://en.wikipedia.org/wiki/Campos_do_Jord%C3%A3o_State_Park",
+      "https://guia.melhoresdestinos.com.br/palacio-boa-vista-119-2503-l.html",
+      "https://abcdoabc.com.br/palacio-boa-vista-celebra-60-anos-com-novas-exposicoes-e-atividades-culturais/",
+      "https://oantagonista.com.br/ladooa/entretenimento/cidade-a-1-628-metros-de-altitude-tem-temperaturas-que-chegam-a-zero-grau-no-inverno/"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho (site da prefeitura, plano de turismo, IBGE Cidades, guia de áreas protegidas) não foram abertas; trocadas por 8 fontes abertas via busca (IBGE Biblioteca, UNISAL, ALESP notícia, ALESP decreto-lei 1941, Wikipedia do parque, Melhores Destinos, ABC do ABC, O Antagonista)",
+      "C1–C4 mantidos (gabaritos conferidos: Mantiqueira, 1914, São Bento do Sapucaí); rótulo do C3 detalhado; fontes dos campos trocadas",
+      "Retiradas: população de 46.974 (IBGE Cidades não aberto), \"sanatórios no início do século XX\" sem data, pistas repetidas de altitude e de emancipação",
+      "Entraram: clima e altitude, Capivari, teleférico, ferrovia (47 km, 1914, 1916, 1924, 1970, Parada do Cacique), liteiras, origem do nome e do brasão, festival (1970, 39ª edição em 2008), Palácio Boa Vista (1964, acervo, capela), parque de 1941 (área, altitudes, vegetação, pínus, decreto)",
+      "Sinal ajustado: 2 aberturas e 2 decisivas por perfil (rascunho tinha 9 decisivas); relatedFields agora apontam C2–C4",
+      "viajante: 25 de 25 pistas reescritas ou trocadas; geografo: 25 de 25"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

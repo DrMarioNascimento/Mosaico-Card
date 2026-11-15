@@ -8,13 +8,13 @@ Um lugar só conta como jogável após ter os dois perfis completos, quatro camp
 
 | Recorte | Jogáveis | Meta | Faltam |
 |---|---:|---:|---:|
-| Brasil | 129 | 30 | 0 |
+| Brasil | 137 | 30 | 0 |
 | Américas (sem Brasil) | 30 | 30 | 0 |
-| Europa | 16 | 30 | 14 |
-| África | 19 | 30 | 11 |
-| Ásia | 15 | 30 | 15 |
-| Oceania | 19 | 30 | 11 |
-| Antártida | 25 | 30 | 5 |
+| Europa | 17 | 30 | 13 |
+| África | 22 | 30 | 8 |
+| Ásia | 17 | 30 | 13 |
+| Oceania | 20 | 30 | 10 |
+| Antártida | 27 | 30 | 3 |
 
 **Atenção:** o filtro Américas reúne lugares do continente fora do Brasil. Brasil e suas regiões constituem filtros próprios; selecionar ambos combina os destinos sem duplicar. Rapa Nui conta em Américas pela administração chilena e em Oceania pela posição polinésia. Os recortes ainda podem se sobrepor.
 
@@ -26,10 +26,10 @@ A meta é de 30 lugares jogáveis em cada uma das cinco regiões brasileiras. Es
 
 | Região | Jogáveis | Mínimo inicial | Faltam |
 |---|---:|---:|---:|
-| Norte | 28 | 30 | 2 |
-| Nordeste | 30 | 30 | 0 |
-| Centro-Oeste | 28 | 30 | 2 |
-| Sudeste | 18 | 30 | 12 |
+| Norte | 30 | 30 | 0 |
+| Nordeste | 31 | 30 | 0 |
+| Centro-Oeste | 30 | 30 | 0 |
+| Sudeste | 24 | 30 | 6 |
 | Sul | 31 | 30 | 0 |
 
 A tabela mostra as regiões que já atingiram ou ainda não atingiram a meta de 30. A diversidade e a dificuldade ainda precisam ser avaliadas em partidas.

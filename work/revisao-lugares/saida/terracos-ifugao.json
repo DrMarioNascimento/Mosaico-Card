@@ -1,0 +1,1082 @@
+{
+  "case": {
+    "id": "lug2-terracos-ifugao",
+    "placeId": "terracos-ifugao",
+    "title": "Terraços de arroz das Cordilheiras das Filipinas",
+    "aliases": [
+      "Terraços de Ifugao"
+    ],
+    "answerType": "paisagem agrícola",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "PH"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Paisagem agrícola",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Terraços de arroz das Cordilheiras das Filipinas"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Terraços de arroz de Honghe Hani"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Terraços de arroz de Longji"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Terraços de arroz de Mu Cang Chai"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Terraços de arroz de Sapa"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Terraços de arroz de Hoang Su Phi"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Terraços de arroz de Tegallalang"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Terraços de arroz de Jatiluwih"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Terraços de arroz da região de Chiang Mai"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Terraços de arroz de Shiroyone Senmaida"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Terraços de arroz das Cordilheiras das Filipinas",
+        "sources": [
+          "IFUGAO_MISSION2001",
+          "IFUGAO_PR2",
+          "IFUGAO_WIKI"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Povo que construiu e ainda mantém os terraços",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Ifugao"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Hani"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Hmong"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Balineses"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Ifugao",
+        "sources": [
+          "IFUGAO_MISSION2001",
+          "IFUGAO_PR2"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "De onde vem a água que irriga os terraços",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Florestas no alto das montanhas"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Degelo de geleiras"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Poços artesianos"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Reservatórios de barragens modernas"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Florestas no alto das montanhas",
+        "sources": [
+          "IFUGAO_PR2",
+          "IFUGAO_WIKI"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Ilha",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Luzon"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Mindanao"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Bali"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Java"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Luzon",
+        "sources": [
+          "IFUGAO_MISSION2001",
+          "IFUGAO_WIKI"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "terracos-ifugao-viajante-P01",
+            "factKey": "terracos-ifugao-F01",
+            "text": "Este lugar é uma paisagem de plantações em degraus nas montanhas da Ásia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_PR2"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P02",
+            "factKey": "terracos-ifugao-F02",
+            "text": "Os degraus foram esculpidos acompanhando as curvas naturais dos morros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_PR2"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P03",
+            "factKey": "terracos-ifugao-F03",
+            "text": "O cultivo principal é o arroz, em geral com uma única safra por ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2001",
+              "IFUGAO_MASTERPLAN"
+            ],
+            "clueType": "agricultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P04",
+            "factKey": "terracos-ifugao-F04",
+            "text": "Muitos degraus ficam em encostas muito íngremes, algumas com mais de 45 graus.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2001"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P05",
+            "factKey": "terracos-ifugao-F05",
+            "text": "A água vem das florestas no alto das montanhas e desce por canais de irrigação.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "IFUGAO_PR2",
+              "IFUGAO_WIKI"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P06",
+            "factKey": "terracos-ifugao-F06",
+            "text": "Os muros que seguram os degraus são de pedra ou de terra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_PR2",
+              "IFUGAO_WIKI"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P07",
+            "factKey": "terracos-ifugao-F07",
+            "text": "O povo que construiu esses campos é o mesmo que ainda cuida deles.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2001"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P08",
+            "factKey": "terracos-ifugao-F08",
+            "text": "Cada etapa do plantio e da colheita é marcada por cerimônias.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2001"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P09",
+            "factKey": "terracos-ifugao-F09",
+            "text": "Do arroz colhido se faz um vinho de arroz usado nas festas da comunidade e da família.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2001"
+            ],
+            "clueType": "comida",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P10",
+            "factKey": "terracos-ifugao-F10",
+            "text": "Cantos tradicionais chamados hudhud, entoados por mulheres mais velhas, acompanham o plantio e a colheita.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "IFUGAO_WIKI"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P11",
+            "factKey": "terracos-ifugao-F11",
+            "text": "Segundo os relatórios à UNESCO, essa forma de cultivo passa de geração em geração há cerca de 2.000 anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_PR2"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P12",
+            "factKey": "terracos-ifugao-F12",
+            "text": "A paisagem fica nas montanhas do norte de uma grande ilha de um arquipélago asiático.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2001"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P13",
+            "factKey": "terracos-ifugao-F13",
+            "text": "O conjunto reconhecido reúne cinco grupos de terraços em quatro municípios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2001",
+              "IFUGAO_PR2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P14",
+            "factKey": "terracos-ifugao-F14",
+            "text": "Cada família ou clã cuida também de um pedaço de mata, herdado junto com os campos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "IFUGAO_PR2",
+              "IFUGAO_MASTERPLAN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P15",
+            "factKey": "terracos-ifugao-F15",
+            "text": "Em alguns grupos, os campos ficam entre 800 e 900 metros de altitude.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MASTERPLAN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P16",
+            "factKey": "terracos-ifugao-F16",
+            "text": "Tufões e chuvas fortes podem derrubar muros e destruir canais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MASTERPLAN",
+              "IFUGAO_WIKI"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P17",
+            "factKey": "terracos-ifugao-F17",
+            "text": "Minhocas gigantes e caramujos são pragas que estragam os muros e diques dos campos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2001",
+              "IFUGAO_WIKI"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P18",
+            "factKey": "terracos-ifugao-F18",
+            "text": "Muitos jovens saíram da região, e faltam braços para cuidar dos campos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2005",
+              "IFUGAO_WIKI"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P19",
+            "factKey": "terracos-ifugao-F19",
+            "text": "Já em 2001, as casas tradicionais de madeira e palha eram raras, e o zinco ondulado tinha virado regra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2001"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P20",
+            "factKey": "terracos-ifugao-F20",
+            "text": "A UNESCO reconheceu a paisagem como Patrimônio Mundial em 1995.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2005",
+              "IFUGAO_WIKI"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P21",
+            "factKey": "terracos-ifugao-F21",
+            "text": "Entre 2001 e 2012, a paisagem esteve na lista do Patrimônio Mundial em Perigo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_SOC2012",
+              "IFUGAO_WIKI"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P22",
+            "factKey": "terracos-ifugao-F22",
+            "text": "Os conhecidos Terraços de Banaue não fazem parte da inscrição, por causa de construções modernas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_WIKI"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P23",
+            "factKey": "terracos-ifugao-F23",
+            "text": "Bangaan é ponto de partida para quem vai visitar Batad.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MASTERPLAN"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P24",
+            "factKey": "terracos-ifugao-F24",
+            "text": "Em Batad, os terraços têm forma de anfiteatro e atraem visitantes do mundo todo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MASTERPLAN"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-viajante-P25",
+            "factKey": "terracos-ifugao-F25",
+            "text": "A paisagem fica nas Filipinas, na província de Ifugao.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2001",
+              "IFUGAO_PR2"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "terracos-ifugao-geografo-P01",
+            "factKey": "terracos-ifugao-F01",
+            "text": "A unidade é uma paisagem agrícola de montanha ainda manejada pelo povo que a criou.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2001"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P02",
+            "factKey": "terracos-ifugao-F02",
+            "text": "O terraceamento converte encostas íngremes, algumas acima de 45°, em campos inundados planos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2001",
+              "IFUGAO_PR2"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P03",
+            "factKey": "terracos-ifugao-F03",
+            "text": "A água captada nas florestas dos cumes é distribuída por uma rede indígena de canais que ainda funciona.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "IFUGAO_PR2",
+              "IFUGAO_MASTERPLAN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P04",
+            "factKey": "terracos-ifugao-F04",
+            "text": "O sistema integra água, solo e floresta e permite cultivar arroz ano após ano, apesar de tufões e terremotos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2001"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P05",
+            "factKey": "terracos-ifugao-F05",
+            "text": "Os terraços funcionam como filtros da chuva e ficam saturados de água o ano inteiro.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "IFUGAO_WIKI"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P06",
+            "factKey": "terracos-ifugao-F06",
+            "text": "O muyong, mata manejada no alto de cada conjunto, protege as nascentes e fornece madeira e lenha.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "IFUGAO_MASTERPLAN",
+              "IFUGAO_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P07",
+            "factKey": "terracos-ifugao-F07",
+            "text": "A posse do muyong é ligada à dos terraços, e ambos passam por herança aos parentes.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "IFUGAO_PR2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P08",
+            "factKey": "terracos-ifugao-F08",
+            "text": "Os cinco conjuntos ficam nas montanhas do norte de Luzon, em quatro municípios de uma mesma província.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2001",
+              "IFUGAO_MISSION2005",
+              "IFUGAO_PR2"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P09",
+            "factKey": "terracos-ifugao-F09",
+            "text": "O bem é formado por cinco conjuntos separados de terraços, e não por uma área contínua.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2001",
+              "IFUGAO_MISSION2005"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P10",
+            "factKey": "terracos-ifugao-F10",
+            "text": "Os terraços alcançam altitudes maiores e encostas mais íngremes do que muitos outros sistemas de terraços.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_PR2",
+              "IFUGAO_WIKI"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P11",
+            "factKey": "terracos-ifugao-F11",
+            "text": "O calendário agrícola segue as fases da lua, e ervas processadas são usadas no controle de pragas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_PR2"
+            ],
+            "clueType": "agricultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P12",
+            "factKey": "terracos-ifugao-F12",
+            "text": "Os mumbaki, sacerdotes que conduzem o ritual baki, são responsáveis pela lei tradicional da comunidade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "IFUGAO_PR2"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P13",
+            "factKey": "terracos-ifugao-F13",
+            "text": "Rituais como o bakle, celebrado no fim da colheita do arroz, ainda são praticados.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "IFUGAO_MASTERPLAN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P14",
+            "factKey": "terracos-ifugao-F14",
+            "text": "Quando os campos são abandonados, os muros desabam depressa, e uma minhoca gigante acelera o colapso.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2001"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P15",
+            "factKey": "terracos-ifugao-F15",
+            "text": "Em 2001, estimava-se que 25% a 30% dos terraços estavam abandonados, sobretudo por emigração e falta de manutenção da irrigação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2001"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P16",
+            "factKey": "terracos-ifugao-F16",
+            "text": "O preço baixo do arroz nativo empurra agricultores para variedades híbridas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2005"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P17",
+            "factKey": "terracos-ifugao-F17",
+            "text": "O desmatamento causou erosão em algumas das bacias que alimentam o sistema.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2001"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P18",
+            "factKey": "terracos-ifugao-F18",
+            "text": "Estradas como a Kiangan–Tinoc danificaram terraços, canais e florestas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MASTERPLAN"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P19",
+            "factKey": "terracos-ifugao-F19",
+            "text": "Inscrita em 1995, a paisagem entrou na Lista em Perigo em 2001 e saiu dela em 2012.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MISSION2005",
+              "IFUGAO_SOC2012"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P20",
+            "factKey": "terracos-ifugao-F20",
+            "text": "Abandono, desenvolvimento desordenado, turismo sem planejamento e gestão ineficaz justificaram a inclusão na Lista em Perigo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_SOC2012"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P21",
+            "factKey": "terracos-ifugao-F21",
+            "text": "Em Hungduan, quase metade do município é floresta, e os terraços aparecem em manchas entre capim e arbustos.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "IFUGAO_MASTERPLAN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P22",
+            "factKey": "terracos-ifugao-F22",
+            "text": "No conjunto de Mayoyao, cerca de 78% da área agrícola é ocupada por arroz.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MASTERPLAN"
+            ],
+            "clueType": "agricultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P23",
+            "factKey": "terracos-ifugao-F23",
+            "text": "Os relatórios à UNESCO falam em cerca de 2.000 anos, mas pesquisas arqueológicas recentes situam a construção há uns 400 anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_PR2",
+              "IFUGAO_WIKI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P24",
+            "factKey": "terracos-ifugao-F24",
+            "text": "Batad, em anfiteatro, e Bangaan, com terraços em forma de pote, pertencem ao mesmo município.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_MASTERPLAN",
+              "IFUGAO_MISSION2001"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "terracos-ifugao-geografo-P25",
+            "factKey": "terracos-ifugao-F25",
+            "text": "Os Terraços de Banaue, alterados por construções modernas, ficaram fora da inscrição, mas dois conjuntos do mesmo município fazem parte dela.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IFUGAO_WIKI",
+              "IFUGAO_MISSION2001"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Paisagem cultural de terraços de arroz irrigados no norte de Luzon, nas Filipinas: cinco conjuntos na província de Ifugao (Batad, Bangaan, Hungduan, Mayoyao e Nagacadan), esculpidos em encostas íngremes e mantidos pelo povo ifugao com água das florestas dos cumes.",
+      "editorialNotes": [
+        "Idade: os relatórios à UNESCO falam em cerca de 2.000 anos; pesquisas do Ifugao Archaeological Project (citadas na Wikipedia) situam a construção há cerca de 400 anos. As pistas atribuem cada versão à sua fonte.",
+        "Grafias variam entre os documentos (Battad/Batad, Kiangdan/Kiangan, Mayoyoa/Mayoyao); o conjunto de Hungduan aparece como Inmilog-Abatan nos relatórios de 2001 e 2005.",
+        "Os Terraços de Banaue (tesouro cultural nacional) não fazem parte do bem; Batad e Bangaan, que fazem parte, ficam no município de Banaue."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos nos relatórios da UNESCO (missões de 2001 e 2005, relatório periódico, estado de conservação de 2012), no Plano Diretor 2015–2024 da província e na Wikipedia; C2–C4 e as 50 pistas refeitos, com alternativas plausíveis."
+    }
+  },
+  "sources": {
+    "IFUGAO_MISSION2001": {
+      "id": "IFUGAO_MISSION2001",
+      "title": "Report on Mission to the Rice Terraces of the Philippine Cordilleras (WHC-01/CONF.207/INF.5), 2001",
+      "publisher": "UNESCO World Heritage Centre (missão IUCN/ICOMOS)",
+      "url": "https://whc.unesco.org/document/1298",
+      "checkedAt": "2026-11-15"
+    },
+    "IFUGAO_MISSION2005": {
+      "id": "IFUGAO_MISSION2005",
+      "title": "Report of the Reactive Monitoring Mission to the Rice Terraces of the Philippine Cordilleras (2005)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/140182",
+      "checkedAt": "2026-11-15"
+    },
+    "IFUGAO_PR2": {
+      "id": "IFUGAO_PR2",
+      "title": "Periodic Report — Second Cycle, Section II: Rice Terraces of the Philippine Cordilleras (722)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/164728",
+      "checkedAt": "2026-11-15"
+    },
+    "IFUGAO_SOC2012": {
+      "id": "IFUGAO_SOC2012",
+      "title": "State of conservation: Rice Terraces of the Philippine Cordilleras (2012)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/149",
+      "checkedAt": "2026-11-15"
+    },
+    "IFUGAO_MASTERPLAN": {
+      "id": "IFUGAO_MASTERPLAN",
+      "title": "Ifugao Rice Terraces Master Plan 2015-2024",
+      "publisher": "Governo da Província de Ifugao / UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/139925",
+      "checkedAt": "2026-11-15"
+    },
+    "IFUGAO_WIKI": {
+      "id": "IFUGAO_WIKI",
+      "title": "Rice Terraces of the Philippine Cordilleras",
+      "publisher": "Wikipedia (en)",
+      "url": "https://en.wikipedia.org/wiki/Rice_Terraces_of_the_Philippine_Cordilleras",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/document/140182",
+      "https://whc.unesco.org/en/soc/149",
+      "https://whc.unesco.org/document/164728",
+      "https://whc.unesco.org/document/1298",
+      "https://en.wikipedia.org/wiki/Rice_Terraces_of_the_Philippine_Cordilleras",
+      "https://www.fao.org/giahs/around-the-world/detail/philippines-ifugao/en",
+      "https://whc.unesco.org/document/139925"
+    ],
+    "alteracoes": [
+      "Fonte ASIA_IFUGAO_UNESCO (whc.unesco.org/en/list/722, não aberta por regra do protocolo) substituída por relatórios da UNESCO (missão IUCN/ICOMOS de 2001, missão de 2005, relatório periódico do 2º ciclo, estado de conservação de 2012), Plano Diretor 2015–2024 da província (IFUGAO_MASTERPLAN) e Wikipedia. A página do FAO/GIAHS foi aberta, mas não usada (pouco conteúdo).",
+      "C1: entraram Hoang Su Phi e Shiroyone Senmaida (10 alternativas; ‘Terraços de Banaue’ ficou de fora por ser ambíguo).",
+      "C2: rótulo ‘Povo associado à paisagem’ → ‘Povo que construiu e ainda mantém os terraços’; ‘Khmer’ trocado por ‘Hmong’ (remete aos terraços vietnamitas do C1).",
+      "C3: ‘Estrutura tradicional que sustenta os terraços’ (distratores implausíveis, como concreto) trocado por ‘De onde vem a água que irriga os terraços’ (florestas dos cumes; relatório periódico e Wikipedia).",
+      "C4: ‘Honshu’ trocado por ‘Mindanao’, para que o país não baste para acertar a ilha.",
+      "Viajante: 25 pistas reescritas ou trocadas — entraram encostas de 45°, cerimônias, vinho de arroz, hudhud, 2.000 anos atribuídos aos relatórios, mata familiar herdada, 800–900 m, tufões, pragas, emigração, casas de zinco, Lista em Perigo 2001–2012, exclusão dos Terraços de Banaue, Bangaan e Batad (anfiteatro e país/província como decisivas); saíram ‘Mayoyao tem casas bale e celeiros alang’ e ‘Nagacadan é atravessado por um rio’ (sem apoio nas fontes abertas).",
+      "Geógrafo: 25 pistas reescritas para processos e relações (terraceamento de encostas, rede de canais, integração água–solo–floresta, terraços como filtros, muyong e herança, bem serial, calendário lunar, mumbaki e bakle, colapso dos muros com o abandono, 25–30% abandonados em 2001, arroz nativo × híbrido, desmatamento e erosão, estradas, Lista em Perigo e motivos, Hungduan, Mayoyao, controvérsia da idade); saíram ‘bale’/‘alang’ e o rio de Nagacadan.",
+      "Sinais: P01–P02 abertura e P24–P25 decisiva nos dois perfis; relatedFields distribuídos entre C1–C4."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

@@ -1,0 +1,1106 @@
+{
+  "case": {
+    "id": "lug3-aoraki",
+    "placeId": "aoraki",
+    "title": "Parque Nacional Aoraki/Monte Cook",
+    "aliases": [
+      "Parque Nacional Aoraki/Mount Cook"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "NZ"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional da Oceania",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional Aoraki/Monte Cook"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional Fiordland"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional Tongariro"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional Westland Tai Poutini"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional Mount Aspiring"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional Arthur's Pass"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional Abel Tasman"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional Kahurangi"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional Nelson Lakes"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional Paparoa"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional Rakiura"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional Kosciuszko"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Parque Nacional Cradle Mountain-Lake St Clair"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Parque Nacional Uluru-Kata Tjuta"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Parque Nacional Kakadu"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Parque Nacional Purnululu"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Parque Nacional dos Vulcões do Havaí"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Parque Nacional Haleakalā"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional Aoraki/Monte Cook",
+        "sources": [
+          "AORAKI_DOC",
+          "AORAKI_TEARA"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Geleira mais longa do país, que fica no parque",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Geleira Tasman (Haupapa)"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Geleira Franz Josef"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Geleira Fox"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Geleira Hooker"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Geleira Tasman (Haupapa)",
+        "sources": [
+          "AORAKI_DOC",
+          "AORAKI_DOC_TASMAN"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Iwi para quem a montanha mais alta do parque é o ancestral mais sagrado",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Ngāi Tahu"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Ngāti Tūwharetoa"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Te Arawa"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Tainui"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Ngāi Tahu",
+        "sources": [
+          "AORAKI_DOC_HIST",
+          "AORAKI_DOC"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Ano em que o cume da montanha mais alta foi alcançado pela primeira vez",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "1882"
+          },
+          {
+            "id": "C4-O2",
+            "text": "1894"
+          },
+          {
+            "id": "C4-O3",
+            "text": "1912"
+          },
+          {
+            "id": "C4-O4",
+            "text": "1953"
+          }
+        ],
+        "answerId": "C4-O2",
+        "answerText": "1894",
+        "sources": [
+          "AORAKI_DOC_HIST"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "aoraki-viajante-P01",
+            "factKey": "aoraki-F01",
+            "text": "Este lugar é território de alta montanha, de picos nevados e praticamente sem floresta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC",
+              "AORAKI_TEARA"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P02",
+            "factKey": "aoraki-F02",
+            "text": "Quem vem aqui costuma vir pelas montanhas: a área é famosa no mundo todo pelo montanhismo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC_HIST",
+              "AORAKI_TEARA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P03",
+            "factKey": "aoraki-F03",
+            "text": "As geleiras cobrem cerca de 40% da área do parque.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "AORAKI_DOC",
+              "AORAKI_TEARA"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P04",
+            "factKey": "aoraki-F04",
+            "text": "A maior geleira daqui é a mais longa do país, com cerca de 23 km de comprimento.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AORAKI_DOC"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P05",
+            "factKey": "aoraki-F05",
+            "text": "No verão, icebergs boiam no lago que fica na ponta da geleira principal; no inverno, o lago congela.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AORAKI_DOC_TASMAN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P06",
+            "factKey": "aoraki-F06",
+            "text": "Esse lago glacial nem existia antes de 1974 e cresce rápido à medida que o gelo derrete.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AORAKI_DOC_TASMAN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P07",
+            "factKey": "aoraki-F07",
+            "text": "Para ver o lago e a geleira do mirante, é preciso encarar uma subida de mais de 300 degraus.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AORAKI_DOC_TASMAN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P08",
+            "factKey": "aoraki-F08",
+            "text": "Perto do mirante há lagos que já foram azuis de degelo e hoje parecem verdes, porque passaram a ser alimentados pela chuva.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AORAKI_DOC_TASMAN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P09",
+            "factKey": "aoraki-F09",
+            "text": "Uma das plantas famosas daqui é chamada de \"lírio\" da montanha, mas é um ranúnculo: o maior botão-de-ouro do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC",
+              "AORAKI_TEARA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P10",
+            "factKey": "aoraki-F10",
+            "text": "O kea, um papagaio de montanha famoso pelas travessuras, vive por aqui.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC",
+              "AORAKI_DOC_TW"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P11",
+            "factKey": "aoraki-F11",
+            "text": "Mesmo sem floresta, há mais de 300 espécies de plantas, com muitos botões-de-ouro e margaridas de montanha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P12",
+            "factKey": "aoraki-F12",
+            "text": "Uma vilazinha alpina fica no fim da estrada, com centro de visitantes, posto de gasolina e poucas opções de café e restaurante.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P13",
+            "factKey": "aoraki-F13",
+            "text": "O hotel histórico da vila tem planetário e telescópios para observar o céu à noite.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC",
+              "AORAKI_DOC_HIST"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P14",
+            "factKey": "aoraki-F14",
+            "text": "Sem cidades por perto e com a iluminação da vila voltada para baixo, este é um dos melhores lugares do país para ver estrelas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P15",
+            "factKey": "aoraki-F15",
+            "text": "De carro, fica a cerca de 3,5 horas de Queenstown e 4,5 horas de Christchurch.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P16",
+            "factKey": "aoraki-F16",
+            "text": "De junho a setembro, a neve pode atrapalhar o acesso pela estrada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P17",
+            "factKey": "aoraki-F17",
+            "text": "Avalanches podem acontecer aqui em qualquer estação do ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P18",
+            "factKey": "aoraki-F18",
+            "text": "Para o povo maori da região, deixar lixo aqui é inaceitável, porque as águas que descem da montanha mais alta são sagradas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AORAKI_DOC"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P19",
+            "factKey": "aoraki-F19",
+            "text": "Em 1882, um clérigo irlandês e dois guias suíços chegaram a uns 20 m do topo da montanha mais alta, mas não completaram a subida.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "AORAKI_DOC_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P20",
+            "factKey": "aoraki-F20",
+            "text": "Os primeiros a pisar no cume foram três neozelandeses: Tom Fyfe, Jack Clarke e George Graham.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "AORAKI_DOC_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P21",
+            "factKey": "aoraki-F21",
+            "text": "Em 1925, uma pequena hidrelétrica foi construída num riacho para abastecer o hotel, que antes dependia de lareiras e fogões a lenha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P22",
+            "factKey": "aoraki-F22",
+            "text": "A eletricidade da rede nacional só chegou aqui em 1961.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P23",
+            "factKey": "aoraki-F23",
+            "text": "O kākī (pernilongo-preto), uma das aves mais raras do país, vive no leito entrelaçado de cascalho de um rio do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P24",
+            "factKey": "aoraki-F24",
+            "text": "Aqui fica a montanha mais alta da Nova Zelândia, com 3.724 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC",
+              "AORAKI_TEARA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-viajante-P25",
+            "factKey": "aoraki-F25",
+            "text": "A geleira Haupapa, a maior e mais longa do país, já aparece da estrada na entrada do parque, no fim da rodovia estadual 80.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "AORAKI_DOC",
+              "AORAKI_DOC_TASMAN"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "aoraki-geografo-P01",
+            "factKey": "aoraki-F26",
+            "text": "O parque integra uma área de patrimônio mundial cujas rochas, plantas e animais remontam ao tempo em que a região fazia parte do Gondwana, há cerca de 80 milhões de anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC_TW"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P02",
+            "factKey": "aoraki-F27",
+            "text": "Fiordes, lagos e vales escavados pelo gelo fazem do conjunto de que o parque faz parte um dos melhores exemplos de relevo glacial do Hemisfério Sul.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "AORAKI_DOC_TW"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P03",
+            "factKey": "aoraki-F28",
+            "text": "Aqui se alinham 19 picos acima de 3.000 m, na vertente leste dos Alpes do Sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_TEARA",
+              "AORAKI_DOC"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P04",
+            "factKey": "aoraki-F29",
+            "text": "Depois do pico principal, o mais alto do parque é o Monte Tasman, com 3.498 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_TEARA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P05",
+            "factKey": "aoraki-F04",
+            "text": "A geleira principal tem cerca de 23 km de comprimento, até 3 km de largura e 101 km²; perto da cascata de gelo Hochstetter, o gelo chega a uns 600 m de espessura.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AORAKI_DOC"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P06",
+            "factKey": "aoraki-F06",
+            "text": "O recuo da geleira principal, ligado à mudança do clima, abriu a partir de 1974 um lago proglacial que não para de crescer.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AORAKI_DOC_TASMAN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P07",
+            "factKey": "aoraki-F30",
+            "text": "O mirante sobre o lago glacial fica no alto de uma morena, muralha de detritos rochosos deixada pelo gelo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "AORAKI_DOC_TASMAN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P08",
+            "factKey": "aoraki-F31",
+            "text": "Cerca de 40 espécies de aves vivem no parque, apesar de a floresta ser praticamente ausente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P09",
+            "factKey": "aoraki-F32",
+            "text": "A carriça-das-rochas (piwauwau), tida como a única ave verdadeiramente alpina, atravessa o inverno nas bacias rochosas altas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P10",
+            "factKey": "aoraki-F33",
+            "text": "O parque guarda as cabeceiras do Pūkaki e do Tekapo, dois dos grandes lagos glaciais da bacia de Mackenzie.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "AORAKI_TEARA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P11",
+            "factKey": "aoraki-F34",
+            "text": "Criada em 1953, a área protegida tem 72.164 hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_TEARA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P12",
+            "factKey": "aoraki-F35",
+            "text": "Em 1986 o parque foi inscrito como patrimônio mundial junto com Westland e Fiordland; em 1990 passou a integrar um sítio maior do sudoeste neozelandês, que inclui também Mount Aspiring.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_TEARA"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P13",
+            "factKey": "aoraki-F36",
+            "text": "Esse sítio de patrimônio mundial soma 2,6 milhões de hectares, quase 10% da área terrestre do país, e reúne quatro parques nacionais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC_TW"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P14",
+            "factKey": "aoraki-F37",
+            "text": "O nome maori original do sítio de patrimônio mundial significa \"as águas da pedra verde\", em referência ao pounamu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC_TW"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P15",
+            "factKey": "aoraki-F38",
+            "text": "A montanha principal tem status de Tōpuni, descrito como símbolo público do manawhenua e do rangatiratanga do iwi.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AORAKI_DOC_HIST"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P16",
+            "factKey": "aoraki-F39",
+            "text": "Para o iwi local, o cume é a cabeça de um ancestral e não é apropriado escalá-lo, o que contrasta com a fama do lugar entre montanhistas.",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "AORAKI_DOC_HIST"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P17",
+            "factKey": "aoraki-F40",
+            "text": "A montanha é vista como a forma física de um ancestral, elo entre o mundo sobrenatural e o natural, e carrega tapu, ligado ao poder sobre a vida e a morte.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "AORAKI_DOC_HIST"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P18",
+            "factKey": "aoraki-F20",
+            "text": "A primeira subida completa ao ponto culminante do país veio 12 anos depois de uma tentativa que parou a 20 m do cume.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "AORAKI_DOC_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P19",
+            "factKey": "aoraki-F41",
+            "text": "Desde o início dos anos 1980, regras para a iluminação externa reduzem a poluição luminosa na região, o que beneficia o Observatório Mount John.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DARKSKY"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P20",
+            "factKey": "aoraki-F42",
+            "text": "Em 2012, o parque e a bacia de Mackenzie, na Ilha Sul, formaram uma reserva internacional de céu escuro com mais de 4.300 km², na época apenas a quarta do mundo e a maior delas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DARKSKY",
+              "AORAKI_RNZ"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P21",
+            "factKey": "aoraki-F21",
+            "text": "A hidrelétrica de 1925 no riacho Sawyer, que abasteceu o hotel até a chegada da rede nacional, hoje é protegida em estado de abandono.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC_HIST"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P22",
+            "factKey": "aoraki-F43",
+            "text": "Sem cidades nem vilas grandes por perto, a vila do parque depende de Twizel e Tekapo para supermercados e serviços.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P23",
+            "factKey": "aoraki-F44",
+            "text": "O hotel de montanha da vila é há muito tempo a imagem-cartaz do turismo de alto padrão nos Alpes do Sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "AORAKI_DOC_HIST"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P24",
+            "factKey": "aoraki-F45",
+            "text": "Tanto o parque quanto a montanha mais alta foram renomeados para incorporar o nome dado pelo Ngāi Tahu, ao lado do nome inglês.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "AORAKI_TEARA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "aoraki-geografo-P25",
+            "factKey": "aoraki-F46",
+            "text": "Aqui está o ponto culminante da Nova Zelândia, com 3.724 m, reverenciado pelo Ngāi Tahu como o mais sagrado de seus ancestrais.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "AORAKI_DOC",
+              "AORAKI_DOC_HIST"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque nacional alpino da Ilha Sul da Nova Zelândia, criado em 1953, que abriga o ponto culminante do país (3.724 m), ancestral mais sagrado do Ngāi Tahu, 19 picos acima de 3.000 m e geleiras que cobrem cerca de 40% da área, como a Haupapa/Tasman, a mais longa do país; integra o patrimônio mundial Te Wāhipounamu e a reserva de céu escuro Aoraki Mackenzie.",
+      "editorialNotes": [
+        "A página da UNESCO (sítio 551) não abriu nesta sessão; a inscrição de 1986 e a ampliação de 1990 vêm da Te Ara, e a área de 2,6 milhões de ha, do DOC. O DOC grafa o sítio de duas formas (Te Wāhipounamu e \"Te Waipounamu – South Westland\").",
+        "A RNZ (11/6/2012) chamou a reserva de céu escuro de \"apenas a quarta do mundo\" e a maior; os superlativos valem para 2012. A DarkSky dá 4.367 km².",
+        "A primeira ascensão (1894) e a tentativa de 1882 vêm da página histórica do DOC, que não traz o dia; a Te Ara traz a criação do parque (1953) e a área (72.164 ha)."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "AORAKI_DOC": {
+      "id": "AORAKI_DOC",
+      "title": "Aoraki/Mount Cook National Park",
+      "publisher": "Department of Conservation (Te Papa Atawhai)",
+      "url": "https://doc.govt.nz/aorakinationalpark",
+      "checkedAt": "2026-11-15"
+    },
+    "AORAKI_DOC_HIST": {
+      "id": "AORAKI_DOC_HIST",
+      "title": "History of Aoraki/Mount Cook",
+      "publisher": "Department of Conservation (Te Papa Atawhai)",
+      "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/historic-aoraki-mount-cook/",
+      "checkedAt": "2026-11-15"
+    },
+    "AORAKI_DOC_TASMAN": {
+      "id": "AORAKI_DOC_TASMAN",
+      "title": "Tasman Glacier View Track",
+      "publisher": "Department of Conservation (Te Papa Atawhai)",
+      "url": "https://doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/tracks/tasman-glacier-view-track",
+      "checkedAt": "2026-11-15"
+    },
+    "AORAKI_TEARA": {
+      "id": "AORAKI_TEARA",
+      "title": "National parks (Nancy Swarbrick)",
+      "publisher": "Te Ara – The Encyclopedia of New Zealand (Manatū Taonga)",
+      "url": "https://teara.govt.nz/mi/national-parks/print",
+      "checkedAt": "2026-11-15"
+    },
+    "AORAKI_DOC_TW": {
+      "id": "AORAKI_DOC_TW",
+      "title": "Te Wāhipounamu – South West New Zealand World Heritage Area",
+      "publisher": "Department of Conservation (Te Papa Atawhai)",
+      "url": "https://www.doc.govt.nz/te-wahipounamu",
+      "checkedAt": "2026-11-15"
+    },
+    "AORAKI_DARKSKY": {
+      "id": "AORAKI_DARKSKY",
+      "title": "Aoraki Mackenzie Dark Sky Reserve",
+      "publisher": "DarkSky International",
+      "url": "https://darksky.org/places/aoraki-mackenzie-dark-sky-reserve/",
+      "checkedAt": "2026-11-15"
+    },
+    "AORAKI_RNZ": {
+      "id": "AORAKI_RNZ",
+      "title": "Mackenzie Basin designated as dark sky reserve",
+      "publisher": "RNZ (Radio New Zealand)",
+      "url": "https://www.rnz.co.nz/news/national/107921/mackenzie-basin-designated-as-dark-sky-reserve",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://doc.govt.nz/aorakinationalpark",
+      "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/historic-aoraki-mount-cook/",
+      "https://doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/tracks/tasman-glacier-view-track",
+      "https://teara.govt.nz/mi/national-parks/print",
+      "https://www.doc.govt.nz/te-wahipounamu",
+      "https://darksky.org/places/aoraki-mackenzie-dark-sky-reserve/",
+      "https://www.rnz.co.nz/news/national/107921/mackenzie-basin-designated-as-dark-sky-reserve"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

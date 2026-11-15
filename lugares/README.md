@@ -242,6 +242,26 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Centro Arqueológico de Tiwanaku | Américas |
 | Torres | Brasil / Sul |
 | Wellington | Oceania |
+| Parque Nacional Aoraki/Monte Cook | Oceania |
+| Berlim | Europa |
+| Campos do Jordão | Brasil / Sudeste |
+| Santos | Brasil / Sudeste |
+| São Paulo | Brasil / Sudeste |
+| Vitória | Brasil / Sudeste |
+| Ilha Goudier e Base A de Port Lockroy | Antártida |
+| Mbanza Kongo | África |
+| Arquipélago do Marajó | Brasil / Norte |
+| Península Byers | Antártida |
+| Praga | Europa |
+| Rio Araguaia | Brasil / Norte e Centro-Oeste |
+| Rio Tocantins | Brasil / Norte e Centro-Oeste e Nordeste |
+| Ruínas de Kilwa Kisiwani e Songo Mnara | África |
+| Parque Nacional da Serra da Canastra | Brasil / Sudeste |
+| Sítio Roberto Burle Marx | Brasil / Sudeste |
+| Stone Town de Zanzibar | África |
+| Parque Nacional de Sundarbans | Ásia |
+| Tassili n’Ajjer | África |
+| Terraços de arroz das Cordilheiras das Filipinas | Ásia |
 
 | Parque Nacional do Catimbau | Brasil / Nordeste |
 | Parque Nacional de Ubajara | Brasil / Nordeste |
@@ -268,7 +288,7 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Belo Horizonte | Brasil / Sudeste |
 | Parque Nacional Los Glaciares | Américas |
 
-São 252 lugares, 504 conjuntos de pistas (dois por lugar), 12.600 pistas, 1.008 perguntas distintas e 6.728 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 269 lugares, 538 conjuntos de pistas (dois por lugar), 13.450 pistas, 1.076 perguntas distintas e 7.150 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 

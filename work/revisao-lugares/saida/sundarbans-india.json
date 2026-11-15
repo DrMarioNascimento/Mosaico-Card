@@ -1,0 +1,1076 @@
+{
+  "case": {
+    "id": "lug2-sundarbans-india",
+    "placeId": "sundarbans-india",
+    "title": "Parque Nacional de Sundarbans",
+    "aliases": [
+      "Sundarbans"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "IN"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional de Sundarbans"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional de Bhitarkanika"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional de Mui Ca Mau"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional de Xuan Thuy"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional Marinho do Golfo de Mannar"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional de Chitwan"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional de Kaziranga"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional de Keoladeo"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional de Ranthambore"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional de Bardia"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional de Ujung Kulon"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional de Yala"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Parque Nacional de Komodo"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Parque Nacional de Khao Yai"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional de Sundarbans",
+        "sources": [
+          "SUND_IUCN_WHO",
+          "SUND_STR2022",
+          "SUND_WBFD"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Ecossistema predominante",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Manguezal sujeito às marés"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Capinzais aluviais e florestas de sal"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Floresta seca decídua"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Banhados de água doce"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Manguezal sujeito às marés",
+        "sources": [
+          "SUND_IUCN_WHO",
+          "SUND_STR2022"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Felino que dá nome à reserva da qual o parque é o núcleo",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Tigre-de-bengala"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Leão-asiático"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Leopardo-das-neves"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Leopardo-nebuloso"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Tigre-de-bengala",
+        "sources": [
+          "SUND_WBFD",
+          "SUND_STR2022"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Processos que moldam a paisagem",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Marés e deposição de sedimentos dos rios"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Avanço e recuo de geleiras"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Erupções e derrames de lava"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Dissolução de calcário (carste)"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Marés e deposição de sedimentos dos rios",
+        "sources": [
+          "SUND_IUCN_WHO",
+          "SUND_WBFD"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "sundarbans-india-viajante-P01",
+            "factKey": "sundarbans-india-F01",
+            "text": "Este destino é uma floresta costeira inundada pelas marés, no sul da Ásia.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P02",
+            "factKey": "sundarbans-india-F02",
+            "text": "Por dentro da área protegida, só se circula de barco ou lancha.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SUND_WBFD"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P03",
+            "factKey": "sundarbans-india-F03",
+            "text": "O parque fica na Índia, no extremo sul do estado de Bengala Ocidental.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_WBFD",
+              "SUND_STR2022"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P04",
+            "factKey": "sundarbans-india-F04",
+            "text": "Ao sul, a área termina na Baía de Bengala.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_STR2022",
+              "SUND_WBFD"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P05",
+            "factKey": "sundarbans-india-F05",
+            "text": "As marés não param de redesenhar ilhas, canais e margens.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P06",
+            "factKey": "sundarbans-india-F06",
+            "text": "A paisagem faz parte de um delta formado pelos rios Ganges e Brahmaputra.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SUND_WBFD",
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P07",
+            "factKey": "sundarbans-india-F07",
+            "text": "A região tem 102 ilhas: 54 habitadas e 48 cobertas de floresta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_WBFD",
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P08",
+            "factKey": "sundarbans-india-F08",
+            "text": "O terreno é muito baixo: fica, em média, a uns 7 metros acima do nível do mar.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P09",
+            "factKey": "sundarbans-india-F09",
+            "text": "Esse delta abriga a maior floresta contínua de mangue do mundo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P10",
+            "factKey": "sundarbans-india-F10",
+            "text": "Os tigres daqui nadam muito bem e se adaptaram à água salgada.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SUND_WBFD"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P11",
+            "factKey": "sundarbans-india-F11",
+            "text": "O parque é o núcleo de uma reserva de tigres criada em 1973.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SUND_WBFD",
+              "SUND_STR2022"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P12",
+            "factKey": "sundarbans-india-F12",
+            "text": "Crocodilos-de-água-salgada vivem nos rios e canais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO",
+              "SUND_STR2022"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P13",
+            "factKey": "sundarbans-india-F13",
+            "text": "Golfinhos-do-ganges e golfinhos-do-irrawaddy nadam nessas águas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO",
+              "SUND_STR2022"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P14",
+            "factKey": "sundarbans-india-F14",
+            "text": "O gato-pescador, um felino ameaçado, também vive no manguezal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO",
+              "SUND_STR2022"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P15",
+            "factKey": "sundarbans-india-F15",
+            "text": "Tantas espécies de martim-pescador vivem ali que a região é chamada de paraíso dessas aves.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_WBFD",
+              "SUND_STR2022"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P16",
+            "factKey": "sundarbans-india-F16",
+            "text": "A tartaruga-oliva está entre as tartarugas marinhas que desovam na área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_STR2022",
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P17",
+            "factKey": "sundarbans-india-F17",
+            "text": "Hindus e muçulmanos veneram Bonbibi, a “senhora da floresta”, que protege contra os tigres.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_WBFD",
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P18",
+            "factKey": "sundarbans-india-F18",
+            "text": "Em abril e maio, coletores de mel entram na mata com licença do governo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_STR2022",
+              "SUND_WBFD"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P19",
+            "factKey": "sundarbans-india-F19",
+            "text": "Muitos moradores vivem da pesca e da coleta de filhotes de camarão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_WBFD"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P20",
+            "factKey": "sundarbans-india-F20",
+            "text": "Chove cerca de 1.900 mm por ano, e a melhor época para visitar vai de outubro a fevereiro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_WBFD"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P21",
+            "factKey": "sundarbans-india-F21",
+            "text": "Ciclones como o Aila (2009) e o Amphan (2020) castigaram a região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P22",
+            "factKey": "sundarbans-india-F22",
+            "text": "Cercas de rede de náilon ajudam a impedir que tigres entrem nas aldeias.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO",
+              "SUND_STR2022"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P23",
+            "factKey": "sundarbans-india-F23",
+            "text": "A UNESCO reconheceu o parque como Patrimônio Mundial em 1987.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO",
+              "SUND_WBFD"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P24",
+            "factKey": "sundarbans-india-F24",
+            "text": "Torres de observação como Sajnekhali, Sudhanyakhali e Dobanki recebem os visitantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_WBFD",
+              "SUND_STR2022"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-viajante-P25",
+            "factKey": "sundarbans-india-F25",
+            "text": "Do outro lado do rio Raimangal, a leste, a mesma floresta continua em Bangladesh.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_WBFD",
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "sundarbans-india-geografo-P01",
+            "factKey": "sundarbans-india-F01",
+            "text": "A unidade protege um ecossistema costeiro de manguezal no delta de grandes rios do sul da Ásia.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P02",
+            "factKey": "sundarbans-india-F02",
+            "text": "A ação das marés remodela a paisagem: a erosão predomina nos estuários e a deposição, nas margens.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P03",
+            "factKey": "sundarbans-india-F03",
+            "text": "Inundação pelas marés, assoreamento, colonização por plantas e formação do delta são processos em curso.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P04",
+            "factKey": "sundarbans-india-F04",
+            "text": "Ocupa o extremo sul do baixo delta do Ganges, entre o rio Matla, a oeste, e a fronteira com Bangladesh, a leste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_STR2022",
+              "SUND_WBFD"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P05",
+            "factKey": "sundarbans-india-F05",
+            "text": "O conjunto de mangue soma cerca de 10 mil km² de terra e água, mais da metade na Índia e o restante em Bangladesh.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P06",
+            "factKey": "sundarbans-india-F06",
+            "text": "O parque nacional, de 1.330 km², é o núcleo de uma reserva de tigres de cerca de 2.585 km².",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SUND_WBFD",
+              "SUND_STR2022"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P07",
+            "factKey": "sundarbans-india-F07",
+            "text": "As árvores do mangue retêm sedimentos e matéria orgânica, estabilizando o solo do delta.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P08",
+            "factKey": "sundarbans-india-F08",
+            "text": "Na parte indiana, 21.025 ha de terras se perderam entre 1969 e 2009; nas ilhas, a erosão supera a acreção.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P09",
+            "factKey": "sundarbans-india-F09",
+            "text": "Com altitude média de cerca de 7 m, o delta é muito vulnerável à subida do nível do mar.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P10",
+            "factKey": "sundarbans-india-F10",
+            "text": "A barragem de Farakka desviou em 1974 até 40% da vazão do Ganges na estação seca, o que aumentou a salinidade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P11",
+            "factKey": "sundarbans-india-F11",
+            "text": "Com a subida do mar, o aumento da salinidade tende a favorecer, por sucessão ecológica, espécies mais tolerantes ao sal.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P12",
+            "factKey": "sundarbans-india-F12",
+            "text": "A reserva concentra mais de 60% da área e cerca de 90% das espécies de mangue da Índia.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SUND_STR2022"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P13",
+            "factKey": "sundarbans-india-F13",
+            "text": "O conflito entre pessoas e tigres se concentra nas áreas de amortecimento e nas bordas do núcleo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P14",
+            "factKey": "sundarbans-india-F14",
+            "text": "Ciclones e rompimentos de diques deslocam tigres, que acabam entrando nas aldeias em busca de comida.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P15",
+            "factKey": "sundarbans-india-F15",
+            "text": "O censo de 2024 estimou entre 204 e 234 crocodilos-de-água-salgada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P16",
+            "factKey": "sundarbans-india-F16",
+            "text": "Duas das quatro espécies de límulo do mundo ocorrem na área, junto com golfinhos-do-ganges e do irrawaddy.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_STR2022"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P17",
+            "factKey": "sundarbans-india-F17",
+            "text": "O delta indiano tinha mais de 4,37 milhões de habitantes em 2011, perto de mil pessoas por km².",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P18",
+            "factKey": "sundarbans-india-F18",
+            "text": "Cerca de 300 mil pessoas dependem da floresta para obter madeira, peixe e mel.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P19",
+            "factKey": "sundarbans-india-F19",
+            "text": "Pesca ilegal, coleta de caranguejos e criação de camarão estão entre as ameaças consideradas altas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P20",
+            "factKey": "sundarbans-india-F20",
+            "text": "O mangue funciona como barreira contra ciclones e ressacas, protegendo as áreas habitadas do interior.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P21",
+            "factKey": "sundarbans-india-F21",
+            "text": "Reserva de tigres desde 1973, a área virou parque nacional em 1984 e Patrimônio Mundial em 1987.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SUND_STR2022",
+              "SUND_WBFD",
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P22",
+            "factKey": "sundarbans-india-F22",
+            "text": "É o núcleo de uma reserva da biosfera declarada em 1989 e integra um complexo de áreas úmidas da Convenção de Ramsar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_STR2022",
+              "SUND_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P23",
+            "factKey": "sundarbans-india-F23",
+            "text": "A devoção a Bonbibi, “senhora da floresta”, une comunidades hindus e muçulmanas diante do perigo dos tigres.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO",
+              "SUND_WBFD"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P24",
+            "factKey": "sundarbans-india-F24",
+            "text": "A sundri, árvore de mangue dominante no conjunto do delta, recuou e hoje se restringe ao setor leste da reserva.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO",
+              "SUND_WBFD"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sundarbans-india-geografo-P25",
+            "factKey": "sundarbans-india-F25",
+            "text": "A tartaruga-de-rio Batagur baska, criticamente ameaçada, é criada em tanques de reprodução em Sajnekhali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SUND_IUCN_WHO",
+              "SUND_STR2022"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque nacional da Índia, no extremo sul de Bengala Ocidental, que forma o núcleo da Reserva de Tigres de Sundarban: manguezal do delta do Ganges e do Brahmaputra, moldado pelas marés, com tigres-de-bengala que nadam entre os canais; a mesma floresta continua em Bangladesh, em outro sítio da UNESCO.",
+      "editorialNotes": [
+        "Tigres: a IUCN World Heritage Outlook (2025) traz números divergentes (62–96 em 2016; cerca de 101 em 2023; 196 na estimativa de 2022 para a reserva) e o relatório da reserva cita 96 (2019–2021); as pistas não usam número.",
+        "Espécies de mangue: cerca de 78 (IUCN) ou 84 espécies de mangue e associadas (Departamento Florestal de Bengala Ocidental). Martins-pescadores: 10 das 12 espécies indianas (página do Departamento) ou 8 (relatório 2021–22). As pistas evitam esses números.",
+        "O bem de Bangladesh (“The Sundarbans”) é inscrição separada e não entra nas alternativas do C1. A página do Departamento Florestal (wildbengal.com) traz texto de spam alheio ao conteúdo; os dados usados conferem com o relatório oficial da reserva."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na IUCN World Heritage Outlook (2025), no relatório anual 2021–22 da Reserva de Tigres e na página do Departamento Florestal de Bengala Ocidental; C1–C4 e as 50 pistas refeitos, com alternativas comparáveis."
+    }
+  },
+  "sources": {
+    "SUND_IUCN_WHO": {
+      "id": "SUND_IUCN_WHO",
+      "title": "Sundarbans National Park — Conservation Outlook Assessment (2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1021",
+      "checkedAt": "2026-11-15"
+    },
+    "SUND_STR2022": {
+      "id": "SUND_STR2022",
+      "title": "Sundarban Tiger Reserve — Annual Report 2021-22",
+      "publisher": "Directorate of Forests, Government of West Bengal",
+      "url": "https://www.sundarbantigerreserve.org/web/pdf/an_report/2021_22_annual_report.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "SUND_WBFD": {
+      "id": "SUND_WBFD",
+      "title": "Tiger Reserves: Sundarban",
+      "publisher": "Government of West Bengal — Directorate of Forests, Wildlife Wing",
+      "url": "https://wildbengal.com/sundarban.php",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://worldheritageoutlook.iucn.org/node/1021",
+      "https://www.sundarbantigerreserve.org/web/pdf/an_report/2021_22_annual_report.pdf",
+      "https://wildbengal.com/sundarban.php"
+    ],
+    "alteracoes": [
+      "Fontes ASIA_SUN_IND e ASIA_SUN_BD (whc.unesco.org/en/list/452 e /798, não abertas por regra do protocolo) substituídas por IUCN World Heritage Outlook 2025 (SUND_IUCN_WHO), relatório anual 2021–22 da Reserva de Tigres (SUND_STR2022) e página do Departamento Florestal de Bengala Ocidental (SUND_WBFD). A Wikipedia (en) foi tentada, mas o acesso foi recusado (redirecionamento sem permissão).",
+      "C1: rótulo ‘Parque ou reserva natural’ → ‘Parque nacional’; saíram Gunung Mulu e Kinabalu (montanha); entraram Bhitarkanika, Mui Ca Mau, Xuan Thuy e Golfo de Mannar (parques costeiros e de mangue).",
+      "C2: rótulo ‘Ecossistema costeiro predominante’ → ‘Ecossistema predominante’ (o rótulo antigo excluía os distratores); alternativas refeitas para remeter a outros parques do C1 (capinzais com sal, floresta seca, banhados).",
+      "C3: rótulo ‘Animal associado ao parque’ → ‘Felino que dá nome à reserva da qual o parque é o núcleo’; ‘Leopardo-indiano’ trocado por ‘Leopardo-nebuloso’ para evitar dúvida sobre ocorrência.",
+      "C4: alternativas reescritas (‘Marés e deposição de sedimentos dos rios’, geleiras, lava, carste), com apoio da IUCN.",
+      "Viajante: 25 pistas reescritas ou trocadas — números conferidos (102 ilhas, ~7 m, 1973, ~1.900 mm, 2009/2020, 1987); entraram barco como único transporte, adaptação do tigre à água salgada, gato-pescador, martins-pescadores, Bonbibi, coletores de mel, pesca de camarão, cercas de náilon, torres de observação e rio Raimangal (decisivas); saíram ‘A carta trata da área protegida situada na Índia’ e outras genéricas.",
+      "Geógrafo: 25 pistas reescritas para processos e relações (erosão × deposição, processos do delta, perda de terras 1969–2009, altitude e nível do mar, Farakka e salinidade, sucessão ecológica, 60%/90% dos mangues da Índia, distribuição do conflito com tigres, ciclones e diques, crocodilos 2024, límulos, densidade populacional, dependência da floresta, ameaças altas, papel de barreira, cronologia 1973–1984–1987, biosfera 1989 e Ramsar, sundri e Batagur baska em Sajnekhali como decisivas); retirada a pista de derramamento de óleo isolada e a de Sajnakhali sem apoio para aves migratórias.",
+      "Sinais: P01–P02 abertura e P24–P25 decisiva nos dois perfis; relatedFields distribuídos entre C1–C4."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

@@ -1,0 +1,1097 @@
+{
+ "case": {
+  "id": "lug3-praga",
+  "placeId": "praga",
+  "title": "Praga",
+  "aliases": [],
+  "answerType": "cidade",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "CZ"
+   ],
+   "continents": [
+    "europa"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Praga"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Viena"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Budapeste"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Bratislava"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Cracóvia"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Varsóvia"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Berlim"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Dresden"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Munique"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Salzburgo"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Liubliana"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Zagreb"
+     },
+     {
+      "id": "C1-O13",
+      "text": "Paris"
+     },
+     {
+      "id": "C1-O14",
+      "text": "Bruges"
+     },
+     {
+      "id": "C1-O15",
+      "text": "Tallinn"
+     },
+     {
+      "id": "C1-O16",
+      "text": "Riga"
+     },
+     {
+      "id": "C1-O17",
+      "text": "Vilnius"
+     },
+     {
+      "id": "C1-O18",
+      "text": "Florença"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Praga",
+    "sources": [
+     "PRAGA_BRIT"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Rio cujas duas margens o centro histórico ocupa",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Vltava"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Danúbio"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Vístula"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Elba"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Vltava",
+    "sources": [
+     "PRAGA_UNESCO",
+     "PRAGA_BRIT"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Imperador que teve sua capital na cidade de 1346 a 1378",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Carlos IV"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Rodolfo II"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Maximiliano I"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Frederico Barbarossa"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Carlos IV",
+    "sources": [
+     "PRAGA_BRIT_HISTORIA",
+     "PRAGA_UNESCO"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Atração instalada em 1410 na torre da antiga prefeitura",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Relógio astronômico"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Carrilhão de sinos"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Câmara escura"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Pêndulo de Foucault"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Relógio astronômico",
+    "sources": [
+     "PRAGA_RELOGIO"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "praga-viajante-P01",
+      "factKey": "praga-F01",
+      "text": "É uma capital da Europa Central com um centro histórico pontuado de torres, igrejas e palácios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P02",
+      "factKey": "praga-F02",
+      "text": "O lugar já era habitado no século IX.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_BRIT",
+       "PRAGA_BRIT_HISTORIA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P03",
+      "factKey": "praga-F03",
+      "text": "O centro histórico ocupa as duas margens de um rio.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P04",
+      "factKey": "praga-F04",
+      "text": "Esse rio é o Vltava.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PRAGA_UNESCO",
+       "PRAGA_BRIT"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P05",
+      "factKey": "praga-F05",
+      "text": "Uma ponte gótica, começada em 1357, liga a Cidade Velha à Cidade Pequena, do outro lado do rio.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "PRAGA_BRIT_HISTORIA",
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P06",
+      "factKey": "praga-F06",
+      "text": "Na margem esquerda ficam o castelo e a catedral de São Vito.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "PRAGA_BRIT_HISTORIA",
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P07",
+      "factKey": "praga-F07",
+      "text": "A praça da Cidade Velha é cercada de casas góticas com arcadas e núcleos românicos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P08",
+      "factKey": "praga-F08",
+      "text": "Na torre da antiga prefeitura há um relógio astronômico instalado em 1410.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PRAGA_RELOGIO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P09",
+      "factKey": "praga-F09",
+      "text": "A cada hora, das 9h às 23h, uma procissão dos doze apóstolos aparece no relógio.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PRAGA_RELOGIO"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P10",
+      "factKey": "praga-F10",
+      "text": "No relógio, um esqueleto toca o sino e vira uma ampulheta.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PRAGA_RELOGIO"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P11",
+      "factKey": "praga-F11",
+      "text": "Uma sinagoga do início do gótico, chamada Velha-Nova, fica no bairro judeu.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P12",
+      "factKey": "praga-F12",
+      "text": "Mozart está entre as figuras célebres ligadas à cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P13",
+      "factKey": "praga-F13",
+      "text": "Em 1348, um imperador fundou ali a primeira universidade da Europa Central.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "PRAGA_BRIT_HISTORIA",
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P14",
+      "factKey": "praga-F14",
+      "text": "Esse imperador, Carlos IV, teve sua capital na cidade de 1346 a 1378.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "PRAGA_BRIT_HISTORIA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P15",
+      "factKey": "praga-F15",
+      "text": "Ele mandou construir uma Cidade Nova, pensada como uma Nova Jerusalém.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P16",
+      "factKey": "praga-F16",
+      "text": "A Cidade Pequena foi fundada em 1257, ao pé das muralhas do castelo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_BRIT_HISTORIA"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P17",
+      "factKey": "praga-F17",
+      "text": "Em 1419 e em 1618, revoltosos jogaram autoridades pela janela, episódios chamados de defenestrações.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_BRIT_HISTORIA",
+       "PRAGA_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P18",
+      "factKey": "praga-F18",
+      "text": "Em 1620, os protestantes sofreram uma derrota decisiva na batalha da Montanha Branca, perto da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_BRIT_HISTORIA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P19",
+      "factKey": "praga-F19",
+      "text": "Em 1918, a cidade virou capital de uma Tchecoslováquia independente.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P20",
+      "factKey": "praga-F20",
+      "text": "Em 1968, tropas soviéticas e de outros países do Pacto de Varsóvia ocuparam a cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P21",
+      "factKey": "praga-F21",
+      "text": "Em 1989, a cidade foi o centro do movimento que derrubou pacificamente o governo comunista.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P22",
+      "factKey": "praga-F22",
+      "text": "A cidade é famosa por sua música, sua literatura e sua arquitetura.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_BRIT"
+      ],
+      "clueType": "cultura",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P23",
+      "factKey": "praga-F23",
+      "text": "Barreiras móveis contra enchentes protegeram o centro histórico nas cheias de junho de 2013.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PRAGA_RP_CICLO3",
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P24",
+      "factKey": "praga-F24",
+      "text": "Um parque paisagístico de 1885, a sudeste da cidade, também faz parte desse patrimônio da UNESCO.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-viajante-P25",
+      "factKey": "praga-F25",
+      "text": "É a capital da República Tcheca.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_BRIT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "praga-geografo-P01",
+      "factKey": "praga-F26",
+      "text": "Para a UNESCO, o centro ilustra o crescimento urbano contínuo da Idade Média até hoje.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P02",
+      "factKey": "praga-F27",
+      "text": "No século XIV, a cidade já era um dos principais centros culturais e comerciais da Europa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_BRIT"
+      ],
+      "clueType": "processo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P03",
+      "factKey": "praga-F03",
+      "text": "O centro se estende pelas duas margens do Vltava, com edifícios dos séculos XI ao XVIII.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P04",
+      "factKey": "praga-F29",
+      "text": "O núcleo mais antigo foi Vyšehrad, numa colina da margem direita; depois surgiu Hradčany, na margem esquerda.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "PRAGA_BRIT_HISTORIA"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P05",
+      "factKey": "praga-F30",
+      "text": "A dinastia dos Přemyslidas, de cerca de 800 a 1306, fez da cidade a base política do Estado boêmio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_BRIT_HISTORIA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P06",
+      "factKey": "praga-F31",
+      "text": "Uma área de mercado virou a Cidade Velha, que por volta de 1230 já tinha estatuto de burgo e muralhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_BRIT_HISTORIA"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P07",
+      "factKey": "praga-F16",
+      "text": "A Cidade Pequena nasceu em 1257 sob as muralhas do castelo, e a ponte de 1357 a ligou à Cidade Velha.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "PRAGA_BRIT_HISTORIA"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P08",
+      "factKey": "praga-F15",
+      "text": "O traçado medieval planejado da Cidade Nova cresceu sob o imperador que teve sua capital ali de 1346 a 1378.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "PRAGA_BRIT_HISTORIA",
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P09",
+      "factKey": "praga-F13",
+      "text": "A universidade de 1348 foi a primeira da Europa Central, e seu ambiente ajudou a formar as ideias do movimento hussita.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "PRAGA_BRIT_HISTORIA",
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P10",
+      "factKey": "praga-F35",
+      "text": "A UNESCO vê no movimento hussita os primeiros passos da Reforma europeia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P11",
+      "factKey": "praga-F36",
+      "text": "A cidade foi foco de oposição aos Habsburgo no início do século XVII, até a derrota protestante de 1620.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_BRIT",
+       "PRAGA_BRIT_HISTORIA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P12",
+      "factKey": "praga-F37",
+      "text": "O tratado que encerrou a Guerra Austro-Prussiana foi assinado ali em 1866.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P13",
+      "factKey": "praga-F11",
+      "text": "O gueto judeu se desenvolveu no reinado de Carlos IV e guarda uma sinagoga do início do gótico.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "PRAGA_BRIT_HISTORIA",
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P14",
+      "factKey": "praga-F39",
+      "text": "O alto barroco da primeira metade do século XVIII e o modernismo posterior a 1900 também marcam o conjunto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P15",
+      "factKey": "praga-F40",
+      "text": "O centro histórico tem 894,94 ha, e sua zona de amortecimento, de 9.015,89 ha, coincide com a zona de proteção da reserva urbana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_RP_CICLO3",
+       "PRAGA_RP_2014",
+       "PRAGA_UNESCO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P16",
+      "factKey": "praga-F24",
+      "text": "O bem do Patrimônio Mundial também inclui um parque paisagístico de 211,42 ha, criado em 1885 pelo conde Silva-Tarouca.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_UNESCO",
+       "PRAGA_RP_CICLO3"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P17",
+      "factKey": "praga-F42",
+      "text": "Construtoras pressionam por prédios grandes demais no centro e na zona de amortecimento, e cresce a pressão sobre os telhados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_UNESCO",
+       "PRAGA_RP_CICLO3"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P18",
+      "factKey": "praga-F43",
+      "text": "O trânsito da via expressa leste faz ruído excessivo, e a poluição do ar passa dos limites no centro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_RP_2014"
+      ],
+      "clueType": "urbanismo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P19",
+      "factKey": "praga-F44",
+      "text": "O turismo e o comércio pressionam o centro, onde o número de moradores permanentes diminui.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_RP_2014"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P20",
+      "factKey": "praga-F23",
+      "text": "Barreiras móveis contra cheias tiveram a eficácia comprovada nas enchentes de junho de 2013.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PRAGA_RP_CICLO3"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P21",
+      "factKey": "praga-F46",
+      "text": "A assembleia municipal aprovou um plano climático em 2021.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_RP_CICLO3"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P22",
+      "factKey": "praga-F19",
+      "text": "Em 1918, tornou-se capital de uma Tchecoslováquia independente; na Segunda Guerra, foi ocupada pela Alemanha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P23",
+      "factKey": "praga-F20",
+      "text": "Ocupada por tropas do Pacto de Varsóvia em 1968, foi em 1989 o centro da derrubada pacífica do regime comunista.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P24",
+      "factKey": "praga-F08",
+      "text": "O relógio astronômico de 1410 fica na face sul da torre da antiga prefeitura, com o mecanismo numa câmara de pedra.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PRAGA_RELOGIO"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "praga-geografo-P25",
+      "factKey": "praga-F25",
+      "text": "É a capital e o principal centro econômico e cultural da República Tcheca.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PRAGA_BRIT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Capital da República Tcheca, com o centro histórico nas duas margens do Vltava: Cidade Velha, Cidade Pequena e a Cidade Nova do imperador Carlos IV, a ponte gótica de 1357 e o relógio astronômico de 1410.",
+   "editorialNotes": [
+    "A UNESCO e a Britannica ligam o ano de 1348 à fundação da universidade; a Cidade Nova é do reinado de Carlos IV, mas nenhuma fonte aberta deu a data exata de sua fundação.",
+    "O bem do Patrimônio Mundial (inscrito em 1992, segundo os relatórios periódicos) hoje é um bem em série com o Parque de Průhonice, a sudeste da cidade; as áreas (894,94 ha e 211,42 ha) vêm desses relatórios.",
+    "A Britannica dá a ponte de 1357 como reconstruída em 1970."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Criado e verificado nas fontes: página e relatórios periódicos da UNESCO, Britannica (resumo e história) e Prague City Tourism; C1 com 18 cidades europeias, sobretudo da Europa Central."
+  }
+ },
+ "sources": {
+  "PRAGA_UNESCO": {
+   "id": "PRAGA_UNESCO",
+   "title": "Historic Centre of Prague",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/list/616",
+   "checkedAt": "2026-11-15"
+  },
+  "PRAGA_RP_CICLO3": {
+   "id": "PRAGA_RP_CICLO3",
+   "title": "Historic Centre of Prague — Periodic Report (Third Cycle), Section II",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/217889",
+   "checkedAt": "2026-11-15"
+  },
+  "PRAGA_RP_2014": {
+   "id": "PRAGA_RP_2014",
+   "title": "Periodic Report - Second Cycle, Section II: Historic Centre of Prague (2014)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/164098",
+   "checkedAt": "2026-11-15"
+  },
+  "PRAGA_BRIT": {
+   "id": "PRAGA_BRIT",
+   "title": "Prague (summary)",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/summary/Prague",
+   "checkedAt": "2026-11-15"
+  },
+  "PRAGA_BRIT_HISTORIA": {
+   "id": "PRAGA_BRIT_HISTORIA",
+   "title": "History of Prague",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/place/Prague/History",
+   "checkedAt": "2026-11-15"
+  },
+  "PRAGA_RELOGIO": {
+   "id": "PRAGA_RELOGIO",
+   "title": "Astronomical Clock",
+   "publisher": "Prague City Tourism",
+   "url": "https://prague.eu/en/objevujte/astronomical-clock",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://whc.unesco.org/en/list/616",
+   "https://whc.unesco.org/document/217889",
+   "https://whc.unesco.org/document/164098",
+   "https://www.britannica.com/summary/Prague",
+   "https://www.britannica.com/place/Prague/History",
+   "https://prague.eu/en/objevujte/astronomical-clock"
+  ],
+  "alteracoes": [
+   "criado do zero"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

@@ -1,0 +1,1072 @@
+{
+  "case": {
+    "id": "lug2-sitio-burle-marx",
+    "placeId": "sitio-burle-marx",
+    "title": "Sítio Roberto Burle Marx",
+    "aliases": [
+      "Roberto Burle Marx",
+      "Burle Marx"
+    ],
+    "answerType": "jardim histórico",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sudeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Jardim ou parque",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Sítio Roberto Burle Marx"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Jardim Botânico do Rio de Janeiro"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Jardim Botânico de São Paulo"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Jardim Botânico de Curitiba"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Jardim Botânico de Brasília"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Jardim Botânico de Belo Horizonte"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Jardim Botânico de Porto Alegre"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Jardim Botânico de Bauru"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Jardim Botânico de Niterói"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Jardim Botânico de Santos"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Passeio Público do Rio de Janeiro"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Lage"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Sítio Roberto Burle Marx",
+        "sources": [
+          "BURLE_UNESCO",
+          "BURLE_CBD_JB"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Órgão federal que administra o sítio",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Iphan"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Ibram"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Jardim Botânico do Rio de Janeiro (JBRJ)"
+          },
+          {
+            "id": "C2-O4",
+            "text": "ICMBio"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Iphan",
+        "sources": [
+          "BURLE_BDF_2021",
+          "BURLE_ABR_2022",
+          "BURLE_UNESCO"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Categoria da inscrição como Patrimônio Mundial",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Paisagem cultural"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Bem natural"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Bem misto (cultural e natural)"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Conjunto arquitetônico"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Paisagem cultural",
+        "sources": [
+          "BURLE_UNESCO_DEC",
+          "BURLE_BDF_2021"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Localização",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Barra de Guaratiba, Rio de Janeiro"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Pampulha, Belo Horizonte"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Parque Ibirapuera, São Paulo"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Santa Teresa, Rio de Janeiro"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Barra de Guaratiba, Rio de Janeiro",
+        "sources": [
+          "BURLE_UNESCO",
+          "BURLE_ABR_2022"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "sitio-burle-marx-viajante-P01",
+            "factKey": "sitio-burle-marx-F01",
+            "text": "É um lugar de jardins, com casa, outras construções e uma enorme coleção de plantas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO",
+              "BURLE_ABR_2022"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P02",
+            "factKey": "sitio-burle-marx-F02",
+            "text": "Fica numa área de morros de uma grande cidade brasileira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P03",
+            "factKey": "sitio-burle-marx-F03",
+            "text": "Está na zona oeste de uma capital do Sudeste.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BURLE_UNESCO",
+              "BURLE_ABR_2022"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P04",
+            "factKey": "sitio-burle-marx-F04",
+            "text": "Um artista e paisagista desenvolveu o lugar por mais de 40 anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P05",
+            "factKey": "sitio-burle-marx-F05",
+            "text": "Tudo começou em 1949, quando ele comprou a propriedade junto com um irmão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_ABR_2022",
+              "BURLE_BDF_2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P06",
+            "factKey": "sitio-burle-marx-F06",
+            "text": "Algumas espécies novas que o criador encontrou em expedições levam o nome dele.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_ABR_2022"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P07",
+            "factKey": "sitio-burle-marx-F07",
+            "text": "Cerca de 3.500 espécies de plantas tropicais e subtropicais crescem ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO",
+              "BURLE_ABR_2022"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P08",
+            "factKey": "sitio-burle-marx-F08",
+            "text": "Os jardins têm formas curvas, plantas em grandes massas e contrastes fortes de cor.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P09",
+            "factKey": "sitio-burle-marx-F09",
+            "text": "Quadros abstratos serviram de base para o desenho dos jardins.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P10",
+            "factKey": "sitio-burle-marx-F10",
+            "text": "Muitas plantas vieram de expedições pelos biomas brasileiros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_ABR_2022"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P11",
+            "factKey": "sitio-burle-marx-F11",
+            "text": "A diretora do lugar diz que o jardim tropical moderno criado ali foi \"uma mudança de paradigma no paisagismo\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_ABR_2022"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P12",
+            "factKey": "sitio-burle-marx-F12",
+            "text": "A casa onde o artista morou guarda objetos pessoais, obras de arte e uma coleção de arte popular.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_ABR_2022"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P13",
+            "factKey": "sitio-burle-marx-F13",
+            "text": "Calçamentos, cascatas, portas e fachadas foram feitos com materiais de prédios demolidos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_ABR_2022"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P14",
+            "factKey": "sitio-burle-marx-F14",
+            "text": "A área florestal soma cerca de 407 mil m².",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_BDF_2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P15",
+            "factKey": "sitio-burle-marx-F15",
+            "text": "Em 1985, o dono doou o sítio ao governo federal, ainda em vida.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BURLE_ABR_2022",
+              "BURLE_BDF_2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P16",
+            "factKey": "sitio-burle-marx-F16",
+            "text": "Desde 1994, a gestão é do instituto federal do patrimônio histórico e artístico.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BURLE_BDF_2021",
+              "BURLE_ABR_2022"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P17",
+            "factKey": "sitio-burle-marx-F17",
+            "text": "Em julho de 2021, a UNESCO o incluiu na lista do Patrimônio Mundial como paisagem cultural.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BURLE_BDF_2021",
+              "BURLE_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P18",
+            "factKey": "sitio-burle-marx-F18",
+            "text": "Foi o 23º bem brasileiro a entrar na lista do Patrimônio Mundial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_BDF_2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P19",
+            "factKey": "sitio-burle-marx-F19",
+            "text": "O criador queria fazer jardins em que \"o povo pudesse participar\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_ABR_2022"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P20",
+            "factKey": "sitio-burle-marx-F20",
+            "text": "Além do órgão federal, um instituto estadual do patrimônio também protege o local.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P21",
+            "factKey": "sitio-burle-marx-F21",
+            "text": "Dentro da área há Mata Atlântica, manguezal e restinga.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P22",
+            "factKey": "sitio-burle-marx-F22",
+            "text": "O criador, que viveu de 1909 a 1994, fez do lugar um laboratório para conhecer o comportamento da flora brasileira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO",
+              "BURLE_ABR_2022"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P23",
+            "factKey": "sitio-burle-marx-F23",
+            "text": "A UNESCO pediu reforço na prevenção de incêndios no local e no entorno.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P24",
+            "factKey": "sitio-burle-marx-F24",
+            "text": "Fica numa área montanhosa do bairro de Barra de Guaratiba.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BURLE_UNESCO",
+              "BURLE_ABR_2022"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-viajante-P25",
+            "factKey": "sitio-burle-marx-F25",
+            "text": "O lugar recebe visitantes, que podem percorrer a propriedade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_ABR_2022"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "sitio-burle-marx-geografo-P01",
+            "factKey": "sitio-burle-marx-F01",
+            "text": "Bem cultural que reúne jardins projetados, edificações e coleções botânicas vivas numa só propriedade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P02",
+            "factKey": "sitio-burle-marx-F02",
+            "text": "A propriedade ocupa área montanhosa entre manguezais e Mata Atlântica nativa, com trechos de restinga, a planície arenosa costeira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P03",
+            "factKey": "sitio-burle-marx-F03",
+            "text": "Localiza-se na zona oeste de uma metrópole do Sudeste.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P04",
+            "factKey": "sitio-burle-marx-F04",
+            "text": "Serviu de laboratório paisagístico em que ideias da arte moderna europeia foram adaptadas à flora tropical nativa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO",
+              "BURLE_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P05",
+            "factKey": "sitio-burle-marx-F05",
+            "text": "Pelo critério (iv), a UNESCO o considera exemplo de um novo tipo de paisagismo, depois chamado de jardim tropical moderno.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BURLE_UNESCO_DEC",
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P06",
+            "factKey": "sitio-burle-marx-F06",
+            "text": "Pelo critério (ii), o intercâmbio de ideias ali gestado influenciou parques e jardins pelo mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P07",
+            "factKey": "sitio-burle-marx-F07",
+            "text": "Traçados sinuosos e arranjos arquitetônicos de plantas estruturam o desenho dos jardins.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P08",
+            "factKey": "sitio-burle-marx-F08",
+            "text": "Muitas plantas tropicais nativas coletadas e cultivadas ali foram popularizadas no paisagismo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P09",
+            "factKey": "sitio-burle-marx-F09",
+            "text": "Expedições pelos biomas brasileiros alimentaram a coleção e renderam cerca de 50 espécies novas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_ABR_2022"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P10",
+            "factKey": "sitio-burle-marx-F10",
+            "text": "No fim da década de 1960, abrigava a coleção mais representativa de plantas brasileiras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P11",
+            "factKey": "sitio-burle-marx-F11",
+            "text": "A linguagem do conjunto incorpora elementos da cultura popular tradicional luso-brasileira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P12",
+            "factKey": "sitio-burle-marx-F12",
+            "text": "As cerca de 3.500 espécies cultivadas, tropicais e subtropicais, convivem com a vegetação nativa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P13",
+            "factKey": "sitio-burle-marx-F13",
+            "text": "A proteção é feita em nível federal pelo IPHAN e em nível estadual pelo INEPAC.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P14",
+            "factKey": "sitio-burle-marx-F14",
+            "text": "A UNESCO recomendou proteger a zona de amortecimento contra a pressão urbana, incluindo as vistas a partir da propriedade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P15",
+            "factKey": "sitio-burle-marx-F15",
+            "text": "Sem um plano de conservação, os atributos do jardim ficam vulneráveis a mudanças graduais, alerta a UNESCO.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P16",
+            "factKey": "sitio-burle-marx-F16",
+            "text": "Um novo plano de gestão deveria atualizar o plano estratégico de 2012–2018, com um comitê que inclui sociedade civil e especialistas externos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P17",
+            "factKey": "sitio-burle-marx-F17",
+            "text": "Doado ao governo federal em 1985, passou a ser gerido pelo órgão federal de patrimônio a partir de 1994.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BURLE_BDF_2021",
+              "BURLE_ABR_2022"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P18",
+            "factKey": "sitio-burle-marx-F18",
+            "text": "A construção paisagística começou em 1949 e se estendeu por mais de quatro décadas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P19",
+            "factKey": "sitio-burle-marx-F19",
+            "text": "Os limites do bem incluem todas as terras que o paisagista adquiriu ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P20",
+            "factKey": "sitio-burle-marx-F20",
+            "text": "A decisão 44 COM 8B.27, de 2021, inscreveu o bem na categoria de paisagem cultural.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BURLE_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P21",
+            "factKey": "sitio-burle-marx-F21",
+            "text": "A autenticidade abrange forma, desenho, materiais (inclusive as plantas vivas) e as ideias que o lugar transmite.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P22",
+            "factKey": "sitio-burle-marx-F22",
+            "text": "O sítio fica no bairro de Barra de Guaratiba, numa área montanhosa da zona oeste carioca.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P23",
+            "factKey": "sitio-burle-marx-F23",
+            "text": "A UNESCO destaca que o autor levou a estética da pintura para o paisagismo, usando quadros abstratos como base dos projetos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P24",
+            "factKey": "sitio-burle-marx-F24",
+            "text": "Segundo a UNESCO, o papel de laboratório de projeto se encerrou, e a documentação dos atributos precisa melhorar muito.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "sitio-burle-marx-geografo-P25",
+            "factKey": "sitio-burle-marx-F25",
+            "text": "O antigo Sítio Santo Antônio da Bica foi comprado em 1949 pelo paisagista e pelo irmão, Guilherme Siegfried.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BURLE_BDF_2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Antigo Sítio Santo Antônio da Bica, numa área montanhosa de Barra de Guaratiba, na zona oeste do Rio de Janeiro, comprado em 1949 por Roberto Burle Marx (1909–1994) e o irmão; foi o laboratório onde ele fundiu a arte moderna à flora tropical nativa, com cerca de 3.500 espécies cultivadas entre Mata Atlântica, manguezal e restinga; doado ao governo federal em 1985, é gerido pelo Iphan desde 1994 e foi inscrito em 2021 como Patrimônio Mundial, na categoria paisagem cultural.",
+      "editorialNotes": [
+        "Número de espécies: \"cerca de 3.500\" (UNESCO) ou \"mais de 3.500\" (Agência Brasil e Brasil de Fato); as pistas usam \"cerca de\".",
+        "O irmão aparece como Siegfried (Agência Brasil) ou Guilherme Siegfried (Brasil de Fato). A área florestal de 407 mil m² vem do Brasil de Fato; a ficha da UNESCO aberta não traz a área em hectares."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fonte única do rascunho (ficha da UNESCO) aberta e completada com a decisão 44 COM 8B.27, Agência Brasil (2022) e Brasil de Fato (2021); C1 conferido na lista de jardins botânicos da CBD (Salvador trocado por Bauru); C2 e C3 trocados por campos menos óbvios; 50 pistas conferidas"
+    }
+  },
+  "sources": {
+    "BURLE_UNESCO": {
+      "id": "BURLE_UNESCO",
+      "title": "Sítio Roberto Burle Marx (ficha do Patrimônio Mundial, ref. 1620)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1620/lother=ja",
+      "checkedAt": "2026-11-15"
+    },
+    "BURLE_UNESCO_DEC": {
+      "id": "BURLE_UNESCO_DEC",
+      "title": "Decisão 44 COM 8B.27 — Sítio Roberto Burle Marx (Brasil)",
+      "publisher": "Comitê do Patrimônio Mundial da UNESCO (2021)",
+      "url": "https://whc.unesco.org/en/decisions/7946",
+      "checkedAt": "2026-11-15"
+    },
+    "BURLE_ABR_2022": {
+      "id": "BURLE_ABR_2022",
+      "title": "Sítio Roberto Burle Marx, um legado para a humanidade",
+      "publisher": "Agência Brasil (24/07/2022)",
+      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2022-07/sitio-roberto-burle-marx-um-legado-para-humanidade",
+      "checkedAt": "2026-11-15"
+    },
+    "BURLE_BDF_2021": {
+      "id": "BURLE_BDF_2021",
+      "title": "Sítio Burle Marx, na zona oeste do Rio de Janeiro, vira Patrimônio Mundial da Unesco",
+      "publisher": "Brasil de Fato (28/07/2021, com informações da Agência Brasil)",
+      "url": "https://www.brasildefato.com.br/2021/07/28/sitio-burle-marx-na-zona-oeste-do-rio-vira-patrimonio-mundial-da-unesco/",
+      "checkedAt": "2026-11-15"
+    },
+    "BURLE_CBD_JB": {
+      "id": "BURLE_CBD_JB",
+      "title": "Botanic gardens of Brazil (lista baseada no Directory of the Botanical Gardens of Brazil, Rede Brasileira de Jardins Botânicos, 2000)",
+      "publisher": "Convention on Biological Diversity (CBD)",
+      "url": "https://www.cbd.int/doc/world/br/br-ex-bg-en.pdf",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/en/list/1620/lother=ja",
+      "https://whc.unesco.org/en/decisions/7946",
+      "https://agenciabrasil.ebc.com.br/geral/noticia/2022-07/sitio-roberto-burle-marx-um-legado-para-humanidade",
+      "https://www.brasildefato.com.br/2021/07/28/sitio-burle-marx-na-zona-oeste-do-rio-vira-patrimonio-mundial-da-unesco/",
+      "https://www.cbd.int/doc/world/br/br-ex-bg-en.pdf"
+    ],
+    "alteracoes": [
+      "Fonte SUDESTE_BURLE (ficha da UNESCO) aberta e renomeada BURLE_UNESCO (URL como aberta pela busca); acrescentadas BURLE_UNESCO_DEC (decisão 44 COM 8B.27, 2021), BURLE_ABR_2022, BURLE_BDF_2021 e BURLE_CBD_JB",
+      "C1: existência conferida na lista de jardins botânicos do Brasil da CBD (diretório da Rede Brasileira de Jardins Botânicos, 2000) para Niterói, Santos (\"Chico Mendes\"), Rio, São Paulo, Curitiba, Brasília, Belo Horizonte (Fundação Zoo-Botânica), Porto Alegre e Bauru; Jardim Botânico de Salvador, ausente da lista, trocado pelo de Bauru; Passeio Público do Rio de Janeiro e Parque Lage mantidos; rótulo \"Jardim ou parque\"",
+      "C2: \"Atuação associada ao criador\" saiu (o distrator \"Engenharia florestal e botânica\" também cabia em parte ao criador, coletor de plantas); entrou \"Órgão federal que administra o sítio\", gabarito Iphan (Brasil de Fato e Agência Brasil)",
+      "C3: \"Concepção paisagística\" saiu (só \"jardim tropical modernista\" combinava com um sítio brasileiro); entrou \"Categoria da inscrição como Patrimônio Mundial\", gabarito Paisagem cultural (decisão da UNESCO de 2021)",
+      "C4: distrator \"Ilha de Vitória, Espírito Santo\" trocado por \"Santa Teresa, Rio de Janeiro\"; gabarito Barra de Guaratiba conferido",
+      "pistas genéricas ou repetidas (influência do modernismo em duas cartas, Mata Atlântica/manguezal/restinga em três cartas cada perfil, \"contrastes de cor\", \"o Iphan participa\") reescritas ou trocadas por fatos verificados: compra com o irmão, antigo nome Sítio Santo Antônio da Bica, expedições e espécies novas, casa e arte popular, materiais de demolição, doação de 1985 e gestão do Iphan desde 1994, INEPAC, área florestal, 23º bem brasileiro, critérios (ii) e (iv), recomendações da UNESCO (incêndio, zona de amortecimento), integridade e autenticidade",
+      "sinal ajustado para 2 aberturas e 2 decisivas por perfil; relatedFields distribuídos entre C1–C4",
+      "viajante: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)",
+      "geografo: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

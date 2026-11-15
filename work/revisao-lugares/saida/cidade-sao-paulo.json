@@ -1,0 +1,1089 @@
+{
+  "case": {
+    "id": "lug2-cidade-sao-paulo",
+    "placeId": "cidade-sao-paulo",
+    "title": "São Paulo",
+    "aliases": [
+      "Cidade de São Paulo"
+    ],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sudeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Capital brasileira",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "São Paulo"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Rio de Janeiro"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Belo Horizonte"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Curitiba"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Porto Alegre"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Salvador"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Recife"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Fortaleza"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Goiânia"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Brasília"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Manaus"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Vitória"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "São Paulo",
+        "sources": [
+          "SP_ALESP450",
+          "SP_ALESP460_5"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Marco da fundação da cidade",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Pátio do Colégio"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Terreiro de Jesus"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Morro do Castelo"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Praça Tiradentes"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Pátio do Colégio",
+        "sources": [
+          "SP_PATIO",
+          "SP_ALESP460_5"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Parque criado para o IV Centenário da cidade, em 1954",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Parque Ibirapuera"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Parque do Flamengo"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Parque Barigui"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Parque Municipal Américo Renné Giannetti"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Parque Ibirapuera",
+        "sources": [
+          "SP_IBIRA_PMSP",
+          "SP_IBIRA_ALESP"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Um dos dois rios que cercavam o alto onde se instalou o colégio jesuíta",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Rio Tamanduateí"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Rio Capibaribe"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Ribeirão Arrudas"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Rio Belém"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Rio Tamanduateí",
+        "sources": [
+          "SP_ALESP450",
+          "SP_ALESP460_1",
+          "SP_PATIO"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "cidade-sao-paulo-viajante-P01",
+            "factKey": "cidade-sao-paulo-F01",
+            "text": "É uma capital do Sudeste que fica num planalto, acima de uma serra que desce até o litoral.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP460_1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P02",
+            "factKey": "cidade-sao-paulo-F02",
+            "text": "A cidade nasceu em volta de uma escola de padres jesuítas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SP_ALESP450",
+              "SP_PATIO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P03",
+            "factKey": "cidade-sao-paulo-F03",
+            "text": "O aniversário da cidade é 25 de janeiro, dia da missa que inaugurou o colégio, em 1554.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SP_ALESP450"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P04",
+            "factKey": "cidade-sao-paulo-F04",
+            "text": "Nessa missa, José de Anchieta tinha só 19 anos e servia como sacristão.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SP_ALESP450"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P05",
+            "factKey": "cidade-sao-paulo-F05",
+            "text": "A primeira cabana do colégio media cerca de 14 passos por 10.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SP_ALESP450"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P06",
+            "factKey": "cidade-sao-paulo-F06",
+            "text": "No lugar do antigo colégio, a igreja que desabou em 1896 foi reconstruída a partir de 1953.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SP_PATIO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P07",
+            "factKey": "cidade-sao-paulo-F07",
+            "text": "O núcleo inicial ficava num alto entre dois rios, o que ajudava na defesa.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SP_ALESP450",
+              "SP_PATIO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P08",
+            "factKey": "cidade-sao-paulo-F08",
+            "text": "O principal rio da cidade antes se chamava Anhembi.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP450"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P09",
+            "factKey": "cidade-sao-paulo-F09",
+            "text": "O cacique Tibiriçá, aliado dos jesuítas, está sepultado na cripta da catedral.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP460_1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P10",
+            "factKey": "cidade-sao-paulo-F10",
+            "text": "O primeiro europeu a subir a serra até o planalto foi João Ramalho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP460_1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P11",
+            "factKey": "cidade-sao-paulo-F11",
+            "text": "A avenida mais famosa da cidade foi inaugurada em 8 de dezembro de 1891.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP450",
+              "SP_ALESP460_5"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P12",
+            "factKey": "cidade-sao-paulo-F12",
+            "text": "Essa avenida foi a primeira via asfaltada e arborizada da cidade e teve casarões de barões do café.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP460_5"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P13",
+            "factKey": "cidade-sao-paulo-F13",
+            "text": "Um museu de arte nessa avenida tem embaixo do prédio um grande vão livre, pensado como praça.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_MASP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P14",
+            "factKey": "cidade-sao-paulo-F14",
+            "text": "Em 1968 o museu se mudou para esse prédio de vidro e concreto, projetado por Lina Bo Bardi.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_MASP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P15",
+            "factKey": "cidade-sao-paulo-F15",
+            "text": "Lá dentro, as pinturas ficam em cavaletes de cristal, longe das paredes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_MASP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P16",
+            "factKey": "cidade-sao-paulo-F16",
+            "text": "Um grande parque foi preparado para a festa dos 400 anos da cidade, em 1954.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SP_IBIRA_PMSP",
+              "SP_IBIRA_ALESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P17",
+            "factKey": "cidade-sao-paulo-F17",
+            "text": "Oscar Niemeyer desenhou para esse parque pavilhões ligados por uma marquise, além da Oca.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SP_IBIRA_PMSP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P18",
+            "factKey": "cidade-sao-paulo-F18",
+            "text": "O nome do parque vem do tupi e quer dizer \"pau podre\", porque ali era um brejo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SP_IBIRA_ALESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P19",
+            "factKey": "cidade-sao-paulo-F19",
+            "text": "Em 1927, centenas de eucaliptos foram plantados para secar o terreno alagado do futuro parque.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SP_IBIRA_ALESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P20",
+            "factKey": "cidade-sao-paulo-F20",
+            "text": "O parque abriga uma bienal internacional de arte e recebe a maratona internacional da cidade.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SP_IBIRA_PMSP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P21",
+            "factKey": "cidade-sao-paulo-F21",
+            "text": "A primeira linha de bonde, puxada por animais, começou a circular em 1872.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP450"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P22",
+            "factKey": "cidade-sao-paulo-F22",
+            "text": "Os bondes elétricos rodaram por 68 anos e, a partir de 1973, foram substituídos aos poucos pelo metrô.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP450",
+              "SP_ALESP460_5"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P23",
+            "factKey": "cidade-sao-paulo-F23",
+            "text": "No fim do século XIX, a maioria dos moradores era de imigrantes europeus, sobretudo italianos, espanhóis e portugueses.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP460_5"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P24",
+            "factKey": "cidade-sao-paulo-F24",
+            "text": "Um museu de arte da cidade guarda o acervo de arte europeia considerado o mais importante do Hemisfério Sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_MASP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-viajante-P25",
+            "factKey": "cidade-sao-paulo-F25",
+            "text": "A população passou de 300 mil habitantes em 1905 para mais de 10 milhões em 2000.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP460_5"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "cidade-sao-paulo-geografo-P01",
+            "factKey": "cidade-sao-paulo-F01",
+            "text": "O sítio original fica num planalto do interior, alcançado a partir do litoral pela subida da serra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP460_1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P02",
+            "factKey": "cidade-sao-paulo-F02",
+            "text": "Já em 1602 partiam dali bandeiras rumo ao interior, em busca de ouro e de indígenas para aprisionar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP450"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P03",
+            "factKey": "cidade-sao-paulo-F03",
+            "text": "O colégio se instalou num alto cercado por dois rios, escolha que favorecia a defesa do núcleo.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SP_ALESP450",
+              "SP_ALESP460_1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P04",
+            "factKey": "cidade-sao-paulo-F04",
+            "text": "Nessa colina, entre os mesmos dois rios, ficava antes a aldeia indígena de Inhapuambuçu, no atual centro antigo.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SP_ALESP460_1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P05",
+            "factKey": "cidade-sao-paulo-F05",
+            "text": "A aldeia jesuítica de Piratininga, criada em 1553, reunia cerca de 50 catecúmenos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SP_ALESP450"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P06",
+            "factKey": "cidade-sao-paulo-F06",
+            "text": "Em 1560, a vila de Santo André da Borda do Campo foi extinta e seus moradores, transferidos para o núcleo jesuíta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP460_1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P07",
+            "factKey": "cidade-sao-paulo-F07",
+            "text": "Também em 1560 o aldeamento passou a vila, com Câmara e pelourinho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP460_1",
+              "SP_ALESP450"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P08",
+            "factKey": "cidade-sao-paulo-F08",
+            "text": "O ataque indígena de 1562, de guaianases, tamoios e carijós, foi repelido com ajuda de João Ramalho e do cacique Tibiriçá.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP450",
+              "SP_ALESP460_1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P09",
+            "factKey": "cidade-sao-paulo-F09",
+            "text": "Em 1681 a vila foi elevada a cabeça da capitania de São Vicente; em 1711, tornou-se cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP450"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P10",
+            "factKey": "cidade-sao-paulo-F10",
+            "text": "Em 1720, a descoberta de ouro em Minas Gerais levou à separação daquela região da capitania.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP450"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P11",
+            "factKey": "cidade-sao-paulo-F11",
+            "text": "Em 16 de dezembro de 1815, a cidade foi elevada a capital da Província.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP450"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P12",
+            "factKey": "cidade-sao-paulo-F12",
+            "text": "O café entrou no território pelo Vale do Paraíba no fim do século XVIII e foi a base da economia até meados do século XX.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP450",
+              "SP_ALESP460_5"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P13",
+            "factKey": "cidade-sao-paulo-F13",
+            "text": "A ferrovia de 1867, feita com capital estrangeiro, ligou o planalto ao porto do litoral para escoar o café.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP450"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P14",
+            "factKey": "cidade-sao-paulo-F14",
+            "text": "Com a proibição do tráfico de escravizados, em 1850, começou a imigração europeia que mudou a composição da população.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP450",
+              "SP_ALESP460_5"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P15",
+            "factKey": "cidade-sao-paulo-F15",
+            "text": "A população passou de cerca de 300 mil em 1905 ao primeiro milhão em 1932–1933 e a 5,9 milhões em 1970.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP460_5"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P16",
+            "factKey": "cidade-sao-paulo-F16",
+            "text": "Da economia do café, a cidade passou a centro industrial e financeiro do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP460_5"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P17",
+            "factKey": "cidade-sao-paulo-F17",
+            "text": "A avenida inaugurada em 1891, projetada por Joaquim Eugênio de Lima, foi a primeira via asfaltada e arborizada e atraiu residências de barões do café.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP450",
+              "SP_ALESP460_5"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P18",
+            "factKey": "cidade-sao-paulo-F18",
+            "text": "Um museu de arte fundado em 1947 trocou em 1968 a rua 7 de Abril, no centro, por um prédio nessa avenida, com o térreo livre como praça.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_MASP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P19",
+            "factKey": "cidade-sao-paulo-F19",
+            "text": "O parque do IV Centenário ocupa antigas terras devolutas na divisa com Santo Amaro, passadas ao Estado em 1891.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SP_IBIRA_PMSP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P20",
+            "factKey": "cidade-sao-paulo-F20",
+            "text": "Em 1926, a prefeitura trocou uma chácara de 127 mil m² por cerca de 1,5 milhão de m² numa área alagadiça, a \"Invernada dos Bombeiros\".",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SP_IBIRA_PMSP",
+              "SP_IBIRA_ALESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P21",
+            "factKey": "cidade-sao-paulo-F21",
+            "text": "O plantio de eucaliptos em 1927 serviu para drenar o terreno, cujo nome tupi lembra o antigo brejo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SP_IBIRA_ALESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P22",
+            "factKey": "cidade-sao-paulo-F22",
+            "text": "Três lagos artificiais interligados ocupam cerca de 15,7 mil m² do parque.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SP_IBIRA_ALESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P23",
+            "factKey": "cidade-sao-paulo-F23",
+            "text": "O parque foi tombado pelo Condephaat em 1992 e pelo Conpresp em 1997.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SP_IBIRA_PMSP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P24",
+            "factKey": "cidade-sao-paulo-F24",
+            "text": "Os bondes, de tração animal desde 1872 e elétricos desde 1900, deram lugar ao metrô a partir de 1973.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SP_ALESP450",
+              "SP_ALESP460_5"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-sao-paulo-geografo-P25",
+            "factKey": "cidade-sao-paulo-F25",
+            "text": "Depois da expulsão dos jesuítas, em 1759, o antigo colégio abrigou governadores coloniais e funções administrativas até o século XX.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SP_PATIO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Capital paulista no planalto de Piratininga, nascida do colégio jesuíta inaugurado em 25 de janeiro de 1554 entre os rios Tamanduateí e Anhangabaú (Pátio do Colégio); cresceu com o café, a ferrovia de 1867 e a imigração até virar centro industrial e financeiro, com a Avenida Paulista (1891), o MASP e o Parque Ibirapuera (IV Centenário, 1954).",
+      "editorialNotes": [
+        "Paisagismo do Ibirapuera diverge: a Prefeitura atribui a Roberto Burle Marx; a ALESP, a Otávio Augusto Teixeira Mendes (com proposta de Burle Marx). As pistas não citam o paisagista.",
+        "C4 do rascunho (população no Censo 2022) foi trocado porque o número entregava a resposta; IBGE Cidades não foi aberto e o Censo 2022 saiu das pistas (a série histórica vem da ALESP).",
+        "A ALESP data a aldeia de Piratininga em 29/8/1553 e associa a fundação à missa de 25/1/1554; a área do parque citada pela ALESP (\"1.584 km²\") é erro e não foi usada."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes trocadas por ALESP (três textos), Prefeitura, Wikipedia e MASP abertos na revisão; C3 e C4 refeitos; pistas conferidas, sem Censo 2022"
+    }
+  },
+  "sources": {
+    "SP_ALESP450": {
+      "id": "SP_ALESP450",
+      "title": "São Paulo - 450 anos de história",
+      "publisher": "Assembleia Legislativa do Estado de São Paulo",
+      "url": "https://www.al.sp.gov.br/noticia/?id=264235",
+      "checkedAt": "2026-11-15"
+    },
+    "SP_ALESP460_1": {
+      "id": "SP_ALESP460_1",
+      "title": "São Paulo - 460 anos - Parte 1",
+      "publisher": "Assembleia Legislativa do Estado de São Paulo",
+      "url": "https://www.al.sp.gov.br/noticia/?id=354940",
+      "checkedAt": "2026-11-15"
+    },
+    "SP_ALESP460_5": {
+      "id": "SP_ALESP460_5",
+      "title": "São Paulo - 460 anos - Parte 5",
+      "publisher": "Assembleia Legislativa do Estado de São Paulo",
+      "url": "https://www.al.sp.gov.br/noticia/?id=355000",
+      "checkedAt": "2026-11-15"
+    },
+    "SP_PATIO": {
+      "id": "SP_PATIO",
+      "title": "Pátio do Colégio",
+      "publisher": "Wikipedia (inglês)",
+      "url": "https://en.wikipedia.org/wiki/P%C3%A1tio_do_Col%C3%A9gio",
+      "checkedAt": "2026-11-15"
+    },
+    "SP_IBIRA_PMSP": {
+      "id": "SP_IBIRA_PMSP",
+      "title": "Ladeira da Memória: Parque Ibirapuera",
+      "publisher": "Prefeitura de São Paulo (Secretaria Municipal de Cultura)",
+      "url": "https://prefeitura.sp.gov.br/web/cultura/w/patrimonio_historico/ladeira_memoria/8384",
+      "checkedAt": "2026-11-15"
+    },
+    "SP_IBIRA_ALESP": {
+      "id": "SP_IBIRA_ALESP",
+      "title": "Ibirapuera comemora 56 anos com festa",
+      "publisher": "Assembleia Legislativa do Estado de São Paulo",
+      "url": "https://www.al.sp.gov.br/noticia/?id=262296",
+      "checkedAt": "2026-11-15"
+    },
+    "SP_MASP": {
+      "id": "SP_MASP",
+      "title": "Folder MASP: Bem-vindo",
+      "publisher": "MASP",
+      "url": "https://assets.masp.org.br/pdf/FOLDER_MASP-Bem-vindo_PT.pdf",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.al.sp.gov.br/noticia/?id=264235",
+      "https://www.al.sp.gov.br/noticia/?id=354940",
+      "https://www.al.sp.gov.br/noticia/?id=355000",
+      "https://en.wikipedia.org/wiki/P%C3%A1tio_do_Col%C3%A9gio",
+      "https://prefeitura.sp.gov.br/web/cultura/w/patrimonio_historico/ladeira_memoria/8384",
+      "https://www.al.sp.gov.br/noticia/?id=262296",
+      "https://assets.masp.org.br/pdf/FOLDER_MASP-Bem-vindo_PT.pdf"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho (Arquivo Histórico, guia estadual de rotas, Participe Mais, IBGE Cidades) não foram abertas; trocadas por 7 fontes abertas via busca (ALESP 450 anos, ALESP 460 anos partes 1 e 5, Wikipedia do Pátio do Colégio, Prefeitura/Ladeira da Memória, ALESP Ibirapuera, folder do MASP)",
+      "C2: rótulo para \"Marco da fundação da cidade\"; alternativas trocadas por Terreiro de Jesus, Morro do Castelo e Praça Tiradentes (mesmo gabarito Pátio do Colégio)",
+      "C3: alternativas paulistanas (Trianon, Independência, Cantareira) trocadas por parques de outras capitais, para não entregar o C1; gabarito Ibirapuera mantido",
+      "C4: \"População no Censo 2022\" (entregava a resposta e sem fonte aberta) trocado por \"rio que cercava o alto do colégio\", gabarito Rio Tamanduateí",
+      "Retiradas por falta de fonte aberta: Museu da Língua Portuguesa, Museu do Futebol, Feira da Liberdade, Mercadão, Museu do Ipiranga, Pico do Jaraguá, Vila Madalena, Memorial da América Latina, rio Pinheiros, Censo 2022",
+      "Entraram: missa de 1554 e Anchieta, Inhapuambuçu, Tibiriçá, João Ramalho, Santo André da Borda do Campo, bandeiras, marcos de 1681/1711/1815, café e ferrovia, imigração, série de população, Paulista (1891), MASP, Ibirapuera (terreno, eucaliptos, nome tupi, lagos, tombamento), bondes e metrô",
+      "Sinal ajustado: 2 aberturas e 2 decisivas por perfil (rascunho tinha 7); relatedFields agora apontam C2–C4",
+      "viajante: 25 de 25 pistas reescritas ou trocadas; geografo: 25 de 25"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}
