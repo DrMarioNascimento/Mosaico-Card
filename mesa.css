@@ -152,3 +152,33 @@ dialog button { min-height: 44px; }
 #treino-passar { grid-column: 2; grid-row: 3; }
 #fechamento-concluir { margin-top: 8px; }
 #deal .jogada-bot { margin: 0 0 9px; color: #dde6f1; font-size: .8rem; }
+
+/* === R43 · revisão visual das três edições (16/11/2026). Só aparência. === */
+/* Títulos dos diálogos claros: estavam brancos sobre creme. */
+#risco-dialog h2, #recuperar-dialog h2, #mesa-help-dialog .ajuda-curta h2 { color: #2a1c0c; }
+/* Dica do treino: botões separados e menos vão acima da mesa. */
+@media(max-width:600px) { .treino-dica { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; } .treino-dica > b, .treino-dica > p { flex: 0 0 100%; margin: 0; } }
+#deal .deal-bar { margin-bottom: 8px; }
+#deal .treino-dica { margin-top: 6px; }
+/* Letra mínima de 11 px nos rótulos da mesa. */
+#deal .cell-saldo small, #deal .status-cell small, #deal .tile small, #deal .ordem-vez, #deal .vez-inline, #deal .pista-chip small, #deal .chip small { font-size: 11px; }
+#deal .cell-saldo small { letter-spacing: .04em; line-height: 1.15; }
+/* Figura do saldo maior: antes ocupava 25 px de altura. */
+#deal .cell-saldo .stash { transform: scale(.82); transform-origin: left center; }
+/* Pódio: 1º no centro e mais alto, 2º à esquerda, 3º à direita. */
+.podio-top3 .lugar-2 { order: 1; min-height: 90px; }
+.podio-top3 .lugar-1 { order: 2; min-height: 108px; border-color: #e3bd72; box-shadow: inset 0 0 0 1px #e3bd7255, 0 4px 0 #6b4d2f; }
+.podio-top3 .lugar-1 strong { color: #f3d28b; font-size: 1.25em; }
+.podio-top3 .lugar-3 { order: 3; }
+/* O botão flutuante de ajuda não cobre a última linha. */
+#how-to-play .wrap, #open .wrap, #entrar .wrap, #fechamento .wrap, #judge .wrap, #lobby .wrap { padding-bottom: 76px; }
+/* Regras completas dentro da ajuda (fundo creme): texto escuro no lugar do claro pensado para fundo escuro. */
+#mesa-help-dialog :is(h1, h2, h3, h4, strong, b, summary) { color: #2a1c0c; }
+#mesa-help-dialog :is(p, li, .lede, small, span) { color: #3d2e1c; }
+#mesa-help-dialog .kicker { color: #0e6a61; }
+#mesa-help-dialog :is(.how-bonus, .how-time, .how-risk, .how-end) { background: #f7e6c3; border-color: #bd996e; box-shadow: 0 3px 0 #b08a4566; }
+/* "Pista ·" nas cartas: verde-água claro sobre creme não se lia. */
+body[data-assistencia] #deal .tile small::before { color: #0e6a61; }
+#jogadores-bar > summary > span, #ordem li small, #pistas-toggle small, #score-progress .score-step span, #score-progress .score-total span, #lobby-lista li small, #revelacao-campos .revelacao-campo small, .leque-wrap .area-heading small, .fechamento-tempo small { font-size: 11px; }
+/* Telas de 360 px ou menos: a figura do saldo encolhe para o rótulo não encostar nela. */
+@media(max-width:360px) { #deal .cell-saldo .stash { transform: scale(.6); } #deal .cell-saldo small { letter-spacing: 0; } }
