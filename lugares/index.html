@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="../filmes-e-series/abertura.css?v=5">
   <link rel="stylesheet" href="../filmes-e-series/cinema.css?v=3">
   <link rel="stylesheet" href="../mesa.css?v=area-jogador1">
-  <link rel="stylesheet" href="lugares.css?v=lug4">
+  <link rel="stylesheet" href="lugares.css?v=lug5">
 </head>
 <body>
   <section class="scene active" id="welcome" aria-labelledby="welcome-title">
@@ -60,7 +60,7 @@
       <p class="lede">Seu objetivo é conseguir pistas, conectar os detalhes e descobrir qual é o lugar — e responder às perguntas sobre ele. Vence quem somar mais pontos.</p>
       <ol class="how-steps">
         <li><strong>Conheça o desafio</strong><p>Um lugar é sorteado para a mesa. Leia as perguntas e examine suas pistas: cada detalhe pode ajudar a encontrar uma resposta.</p></li>
-        <li><strong>Busque novas pistas</strong><p>Você começa com 12 créditos. Na sua vez, pode comprar uma pista do monte por 4 créditos ou capturar uma pista permitida de outro jogador por 2. Também pode oferecer uma pista: quem levá-la depois paga 2 créditos a você.</p></li>
+        <li><strong>Busque novas pistas</strong><p>Você começa com 12 passagens. Na sua vez, pode comprar uma pista do monte por 4 passagens ou capturar uma pista permitida de outro jogador por 2. Também pode oferecer uma pista: quem levá-la depois paga 2 passagens a você.</p></li>
         <li><strong>Conecte os detalhes e arrisque</strong><p>Quando acreditar que já sabe, use <b>Arriscar</b> e escolha uma resposta. Cada ação encerra sua vez, então decida entre buscar mais pistas e responder.</p></li>
       </ol>
       <section class="how-bonus" aria-labelledby="how-bonus-title">
@@ -75,14 +75,14 @@
       </section>
       <section class="how-risk" aria-labelledby="how-risk-title">
         <h2 id="how-risk-title">Vale arriscar agora?</h2>
-        <p>Você precisa ter pelo menos <b>3 créditos</b> para arriscar.</p>
-        <p><b>Se acertar:</b> ganha os pontos, mantém seus créditos e aquela pergunta fecha para todos.</p>
-        <p><b>Se errar:</b> perde 3 créditos e não poderá responder àquela pergunta novamente, nem no fechamento. Os outros continuam podendo tentar.</p>
+        <p>Você precisa ter pelo menos <b>3 passagens</b> para arriscar.</p>
+        <p><b>Se acertar:</b> ganha os pontos, mantém suas passagens e aquela pergunta fecha para todos.</p>
+        <p><b>Se errar:</b> perde 3 passagens e não poderá responder àquela pergunta novamente, nem no fechamento. Os outros continuam podendo tentar.</p>
       </section>
       <section class="how-end" aria-labelledby="how-end-title">
         <h2 id="how-end-title">Uma última chance</h2>
-        <p>No fechamento, você tem <b>60 segundos</b> para responder às perguntas ainda disponíveis para você, sem gastar créditos e sem bônus de tempo.</p>
-        <p>Ao final, cada <b>crédito restante vale 0,35 ponto extra</b>, contando as frações. A soma dos acertos e desses pontos define o resultado.</p>
+        <p>No fechamento, você tem <b>60 segundos</b> para responder às perguntas ainda disponíveis para você, sem gastar passagens e sem bônus de tempo.</p>
+        <p>Ao final, cada <b>passagem restante vale 0,35 ponto extra</b>, contando as frações. A soma dos acertos e desses pontos define o resultado.</p>
       </section>
       <button type="button" id="how-back">Entendi</button>
     </div>
@@ -199,7 +199,7 @@
       </header>
       <p class="kicker">Último fechamento</p>
       <h2 id="fechamento-titulo">Um minuto para sustentar os campos abertos</h2>
-      <p class="lede">Agora as respostas não custam créditos. As escolhas são privadas e serão avaliadas juntas ao final do tempo.</p>
+      <p class="lede">Agora as respostas não custam passagens. As escolhas são privadas e serão avaliadas juntas ao final do tempo.</p>
       <div class="fechamento-tempo"><small>Tempo restante</small><strong id="fechamento-tempo">1:00</strong></div>
       <div class="fechamento-campos" id="fechamento-campos"></div>
       <p class="log" id="fechamento-status" role="status"></p>
@@ -217,12 +217,12 @@
       <p class="kicker" id="rule-kicker">A vez · as pistas · os quatro botões</p>
       <h2 id="rule-title">Na sua vez, você vê as suas pistas e escolhe um verbo.</h2>
       <ul class="verbs" id="rule-verbs">
-        <li><b>Arriscar · 3</b> Trava um campo. Acertou, a moeda volta. Errou, o campo fecha errado para você.</li>
+        <li><b>Arriscar · 3</b> Trava um campo. Acertou, a passagem volta. Errou, o campo fecha errado para você.</li>
         <li><b>Capturar · 2</b> Tira a pista de outro dossiê. A bússola não pode ser capturada.</li>
         <li><b>Comprar · 4</b> Pista nova do monte. A bússola não cobra e paga 6.</li>
         <li><b>Pôr em cartaz</b> Só recebe 2 se alguém levar.</li>
       </ul>
-      <p class="lede" id="rule-lede">Doze créditos. Três voltas. O cronômetro da jogada corre no tabuleiro.</p>
+      <p class="lede" id="rule-lede">Doze passagens. Três voltas. O cronômetro da jogada corre no tabuleiro.</p>
       <div class="actions">
         <button id="go-deal" type="button">Começar este caso</button>
       </div>
@@ -275,7 +275,7 @@
             <h2 class="mesa-area-titulo" id="minha-jogada-titulo">Minha jogada</h2>
             <div class="status-grid" id="status-grid">
               <div class="status-cell cell-saldo">
-                <div class="saldo-head"><small>Meu saldo de créditos</small><strong id="saldo-numero">12</strong></div>
+                <div class="saldo-head"><small>Minhas passagens</small><strong id="saldo-numero">12</strong></div>
                 <div class="purse" id="purse"></div>
               </div>
               <div class="status-cell" id="cell-tempo">
@@ -302,7 +302,7 @@
       <p><b>Fechamento:</b> na partida real, todos têm 60 segundos para responder gratuitamente às questões ainda disponíveis. As respostas são salvas e avaliadas juntas ao final.</p>
       <p><b>Pontuação:</b> acertos antecipados valem mais. O saldo restante também conta. A tela final mostra a conta e o resultado.</p>
       <p><b>Ajuda fica sempre disponível.</b> Recarregou? A sala retoma seu lugar e suas cartas.</p>
-      <p>Este treino não vale pontos. A partida real começa com novas pistas e 12 créditos.</p>
+      <p>Este treino não vale pontos. A partida real começa com novas pistas e 12 passagens.</p>
       <button type="button" id="treino-voltar">Voltar à sala e preparar a partida</button><p id="treino-espera" hidden>Aguarde o mestre voltar à sala.</p>
     </div></section>
   <section class="scene" id="judge">
@@ -324,7 +324,7 @@
       </section>
       <div class="score-progress" id="score-progress" aria-live="polite">
         <div id="score-questions"></div>
-        <div class="score-step"><span>Créditos restantes</span><div class="score-question-value" title="Cada crédito restante vale 0,35 ponto; frações são mantidas"><strong id="score-residual">—</strong><small class="score-multiplier">(x0,35)</small></div></div>
+        <div class="score-step"><span>Passagens restantes</span><div class="score-question-value" title="Cada passagem restante vale 0,35 ponto; frações são mantidas"><strong id="score-residual">—</strong><small class="score-multiplier">(x0,35)</small></div></div>
         <div class="score-total"><span>Total</span><strong id="score-total">—</strong></div>
       </div>
       <div id="score"></div>
@@ -359,7 +359,7 @@
   <div id="coin-trail" aria-hidden="true"></div>
   <div id="bag-toast" class="bag-toast" hidden>
     <small>Bilheteria da partida</small>
-    <p>Você recebe <strong>12 créditos</strong> para a partida</p>
+    <p>Você recebe <strong>12 passagens</strong> para a partida</p>
   </div>
   <div id="modal-mestre" class="modal-fundo" hidden>
     <div class="modal-sala" role="dialog" aria-labelledby="mestre-titulo">
@@ -442,7 +442,7 @@
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore-compat.js"></script>
-  <script src="edition.js?v=lug1"></script>
+  <script src="edition.js?v=lug2"></script>
   <script src="../qr.js?v=casa"></script>
   <script src="../firebase.js?v=mesa10"></script>
   <script src="sessao.js?v=lug2"></script>
@@ -450,11 +450,11 @@
   <!-- 16/10/2026: abrir sala só com Google da lista de mestres; entrar por código continua livre. -->
   <script src="../mestre-acesso.js?v=20261016"></script>
   <script src="../abertura.js?v=mesa10"></script>
-  <script src="case-bussola.js?v=lug1"></script>
+  <script src="case-bussola.js?v=lug2"></script>
   <script src="cases-lugares.js?v=lug59"></script>
   <script src="bank-runtime.js?v=lug1"></script>
   <script src="../game-core.js?v=mesa10"></script>
-  <script src="game.js?v=lug5"></script>
+  <script src="game.js?v=lug6"></script>
   <script src="game-sala.js?v=lug2"></script>
   <script src="../mesa-core.js?v=areas1"></script>
   <script src="../mesa-runtime.js?v=presenca3"></script>

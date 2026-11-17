@@ -458,8 +458,8 @@
     if (!eBússola(id)) { if (depois) depois(); return; }
     const item = peca(id), stage = $("#flip-stage"), front = $("#flip-front"), msg = $("#flip-msg"), inner = $("#flip-inner");
     if (!stage || !front) { if (depois) depois(); return; }
-    front.innerHTML = "<div class='bussola-chamada'><span>Você ganhou</span><strong>UMA BÚSSOLA</strong></div><img class='bussola-art' src='assets/bussola-v1.webp' width='512' height='512' alt='Bússola dourada de latão'><p class='bussola-valor'>Vale 6 créditos</p>";
-    msg.textContent = jogador === idJogadorLocal() ? "Ganhou uma bússola que vale 6 créditos! A carta sai do jogo." : (NOMES[jogador] || "Alguém") + " ganhou uma bússola que vale 6 créditos.";
+    front.innerHTML = "<div class='bussola-chamada'><span>Você ganhou</span><strong>UMA BÚSSOLA</strong></div><img class='bussola-art' src='assets/bussola-v1.webp' width='512' height='512' alt='Bússola dourada de latão'><p class='bussola-valor'>Vale 6 passagens</p>";
+    msg.textContent = jogador === idJogadorLocal() ? "Ganhou uma bússola que vale 6 passagens! A carta sai do jogo." : (NOMES[jogador] || "Alguém") + " ganhou uma bússola que vale 6 passagens.";
     if (inner) { inner.style.animation = "none"; void inner.offsetWidth; inner.style.animation = ""; }
     stage.hidden = false;
     if (flipTimer) clearTimeout(flipTimer);
@@ -487,7 +487,7 @@
     if (!achou) mao(jogador).push(id);
     revelarCompra(id, jogador, function () {
       pagarRecompensa(id, jogador);
-      state.log = achou ? "Ganhou uma bússola que vale 6 créditos." : "Pista comprada: " + peca(id).marca + ".";
+      state.log = achou ? "Ganhou uma bússola que vale 6 passagens." : "Pista comprada: " + peca(id).marca + ".";
       passarVez(state.log);
     });
     render();
@@ -503,7 +503,7 @@
     mao(jogador).push(pecaId);
     mudarSaldo(jogador, -PRECO.captura);
     mudarSaldo(item.dono, PRECO.captura);
-    state.log = "Você levou " + peca(pecaId).marca + " que estava em oferta. " + (NOMES[item.dono] || "O dono") + " recebeu 2 créditos.";
+    state.log = "Você levou " + peca(pecaId).marca + " que estava em oferta. " + (NOMES[item.dono] || "O dono") + " recebeu 2 passagens.";
     passarVez(state.log);
   }
   function capturar(alvoId, pecaId) {
@@ -734,7 +734,7 @@
       return (chips ? "<p><b>Pistas dos jogadores</b></p>" + chips : "") + (ofertas ? "<p><b>Oferecidas na mesa pública</b></p>" + ofertas : "") || "<p>Não há pista capturável.</p>";
     }
     if (verbo === "consignar") {
-      return "<p>Escolha a pista que vai ser oferecida. Quem levá-la paga 2 créditos a você.</p>" + mao(jogador).map(function (id) {
+      return "<p>Escolha a pista que vai ser oferecida. Quem levá-la paga 2 passagens a você.</p>" + mao(jogador).map(function (id) {
         return "<button class='chip' type='button' data-act='consignar-ok' data-id='" + esc(id) + "'><small>Pôr em oferta</small>" + esc(peca(id).marca) + "</button>";
       }).join("");
     }
@@ -814,7 +814,7 @@
     if (!CASO || !$("#rule-kicker")) return;
     $("#rule-kicker").textContent = "Demonstração · carta da bússola";
     $("#rule-title").textContent = "Uma demonstração isolada da compra e da animação da carta especial.";
-    $("#rule-verbs").innerHTML = "<li><b>Comprar · 4</b> Toque diretamente numa carta do leque.</li><li><b>Bússola</b> A compra não cobra e entrega 6 créditos.</li><li><b>Animação</b> A carta aparece e depois sai do jogo.</li><li><b>Partida normal</b> A bússola será embaralhada aleatoriamente.</li>";
+    $("#rule-verbs").innerHTML = "<li><b>Comprar · 4</b> Toque diretamente numa carta do leque.</li><li><b>Bússola</b> A compra não cobra e entrega 6 passagens.</li><li><b>Animação</b> A carta aparece e depois sai do jogo.</li><li><b>Partida normal</b> A bússola será embaralhada aleatoriamente.</li>";
     $("#rule-lede").textContent = "Esta demonstração não participa do sorteio de lugares.";
   }
   function renderTelao(data) {
