@@ -7,31 +7,40 @@ window.MC_CASOS = {
     fonte: "Lucas 15,4–7",
     lede: "Duas rodadas para conhecer pistas, escolhas e custos.",
     pecas: {
-      F1: { id: "F1", marca: "Curral", texto: "Havia cem ovelhas. Faltava uma." },
-      F2: { id: "F2", marca: "Campo", texto: "As noventa e nove ficaram no descampado." },
-      F3: { id: "F3", marca: "Marca", texto: "A ovelha tinha sinal. Não era de ninguém da casa." },
+      F1: { id: "F1", marca: "Fragmento", texto: "Um homem tinha cem ovelhas." },
+      F2: { id: "F2", marca: "Fragmento", texto: "Uma delas se perdeu." },
+      F3: { id: "F3", marca: "Fragmento", texto: "As noventa e nove ficaram no deserto." },
       F4: { id: "F4", marca: "Ovelha", texto: "Você achou uma ovelha perdida. Vale 6 denários e sai do jogo.", figura: "ovelha", recompensa: 6, protegida: true },
-      F5: { id: "F5", marca: "Ombros", texto: "Ele a pôs nos ombros e voltou alegre." },
-      F6: { id: "F6", marca: "Festa", texto: "Chamou amigos e vizinhos quando a ovelha voltou." },
-      F7: { id: "F7", marca: "Testemunha", texto: "Ninguém viu a ovelha sair. Só a falta." },
-      F8: { id: "F8", marca: "Trato", texto: "A recompensa combinada era de seis denários." },
-      F9: { id: "F9", marca: "Alegria", texto: "Há mais alegria por uma que volta do que por noventa e nove que não se perderam." }
+      F5: { id: "F5", marca: "Fragmento", texto: "Ele foi atrás da que se perdeu, até encontrá-la." },
+      F6: { id: "F6", marca: "Fragmento", texto: "Ao encontrá-la, colocou-a nos ombros, cheio de alegria." },
+      F7: { id: "F7", marca: "Fragmento", texto: "De volta em casa, reuniu amigos e vizinhos." },
+      F8: { id: "F8", marca: "Fragmento", texto: "Pediu que se alegrassem com ele." },
+      F9: { id: "F9", marca: "Fragmento", texto: "Jesus comparou a cena à alegria no céu por um pecador que se arrepende." }
     },
     campos: [
-      { id: "recompensa", rotulo: "Quem recebe os 6 denários?", resposta: "quem-achou", pontosBase: 8, opcoes: [
-        { id: "pastor", txt: "Só o pastor" },
-        { id: "quem-achou", txt: "Quem achou a ovelha" },
-        { id: "dono-casa", txt: "O dono da casa" }
+      { id: "quantas", rotulo: "Quantas ovelhas o homem tinha", resposta: "certa", pontosBase: 8, opcoes: [
+        { id: "b", txt: "Doze" },
+        { id: "certa", txt: "Cem" },
+        { id: "c", txt: "Setenta" },
+        { id: "d", txt: "Mil" }
       ]},
-      { id: "festa", rotulo: "A festa prova o quê?", resposta: "voltou", pontosBase: 5, opcoes: [
-        { id: "voltou", txt: "Que a ovelha voltou" },
-        { id: "noventa", txt: "Que as noventa e nove se perderam" },
-        { id: "venda", txt: "Que o rebanho foi vendido" }
+      { id: "onde", rotulo: "Onde ficaram as outras", resposta: "certa", pontosBase: 5, opcoes: [
+        { id: "certa", txt: "No deserto" },
+        { id: "b", txt: "No curral" },
+        { id: "c", txt: "Na cidade" },
+        { id: "d", txt: "À beira do mar" }
       ]},
-      { id: "marca", rotulo: "A marca permite concluir o quê?", resposta: "tinha-dono", pontosBase: 3, opcoes: [
-        { id: "tinha-dono", txt: "Que havia um dono" },
-        { id: "selvagem", txt: "Que era selvagem" },
-        { id: "ouro", txt: "Que valia ouro" }
+      { id: "como", rotulo: "Como ele a trouxe de volta", resposta: "certa", pontosBase: 3, opcoes: [
+        { id: "b", txt: "Puxada por uma corda" },
+        { id: "c", txt: "Num jumento" },
+        { id: "certa", txt: "Nos ombros" },
+        { id: "d", txt: "Num cesto" }
+      ]},
+      { id: "quem", rotulo: "Quem ele chamou ao voltar", resposta: "certa", pontosBase: 2, opcoes: [
+        { id: "b", txt: "Os sacerdotes" },
+        { id: "c", txt: "Os soldados" },
+        { id: "d", txt: "Os outros pastores" },
+        { id: "certa", txt: "Amigos e vizinhos" }
       ]}
     ]
   }

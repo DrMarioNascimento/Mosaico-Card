@@ -2,7 +2,7 @@
   "use strict";
 
   const PRECO = Object.freeze({ nova: 4, captura: 2, arriscar: 3 });
-  const ROTULO_TIPO = Object.freeze({ premissa: "Premissa", bastidores: "Bastidores", elenco: "Elenco", premios: "Prêmios", epoca: "Época", curiosidade: "Curiosidade", formato: "Formato" });
+  const ROTULO_TIPO = Object.freeze({ premissa: "Enredo", bastidores: "Bastidores", elenco: "Elenco", premios: "Prêmios", epoca: "Época", curiosidade: "Curiosidade", formato: "Formato" });
   const MOEDAS_INICIAIS = 12;
   const FINAL_SEGUNDOS = 60;
   const TOAST_MS = 8000;

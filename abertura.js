@@ -11,6 +11,13 @@
   closeHelp.onclick = function () { helpDialog.close(); };
   const quickHelp = document.createElement("div"); quickHelp.className = "ajuda-curta";
   quickHelp.innerHTML = "<h2>Ajuda da mesa</h2><p>Os botões de jogar ficam disponíveis na sua vez. A ajuda fica sempre disponível. Na partida real, abrir a ajuda não pausa o tempo.</p><details open><summary>Botões e custos</summary><p><b>Comprar:</b> custa 4. A carta especial é gratuita e dá 6.</p><p><b>Capturar:</b> custa 2. Se levar uma pista oferecida, quem a ofereceu recebe os 2.</p><p><b>Oferecer sua pista:</b> grátis; recebe 2 se alguém a levar.</p><p><b>Arriscar:</b> precisa ter 3. Só perde 3 se errar. Acerto fecha a questão para todos; erro, só para você.</p></details><details><summary>Maratonar</summary><p>Dois jogadores ao mesmo tempo. Cada um por si. As escolhas são resolvidas juntas. Se os dois acertarem a mesma questão, os dois pontuam. Se escolherem a mesma pista, a prioridade alterna: quem ficar sem ela não paga e pode escolher outra ação.</p></details><details><summary>Fechamento e pontos</summary><p>No fim, todos têm 60 segundos para responder gratuitamente às questões que ainda podem responder. Acertos antecipados valem mais. O saldo restante também conta; a tela final mostra a pontuação.</p></details><details><summary>Recarreguei ou perdi a conexão</summary><p>Aguarde a reconexão: sua sala, suas cartas e seu saldo são retomados. Use uma aba por jogador. Se trocar de aparelho ou perder o acesso, peça ao mestre um código de recuperação.</p></details>";
+  (function () {
+    const tipos = (window.MC_EDITION && window.MC_EDITION.tiposPista) || window.MC_TIPOS_PISTA;
+    if (!tipos || !tipos.length) return;
+    const d = document.createElement("details");
+    d.innerHTML = "<summary>Tipos de pista</summary><p>O nome no alto de cada carta diz que tipo de informação ela traz.</p>" + tipos.map(function (t) { return "<p><b>" + t[0] + ":</b> " + t[1] + "</p>"; }).join("");
+    quickHelp.appendChild(d);
+  })();
   const fullHelp = document.createElement("button"); fullHelp.textContent = "Ver regras completas"; fullHelp.type = "button";
   fullHelp.onclick = function () { quickHelp.hidden = true; helpContent.hidden = false; };
   quickHelp.append(fullHelp); helpDialog.append(closeHelp, quickHelp);
